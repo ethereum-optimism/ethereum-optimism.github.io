@@ -1,0 +1,23 @@
+{
+  "name": "@eth-optimism/tokenlist",
+  "version": "1.0.0",
+  "description": "Optimism Token List",
+  "main": "index.js",
+  "dependencies": {
+    "@changesets/cli": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "release": "npm publish --access public && changeset publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereum-optimism/tokenlist.git"
+  },
+  "author": "ethereum-optimism",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethereum-optimism/tokenlist/issues"
+  },
+  "homepage": "https://github.com/ethereum-optimism/tokenlist#readme"
+}

@@ -34,7 +34,7 @@
       "decimals": 18,
       "logoURI": "https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=010",
       "extensions": {
-        "optimismBridgeAddress": "0xB191d67F69e823445cD59e5A88953a82be73b9C6"
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
       }
     },
     {
