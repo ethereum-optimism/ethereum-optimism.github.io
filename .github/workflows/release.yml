@@ -1,0 +1,14 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    outputs:
+    ## todo: make this work (I copy/pasted from monorepo)
+      tokenlist: ${{ steps.packages.outputs.tokenlist }}
