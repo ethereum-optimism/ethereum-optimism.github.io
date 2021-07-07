@@ -117,7 +117,7 @@
     {
       "chainId": 42,
       "address": "0xe0BB0D3DE8c10976511e5030cA403dBf4c25165B",
-      "name": "Tether",
+      "name": "Tether USD",
       "symbol": "USDT",
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/logos/USDT.svg",
@@ -128,7 +128,29 @@
     {
       "chainId": 69,
       "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
-      "name": "Tether",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+      "name": "Tether USD",
       "symbol": "USDT",
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/logos/USDT.svg",
@@ -150,6 +172,28 @@
     {
       "chainId": 69,
       "address": "0x2382a8f65b9120E554d1836a504808aC864E169d",
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/logos/WBTC.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/logos/WBTC.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
       "name": "Wrapped Bitcoin",
       "symbol": "WBTC",
       "decimals": 8,
@@ -183,7 +227,7 @@
   ],
   "version": {
     "major": 0,
-    "minor": 0,
+    "minor": 1,
     "patch": 1
   }
 }
