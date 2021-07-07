@@ -61,7 +61,7 @@
     },
     {
       "chainId": 10,
-      "address": "0x8e9D85099ffc4bE029F362728B84Bb8BBb5665c1",
+      "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
       "name": "Synthetix",
       "symbol": "SNX",
       "decimals": 18,
@@ -83,7 +83,7 @@
     },
     {
       "chainId": 69,
-      "address": "0x35725C94f3B1aB6BbD533c0B6Df525537d422c5F",
+      "address": "0x0064A673267696049938AA47595dD0B3C2e705A1",
       "name": "Synthetix",
       "symbol": "SNX",
       "decimals": 18,
