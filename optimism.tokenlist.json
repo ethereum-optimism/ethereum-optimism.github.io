@@ -1,6 +1,6 @@
 {
   "name": "Optimism",
-  "logoURI": "https://raw.githubusercontent.com/ethereum-optimism/ethereum-optimism.github.io/master/logos/optimism.svg",
+  "logoURI": "https://ethereum-optimism.github.io/logos/optimism.svg",
   "keywords": ["scaling", "layer2", "infrastructure"],
   "timestamp": "2021-03-22T10:01:21.042+00:00",
   "tokens": [
@@ -50,7 +50,7 @@
     },
     {
       "chainId": 1,
-      "address": "0x97767D7D04Fd0dB0A1a2478DCd4BA85290556B48",
+      "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
       "name": "Synthetix",
       "symbol": "SNX",
       "decimals": 18,
@@ -72,7 +72,7 @@
     },
     {
       "chainId": 42,
-      "address": "0x07aCC2B253218535c21a3E57BcB81eB13345a34A",
+      "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
       "name": "Synthetix",
       "symbol": "SNX",
       "decimals": 18,
@@ -93,6 +93,28 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "name": "Dai stable coin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.svg?v=010",
+      "extensions": {
+        "optimismBridgeAddress": "0x10E6593CDda8c58a1d0f14C5164B376352a55f2F"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+      "name": "Dai stable coin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.svg?v=010",
+      "extensions": {
+        "optimismBridgeAddress": "0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65"
+      }
+    },
+    {
       "chainId": 42,
       "address": "0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa",
       "name": "Dai stable coin",
@@ -100,18 +122,18 @@
       "decimals": 18,
       "logoURI": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.svg?v=010",
       "extensions": {
-        "optimismBridgeAddress": "0x69499381595306A112859CbDf2cDD77fa3EC40FF"
+        "optimismBridgeAddress": "0xb415e822C4983ecD6B1c1596e8a5f976cf6CD9e3"
       }
     },
     {
       "chainId": 69,
-      "address": "0x80B46E1d4Dc3a4cd750B2352C24cD017552a8E08",
+      "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
       "name": "Dai stable coin",
       "symbol": "DAI",
       "decimals": 18,
       "logoURI": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.svg?v=010",
       "extensions": {
-        "optimismBridgeAddress": "0xbCe45C8386D286D9F6a3A2A63F18d23435AE7C78"
+        "optimismBridgeAddress": "0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65"
       }
     },
     {
@@ -223,11 +245,33 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 42,
+      "address": "0x50EB44e3a68f1963278b4c74c6c343508d31704C",
+      "name": "Tether EUR",
+      "symbol": "EURT",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x65e44970ebFe42f98F83c4B67062DE94B9f3Da7D",
+      "name": "Tether EUR",
+      "symbol": "EURT",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
     "major": 0,
-    "minor": 1,
+    "minor": 3,
     "patch": 1
   }
 }
