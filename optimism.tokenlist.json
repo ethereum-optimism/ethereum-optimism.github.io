@@ -6,50 +6,6 @@
   "tokens": [
     {
       "chainId": 1,
-      "address": "0x0000000000000000000000000000000000000000",
-      "name": "Ether",
-      "symbol": "ETH",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/ETH.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x4200000000000000000000000000000000000006",
-      "name": "Ether",
-      "symbol": "ETH",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/ETH.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
-      }
-    },
-    {
-      "chainId": 42,
-      "address": "0x0000000000000000000000000000000000000000",
-      "name": "Ether",
-      "symbol": "ETH",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/ETH.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
-      }
-    },
-    {
-      "chainId": 69,
-      "address": "0x4200000000000000000000000000000000000006",
-      "name": "Ether",
-      "symbol": "ETH",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/ETH.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
-      }
-    },
-    {
-      "chainId": 1,
       "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
       "name": "Synthetix",
       "symbol": "SNX",
@@ -270,7 +226,7 @@
     }
   ],
   "version": {
-    "major": 0,
+    "major": 1,
     "minor": 3,
     "patch": 1
   }
