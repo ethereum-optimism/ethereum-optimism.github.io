@@ -226,7 +226,7 @@
     },
     {
       "chainId": 69,
-      "address": "0xFf6a235133dc1233B20c5AB4C86885eBe90a69ee",
+      "address": "0xaA5068dC2B3AADE533d3e52C6eeaadC6a8154c57",
       "name": "Synthetix USD",
       "symbol": "sUSD",
       "decimals": 18,
@@ -234,7 +234,7 @@
     },
     {
       "chainId": 10,
-      "address": "0xbecc58c6D7Ca71b6FCC4cC8c9c5294A0eA7A0397",
+      "address": "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9",
       "name": "Synthetix USD",
       "symbol": "sUSD",
       "decimals": 18,
@@ -243,7 +243,7 @@
   ],
   "version": {
     "major": 1,
-    "minor": 5,
+    "minor": 6,
     "patch": 0
   }
 }
