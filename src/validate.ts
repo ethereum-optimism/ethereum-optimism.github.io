@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
-import { ethers, utils, providers, Contract } from "ethers";
-import tokenList from "./optimism.tokenlist.json";
-import validationInterface from "./src/validationInterface.json";
+import { providers, Contract } from "ethers";
+import tokenList from "../optimism.tokenlist.json";
+import validationInterface from "./validationInterface.json";
 
 dotenv.config();
 
@@ -10,6 +10,13 @@ const chainIdMap = {
   10: `https://mainnet.optimism.io`,
   42: `https://kovan.infura.io/v3/${process.env.INFURA_KEY}`,
   69: `https://kovan.optimism.io`
+};
+
+const networkMap = {
+  1: "Mainnet",
+  10: "Optimistic Ethereum",
+  42: "Kovan",
+  69: "Optimistic Kovan"
 };
 
 async function main() {
@@ -42,6 +49,9 @@ async function main() {
           `Contract decimals mismatch. ${decimals} !== ${token.decimals} \nAddress: ${token.address}`
         );
       }
+      console.log(
+        `${symbol} validated on ${networkMap[chainId]} - Address: ${token.address}`
+      );
     }
   }
 }
