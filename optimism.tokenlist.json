@@ -223,11 +223,27 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 69,
+      "address": "0xFf6a235133dc1233B20c5AB4C86885eBe90a69ee",
+      "name": "Synthetix USD",
+      "symbol": "sUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.png"
+    },
+    {
+      "chainId": 10,
+      "address": "0xbecc58c6D7Ca71b6FCC4cC8c9c5294A0eA7A0397",
+      "name": "Synthetix USD",
+      "symbol": "sUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.png"
     }
   ],
   "version": {
     "major": 1,
-    "minor": 3,
-    "patch": 1
+    "minor": 5,
+    "patch": 0
   }
 }
