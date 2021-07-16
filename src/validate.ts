@@ -1,14 +1,17 @@
 import dotenv from "dotenv";
+import * as core from "@actions/core";
 import { providers, Contract } from "ethers";
 import tokenList from "../optimism.tokenlist.json";
 import validationInterface from "./validationInterface.json";
 
 dotenv.config();
 
+const infuraKey = process.env.INFURA_KEY || core.getInput("INFURA_KEY");
+
 const chainIdMap = {
-  1: `https://mainnet.infura.io/v3/${process.env.INFURA_KEY}`,
+  1: `https://mainnet.infura.io/v3/${infuraKey}`,
   10: `https://mainnet.optimism.io`,
-  42: `https://kovan.infura.io/v3/${process.env.INFURA_KEY}`,
+  42: `https://kovan.infura.io/v3/${infuraKey}`,
   69: `https://kovan.optimism.io`
 };
 
