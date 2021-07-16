@@ -225,7 +225,7 @@
       }
     },
     {
-      "chainId": 42,
+      "chainId": 69,
       "address": "0xFf6a235133dc1233B20c5AB4C86885eBe90a69ee",
       "name": "Synthetix USD",
       "symbol": "sUSD",
@@ -233,7 +233,7 @@
       "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.png"
     },
     {
-      "chainId": 69,
+      "chainId": 10,
       "address": "0xbecc58c6D7Ca71b6FCC4cC8c9c5294A0eA7A0397",
       "name": "Synthetix USD",
       "symbol": "sUSD",
@@ -243,7 +243,7 @@
   ],
   "version": {
     "major": 1,
-    "minor": 4,
+    "minor": 5,
     "patch": 0
   }
 }
