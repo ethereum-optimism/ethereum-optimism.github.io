@@ -14,7 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "validate": "ts-node index.ts"
+    "validate": "ts-node src/validate.ts"
   },
   "repository": {
     "type": "git",
