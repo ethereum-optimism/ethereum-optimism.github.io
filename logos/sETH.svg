@@ -1,0 +1,23 @@
+<svg width="480" height="480" viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0-113404" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="480" height="480">
+<circle cx="240" cy="240" r="240" fill="url(#paint0_linear-610315)"/>
+</mask>
+<g mask="url(#mask0-113404)">
+<circle cx="240" cy="240" r="240" fill="#31D8A4"/>
+<circle cx="240" cy="240" r="208" fill="white"/>
+</g>
+<circle cx="240" cy="240" r="184" fill="#0E052F"/>
+<path d="M240 424C341.62 424 424 341.62 424 240C424 138.38 341.62 56 240 56C138.38 56 56 138.38 56 240C56 341.62 138.38 424 240 424Z" fill="#627EEA"/>
+<path d="M245.728 102V204.005L331.944 242.53L245.728 102Z" fill="white" fill-opacity="0.602"/>
+<path d="M245.727 102L159.5 242.53L245.727 204.005V102Z" fill="white"/>
+<path d="M245.728 308.631V377.942L332.001 258.583L245.728 308.631Z" fill="white" fill-opacity="0.602"/>
+<path d="M245.727 377.942V308.62L159.5 258.583L245.727 377.942Z" fill="white"/>
+<path d="M245.728 292.59L331.944 242.53L245.728 204.028V292.59Z" fill="white" fill-opacity="0.2"/>
+<path d="M159.5 242.53L245.727 292.59V204.028L159.5 242.53Z" fill="white" fill-opacity="0.602"/>
+<defs>
+<linearGradient id="paint0_linear-610315" x1="240" y1="0" x2="240" y2="701.818" gradientUnits="userSpaceOnUse">
+<stop stop-color="#08021E"/>
+<stop offset="1" stop-color="#1F0777"/>
+</linearGradient>
+</defs>
+</svg>
