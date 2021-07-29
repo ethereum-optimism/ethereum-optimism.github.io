@@ -261,11 +261,33 @@
       "symbol": "sUSD",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.png"
+    },
+    {
+      "chainId": 42,
+      "address": "0x50dC5200082d37d5dd34B4b0691f36e3632fE1A8",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDC.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x4e62882864fB8CE54AFfcAf8D899A286762B011B",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDC.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
     "major": 2,
-    "minor": 1,
+    "minor": 2,
     "patch": 0
   }
 }
