@@ -98,7 +98,7 @@
       "name": "Tether USD",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.png",
       "extensions": {
         "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
       }
@@ -109,7 +109,7 @@
       "name": "Tether USD",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -120,7 +120,7 @@
       "name": "Tether USD",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
       }
@@ -131,7 +131,7 @@
       "name": "Tether USD",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -186,7 +186,7 @@
       "name": "Chainlink",
       "symbol": "LINK",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/LINK.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/LINK.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
       }
@@ -197,7 +197,7 @@
       "name": "Chainlink",
       "symbol": "LINK",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/LINK.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/LINK.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -208,7 +208,7 @@
       "name": "Chainlink",
       "symbol": "LINK",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/LINK.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/LINK.png",
       "extensions": {
         "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
       }
@@ -219,7 +219,7 @@
       "name": "Chainlink",
       "symbol": "LINK",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/LINK.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/LINK.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -230,7 +230,7 @@
       "name": "Tether EUR",
       "symbol": "EURT",
       "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.png",
       "extensions": {
         "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
       }
@@ -241,7 +241,7 @@
       "name": "Tether EUR",
       "symbol": "EURT",
       "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDT.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -252,7 +252,7 @@
       "name": "Synthetix USD",
       "symbol": "sUSD",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.png"
+      "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.svg"
     },
     {
       "chainId": 10,
@@ -260,7 +260,7 @@
       "name": "Synthetix USD",
       "symbol": "sUSD",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.png"
+      "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.svg"
     },
     {
       "chainId": 42,
@@ -283,11 +283,44 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 10,
+      "address": "0xE405de8F52ba7559f9df3C368500B6E6ae6Cee49",
+      "name": "Synthetic Ether",
+      "symbol": "sETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/sETH.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x298B9B95708152ff6968aafd889c6586e9169f1D",
+      "name": "Synthetic Bitcoin",
+      "symbol": "sBTC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/sBTC.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xc5Db22719A06418028A40A9B5E9A7c02959D0d08",
+      "name": "Synthetic Chainlink",
+      "symbol": "sLINK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/sLINK.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
     }
   ],
   "version": {
     "major": 2,
-    "minor": 2,
+    "minor": 3,
     "patch": 0
   }
 }
