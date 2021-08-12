@@ -303,7 +303,7 @@
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/logos/USDC.png",
       "extensions": {
-        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     },
     {
@@ -314,7 +314,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/sETH.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     },
     {
@@ -325,7 +325,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/sBTC.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     },
     {
@@ -336,13 +336,13 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/sLINK.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     }
   ],
   "version": {
-    "major": 2,
-    "minor": 4,
+    "major": 3,
+    "minor": 0,
     "patch": 0
   }
 }
