@@ -312,10 +312,7 @@
       "name": "Synthetic Ether",
       "symbol": "sETH",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/sETH.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
-      }
+      "logoURI": "https://ethereum-optimism.github.io/logos/sETH.svg"
     },
     {
       "chainId": 10,
@@ -323,10 +320,7 @@
       "name": "Synthetic Bitcoin",
       "symbol": "sBTC",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/sBTC.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
-      }
+      "logoURI": "https://ethereum-optimism.github.io/logos/sBTC.svg"
     },
     {
       "chainId": 10,
@@ -334,10 +328,7 @@
       "name": "Synthetic Chainlink",
       "symbol": "sLINK",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/sLINK.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
-      }
+      "logoURI": "https://ethereum-optimism.github.io/logos/sLINK.svg"
     }
   ],
   "version": {
