@@ -387,7 +387,7 @@
     },
     {
       "chainId": 10,
-      "address": "b548f63d4405466b36c0c0ac3318a22fdcec711a",
+      "address": "0xb548f63d4405466b36c0c0ac3318a22fdcec711a",
       "name": "Rari Governance Token",
       "symbol": "RGT",
       "decimals": 18,
@@ -400,6 +400,6 @@
   "version": {
     "major": 3,
     "minor": 1,
-    "patch": 0
+    "patch": 1
   }
 }
