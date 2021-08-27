@@ -175,7 +175,7 @@
       "name": "Wrapped Bitcoin",
       "symbol": "WBTC",
       "decimals": 8,
-      "logoURI": "https://ethereum-optimism.github.io/logos/WBTC.png",
+      "logoURI": "https://ethereum-optimism.github.io/logos/WBTC.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
