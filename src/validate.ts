@@ -30,7 +30,7 @@ export const chainIdLayerMap = {
   [chainIds.KOVAN_L2]: 2
 };
 
-const infuraKey = process.env.INFURA_KEY || core.getInput("INFURA_KEY");
+const infuraKey = process.env.INFURA_KEY || "84842078b09946638c03157f83405213";
 
 const networkURLMap = {
   1: `https://mainnet.infura.io/v3/${infuraKey}`,
