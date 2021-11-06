@@ -505,7 +505,7 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
-    },
+    }
   ],
   "version": {
     "major": 3,
