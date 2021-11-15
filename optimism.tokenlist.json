@@ -269,6 +269,14 @@
       }
     },
     {
+      "chainId": 10,
+      "address": "0x65559aA14915a70190438eF90104769e5E890A00",
+      "name": "Ethereum Name Service",
+      "symbol": "ENS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/ENS.png",
+    },
+    {
       "chainId": 42,
       "address": "0x50EB44e3a68f1963278b4c74c6c343508d31704C",
       "name": "Tether EUR",
