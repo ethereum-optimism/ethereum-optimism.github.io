@@ -291,6 +291,14 @@
       }
     },
     {
+      "chainId": 10,
+      "address": "0xc7b04dC5A2644522a0C58c107346B5e3A63600B0",
+      "name": "Sarcophagus",
+      "symbol": "SARCO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/SARCO.png"
+    },
+    {
       "chainId": 69,
       "address": "0xaA5068dC2B3AADE533d3e52C6eeaadC6a8154c57",
       "name": "Synthetix USD",
