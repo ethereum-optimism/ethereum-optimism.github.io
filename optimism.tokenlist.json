@@ -397,6 +397,28 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
+      "name": "LUSD Stablecoin",
+      "symbol": "LUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LUSD.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xc40f949f8a4e094d1b49a23ea9241d289b7b2819",
+      "name": "LUSD Stablecoin",
+      "symbol": "LUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LUSD.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
       "chainId": 42,
       "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
       "name": "Uniswap",
@@ -487,7 +509,7 @@
   ],
   "version": {
     "major": 3,
-    "minor": 1,
+    "minor": 2,
     "patch": 1
   }
 }
