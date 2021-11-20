@@ -485,6 +485,17 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0xae78736cd615f374d3085123a210448e74fc6393",
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/rETH.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
       "name": "Rocket Pool ETH",
