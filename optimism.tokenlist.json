@@ -527,6 +527,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x7ae1d57b58fa6411f32948314badd83583ee0e8c",
+      "name": "Paper",
+      "symbol": "PAPER",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/PAPER.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x00F932F0FE257456b32dedA4758922E56A4F4b42",
+      "name": "Paper",
+      "symbol": "PAPER",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/PAPER.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
