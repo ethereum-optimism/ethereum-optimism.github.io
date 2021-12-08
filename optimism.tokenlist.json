@@ -637,6 +637,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 42,
+      "address": "0xF6DD2A9B840826D53c9842207628502B79E6B8c2",
+      "name": "BitBTC",
+      "symbol": "BitBTC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/BitBTC.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x0b651A42F32069d62d5ECf4f2a7e5Bd3E9438746"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x83643C9eF0c5707A7815124754d0828c9A38be3a",
+      "name": "BitBTC",
+      "symbol": "BitBTC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/BitBTC.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x0CFb46528a7002a7D8877a5F7a69b9AaF1A9058e"
+      }
     }
   ],
   "version": {
