@@ -1,7 +1,11 @@
 {
   "name": "Optimism",
   "logoURI": "https://ethereum-optimism.github.io/logos/optimism.svg",
-  "keywords": ["scaling", "layer2", "infrastructure"],
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
   "timestamp": "2021-03-22T10:01:21.042+00:00",
   "tokens": [
     {
@@ -180,7 +184,7 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     },
-     {
+    {
       "chainId": 42,
       "address": "0x24a19ee5a5c8757acdebe542a9436d9c796d1c9e",
       "name": "0xBitcoin",
@@ -658,6 +662,28 @@
       "logoURI": "https://ethereum-optimism.github.io/logos/BitBTC.png",
       "extensions": {
         "optimismBridgeAddress": "0x0CFb46528a7002a7D8877a5F7a69b9AaF1A9058e"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x01ba67aac7f75f647d94220cc98fb30fcc5105bf",
+      "name": "Lyra",
+      "symbol": "LYRA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LYRA.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+      "name": "Lyra",
+      "symbol": "LYRA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LYRA.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     }
   ],
