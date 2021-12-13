@@ -685,6 +685,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+      "name": "UMA Voting Token v1",
+      "symbol": "UMA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/UMA.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea",
+      "name": "UMA Voting Token v1",
+      "symbol": "UMA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/UMA.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
