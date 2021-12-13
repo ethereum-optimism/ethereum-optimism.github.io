@@ -670,9 +670,9 @@
       "name": "Lyra",
       "symbol": "LYRA",
       "decimals": 18,
-      "logoURI": "https://www.lyra.finance/images/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/logos/LYRA.png",
       "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
       }
     },
     {
@@ -681,7 +681,7 @@
       "name": "Lyra",
       "symbol": "LYRA",
       "decimals": 18,
-      "logoURI": "https://www.lyra.finance/images/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/logos/LYRA.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
