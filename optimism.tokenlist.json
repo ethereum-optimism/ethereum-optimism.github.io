@@ -1,11 +1,7 @@
 {
   "name": "Optimism",
   "logoURI": "https://ethereum-optimism.github.io/logos/optimism.svg",
-  "keywords": [
-    "scaling",
-    "layer2",
-    "infrastructure"
-  ],
+  "keywords": ["scaling", "layer2", "infrastructure"],
   "timestamp": "2021-03-22T10:01:21.042+00:00",
   "tokens": [
     {
@@ -750,6 +746,29 @@
       "logoURI": "https://ethereum-optimism.github.io/logos/USX.svg",
       "extensions": {
         "optimismBridgeAddress": "0xB4d37826b14Cd3CB7257A2A5094507d701fe715f"
+      }
+    },
+    {
+      "chainId": 42,
+
+      "address": "0x002be8a5961e0f352092d6693133a6944b7846ba",
+      "name": "Perpetual",
+      "symbol": "PERP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/PERP.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+      "name": "Perpetual",
+      "symbol": "PERP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/PERP.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     }
   ],
