@@ -729,6 +729,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 42,
+      "address": "0xf76ead4da04bbeb97d29f83e2ec3a621d0fb3c6e",
+      "name": "dForce USD",
+      "symbol": "USX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USX.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x40E862341b2416345F02c41Ac70df08525150dC7"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xab7020476d814c52629ff2e4cebc7a8cdc04f18e",
+      "name": "dForce USD",
+      "symbol": "USX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USX.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xB4d37826b14Cd3CB7257A2A5094507d701fe715f"
+      }
     }
   ],
   "version": {
