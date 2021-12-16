@@ -773,6 +773,50 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    }, 
+    {
+      "chainId": 1,
+      "address": "0x0391D2021f89DC339F60Fff84546EA23E337750f",
+      "name": "BarnBridge Governance Token",
+      "symbol": "BOND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/BOND.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
+      "name": "BarnBridge Governance Token (Optimism)",
+      "symbol": "BOND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/BOND.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x521EE0CeDbed2a5A130B9218551fe492C5c402e4",
+      "name": "BarnBridge Governance Token",
+      "symbol": "BOND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/BOND.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x9e5AAC1Ba1a2e6aEd6b32689DFcF62A509Ca96f3",
+      "name": "BarnBridge Governance Token (Optimism)",
+      "symbol": "BOND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/BOND.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
