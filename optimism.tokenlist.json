@@ -787,7 +787,7 @@
     },
     {
       "chainId": 10,
-      "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
+      "address": "0x3e7eF8f50246f725885102E8238CBba33F276747",
       "name": "BarnBridge Governance Token (Optimism)",
       "symbol": "BOND",
       "decimals": 18,
