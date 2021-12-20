@@ -810,7 +810,7 @@
     {
       "chainId": 69,
       "address": "0x9e5AAC1Ba1a2e6aEd6b32689DFcF62A509Ca96f3",
-      "name": "BarnBridge Governance Token (Optimism)",
+      "name": "BarnBridge Governance Token",
       "symbol": "BOND",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/BOND.svg",
