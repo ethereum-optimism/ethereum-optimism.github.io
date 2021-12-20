@@ -817,6 +817,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0391D2021f89DC339F60Fff84546EA23E337750f",
+      "name": "BarnBridge Governance Token",
+      "symbol": "BOND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/BOND.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x3e7eF8f50246f725885102E8238CBba33F276747",
+      "name": "BarnBridge Governance Token",
+      "symbol": "BOND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/BOND.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
