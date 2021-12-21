@@ -865,7 +865,7 @@
       "name": "Dentacoin",
       "symbol": "DCN",
       "decimals": 0,
-      "logoURI": "https://ethereum-optimism.github.io/logos/dcn-l2.png",
+      "logoURI": "https://ethereum-optimism.github.io/logos/dcn.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
