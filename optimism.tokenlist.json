@@ -847,6 +847,28 @@
       "symbol": "WETH",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/WETH.png"
+    },
+	{
+      "chainId": 42,
+      "address": "0x001dedC8c67EF6D1f4BB66FB28581d466650Cd76",
+      "name": "Dentacoin",
+      "symbol": "DCN",
+      "decimals": 0,
+      "logoURI": "https://ethereum-optimism.github.io/logos/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xc52D0B0627D80cf27DE27435362eF48f964d98e6"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xfd6ab60e0744e95c35fb17afda478eeae3835ddf",
+      "name": "Dentacoin",
+      "symbol": "DCN",
+      "decimals": 0,
+      "logoURI": "https://ethereum-optimism.github.io/logos/dcn-l2-logo-big.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
