@@ -839,6 +839,14 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 10,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/WETH.png"
     }
   ],
   "version": {
