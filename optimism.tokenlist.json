@@ -915,8 +915,19 @@
       }
     },
     {
+      "chainId": 42,
+      "address": "0x0436F489525c47C1A4877a06bE0BEaba2A2E2e2d",
+      "name": "Kromatika",
+      "symbol": "KROM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/KROM.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
       "chainId": 69,
-      "address": "0x0f747ed5De34aaDc17E39368b7d90da2D0545319",
+      "address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
       "name": "Kromatika",
       "symbol": "KROM",
       "decimals": 18,
