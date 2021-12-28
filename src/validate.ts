@@ -56,6 +56,13 @@ async function main() {
     const currentChainProvider = new providers.JsonRpcProvider(currentNetwork);
 
     for (const tokenData of tokenList) {
+      // Skip validation for the DF token which is non ERC20 compliant
+      // it uses bytes32 properties for symbol and name
+      if (tokenData.address === '0x79E40d67DA6eAE5eB4A93Fc6a56A7961625E15F3')
+      {
+        continue;
+      }
+
       const contract = new Contract(
         tokenData.address,
         tokenInterface,
@@ -67,9 +74,8 @@ async function main() {
 
       if (symbol !== tokenData.symbol) {
         // Add an exception for
-        // DF token as it uses bytes32 properties for symbol and name
         // DCN token as the symbol on chain and in the token list intentionally differ, i.e. ٨ vs DCN
-        if (tokenData.symbol !== "DF" && tokenData.symbol !== "DCN") {
+        if (tokenData.symbol !== "DCN") {
           throw Error(
             `Contract symbol mismatch. ${symbol} !== ${tokenData.symbol} \nAddress: ${tokenData.address}`
           );
@@ -120,7 +126,8 @@ const validateBridgeAddress = async currentChainTokenData => {
   // Exclude tokens with custom bridges from validation of the bridge setup
   if (
     currentChainTokenData.symbol === "SNX" ||
-    currentChainTokenData.symbol === "DAI"
+    currentChainTokenData.symbol === "DAI" ||
+    currentChainTokenData.symbol === "USX"
   ) {
     isValid = true;
   } else {
