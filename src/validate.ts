@@ -1,5 +1,4 @@
 import dotenv from "dotenv";
-import * as core from "@actions/core";
 import { providers, Contract } from "ethers";
 import tokenList from "../optimism.tokenlist.json";
 import tokenInterface from "./tokenInterface.json";
@@ -83,12 +82,7 @@ async function main() {
       }
 
       if (tokenData.extensions?.optimismBridgeAddress) {
-        try {
-          await validateBridgeAddress(tokenData);
-        } catch (err) {
-          console.error(err.message);
-          process.exit();
-        }
+        await validateBridgeAddress(tokenData);
       }
 
       console.log(
@@ -134,17 +128,16 @@ const validateBridgeAddress = async currentChainTokenData => {
 
     try {
       const oppositeBridgeAddress = await oppositeChainBridge[funcName]();
-      if (
-        currentChainTokenData.extensions.optimismBridgeAddress !==
-        oppositeBridgeAddress
-      ) {
-        throw Error();
-      } else {
+      if (currentChainTokenData.extensions.optimismBridgeAddress === oppositeBridgeAddress) {
         isValid = true;
+      } else {
+        throw Error(
+          `Bridge address invalid for ${currentChainTokenData.symbol}: ${currentChainTokenData.extensions.optimismBridgeAddress}`
+        );
       }
-    } catch (err) {
+    } catch {
       throw Error(
-        `Bridge address invalid for ${currentChainTokenData.symbol}: ${currentChainTokenData.extensions.optimismBridgeAddress}`
+        `Bridge validation error for ${currentChainTokenData.symbol}`
       );
     }
   }
@@ -155,6 +148,7 @@ const validateBridgeAddress = async currentChainTokenData => {
 main()
   .then(() => {
     console.log("\nToken list validated!\n");
+    process.exit(0);
   })
   .catch(error => {
     console.error(error);
