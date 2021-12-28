@@ -1,5 +1,4 @@
 import dotenv from "dotenv";
-import * as core from "@actions/core";
 import { providers, Contract } from "ethers";
 import tokenList from "../optimism.tokenlist.json";
 import tokenInterface from "./tokenInterface.json";
@@ -57,6 +56,13 @@ async function main() {
     const currentChainProvider = new providers.JsonRpcProvider(currentNetwork);
 
     for (const tokenData of tokenList) {
+      // Skip validation for the DF token which is non ERC20 compliant
+      // it uses bytes32 properties for symbol and name
+      if (tokenData.address === '0x79E40d67DA6eAE5eB4A93Fc6a56A7961625E15F3')
+      {
+        continue;
+      }
+
       const contract = new Contract(
         tokenData.address,
         tokenInterface,
@@ -67,9 +73,13 @@ async function main() {
       const decimals = await contract.decimals();
 
       if (symbol !== tokenData.symbol) {
-        throw Error(
-          `Contract symbol mismatch. ${symbol} !== ${tokenData.symbol} \nAddress: ${tokenData.address}`
-        );
+        // Add an exception for
+        // DCN token as the symbol on chain and in the token list intentionally differ, i.e. ٨ vs DCN
+        if (tokenData.symbol !== "DCN") {
+          throw Error(
+            `Contract symbol mismatch. ${symbol} !== ${tokenData.symbol} \nAddress: ${tokenData.address}`
+          );
+        }
       }
       if (decimals !== tokenData.decimals) {
         throw Error(
@@ -78,12 +88,7 @@ async function main() {
       }
 
       if (tokenData.extensions?.optimismBridgeAddress) {
-        try {
-          await validateBridgeAddress(tokenData);
-        } catch (err) {
-          console.error(err.message);
-          process.exit();
-        }
+        await validateBridgeAddress(tokenData);
       }
 
       console.log(
@@ -118,10 +123,11 @@ const validateBridgeAddress = async currentChainTokenData => {
   );
 
   let isValid = false;
-  // todo: figure out how to do validate these
+  // Exclude tokens with custom bridges from validation of the bridge setup
   if (
     currentChainTokenData.symbol === "SNX" ||
-    currentChainTokenData.symbol === "DAI"
+    currentChainTokenData.symbol === "DAI" ||
+    currentChainTokenData.symbol === "USX"
   ) {
     isValid = true;
   } else {
@@ -129,17 +135,16 @@ const validateBridgeAddress = async currentChainTokenData => {
 
     try {
       const oppositeBridgeAddress = await oppositeChainBridge[funcName]();
-      if (
-        currentChainTokenData.extensions.optimismBridgeAddress !==
-        oppositeBridgeAddress
-      ) {
-        throw Error();
-      } else {
+      if (currentChainTokenData.extensions.optimismBridgeAddress === oppositeBridgeAddress) {
         isValid = true;
+      } else {
+        throw Error(
+          `Bridge address invalid for ${currentChainTokenData.symbol}: ${currentChainTokenData.extensions.optimismBridgeAddress}`
+        );
       }
-    } catch (err) {
+    } catch {
       throw Error(
-        `Bridge address invalid for ${currentChainTokenData.symbol}: ${currentChainTokenData.extensions.optimismBridgeAddress}`
+        `Bridge validation error for ${currentChainTokenData.symbol}`
       );
     }
   }
@@ -150,6 +155,7 @@ const validateBridgeAddress = async currentChainTokenData => {
 main()
   .then(() => {
     console.log("\nToken list validated!\n");
+    process.exit(0);
   })
   .catch(error => {
     console.error(error);
