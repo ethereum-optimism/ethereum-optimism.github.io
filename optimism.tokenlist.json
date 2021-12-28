@@ -775,6 +775,28 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0xbC396689893D065F41bc2C6EcbeE5e0085233447",
+      "name": "Perpetual",
+      "symbol": "PERP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/PERP.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
+      "name": "Perpetual",
+      "symbol": "PERP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/PERP.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
       "chainId": 42,
       "address": "0x521EE0CeDbed2a5A130B9218551fe492C5c402e4",
       "name": "BarnBridge Governance Token",
@@ -848,7 +870,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/WETH.png"
     },
-	{
+    {
       "chainId": 42,
       "address": "0x001dedC8c67EF6D1f4BB66FB28581d466650Cd76",
       "name": "Dentacoin",
@@ -870,7 +892,7 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     },
-	{
+    {
       "chainId": 1,
       "address": "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6",
       "name": "Dentacoin",
