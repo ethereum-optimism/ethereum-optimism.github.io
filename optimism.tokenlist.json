@@ -732,28 +732,6 @@
     },
     {
       "chainId": 42,
-      "address": "0xf76ead4da04bbeb97d29f83e2ec3a621d0fb3c6e",
-      "name": "dForce USD",
-      "symbol": "USX",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/USX.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x40E862341b2416345F02c41Ac70df08525150dC7"
-      }
-    },
-    {
-      "chainId": 69,
-      "address": "0xab7020476d814c52629ff2e4cebc7a8cdc04f18e",
-      "name": "dForce USD",
-      "symbol": "USX",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/USX.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0xB4d37826b14Cd3CB7257A2A5094507d701fe715f"
-      }
-    },
-    {
-      "chainId": 42,
       "address": "0x002be8a5961e0f352092d6693133a6944b7846ba",
       "name": "Perpetual",
       "symbol": "PERP",
@@ -797,6 +775,28 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x431ad2ff6a9C365805eBaD47Ee021148d6f7DBe0",
+      "name": "dForce",
+      "symbol": "DF",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/DF.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x9e5AAC1Ba1a2e6aEd6b32689DFcF62A509Ca96f3",
+      "name": "dForce",
+      "symbol": "DF",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/DF.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
       "chainId": 42,
       "address": "0x79E40d67DA6eAE5eB4A93Fc6a56A7961625E15F3",
       "name": "dForce",
@@ -816,6 +816,50 @@
       "logoURI": "https://ethereum-optimism.github.io/logos/DF.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0a5e677a6a24b2f1a2bf4f3bffc443231d2fdec8",
+      "name": "dForce USD",
+      "symbol": "USX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USX.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xC5b1EC605738eF73a4EFc562274c1c0b6609cF59"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xbfD291DA8A403DAAF7e5E9DC1ec0aCEaCd4848B9",
+      "name": "dForce USD",
+      "symbol": "USX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USX.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xc76cbFbAfD41761279E3EDb23Fd831Ccb74D5D67"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0xf76ead4da04bbeb97d29f83e2ec3a621d0fb3c6e",
+      "name": "dForce USD",
+      "symbol": "USX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USX.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x40E862341b2416345F02c41Ac70df08525150dC7"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xab7020476d814c52629ff2e4cebc7a8cdc04f18e",
+      "name": "dForce USD",
+      "symbol": "USX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USX.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xB4d37826b14Cd3CB7257A2A5094507d701fe715f"
       }
     },
     {
