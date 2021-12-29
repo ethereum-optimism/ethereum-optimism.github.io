@@ -59,6 +59,7 @@ async function main() {
       // Skip validation for the DF and MKR tokens which use bytes32 properties for symbol and name
       if (
         tokenData.address === '0x79E40d67DA6eAE5eB4A93Fc6a56A7961625E15F3' ||
+        tokenData.address === '0x431ad2ff6a9C365805eBaD47Ee021148d6f7DBe0' ||
         tokenData.address === '0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2')
       {
         continue;
