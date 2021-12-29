@@ -5,8 +5,8 @@ import tokenInterface from "./tokenInterface.json";
 import { getContractInterface } from "@eth-optimism/contracts";
 
 dotenv.config();
-const l1BridgeAbi = getContractInterface("OVM_L1StandardBridge");
-const l2BridgeAbi = getContractInterface("OVM_L2StandardBridge");
+const l1BridgeAbi = getContractInterface("L1StandardBridge");
+const l2BridgeAbi = getContractInterface("L2StandardBridge");
 
 export const chainIds = {
   MAINNET_L1: 1,
