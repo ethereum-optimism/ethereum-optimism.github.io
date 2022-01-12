@@ -1087,6 +1087,17 @@
       }
     },
     {
+      "chainId": 10,
+      "address": "0x61BAADcF22d2565B0F471b291C475db5555e0b76",
+      "name": "Aelin Protocol",
+      "symbol": "AELIN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/AELIN.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
       "chainId": 42,
       "address": "0x47Aa2a683b88E23c4d76f91Aa4181A59d0E4FBfb",
       "name": "Theranos Coin",
