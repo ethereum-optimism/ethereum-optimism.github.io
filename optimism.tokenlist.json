@@ -1092,7 +1092,7 @@
       "name": "Aelin Protocol",
       "symbol": "AELIN",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/AELIN.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/AELIN.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
