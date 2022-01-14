@@ -1098,7 +1098,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/spank.png",
       "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
       }
     },
     {
@@ -1109,7 +1109,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/spank.png",
       "extensions": {
-        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     }
   ],
