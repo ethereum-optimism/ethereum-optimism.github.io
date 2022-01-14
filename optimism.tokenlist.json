@@ -1069,17 +1069,6 @@
       }
     },
     {
-      "chainId": 10,
-      "address": "0x3bb4445d30ac020a84c1b5a8a2c6248ebc9779d0",
-      "name": "Theranos Coin",
-      "symbol": "LIZ",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/LIZ.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
-      }
-    },
-    {
       "chainId": 1,
       "address": "0x42d6622dece394b54999fbd73d108123806f6a18",
       "name": "SPANK",
