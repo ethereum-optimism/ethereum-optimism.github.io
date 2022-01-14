@@ -1067,6 +1067,39 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 10,
+      "address": "0x3bb4445d30ac020a84c1b5a8a2c6248ebc9779d0",
+      "name": "Theranos Coin",
+      "symbol": "LIZ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LIZ.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xcfD1D50ce23C46D3Cf6407487B2F8934e96DC8f9",
+      "name": "SPANK",
+      "symbol": "SPANK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/spank.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xA29b548056c3fD0f68BAd9d4829EC4E66f22f796",
+      "name": "SPANK",
+      "symbol": "SPANK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/spank.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
