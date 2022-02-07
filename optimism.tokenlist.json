@@ -1111,6 +1111,50 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    { 
+      "chainId": 1,
+      "address": "0x42d6622dece394b54999fbd73d108123806f6a18",
+      "name": "SPANK",
+      "symbol": "SPANK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/spank.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xcfD1D50ce23C46D3Cf6407487B2F8934e96DC8f9",
+      "name": "SPANK",
+      "symbol": "SPANK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/spank.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x2eA8f9B29AC1d70e01AE9D23d0451D2242e8d609",
+      "name": "SPANK",
+      "symbol": "SPANK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/spank.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xcfD1D50ce23C46D3Cf6407487B2F8934e96DC8f9",
+      "name": "SPANK",
+      "symbol": "SPANK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/spank.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
