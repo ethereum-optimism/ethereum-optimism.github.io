@@ -1004,6 +1004,28 @@
     },
     {
       "chainId": 1,
+      "address": "0xca1207647Ff814039530D7d35df0e1Dd2e91Fa84",
+      "name": "dHEDGE",
+      "symbol": "DHT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/DHT.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xAF9fE3B5cCDAe78188B1F8b9a49Da7ae9510F151",
+      "name": "dHEDGE",
+      "symbol": "DHE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/DHT.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
       "name": "Maker",
       "symbol": "MKR",
