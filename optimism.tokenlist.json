@@ -1005,7 +1005,7 @@
     {
       "chainId": 1,
       "address": "0xca1207647Ff814039530D7d35df0e1Dd2e91Fa84",
-      "name": "dHEDGE",
+      "name": "dHEDGE DAO Token",
       "symbol": "DHT",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/DHT.svg",
@@ -1016,7 +1016,7 @@
     {
       "chainId": 10,
       "address": "0xAF9fE3B5cCDAe78188B1F8b9a49Da7ae9510F151",
-      "name": "dHEDGE",
+      "name": "dHEDGE DAO Token",
       "symbol": "DHT",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/DHT.svg",
@@ -1181,7 +1181,7 @@
   ],
   "version": {
     "major": 4,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   }
 }
