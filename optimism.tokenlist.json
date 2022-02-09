@@ -1017,7 +1017,7 @@
       "chainId": 10,
       "address": "0xAF9fE3B5cCDAe78188B1F8b9a49Da7ae9510F151",
       "name": "dHEDGE",
-      "symbol": "DHE",
+      "symbol": "DHT",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/DHT.svg",
       "extensions": {
