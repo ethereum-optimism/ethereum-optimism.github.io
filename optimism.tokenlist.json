@@ -957,7 +957,7 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
-	},
+    },
     {
       "chainId": 1,
       "address": "0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789",
@@ -1134,7 +1134,7 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     },
-    { 
+    {
       "chainId": 1,
       "address": "0x42d6622dece394b54999fbd73d108123806f6a18",
       "name": "SPANK",
@@ -1174,6 +1174,28 @@
       "symbol": "SPANK",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/spank.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+      "name": "LoopringCoin V2",
+      "symbol": "LRC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LRC.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xFEaA9194F9F8c1B65429E31341a103071464907E",
+      "name": "LoopringCoin V2",
+      "symbol": "LRC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LRC.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
