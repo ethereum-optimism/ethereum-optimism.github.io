@@ -1202,11 +1202,11 @@
     },
     {
       "chainId": 1,
-      "address": "0x03e173ad8d1581a4802d3b532ace27a62c5b81dc",
-      "name": "Thales",
-      "symbol": "THALES",
+      "address": "0x8947da500Eb47F82df21143D0C01A29862a8C3c5",
+      "name": "Optimistic Thales Token",
+      "symbol": "OpTHALES",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/THALES.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/THALES.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
       }
@@ -1214,10 +1214,10 @@
     {
       "chainId": 10,
       "address": "0x217D47011b23BB961eB6D93cA9945B7501a5BB11",
-      "name": "Thales",
+      "name": "Optimistic Thales Thales",
       "symbol": "THALES",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/THALES.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/THALES.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
