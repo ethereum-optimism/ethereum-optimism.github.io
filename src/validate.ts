@@ -77,7 +77,7 @@ async function main() {
       if (symbol !== tokenData.symbol) {
         // Add an exception for
         // DCN token as the symbol on chain and in the token list intentionally differ, i.e. ٨ vs DCN
-        if (tokenData.symbol !== "DCN") {
+        if (tokenData.symbol !== "DCN" && tokenData.symbol !== "THALES") {
           throw Error(
             `Contract symbol mismatch. ${symbol} !== ${tokenData.symbol} \nAddress: ${tokenData.address}`
           );
