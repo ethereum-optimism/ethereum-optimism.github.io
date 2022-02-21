@@ -1243,6 +1243,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0xa693b19d2931d498c5b318df961919bb4aee87a5",
+      "name": "UST (Wormhole)",
+      "symbol": "UST",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/logos/UST.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xBA28feb4b6A6b81e3F26F08b83a19E715C4294fd",
+      "name": "UST (Wormhole)",
+      "symbol": "UST",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/logos/UST.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
