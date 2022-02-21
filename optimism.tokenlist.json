@@ -1226,7 +1226,7 @@
       "chainId": 1,
       "address": "0x8947da500Eb47F82df21143D0C01A29862a8C3c5",
       "name": "Optimistic Thales Token",
-      "symbol": "OpTHALES",
+      "symbol": "THALES",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/THALES.png",
       "extensions": {
