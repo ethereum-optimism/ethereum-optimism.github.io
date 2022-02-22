@@ -89,7 +89,7 @@ async function main() {
         );
       }
 
-      if (tokenData.extensions?.optimismBridgeAddress) {
+      if (tokenData.extensions?.bridgeInfo) {
         await validateBridgeAddress(tokenData);
       }
 
@@ -101,27 +101,23 @@ async function main() {
 }
 
 const validateBridgeAddress = async currentChainTokenData => {
-  const oppositeChainId = oppositeChainIdMap[currentChainTokenData.chainId];
-  const oppositeNetwork = networkURLMap[oppositeChainId];
-  const oppositeChainTokenData = tokenList.tokens.find(
-    data =>
-      data.chainId === oppositeChainId &&
-      data.symbol === currentChainTokenData.symbol &&
-      data.name === currentChainTokenData.name
-  );
+  const optimismChainId = oppositeChainIdMap[currentChainTokenData.chainId];
+  const optimismNetwork = networkURLMap[optimismChainId];
 
-  if (!oppositeChainTokenData) {
-    console.warn(`No match found for ${currentChainTokenData.symbol}`);
-    return;
+  // Check `bridgeInfo` has an entry for the Optimism chain id
+  if (!currentChainTokenData.extensions.bridgeInfo[optimismChainId]) {
+    throw Error(
+      `Bridge information mising for Optimism chain ${currentChainTokenData.symbol}`
+    );
   }
 
-  const layer = chainIdLayerMap[oppositeChainId];
-  const oppositeChainProvider = new providers.JsonRpcProvider(oppositeNetwork);
+  const layer = chainIdLayerMap[optimismChainId];
+  const optimismChainProvider = new providers.JsonRpcProvider(optimismNetwork);
   const bridgeAbi = layer === 1 ? l1BridgeAbi : l2BridgeAbi;
-  const oppositeChainBridge = new Contract(
-    oppositeChainTokenData.extensions.optimismBridgeAddress,
+  const optimismBridge = new Contract(
+    currentChainTokenData.extensions.bridgeInfo[optimismChainId].destBridgeAddress,
     bridgeAbi,
-    oppositeChainProvider
+    optimismChainProvider
   );
 
   let isValid = false;
@@ -133,15 +129,14 @@ const validateBridgeAddress = async currentChainTokenData => {
   ) {
     isValid = true;
   } else {
-    const funcName = layer === 1 ? "l2TokenBridge" : "l1TokenBridge";
-
     try {
-      const oppositeBridgeAddress = await oppositeChainBridge[funcName]();
-      if (currentChainTokenData.extensions.optimismBridgeAddress === oppositeBridgeAddress) {
+      const l1BridgeAddress = await optimismBridge["l1TokenBridge"]();
+      const originBridgeAddress = currentChainTokenData.extensions.bridgeInfo[optimismChainId].originBridgeAddress;
+      if (originBridgeAddress === l1BridgeAddress) {
         isValid = true;
       } else {
         throw Error(
-          `Bridge address invalid for ${currentChainTokenData.symbol}: ${currentChainTokenData.extensions.optimismBridgeAddress}`
+          `Bridge address invalid for ${currentChainTokenData.symbol}: ${originBridgeAddress}`
         );
       }
     } catch {
