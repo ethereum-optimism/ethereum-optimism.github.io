@@ -1371,6 +1371,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 42,
+      "address": "0xC99Fc8E8852e5BaB249174a983688c7F28065fB7",
+      "name": "KIDDO",
+      "symbol": "KIDDO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/BitBTC.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x0b651A42F32069d62d5ECf4f2a7e5Bd3E9438746"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x0E150963D01e8453B7099a3C032345527A4BAfFD",
+      "name": "KIDDO",
+      "symbol": "KIDDO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/BitBTC.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x0CFb46528a7002a7D8877a5F7a69b9AaF1A9058e"
+      }
     }
   ],
   "version": {
