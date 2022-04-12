@@ -1378,7 +1378,7 @@
       "name": "KIDDO",
       "symbol": "KIDDO",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/BitBTC.png",
+      "logoURI": "https://ethereum-optimism.github.io/logos/KIDDO.png",
       "extensions": {
         "optimismBridgeAddress": "0x0b651A42F32069d62d5ECf4f2a7e5Bd3E9438746"
       }
@@ -1389,7 +1389,7 @@
       "name": "KIDDO",
       "symbol": "KIDDO",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/BitBTC.png",
+      "logoURI": "https://ethereum-optimism.github.io/logos/KIDDO.png",
       "extensions": {
         "optimismBridgeAddress": "0x0CFb46528a7002a7D8877a5F7a69b9AaF1A9058e"
       }
