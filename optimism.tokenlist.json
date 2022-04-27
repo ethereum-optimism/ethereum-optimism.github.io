@@ -1367,10 +1367,7 @@
       "name": "Equalizer",
       "symbol": "EQZ",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/EQZ.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
-      }
+      "logoURI": "https://ethereum-optimism.github.io/logos/EQZ.png"
     },
     {
       "chainId": 42,
@@ -1378,10 +1375,7 @@
       "name": "KIDDO",
       "symbol": "KIDDO",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/KIDDO.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x0b651A42F32069d62d5ECf4f2a7e5Bd3E9438746"
-      }
+      "logoURI": "https://ethereum-optimism.github.io/logos/KIDDO.png"
     },
     {
       "chainId": 69,
