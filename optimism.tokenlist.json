@@ -12,7 +12,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
       "extensions": {
-        "optimismBridgeAddress": "0xc51f137e19F1ae6944887388FD12b2b6dFD12594"
+        "optimismBridgeAddress": "0x39Ea01a0298C315d149a490E34B59Dbf2EC7e48F"
       }
     },
     {
@@ -23,7 +23,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x8F7b21BF5f8490FAa63386f6f6434C6Ae8D8A120"
+        "optimismBridgeAddress": "0x136b1EC699c62b0606854056f02dC7Bb80482d63"
       }
     },
     {
@@ -34,7 +34,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x8f9D085D1bdfB6c05a4Cd82553e871B3e61e70CD"
+        "optimismBridgeAddress": "0xc00E7C2Bd7B0Fb95DbBF10d2d336399A939099ee"
       }
     },
     {
@@ -45,7 +45,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
       "extensions": {
-        "optimismBridgeAddress": "0xED4f0C6DfE3235e9A93B808a60994C8697cC2236"
+        "optimismBridgeAddress": "0x5b643DFC67f9701929A0b55f23e0Af61df50E75D"
       }
     },
     {
