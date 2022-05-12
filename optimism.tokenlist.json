@@ -1371,7 +1371,29 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
-    }
+    },
+    {
+      "chainId": 1,
+      "address": "0x96f29330BACe95eA569928A8D74E6b1b49283edb",
+      "name": "Poor Quack",
+      "symbol": "POOR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/POOR.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x8Ee73c484A26e0A5df2Ee2a4960B789967dd0415",
+      "name": "Poor Quack",
+      "symbol": "POOR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/POOR.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
   ],
   "version": {
     "major": 4,
