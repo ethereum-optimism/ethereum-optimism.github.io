@@ -1393,6 +1393,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 42,
+      "address": "0x37A43dc751173369739d73187c549F84ebeBC18c",
+      "name": "TRIPS",
+      "symbol": "TRIPS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/TRIPS.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x9Cc2fC2f75768b0307925C7935396Ec9D94bbA44",
+      "name": "TRIPS",
+      "symbol": "TRIPS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/TRIPS.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
