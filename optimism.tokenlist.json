@@ -1393,6 +1393,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 42,
+      "address": "0xb7e230f904971724c600ad5217b88d219ddd1525",
+      "name": "Gitcoin",
+      "symbol": "GTC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/GTC.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xaf8ca653fa2772d58f4368b0a71980e9e3ceb888",
+      "name": "Gitcoin",
+      "symbol": "GTC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/GTC.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
