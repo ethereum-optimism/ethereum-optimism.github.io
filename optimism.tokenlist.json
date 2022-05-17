@@ -12,7 +12,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
       "extensions": {
-        "optimismBridgeAddress": "0xc51f137e19F1ae6944887388FD12b2b6dFD12594"
+        "optimismBridgeAddress": "0x39Ea01a0298C315d149a490E34B59Dbf2EC7e48F"
       }
     },
     {
@@ -23,7 +23,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x8F7b21BF5f8490FAa63386f6f6434C6Ae8D8A120"
+        "optimismBridgeAddress": "0x136b1EC699c62b0606854056f02dC7Bb80482d63"
       }
     },
     {
@@ -34,7 +34,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x8f9D085D1bdfB6c05a4Cd82553e871B3e61e70CD"
+        "optimismBridgeAddress": "0xc00E7C2Bd7B0Fb95DbBF10d2d336399A939099ee"
       }
     },
     {
@@ -45,7 +45,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
       "extensions": {
-        "optimismBridgeAddress": "0xED4f0C6DfE3235e9A93B808a60994C8697cC2236"
+        "optimismBridgeAddress": "0x5b643DFC67f9701929A0b55f23e0Af61df50E75D"
       }
     },
     {
@@ -1368,6 +1368,50 @@
       "symbol": "EQZ",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/EQZ.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xbEa98c05eEAe2f3bC8c3565Db7551Eb738c8CCAb",
+      "name": "Geyser",
+      "symbol": "GYSR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/GYSR.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x117cFd9060525452db4A34d51c0b3b7599087f05",
+      "name": "Geyser",
+      "symbol": "GYSR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/GYSR.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0xDA9b55DE6e04404F6c77673D4B243142a4efC6B8",
+      "name": "Geyser",
+      "symbol": "GYSR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/GYSR.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x197D38DC562DfB2490eC1A1d5C4CC4319d178Bb4",
+      "name": "Geyser",
+      "symbol": "GYSR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/GYSR.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
