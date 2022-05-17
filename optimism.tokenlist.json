@@ -1372,6 +1372,8 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     },
+    
+    
     {
       "chainId": 1,
       "address": "0x1350Fbe8Ce27762ec19134bf8FC405a427fe9Bf1",
@@ -1383,7 +1385,8 @@
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
       }
     },
-    {
+    
+     {
       "chainId": 10,
       "address": "0x13741C5dF9aB03E7Aa9Fb3Bf1f714551dD5A5F8a",
       "name": "TRIPS",
@@ -1412,6 +1415,50 @@
       "symbol": "TRIPS",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/TRIPS.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+       "address": "0xbEa98c05eEAe2f3bC8c3565Db7551Eb738c8CCAb",
+      "name": "Geyser",
+      "symbol": "GYSR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/GYSR.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x117cFd9060525452db4A34d51c0b3b7599087f05",
+      "name": "Geyser",
+      "symbol": "GYSR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/GYSR.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0xDA9b55DE6e04404F6c77673D4B243142a4efC6B8",
+      "name": "Geyser",
+      "symbol": "GYSR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/GYSR.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x197D38DC562DfB2490eC1A1d5C4CC4319d178Bb4",
+      "name": "Geyser",
+      "symbol": "GYSR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/GYSR.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
