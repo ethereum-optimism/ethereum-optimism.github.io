@@ -1415,6 +1415,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
+      "name": "Decentralized USD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDD.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x7113370218f31764C1B6353BDF6004d86fF6B9cc",
+      "name": "Decentralized USD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDD.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
