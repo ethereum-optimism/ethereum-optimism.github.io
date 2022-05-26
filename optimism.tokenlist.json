@@ -1424,7 +1424,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/GTC.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x99c9fc46f92e8a1c0dec1b1747d010903e884be1"
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
       }
     },
     {
