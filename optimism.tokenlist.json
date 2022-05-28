@@ -1,7 +1,11 @@
 {
   "name": "Optimism",
   "logoURI": "https://ethereum-optimism.github.io/logos/optimism.svg",
-  "keywords": ["scaling", "layer2", "infrastructure"],
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
   "timestamp": "2021-03-22T10:01:21.042+00:00",
   "tokens": [
     {
@@ -1456,6 +1460,17 @@
       "symbol": "BAL",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/BAL.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x94332448acF26735F1070e277Fb7326A71075D76",
+      "name": "Wrapped Tezos",
+      "symbol": "WXTZ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/WXTZ.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
