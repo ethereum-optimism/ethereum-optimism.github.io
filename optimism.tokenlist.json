@@ -1507,7 +1507,7 @@
     {
       "chainId": 10,
       "address": "0x4200000000000000000000000000000000000042",
-      "name": "OP",
+      "name": "Optimism",
       "symbol": "OP",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/OP.png",
@@ -1518,7 +1518,7 @@
     {
       "chainId": 69,
       "address": "0x4200000000000000000000000000000000000042",
-      "name": "OP",
+      "name": "Optimism",
       "symbol": "OP",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/OP.png",
