@@ -1510,7 +1510,7 @@
       "name": "OP",
       "symbol": "OP",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/OP.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/OP.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -1521,7 +1521,7 @@
       "name": "OP",
       "symbol": "OP",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/OP.svg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/OP.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
