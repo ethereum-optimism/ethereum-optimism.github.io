@@ -1503,6 +1503,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 10,
+      "address": "0x4200000000000000000000000000000000000042",
+      "name": "OP",
+      "symbol": "OP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/OP.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x4200000000000000000000000000000000000042",
+      "name": "OP",
+      "symbol": "OP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/OP.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
