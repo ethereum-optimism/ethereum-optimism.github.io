@@ -1583,7 +1583,7 @@
     },
     {
       "chainId": 69,
-      "address": "0x7E00780C65D0291E5210fC208ABce0C5A966d538",
+      "address": "0x7e00780c65d0291e5210fc208abce0c5a966d538",
       "name": "Biconomy Token",
       "symbol": "BICO",
       "decimals": 18,
