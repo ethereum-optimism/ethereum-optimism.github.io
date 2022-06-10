@@ -1569,6 +1569,39 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x3258cd8134b6b28e814772dd91d5ecceea512818",
+      "name": "Land",
+      "symbol": "LAND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LAND.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0xC13DD39606d4C2489ce5D9806d060FeD9a7d063d",
+      "name": "Land",
+      "symbol": "LAND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LAND.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x2E2015aa4ac40B083189A03a75AD229dfB10172c",
+      "name": "Land",
+      "symbol": "LAND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LAND.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
