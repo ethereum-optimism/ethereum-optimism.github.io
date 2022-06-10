@@ -1591,6 +1591,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 10,
+      "address": "0xd6909e9e702024eb93312b989ee46794c0fb1c9d",
+      "name": "Biconomy Token",
+      "symbol": "BICO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/BICO.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xf17e65822b568b3903685a7c9f496cf7656cc6c2",
+      "name": "Biconomy Token",
+      "symbol": "BICO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/BICO.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
