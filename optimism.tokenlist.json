@@ -1584,6 +1584,18 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 69,
+      "address": "0xFdb794692724153d1488CcdBE0C56c252596735F",
+      "name": "Wrapped Tezos",
+      "symbol": "WXTZ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/WXTZ.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    }
   ],
   "version": {
     "major": 4,
