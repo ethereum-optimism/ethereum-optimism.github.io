@@ -1569,6 +1569,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 42,
+      "address": "0xa88751C0a08623E11ff38c6B70F2BbEe7865C17c",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/wstETH.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x460b0E62190fFf42a6ee3855F905788D596E0879"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x920c8F2839C47A1e518D6A5Ad06e7e58D6EdB85B",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/wstETH.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x491dB42FC78D8393Db7a8AC77BFF68d2CfFb1457"
+      }
     }
   ],
   "version": {
