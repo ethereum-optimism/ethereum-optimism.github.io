@@ -1,37 +1,37 @@
 {
-    "name": "Example Project Name",
-    "website": "https://example-project.io",
-    "twitter": "https://twitter.com/example-project",
-    "logoURI": "https://ethereum-optimism.github.io/logos/example.png",
-    "description": "A description of your project under 150 chars",
-    "token": [
-        {
-            "chainId": 1,
-            "address": "0x6900000000000000000000000000000000000420",
-            "name": "Example Project",
-            "symbol": "EXMP",
-            "decimals": 18
-        },
-        {
-            "chainId": 10,
-            "address": "0x6900000000000000000000000000000000000420",
-            "name": "Example Project",
-            "symbol": "EXMP",
-            "decimals": 18
-        },
-        {
-            "chainId": 42,
-            "address": "0x6900000000000000000000000000000000000420",
-            "name": "Example Project",
-            "symbol": "EXMP",
-            "decimals": 18
-        },
-        {
-            "chainId": 69,
-            "address": "0x6900000000000000000000000000000000000420",
-            "name": "Example Project",
-            "symbol": "EXMP",
-            "decimals": 18
-        }
-    ]
+  "name": "Example Project Name",
+  "website": "https://example-project.io",
+  "twitter": "https://twitter.com/example-project",
+  "logoURI": "https://ethereum-optimism.github.io/logos/example.png",
+  "description": "A description of your project under 150 chars",
+  "token": [
+    {
+      "chainId": 1,
+      "address": "0x6900000000000000000000000000000000000420",
+      "name": "Example Project",
+      "symbol": "EXMP",
+      "decimals": 18
+    },
+    {
+      "chainId": 10,
+      "address": "0x6900000000000000000000000000000000000420",
+      "name": "Example Project",
+      "symbol": "EXMP",
+      "decimals": 18
+    },
+    {
+      "chainId": 42,
+      "address": "0x6900000000000000000000000000000000000420",
+      "name": "Example Project",
+      "symbol": "EXMP",
+      "decimals": 18
+    },
+    {
+      "chainId": 69,
+      "address": "0x6900000000000000000000000000000000000420",
+      "name": "Example Project",
+      "symbol": "EXMP",
+      "decimals": 18
+    }
+  ]
 }

@@ -17,13 +17,13 @@ async function main() {
         }
     );
 
-    await asyncWriteFile(updatedTokensList);
+    writeFile("./optimism.tokenlist.json", updatedTokensList);
 }
 
-async function asyncWriteFile( data: any) {
+function writeFile(path: any, data: any) {
     try {
         let stringData = JSON.stringify(data)
-        fs.writeFileSync("./optimism.tokenlist.json", stringData, {
+        fs.writeFileSync(path, stringData, {
         flag: 'w',
       });
     } catch (err) {
