@@ -1,10 +1,12 @@
 import tokenList from "../optimism.tokenlist.json";
-import { promises as fsPromises } from 'fs';
+import fs from 'fs';
 
 async function main() {
-    let tokens = tokenList.tokens;
+    let updatedTokensList = tokenList;
 
-    tokens.sort(
+    console.log(updatedTokensList)
+
+    updatedTokensList.tokens.sort(
         function(a, b) {         
             let aName = a.name.toLowerCase();
             let bName = b.name.toLowerCase();
@@ -15,13 +17,13 @@ async function main() {
         }
     );
 
-    await asyncWriteFile(tokens);
+    await asyncWriteFile(updatedTokensList);
 }
 
 async function asyncWriteFile( data: any) {
     try {
         let stringData = JSON.stringify(data)
-      await fsPromises.writeFile("./scripts/orderedList.json", stringData, {
+        fs.writeFileSync("./optimism.tokenlist.json", stringData, {
         flag: 'w',
       });
     } catch (err) {

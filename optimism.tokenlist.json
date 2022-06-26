@@ -1579,9 +1579,5 @@
       "logoURI": "https://ethereum-optimism.github.io/logos/WETH.png"
     }
   ],
-  "version": {
-    "major": 4,
-    "minor": 3,
-    "patch": 0
-  }
+  "version": { "major": 4, "minor": 3, "patch": 0 }
 }
