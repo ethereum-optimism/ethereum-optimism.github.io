@@ -4,7 +4,7 @@
   "twitter": "https://twitter.com/example-project",
   "logoURI": "https://ethereum-optimism.github.io/logos/example.png",
   "description": "A description of your project under 150 chars",
-  "token": [
+  "tokens": [
     {
       "chainId": 1,
       "address": "0x6900000000000000000000000000000000000420",
