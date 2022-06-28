@@ -7,11 +7,17 @@
   "tokens": [
     {
       "chainId": 42,
-      "address": "0x8e4d1588a1F3aa57875B3c8B328935513dB72f81"
+      "address": "0x8e4d1588a1F3aa57875B3c8B328935513dB72f81",
+      "name": "Example Project",
+      "symbol": "EXMP",
+      "decimals": 18
     },
     {
       "chainId": 69,
-      "address": "0x23aA4268E0CBb0F1c83DcA7c413b9f0C4a448A2B"
+      "address": "0x23aA4268E0CBb0F1c83DcA7c413b9f0C4a448A2B",
+      "name": "Example Project",
+      "symbol": "EXMP",
+      "decimals": 18
     }
   ]
 }

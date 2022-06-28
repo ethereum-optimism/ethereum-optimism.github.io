@@ -11,25 +11,30 @@ var args = process.argv.slice(2);
 
 // FUTURE add flag to validate a single project passed in or all projects
 
-export const chainIds = {
-  MAINNET_L1: 1,
-  MAINNET_L2: 10,
-  KOVAN_L1: 42,
-  KOVAN_L2: 69
+export const network = {
+  MAINNET: 1,
+  OP_MAINNET: 10,
+  KOVAN: 42,
+  OP_KOVAN: 69
 };
 
+const networkMainnet = 1;
+const networkOptimism = 10;
+const networkKovan = 42;
+const networkOpKovan = 69;
+
 export const oppositeChainIdMap = {
-  [chainIds.MAINNET_L1]: chainIds.MAINNET_L2,
-  [chainIds.KOVAN_L1]: chainIds.KOVAN_L2,
-  [chainIds.MAINNET_L2]: chainIds.MAINNET_L1,
-  [chainIds.KOVAN_L2]: chainIds.KOVAN_L1
+  [network.MAINNET]: network.OP_MAINNET,
+  [network.KOVAN]: network.OP_KOVAN,
+  [network.OP_MAINNET]: network.MAINNET,
+  [network.OP_KOVAN]: network.KOVAN
 };
 
 export const chainIdLayerMap = {
-  [chainIds.MAINNET_L1]: 1,
-  [chainIds.KOVAN_L1]: 1,
-  [chainIds.MAINNET_L2]: 2,
-  [chainIds.KOVAN_L2]: 2
+  [network.MAINNET]: 1,
+  [network.KOVAN]: 1,
+  [network.OP_MAINNET]: 2,
+  [network.OP_KOVAN]: 2
 };
 
 const infuraKey = process.env.INFURA_KEY || "84842078b09946638c03157f83405213";
@@ -185,6 +190,49 @@ function writeFile(path: any, data: any) {
   } catch (err) {
     console.log(err);
     return 'Something went wrong';
+  }
+}
+
+function checkConfig(tokens: Array<TokenListing>) {
+  if(tokens.length > 4) {
+    throw Error("Max tokens provided is greater than 4.\n" + 
+      "Potential Fix: There are only 4 valid chains for token listing. " + 
+      "Ethereum mainnet, Optimism mainnet, Kovan testnet and Optimism Kovan testnet. " +
+      "Please check your provided addresses and make the necessary corrections."
+    );
+  } else if(tokens.length == 4) {
+    if(
+      tokens[0].chainId == network.MAINNET &&
+      tokens[1].chainId == network.OP_MAINNET &&
+      tokens[2].chainId == network.KOVAN &&
+      tokens[3].chainId == network.OP_KOVAN 
+    ) {
+      console.log("Success: Token configuration valid. Configuration: Full token suit");
+    } else {
+      throw Error("Tokens provided are not a valid configuration\n" + 
+        "Potential Fix: Please see the README for valid token network configurations."
+      );
+    }
+  } else if(tokens.length == 2) {
+    if(
+      tokens[0].chainId == network.OP_MAINNET &&
+      tokens[1].chainId == network.OP_KOVAN
+    ) {
+      console.log("Success: Token configuration valid. Configuration: Unbridgeable");
+    } else if(
+      tokens[0].chainId == network.KOVAN &&
+      tokens[1].chainId == network.OP_KOVAN
+    ) {
+      console.log("Success: Token configuration valid. Configuration: Testing");
+    } else {
+      throw Error("Tokens provided are not a valid configuration\n" + 
+        "Potential Fix: Please see the README for valid token network configurations."
+      );
+    }
+  } else {
+    throw Error("Tokens provided are not a valid configuration\n" + 
+      "Potential Fix: Please see the README for valid token network configurations."
+    );
   }
 }
 
