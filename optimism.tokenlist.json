@@ -1578,7 +1578,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/BICO.png",
       "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
       }
     },
     {
@@ -1611,7 +1611,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/BICO.png",
       "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
       }
     }
   ],
