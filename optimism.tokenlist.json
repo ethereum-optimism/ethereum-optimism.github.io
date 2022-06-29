@@ -1618,6 +1618,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 42,
+      "address": "0xC99Fc8E8852e5BaB249174a983688c7F28065fB7",
+      "name": "KIDDO",
+      "symbol": "KIDDO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/KIDDO.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x0E150963D01e8453B7099a3C032345527A4BAfFD",
+      "name": "KIDDO",
+      "symbol": "KIDDO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/KIDDO.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
