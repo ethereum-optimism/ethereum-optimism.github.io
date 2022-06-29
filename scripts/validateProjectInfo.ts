@@ -126,6 +126,8 @@ async function main() {
 
     formattedTokens.push(onchainListing);
   }
+
+  let result = formattedFile(newToken, formattedTokens);
   console.log(formattedTokens);
 
   // const result = opTokenList.tokens.find( ({ address }) => address === token.address );
@@ -146,10 +148,53 @@ async function main() {
   // writeFile("./projects/standard-bridge/example.json", newToken);
 }
 
-// function formattedFile(
-//   originalFile: any,
+function formattedFile(
+  originalFile: any,
+  tokens: Array<TokenListing>
+):string {
+  let formattedTokens = ``;
+  tokens.forEach(token => {
+    let formattedToken:string = formatToken(token);
+    formattedTokens = formattedTokens + `${formattedToken},`
+  });
+  formattedTokens = `[` + formattedTokens + `]`;
+  console.log(formattedTokens);
 
-// )
+  let fullFile = `
+    {
+      "name": "${originalFile.name}",
+      "website": "${originalFile.website}",
+      "twitter": "${originalFile.twitter}",
+      "logoURI": "${originalFile.logoURI}",
+      "description": "${originalFile.description}",
+      "tokens": [
+
+      ]
+    }
+  `;
+  return "";
+}
+
+function formatToken(
+  token: TokenListing
+):string {
+  let formattedToken = `
+    {
+      "chainId": ${token.chainId},
+      "address": "${token.address}",
+      "name": "${token.name}",
+      "symbol": "${token.symbol}",
+      "decimals": ${token.decimals},
+      "logoURI": "${token.logoURI}",
+  `;
+
+  if(token.extensions != undefined) {
+    formattedToken = formattedToken + `"extensions": ${token.extensions}}`
+  } else {
+    formattedToken = formattedToken + `}`;
+  }
+  return formattedToken;
+}
 
 async function setBridgeAddresses(
   onchainListing: TokenListing,
