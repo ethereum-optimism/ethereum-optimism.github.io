@@ -20,7 +20,7 @@
   "devDependencies": {},
   "scripts": {
     "validate": "ts-node src/validate.ts",
-    "validatep": "ts-node scripts/validateProjectInfo.ts",
+    "validatep": "ts-node scripts/validateProjectInfo.ts && yarn lint-fix",
     "order": "ts-node scripts/orderList.ts && yarn lint-fix",
     "validateProject": "ts-node scripts/validateProjectInfo.ts",
     "lint-fix": "yarn prettier --write",

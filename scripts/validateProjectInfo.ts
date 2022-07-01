@@ -127,8 +127,9 @@ async function main() {
     formattedTokens.push(onchainListing);
   }
 
-  let result = formattedFile(newToken, formattedTokens);
-  console.log(formattedTokens);
+  let formattedFile = formatFile(newToken, formattedTokens);
+  // console.log(formattedTokens);
+  console.log(formattedFile);
 
   // const result = opTokenList.tokens.find( ({ address }) => address === token.address );
   // if(result != undefined) {
@@ -145,20 +146,29 @@ async function main() {
   // checkConfig([projectTokenKovan, projectTokenOpKovan]);
 
   // Writes verified data to file.
-  // writeFile("./projects/standard-bridge/example.json", newToken);
+
+  writeFile("./projects/standard-bridge/example.json", formattedFile);
 }
 
-function formattedFile(
+function formatFile(
   originalFile: any,
   tokens: Array<TokenListing>
 ):string {
   let formattedTokens = ``;
-  tokens.forEach(token => {
+  // tokens.forEach(token => {
+  //   let formattedToken:string = formatToken(token);
+  //   formattedTokens = formattedTokens + `${formattedToken},`
+  // });
+  for (let index = 0; index < tokens.length; index++) {
+    const token = tokens[index];
     let formattedToken:string = formatToken(token);
-    formattedTokens = formattedTokens + `${formattedToken},`
-  });
-  formattedTokens = `[` + formattedTokens + `]`;
-  console.log(formattedTokens);
+    if(index != tokens.length) {
+      formattedTokens = formattedTokens + `${formattedToken},`
+    } else {
+      formattedTokens = formattedTokens + `${formattedToken}`
+    }
+  }
+  // console.log(formattedTokens);
 
   let fullFile = `
     {
@@ -168,11 +178,11 @@ function formattedFile(
       "logoURI": "${originalFile.logoURI}",
       "description": "${originalFile.description}",
       "tokens": [
-
+        ${formattedTokens}
       ]
     }
   `;
-  return "";
+  return fullFile;
 }
 
 function formatToken(
@@ -348,22 +358,21 @@ function readFile(path: any) {
   try {
     fs.readFileSync(path, { encoding: "utf8", flag: "r" });
   } catch (err) {
-    console.log(err);
-    // TODO throw a real error
-    return "Something went wrong reading the file.";
+    throw Error("Unable to read file.\n" + 
+      "Potential Fix: Please ensure your file is named correctly and located in the correct folder."
+    );
   }
 }
 
-function writeFile(path: any, data: any) {
+function writeFile(path: any, data: string) {
   try {
-    let stringData = JSON.stringify(data);
-    fs.writeFileSync(path, stringData, {
+    fs.writeFileSync(path, data, {
       flag: "w"
     });
   } catch (err) {
-    console.log(err);
-    // TODO throw a real error
-    return "Something went wrong";
+    throw Error("Unable to write to file.\n" + 
+      "Potential Fix: Please ensure your file is named correctly and located in the correct folder."
+    );
   }
 }
 
