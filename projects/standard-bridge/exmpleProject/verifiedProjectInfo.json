@@ -1,0 +1,31 @@
+{
+  "name": "Example Project Name",
+  "website": "https://example-project.io",
+  "twitter": "https://twitter.com/example-project",
+  "logoURI": "https://ethereum-optimism.github.io/logos/example.png",
+  "description": "A description of your project under 150 chars",
+  "tokens": [
+    {
+      "chainId": 42,
+      "address": "0x8e4d1588a1F3aa57875B3c8B328935513dB72f81",
+      "name": "Example Token",
+      "symbol": "XTKN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/example.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x23aA4268E0CBb0F1c83DcA7c413b9f0C4a448A2B",
+      "name": "Example Token",
+      "symbol": "XTKN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/example.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    }
+  ]
+}

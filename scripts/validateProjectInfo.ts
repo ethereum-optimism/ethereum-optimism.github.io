@@ -5,10 +5,10 @@ import { providers, Contract } from "ethers";
 import tokenInterface from "../src/tokenInterface.json";
 import opTokenList from "../optimism.tokenlist.json";
 // TODO this needs to go
-import newTokenFile from "../projects/standard-bridge/example.json";
 import fetch from "node-fetch";
+import newTokenFile from "../projects/standard-bridge/exmpleProject/projectInfo.json";
 
-// var args = process.argv.slice(2);
+dotenv.config();
 
 // FUTURE add flag to validate a single project passed in or all projects
 
@@ -88,19 +88,21 @@ type TokenListing = {
   extensions?: string;
 };
 
+let filePath = './projects/standard-bridge/';
+
 async function main() {
-  // console.log(args)
+  let fileName = process.env.PROJECT_FILE_NAME;
 
-  // TODO get file in here
-  // let filePath = './projects/standard-bridge/' + args[1];
-  // console.log(filePath)
-  // let resolvedPath = path.resolve(filePath);
-  // readFile(resolvedPath);
-  // const recipientsObject = JSON.parse(fs.readFileSync(options.input, { encoding: "utf8" }));
-  // Getting their supplied token data
-  let newToken = newTokenFile;
+  filePath = './projects/standard-bridge/' + fileName + '/';
+  
+  let projectInfoPath = filePath + '/projectInfo.json';
+  let resolvedPath = path.resolve(projectInfoPath);
+  let receivedFile = readFile(resolvedPath);
+  // let parsedFile 
 
-  // TODO verify off chain data
+  let newToken = JSON.parse(receivedFile);
+
+  // // TODO verify off chain data
 
   let tokenChains:Array<number> = new Array;
   for(const token of newToken.tokens) {
@@ -129,7 +131,10 @@ async function main() {
 
   let formattedFile = formatFile(newToken, formattedTokens);
 
-  writeFile("./projects/standard-bridge/example.json", formattedFile);
+  let verifiedProjectInfo = filePath + 'verifiedProjectInfo.json';
+  console.log(verifiedProjectInfo)
+
+  writeFile(verifiedProjectInfo, formattedFile);
 }
 
 function formatFile(
@@ -270,7 +275,9 @@ async function getOnchainInfo(onchainListing: TokenListing): Promise<TokenListin
     console.log("Deployed on an L1");
   } else {
     throw Error("Token not deployed by ERC20 factory.\n" + 
-      "Potential Fix: Please use the appropriate token adder as specified in the base README."
+      "Potential Fix: We use Etherscan to get deployer addresses. Sometimes this gets rate limited, " + 
+      "try again in a minute. If that does not work check Etherscan is live for all required networks. " +
+      "Please use the appropriate token adder as specified in the base README."
     );
   }
   return onchainListing;
@@ -330,9 +337,10 @@ function checkConfig(tokens: Array<number>): validConfiguration {
   }
 }
 
-function readFile(path: any) {
+function readFile(path: any): any {
   try {
-    fs.readFileSync(path, { encoding: "utf8", flag: "r" });
+    const data = fs.readFileSync(path, {encoding:'utf8', flag:'r'});
+    return data;
   } catch (err) {
     throw Error("Unable to read file.\n" + 
       "Potential Fix: Please ensure your file is named correctly and located in the correct folder."
