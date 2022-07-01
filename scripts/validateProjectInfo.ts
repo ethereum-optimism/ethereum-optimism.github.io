@@ -128,24 +128,6 @@ async function main() {
   }
 
   let formattedFile = formatFile(newToken, formattedTokens);
-  // console.log(formattedTokens);
-  console.log(formattedFile);
-
-  // const result = opTokenList.tokens.find( ({ address }) => address === token.address );
-  // if(result != undefined) {
-  //   // TODO check if info is the same in case script has been run before
-  //   throw Error("Token address already listed! Please use update not add.");
-  // }
-
-  // Checking config is valid
-  // A valid config is defined in the README as one of three:
-  // - Testing (Kovan & Optimism Kovan)
-  // - Unbridgeable (Optimism & Optimism Kovan)
-  // - Full suite (Ethereum mainnet, Optimism, Kovan & Optimism Kovan)
-  // Any other configuration will result in a detailed error message.
-  // checkConfig([projectTokenKovan, projectTokenOpKovan]);
-
-  // Writes verified data to file.
 
   writeFile("./projects/standard-bridge/example.json", formattedFile);
 }
@@ -155,10 +137,6 @@ function formatFile(
   tokens: Array<TokenListing>
 ):string {
   let formattedTokens = ``;
-  // tokens.forEach(token => {
-  //   let formattedToken:string = formatToken(token);
-  //   formattedTokens = formattedTokens + `${formattedToken},`
-  // });
   for (let index = 0; index < tokens.length; index++) {
     const token = tokens[index];
     let formattedToken:string = formatToken(token);
@@ -168,7 +146,6 @@ function formatFile(
       formattedTokens = formattedTokens + `${formattedToken}`
     }
   }
-  // console.log(formattedTokens);
 
   let fullFile = `
     {
@@ -264,7 +241,6 @@ async function getOnchainInfo(onchainListing: TokenListing): Promise<TokenListin
     onchainListing.symbol = await contract.symbol();
     onchainListing.decimals = Number(await contract.decimals());
   } catch (error) {
-    console.log(error);
     throw Error(
       "Unable to fetch token name, symbol or decimal. " +
         "\nPotential Fix: Ensure your token contract conforms to the ERC20 standard. " +
