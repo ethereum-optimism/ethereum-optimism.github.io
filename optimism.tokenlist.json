@@ -1518,10 +1518,7 @@
       "name": "Optimism",
       "symbol": "OP",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/OP.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
-      }
+      "logoURI": "https://ethereum-optimism.github.io/logos/OP.png"
     },
     {
       "chainId": 69,
@@ -1580,13 +1577,46 @@
     },
     {
       "chainId": 1,
-      "address": "0x3258cd8134b6b28e814772dd91d5ecceea512818",
-      "name": "Land",
-      "symbol": "LAND",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/LAND.png",
+      "address": "0xbb9bc244d798123fde783fcc1c72d3bb8c189413",
+      "name": "TheDAO",
+      "symbol": "TheDAO",
+      "decimals": 16,
+      "logoURI": "https://ethereum-optimism.github.io/logos/theDAO.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xd8f365c2c85648f9b89d9f1bf72c0ae4b1c36cfd",
+      "name": "TheDAO",
+      "symbol": "TheDAO",
+      "decimals": 16,
+      "logoURI": "https://ethereum-optimism.github.io/logos/theDAO.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x8274ea38fe9bea66f8e7c6f3ef742b85d86aeb5d",
+      "name": "TheDAO",
+      "symbol": "TheDAO",
+      "decimals": 16,
+      "logoURI": "https://ethereum-optimism.github.io/logos/theDAO.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x35597dC6f8fDc81d71b311A9E4e2710ef6accb68",
+      "name": "TheDAO",
+      "symbol": "TheDAO",
+      "decimals": 16,
+      "logoURI": "https://ethereum-optimism.github.io/logos/theDAO.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     },
     {
