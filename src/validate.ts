@@ -144,7 +144,8 @@ const validateBridgeAddress = async currentChainTokenData => {
           `Bridge address invalid for ${currentChainTokenData.symbol}: ${currentChainTokenData.extensions.optimismBridgeAddress}`
         );
       }
-    } catch {
+    } catch(e) {
+      console.error(e)
       throw Error(
         `Bridge validation error for ${currentChainTokenData.symbol}`
       );
