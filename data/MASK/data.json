@@ -1,0 +1,9 @@
+{
+  "name": "Mask Network",
+  "symbol": "MASK",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": "0x69af81e73a73b40adf4f3d4223cd9b1ece623074",
+    "optimism": "0x3390108E913824B8eaD638444cc52B9aBdF63798"
+  }
+}

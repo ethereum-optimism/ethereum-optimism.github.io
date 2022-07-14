@@ -1,0 +1,11 @@
+{
+  "name": "Ether",
+  "symbol": "ETH",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": "0x0000000000000000000000000000000000000000",
+    "optimism": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+    "kovan": "0x0000000000000000000000000000000000000000",
+    "optimism-kovan": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
+  }
+}

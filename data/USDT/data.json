@@ -1,0 +1,11 @@
+{
+  "name": "Tether USD",
+  "symbol": "USDT",
+  "decimals": 6,
+  "tokens": {
+    "ethereum": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "optimism": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+    "kovan": "0xe0BB0D3DE8c10976511e5030cA403dBf4c25165B",
+    "optimism-kovan": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607"
+  }
+}
