@@ -4,11 +4,130 @@ The Optimism token list is used as the source of truth for the [Optimism Gateway
 
 ## Adding a token to the list
 
-To add a token to the token list, we'll need the following:
+### Create a folder for your token
 
-- Token logo image - the asset should be a PNG of 200x200 pt minimum, preferably 256x256 pt. This should be added to the [logos](https://github.com/ethereum-optimism/ethereum-optimism.github.io/tree/master/logos) folder. 
-- A kovan test token instance that is representative of the L1 token.
-- A compliant L2 token - details how to add one are here https://community.optimism.io/docs/developers/bridge/standard-bridge.html#adding-an-erc20-token-to-the-standard-bridge
-- Grant our test account `0xe3a90926133fef3c58514fA1aAeF75E0998aedD5` permissions to mint tokens for testing on kovan or transfer us an amount we can use.
+Create a folder inside of the [data folder](./data) with the same name as the symbol of the token you are trying to add. For example, if you are adding a token with the symbol "ETH" you must create a folder called ETH.
 
-Once you have completed testing and the above steps, you can submit a PR providing the addresses of the L1/L2 token pairs on both kovan and mainnet. Note that all contracts should be verified in Etherscan. If you're looking for an example to follow, take a look at [this simple pull request that adds a token to the token list](https://github.com/ethereum-optimism/ethereum-optimism.github.io/pull/59/files).
+### Add a logo to your folder
+
+Add a logo to the data folder you just created. Your logo MUST be an SVG called `logo.svg`. Your logo should be at least 200x200 pt minimum and 256x256 pt preferred.
+
+### Create a data file
+
+Add a file to your folder called `data.json` with the following format:
+
+```json
+{
+  "name": "Token Name",
+  "symbol": "SYMBOL",
+  "decimals": 18,
+  "description": "A multi-chain token",
+  "website": "https://token.com",
+  "twitter": "@token",
+  "tokens": {
+    "ethereum": {
+      "address": "0x1234123412341234123412341234123412341234"
+    },
+    "optimism": {
+      "address": "0x2345234523452345234523452345234523452345"
+    },
+    "kovan": {
+      "address": "0x3456345634563456345634563456345634563456"
+    },
+    "optimism-kovan": {
+      "address": "0x4567456745674567456745674567456745674567"
+    },
+    "goerli": {
+      "address": "0x5678567856785678567856785678567856785678"
+    },
+    "optimism-goerli": {
+      "address": "0x6789678967896789678967896789678967896789"
+    }
+  }
+}
+```
+
+Please include the token addresses for *all* chains where the token you are submitting has been deployed.
+We currently accept tokens on the following chains:
+
+- `ethereum`
+- `optimism`
+- `kovan`
+- `optimism-kovan`
+- `goerli`
+- `optimism-goerli`
+
+#### Non-bridgable tokens
+
+If you would like to add your token to this token list but you do not want your token to be included on the Optimism Bridge app, please include the `nobridge` option.
+
+```json
+{
+  "name": "Token Name",
+  "symbol": "SYMBOL",
+  "decimals": 18,
+  "description": "A multi-chain token",
+  "website": "https://token.com",
+  "twitter": "@token",
+  "nobridge": true,
+  "tokens": {
+    ...
+  }
+}
+```
+
+#### Non-standard tokens
+
+If your token is not a standard ERC20 (e.g., DSToken), please include the `nonstandard` option.
+
+```json
+{
+  "name": "Token Name",
+  "symbol": "SYMBOL",
+  "decimals": 18,
+  "description": "A multi-chain token",
+  "website": "https://token.com",
+  "twitter": "@token",
+  "nonstandard": true,
+  "tokens": {
+    ...
+  }
+}
+```
+
+#### Per-token overrides
+
+If you require overrides for specific tokens, you can include the `overrides` field. You are able to override the `name`, `symbol`, `decimals`, or `bridge` for any token. You do not need to override every token at the same time.
+
+```json
+{
+  "name": "Token Name",
+  "symbol": "SYMBOL",
+  "decimals": 18,
+  "description": "A multi-chain token",
+  "website": "https://token.com",
+  "twitter": "@token",
+  "tokens": {
+    "ethereum": {
+      "address": "0x1234123412341234123412341234123412341234",
+      "overrides": {
+        "name": "My Ethereum Token"
+      }
+    },
+    "optimism": {
+      "address": "0x2345234523452345234523452345234523452345",
+      "overrides": {
+        "bridge": "0x1111111111111111111111111111111111111111"
+      }
+    }
+  }
+}
+```
+
+### Create a pull request
+
+Open a [pull request](https://github.com/ethereum-optimism/ethereum-optimism.github.io/pulls) with the changes that you've made. Please only add one token per pull request to simplify the review process. This means two new files inside of one new folder. If you want to add multiple tokens, please open different PRs for each token.
+
+### Respond to validation checks
+
+Your pull request will be validated by a series of automated checks. If one of these checks fails, please resolve these issues and make sure that validation succeeds. We will review your pull request for final approval once automated validation succeeds.

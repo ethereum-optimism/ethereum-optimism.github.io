@@ -1,0 +1,19 @@
+{
+  "name": "0xBitcoin",
+  "symbol": "0xBTC",
+  "decimals": 8,
+  "tokens": {
+    "ethereum": {
+      "address": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31"
+    },
+    "optimism": {
+      "address": "0xe0BB0D3DE8c10976511e5030cA403dBf4c25165B"
+    },
+    "kovan": {
+      "address": "0x24a19ee5a5c8757acdebe542a9436d9c796d1c9e"
+    },
+    "optimism-kovan": {
+      "address": "0x56B4F5f44d348EC3F07Bf1f31A3B566E5304BedE"
+    }
+  }
+}

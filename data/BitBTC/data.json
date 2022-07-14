@@ -1,0 +1,31 @@
+{
+  "name": "BitBTC",
+  "symbol": "BitBTC",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x3C513dB8Bdc3806e4489d62C3d549A5Aaf6A4e97",
+      "overrides": {
+        "bridge": "0xaBA2c5F108F7E820C049D5Af70B16ac266c8f128"
+      }
+    },
+    "optimism": {
+      "address": "0xc98B98d17435AA00830c87eA02474C5007E1f272",
+      "overrides": {
+        "bridge": "0x158F513096923fF2d3aab2BcF4478536de6725e2"
+      }
+    },
+    "kovan": {
+      "address": "0xF6DD2A9B840826D53c9842207628502B79E6B8c2",
+      "overrides": {
+        "bridge": "0x0b651A42F32069d62d5ECf4f2a7e5Bd3E9438746"
+      }
+    },
+    "optimism-kovan": {
+      "address": "0x83643C9eF0c5707A7815124754d0828c9A38be3a",
+      "overrides": {
+        "bridge": "0x0CFb46528a7002a7D8877a5F7a69b9AaF1A9058e"
+      }
+    }
+  }
+}

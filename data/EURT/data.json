@@ -1,0 +1,13 @@
+{
+  "name": "Tether EUR",
+  "symbol": "EURT",
+  "decimals": 6,
+  "tokens": {
+    "kovan": {
+      "address": "0x50EB44e3a68f1963278b4c74c6c343508d31704C"
+    },
+    "optimism-kovan": {
+      "address": "0x65e44970ebFe42f98F83c4B67062DE94B9f3Da7D"
+    }
+  }
+}

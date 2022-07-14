@@ -1,0 +1,20 @@
+{
+  "name": "dForce",
+  "symbol": "DF",
+  "decimals": 18,
+  "nonstandard": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x431ad2ff6a9C365805eBaD47Ee021148d6f7DBe0"
+    },
+    "optimism": {
+      "address": "0x9e5AAC1Ba1a2e6aEd6b32689DFcF62A509Ca96f3"
+    },
+    "kovan": {
+      "address": "0x79E40d67DA6eAE5eB4A93Fc6a56A7961625E15F3"
+    },
+    "optimism-kovan": {
+      "address": "0x3e7eF8f50246f725885102E8238CBba33F276747"
+    }
+  }
+}

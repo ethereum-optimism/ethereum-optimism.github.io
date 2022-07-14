@@ -1,0 +1,19 @@
+{
+  "name": "SPANK",
+  "symbol": "SPANK",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x42d6622dece394b54999fbd73d108123806f6a18"
+    },
+    "optimism": {
+      "address": "0xcfD1D50ce23C46D3Cf6407487B2F8934e96DC8f9"
+    },
+    "kovan": {
+      "address": "0x2eA8f9B29AC1d70e01AE9D23d0451D2242e8d609"
+    },
+    "optimism-kovan": {
+      "address": "0xcfD1D50ce23C46D3Cf6407487B2F8934e96DC8f9"
+    }
+  }
+}

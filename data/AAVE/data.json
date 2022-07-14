@@ -1,0 +1,19 @@
+{
+  "name": "Aave Token",
+  "symbol": "AAVE",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+    },
+    "optimism": {
+      "address": "0x76FB31fb4af56892A25e32cFC43De717950c9278"
+    },
+    "kovan": {
+      "address": "0x9BE876c6DC42215B00d7efe892E2691C3bc35d10"
+    },
+    "optimism-kovan": {
+      "address": "0x76FB31fb4af56892A25e32cFC43De717950c9278"
+    }
+  }
+}

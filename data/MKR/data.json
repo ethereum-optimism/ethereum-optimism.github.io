@@ -1,0 +1,14 @@
+{
+  "name": "Maker",
+  "symbol": "MKR",
+  "decimals": 18,
+  "nonstandard": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+    },
+    "optimism": {
+      "address": "0xab7badef82e9fe11f6f33f87bc9bc2aa27f2fcb5"
+    }
+  }
+}
