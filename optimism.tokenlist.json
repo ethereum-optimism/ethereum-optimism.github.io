@@ -180,6 +180,51 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     },
+
+    {
+      "chainId": 42,
+      "address": "0x6D1c1B67F4767D47d85D28466a9f60F126f46C93",
+      "name": "Peculi Gold",
+      "symbol": "PECS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/pecs.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x6D1c1B67F4767D47d85D28466a9f60F126f46C93",
+      "name": "Peculi Gold",
+      "symbol": "PECS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/pecs.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x8cDc322a228F076938f2381aa575beF9555e9f84",
+      "name": "Peculi Gold",
+      "symbol": "PECS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/pecs.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x8cDc322a228F076938f2381aa575beF9555e9f84",
+      "name": "Peculi Gold",
+      "symbol": "PECS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/pecs.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
     {
       "chainId": 42,
       "address": "0x24a19ee5a5c8757acdebe542a9436d9c796d1c9e",
