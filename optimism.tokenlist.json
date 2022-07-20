@@ -313,12 +313,15 @@
       }
     },
     {
-      "chainId": 69,
-      "address": "0xaA5068dC2B3AADE533d3e52C6eeaadC6a8154c57",
+      "chainId": 1,
+      "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
       "name": "Synthetix USD",
       "symbol": "sUSD",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.svg"
+      "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x39Ea01a0298C315d149a490E34B59Dbf2EC7e48F"
+      }
     },
     {
       "chainId": 10,
@@ -326,7 +329,32 @@
       "name": "Synthetix USD",
       "symbol": "sUSD",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.svg"
+      "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x136b1EC699c62b0606854056f02dC7Bb80482d63"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+      "name": "Synthetix USD",
+      "symbol": "sUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xc00E7C2Bd7B0Fb95DbBF10d2d336399A939099ee"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xaA5068dC2B3AADE533d3e52C6eeaadC6a8154c57",
+      "name": "Synthetix USD",
+      "symbol": "sUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/sUSD.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x5b643DFC67f9701929A0b55f23e0Af61df50E75D"
+      }
     },
     {
       "chainId": 42,
