@@ -60,7 +60,10 @@ async function main() {
       if (
         tokenData.address === '0x79E40d67DA6eAE5eB4A93Fc6a56A7961625E15F3' ||
         tokenData.address === '0x431ad2ff6a9C365805eBaD47Ee021148d6f7DBe0' ||
-        tokenData.address === '0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2')
+        tokenData.address === '0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2' ||
+        // Skip theDAO token that was created before ERC20 standard 
+        tokenData.address === '0xbb9bc244d798123fde783fcc1c72d3bb8c189413' ||
+        tokenData.address === '0x8274ea38fe9bea66f8e7c6f3ef742b85d86aeb5d') 
       {
         continue;
       }

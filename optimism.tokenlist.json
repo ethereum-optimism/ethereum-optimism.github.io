@@ -1087,6 +1087,14 @@
       }
     },
     {
+      "chainId": 10,
+      "address": "0x61BAADcF22d2565B0F471b291C475db5555e0b76",
+      "name": "Aelin Protocol",
+      "symbol": "AELIN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/AELIN.png"
+    },
+    {
       "chainId": 42,
       "address": "0x47Aa2a683b88E23c4d76f91Aa4181A59d0E4FBfb",
       "name": "Theranos Coin",
@@ -1510,10 +1518,7 @@
       "name": "Optimism",
       "symbol": "OP",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/OP.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
-      }
+      "logoURI": "https://ethereum-optimism.github.io/logos/OP.png"
     },
     {
       "chainId": 69,
@@ -1571,6 +1576,94 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0xbb9bc244d798123fde783fcc1c72d3bb8c189413",
+      "name": "TheDAO",
+      "symbol": "TheDAO",
+      "decimals": 16,
+      "logoURI": "https://ethereum-optimism.github.io/logos/theDAO.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xd8f365c2c85648f9b89d9f1bf72c0ae4b1c36cfd",
+      "name": "TheDAO",
+      "symbol": "TheDAO",
+      "decimals": 16,
+      "logoURI": "https://ethereum-optimism.github.io/logos/theDAO.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x8274ea38fe9bea66f8e7c6f3ef742b85d86aeb5d",
+      "name": "TheDAO",
+      "symbol": "TheDAO",
+      "decimals": 16,
+      "logoURI": "https://ethereum-optimism.github.io/logos/theDAO.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x35597dC6f8fDc81d71b311A9E4e2710ef6accb68",
+      "name": "TheDAO",
+      "symbol": "TheDAO",
+      "decimals": 16,
+      "logoURI": "https://ethereum-optimism.github.io/logos/theDAO.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/TUSD.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xcB59a0A753fDB7491d5F3D794316F1adE197B21E",
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/TUSD.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x1794230aBe1995fcFe6B14865D4B6928121AB9d9",
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/TUSD.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xFa956eB0c4b3E692aD5a6B2f08170aDE55999ACa",
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/TUSD.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
       "chainId": 42,
       "address": "0xa88751C0a08623E11ff38c6B70F2BbEe7865C17c",
       "name": "Wrapped liquid staked Ether 2.0",
@@ -1578,18 +1671,18 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/wstETH.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x460b0E62190fFf42a6ee3855F905788D596E0879"
+        "optimismBridgeAddress": "0x65321bf24210b81500230dCEce14Faa70a9f50a7"
       }
     },
     {
       "chainId": 69,
-      "address": "0x920c8F2839C47A1e518D6A5Ad06e7e58D6EdB85B",
+      "address": "0xF9C842dE4381a70eB265d10CF8D43DceFF5bA935",
       "name": "Wrapped liquid staked Ether 2.0",
       "symbol": "wstETH",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/wstETH.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x491dB42FC78D8393Db7a8AC77BFF68d2CfFb1457"
+        "optimismBridgeAddress": "0x2E34e7d705AfaC3C4665b6feF31Aa394A1c81c92"
       }
     }
   ],
