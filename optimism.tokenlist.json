@@ -1675,12 +1675,34 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
+      "name": "Decentralized USD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDD.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0xaf8ca653fa2772d58f4368b0a71980e9e3ceb888",
       "name": "Tellor",
       "symbol": "TRB",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/TRB.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+     {
+      "chainId": 10,
+      "address": "0x7113370218f31764C1B6353BDF6004d86fF6B9cc",
+      "name": "Decentralized USD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDD.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -1697,12 +1719,56 @@
       }
     },
     {
+      "chainId": 42,
+      "address": "0xae73ddeafc00bc5ad03a96c2b268c3f5325c8d49",
+      "name": "Decentralized USD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDD.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
       "chainId": 69,
       "address": "0xFa956eB0c4b3E692aD5a6B2f08170aDE55999ACa",
-      "name": "TrueUSD",
-      "symbol": "TUSD",
+      "name": "Tellor",
+      "symbol": "TRB",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/TRB.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    }, 
+    {
+      "chainId": 69,
+      "address": "0x1f9bd96ddb4bd07d6061f8933e9ba9ede9967550",
+      "name": "Decentralized USD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDD.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },    
+    {
+      "chainId": 42,
+      "address": "0xC13DD39606d4C2489ce5D9806d060FeD9a7d063d",
+      "name": "Land",
+      "symbol": "LAND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LAND.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,      
+      "address": "0x2E2015aa4ac40B083189A03a75AD229dfB10172c",
+      "name": "Land",
+      "symbol": "LAND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LAND.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
