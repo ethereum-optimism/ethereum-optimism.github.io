@@ -1750,6 +1750,17 @@
       "extensions": {
         "optimismBridgeAddress": "0x2E34e7d705AfaC3C4665b6feF31Aa394A1c81c92"
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0xfa956eb0c4b3e692ad5a6b2f08170ade55999aca",
+      "name": "PhunToken",
+      "symbol": "PHTK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/PHTK.png",
+      "extensions": {
+        "optimismBridgeAddress": "0xfa956eb0c4b3e692ad5a6b2f08170ade55999aca"
+      }
     }
   ],
   "version": {
