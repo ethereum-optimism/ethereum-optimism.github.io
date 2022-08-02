@@ -1753,13 +1753,13 @@
     },
     {
       "chainId": 1,
-      "address": "0xfa956eb0c4b3e692ad5a6b2f08170ade55999aca",
+      "address": "0xFa956eB0c4b3E692aD5a6B2f08170aDE55999ACa",
       "name": "PhunToken",
       "symbol": "PHTK",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/logos/PHTK.png",
       "extensions": {
-        "optimismBridgeAddress": "0xfa956eb0c4b3e692ad5a6b2f08170ade55999aca"
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
       }
     }
   ],
