@@ -1706,7 +1706,7 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
-    },    
+    },
     {
       "chainId": 42,
       "address": "0xC13DD39606d4C2489ce5D9806d060FeD9a7d063d",
@@ -1719,7 +1719,7 @@
       }
     },
     {
-      "chainId": 69,      
+      "chainId": 69,
       "address": "0x2E2015aa4ac40B083189A03a75AD229dfB10172c",
       "name": "Land",
       "symbol": "LAND",
@@ -1727,6 +1727,28 @@
       "logoURI": "https://ethereum-optimism.github.io/logos/LAND.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0xa88751C0a08623E11ff38c6B70F2BbEe7865C17c",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/wstETH.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x65321bf24210b81500230dCEce14Faa70a9f50a7"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xF9C842dE4381a70eB265d10CF8D43DceFF5bA935",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/wstETH.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x2E34e7d705AfaC3C4665b6feF31Aa394A1c81c92"
       }
     },
     {
