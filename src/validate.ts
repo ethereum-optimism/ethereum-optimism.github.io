@@ -140,14 +140,15 @@ const validateBridgeAddress = async currentChainTokenData => {
 
     try {
       const oppositeBridgeAddress = await oppositeChainBridge[funcName]();
-      if (currentChainTokenData.extensions.optimismBridgeAddress === oppositeBridgeAddress) {
+      if (currentChainTokenData.extensions.optimismBridgeAddress?.toLowerCase() === oppositeBridgeAddress.toLowerCase()) {
         isValid = true;
       } else {
         throw Error(
           `Bridge address invalid for ${currentChainTokenData.symbol}: ${currentChainTokenData.extensions.optimismBridgeAddress}`
         );
       }
-    } catch {
+    } catch(e) {
+      console.error(e)
       throw Error(
         `Bridge validation error for ${currentChainTokenData.symbol}`
       );
