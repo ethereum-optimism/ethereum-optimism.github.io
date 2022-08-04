@@ -1750,6 +1750,50 @@
       "extensions": {
         "optimismBridgeAddress": "0x2E34e7d705AfaC3C4665b6feF31Aa394A1c81c92"
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x07FA101efde726E0956Edd2c4D5C8d3d1A5E9c53",
+      "name": "Respawn Finance Wrapped Staked Ethereum",
+      "symbol": "RFWSTETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/RFWSTETH.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xeAeAdAC73baaF4cB8B024dE9D65B2eeFa722856C",
+      "name": "Respawn Finance Wrapped Staked Ethereum",
+      "symbol": "RFWSTETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/RFWSTETH.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x891C46986708b3914A00883B72564AB76817799A",
+      "name": "Respawn Finance Wrapped Staked Ethereum",
+      "symbol": "RFWSTETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/RFWSTETH.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x1696baFBe18EFB141823a041E22E43d12B144407",
+      "name": "Respawn Finance Wrapped Staked Ethereum",
+      "symbol": "RFWSTETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/RFWSTETH.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
