@@ -16,6 +16,17 @@
       }
     },
     {
+      "chainId": 5,
+      "address": "0x51f44ca59b867E005e48FA573Cb8df83FC7f7597",
+      "name": "Synthetix",
+      "symbol": "SNX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
       "name": "Synthetix",
@@ -46,6 +57,17 @@
       "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
       "extensions": {
         "optimismBridgeAddress": "0x5b643DFC67f9701929A0b55f23e0Af61df50E75D"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x2E5ED97596a8368EB9E44B1f3F25B2E813845303",
+      "name": "Synthetix",
+      "symbol": "SNX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xD2b3F0Ea40dB68088415412b0043F37B3088836D"
       }
     },
     {
