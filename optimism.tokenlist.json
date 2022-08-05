@@ -16,6 +16,17 @@
       }
     },
     {
+      "chainId": 5,
+      "address": "0x51f44ca59b867E005e48FA573Cb8df83FC7f7597",
+      "name": "Synthetix",
+      "symbol": "SNX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
       "name": "Synthetix",
@@ -46,6 +57,17 @@
       "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
       "extensions": {
         "optimismBridgeAddress": "0x5b643DFC67f9701929A0b55f23e0Af61df50E75D"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x2E5ED97596a8368EB9E44B1f3F25B2E813845303",
+      "name": "Synthetix",
+      "symbol": "SNX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xD2b3F0Ea40dB68088415412b0043F37B3088836D"
       }
     },
     {
@@ -1730,6 +1752,28 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e",
+      "name": "PoolTogether",
+      "symbol": "POOL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/pool.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x395ae52bb17aef68c2888d941736a71dc6d4e125",
+      "name": "PoolTogether",
+      "symbol": "POOL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/pool.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
       "chainId": 42,
       "address": "0xa88751C0a08623E11ff38c6B70F2BbEe7865C17c",
       "name": "Wrapped liquid staked Ether 2.0",
@@ -1749,6 +1793,28 @@
       "logoURI": "https://ethereum-optimism.github.io/logos/wstETH.svg",
       "extensions": {
         "optimismBridgeAddress": "0x2E34e7d705AfaC3C4665b6feF31Aa394A1c81c92"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+      "name": "0x Protocol Token",
+      "symbol": "ZRX",
+      "decimals": 18,
+      "logoURI": "https://github.com/0xProject/branding/blob/master/0x%20Icons/Circle/0x-Icon-Circle-White.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xD1917629B3E6A72E6772Aab5dBe58Eb7FA3C2F33",
+      "name": "0x Protocol Token",
+      "symbol": "ZRX",
+      "decimals": 18,
+      "logoURI": "https://github.com/0xProject/branding/blob/master/0x%20Icons/Circle/0x-Icon-Circle-White.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     },
     {
