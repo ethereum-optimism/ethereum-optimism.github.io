@@ -1730,6 +1730,28 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e",
+      "name": "PoolTogether",
+      "symbol": "POOL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/pool.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x395ae52bb17aef68c2888d941736a71dc6d4e125",
+      "name": "PoolTogether",
+      "symbol": "POOL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/pool.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
       "chainId": 42,
       "address": "0xa88751C0a08623E11ff38c6B70F2BbEe7865C17c",
       "name": "Wrapped liquid staked Ether 2.0",
