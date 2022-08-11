@@ -1845,7 +1845,7 @@
       "name": "aCRV",
       "symbol": "aCRV",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/aCRV.jpeg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/aCRV.png",
       "extensions": {
         "optimismBridgeAddress": "0x38a93e70b0d8343657f802c1c3fdb06ac8f8fe99"
       }
@@ -1856,7 +1856,7 @@
       "name": "aCRV",
       "symbol": "aCRV",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/logos/aCRV.jpeg",
+      "logoURI": "https://ethereum-optimism.github.io/logos/aCRV.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000012"
       }
