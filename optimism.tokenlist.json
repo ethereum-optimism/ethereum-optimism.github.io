@@ -1860,6 +1860,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 42,
+      "address": "0x12b1326459d72f2ab081116bf27ca46cd97762a0",
+      "name": "AladdinCRV",
+      "symbol": "aCRV",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/aCRV.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xf882ac9259a378e102f058f2fb093dffeca96437",
+      "name": "AladdinCRV",
+      "symbol": "aCRV",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/aCRV.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
