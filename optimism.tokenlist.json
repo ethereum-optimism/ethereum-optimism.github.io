@@ -6,6 +6,17 @@
   "tokens": [
     {
       "chainId": 1,
+      "address": "0x2A8f808Ad38E1ed7693fC9459b2177a1fA4A1fE5",
+      "name": "Nonagon",
+      "symbol": "ONA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/ONA.png",
+      "extensions": {
+        "optimismBridgeAddress": "0xfa3e7994c2bd7abb3664dd7bee24edc4714cc6ff"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
       "name": "Synthetix",
       "symbol": "SNX",
