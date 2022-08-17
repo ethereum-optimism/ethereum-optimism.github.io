@@ -1,7 +1,11 @@
 {
   "name": "Optimism",
   "logoURI": "https://ethereum-optimism.github.io/logos/optimism.svg",
-  "keywords": ["scaling", "layer2", "infrastructure"],
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
   "timestamp": "2021-03-22T10:01:21.042+00:00",
   "tokens": [
     {
@@ -1837,6 +1841,39 @@
       "logoURI": "https://ethereum-optimism.github.io/logos/PREMIA.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xf1Dc500FdE233A4055e25e5BbF516372BC4F6871",
+      "name": "Saddle DAO",
+      "symbol": "SDL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/SDL.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xAe31207aC34423C41576Ff59BFB4E036150f9cF7",
+      "name": "Saddle DAO",
+      "symbol": "SDL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/SDL.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x2b7A5a5923ECa5C00c6572Cf3E8e08384F563F93",
+      "name": "Saddle DAO",
+      "symbol": "SDL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/SDL.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
       }
     }
   ],
