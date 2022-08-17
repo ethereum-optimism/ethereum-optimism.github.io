@@ -65,7 +65,7 @@ const generate = async () => {
       logofiles.length === 1,
       `must have exactly one logo file (${folder})`
     );
-    const logoExtension = logo[0].endsWith("png") ? "png" : "svg";
+    const logoExtension = logofiles[0].endsWith("png") ? "png" : "svg";
 
     for (const [chain, token] of Object.entries(data.tokens)) {
       console.log(`validating ${folder} on chain ${chain}`);
