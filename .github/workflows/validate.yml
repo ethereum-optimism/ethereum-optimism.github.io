@@ -37,10 +37,6 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
 
-      - name: Test generate script
-        run: |
-          npm run test
-
       - name: Validate token list
         run: |
           npm run validate
