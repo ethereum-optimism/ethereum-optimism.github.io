@@ -34,6 +34,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
+
       - name: Run Test
         run: |
           npm run test
