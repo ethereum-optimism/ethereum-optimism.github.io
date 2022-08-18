@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
   pull_request:
-    branches: [master, sc/list-v2]
+    branches: [master]
 
 jobs:
   build:
@@ -14,10 +14,6 @@ jobs:
       issues: write
       pull-requests: write
       contents: write
-
-    strategy:
-      matrix:
-        node-version: [16.x]
 
     steps:
       - uses: actions/checkout@v2
