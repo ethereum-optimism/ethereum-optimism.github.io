@@ -10,6 +10,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      issues: write
+      pull-requests: write
+      contents: write
+
     strategy:
       matrix:
         node-version: [16.x]
