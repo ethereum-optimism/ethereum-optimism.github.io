@@ -14,6 +14,12 @@
     },
     "optimism-kovan": {
       "address": "0x4911b761993b9c8c0d14Ba2d86902AF6B0074F5B"
+    },
+    "goerli": {
+      "address": "0x326C977E6efc84E512bB9C30f76E30c160eD06FB"
+    },
+    "optimism-goerli": {
+      "address": "0xdc2CC710e42857672E7907CF474a69B63B93089f"
     }
   }
 }
