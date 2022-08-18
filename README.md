@@ -131,3 +131,7 @@ Open a [pull request](https://github.com/ethereum-optimism/ethereum-optimism.git
 ### Respond to validation checks
 
 Your pull request will be validated by a series of automated checks. If one of these checks fails, please resolve these issues and make sure that validation succeeds. We will review your pull request for final approval once automated validation succeeds.
+
+### Wait for the token list to update automatically
+
+Once your PR is merged, the token list will update automatically to include your token. Please do NOT update the token list directly. All token list updates are handled automatically when PRs are merged into the `master` branch. 
