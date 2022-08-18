@@ -6,11 +6,9 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    if: github.repository == 'ethereum-optimism/ethereum-optimism.github.io'
 
-    strategy:
-      matrix:
-        node-version: [16.x]
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
