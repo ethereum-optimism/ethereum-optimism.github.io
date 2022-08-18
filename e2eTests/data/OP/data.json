@@ -1,0 +1,14 @@
+{
+  "name": "Optimism",
+  "symbol": "OP",
+  "decimals": 18,
+  "nobridge": true,
+  "tokens": {
+    "optimism": {
+      "address": "0x4200000000000000000000000000000000000042"
+    },
+    "optimism-kovan": {
+      "address": "0x4200000000000000000000000000000000000042"
+    }
+  }
+}
