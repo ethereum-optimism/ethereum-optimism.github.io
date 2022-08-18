@@ -9,8 +9,8 @@ test("'generate' script parse data dir and compile correct token list", async ()
   const mockDate = new Date(1660755600000);
   jest.spyOn(global, "Date").mockImplementation(() => mockDate);
 
-  const list = await generate();
-  expect(list).toMatchSnapshot({
+  const tokenList = await generate();
+  expect(tokenList).toMatchSnapshot({
     timestamp: mockDate.toISOString(),
   });
 });

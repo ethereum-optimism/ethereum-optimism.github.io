@@ -13,7 +13,7 @@
   "scripts": {
     "validate": "node ./scripts/validate.js",
     "generate": "node ./scripts/generate.js",
-    "test:e2e": "jest --detectOpenHandles"
+    "test": "jest --detectOpenHandles"
   },
   "dependencies": {
     "@actions/core": "^1.4.0",
