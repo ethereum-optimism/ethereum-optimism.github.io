@@ -1,8 +1,10 @@
-name: Generate Token List
+name: Test Scripts
 
 on:
   push:
     branches: [master]
+  pull_request:
+    branches: [master, sc/list-v2]
 
 jobs:
   build:
@@ -35,12 +37,6 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
 
-      - name: Generate token list
+      - name: Run Test
         run: |
-          npm run generate
-
-      - name: Commit token list
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "bot(ci): generate token list"
-          file_pattern: optimism.tokenlist.json
+          npm run test

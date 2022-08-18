@@ -2,9 +2,9 @@ name: Validate PR
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master, sc/list-v2 ]
+    branches: [master, sc/list-v2]
 
 jobs:
   build:
