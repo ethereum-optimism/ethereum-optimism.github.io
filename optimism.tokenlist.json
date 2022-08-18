@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-08-18T22:33:05.943Z",
+  "timestamp": "2022-08-18T23:15:12.468Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1434,6 +1434,50 @@
       "symbol": "SPANK",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/SPANK/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0763fdccf1ae541a5961815c0872a8c5bc6de4d7",
+      "name": "SUKU",
+      "symbol": "SUKU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SUKU/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xef6301da234fc7b0545c6e877d3359fe0b9e50a4",
+      "name": "SUKU",
+      "symbol": "SUKU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SUKU/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0xd35f5965b4b84382ca27072ff3b6b42e7053e672",
+      "name": "SUKU",
+      "symbol": "SUKU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SUKU/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x871f2f2ff935fd1ed867842ff2a7bfd051a5e527",
+      "name": "SUKU",
+      "symbol": "SUKU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SUKU/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
