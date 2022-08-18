@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-08-18T00:00:02.251Z",
+  "timestamp": "2022-08-18T15:37:24.302Z",
   "tokens": [
     {
       "chainId": 1,
@@ -340,6 +340,28 @@
     },
     {
       "chainId": 69,
+      "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+      "name": "Dai stable coin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x11fE4B6AE13d2a6055C8D9cF65c55bac32B5d844",
+      "name": "Dai stable coin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x05a388Db09C2D44ec0b00Ee188cD42365c42Df23"
+      }
+    },
+    {
+      "chainId": 420,
       "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
       "name": "Dai stable coin",
       "symbol": "DAI",
@@ -847,6 +869,28 @@
     {
       "chainId": 69,
       "address": "0x4911b761993b9c8c0d14Ba2d86902AF6B0074F5B",
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LINK/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x326C977E6efc84E512bB9C30f76E30c160eD06FB",
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LINK/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0xdc2CC710e42857672E7907CF474a69B63B93089f",
       "name": "Chainlink",
       "symbol": "LINK",
       "decimals": 18,
@@ -1408,6 +1452,17 @@
     {
       "chainId": 69,
       "address": "0xaA5068dC2B3AADE533d3e52C6eeaadC6a8154c57",
+      "name": "Synthetix USD",
+      "symbol": "sUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/sUSD/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0xeBaEAAD9236615542844adC5c149F86C36aD1136",
       "name": "Synthetix USD",
       "symbol": "sUSD",
       "decimals": 18,
