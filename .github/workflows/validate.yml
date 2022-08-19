@@ -40,7 +40,14 @@ jobs:
 
       - name: Validate token list
         run: |
-          npm run validate
+          npm run validate 2> err.out
+
+      - name: Read failure message
+        if: ${{ failure() }}
+        id: failure-message
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./err.out
 
       - name: Comment on failure
         if: ${{ failure() }}
@@ -51,5 +58,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'We detected an issue with the files added in this PR. Please double check your data.json file for mistakes. If you are still having issues, please check the GitHub Actions logs by clicking on the "Checks" tab near the top of this page.'
+              body: `We detected an issue with the files added in this PR. Please see the reported error message below:\n\n${{ steps.failure-message.outputs.content }}`
             })

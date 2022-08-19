@@ -11,6 +11,7 @@ const { ethers } = require("ethers");
 const { version } = require("../package.json");
 const { TOKEN_DATA_SCHEMA } = require("./schemas");
 const { NETWORK_DATA } = require("./chains");
+const errors = require("./errors");
 
 const abi = require("./abi/token.json");
 
@@ -51,21 +52,21 @@ const generate = async () => {
     const v = new Validator();
     const result = v.validate(data, TOKEN_DATA_SCHEMA);
     if (!result.valid) {
-      throw new Error(
-        `${folder}: data.json is not valid:\n ${result.errors
-          .map((err) => {
-            return `- ${err.property}: ${err.message}`;
-          })
-          .join("\n")}\n`
+      throw new errors.ErrInvalidDataJson(
+        `${folder}: data.json is not valid:\n${result.errors
+        .map((err) => {
+          return ` - ${err.property}: ${err.message}`;
+        })
+        .join("\n")}\n`
       );
     }
 
     const logofiles = glob.sync(`${path.join(datadir, folder)}/logo.{png,svg}`);
-    assert(
-      logofiles.length === 1,
-      `must have exactly one logo file (${folder})`
-    );
-    const logoExtension = logofiles[0].endsWith("png") ? "png" : "svg";
+    if (logofiles.length !== 1) {
+      throw new errors.ErrInvalidLogoFile(
+        `${folder}: exactly one logo file must be present, make sure your logo file is named either "logo.png" or "logo.svg"`
+      );
+    }
 
     for (const [chain, token] of Object.entries(data.tokens)) {
       console.log(`validating ${folder} on chain ${chain}`);
@@ -77,20 +78,32 @@ const generate = async () => {
           NETWORK_DATA[chain].provider
         );
 
-        assert(
-          token.overrides?.decimals !== undefined ||
-            data.decimals == (await contract.decimals()),
-          `${chain} ${folder} decimals mismatch`
-        );
+        if (
+          token.overrides?.decimals === undefined
+          && data.decimals !== (await contract.decimals())
+        ) {
+          throw new errors.ErrInvalidTokenDecimals(
+            `${chain} ${folder} decimals does not match data.json decimals`
+          );
+        }
 
-        assert(
-          token.overrides?.symbol !== undefined ||
-            data.symbol === (await contract.symbol()),
-          `${chain} ${folder} symbol mismatch`
-        );
+        if (
+          token.overrides?.symbol === undefined
+          && data.symbol !== (await contract.symbol())
+        ) {
+          throw new errors.ErrInvalidTokenSymbol(
+            `${chain} ${folder} symbol does not match data.json symbol`
+          );
+        }
 
         // Names get changed enough that we'll just check that the function exists.
-        await contract.name();
+        try {
+          await contract.name();
+        } catch (err) {
+          throw new errors.ErrInvalidTokenName(
+            `${chain} ${folder} could not get token name`
+          );
+        }
       }
 
       list.tokens.push({
@@ -99,7 +112,9 @@ const generate = async () => {
         name: token.overrides?.name ?? data.name,
         symbol: token.overrides?.symbol ?? data.symbol,
         decimals: token.overrides?.decimals ?? data.decimals,
-        logoURI: `${BASE_URL}/data/${folder}/logo.${logoExtension}`,
+        logoURI: `${BASE_URL}/data/${folder}/logo.${
+          logofiles[0].endsWith("png") ? "png" : "svg"
+        }`,
         extensions: {
           optimismBridgeAddress:
             token.overrides?.bridge ?? NETWORK_DATA[chain].bridge,
@@ -113,8 +128,9 @@ const generate = async () => {
   addFormats(ajv);
   const validator = ajv.compile(schema);
   if (!validator(list)) {
-    console.log(validator.errors);
-    throw new Error("generated token list is not valid");
+    throw new errors.ErrInvalidTokenList(
+      `final token list is not valid:\n ${validator.errors}`
+    );
   }
 
   return list;
