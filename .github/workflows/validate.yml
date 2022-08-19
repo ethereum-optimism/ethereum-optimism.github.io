@@ -17,6 +17,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
@@ -38,9 +40,13 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
 
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v27
+
       - name: Validate token list
         run: |
-          npm run validate 2> err.out
+          npm run validate ${{ steps.changed-files.outputs.all_changed_files }} 2> err.out
 
       - name: Read failure message
         if: ${{ failure() }}
