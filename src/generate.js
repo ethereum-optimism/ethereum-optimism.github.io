@@ -23,9 +23,10 @@ const BASE_URL = "https://ethereum-optimism.github.io";
 /**
  * Generates and validates the token list JSON object from the data folder.
  *
+ * @param tokens List of tokens to run validation on.
  * @returns Generated and validated token list JSON object.
  */
-const generate = async () => {
+const generate = async (tokens) => {
   const list = {
     name: "Optimism",
     logoURI: `${BASE_URL}/optimism.svg`,
@@ -45,6 +46,8 @@ const generate = async () => {
   });
 
   for (const folder of folders) {
+    console.log(`validating ${folder}`);
+
     const datafile = path.join(datadir, folder, "data.json");
     assert(fs.existsSync(datafile), `${datafile} does not exist (${folder})`);
 
@@ -69,40 +72,42 @@ const generate = async () => {
     }
 
     for (const [chain, token] of Object.entries(data.tokens)) {
-      console.log(`validating ${folder} on chain ${chain}`);
+      if (tokens && tokens.includes(folder)) {
+        console.log(`validating ${folder} on chain ${chain}`);
 
-      if (folder !== "ETH" && data.nonstandard !== true) {
-        const contract = new ethers.Contract(
-          token.address,
-          abi,
-          NETWORK_DATA[chain].provider
-        );
-
-        if (
-          token.overrides?.decimals === undefined
-          && data.decimals !== (await contract.decimals())
-        ) {
-          throw new errors.ErrInvalidTokenDecimals(
-            `${chain} ${folder} decimals does not match data.json decimals`
+        if (folder !== "ETH" && data.nonstandard !== true) {
+          const contract = new ethers.Contract(
+            token.address,
+            abi,
+            NETWORK_DATA[chain].provider
           );
-        }
 
-        if (
-          token.overrides?.symbol === undefined
-          && data.symbol !== (await contract.symbol())
-        ) {
-          throw new errors.ErrInvalidTokenSymbol(
-            `${chain} ${folder} symbol does not match data.json symbol`
-          );
-        }
+          if (
+            token.overrides?.decimals === undefined
+            && data.decimals !== (await contract.decimals())
+          ) {
+            throw new errors.ErrInvalidTokenDecimals(
+              `${chain} ${folder} decimals does not match data.json decimals`
+            );
+          }
 
-        // Names get changed enough that we'll just check that the function exists.
-        try {
-          await contract.name();
-        } catch (err) {
-          throw new errors.ErrInvalidTokenName(
-            `${chain} ${folder} could not get token name`
-          );
+          if (
+            token.overrides?.symbol === undefined
+            && data.symbol !== (await contract.symbol())
+          ) {
+            throw new errors.ErrInvalidTokenSymbol(
+              `${chain} ${folder} symbol does not match data.json symbol`
+            );
+          }
+
+          // Names get changed enough that we'll just check that the function exists.
+          try {
+            await contract.name();
+          } catch (err) {
+            throw new errors.ErrInvalidTokenName(
+              `${chain} ${folder} could not get token name`
+            );
+          }
         }
       }
 
