@@ -2,11 +2,15 @@ const fs = require("fs");
 const path = require("path");
 const glob = require("glob");
 const assert = require("assert");
+const { URLSearchParams } = require("url");
+
+const fetch = require("node-fetch");
 const Validator = require("jsonschema").Validator;
 const Ajv = require("ajv");
 const addFormats = require("ajv-formats");
 const { schema } = require("@uniswap/token-lists");
 const { ethers } = require("ethers");
+const { sleep } = require("@eth-optimism/core-utils");
 
 const { version } = require("../package.json");
 const { TOKEN_DATA_SCHEMA } = require("./schemas");
@@ -123,7 +127,23 @@ const generate = async (tokens) => {
 
             if (events.length === 0) {
               // Not created by standard bridge.
-              console.log('requires manual review')
+              console.log("requires manual review (not standard bridge)");
+            }
+          } else {
+            // Make sure the token is verified on Etherscan.
+            // Etherscan API is heavily rate limited, so sleep for 1s to avoid errors.
+            await sleep(1000);
+            const { result } = await (
+              await fetch(`https://api${chain === 'ethereum' ? "" : `-${chain}`}.etherscan.io/api?` + new URLSearchParams({
+                module: "contract",
+                action: "getsourcecode",
+                address: token.address,
+                apikey: process.env.ETHERSCAN_API_KEY
+              }))
+            ).json()
+
+            if (result[0].ABI === "Contract source code not verified") {
+              console.log("requires manual review (not verified)");
             }
           }
         }
