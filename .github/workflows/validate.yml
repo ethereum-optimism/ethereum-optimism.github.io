@@ -46,7 +46,32 @@ jobs:
 
       - name: Validate token list
         run: |
-          npm run validate ${{ steps.changed-files.outputs.all_changed_files }} 2> err.out
+          npm run validate ${{ steps.changed-files.outputs.all_changed_files }} 2> err.out 1> log.out
+
+      - name: Read log message
+        id: log-message
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./log.out
+        
+      - name: Comment on manual review
+        uses: actions/github-script@v5
+        with:
+          script: |
+            if (`${{ steps.log-message.outputs.content }}`.includes('requires manual review')) {
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `This PR includes an L2 token that was not created by the StandardTokenFactory and therefore requires manual review. A maintainer will review this PR soon! ❤️`
+              })
+              github.rest.issues.addLabels({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: ['requires-manual-review']
+              })
+            }
 
       - name: Read failure message
         if: ${{ failure() }}

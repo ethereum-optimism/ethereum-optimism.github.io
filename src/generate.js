@@ -13,7 +13,8 @@ const { TOKEN_DATA_SCHEMA } = require("./schemas");
 const { NETWORK_DATA } = require("./chains");
 const errors = require("./errors");
 
-const abi = require("./abi/token.json");
+const tokenABI = require("./abi/token.json");
+const factoryABI = require("./abi/factory.json");
 
 /**
  * Base URL where static assets are hosted.
@@ -78,7 +79,7 @@ const generate = async (tokens) => {
         if (folder !== "ETH" && data.nonstandard !== true) {
           const contract = new ethers.Contract(
             token.address,
-            abi,
+            tokenABI,
             NETWORK_DATA[chain].provider
           );
 
@@ -107,6 +108,23 @@ const generate = async (tokens) => {
             throw new errors.ErrInvalidTokenName(
               `${chain} ${folder} could not get token name`
             );
+          }
+
+          if (chain.startsWith('optimism')) {
+            const factory = new ethers.Contract(
+              '0x4200000000000000000000000000000000000012',
+              factoryABI,
+              NETWORK_DATA[chain].provider
+            );
+
+            const events = await factory.queryFilter(
+              factory.filters.StandardL2TokenCreated(undefined, token.address)
+            );
+
+            if (events.length === 0) {
+              // Not created by standard bridge.
+              console.log('requires manual review')
+            }
           }
         }
       }
