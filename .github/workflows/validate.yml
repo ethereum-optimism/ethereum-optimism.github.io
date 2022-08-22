@@ -22,7 +22,7 @@ jobs:
 
       - name: Checkout remote data files
         run: |
-          git remote add pr ${{ github.event.pull_request.head.repo.git_url }}
+          git remote add pr ${{ github.event.pull_request.head.repo.clone_url }}
           git fetch pr
           git checkout pr/${{ github.event.pull_request.head.ref }} -- data/
 
