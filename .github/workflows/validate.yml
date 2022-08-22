@@ -46,13 +46,9 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
 
-      - name: Get changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v27
-
       - name: Validate token list
         run: |
-          npm run validate ${{ steps.changed-files.outputs.all_changed_files }} 2> err.out 1> log.out
+          npm run validate $(git diff --name-only --cached) 2> err.out 1> log.out
 
       - name: Read log message
         id: log-message
