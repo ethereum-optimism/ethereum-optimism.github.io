@@ -22,9 +22,9 @@ jobs:
 
       - name: Checkout remote data files
         run: |
-          git remote add pr ${{ github.events.pull_request.head.repo.git_url }}
+          git remote add pr ${{ github.event.pull_request.head.repo.git_url }}
           git fetch pr
-          git checkout pr/${{ github.events.pull_request.head.ref }} -- data/
+          git checkout pr/${{ github.event.pull_request.head.ref }} -- data/
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
