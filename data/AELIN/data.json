@@ -1,7 +1,7 @@
 {
   "name": "Aelin Protocol",
   "symbol": "AELIN",
-  "decimals": 18,
+  "decimas": 18,
   "nobridge": true,
   "tokens": {
     "optimism": {
