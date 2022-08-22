@@ -21,9 +21,10 @@ jobs:
           fetch-depth: 0
 
       - name: Checkout remote data files
-        env:
-          GITHUB_CONTEXT: ${{ toJSON(github) }}
-        run: echo "$GITHUB_CONTEXT"
+        run: |
+          git remote add pr ${{ github.events.pull_request.head.repo.git_url }}
+          git fetch pr
+          git checkout pr/${{ github.events.pull_request.head.ref }} -- data/
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
