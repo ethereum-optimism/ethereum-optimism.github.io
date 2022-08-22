@@ -3,8 +3,8 @@ name: Validate PR
 on:
   push:
     branches: [master]
-  pull_request:
-    branches: [master]
+  pull_request_target:
+    branches: [master, sc/demo]
 
 jobs:
   build:
