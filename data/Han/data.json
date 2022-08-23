@@ -1,0 +1,26 @@
+{
+    "name": "HanChain",
+    "symbol": "HAN",
+    "decimals": 18,
+    "website": "https://paykhan.io",
+    "telegram": "https://t.me/hanchain_official",
+    "twitter": "https://twitter.com/HanIdentity",
+    "discord": "https://discord.gg/5gtfUuvJJX",
+    "medium": "https://medium.com/@HanIdentity",
+    "youtube": "https://www.youtube.com/channel/UCQPzdwU4KHlXO3srolte0Dg",
+    "facebook": "https://www.facebook.com/HanChainGlobalOfficial-101331419212206",
+    "tokens": {
+      "ethereum": {
+        "address": "0x0c90C57aaf95A3A87eadda6ec3974c99D786511F"
+      },
+      "optimism": {
+        "address": "0x50Bce64397C75488465253c0A034b8097FeA6578"
+      },
+      "goerli": {
+        "address": "0x0c90C57aaf95A3A87eadda6ec3974c99D786511F"
+      },
+      "optimism-goerli": {
+        "address": "0x9e1028f5f1d5ede59748ffcee5532509976840e0"
+      }
+    }
+  }
