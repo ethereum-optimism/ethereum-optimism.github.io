@@ -2009,6 +2009,138 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
+      "name": "Decentralized USD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDD.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x7113370218f31764C1B6353BDF6004d86fF6B9cc",
+      "name": "Decentralized USD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDD.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0xae73ddeafc00bc5ad03a96c2b268c3f5325c8d49",
+      "name": "Decentralized USD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDD.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x1f9bd96ddb4bd07d6061f8933e9ba9ede9967550",
+      "name": "Decentralized USD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/USDD.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0xC13DD39606d4C2489ce5D9806d060FeD9a7d063d",
+      "name": "Land",
+      "symbol": "LAND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LAND.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x2E2015aa4ac40B083189A03a75AD229dfB10172c",
+      "name": "Land",
+      "symbol": "LAND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/LAND.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0xa88751C0a08623E11ff38c6B70F2BbEe7865C17c",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/wstETH.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x65321bf24210b81500230dCEce14Faa70a9f50a7"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xF9C842dE4381a70eB265d10CF8D43DceFF5bA935",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/wstETH.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x2E34e7d705AfaC3C4665b6feF31Aa394A1c81c92"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x07FA101efde726E0956Edd2c4D5C8d3d1A5E9c53",
+      "name": "Respawn Finance Wrapped Staked Ethereum",
+      "symbol": "RFWSTETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/RFWSTETH.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xeAeAdAC73baaF4cB8B024dE9D65B2eeFa722856C",
+      "name": "Respawn Finance Wrapped Staked Ethereum",
+      "symbol": "RFWSTETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/RFWSTETH.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x891C46986708b3914A00883B72564AB76817799A",
+      "name": "Respawn Finance Wrapped Staked Ethereum",
+      "symbol": "RFWSTETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/RFWSTETH.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x1696baFBe18EFB141823a041E22E43d12B144407",
+      "name": "Respawn Finance Wrapped Staked Ethereum",
+      "symbol": "RFWSTETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/RFWSTETH.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
