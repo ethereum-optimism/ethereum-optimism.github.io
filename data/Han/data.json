@@ -2,8 +2,6 @@
     "name": "HanChain",
     "symbol": "HAN",
     "decimals": 18,
-    "website": "https://paykhan.io",
-    "twitter": "https://twitter.com/HanIdentity",
     "tokens": {
       "ethereum": {
         "address": "0x0c90C57aaf95A3A87eadda6ec3974c99D786511F"
