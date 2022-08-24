@@ -126,8 +126,8 @@ const generate = async (tokens) => {
             );
 
             if (events.length === 0) {
-              // Not created by standard bridge.
-              console.log("requires manual review (not standard bridge)");
+              // Not created by standard token factory.
+              console.log(`requires manual review: token not created by standard factory on chain ${chain}`);
             }
           } else {
             // Make sure the token is verified on Etherscan.
@@ -143,7 +143,7 @@ const generate = async (tokens) => {
             ).json()
 
             if (result[0].ABI === "Contract source code not verified") {
-              console.log("requires manual review (not verified)");
+              console.log(`requires manual review: token code not verified on Etherscan on chain ${chain}`);
             }
           }
         }
