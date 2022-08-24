@@ -10,7 +10,10 @@
         "address": "0xaf8ca653fa2772d58f4368b0a71980e9e3ceb888"
       },
       "kovan": {
-        "address": "0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A"
+        "address": "0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A",
+        "overrides": {
+            "symbol":"TRB"
+        }
       },
       "optimism-kovan": {
         "address": "0x5e70affe232e2919792f77eb94e566db0320fa88"
