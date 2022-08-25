@@ -12,6 +12,20 @@ class ErrInvalidLogoFile extends Error {
   }
 }
 
+class ErrWebsiteLoadFailed extends Error {
+  constructor(message) {
+    super(message);
+    this.name = "ErrWebsiteLoadFailed";
+  }
+}
+
+class ErrNoTokenCode extends Error {
+  constructor(message) {
+    super(message);
+    this.name = "ErrNoTokenCode";
+  }
+}
+
 class ErrInvalidTokenDecimals extends Error {
   constructor(message) {
     super(message);
@@ -43,6 +57,8 @@ class ErrInvalidTokenList extends Error {
 module.exports = {
   ErrInvalidDataJson,
   ErrInvalidLogoFile,
+  ErrWebsiteLoadFailed,
+  ErrNoTokenCode,
   ErrInvalidTokenDecimals,
   ErrInvalidTokenSymbol,
   ErrInvalidTokenName,

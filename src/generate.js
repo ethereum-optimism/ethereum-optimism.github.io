@@ -26,6 +26,15 @@ const factoryABI = require("./abi/factory.json");
 const BASE_URL = "https://ethereum-optimism.github.io";
 
 /**
+ * Call this to make CI require manual review.
+ *
+ * @param message Helpful message to display to the user.
+ */
+const review = (token, chain, message) => {
+  console.log(`requires manual review: (${token} on ${chain}) ${message}`)
+}
+
+/**
  * Generates and validates the token list JSON object from the data folder.
  *
  * @param tokens List of tokens to run validation on.
@@ -50,24 +59,13 @@ const generate = async (tokens) => {
     return a.toLowerCase().localeCompare(b.toLowerCase());
   });
 
-  for (const folder of folders) {
-    console.log(`validating ${folder}`);
+  const cgret = await fetch("https://tokens.coingecko.com/uniswap/all.json");
+  const cg = await cgret.json();
 
+  for (const folder of folders) {
     const datafile = path.join(datadir, folder, "data.json");
     assert(fs.existsSync(datafile), `${datafile} does not exist (${folder})`);
-
     const data = require(datafile);
-    const v = new Validator();
-    const result = v.validate(data, TOKEN_DATA_SCHEMA);
-    if (!result.valid) {
-      throw new errors.ErrInvalidDataJson(
-        `${folder}: data.json is not valid:\n${result.errors
-        .map((err) => {
-          return ` - ${err.property}: ${err.message}`;
-        })
-        .join("\n")}\n`
-      );
-    }
 
     const logofiles = glob.sync(`${path.join(datadir, folder)}/logo.{png,svg}`);
     if (logofiles.length !== 1) {
@@ -76,9 +74,41 @@ const generate = async (tokens) => {
       );
     }
 
+    if (tokens && tokens.includes(folder)) {
+      console.log(`validating ${folder}`);
+      const v = new Validator();
+      const result = v.validate(data, TOKEN_DATA_SCHEMA);
+      if (!result.valid) {
+        throw new errors.ErrInvalidDataJson(
+          `${folder}: data.json is not valid:\n${result.errors
+          .map((err) => {
+            return ` - ${err.property}: ${err.message}`;
+          })
+          .join("\n")}\n`
+        );
+      }
+    }
+
     for (const [chain, token] of Object.entries(data.tokens)) {
       if (tokens && tokens.includes(folder)) {
         console.log(`validating ${folder} on chain ${chain}`);
+
+        // Check to make sure the website will load
+        for (let i = 0; i < 5; i++) {
+          try {
+            await fetch(data.website);
+            break;
+          } catch (err) {
+            if (i < 4) {
+              console.log(`website did not load, trying again in 5s...`)
+              await sleep(5000);
+            } else {
+              throw new errors.ErrWebsiteLoadFailed(
+                `${folder}: website did not load: ${data.website}`
+              );
+            }
+          }
+        }
 
         if (folder !== "ETH" && data.nonstandard !== true) {
           const contract = new ethers.Contract(
@@ -87,31 +117,57 @@ const generate = async (tokens) => {
             NETWORK_DATA[chain].provider
           );
 
+          // Check that the token exists on this chain
           if (
-            token.overrides?.decimals === undefined
-            && data.decimals !== (await contract.decimals())
+            await contract.provider.getCode(token.address) === "0x"
           ) {
-            throw new errors.ErrInvalidTokenDecimals(
-              `${chain} ${folder} decimals does not match data.json decimals`
+            throw new errors.ErrNoTokenCode(
+              `${chain} ${folder} token has no code at address`
             );
           }
 
-          if (
-            token.overrides?.symbol === undefined
-            && data.symbol !== (await contract.symbol())
-          ) {
-            throw new errors.ErrInvalidTokenSymbol(
-              `${chain} ${folder} symbol does not match data.json symbol`
-            );
+          // Check that the token has the correct decimals
+          if (token.overrides?.decimals === undefined) {
+            if (data.decimals !== (await contract.decimals())) {
+              throw new errors.ErrInvalidTokenDecimals(
+                `${chain} ${folder} decimals does not match data.json decimals`
+              );
+            }
+          } else {
+            review(folder, chain, "has decimal override");
           }
 
-          // Names get changed enough that we'll just check that the function exists.
-          try {
-            await contract.name();
-          } catch (err) {
-            throw new errors.ErrInvalidTokenName(
-              `${chain} ${folder} could not get token name`
-            );
+          // Check that the token has the correct symbol
+          if (token.overrides?.symbol === undefined) {
+            if (data.symbol !== (await contract.symbol())) {
+              throw new errors.ErrInvalidTokenSymbol(
+                `${chain} ${folder} symbol does not match data.json symbol`
+              );
+            }
+          } else {
+            review(folder, chain, "has symbol override");
+          }
+
+          // Check that the token has the correct name
+          if (token.overrides?.name === undefined) {
+            if (data.name !== (await contract.name())) {
+              throw new errors.ErrInvalidTokenName(
+                `${chain} ${folder} name does not match data.json name`
+              );
+            }
+          } else {
+            review(folder, chain, "has name override");
+          }
+
+          if (chain === "ethereum") {
+            const found = cg.tokens.find((t) => {
+              return t.address.toLowerCase() === token.address.toLowerCase();
+            })
+
+            // Trigger manual review if the Ethereum token is not in the CG token list
+            if (!found) {
+              review(folder, chain, "not found on CoinGecko token list");
+            }
           }
 
           if (chain.startsWith('optimism')) {
@@ -125,9 +181,9 @@ const generate = async (tokens) => {
               factory.filters.StandardL2TokenCreated(undefined, token.address)
             );
 
+            // Trigger review if not created by standard token factory.
             if (events.length === 0) {
-              // Not created by standard token factory.
-              console.log(`requires manual review: token not created by standard factory on chain ${chain}`);
+              review(folder, chain, "not created by standard token factory");
             }
           } else {
             // Make sure the token is verified on Etherscan.
@@ -142,10 +198,13 @@ const generate = async (tokens) => {
               }))
             ).json()
 
+            // Trigger review if code not verified on Etherscan
             if (result[0].ABI === "Contract source code not verified") {
-              console.log(`requires manual review: token code not verified on Etherscan on chain ${chain}`);
+              review(folder, chain, "code not verified on Etherscan");
             }
           }
+        } else {
+          review(folder, chain, "nonstandard token");
         }
       }
 
