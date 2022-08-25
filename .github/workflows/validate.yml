@@ -74,11 +74,12 @@ jobs:
         with:
           script: |
             if (`${{ steps.log-message.outputs.content }}`.includes('requires manual review')) {
+              let messages = `${{ steps.log-message.outputs.content }}`.split('\n').filter((line) => line.includes('requires manual review')).join('\n');
               github.rest.issues.createComment({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                body: `This PR requires manual review as per the reason listed below. A maintainer will review this PR soon! ❤️\n\n${{ steps.log-message.outputs.content }}`
+                body: `This PR requires manual review as per the reason listed below. A maintainer will review this PR soon! ❤️\n\n${messages}`
               })
               github.rest.issues.addLabels({
                 issue_number: context.issue.number,
