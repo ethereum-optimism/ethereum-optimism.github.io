@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-08-25T21:00:05.444Z",
+  "timestamp": "2022-08-26T12:30:15.281Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1115,6 +1115,28 @@
       "symbol": "OP",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/OP/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x32B3b2281717dA83463414af4E8CfB1970E56287",
+      "name": "OptimismUselessToken-Bridged",
+      "symbol": "OUTb",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OUTb/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x3e7eF8f50246f725885102E8238CBba33F276747",
+      "name": "OptimismUselessToken-Bridged",
+      "symbol": "OUTb",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OUTb/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
