@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-08-26T17:24:01.623Z",
+  "timestamp": "2022-08-27T07:44:15.799Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1953,6 +1953,50 @@
       "logoURI": "https://ethereum-optimism.github.io/data/USX/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0xB4d37826b14Cd3CB7257A2A5094507d701fe715f"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0B6F3c17e1626a7cBfA4302CE4E3c45522d23A83",
+      "name": "WardenSwap",
+      "symbol": "WAD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WAD/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x703D57164CA270b0B330A87FD159CfEF1490c0a5",
+      "name": "WardenSwap",
+      "symbol": "WAD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WAD/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x2C7A8122A1b512AdC848024cE72e837001EcB586",
+      "name": "WardenSwap",
+      "symbol": "WAD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WAD/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xD1917629B3E6A72E6772Aab5dBe58Eb7FA3C2F33",
+      "name": "WardenSwap",
+      "symbol": "WAD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WAD/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     },
     {
