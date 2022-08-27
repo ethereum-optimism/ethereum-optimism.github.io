@@ -4,10 +4,11 @@ on:
   push:
     branches: [master]
   pull_request:
-    branches: [master, sc/list-v2]
+    branches: [master]
 
 jobs:
-  build:
+  test:
+    name: test
     runs-on: ubuntu-latest
 
     strategy:

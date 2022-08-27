@@ -5,7 +5,8 @@ on:
     branches: [master]
 
 jobs:
-  build:
+  generate:
+    name: generate
     if: github.repository == 'ethereum-optimism/ethereum-optimism.github.io'
 
     runs-on: ubuntu-latest
@@ -37,7 +38,7 @@ jobs:
 
       - name: Generate token list
         run: |
-          npm run generate --datadir ./data --outfile optimism.tokenlist.json
+          node ./bin/cli.js generate --datadir ./data --outfile optimism.tokenlist.json
 
       - name: Commit token list
         uses: stefanzweifel/git-auto-commit-action@v4
