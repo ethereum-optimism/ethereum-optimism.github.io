@@ -2,8 +2,9 @@
     "name": "HanChain",
     "symbol": "HAN",
     "decimals": 18,
-    "description":"Cryptocurrency",
-    "website":"https://paykhan.io",
+    "description": "Cryptocurrency focused on real life use",
+    "website": "https://paykhan.io",
+    "twitter": "@HanIdentity",
     "tokens": {
       "ethereum": {
         "address": "0x0c90C57aaf95A3A87eadda6ec3974c99D786511F"
