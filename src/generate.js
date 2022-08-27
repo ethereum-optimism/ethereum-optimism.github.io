@@ -1,24 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 const glob = require("glob");
-const assert = require("assert");
-const { URLSearchParams } = require("url");
-
-const fetch = require("node-fetch");
-const Validator = require("jsonschema").Validator;
-const Ajv = require("ajv");
-const addFormats = require("ajv-formats");
-const { schema } = require("@uniswap/token-lists");
-const { ethers } = require("ethers");
-const { sleep } = require("@eth-optimism/core-utils");
 
 const { version } = require("../package.json");
-const { TOKEN_DATA_SCHEMA } = require("./schemas");
 const { NETWORK_DATA } = require("./chains");
-const errors = require("./errors");
-
-const tokenABI = require("./abi/token.json");
-const factoryABI = require("./abi/factory.json");
 
 /**
  * Base URL where static assets are hosted.
@@ -26,157 +11,54 @@ const factoryABI = require("./abi/factory.json");
 const BASE_URL = "https://ethereum-optimism.github.io";
 
 /**
- * Generates and validates the token list JSON object from the data folder.
+ * Generates a token list from the data in the data folder.
  *
- * @param tokens List of tokens to run validation on.
- * @returns Generated and validated token list JSON object.
+ * @param datadir Directory containing data files.
+ * 
+ * @returns Generated token list JSON object.
  */
-const generate = async (tokens) => {
-  const list = {
-    name: "Optimism",
-    logoURI: `${BASE_URL}/optimism.svg`,
-    keywords: ["scaling", "layer2", "infrastructure"],
-    timestamp: new Date().toISOString(),
-    tokens: [],
-    version: {
-      major: parseInt(version.split(".")[0]),
-      minor: parseInt(version.split(".")[1]),
-      patch: parseInt(version.split(".")[2]),
-    },
-  };
-
-  const datadir = path.resolve(__dirname, "../data/");
-  const folders = fs.readdirSync(datadir).sort((a, b) => {
-    return a.toLowerCase().localeCompare(b.toLowerCase());
-  });
-
-  for (const folder of folders) {
-    console.log(`validating ${folder}`);
-
-    const datafile = path.join(datadir, folder, "data.json");
-    assert(fs.existsSync(datafile), `${datafile} does not exist (${folder})`);
-
-    const data = require(datafile);
-    const v = new Validator();
-    const result = v.validate(data, TOKEN_DATA_SCHEMA);
-    if (!result.valid) {
-      throw new errors.ErrInvalidDataJson(
-        `${folder}: data.json is not valid:\n${result.errors
-        .map((err) => {
-          return ` - ${err.property}: ${err.message}`;
-        })
-        .join("\n")}\n`
-      );
-    }
-
-    const logofiles = glob.sync(`${path.join(datadir, folder)}/logo.{png,svg}`);
-    if (logofiles.length !== 1) {
-      throw new errors.ErrInvalidLogoFile(
-        `${folder}: exactly one logo file must be present, make sure your logo file is named either "logo.png" or "logo.svg"`
-      );
-    }
-
-    for (const [chain, token] of Object.entries(data.tokens)) {
-      if (tokens && tokens.includes(folder)) {
-        console.log(`validating ${folder} on chain ${chain}`);
-
-        if (folder !== "ETH" && data.nonstandard !== true) {
-          const contract = new ethers.Contract(
-            token.address,
-            tokenABI,
-            NETWORK_DATA[chain].provider
-          );
-
-          if (
-            token.overrides?.decimals === undefined
-            && data.decimals !== (await contract.decimals())
-          ) {
-            throw new errors.ErrInvalidTokenDecimals(
-              `${chain} ${folder} decimals does not match data.json decimals`
-            );
-          }
-
-          if (
-            token.overrides?.symbol === undefined
-            && data.symbol !== (await contract.symbol())
-          ) {
-            throw new errors.ErrInvalidTokenSymbol(
-              `${chain} ${folder} symbol does not match data.json symbol`
-            );
-          }
-
-          // Names get changed enough that we'll just check that the function exists.
-          try {
-            await contract.name();
-          } catch (err) {
-            throw new errors.ErrInvalidTokenName(
-              `${chain} ${folder} could not get token name`
-            );
-          }
-
-          if (chain.startsWith('optimism')) {
-            const factory = new ethers.Contract(
-              '0x4200000000000000000000000000000000000012',
-              factoryABI,
-              NETWORK_DATA[chain].provider
-            );
-
-            const events = await factory.queryFilter(
-              factory.filters.StandardL2TokenCreated(undefined, token.address)
-            );
-
-            if (events.length === 0) {
-              // Not created by standard bridge.
-              console.log("requires manual review (not standard bridge)");
-            }
-          } else {
-            // Make sure the token is verified on Etherscan.
-            // Etherscan API is heavily rate limited, so sleep for 1s to avoid errors.
-            await sleep(1000);
-            const { result } = await (
-              await fetch(`https://api${chain === 'ethereum' ? "" : `-${chain}`}.etherscan.io/api?` + new URLSearchParams({
-                module: "contract",
-                action: "getsourcecode",
-                address: token.address,
-                apikey: process.env.ETHERSCAN_API_KEY
-              }))
-            ).json()
-
-            if (result[0].ABI === "Contract source code not verified") {
-              console.log("requires manual review (not verified)");
-            }
-          }
+const generate = (datadir) => {
+  return fs
+    .readdirSync(datadir)
+    .sort((a, b) => {
+      return a.toLowerCase().localeCompare(b.toLowerCase());
+    })
+    .map((folder) => {
+      const data = JSON.parse(fs.readFileSync(path.join(datadir, folder, "data.json")));
+      const logofiles = glob.sync(`${path.join(datadir, folder)}/logo.{png,svg}`);
+      const logoext = logofiles[0].endsWith("png") ? "png" : "svg";
+      return Object.entries(data.tokens).map(([chain, token]) => {
+        return {
+          chainId: NETWORK_DATA[chain].id,
+          address: token.address,
+          name: token.overrides?.name ?? data.name,
+          symbol: token.overrides?.symbol ?? data.symbol,
+          decimals: token.overrides?.decimals ?? data.decimals,
+          logoURI: `${BASE_URL}/data/${folder}/logo.${logoext}`,
+          extensions: {
+            optimismBridgeAddress:
+              token.overrides?.bridge ?? NETWORK_DATA[chain].bridge,
+          },
         }
-      }
-
-      list.tokens.push({
-        chainId: NETWORK_DATA[chain].id,
-        address: token.address,
-        name: token.overrides?.name ?? data.name,
-        symbol: token.overrides?.symbol ?? data.symbol,
-        decimals: token.overrides?.decimals ?? data.decimals,
-        logoURI: `${BASE_URL}/data/${folder}/logo.${
-          logofiles[0].endsWith("png") ? "png" : "svg"
-        }`,
-        extensions: {
-          optimismBridgeAddress:
-            token.overrides?.bridge ?? NETWORK_DATA[chain].bridge,
+      })
+    })
+    .reduce((list, tokens) => {
+      list.tokens = list.tokens.concat(tokens);
+      return list;
+    },
+      {
+        name: "Optimism",
+        logoURI: `${BASE_URL}/optimism.svg`,
+        keywords: ["scaling", "layer2", "infrastructure"],
+        timestamp: new Date().toISOString(),
+        tokens: [],
+        version: {
+          major: parseInt(version.split(".")[0]),
+          minor: parseInt(version.split(".")[1]),
+          patch: parseInt(version.split(".")[2]),
         },
-      });
-    }
-  }
-
-  // Verify that the final generated token list is valid
-  const ajv = new Ajv({ allErrors: true, verbose: true });
-  addFormats(ajv);
-  const validator = ajv.compile(schema);
-  if (!validator(list)) {
-    throw new errors.ErrInvalidTokenList(
-      `final token list is not valid:\n ${validator.errors}`
+      }
     );
-  }
-
-  return list;
 };
 
 module.exports = {

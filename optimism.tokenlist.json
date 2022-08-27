@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-08-22T15:31:17.199Z",
+  "timestamp": "2022-08-26T17:24:01.623Z",
   "tokens": [
     {
       "chainId": 1,
@@ -769,6 +769,50 @@
     },
     {
       "chainId": 1,
+      "address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202",
+      "name": "Kyber Network Crystal v2",
+      "symbol": "KNC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/KNC/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xa00E3A3511aAC35cA78530c85007AFCd31753819",
+      "name": "Kyber Network Crystal v2",
+      "symbol": "KNC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/KNC/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x4BC18Ae212F798FD7b0eae94dfCA18c0333157c4",
+      "name": "Kyber Network Crystal v2",
+      "symbol": "KNC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/KNC/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x83251BD7EbB55f9CED617030107cE32ef06F54f8",
+      "name": "Kyber Network Crystal v2",
+      "symbol": "KNC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/KNC/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789",
       "name": "Kromatika",
       "symbol": "KROM",
@@ -1071,6 +1115,28 @@
       "symbol": "OP",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/OP/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x32B3b2281717dA83463414af4E8CfB1970E56287",
+      "name": "OptimismUselessToken-Bridged",
+      "symbol": "OUTb",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OUTb/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x3e7eF8f50246f725885102E8238CBba33F276747",
+      "name": "OptimismUselessToken-Bridged",
+      "symbol": "OUTb",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OUTb/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -1892,7 +1958,7 @@
     {
       "chainId": 1,
       "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-      "name": "Wrapped Bitcoin",
+      "name": "Wrapped BTC",
       "symbol": "WBTC",
       "decimals": 8,
       "logoURI": "https://ethereum-optimism.github.io/data/WBTC/logo.svg",
@@ -1903,7 +1969,7 @@
     {
       "chainId": 10,
       "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
-      "name": "Wrapped Bitcoin",
+      "name": "Wrapped BTC",
       "symbol": "WBTC",
       "decimals": 8,
       "logoURI": "https://ethereum-optimism.github.io/data/WBTC/logo.svg",
@@ -1914,7 +1980,7 @@
     {
       "chainId": 42,
       "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
-      "name": "Wrapped Bitcoin",
+      "name": "Wrapped BTC",
       "symbol": "WBTC",
       "decimals": 8,
       "logoURI": "https://ethereum-optimism.github.io/data/WBTC/logo.svg",
@@ -1925,7 +1991,29 @@
     {
       "chainId": 69,
       "address": "0x2382a8f65b9120E554d1836a504808aC864E169d",
-      "name": "Wrapped Bitcoin",
+      "name": "Wrapped BTC L2",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/WBTC/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xC04B0d3107736C32e19F1c62b2aF67BE61d63a05",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/WBTC/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0xe0a592353e81a94Db6E3226fD4A99F881751776a",
+      "name": "Wrapped BTC L2",
       "symbol": "WBTC",
       "decimals": 8,
       "logoURI": "https://ethereum-optimism.github.io/data/WBTC/logo.svg",

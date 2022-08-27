@@ -2,6 +2,8 @@
   "name": "Ether",
   "symbol": "ETH",
   "decimals": 18,
+  "description": "Ethereum",
+  "website": "https://ethereum.org",
   "tokens": {
     "ethereum": {
       "address": "0x0000000000000000000000000000000000000000"
