@@ -1,0 +1,13 @@
+{
+  "name": "Premia",
+  "symbol": "PREMIA",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x6399c842dd2be3de30bf99bc7d1bbf6fa3650e70"
+    },
+    "optimism": {
+      "address": "0x374Ad0f47F4ca39c78E5Cc54f1C9e426FF8f231A"
+    }
+  }
+}

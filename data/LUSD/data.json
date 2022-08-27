@@ -1,0 +1,13 @@
+{
+  "name": "LUSD Stablecoin",
+  "symbol": "LUSD",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0"
+    },
+    "optimism": {
+      "address": "0xc40f949f8a4e094d1b49a23ea9241d289b7b2819"
+    }
+  }
+}

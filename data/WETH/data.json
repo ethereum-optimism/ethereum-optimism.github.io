@@ -1,0 +1,11 @@
+{
+  "name": "Wrapped Ether",
+  "symbol": "WETH",
+  "decimals": 18,
+  "nobridge": true,
+  "tokens": {
+    "optimism": {
+      "address": "0x4200000000000000000000000000000000000006"
+    }
+  }
+}

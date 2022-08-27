@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`'generate' script parse data dir and compile correct token list 1`] = `
+Object {
+  "keywords": Array [
+    "scaling",
+    "layer2",
+    "infrastructure",
+  ],
+  "logoURI": "https://ethereum-optimism.github.io/optimism.svg",
+  "name": "Optimism",
+  "timestamp": "2022-08-17T17:00:00.000Z",
+  "tokens": Array [
+    Object {
+      "address": "0x0000000000000000000000000000000000000000",
+      "chainId": 1,
+      "decimals": 18,
+      "extensions": Object {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+      },
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "name": "Ether",
+      "symbol": "ETH",
+    },
+    Object {
+      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+      "chainId": 10,
+      "decimals": 18,
+      "extensions": Object {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+      },
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "name": "Ether",
+      "symbol": "ETH",
+    },
+    Object {
+      "address": "0x0000000000000000000000000000000000000000",
+      "chainId": 42,
+      "decimals": 18,
+      "extensions": Object {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B",
+      },
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "name": "Ether",
+      "symbol": "ETH",
+    },
+    Object {
+      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+      "chainId": 69,
+      "decimals": 18,
+      "extensions": Object {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+      },
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "name": "Ether",
+      "symbol": "ETH",
+    },
+    Object {
+      "address": "0x4200000000000000000000000000000000000042",
+      "chainId": 10,
+      "decimals": 18,
+      "extensions": Object {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+      },
+      "logoURI": "https://ethereum-optimism.github.io/data/OP/logo.png",
+      "name": "Optimism",
+      "symbol": "OP",
+    },
+    Object {
+      "address": "0x4200000000000000000000000000000000000042",
+      "chainId": 69,
+      "decimals": 18,
+      "extensions": Object {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+      },
+      "logoURI": "https://ethereum-optimism.github.io/data/OP/logo.png",
+      "name": "Optimism",
+      "symbol": "OP",
+    },
+  ],
+  "version": Object {
+    "major": 4,
+    "minor": 3,
+    "patch": 0,
+  },
+}
+`;

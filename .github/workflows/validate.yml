@@ -1,0 +1,119 @@
+name: Validate PR
+
+on:
+  push:
+    branches: [master]
+  pull_request_target:
+    branches: [master]
+
+jobs:
+  validate:
+    name: validate
+    runs-on: ubuntu-latest
+
+    permissions:
+      issues: write
+      pull-requests: write
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      # Be careful! We need this action to be able to make comments on PRs from external repos, but
+      # doing so requires using the pull_request_target workflow trigger. Using this trigger will
+      # run the workflow in the context of the base branch, not the remote branch, which gives the
+      # workflow access to secrets. You MUST NOT clone any remote code to execute here. Since we're
+      # only cloning data files and these files are never executed (only parsed), this step is OK.
+      - name: Checkout remote data files
+        run: |
+          if [ ${{ github.event_name }} == "pull_request_target" ]; then
+            git remote add pr ${{ github.event.pull_request.head.repo.clone_url }}
+            git fetch pr
+            git checkout pr/${{ github.event.pull_request.head.ref }} -- data/
+
+            if [ ${{ github.event.pull_request.head.repo.fork }} == "true" ]; then
+              if git diff --name-only --cached | grep -vE '(data.json|logo.svg|logo.png)$'; then
+                echo "external PRs can only contain data.json or logo files" > err.log
+              fi
+            fi
+          fi
+
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - uses: actions/cache@v2
+        id: yarn-cache
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
+
+      - name: Validate token list
+        run: |
+          CHANGED=$(git diff --name-only --cached | sed -nr "s/data\/(.*?)\/.*/\1/p" | paste -sd "," -)
+          node ./bin/cli.js validate --datadir ./data --tokens "${CHANGED}" 2> err.out 1> std.out
+
+      - name: Read log message
+        id: log-message
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./std.out
+
+      - name: Comment on manual review
+        uses: actions/github-script@v5
+        with:
+          script: |
+            if (`${{ steps.log-message.outputs.content }}`.includes('requires manual review')) {
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `This PR requires manual review as per the reason listed below. A maintainer will review this PR soon! ❤️\n\n${{ steps.log-message.outputs.content }}`
+              })
+              github.rest.issues.addLabels({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: ['requires-manual-review']
+              })
+            }
+
+      - name: Read failure message
+        if: ${{ failure() }}
+        id: failure-message
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./err.out
+
+      - name: Comment on failure
+        if: ${{ failure() }}
+        uses: actions/github-script@v5
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `We detected an issue with the files added in this PR. Please see the reported error message below:\n\n${{ steps.failure-message.outputs.content }}`
+            })
+
+      - name: Upload artifacts
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: logs-artifact
+          path: |
+            err.out
+            std.out

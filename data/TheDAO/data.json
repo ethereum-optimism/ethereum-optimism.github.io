@@ -1,0 +1,32 @@
+{
+  "name": "TheDAO",
+  "symbol": "TheDAO",
+  "decimals": 16,
+  "nonstandard": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0xbb9bc244d798123fde783fcc1c72d3bb8c189413",
+      "overrides": {
+        "decimals": 16
+      }
+    },
+    "optimism": {
+      "address": "0xd8f365c2c85648f9b89d9f1bf72c0ae4b1c36cfd",
+      "overrides": {
+        "decimals": 16
+      }
+    },
+    "kovan": {
+      "address": "0x8274ea38fe9bea66f8e7c6f3ef742b85d86aeb5d",
+      "overrides": {
+        "decimals": 16
+      }
+    },
+    "optimism-kovan": {
+      "address": "0x35597dC6f8fDc81d71b311A9E4e2710ef6accb68",
+      "overrides": {
+        "decimals": 16
+      }
+    }
+  }
+}

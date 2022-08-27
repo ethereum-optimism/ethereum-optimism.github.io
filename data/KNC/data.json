@@ -1,0 +1,19 @@
+{
+  "name": "Kyber Network Crystal v2",
+  "symbol": "KNC",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202"
+    },
+    "optimism": {
+      "address": "0xa00E3A3511aAC35cA78530c85007AFCd31753819"
+    },
+    "kovan": {
+      "address": "0x4BC18Ae212F798FD7b0eae94dfCA18c0333157c4"
+    },
+    "optimism-kovan": {
+      "address": "0x83251BD7EbB55f9CED617030107cE32ef06F54f8"
+    }
+  }
+}

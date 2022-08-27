@@ -1,0 +1,19 @@
+{
+  "name": "TrueUSD",
+  "symbol": "TUSD",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x0000000000085d4780B73119b644AE5ecd22b376"
+    },
+    "optimism": {
+      "address": "0xcB59a0A753fDB7491d5F3D794316F1adE197B21E"
+    },
+    "kovan": {
+      "address": "0x1794230aBe1995fcFe6B14865D4B6928121AB9d9"
+    },
+    "optimism-kovan": {
+      "address": "0xFa956eB0c4b3E692aD5a6B2f08170aDE55999ACa"
+    }
+  }
+}

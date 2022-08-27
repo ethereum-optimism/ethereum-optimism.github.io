@@ -1,0 +1,19 @@
+{
+  "name": "Balancer",
+  "symbol": "BAL",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xba100000625a3754423978a60c9317c58a424e3D"
+    },
+    "optimism": {
+      "address": "0xFE8B128bA8C78aabC59d4c64cEE7fF28e9379921"
+    },
+    "kovan": {
+      "address": "0x41286Bb1D3E870f3F750eB7E1C25d7E48c8A1Ac7"
+    },
+    "optimism-kovan": {
+      "address": "0xc72751efd79B153D5bdC7E1a43b4b98aA2aA04C7"
+    }
+  }
+}

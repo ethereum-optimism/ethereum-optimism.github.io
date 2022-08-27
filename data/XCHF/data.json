@@ -1,0 +1,13 @@
+{
+  "name": "CryptoFranc",
+  "symbol": "XCHF",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xB4272071eCAdd69d933AdcD19cA99fe80664fc08"
+    },
+    "optimism": {
+      "address": "0xE4F27b04cC7729901876B44f4EAA5102EC150265"
+    }
+  }
+}

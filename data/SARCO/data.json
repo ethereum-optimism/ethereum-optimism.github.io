@@ -1,0 +1,13 @@
+{
+  "name": "Sarcophagus",
+  "symbol": "SARCO",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x7697b462a7c4ff5f8b55bdbc2f4076c2af9cf51a"
+    },
+    "optimism": {
+      "address": "0x7c6b91d9be155a6db01f749217d76ff02a7227f2"
+    }
+  }
+}

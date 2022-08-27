@@ -1,0 +1,13 @@
+{
+  "name": "Rocket Pool ETH",
+  "symbol": "rETH",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xae78736cd615f374d3085123a210448e74fc6393"
+    },
+    "optimism": {
+      "address": "0x9bcef72be871e61ed4fbbc7630889bee758eb81d"
+    }
+  }
+}
