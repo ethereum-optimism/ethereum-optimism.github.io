@@ -28,6 +28,7 @@ const factoryABI = require("./abi/factory.json");
  */
 const validate = async (datadir, tokens) => {
   // Load data files to validate and filter for requested tokens
+  console.log(tokens)
   const folders = fs.readdirSync(datadir).sort((a, b) => {
     return a.toLowerCase().localeCompare(b.toLowerCase());
   }).filter((folder) => {
