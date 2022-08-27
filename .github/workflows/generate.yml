@@ -7,7 +7,9 @@ on:
 jobs:
   generate:
     name: generate
-    if: github.repository == 'ethereum-optimism/ethereum-optimism.github.io'
+    if: |
+      github.triggering_actor !== 'github-actions[bot]'
+        && github.repository == 'ethereum-optimism/ethereum-optimism.github.io'
 
     runs-on: ubuntu-latest
 
