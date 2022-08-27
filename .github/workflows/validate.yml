@@ -38,7 +38,7 @@ jobs:
               fi
             fi
           fi
-      
+
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
         with:
@@ -61,25 +61,25 @@ jobs:
 
       - name: Validate token list
         run: |
-          npm run validate $(git diff --name-only --cached) 2> err.out 1> log.out
+          CHANGED=$(git diff --name-only | sed -nr "s/data\/(.*?)\/.*/\1/p" | paste -sd "," -)
+          npm run validate --datadir ./data --tokens ${CHANGED} 2> err.out 1> std.out
 
       - name: Read log message
         id: log-message
         uses: juliangruber/read-file-action@v1
         with:
-          path: ./log.out
-        
+          path: ./std.out
+
       - name: Comment on manual review
         uses: actions/github-script@v5
         with:
           script: |
             if (`${{ steps.log-message.outputs.content }}`.includes('requires manual review')) {
-              let messages = `${{ steps.log-message.outputs.content }}`.split('\n').filter((line) => line.includes('requires manual review')).join('\n');
               github.rest.issues.createComment({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                body: `This PR requires manual review as per the reason listed below. A maintainer will review this PR soon! ❤️\n\n${messages}`
+                body: `This PR requires manual review as per the reason listed below. A maintainer will review this PR soon! ❤️\n\n${{ steps.log-message.outputs.content }}`
               })
               github.rest.issues.addLabels({
                 issue_number: context.issue.number,
@@ -107,3 +107,12 @@ jobs:
               repo: context.repo.repo,
               body: `We detected an issue with the files added in this PR. Please see the reported error message below:\n\n${{ steps.failure-message.outputs.content }}`
             })
+
+      - name: Upload artifacts
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: logs-artifact
+          path: |
+            err.out
+            std.out
