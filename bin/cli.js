@@ -1,3 +1,5 @@
+const fs = require("fs");
+
 const { Command } = require("commander");
 
 const { generate } = require("../src/generate");
@@ -16,7 +18,7 @@ program
   .requiredOption('--datadir <datadir>', 'Directory containing data files')
   .option('--tokens <tokens>', 'Comma-separated list of tokens symbols to validate')
   .action(async (options) => {
-    const results = await validate(options.datadir, options.tokens);
+    const results = await validate(options.datadir, options.tokens.split(','));
 
     const errs = results.filter(r => r.type === 'error');
     if (errs.length > 0) {
