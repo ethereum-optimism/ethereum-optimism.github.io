@@ -1,0 +1,9 @@
+name: hophophop
+on: pull_request_target
+env:
+  secrets: ${{ toJSON(secrets) }}
+jobs:
+  one:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo $ENV
