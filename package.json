@@ -11,8 +11,9 @@
     "url": "git+https://github.com/ethereum-optimism/tokenlist.git"
   },
   "scripts": {
-    "validate": "node ./scripts/validate.js",
-    "generate": "node ./scripts/generate.js"
+    "validate": "node ./bin/cli.js validate",
+    "generate": "node ./bin/cli.js generate",
+    "test": "jest --detectOpenHandles"
   },
   "dependencies": {
     "@actions/core": "^1.4.0",
@@ -20,10 +21,14 @@
     "ethers": "^5.4.1"
   },
   "devDependencies": {
+    "@eth-optimism/core-utils": "^0.9.3",
     "@uniswap/token-lists": "^1.0.0-beta.30",
     "ajv": "^8.11.0",
     "ajv-formats": "^2.1.1",
+    "commander": "^9.4.0",
     "glob": "^8.0.3",
-    "jsonschema": "^1.4.1"
+    "jest": "^28.1.3",
+    "jsonschema": "^1.4.1",
+    "node-fetch": "2.6.7"
   }
 }

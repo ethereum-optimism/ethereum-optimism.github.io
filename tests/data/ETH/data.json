@@ -1,0 +1,21 @@
+{
+  "name": "Ether",
+  "symbol": "ETH",
+  "decimals": 18,
+  "description": "Ethereum",
+  "website": "https://ethereum.org",
+  "tokens": {
+    "ethereum": {
+      "address": "0x0000000000000000000000000000000000000000"
+    },
+    "optimism": {
+      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
+    },
+    "kovan": {
+      "address": "0x0000000000000000000000000000000000000000"
+    },
+    "optimism-kovan": {
+      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
+    }
+  }
+}

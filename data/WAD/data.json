@@ -1,0 +1,19 @@
+{
+  "name": "WardenSwap",
+  "symbol": "WAD",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x0B6F3c17e1626a7cBfA4302CE4E3c45522d23A83"
+    },
+    "optimism": {
+      "address": "0x703D57164CA270b0B330A87FD159CfEF1490c0a5"
+    },
+    "kovan": {
+      "address": "0x2C7A8122A1b512AdC848024cE72e837001EcB586"
+    },
+    "optimism-kovan": {
+      "address": "0xD1917629B3E6A72E6772Aab5dBe58Eb7FA3C2F33"
+    }
+  }
+}

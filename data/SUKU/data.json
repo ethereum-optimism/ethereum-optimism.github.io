@@ -1,0 +1,22 @@
+{
+  "name": "SUKU",
+  "symbol": "SUKU",
+  "decimals": 18,
+  "description": "SUKU is an ecosystem that brings web3 communities together, providing them with simple yet powerful tools and incentives to grow faster and stronger, and to unlock unique experiences.",
+  "website": "https://www.suku.world/",
+  "twitter": "@suku_world",
+  "tokens": {
+    "ethereum": {
+      "address": "0x0763fdccf1ae541a5961815c0872a8c5bc6de4d7"
+    },
+    "optimism": {
+      "address": "0xef6301da234fc7b0545c6e877d3359fe0b9e50a4"
+    },
+    "kovan": {
+      "address": "0xd35f5965b4b84382ca27072ff3b6b42e7053e672"
+    },
+    "optimism-kovan": {
+      "address": "0x871f2f2ff935fd1ed867842ff2a7bfd051a5e527"
+    }
+  }
+}
