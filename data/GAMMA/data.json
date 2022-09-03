@@ -1,0 +1,13 @@
+{
+  "name": "Gamma",
+  "symbol": "GAMMA",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x6BeA7CFEF803D1e3d5f7C0103f7ded065644e197"
+    },
+    "optimism": {
+      "address": "0x50bce64397c75488465253c0a034b8097fea6578"
+    }
+  }
+}
