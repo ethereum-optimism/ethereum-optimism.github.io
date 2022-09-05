@@ -1,0 +1,23 @@
+{
+  "name": “Cartesi Token”,
+  "symbol": “CTSI”,
+  "decimals": 18,
+  "description": “Cartesi - The Blockchain OS is a decentralized Layer-2 infrastructure that supports Linux and mainstream software components. For the first time, developers can code scalable smart contracts with rich software tools, libraries, and the services they’re used to, bridging the gap between mainstream software and blockchain.
+
+Cartesi is enabling millions of new startups and their developers to use The Blockchain OS and bring Linux applications on board. With groundbreaking virtual machines and optimistic rollups, Cartesi paves the way for developers of all kinds, to build the next generation of blockchain apps.
+
+Welcome to The Blockchain OS, home to what’s next.“,
+  "website": "https://cartesi.io”,
+  "twitter": “@cartesiproject”,
+  "tokens": {
+    "ethereum": {
+      "address": "0x491604c0FDF08347Dd1fa4Ee062a822A5DD06B5D"
+    },
+    "optimism": {
+      "address": "0xEc6adef5E1006bb305bB1975333e8fc4071295bf"
+    },
+    "optimism-kovan": {
+      "address": "0xEc6adef5E1006bb305bB1975333e8fc4071295bf"
+    },
+  }
+}
