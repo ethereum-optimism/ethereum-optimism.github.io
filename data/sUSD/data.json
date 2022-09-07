@@ -1,0 +1,17 @@
+{
+  "name": "Synthetix USD",
+  "symbol": "sUSD",
+  "decimals": 18,
+  "nobridge": true,
+  "tokens": {
+    "optimism": {
+      "address": "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9"
+    },
+    "optimism-kovan": {
+      "address": "0xaA5068dC2B3AADE533d3e52C6eeaadC6a8154c57"
+    },
+    "optimism-goerli": {
+      "address": "0xeBaEAAD9236615542844adC5c149F86C36aD1136"
+    }
+  }
+}

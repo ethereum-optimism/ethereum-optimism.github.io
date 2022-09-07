@@ -1,0 +1,11 @@
+{
+  "name": "Synthetic Chainlink",
+  "symbol": "sLINK",
+  "decimals": 18,
+  "nobridge": true,
+  "tokens": {
+    "optimism": {
+      "address": "0xc5Db22719A06418028A40A9B5E9A7c02959D0d08"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Paper",
+  "symbol": "PAPER",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x7ae1d57b58fa6411f32948314badd83583ee0e8c"
+    },
+    "optimism": {
+      "address": "0x00F932F0FE257456b32dedA4758922E56A4F4b42"
+    }
+  }
+}

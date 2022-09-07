@@ -1,0 +1,13 @@
+{
+  "name": "UST (Wormhole)",
+  "symbol": "UST",
+  "decimals": 6,
+  "tokens": {
+    "ethereum": {
+      "address": "0xa693b19d2931d498c5b318df961919bb4aee87a5"
+    },
+    "optimism": {
+      "address": "0xBA28feb4b6A6b81e3F26F08b83a19E715C4294fd"
+    }
+  }
+}

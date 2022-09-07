@@ -1,31 +1,34 @@
 {
   "name": "@eth-optimism/tokenlist",
-  "version": "1.0.1",
-  "description": "Optimism Token List",
+  "description": "[Optimism] token list",
+  "version": "4.3.0",
   "main": "index.js",
-  "dependencies": {
-    "@actions/core": "^1.4.0",
-    "@changesets/cli": "^2.16.0",
-    "@eth-optimism/contracts": "^0.5.7",
-    "add": "^2.0.6",
-    "dotenv": "^10.0.0",
-    "ethers": "^5.4.1",
-    "ts-node": "^10.1.0",
-    "typescript": "^4.3.5",
-    "yarn": "^1.22.10"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "validate": "ts-node src/validate.ts"
-  },
+  "homepage": "https://github.com/ethereum-optimism/tokenlist#readme",
+  "license": "MIT",
+  "author": "Optimism",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ethereum-optimism/tokenlist.git"
   },
-  "author": "ethereum-optimism",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ethereum-optimism/tokenlist/issues"
+  "scripts": {
+    "validate": "node ./bin/cli.js validate",
+    "generate": "node ./bin/cli.js generate",
+    "test": "jest --detectOpenHandles"
   },
-  "homepage": "https://github.com/ethereum-optimism/tokenlist#readme"
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@eth-optimism/contracts": "^0.5.7",
+    "ethers": "^5.4.1"
+  },
+  "devDependencies": {
+    "@eth-optimism/core-utils": "^0.9.3",
+    "@uniswap/token-lists": "^1.0.0-beta.30",
+    "ajv": "^8.11.0",
+    "ajv-formats": "^2.1.1",
+    "commander": "^9.4.0",
+    "glob": "^8.0.3",
+    "jest": "^28.1.3",
+    "jsonschema": "^1.4.1",
+    "node-fetch": "2.6.7"
+  }
 }

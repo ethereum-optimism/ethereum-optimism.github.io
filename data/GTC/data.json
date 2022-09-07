@@ -1,0 +1,19 @@
+{
+  "name": "Gitcoin",
+  "symbol": "GTC",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f"
+    },
+    "optimism": {
+      "address": "0x1eba7a6a72c894026cd654ac5cdcf83a46445b08"
+    },
+    "kovan": {
+      "address": "0xb7e230f904971724c600ad5217b88d219ddd1525"
+    },
+    "optimism-kovan": {
+      "address": "0xaf8ca653fa2772d58f4368b0a71980e9e3ceb888"
+    }
+  }
+}

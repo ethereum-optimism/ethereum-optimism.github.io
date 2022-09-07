@@ -1,0 +1,19 @@
+{
+  "name": "Equalizer",
+  "symbol": "EQZ",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x1da87b114f35e1dc91f72bf57fc07a768ad40bb0"
+    },
+    "optimism": {
+      "address": "0x81ab7e0d570b01411fcc4afd3d50ec8c241cb74b"
+    },
+    "kovan": {
+      "address": "0xea281a04cf517aa0d4645bdda0353b0958e4b1b4"
+    },
+    "optimism-kovan": {
+      "address": "0x8ee73c484a26e0a5df2ee2a4960b789967dd0415"
+    }
+  }
+}

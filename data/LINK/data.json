@@ -1,0 +1,25 @@
+{
+  "name": "Chainlink",
+  "symbol": "LINK",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x514910771af9ca656af840dff83e8264ecf986ca"
+    },
+    "optimism": {
+      "address": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6"
+    },
+    "kovan": {
+      "address": "0xa36085F69e2889c224210F603D836748e7dC0088"
+    },
+    "optimism-kovan": {
+      "address": "0x4911b761993b9c8c0d14Ba2d86902AF6B0074F5B"
+    },
+    "goerli": {
+      "address": "0x326C977E6efc84E512bB9C30f76E30c160eD06FB"
+    },
+    "optimism-goerli": {
+      "address": "0xdc2CC710e42857672E7907CF474a69B63B93089f"
+    }
+  }
+}

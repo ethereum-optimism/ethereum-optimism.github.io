@@ -1,0 +1,19 @@
+{
+  "name": "Dola USD Stablecoin",
+  "symbol": "DOLA",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x865377367054516e17014CcdED1e7d814EDC9ce4"
+    },
+    "optimism": {
+      "address": "0x8aE125E8653821E851F12A49F7765db9a9ce7384"
+    },
+    "kovan": {
+      "address": "0x39445DEc9Ba7Fb3776E8E5f9922864ddb9089304"
+    },
+    "optimism-kovan": {
+      "address": "0x0D760ee479401Bb4C40BDB7604b329FfF411b3f2"
+    }
+  }
+}

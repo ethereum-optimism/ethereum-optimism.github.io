@@ -1,0 +1,25 @@
+{
+  "name": "Dentacoin",
+  "symbol": "DCN",
+  "decimals": 0,
+  "tokens": {
+    "ethereum": {
+      "address": "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6",
+      "overrides": {
+        "symbol": "DCN"
+      }
+    },
+    "optimism": {
+      "address": "0x1da650c3b2daa8aa9ff6f661d4156ce24d08a062"
+    },
+    "kovan": {
+      "address": "0x001dedC8c67EF6D1f4BB66FB28581d466650Cd76",
+      "overrides": {
+        "symbol": "DCN"
+      }
+    },
+    "optimism-kovan": {
+      "address": "0xfd6ab60e0744e95c35fb17afda478eeae3835ddf"
+    }
+  }
+}

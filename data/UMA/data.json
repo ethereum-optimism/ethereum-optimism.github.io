@@ -1,0 +1,13 @@
+{
+  "name": "UMA Voting Token v1",
+  "symbol": "UMA",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828"
+    },
+    "optimism": {
+      "address": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea"
+    }
+  }
+}

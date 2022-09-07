@@ -1,0 +1,19 @@
+{
+  "name": "BarnBridge Governance Token",
+  "symbol": "BOND",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x0391D2021f89DC339F60Fff84546EA23E337750f"
+    },
+    "optimism": {
+      "address": "0x3e7eF8f50246f725885102E8238CBba33F276747"
+    },
+    "kovan": {
+      "address": "0x521EE0CeDbed2a5A130B9218551fe492C5c402e4"
+    },
+    "optimism-kovan": {
+      "address": "0x9e5AAC1Ba1a2e6aEd6b32689DFcF62A509Ca96f3"
+    }
+  }
+}
