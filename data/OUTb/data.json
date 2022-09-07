@@ -1,0 +1,13 @@
+{
+    "name": "OptimismUselessToken-Bridged",
+    "symbol": "OUTb",
+    "decimals": 18,
+    "tokens": {
+      "goerli": {
+        "address": "0x32B3b2281717dA83463414af4E8CfB1970E56287"
+      },
+      "optimism-goerli": {
+        "address": "0x3e7eF8f50246f725885102E8238CBba33F276747"
+      }
+    }
+}

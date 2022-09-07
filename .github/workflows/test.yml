@@ -1,23 +1,22 @@
-name: Generate Token List
+name: Test Scripts
 
 on:
   push:
     branches: [master]
+  pull_request:
+    branches: [master]
 
 jobs:
-  generate:
-    name: generate
-    if: |
-      github.event.head_commit.committer.username != 'github-actions[bot]'
-        && github.repository == 'ethereum-optimism/ethereum-optimism.github.io'
-
+  test:
+    name: test
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
 
     steps:
       - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.PAT }}
-          fetch-depth: 0
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
@@ -39,12 +38,6 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
 
-      - name: Generate token list
+      - name: Run Test
         run: |
-          node ./bin/cli.js generate --datadir ./data --outfile optimism.tokenlist.json
-
-      - name: Commit token list
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "bot(ci): generate token list"
-          file_pattern: optimism.tokenlist.json
+          npm run test

@@ -45,6 +45,8 @@ TOKEN_DATA_SCHEMA = {
     },
     description: {
       type: 'string',
+      minLength: 1,
+      maxLength: 150,
     },
     website: {
       type: 'string',
@@ -157,7 +159,7 @@ TOKEN_DATA_SCHEMA = {
     },
   },
   additionalProperties: false,
-  required: ['name', 'symbol', 'decimals', 'tokens']
+  required: ['name', 'symbol', 'decimals', 'tokens', 'description', 'website']
 }
 
 module.exports = {
