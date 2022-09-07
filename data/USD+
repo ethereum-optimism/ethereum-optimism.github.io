@@ -1,0 +1,14 @@
+{
+  "name": "USD+",
+  "symbol": "USD+",
+  "decimals": 6,
+  "description": "USD+ is a 1:1 BUSD-pegged yield bearing stablecoin! USD+ is fully collateralized with the most reliable stablecoins like BUSD, USDC, USDT. The APY is coming from the collateral being deployed across a range of low-risk (e.g. stable-to-stable LP) yield generating strategies. Every day USD+ grows in your wallet or LP, increasing capital efficiency of your assets",
+  "website": "https://overnight.fi,
+  "twitter": "@overnight_fi",
+  "nobridge": true,
+  "tokens": {
+    "optimism": {
+      "address": "0x2345234523452345234523452345234523452345"
+    }
+  }
+}
