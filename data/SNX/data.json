@@ -6,37 +6,44 @@
     "ethereum": {
       "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
       "overrides": {
-        "bridge": "0x39Ea01a0298C315d149a490E34B59Dbf2EC7e48F"
+        "bridge": "0x39Ea01a0298C315d149a490E34B59Dbf2EC7e48F",
+        "bridgeType": "LEGACY_BRIDGE",
+        "ens": "snx.eth"
       }
     },
     "optimism": {
       "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
       "overrides": {
-        "bridge": "0x136b1EC699c62b0606854056f02dC7Bb80482d63"
+        "bridge": "0x136b1EC699c62b0606854056f02dC7Bb80482d63",
+        "bridgeType": "LEGACY_BRIDGE"
       }
     },
     "kovan": {
       "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
       "overrides": {
-        "bridge": "0xc00E7C2Bd7B0Fb95DbBF10d2d336399A939099ee"
+        "bridge": "0xc00E7C2Bd7B0Fb95DbBF10d2d336399A939099ee",
+        "bridgeType": "LEGACY_BRIDGE"
       }
     },
     "optimism-kovan": {
       "address": "0x0064A673267696049938AA47595dD0B3C2e705A1",
       "overrides": {
-        "bridge": "0x5b643DFC67f9701929A0b55f23e0Af61df50E75D"
+        "bridge": "0x5b643DFC67f9701929A0b55f23e0Af61df50E75D",
+        "bridgeType": "LEGACY_BRIDGE"
       }
     },
     "goerli": {
       "address": "0x51f44ca59b867E005e48FA573Cb8df83FC7f7597",
       "overrides": {
-        "bridge": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65"
+        "bridge": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65",
+        "bridgeType": "LEGACY_BRIDGE"
       }
     },
     "optimism-goerli": {
       "address": "0x2E5ED97596a8368EB9E44B1f3F25B2E813845303",
       "overrides": {
-        "bridge": "0xD2b3F0Ea40dB68088415412b0043F37B3088836D"
+        "bridge": "0xD2b3F0Ea40dB68088415412b0043F37B3088836D",
+        "bridgeType": "LEGACY_BRIDGE"
       }
     }
   }
