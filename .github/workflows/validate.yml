@@ -42,7 +42,6 @@ jobs:
           node ./bin/cli.js validate --datadir ./data --tokens "${CHANGED}" 2> err.out 1> std.out
 
       - name: Upload artifacts
-        if: ${{ failure() }}
         uses: actions/upload-artifact@v3
         with:
           name: logs-artifact
