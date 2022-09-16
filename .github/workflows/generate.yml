@@ -7,13 +7,16 @@ on:
 jobs:
   generate:
     name: generate
-    if: github.repository == 'ethereum-optimism/ethereum-optimism.github.io'
+    if: |
+      github.event.head_commit.committer.username != 'github-actions[bot]'
+        && github.repository == 'ethereum-optimism/ethereum-optimism.github.io'
 
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
         with:
+          token: ${{ secrets.PAT }}
           fetch-depth: 0
 
       - name: Use Node.js 16.x
