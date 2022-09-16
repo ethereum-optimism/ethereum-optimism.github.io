@@ -3,6 +3,18 @@
   "symbol": "wstETH",
   "decimals": 18,
   "tokens": {
+    "ethereum": {
+      "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+      "overrides": {
+        "bridge": "0x76943C0D61395d8F2edF9060e1533529cAe05dE6"
+      }
+    },
+    "optimism": {
+      "address": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+      "overrides": {
+        "bridge": "0x8E01013243a96601a86eb3153F0d9Fa4fbFb6957"
+      }
+    },
     "kovan": {
       "address": "0xa88751C0a08623E11ff38c6B70F2BbEe7865C17c",
       "overrides": {
