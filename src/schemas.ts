@@ -1,10 +1,10 @@
-ADDRESS_TYPE = {
+export const ADDRESS_TYPE = {
   type: 'string',
   minLength: 42,
   maxLength: 42,
 }
 
-TOKEN_SCHEMA = {
+export const TOKEN_SCHEMA = {
   type: 'object',
   properties: {
     address: ADDRESS_TYPE,
@@ -17,15 +17,15 @@ TOKEN_SCHEMA = {
         type: 'string',
       },
       decimals: {
-        type: 'integer'
-      }
-    }
+        type: 'integer',
+      },
+    },
   },
   additionalProperties: false,
-  required: ['address']
+  required: ['address'],
 }
 
-TOKEN_DATA_SCHEMA = {
+export const TOKEN_DATA_SCHEMA = {
   type: 'object',
   properties: {
     nonstandard: {
@@ -41,7 +41,7 @@ TOKEN_DATA_SCHEMA = {
       type: 'string',
     },
     decimals: {
-      type: 'integer'
+      type: 'integer',
     },
     description: {
       type: 'string',
@@ -60,108 +60,115 @@ TOKEN_DATA_SCHEMA = {
         {
           type: 'object',
           properties: {
-            'ethereum': TOKEN_SCHEMA,
-            'optimism': TOKEN_SCHEMA,
-            'kovan': TOKEN_SCHEMA,
+            ethereum: TOKEN_SCHEMA,
+            optimism: TOKEN_SCHEMA,
+            kovan: TOKEN_SCHEMA,
             'optimism-kovan': TOKEN_SCHEMA,
           },
           additionalProperties: false,
-          required: ['ethereum', 'optimism', 'kovan', 'optimism-kovan']
+          required: ['ethereum', 'optimism', 'kovan', 'optimism-kovan'],
         },
         {
           type: 'object',
           properties: {
-            'ethereum': TOKEN_SCHEMA,
-            'optimism': TOKEN_SCHEMA,
-            'goerli': TOKEN_SCHEMA,
+            ethereum: TOKEN_SCHEMA,
+            optimism: TOKEN_SCHEMA,
+            goerli: TOKEN_SCHEMA,
             'optimism-goerli': TOKEN_SCHEMA,
           },
           additionalProperties: false,
-          required: ['ethereum', 'optimism', 'goerli', 'optimism-goerli']
+          required: ['ethereum', 'optimism', 'goerli', 'optimism-goerli'],
         },
         {
           type: 'object',
           properties: {
-            'ethereum': TOKEN_SCHEMA,
-            'optimism': TOKEN_SCHEMA,
-            'kovan': TOKEN_SCHEMA,
+            ethereum: TOKEN_SCHEMA,
+            optimism: TOKEN_SCHEMA,
+            kovan: TOKEN_SCHEMA,
             'optimism-kovan': TOKEN_SCHEMA,
-            'goerli': TOKEN_SCHEMA,
+            goerli: TOKEN_SCHEMA,
             'optimism-goerli': TOKEN_SCHEMA,
           },
           additionalProperties: false,
-          required: ['ethereum', 'optimism', 'kovan', 'optimism-kovan', 'goerli', 'optimism-goerli']
+          required: [
+            'ethereum',
+            'optimism',
+            'kovan',
+            'optimism-kovan',
+            'goerli',
+            'optimism-goerli',
+          ],
         },
         {
           type: 'object',
           properties: {
-            'optimism': TOKEN_SCHEMA,
-            'optimism-kovan': TOKEN_SCHEMA,
-          },
-          additionalProperties: false,
-          required: ['optimism', 'optimism-kovan']
-        },
-        {
-          type: 'object',
-          properties: {
-            'optimism': TOKEN_SCHEMA,
-            'optimism-goerli': TOKEN_SCHEMA,
-          },
-          additionalProperties: false,
-          required: ['optimism', 'optimism-goerli']
-        },
-        {
-          type: 'object',
-          properties: {
-            'optimism': TOKEN_SCHEMA,
-            'optimism-kovan': TOKEN_SCHEMA,
-            'optimism-goerli': TOKEN_SCHEMA,
-          },
-          additionalProperties: false,
-          required: ['optimism', 'optimism-kovan', 'optimism-goerli']
-        },
-        {
-          type: 'object',
-          properties: {
-            'ethereum': TOKEN_SCHEMA,
-            'optimism': TOKEN_SCHEMA,
-          },
-          additionalProperties: false,
-          required: ['ethereum', 'optimism']
-        },
-        {
-          type: 'object',
-          properties: {
-            'kovan': TOKEN_SCHEMA,
+            optimism: TOKEN_SCHEMA,
             'optimism-kovan': TOKEN_SCHEMA,
           },
           additionalProperties: false,
-          required: ['kovan', 'optimism-kovan']
+          required: ['optimism', 'optimism-kovan'],
         },
         {
           type: 'object',
           properties: {
-            'goerli': TOKEN_SCHEMA,
+            optimism: TOKEN_SCHEMA,
             'optimism-goerli': TOKEN_SCHEMA,
           },
           additionalProperties: false,
-          required: ['goerli', 'optimism-goerli']
+          required: ['optimism', 'optimism-goerli'],
         },
         {
           type: 'object',
           properties: {
-            'optimism': TOKEN_SCHEMA,
+            optimism: TOKEN_SCHEMA,
+            'optimism-kovan': TOKEN_SCHEMA,
+            'optimism-goerli': TOKEN_SCHEMA,
           },
           additionalProperties: false,
-          required: ['optimism']
-        }
-      ]
+          required: ['optimism', 'optimism-kovan', 'optimism-goerli'],
+        },
+        {
+          type: 'object',
+          properties: {
+            ethereum: TOKEN_SCHEMA,
+            optimism: TOKEN_SCHEMA,
+          },
+          additionalProperties: false,
+          required: ['ethereum', 'optimism'],
+        },
+        {
+          type: 'object',
+          properties: {
+            kovan: TOKEN_SCHEMA,
+            'optimism-kovan': TOKEN_SCHEMA,
+          },
+          additionalProperties: false,
+          required: ['kovan', 'optimism-kovan'],
+        },
+        {
+          type: 'object',
+          properties: {
+            goerli: TOKEN_SCHEMA,
+            'optimism-goerli': TOKEN_SCHEMA,
+          },
+          additionalProperties: false,
+          required: ['goerli', 'optimism-goerli'],
+        },
+        {
+          type: 'object',
+          properties: {
+            optimism: TOKEN_SCHEMA,
+          },
+          additionalProperties: false,
+          required: ['optimism'],
+        },
+      ],
     },
   },
   additionalProperties: false,
-  required: ['name', 'symbol', 'decimals', 'tokens', 'description', 'website']
+  required: ['name', 'symbol', 'decimals', 'tokens', 'description', 'website'],
 }
 
 module.exports = {
-  TOKEN_DATA_SCHEMA
+  TOKEN_DATA_SCHEMA,
 }
