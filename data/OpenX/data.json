@@ -1,0 +1,17 @@
+{
+    "name": "OpenX Optimism",
+    "symbol": "OpenX",
+    "decimals": 18,
+    "description": "Native OpenXSwap token on Optimism",
+	"website": "https://openxswap.exchange",
+	"twitter": "@OpenSwap_one",
+	"nobridge": true,
+    "tokens": {
+      "optimsim": {
+        "address": "0xc3864f98f2a61A7cAeb95b039D031b4E2f55e0e9"
+      },
+      "optimism-goerli": {
+        "address": "0xe30727276c804ff165a69AB504C7090fcA74e146"
+      }
+    }
+}
