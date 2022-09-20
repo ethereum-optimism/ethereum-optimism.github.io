@@ -1,0 +1,17 @@
+{
+    "name": "xOpenX Optimism",
+    "symbol": "xOpenX",
+    "decimals": 18,
+    "description": "Native xOpenX token used for governance.",
+	"website": "https://openxswap.exchange",
+	"twitter": "@OpenSwap_one",
+	"nobridge": true,
+    "tokens": {
+      "optimsim": {
+        "address": "0x5AE99ccE8b5BC9c639A27CCC2c84448C7a6a0A12"
+      },
+      "optimism-goerli": {
+        "address": "0x50A46d86d4f2D8227b4aF5CB8EB6f1d4a07d2E04"
+      }
+    }
+}
