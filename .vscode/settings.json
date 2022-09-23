@@ -1,0 +1,10 @@
+{
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true
+  },
+  "eslint.nodePath": "./node_modules/eslint/bin/",
+  "eslint.format.enable": true,
+  "editorconfig.generateAuto": false,
+  "files.trimTrailingWhitespace": true
+}
