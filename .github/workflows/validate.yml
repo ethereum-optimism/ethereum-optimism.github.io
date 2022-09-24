@@ -39,10 +39,10 @@ jobs:
       - name: Validate token list
         run: |
           CHANGED=$(git diff --name-only --cached | sed -nr "s/data\/(.*?)\/.*/\1/p" | paste -sd "," -)
-          node ./bin/cli.js validate --datadir ./data --tokens "${CHANGED}" 2> err.out 1> std.out
+          yarn validate --datadir ./data --tokens "${CHANGED}" 2> err.out 1> std.out
 
       - name: Upload artifacts
-        if: ${{ failure() }}
+        if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
           name: logs-artifact

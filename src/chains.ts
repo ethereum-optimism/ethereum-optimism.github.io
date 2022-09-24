@@ -1,6 +1,6 @@
-const { ethers } = require('ethers')
+import { ethers } from 'ethers'
 
-const NETWORK_DATA = {
+export const NETWORK_DATA = {
   ethereum: {
     id: 1,
     name: 'Mainnet',
@@ -12,10 +12,12 @@ const NETWORK_DATA = {
   optimism: {
     id: 10,
     name: 'Optimism',
-    provider: new ethers.providers.StaticJsonRpcProvider('https://mainnet.optimism.io'),
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://mainnet.optimism.io'
+    ),
     layer: 2,
     pair: 'ethereum',
-    bridge: '0x4200000000000000000000000000000000000010'
+    bridge: '0x4200000000000000000000000000000000000010',
   },
   kovan: {
     id: 42,
@@ -28,7 +30,9 @@ const NETWORK_DATA = {
   'optimism-kovan': {
     id: 69,
     name: 'Optimism Kovan',
-    provider: new ethers.providers.StaticJsonRpcProvider('https://kovan.optimism.io'),
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://kovan.optimism.io'
+    ),
     layer: 2,
     pair: 'kovan',
     bridge: '0x4200000000000000000000000000000000000010',
@@ -44,13 +48,11 @@ const NETWORK_DATA = {
   'optimism-goerli': {
     id: 420,
     name: 'Optimism Goerli',
-    provider: new ethers.providers.StaticJsonRpcProvider('https://goerli.optimism.io'),
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://goerli.optimism.io'
+    ),
     layer: 2,
     pair: 'goerli',
     bridge: '0x4200000000000000000000000000000000000010',
   },
-}
-
-module.exports = {
-  NETWORK_DATA,
 }
