@@ -36,9 +36,17 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
 
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v29
+        with:
+          files: |
+            data/**
+
       - name: Validate token list
         run: |
-          CHANGED=$(git diff --name-only --cached | sed -nr "s/data\/(.*?)\/.*/\1/p" | paste -sd "," -)
+          CHANGED=$(echo ${{ steps.changed-files.outputs.all_changed_files }} | sed -nr "s/data\/(.*?)\/.*/\1/p" | paste -sd "," -)
+          echo $CHANGED
           yarn validate --datadir ./data --tokens "${CHANGED}" 2> err.out 1> std.out
 
       - name: Upload artifacts
