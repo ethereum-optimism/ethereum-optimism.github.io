@@ -1,6 +1,6 @@
 {
   "name": "Aave Token",
-  "symbol": "AAVE",
+  "symbol": "AAV",
   "decimals": 18,
   "tokens": {
     "ethereum": {
