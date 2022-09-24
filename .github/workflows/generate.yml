@@ -41,7 +41,7 @@ jobs:
 
       - name: Generate token list
         run: |
-          node ./bin/cli.js generate --datadir ./data --outfile optimism.tokenlist.json
+          yarn generate --datadir ./data --outfile optimism.tokenlist.json
 
       - name: Commit token list
         uses: stefanzweifel/git-auto-commit-action@v4
