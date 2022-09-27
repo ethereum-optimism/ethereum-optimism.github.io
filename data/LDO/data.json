@@ -1,0 +1,30 @@
+{
+    "name": "Lido DAO Token",
+    "symbol": "LDO",
+    "decimals": 18,
+    "website": "https://lido.fi/",
+    "twitter": "@LidoFinance",
+    "nonstandard": true,
+    "tokens": {
+      "ethereum": {
+        "address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32"
+      },
+      "optimism": {
+        "address": "0xFdb794692724153d1488CcdBE0C56c252596735F"
+      },
+      "goerli": {
+        "address": "0x56340274fB5a72af1A3C6609061c451De7961Bd4",
+        "overrides": {
+            "name": "TEST Lido DAO Token",
+            "symbol": "TESTLDO"
+        }
+      },
+      "optimism-goerli": {
+        "address": "0xE265FC71d45fd791c9ebf3EE0a53FBB220Eb8f75",
+        "overrides": {
+            "name": "TEST Lido DAO Token",
+            "symbol": "TESTLDO"
+        }
+      }
+    }
+  }
