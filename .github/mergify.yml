@@ -15,7 +15,7 @@ pull_request_rules:
     actions:
       queue:
         name: default
-        method: merge
+        method: squash
 
   - name: Add merge train label
     conditions:
@@ -69,3 +69,13 @@ pull_request_rules:
       comment:
         message: |
           Merge failed. Please see automated check logs for more details.
+  
+  - name: automatic update prs
+    conditions:
+      - -conflict
+      - -draft
+      - label="do-not-merge"
+      - 'base=master'
+    actions:
+      update:
+
