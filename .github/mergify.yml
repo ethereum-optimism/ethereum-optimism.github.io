@@ -33,7 +33,7 @@ pull_request_rules:
     conditions:
       - -conflict
       - -draft
-      - label="do-not-merge"
+      - label!="do-not-merge"
       - 'base=master'
     actions:
       update:
