@@ -54,4 +54,4 @@ pull_request_rules:
     actions:
       comment:
         message: |
-          Your token has been merged.  Consider joining our discord.  Follow us on twitter.  Make sure to drink plenty of water.
+          Congrats! Your token has been merged.  Consider joining our Discord to stay up to date with other builders in the ecosystem. Make sure to drink plenty of water.
