@@ -1,0 +1,22 @@
+{
+    "name": "BAXagent Coin",
+    "symbol": "BAXA",
+    "decimals": 18,
+    "description": "A community currency for the accounting industry.",
+    "website": "https://baxacoin.com/",
+    "twitter": "@baxacoin",
+    "tokens": {
+      "ethereum": {
+        "address": "0x91B08f4A7C1251dfCcF5440F8894F8DaA10c8De5"
+      },
+      "optimism": {
+        "address": "0xDb9888b842408B0b8eFa1f5477bD9F351754999E"
+      },
+      "kovan": {
+        "address": "0x0Fc18b0CB89611C03Fc1Ba6876bdfE22317924FE"
+      },
+      "optimism-kovan": {
+        "address": "0xD7eA82D19f1f59FF1aE95F1945Ee6E6d86A25B96"
+      }
+    }
+}
