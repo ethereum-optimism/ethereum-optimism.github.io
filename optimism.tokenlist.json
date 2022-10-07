@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-07T22:42:41.548Z",
+  "timestamp": "2022-10-07T22:52:01.829Z",
   "tokens": [
     {
       "chainId": 1,
@@ -396,7 +396,7 @@
     {
       "chainId": 1,
       "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-      "name": "Dai stable coin",
+      "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
@@ -407,7 +407,7 @@
     {
       "chainId": 10,
       "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
-      "name": "Dai stable coin",
+      "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
@@ -418,7 +418,7 @@
     {
       "chainId": 42,
       "address": "0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa",
-      "name": "Dai stable coin",
+      "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
@@ -429,7 +429,7 @@
     {
       "chainId": 69,
       "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
-      "name": "Dai stable coin",
+      "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
@@ -440,7 +440,7 @@
     {
       "chainId": 5,
       "address": "0x11fE4B6AE13d2a6055C8D9cF65c55bac32B5d844",
-      "name": "Dai stable coin",
+      "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
@@ -451,7 +451,7 @@
     {
       "chainId": 420,
       "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
-      "name": "Dai stable coin",
+      "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
