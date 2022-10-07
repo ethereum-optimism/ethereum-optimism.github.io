@@ -1,0 +1,22 @@
+{
+  "name": "Universal Basic Income",
+  "symbol": "UBI",
+  "decimals": 18,
+  "description": "UBI is a cryptocurrency that streams to verified humans on Ethereum",
+  "website": "https://ubi.eth.limo",
+  "twitter": "@ubidoteth",
+  "tokens": {
+    "ethereum": {
+      "address": "0xDd1Ad9A21Ce722C151A836373baBe42c868cE9a4"
+    },
+    "optimism": {
+      "address": "0xbb586ed34974b15049a876fd5366a4c2d1203115"
+    },
+    "kovan": {
+      "address": "0x1ac5F168C220De2515Af6068c5A153aFe2c76d36"
+    },
+    "optimism-kovan": {
+      "address": "0xbb586ed34974b15049a876fd5366a4c2d1203115"
+    }
+  }
+}
