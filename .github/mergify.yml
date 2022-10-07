@@ -28,7 +28,7 @@ pull_request_rules:
       comment:
         message: |
           Merge failed. Please see automated check logs for more details.
-  
+
   - name: automatic update prs
     conditions:
       - -conflict
@@ -38,3 +38,11 @@ pull_request_rules:
     actions:
       update:
 
+  - name: Say hi to contributors if they are not part of the regularcontributors team
+    conditions:
+      - author!=@regularcontributors
+    actions:
+      comment:
+        message: |
+          Welcome to our great project!
+          We're delighted to have you onboard 💘
