@@ -1,0 +1,22 @@
+{
+    "name": "Saddle DAO",
+    "symbol": "SDL",
+    "decimals": 18,
+    "description": "Governance token for Saddle Finance",
+    "website": "https://saddle.finance/",
+    "twitter": "@saddlefinance",
+    "tokens": {
+        "ethereum": {
+            "address": "0xf1Dc500FdE233A4055e25e5BbF516372BC4F6871"
+        },
+        "optimism": {
+            "address": "0xAe31207aC34423C41576Ff59BFB4E036150f9cF7"
+        },
+        "kovan": {
+            "address": "0x2b7A5a5923ECa5C00c6572Cf3E8e08384F563F93"
+        },
+        "optimism-kovan": {
+            "address": "0xc96f4F893286137aC17e07Ae7F217fFca5db3AB6"
+        }
+    }
+}
