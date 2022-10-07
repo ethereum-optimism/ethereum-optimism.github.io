@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-07T21:35:45.978Z",
+  "timestamp": "2022-10-07T22:42:41.548Z",
   "tokens": [
     {
       "chainId": 1,
@@ -92,6 +92,50 @@
       "symbol": "AAVE",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/AAVE/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x2b95a1dcc3d405535f9ed33c219ab38e8d7e0884",
+      "name": "AladdinCRV",
+      "symbol": "aCRV",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/aCRV/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x764ad60e1b81f6cacfec1a2926393d688d4493e6",
+      "name": "AladdinCRV",
+      "symbol": "aCRV",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/aCRV/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x12b1326459d72f2ab081116bf27ca46cd97762a0",
+      "name": "AladdinCRV",
+      "symbol": "aCRV",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/aCRV/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xf882ac9259a378e102f058f2fb093dffeca96437",
+      "name": "AladdinCRV",
+      "symbol": "aCRV",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/aCRV/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
