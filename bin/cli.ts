@@ -27,7 +27,13 @@ program
     const errs = results.filter((r) => r.type === 'error')
     if (errs.length > 0) {
       for (const err of errs) {
-        console.error(`error: ${err.message}`)
+        if (err.message.startsWith('final token list is invalid')) {
+          // Message generated here is super long and doesn't really give more information than the
+          // rest of the errors, so just print a short version of it instead.
+          console.error(`error: final token list is invalid`)
+        } else {
+          console.error(`error: ${err.message}`)
+        }
       }
 
       // Exit with error code so CI fails

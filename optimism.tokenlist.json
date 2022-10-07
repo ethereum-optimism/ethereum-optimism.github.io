@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-09-24T11:34:21.771Z",
+  "timestamp": "2022-10-07T20:30:33.782Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1044,6 +1044,28 @@
     },
     {
       "chainId": 1,
+      "address": "0x3650B69f86cB593f116e276C30666834336c0647",
+      "name": "Loopfi",
+      "symbol": "LPF",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LPF/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x0B3e851cf6508A16266BC68A651ea68b31ef673b",
+      "name": "Loopfi",
+      "symbol": "LPF",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LPF/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
       "name": "LoopringCoin V2",
       "symbol": "LRC",
@@ -1254,6 +1276,28 @@
     {
       "chainId": 69,
       "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+      "name": "Perpetual",
+      "symbol": "PERP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PERP/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x29DdacF754877123157e0eeed26770736B304d0C",
+      "name": "Perpetual",
+      "symbol": "PERP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PERP/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53",
       "name": "Perpetual",
       "symbol": "PERP",
       "decimals": 18,
