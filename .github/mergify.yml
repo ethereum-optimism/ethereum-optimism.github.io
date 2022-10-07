@@ -3,39 +3,6 @@ queue_rules:
     conditions: []
 
 pull_request_rules:
-  - name: Automatic merge on approval
-    conditions:
-      - and:
-        - "base=master"
-        - "#review-threads-unresolved=0"
-        - "#changes-requested-reviews-by=0"
-        - "#approved-reviews-by>=1"
-        - "label!=do-not-merge"
-        - "label!=mergify-ignore"
-    actions:
-      queue:
-        name: default
-        method: squash
-
-  - name: Add merge train label
-    conditions:
-      - "queue-position >= 0"
-    actions:
-      comment:
-          message: |
-            This PR has been added to the merge queue, and will be merged soon.
-      label:
-        add:
-          - on-merge-train
-
-  - name: Remove merge train label
-    conditions:
-      - "queue-position = -1"
-    actions:
-      label:
-        remove:
-          - on-merge-train
-
   - name: Ask to resolve conflict
     conditions:
       - conflict
@@ -54,17 +21,9 @@ pull_request_rules:
         remove:
           - conflict
 
-  - name: Notify author when added to merge queue
-    conditions:
-      - "check-pending=Queue: Embarked in merge train"
-    actions:
-      comment:
-        message: |
-          This PR is next in line to be merged, and will be merged as soon as checks pass.
-
   - name: Notify author when merge queue failed
     conditions:
-      - "check-failure=Queue: Embarked in merge train"
+      - 'check-failure=Queue: Embarked in merge train'
     actions:
       comment:
         message: |
