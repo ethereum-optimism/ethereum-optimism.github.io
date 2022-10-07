@@ -13,6 +13,8 @@ The Optimism token list is used as the source of truth for the [Optimism Gateway
 
 ### Automated checks
 
+Note that if your token was grandfathered in before the validation was added, your token may fail validation when you edit it.  If this is the case you need to add additional fields that were since added such as website field.
+
 Our CI performs a series of automated checks on every PR.
 Some issues raised by CI will trigger an error and must be resolved before your PR will be reviewed.
 These issues are marked below as "auto-reject" issues.
