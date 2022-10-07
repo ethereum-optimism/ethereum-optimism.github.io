@@ -44,5 +44,5 @@ pull_request_rules:
     actions:
       comment:
         message: |
-          Welcome to our great project!
-          We're delighted to have you onboard 💘
+          Thanks for creating the issue! We're stoked to see you building on Optimism. 
+          Please give our team about a week to review your PR :) 
