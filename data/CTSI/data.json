@@ -1,0 +1,19 @@
+{
+  "name": "Cartesi Token",
+  "symbol": "CTSI",
+  "decimals": 18,
+  "description": "Cartesi, The Blockchain OS, is building Cartesi Rollups, a modular execution layer that elevates simple smart contracts to decentralized Linux runtimes. It allows developers to launch highly scalable rollup chains, and code decentralized logic with their favorite languages and software components. Welcome to The Blockchain OS, home to what’s next.",
+  "website": "https://cartesi.io",
+  "twitter": "@cartesiproject",
+  "tokens": {
+    "ethereum": {
+      "address": "0x491604c0FDF08347Dd1fa4Ee062a822A5DD06B5D"
+    },
+    "optimism": {
+      "address": "0xEc6adef5E1006bb305bB1975333e8fc4071295bf"
+    },
+    "optimism-kovan": {
+      "address": "0xEc6adef5E1006bb305bB1975333e8fc4071295bf"
+    }
+  }
+}
