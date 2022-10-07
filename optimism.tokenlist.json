@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-07T20:52:41.890Z",
+  "timestamp": "2022-10-07T20:55:13.377Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2347,6 +2347,28 @@
       "symbol": "WETH",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x753BD3E00B9585AC9a94Fdf287f41d8D51e5CF8b",
+      "name": "WAMP",
+      "symbol": "WMP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WMP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x35D48A789904E9b15705977192e5d95e2aF7f1D3",
+      "name": "WAMP",
+      "symbol": "WMP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WMP/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
