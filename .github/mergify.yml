@@ -44,5 +44,14 @@ pull_request_rules:
     actions:
       comment:
         message: |
-          Thanks for creating the PR! We're stoked to see you building on Optimism. 
-          Please give our team about a week to review your PR :) 
+          Thanks for creating the PR! We're stoked to see you building on Optimism.
+          Please give our team about a week to review your PR :)
+
+  - name: Say thanks
+    conditions:
+      - author!=@regularcontributors
+      - merged
+    actions:
+      comment:
+        message: |
+          Your token has been merged.  Consider joining our discord.  Follow us on twitter.  Make sure to drink plenty of water.
