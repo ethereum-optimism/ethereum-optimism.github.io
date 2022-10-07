@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-07T20:22:44.677Z",
+  "timestamp": "2022-10-07T20:46:23.969Z",
   "tokens": [
     {
       "chainId": 1,
@@ -527,6 +527,28 @@
     },
     {
       "chainId": 1,
+      "address": "0x92E187a03B6CD19CB6AF293ba17F2745Fd2357D5",
+      "name": "Unit protocol",
+      "symbol": "DUCK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DUCK/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x0e49ca6ea763190084c846d3fc18f28bc2ac689a",
+      "name": "Unit protocol",
+      "symbol": "DUCK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DUCK/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
       "name": "Ethereum Name Service",
       "symbol": "ENS",
@@ -1038,6 +1060,28 @@
       "symbol": "LIZ",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/LIZ/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x3650B69f86cB593f116e276C30666834336c0647",
+      "name": "Loopfi",
+      "symbol": "LPF",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LPF/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x0B3e851cf6508A16266BC68A651ea68b31ef673b",
+      "name": "Loopfi",
+      "symbol": "LPF",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LPF/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }

@@ -1,0 +1,15 @@
+{
+  "name": "Loopfi",
+  "symbol": "LPF",
+  "decimals": 18,
+  "website": "https://loopfi.io/",
+  "twitter": "@0xloopfi",
+  "tokens": {
+    "ethereum": {
+      "address": "0x3650B69f86cB593f116e276C30666834336c0647"
+    },
+    "optimism": {
+      "address": "0x0B3e851cf6508A16266BC68A651ea68b31ef673b"
+    }
+  }
+}
