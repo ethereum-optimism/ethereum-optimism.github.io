@@ -64,12 +64,6 @@ Add a file to your folder called `data.json` with the following format:
     "optimism": {
       "address": "0x2345234523452345234523452345234523452345"
     },
-    "kovan": {
-      "address": "0x3456345634563456345634563456345634563456"
-    },
-    "optimism-kovan": {
-      "address": "0x4567456745674567456745674567456745674567"
-    },
     "goerli": {
       "address": "0x5678567856785678567856785678567856785678"
     },
@@ -85,8 +79,6 @@ We currently accept tokens on the following chains:
 
 - `ethereum`
 - `optimism`
-- `kovan`
-- `optimism-kovan`
 - `goerli`
 - `optimism-goerli`
 
