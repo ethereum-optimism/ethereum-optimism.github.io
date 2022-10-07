@@ -53,9 +53,8 @@ jobs:
 
       - name: Print output
         if: ${{ always() }}
-        with: |
-          cat std.txt
-          cat err.txt
+        run: |
+          cat std.txt; cat err.txt
 
       - name: Upload artifacts
         if: ${{ always() }}
