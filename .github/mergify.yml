@@ -50,7 +50,7 @@ pull_request_rules:
   - name: Say thanks
     conditions:
       - author!=@regularcontributors
-      - merged=true
+      - merged
     actions:
       comment:
         message: |
