@@ -69,3 +69,13 @@ pull_request_rules:
       comment:
         message: |
           Merge failed. Please see automated check logs for more details.
+  
+  - name: automatic update prs
+    conditions:
+      - -conflict
+      - -draft
+      - label="do-not-merge"
+      - 'base=master'
+    actions:
+      update:
+
