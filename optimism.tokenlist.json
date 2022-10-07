@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-07T20:48:14.516Z",
+  "timestamp": "2022-10-07T20:50:08.741Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1852,6 +1852,50 @@
       "symbol": "TUSD",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/TUSD/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xDd1Ad9A21Ce722C151A836373baBe42c868cE9a4",
+      "name": "Universal Basic Income",
+      "symbol": "UBI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UBI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xbb586ed34974b15049a876fd5366a4c2d1203115",
+      "name": "Universal Basic Income",
+      "symbol": "UBI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UBI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x1ac5F168C220De2515Af6068c5A153aFe2c76d36",
+      "name": "Universal Basic Income",
+      "symbol": "UBI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UBI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0xbb586ed34974b15049a876fd5366a4c2d1203115",
+      "name": "Universal Basic Income",
+      "symbol": "UBI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UBI/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
