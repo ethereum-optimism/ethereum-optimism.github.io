@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-07T20:50:08.741Z",
+  "timestamp": "2022-10-07T20:52:41.890Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2206,6 +2206,28 @@
       "logoURI": "https://ethereum-optimism.github.io/data/USX/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0xB4d37826b14Cd3CB7257A2A5094507d701fe715f"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x27C4af9A860c4caDc358005F8b48140b2E434A7B",
+      "name": "Validator",
+      "symbol": "VALX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VALX/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x0A9AAa1c7542b42233AC7FfdA364E97adE21f160",
+      "name": "Validator",
+      "symbol": "VALX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VALX/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     },
     {
