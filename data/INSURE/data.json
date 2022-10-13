@@ -1,0 +1,14 @@
+{
+    "name": "alt insure token",
+    "symbol": "INSURE",
+    "decimals": 18,
+    "nonstandard": true,
+    "tokens": {
+      "goerli": {
+        "address": "0x0C4a63D472120d7859E2842b7C2Bafbd8eDe8f44"
+      },
+      "optimism-goerli": {
+        "address": "0xE50fcaea93EEd2230F5Fadd4efd0870dE2CB0dfF"
+      }
+    }
+  }
