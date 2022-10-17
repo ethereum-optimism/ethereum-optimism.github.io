@@ -1,0 +1,19 @@
+{
+    "name": "Monetum",
+    "symbol": "MOM",
+    "decimals": 18,
+    "tokens": {
+      "ethereum": {
+        "address": "0x1351986732367ff6B51784c6A75f63502dE13a9a"
+      },
+      "optimism": {
+        "address": "0x5e70AfFE232e2919792f77EB94e566db0320fa88"
+      },
+      "goerli": {
+        "address": "0xd3D1c79D8a5F8316D07c4A391805E5006c71648C"
+      },
+      "optimism-goerli": {
+        "address": "0x4621b7A9c75199271F773Ebd9A499dbd165c3191"
+      }
+    }
+}

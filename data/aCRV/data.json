@@ -1,0 +1,22 @@
+{
+    "name": "AladdinCRV",
+    "symbol": "aCRV",
+    "decimals": 18,
+    "description": "Aladdin concentrator is a platform that boosts rewards for Curve & Convex stakers and liquidity providers alike, all in a simple and easy to use interface.",
+    "website": "https://concentrator.aladdin.club/",
+    "twitter": "@0xconcentrator",
+    "tokens": {
+      "ethereum": {
+        "address": "0x2b95a1dcc3d405535f9ed33c219ab38e8d7e0884"
+      },
+      "optimism": {
+        "address": "0x764ad60e1b81f6cacfec1a2926393d688d4493e6"
+      },
+      "kovan": {
+        "address": "0x12b1326459d72f2ab081116bf27ca46cd97762a0"
+      },
+      "optimism-kovan": {
+        "address": "0xf882ac9259a378e102f058f2fb093dffeca96437"
+      }
+    }
+  }
