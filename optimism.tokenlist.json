@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-14T17:13:58.679Z",
+  "timestamp": "2022-10-17T14:55:34.054Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1379,6 +1379,50 @@
       "symbol": "MKR",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/MKR/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x1351986732367ff6B51784c6A75f63502dE13a9a",
+      "name": "Monetum",
+      "symbol": "MOM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MOM/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x5e70AfFE232e2919792f77EB94e566db0320fa88",
+      "name": "Monetum",
+      "symbol": "MOM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MOM/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xd3D1c79D8a5F8316D07c4A391805E5006c71648C",
+      "name": "Monetum",
+      "symbol": "MOM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MOM/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x4621b7A9c75199271F773Ebd9A499dbd165c3191",
+      "name": "Monetum",
+      "symbol": "MOM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MOM/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
