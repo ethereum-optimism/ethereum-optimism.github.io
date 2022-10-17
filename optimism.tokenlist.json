@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-17T14:55:34.054Z",
+  "timestamp": "2022-10-17T20:02:05.916Z",
   "tokens": [
     {
       "chainId": 1,
@@ -927,7 +927,7 @@
       "name": "HanChain",
       "symbol": "HAN",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/Han/logo.svg",
+      "logoURI": "https://ethereum-optimism.github.io/data/HAN/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
       }
@@ -938,7 +938,7 @@
       "name": "HanChain",
       "symbol": "HAN",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/Han/logo.svg",
+      "logoURI": "https://ethereum-optimism.github.io/data/HAN/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -949,7 +949,7 @@
       "name": "HanChain",
       "symbol": "HAN",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/Han/logo.svg",
+      "logoURI": "https://ethereum-optimism.github.io/data/HAN/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8"
       }
@@ -960,7 +960,7 @@
       "name": "HanChain",
       "symbol": "HAN",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/Han/logo.svg",
+      "logoURI": "https://ethereum-optimism.github.io/data/HAN/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
