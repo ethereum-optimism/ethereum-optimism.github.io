@@ -1,0 +1,43 @@
+{
+  "name": "Dai Stablecoin",
+  "symbol": "DAI",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "overrides": {
+        "bridge": "0x10E6593CDda8c58a1d0f14C5164B376352a55f2F"
+      }
+    },
+    "optimism": {
+      "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+      "overrides": {
+        "bridge": "0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65"
+      }
+    },
+    "kovan": {
+      "address": "0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa",
+      "overrides": {
+        "bridge": "0xb415e822C4983ecD6B1c1596e8a5f976cf6CD9e3"
+      }
+    },
+    "optimism-kovan": {
+      "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+      "overrides": {
+        "bridge": "0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65"
+      }
+    },
+    "goerli": {
+      "address": "0x11fE4B6AE13d2a6055C8D9cF65c55bac32B5d844",
+      "overrides": {
+        "bridge": "0x05a388Db09C2D44ec0b00Ee188cD42365c42Df23"
+      }
+    },
+    "optimism-goerli": {
+      "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+      "overrides": {
+        "bridge": "0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Kromatika",
+  "symbol": "KROM",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789"
+    },
+    "optimism": {
+      "address": "0xf98dcd95217e15e05d8638da4c91125e59590b07"
+    },
+    "kovan": {
+      "address": "0x0436F489525c47C1A4877a06bE0BEaba2A2E2e2d"
+    },
+    "optimism-kovan": {
+      "address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0"
+    }
+  }
+}

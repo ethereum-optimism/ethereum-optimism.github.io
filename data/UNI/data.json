@@ -1,0 +1,19 @@
+{
+  "name": "Uniswap",
+  "symbol": "UNI",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+    },
+    "optimism": {
+      "address": "0x6fd9d7ad17242c41f7131d257212c54a0e816691"
+    },
+    "kovan": {
+      "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+    },
+    "optimism-kovan": {
+      "address": "0x5e31B81eaFba4b9371e77F34d6f3DA8091C3F2a0"
+    }
+  }
+}

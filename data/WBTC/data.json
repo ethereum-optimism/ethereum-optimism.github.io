@@ -1,0 +1,30 @@
+{
+  "name": "Wrapped BTC",
+  "symbol": "WBTC",
+  "decimals": 8,
+  "description": "Wrapped Bitcoin delivers the power of Bitcoin with the flexibility of an ERC20 token",
+  "website": "https://wbtc.network/",
+  "twitter": "@WrappedBTC",
+  "tokens": {
+    "ethereum": {
+      "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+    },
+    "optimism": {
+      "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095"
+    },
+    "kovan": {
+      "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095"
+    },
+    "optimism-kovan": {
+      "address": "0x2382a8f65b9120E554d1836a504808aC864E169d",
+      "overrides": { "name":"Wrapped BTC L2" }
+    },
+    "goerli": {
+      "address": "0xC04B0d3107736C32e19F1c62b2aF67BE61d63a05"
+    },
+    "optimism-goerli": {
+      "address": "0xe0a592353e81a94Db6E3226fD4A99F881751776a",
+      "overrides": { "name":"Wrapped BTC L2" }
+    }
+  }
+}

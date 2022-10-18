@@ -1,0 +1,31 @@
+{
+  "name": "dForce USD",
+  "symbol": "USX",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x0a5e677a6a24b2f1a2bf4f3bffc443231d2fdec8",
+      "overrides": {
+        "bridge": "0xC5b1EC605738eF73a4EFc562274c1c0b6609cF59"
+      }
+    },
+    "optimism": {
+      "address": "0xbfD291DA8A403DAAF7e5E9DC1ec0aCEaCd4848B9",
+      "overrides": {
+        "bridge": "0xc76cbFbAfD41761279E3EDb23Fd831Ccb74D5D67"
+      }
+    },
+    "kovan": {
+      "address": "0xf76ead4da04bbeb97d29f83e2ec3a621d0fb3c6e",
+      "overrides": {
+        "bridge": "0x40E862341b2416345F02c41Ac70df08525150dC7"
+      }
+    },
+    "optimism-kovan": {
+      "address": "0xab7020476d814c52629ff2e4cebc7a8cdc04f18e",
+      "overrides": {
+        "bridge": "0xB4d37826b14Cd3CB7257A2A5094507d701fe715f"
+      }
+    }
+  }
+}

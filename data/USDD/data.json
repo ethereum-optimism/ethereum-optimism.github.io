@@ -1,0 +1,19 @@
+{
+  "name": "Decentralized USD",
+  "symbol": "USDD",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6"
+    },
+    "optimism": {
+      "address": "0x7113370218f31764C1B6353BDF6004d86fF6B9cc"
+    },
+    "kovan": {
+      "address": "0xae73ddeafc00bc5ad03a96c2b268c3f5325c8d49"
+    },
+    "optimism-kovan": {
+      "address": "0x1f9bd96ddb4bd07d6061f8933e9ba9ede9967550"
+    }
+  }
+}

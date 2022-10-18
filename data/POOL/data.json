@@ -1,0 +1,13 @@
+{
+  "name": "PoolTogether",
+  "symbol": "POOL",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e"
+    },
+    "optimism": {
+      "address": "0x395ae52bb17aef68c2888d941736a71dc6d4e125"
+    }
+  }
+}

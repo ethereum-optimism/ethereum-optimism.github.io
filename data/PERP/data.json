@@ -1,0 +1,25 @@
+{
+  "name": "Perpetual",
+  "symbol": "PERP",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xbC396689893D065F41bc2C6EcbeE5e0085233447"
+    },
+    "optimism": {
+      "address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0"
+    },
+    "kovan": {
+      "address": "0x002be8a5961e0f352092d6693133a6944b7846ba"
+    },
+    "optimism-kovan": {
+      "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb"
+    },
+    "goerli": {
+      "address": "0x29DdacF754877123157e0eeed26770736B304d0C"
+    },
+    "optimism-goerli": {
+      "address": "0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53"
+    }
+  }
+}

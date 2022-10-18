@@ -1,0 +1,13 @@
+{
+  "name": "Ethereum Name Service",
+  "symbol": "ENS",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72"
+    },
+    "optimism": {
+      "address": "0x65559aA14915a70190438eF90104769e5E890A00"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "BitANT",
+  "symbol": "BitANT",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x15Ee120fD69BEc86C1d38502299af7366a41D1a6"
+    },
+    "optimism": {
+      "address": "0x5029C236320b8f15eF0a657054B84d90bfBEDED3"
+    },
+    "kovan": {
+      "address": "0x3Ef0aBa205134ba2f449Fa04A0A0673020c36270"
+    },
+    "optimism-kovan": {
+      "address": "0x1f748732AF4442Cf508DEf0882ad9fcB5E5205a2"
+    }
+  }
+}

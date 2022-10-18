@@ -1,0 +1,13 @@
+{
+  "name": "0x Protocol Token",
+  "symbol": "ZRX",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498"
+    },
+    "optimism": {
+      "address": "0xD1917629B3E6A72E6772Aab5dBe58Eb7FA3C2F33"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+name: Generate Token List
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  generate:
+    name: generate
+    if: |
+      github.event.head_commit.committer.username != 'github-actions[bot]'
+        && github.repository == 'ethereum-optimism/ethereum-optimism.github.io'
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PAT }}
+          fetch-depth: 0
+
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - uses: actions/cache@v2
+        id: yarn-cache
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
+
+      - name: Generate token list
+        run: |
+          yarn generate --datadir ./data --outfile optimism.tokenlist.json
+
+      - name: Commit token list
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "bot(ci): generate token list"
+          file_pattern: optimism.tokenlist.json

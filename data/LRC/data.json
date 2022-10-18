@@ -1,0 +1,13 @@
+{
+  "name": "LoopringCoin V2",
+  "symbol": "LRC",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
+    },
+    "optimism": {
+      "address": "0xFEaA9194F9F8c1B65429E31341a103071464907E"
+    }
+  }
+}

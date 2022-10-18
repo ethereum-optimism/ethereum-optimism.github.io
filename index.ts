@@ -1,2 +1,2 @@
-import tokenList from "./optimism.tokenlist.json";
-export default tokenList;
+import * as list from './optimism.tokenlist.json'
+export default list

@@ -1,0 +1,13 @@
+{
+  "name": "Land",
+  "symbol": "LAND",
+  "decimals": 18,
+  "tokens": {
+    "kovan": {
+      "address": "0xC13DD39606d4C2489ce5D9806d060FeD9a7d063d"
+    },
+    "optimism-kovan": {
+      "address": "0x2E2015aa4ac40B083189A03a75AD229dfB10172c"
+    }
+  }
+}
