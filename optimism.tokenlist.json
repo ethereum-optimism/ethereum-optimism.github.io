@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-17T20:02:05.916Z",
+  "timestamp": "2022-10-18T18:25:12.320Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1555,6 +1555,28 @@
       "symbol": "PERP",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/PERP/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x1FEE5588cb1De19c70B6aD5399152D8C643FAe7b",
+      "name": "PhunToken",
+      "symbol": "PHTK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PHTK/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xFa956eB0c4b3E692aD5a6B2f08170aDE55999ACa",
+      "name": "PhunToken",
+      "symbol": "PHTK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PHTK/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
