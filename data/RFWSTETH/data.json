@@ -1,0 +1,21 @@
+{
+    "name": "Respawn Finance Wrapped Staked Ethereum",
+    "symbol": "RFWSTETH",
+    "decimals": 18,
+    "website": "https://respawn.finance/",
+    "description": "A multi-chain token",
+    "tokens": {
+      "ethereum": {
+        "address": "0x07FA101efde726E0956Edd2c4D5C8d3d1A5E9c53"
+      },
+      "optimism": {
+        "address": "0xeAeAdAC73baaF4cB8B024dE9D65B2eeFa722856C"
+      },
+      "kovan": {
+        "address": "0x891C46986708b3914A00883B72564AB76817799A"
+      },
+      "optimism-kovan": {
+        "address": "0x1696baFBe18EFB141823a041E22E43d12B144407"
+      }
+    }
+}
