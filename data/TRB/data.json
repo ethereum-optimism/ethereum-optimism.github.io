@@ -1,0 +1,22 @@
+{
+    "name": "Tellor",
+    "symbol": "TRB",
+    "decimals": 18,
+    "tokens": {
+      "ethereum": {
+        "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0"
+      },
+      "optimism": {
+        "address": "0xaf8ca653fa2772d58f4368b0a71980e9e3ceb888"
+      },
+      "kovan": {
+        "address": "0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A",
+        "overrides": {
+            "symbol":"TRB"
+        }
+      },
+      "optimism-kovan": {
+        "address": "0x5e70affe232e2919792f77eb94e566db0320fa88"
+      }
+    }
+  }
