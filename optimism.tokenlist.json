@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-18T18:28:34.850Z",
+  "timestamp": "2022-10-19T14:52:51.413Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2127,6 +2127,50 @@
       "symbol": "TheDAO",
       "decimals": 16,
       "logoURI": "https://ethereum-optimism.github.io/data/TheDAO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
+      "name": "Tellor",
+      "symbol": "TRB",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRB/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xaf8ca653fa2772d58f4368b0a71980e9e3ceb888",
+      "name": "Tellor",
+      "symbol": "TRB",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRB/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 42,
+      "address": "0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A",
+      "name": "Tellor",
+      "symbol": "TRB",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRB/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 69,
+      "address": "0x5e70affe232e2919792f77eb94e566db0320fa88",
+      "name": "Tellor",
+      "symbol": "TRB",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRB/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
