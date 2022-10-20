@@ -6,10 +6,10 @@
     "twitter": "@AcrossProtocol",
     "tokens": {
       "ethereum": {
-        "address": "0x91BbfFac97b450597d252cDD215Ad033628BCd11"
+        "address": "0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F"
       },
       "optimism": {
-        "address": "0xbefBcFD03206Ef6de888C8d39F864A25275909f9"
+        "address": "0xff733b2a3557a7ed6697007ab5d11b79fdd1b76b"
       }
     }
 }
