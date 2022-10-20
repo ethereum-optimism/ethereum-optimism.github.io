@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-19T16:44:42.393Z",
+  "timestamp": "2022-10-20T23:36:22.581Z",
   "tokens": [
     {
       "chainId": 1,
@@ -136,6 +136,28 @@
       "symbol": "aCRV",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/aCRV/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F",
+      "name": "Across Protocol Token",
+      "symbol": "ACX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ACX/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xff733b2a3557a7ed6697007ab5d11b79fdd1b76b",
+      "name": "Across Protocol Token",
+      "symbol": "ACX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ACX/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
