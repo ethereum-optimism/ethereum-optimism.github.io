@@ -1,0 +1,15 @@
+{
+    "name": "Across Protocol Token",
+    "symbol": "ACX",
+    "decimals": 18,
+    "website": "https://docs.across.to/v2/",
+    "twitter": "@AcrossProtocol",
+    "tokens": {
+      "ethereum": {
+        "address": "0x91BbfFac97b450597d252cDD215Ad033628BCd11"
+      },
+      "optimism": {
+        "address": "0xbefBcFD03206Ef6de888C8d39F864A25275909f9"
+      }
+    }
+}
