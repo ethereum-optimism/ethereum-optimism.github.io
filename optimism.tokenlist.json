@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-20T23:36:22.581Z",
+  "timestamp": "2022-10-24T12:00:22.166Z",
   "tokens": [
     {
       "chainId": 1,
@@ -873,6 +873,28 @@
       "symbol": "EURT",
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/EURT/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xB1f1F47061A7Be15C69f378CB3f69423bD58F2F8",
+      "name": "Flashstake",
+      "symbol": "FLASH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FLASH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x86bEA60374f220dE9769b2fEf2db725bc1cDd335",
+      "name": "Flashstake",
+      "symbol": "FLASH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FLASH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
