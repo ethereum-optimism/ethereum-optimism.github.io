@@ -1,0 +1,22 @@
+{
+    "name": "veKwenta",
+    "symbol": "veKWENTA",
+    "decimals": 18,
+    "description": "A multi-chain token used for $KWENTA redemption on Optimism",
+    "website": "https://kips.kwenta.io/kips/kip-34/",
+    "twitter": "@kwenta_io",
+    "tokens": {
+      "ethereum": {
+        "address": "0x6789D8a7a7871923Fc6430432A602879eCB6520a"
+      },
+      "optimism": {
+        "address": "0x678d8f4Ba8DFE6bad51796351824DcCECeAefF2B"
+      },
+      "goerli": {
+        "address": "0xf36c9a9E8333663F8CA3608C5582916628E79e3f"
+      },
+      "optimism-goerli": {
+        "address": "0x3e52b5f840eafD79394c6359E93Bf3FfdAE89ee4"
+      }
+    }
+  }
