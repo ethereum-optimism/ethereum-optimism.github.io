@@ -1,6 +1,6 @@
 # Optimism Token List
 
-The Optimism token list is used as the source of truth for the [Optimism Gateway](https://gateway.optimism.io/) which is the main portal for moving assets between Layer 1 and Layer 2.
+The Optimism token list is used as the source of truth for the [Optimism Gateway](https://app.optimism.io/bridge) which is the main portal for moving assets between Layer 1 and Layer 2.
 
 ## Review process and merge criteria
 
