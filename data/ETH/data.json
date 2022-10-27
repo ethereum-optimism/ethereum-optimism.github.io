@@ -12,6 +12,9 @@
     "kovan": {
       "address": "0x0000000000000000000000000000000000000000"
     },
+    "goerli": {
+      "address": "0x0000000000000000000000000000000000000000"
+    },
     "optimism-kovan": {
       "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
     },
