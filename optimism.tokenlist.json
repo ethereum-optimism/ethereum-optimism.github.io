@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-27T19:17:18.181Z",
+  "timestamp": "2022-10-27T19:23:52.512Z",
   "tokens": [
     {
       "chainId": 1,
@@ -831,6 +831,17 @@
       "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x22F24361D548e5FaAfb36d1437839f080363982B"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x0000000000000000000000000000000000000000",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8"
       }
     },
     {
