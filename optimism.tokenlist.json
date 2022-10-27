@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-10-26T21:34:38.813Z",
+  "timestamp": "2022-10-27T19:17:18.181Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2633,6 +2633,50 @@
       "symbol": "VALX",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/VALX/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x6789D8a7a7871923Fc6430432A602879eCB6520a",
+      "name": "veKwenta",
+      "symbol": "veKWENTA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/veKWENTA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x678d8f4Ba8DFE6bad51796351824DcCECeAefF2B",
+      "name": "veKwenta",
+      "symbol": "veKWENTA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/veKWENTA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xf36c9a9E8333663F8CA3608C5582916628E79e3f",
+      "name": "veKwenta",
+      "symbol": "veKWENTA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/veKWENTA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x3e52b5f840eafD79394c6359E93Bf3FfdAE89ee4",
+      "name": "veKwenta",
+      "symbol": "veKWENTA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/veKWENTA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
