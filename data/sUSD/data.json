@@ -10,6 +10,9 @@
     "optimism-kovan": {
       "address": "0xaA5068dC2B3AADE533d3e52C6eeaadC6a8154c57"
     },
+   "ethereum": {
+      "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51"
+    },
     "optimism-goerli": {
       "address": "0xeBaEAAD9236615542844adC5c149F86C36aD1136"
     }
