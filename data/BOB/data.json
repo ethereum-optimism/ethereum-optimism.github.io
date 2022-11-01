@@ -1,0 +1,16 @@
+{
+    "name": "BOB Token",
+    "symbol": "BOB",
+    "decimals": 18,
+    "website": "https://www.zkbob.com/",
+    "twitter": "@zkBob_",
+    "nobridge": true,
+    "tokens": {
+      "ethereum": {
+        "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B"
+      },
+      "optimism": {
+        "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B"
+      }
+    }
+  }
