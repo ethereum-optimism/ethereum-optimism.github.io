@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-11-01T00:59:43.190Z",
+  "timestamp": "2022-11-01T16:07:27.492Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2523,6 +2523,17 @@
       "symbol": "USDD",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/USDD/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x73cb180bf0521828d8849bc8CF2B920918e23032",
+      "name": "USD+",
+      "symbol": "USD+",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDplus/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
