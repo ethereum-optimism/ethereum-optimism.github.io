@@ -8,6 +8,9 @@
   "tokens": {
     "ethereum": {
       "address": "0xd0cd466b34a24fcb2f87676278af2005ca8a78c4"
+    },
+    "optimism": {
+      "address": "0x927ff7d337d861594f1969141480be85c733f13e"
     }
   }
 }
