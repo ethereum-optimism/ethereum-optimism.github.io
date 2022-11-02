@@ -1,0 +1,16 @@
+{
+  "name": "Mochi",
+  "symbol": "MOCHI",
+  "decimals": 18,
+  "description": "Dream big, start small, stick together!",
+  "website": "https://mochi.game",
+  "twitter": "@bondwithmochi",
+  "tokens": {
+    "goerli": {
+      "address": "0x48B942C65a5991dD64360CdDE442792bD829Af80"
+    },
+    "optimism-goerli": {
+      "address": "0x7Af72aD5E8793023DC722d617fe3338ac6b5ccE9"
+    }
+  }
+}
