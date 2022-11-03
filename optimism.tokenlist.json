@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-11-01T16:07:27.492Z",
+  "timestamp": "2022-11-03T00:11:37.069Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1478,6 +1478,28 @@
       "symbol": "MKR",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/MKR/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x48B942C65a5991dD64360CdDE442792bD829Af80",
+      "name": "Mochi",
+      "symbol": "MOCHI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MOCHI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x7Af72aD5E8793023DC722d617fe3338ac6b5ccE9",
+      "name": "Mochi",
+      "symbol": "MOCHI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MOCHI/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
