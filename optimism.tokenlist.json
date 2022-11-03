@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-11-03T00:11:37.069Z",
+  "timestamp": "2022-11-03T15:11:44.524Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1733,6 +1733,17 @@
       "logoURI": "https://ethereum-optimism.github.io/data/POP/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x6F0fecBC276de8fC69257065fE47C5a03d986394",
+      "name": "Popcorn",
+      "symbol": "POP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/POP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
     },
     {
