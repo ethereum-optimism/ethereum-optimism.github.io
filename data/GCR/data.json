@@ -1,0 +1,14 @@
+{
+  "name": "GCR (Global Coin Research)",
+  "symbol": "GCR",
+  "decimals": 4,
+  "description": "Global Coin Research is a tokenized, decentralized community of learners and investors in Web3.",
+  "website": "https://globalcoinresearch.com/",
+  "twitter": "@Globalcoinrsrch",
+  "nobridge": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x6307B25A665Efc992EC1C1bC403c38F3dDd7c661"
+    }
+  }
+}
