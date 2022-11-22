@@ -39,16 +39,16 @@ jobs:
 
       - name: Install dependencies
         run: yarn --frozen-lockfile
-
-      - name: Generate token list
-        run: |
-          yarn generate --datadir ./data --outfile optimism.tokenlist.json
           
       - name: Patch token list version
         run: |
           git config --global user.email "will@oplabs.co"
           git config --global user.name "Github action bot"
           npm version patch
+          
+      - name: Generate token list
+        run: |
+          yarn generate --datadir ./data --outfile optimism.tokenlist.json
           
       - name: Commit token list
         uses: stefanzweifel/git-auto-commit-action@v4
