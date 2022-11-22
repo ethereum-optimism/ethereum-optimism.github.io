@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-11-03T15:11:44.524Z",
+  "timestamp": "2022-11-22T03:17:28.263Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2765,6 +2765,17 @@
       "symbol": "veKWENTA",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/veKWENTA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x3c8B650257cFb5f272f799F5e2b4e65093a11a05",
+      "name": "Velodrome",
+      "symbol": "VELO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VELO/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
