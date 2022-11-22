@@ -1,6 +1,7 @@
 name: Generate Token List
 
 on:
+  workflow_dispatch:
   push:
     branches: [master]
 
