@@ -40,3 +40,11 @@ jobs:
         with:
           push: true
           tags: ethereumoptimism/tokenlist-bot:latest
+
+      - name: Install dependencies to prepare for release 🔧
+        run: yarn
+
+      - name: Build and publish package on NPM 📦
+        run: yarn release
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
