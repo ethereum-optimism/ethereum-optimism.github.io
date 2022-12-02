@@ -1,22 +1,16 @@
 {
-  "name": "Token Name",
-  "symbol": "SYMBOL",
+  "name": "Alchemix USD",
+  "symbol": "alUSD",
   "decimals": 18,
-  "description": "A multi-chain token",
-  "website": "https://token.com",
-  "twitter": "@token",
+  "description": "A synthetic token for users to borrow their future yield.",
+  "website": "https://alchemix.fi",
+  "twitter": "@AlchemixFi",
   "tokens": {
     "ethereum": {
-      "address": "0x1234123412341234123412341234123412341234"
+      "address": "0xbc6da0fe9ad5f3b0d58160288917aa56653660e9"
     },
     "optimism": {
-      "address": "0x2345234523452345234523452345234523452345"
-    },
-    "goerli": {
-      "address": "0x5678567856785678567856785678567856785678"
-    },
-    "optimism-goerli": {
-      "address": "0x6789678967896789678967896789678967896789"
-    }
+      "address": "0xcb8fa9a76b8e203d8c3797bf438d8fb81ea3326a"
+    }    
   }
 }
