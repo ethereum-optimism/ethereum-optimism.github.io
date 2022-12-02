@@ -1,22 +1,16 @@
 {
-  "name": "Token Name",
-  "symbol": "SYMBOL",
+  "name": "Alchemix ETH",
+  "symbol": "alETH",
   "decimals": 18,
-  "description": "A multi-chain token",
-  "website": "https://token.com",
-  "twitter": "@token",
+  "description": "A synthetic token for users to borrow their future yield.",
+  "website": "https://alchemix.fi",
+  "twitter": "@AlchemixFi",
   "tokens": {
     "ethereum": {
-      "address": "0x1234123412341234123412341234123412341234"
+      "address": "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6"
     },
     "optimism": {
-      "address": "0x2345234523452345234523452345234523452345"
-    },
-    "goerli": {
-      "address": "0x5678567856785678567856785678567856785678"
-    },
-    "optimism-goerli": {
-      "address": "0x6789678967896789678967896789678967896789"
+      "address": "0x3e29d3a9316dab217754d13b28646b76607c5f04"
     }
   }
 }
