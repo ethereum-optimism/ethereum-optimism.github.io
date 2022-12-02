@@ -1,0 +1,22 @@
+{
+  "name": "Token Name",
+  "symbol": "SYMBOL",
+  "decimals": 18,
+  "description": "A multi-chain token",
+  "website": "https://token.com",
+  "twitter": "@token",
+  "tokens": {
+    "ethereum": {
+      "address": "0x1234123412341234123412341234123412341234"
+    },
+    "optimism": {
+      "address": "0x2345234523452345234523452345234523452345"
+    },
+    "goerli": {
+      "address": "0x5678567856785678567856785678567856785678"
+    },
+    "optimism-goerli": {
+      "address": "0x6789678967896789678967896789678967896789"
+    }
+  }
+}
