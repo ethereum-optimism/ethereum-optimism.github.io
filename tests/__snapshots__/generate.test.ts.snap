@@ -82,7 +82,6 @@ Object {
     "major": 4,
     "minor": 3,
     "patch": Any<Number>,
-
   },
 }
 `;
