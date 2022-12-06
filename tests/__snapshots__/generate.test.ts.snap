@@ -81,7 +81,8 @@ Object {
   "version": Object {
     "major": 4,
     "minor": 3,
-    "patch": 1,
+    "patch": Any<Number>,
+
   },
 }
 `;
