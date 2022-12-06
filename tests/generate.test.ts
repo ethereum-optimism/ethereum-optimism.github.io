@@ -13,5 +13,8 @@ test("'generate' script parse data dir and compile correct token list", async ()
   const tokenList = generate(path.resolve(__dirname, 'data'))
   expect(tokenList).toMatchSnapshot({
     timestamp: mockDate.toISOString(),
+    version: {
+      patch: expect.any(Number),
+    }
   })
 })
