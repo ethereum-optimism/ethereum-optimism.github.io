@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-11-22T17:24:59.404Z",
+  "timestamp": "2022-12-08T04:03:51.067Z",
   "tokens": [
     {
       "chainId": 1,
@@ -169,6 +169,28 @@
       "symbol": "AELIN",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/AELIN/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6",
+      "name": "Alchemix ETH",
+      "symbol": "alETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/alETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x3e29d3a9316dab217754d13b28646b76607c5f04",
+      "name": "Alchemix ETH",
+      "symbol": "alETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/alETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -1060,6 +1082,28 @@
       "symbol": "HAN",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/HAN/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xF655C8567E0f213e6C634CD2A68d992152161dC6",
+      "name": "Impermax",
+      "symbol": "IBEX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IBEX/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xBB6BBaa0F6D839A00c82B10747aBc3b7E2eEcc82",
+      "name": "Impermax",
+      "symbol": "IBEX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IBEX/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -2925,6 +2969,28 @@
     },
     {
       "chainId": 1,
+      "address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+      "name": "Wootrade Network",
+      "symbol": "WOO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WOO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x871f2F2ff935FD1eD867842FF2a7bfD051A5E527",
+      "name": "Wootrade Network",
+      "symbol": "WOO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WOO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
       "name": "Wrapped liquid staked Ether 2.0",
       "symbol": "wstETH",
@@ -3015,6 +3081,6 @@
   "version": {
     "major": 4,
     "minor": 3,
-    "patch": 1
+    "patch": 2
   }
 }
