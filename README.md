@@ -39,7 +39,7 @@ All PRs are subject to a light-weight final approval, even if not marked as `req
 
 ### Create a folder for your token
 
-Create a folder inside of the [data folder](./data) with the same name as the symbol of the token you are trying to add. For example, if you are adding a token with the symbol "ETH" you must create a folder called ETH.
+Create a folder inside of the [data folder](https://github.com/ethereum-optimism/ethereum-optimism.github.io/tree/master/data) with the same name as the symbol of the token you are trying to add. For example, if you are adding a token with the symbol "ETH" you must create a folder called ETH.
 
 ### Add a logo to your folder
 
