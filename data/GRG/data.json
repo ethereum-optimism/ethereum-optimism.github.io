@@ -1,0 +1,16 @@
+{
+    "name": "Rigo Token",
+    "symbol": "GRG",
+    "decimals": 18,
+    "description": "RigoBlock is a DeFi protocol for token management",
+    "website": "https://rigoblock.com",
+    "twitter": "@RigoBlock",
+    "tokens": {
+      "ethereum": {
+        "address": "0x4FbB350052Bca5417566f188eB2EBCE5b19BC964"
+      },
+      "optimism": {
+        "address": "0xEcF46257ed31c329F204Eb43E254C609dee143B3"
+      }
+    }
+}
