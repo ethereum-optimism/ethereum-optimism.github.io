@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-12-14T18:09:29.744Z",
+  "timestamp": "2022-12-14T18:10:34.303Z",
   "tokens": [
     {
       "chainId": 1,
@@ -972,6 +972,28 @@
       "symbol": "FRAX",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/FRAX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
+      "name": "FXS",
+      "symbol": "FXS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FXS/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x67CCEA5bb16181E7b4109c9c2143c24a1c2205Be",
+      "name": "FXS",
+      "symbol": "FXS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FXS/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -3125,6 +3147,6 @@
   "version": {
     "major": 4,
     "minor": 3,
-    "patch": 4
+    "patch": 5
   }
 }
