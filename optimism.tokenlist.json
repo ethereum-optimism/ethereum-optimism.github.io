@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2022-12-12T19:24:16.311Z",
+  "timestamp": "2022-12-14T18:09:29.744Z",
   "tokens": [
     {
       "chainId": 1,
@@ -950,6 +950,28 @@
       "symbol": "FLASH",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/FLASH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+      "name": "FRAX",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FRAX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x2E3D870790dC77A83DD1d18184Acc7439A53f475",
+      "name": "FRAX",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FRAX/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -3103,6 +3125,6 @@
   "version": {
     "major": 4,
     "minor": 3,
-    "patch": 3
+    "patch": 4
   }
 }
