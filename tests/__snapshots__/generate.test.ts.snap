@@ -59,9 +59,7 @@ Object {
       "address": "0x4200000000000000000000000000000000000042",
       "chainId": 10,
       "decimals": 18,
-      "extensions": Object {
-        "optimismBridgeAddress": undefined,
-      },
+      "extensions": Object {},
       "logoURI": "https://ethereum-optimism.github.io/data/OP/logo.png",
       "name": "Optimism",
       "symbol": "OP",
@@ -70,9 +68,7 @@ Object {
       "address": "0x4200000000000000000000000000000000000042",
       "chainId": 69,
       "decimals": 18,
-      "extensions": Object {
-        "optimismBridgeAddress": undefined,
-      },
+      "extensions": Object {},
       "logoURI": "https://ethereum-optimism.github.io/data/OP/logo.png",
       "name": "Optimism",
       "symbol": "OP",
