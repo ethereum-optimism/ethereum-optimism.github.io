@@ -1,16 +1,16 @@
 {
-    "name": "FXS",
-    "symbol": "FXS",
-    "decimals": 18,
-    "description": "Frax Shares (FXS) is the seigniorage token in the Frax protocol.",
-    "website": "https://app.frax.finance/",
-    "twitter": "@fraxfinance",
-    "tokens": {
-      "ethereum": {
-        "address": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0"
-      },
-      "optimism": {
-        "address": "0x67CCEA5bb16181E7b4109c9c2143c24a1c2205Be"
-      }
+  "name": "FXS",
+  "symbol": "FXS",
+  "decimals": 18,
+  "description": "Frax Shares (FXS) is the seigniorage token in the Frax protocol.",
+  "website": "https://app.frax.finance",
+  "twitter": "@fraxfinance",
+  "tokens": {
+    "ethereum": {
+      "address": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0"
+    },
+    "optimism": {
+      "address": "0x67CCEA5bb16181E7b4109c9c2143c24a1c2205Be"
     }
+  }
 }
