@@ -15,6 +15,6 @@ test("'generate' script parse data dir and compile correct token list", async ()
     timestamp: mockDate.toISOString(),
     version: {
       patch: expect.any(Number),
-    }
+    },
   })
 })
