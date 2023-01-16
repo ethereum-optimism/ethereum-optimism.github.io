@@ -48,6 +48,7 @@ export const generate = (datadir: string) => {
         if (data.nobridge) {
           delete out.extensions.optimismBridgeAddress
         }
+        return out
       })
     })
     .reduce(
