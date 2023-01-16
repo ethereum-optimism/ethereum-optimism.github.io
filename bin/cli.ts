@@ -30,6 +30,7 @@ program
         if (err.message.startsWith('final token list is invalid')) {
           // Message generated here is super long and doesn't really give more information than the
           // rest of the errors, so just print a short version of it instead.
+          console.log(errs)
           console.error(`error: final token list is invalid`)
         } else {
           console.error(`error: ${err.message}`)
