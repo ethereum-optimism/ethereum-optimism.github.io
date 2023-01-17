@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-01-16T21:28:28.373Z",
+  "timestamp": "2023-01-17T06:39:06.841Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2201,6 +2201,28 @@
     },
     {
       "chainId": 1,
+      "address": "0xcb9f85730f57732fc899fb158164b9ed60c77d49",
+      "name": "Staked Lyra",
+      "symbol": "stkLYRA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/stkLYRA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x0F5d45a7023612e9e244fe84FAc5fCf3740d1492",
+      "name": "Staked Lyra",
+      "symbol": "stkLYRA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/stkLYRA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0763fdccf1ae541a5961815c0872a8c5bc6de4d7",
       "name": "SUKU",
       "symbol": "SUKU",
@@ -3117,6 +3139,6 @@
   "version": {
     "major": 4,
     "minor": 3,
-    "patch": 7
+    "patch": 8
   }
 }
