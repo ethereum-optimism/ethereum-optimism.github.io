@@ -74,7 +74,7 @@ Add a file to your folder called `data.json` with the following format:
 }
 ```
 
-Please include the token addresses for *all* chains where the token you are submitting has been deployed.
+Please include the token addresses for *all* of the below chains where the token you are submitting has been deployed.
 We currently accept tokens on the following chains:
 
 - `ethereum`
