@@ -1,0 +1,19 @@
+{
+  "name": "Coinbase Wrapped Staked ETH",
+  "symbol": "cbETH",
+  "decimals": 18,
+  "description": "To add",
+  "website": "To add",
+  "twitter": "To add",
+  "tokens": {
+    "ethereum": {
+      "address": "0xbe9895146f7af43049ca1c1ae358b0541ea49704"
+    },
+    "goerli": {
+      "address": "0xD0bb78d0B337aA6D3A0530DD2e58560bf00851f1"
+    },
+    "optimism-goerli": {
+      "address": "0x6789678967896789678967896789678967896789"
+    }
+  }
+}
