@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-01-27T18:45:05.661Z",
+  "timestamp": "2023-01-30T22:36:07.512Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2327,6 +2327,28 @@
     },
     {
       "chainId": 1,
+      "address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+      "name": "SushiToken",
+      "symbol": "SUSHI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SUSHI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x3eaEb77b03dBc0F6321AE1b72b2E9aDb0F60112B",
+      "name": "SushiToken",
+      "symbol": "SUSHI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SUSHI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x8947da500Eb47F82df21143D0C01A29862a8C3c5",
       "name": "Optimistic Thales Token",
       "symbol": "THALES",
@@ -3172,6 +3194,6 @@
   "version": {
     "major": 4,
     "minor": 3,
-    "patch": 10
+    "patch": 11
   }
 }
