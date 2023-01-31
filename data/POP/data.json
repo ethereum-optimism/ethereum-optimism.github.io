@@ -2,12 +2,15 @@
   "name": "Popcorn",
   "symbol": "POP",
   "decimals": 18,
-  "description": "Decentralized technology drives the future towards a more inclusive and transparent financial system. Popcorn is a regenerative yield optimizing protocol with soul. It's easy to deposit crypto, optimize yield, and create positive global impact at the same time.",
+  "description": "Popcorn is a regenerative yield optimizing protocol with soul.",
   "website": "https://www.popcorn.network",
   "twitter": "@Popcorn_DAO",
   "tokens": {
     "ethereum": {
       "address": "0xd0cd466b34a24fcb2f87676278af2005ca8a78c4"
+    },
+    "optimism": {
+      "address": "0x6F0fecBC276de8fC69257065fE47C5a03d986394"
     }
   }
 }

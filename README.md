@@ -39,7 +39,7 @@ All PRs are subject to a light-weight final approval, even if not marked as `req
 
 ### Create a folder for your token
 
-Create a folder inside of the [data folder](./data) with the same name as the symbol of the token you are trying to add. For example, if you are adding a token with the symbol "ETH" you must create a folder called ETH.
+Create a folder inside of the [data folder](https://github.com/ethereum-optimism/ethereum-optimism.github.io/tree/master/data) with the same name as the symbol of the token you are trying to add. For example, if you are adding a token with the symbol "ETH" you must create a folder called ETH.
 
 ### Add a logo to your folder
 
@@ -74,7 +74,7 @@ Add a file to your folder called `data.json` with the following format:
 }
 ```
 
-Please include the token addresses for *all* chains where the token you are submitting has been deployed.
+Please include the token addresses for *all* of the below chains where the token you are submitting has been deployed.
 We currently accept tokens on the following chains:
 
 - `ethereum`
@@ -159,4 +159,4 @@ Your pull request will be validated by a series of automated checks. If one of t
 
 ### Wait for the token list to update automatically
 
-Once your PR is merged, the token list will update automatically to include your token. Please do NOT update the token list directly. All token list updates are handled automatically when PRs are merged into the `master` branch. 
+Once your PR is merged, the token list will update automatically to include your token. Please do NOT update the token list directly. All token list updates will be handled automatically when PRs are merged into the `master` branch. 

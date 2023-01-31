@@ -1,0 +1,16 @@
+{
+  "name": "SushiToken",
+  "symbol": "SUSHI",
+  "decimals": 18,
+  "description": "Buy and Sell Instantly on Sushi. Wherever. Whoever. Whenever.",
+  "website": "https://www.sushi.com/",
+  "twitter": "@SushiSwap",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
+    },
+    "optimism": {
+      "address": "0x3eaEb77b03dBc0F6321AE1b72b2E9aDb0F60112B"
+    }
+  }
+}
