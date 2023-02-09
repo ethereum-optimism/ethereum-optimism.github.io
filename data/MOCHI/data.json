@@ -6,6 +6,12 @@
   "website": "https://mochi.game",
   "twitter": "@bondwithmochi",
   "tokens": {
+    "ethereum": {
+      "address": "0xf134519cBE2042B06Ee7cE20Df51d09b55559896"
+    },
+    "optimism": {
+      "address": "0x77D40CBc27f912dcDbF4348cAf87B427c4D02486"
+    },
     "goerli": {
       "address": "0x48B942C65a5991dD64360CdDE442792bD829Af80"
     },
