@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-01-30T22:36:07.512Z",
+  "timestamp": "2023-02-09T18:06:12.670Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1616,6 +1616,28 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0xf134519cBE2042B06Ee7cE20Df51d09b55559896",
+      "name": "Mochi",
+      "symbol": "MOCHI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MOCHI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x77D40CBc27f912dcDbF4348cAf87B427c4D02486",
+      "name": "Mochi",
+      "symbol": "MOCHI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MOCHI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
       "chainId": 5,
       "address": "0x48B942C65a5991dD64360CdDE442792bD829Af80",
       "name": "Mochi",
@@ -3194,6 +3216,6 @@
   "version": {
     "major": 4,
     "minor": 3,
-    "patch": 11
+    "patch": 12
   }
 }
