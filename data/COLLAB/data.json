@@ -1,0 +1,16 @@
+{
+  "name": "Collab.Land",
+  "symbol": "COLLAB",
+  "decimals": 18,
+  "website": "https://collab.land",
+  "description": "Communities with Skin in the Game",
+  "twitter": "@Collab_Land_",
+  "tokens": {
+    "ethereum": {
+      "address": "0x8B21e9b7dAF2c4325bf3D18c1BeB79A347fE902A"
+    },
+    "optimism": {
+      "address": "0x8B21e9b7dAF2c4325bf3D18c1BeB79A347fE902A"
+    }
+  }
+}
