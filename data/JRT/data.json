@@ -1,0 +1,12 @@
+{
+    "name": "Jarvis Network Token",
+    "symbol": "JRT",
+    "decimals": 18,
+    "website": "https://jarvis.network",
+    "twitter": "@Jarvis_Network",
+    "tokens": {
+        "ethereum": {
+            "address": "0x8a9c67fee641579deba04928c4bc45f66e26343a"
+        }
+    }
+}
