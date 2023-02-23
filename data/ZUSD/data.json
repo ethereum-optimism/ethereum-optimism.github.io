@@ -1,0 +1,16 @@
+{
+    "name": "Z.com USD",
+    "symbol": "ZUSD",
+    "decimals": 6,
+    "description": "ZUSD is the new digital USD which is 100% Fiat-backed.",
+    "website": "https://stablecoin.z.com/",
+    "twitter": "@GMOTrust",
+    "tokens": {
+      "ethereum": {
+        "address": "0xc56c2b7e71B54d38Aab6d52E94a04Cbfa8F604fA"
+      },
+      "optimism": {
+        "address": "0x6e4cc0Ab2B4d2eDAfa6723cFA1582229F1Dd1Be1"
+      }
+    }
+  }
