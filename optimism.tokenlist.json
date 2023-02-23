@@ -3233,6 +3233,28 @@
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x8a9c67fee641579deba04928c4bc45f66e26343a",
+      "name": "Jarvis Reward Token",
+      "symbol": "JRT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/JRT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x15e770b95edd73fd96b02ece0266247d50895e76",
+      "name": "Jarvis Reward Token",
+      "symbol": "JRT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/JRT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     }
   ],
   "version": {
