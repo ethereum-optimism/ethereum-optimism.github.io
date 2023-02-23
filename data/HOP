@@ -1,0 +1,23 @@
+{
+  "name": "HOP",
+  "symbol": "HOP",
+  "decimals": 18,
+  "description": "A governance token",
+  "website": "https://hop.exchange",
+  "nobridge": true,
+  "twitter": "@hopprotocol",
+  "tokens": {
+    "ethereum": {
+      "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc"
+    },
+    "optimism": {
+      "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc"
+    },
+    "goerli": {
+      "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc"
+    },
+    "optimism-goerli": {
+      "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc"
+    }
+  }
+}
