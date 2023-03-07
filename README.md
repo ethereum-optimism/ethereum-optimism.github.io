@@ -11,6 +11,11 @@ The Optimism token list is used as the source of truth for the [Optimism Gateway
 3. If your PR requires in-depth manual review, wait for a reviewer (**we review PRs once per week**).
 4. Wait for final approval.
 
+**Note:** The standard bridge does *not* support certain ERC-20 configurations:
+
+- [Fee on Transfer tokens](https://github.com/d-xo/weird-erc20#fee-on-transfer)
+- [Tokens that modify balances without emitting a Transfer event](https://github.com/d-xo/weird-erc20#balance-modifications-outside-of-transfers-rebasingairdrops)
+
 ### Automated checks
 
 Note that if your token was grandfathered in before the validation was added, your token may fail validation when you edit it.  If this is the case you need to add additional fields that were since added such as website field.
