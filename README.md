@@ -13,7 +13,7 @@ The Optimism token list is used as the source of truth for the [Optimism Gateway
 
 **Note:** The standard bridge does *not* support certain ERC-20 configurations:
 
-- [Fee on Transfer tokens](https://github.com/d-xo/weird-erc20#fee-on-transfer)
+- [Fee on transfer tokens](https://github.com/d-xo/weird-erc20#fee-on-transfer)
 - [Tokens that modify balances without emitting a Transfer event](https://github.com/d-xo/weird-erc20#balance-modifications-outside-of-transfers-rebasingairdrops)
 
 ### Automated checks
