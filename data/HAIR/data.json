@@ -1,0 +1,16 @@
+{
+    "name": "HairDAO Token",
+    "symbol": "HAIR",
+    "decimals": 18,
+    "description": "HairDAO Governance Token",
+    "website": "https://www.hairdao.xyz",
+    "twitter": "@HairDAO_",
+    "tokens": {
+        "ethereum": {
+            "address": "0x9ce115f0341ae5dabc8b477b74e83db2018a6f42"
+        },
+        "optimism": {
+            "address": "0x5465145a47260D5E715733997333A175D97285Bb"
+        }
+    }
+}
