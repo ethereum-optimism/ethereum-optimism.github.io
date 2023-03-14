@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-09T17:01:15.913Z",
+  "timestamp": "2023-03-14T21:59:29.947Z",
   "tokens": [
     {
       "chainId": 1,
@@ -178,9 +178,7 @@
       "symbol": "alETH",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/alETH/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
-      }
+      "extensions": {}
     },
     {
       "chainId": 10,
@@ -189,9 +187,7 @@
       "symbol": "alETH",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/alETH/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
-      }
+      "extensions": {}
     },
     {
       "chainId": 1,
@@ -3132,6 +3128,28 @@
       "symbol": "VELO",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/VELO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
+      "name": "VitaDAO Token",
+      "symbol": "VITA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VITA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x7d14206c937e70e19e3a5b94011faf0d5b3928e2",
+      "name": "VitaDAO Token",
+      "symbol": "VITA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VITA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
