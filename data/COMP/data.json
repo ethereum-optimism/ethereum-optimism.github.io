@@ -1,0 +1,19 @@
+{
+  "name": "Compound",
+  "symbol": "COMP",
+  "decimals": 18,
+  "description": "Compound DAO Governance Token",
+  "website": "https://compound.finance/",
+  "twitter": "@compoundfinance",
+  "tokens": {
+    "ethereum": {
+      "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888"
+    },
+    "goerli": {
+      "address": "0x3587b2F7E0E2D6166d6C14230e7Fe160252B0ba4"
+    },
+    "optimism-goerli": {
+      "address": "0x6AF3cb766D6cd37449bfD321D961A61B0515c1BC"
+    }
+  }
+}
