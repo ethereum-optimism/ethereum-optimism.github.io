@@ -8,8 +8,6 @@
   "tokens": {
     "ethereum": {
       "address": "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D"
-    },
-    "arbitrum": {
-      "address": "0xfb9E5D956D889D91a82737B9bFCDaC1DCE3e1449"
+    }
   }
 }
