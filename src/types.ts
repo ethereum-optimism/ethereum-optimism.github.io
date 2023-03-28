@@ -20,8 +20,6 @@ export interface TokenData {
   tokens: {
     ethereum?: Token
     optimism?: Token
-    kovan?: Token
-    'optimism-kovan'?: Token
     goerli?: Token
     'optimism-goerli'?: Token
     'base-goerli'?: Token
