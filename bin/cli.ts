@@ -22,7 +22,7 @@ program
     'Comma-separated list of tokens symbols to validate'
   )
   .action(async (options) => {
-    const results = await validate(options.datadir, options.tokens.split(','))
+    const results = await validate(options.datadir)
 
     const errs = results.filter((r) => r.type === 'error')
     if (errs.length > 0) {

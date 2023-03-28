@@ -166,7 +166,7 @@ export const TOKEN_DATA_SCHEMA = {
     },
   },
   additionalProperties: false,
-  required: ['name', 'symbol', 'decimals', 'tokens', 'description', 'website'],
+  required: ['name', 'symbol', 'decimals', 'tokens'],
 }
 
 module.exports = {

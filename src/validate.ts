@@ -27,18 +27,18 @@ import { TokenData, ValidationResult } from './types'
  */
 export const validate = async (
   datadir: string,
-  tokens: string[]
+  // tokens: string[]
 ): Promise<ValidationResult[]> => {
   // Load data files to validate and filter for requested tokens
-  console.log(tokens)
+  // console.log(tokens)
   const folders = fs
     .readdirSync(datadir)
     .sort((a, b) => {
       return a.toLowerCase().localeCompare(b.toLowerCase())
     })
-    .filter((folder) => {
-      return !tokens || tokens.includes(folder)
-    })
+  // .filter((folder) => {
+  //   return !tokens || tokens.includes(folder)
+  // })
 
   // Load the CoinGecko tokenlist once to avoid additional requests
   const cgret = await fetch('https://tokens.coingecko.com/uniswap/all.json')
@@ -46,6 +46,7 @@ export const validate = async (
 
   const results = []
   for (const folder of folders) {
+    console.log(`FOLDER ${folder}`)
     // Make sure the data file exists
     const datafile = path.join(datadir, folder, 'data.json')
     if (!fs.existsSync(datafile)) {
@@ -82,23 +83,28 @@ export const validate = async (
       continue
     }
 
+    // Check to make sure the website will load
+    for (let i = 0; i < 5; i++) {
+      try {
+        await fetch(data.website)
+        break
+      } catch (err) {
+        if (i < 4) {
+          await sleep(5000)
+        } else {
+          results.push({
+            type: 'error',
+            message: `${folder} website did not load`,
+          })
+        }
+      }
+    }
+
     // Validate each token configuration
     for (const [chain, token] of Object.entries(data.tokens)) {
-      // Check to make sure the website will load
-      for (let i = 0; i < 5; i++) {
-        try {
-          await fetch(data.website)
-          break
-        } catch (err) {
-          if (i < 4) {
-            await sleep(5000)
-          } else {
-            results.push({
-              type: 'error',
-              message: `${folder} on chain ${chain} website did not load`,
-            })
-          }
-        }
+      if (chain.includes('kovan')) {
+        console.log('SKIPPING Kovan Chain')
+        continue
       }
 
       // Validate any standard tokens
@@ -205,9 +211,30 @@ export const validate = async (
             NETWORK_DATA[chain].provider
           )
 
-          const events = await factory.queryFilter(
-            factory.filters.StandardL2TokenCreated(undefined, token.address)
-          )
+          let events
+          for (let i = 0; i < 5; i++) {
+            try {
+              events = await factory.queryFilter(
+                factory.filters.StandardL2TokenCreated(undefined, token.address)
+              )
+              break
+            } catch (err) {
+              if (i < 4) {
+                await sleep(5000)
+              } else {
+                console.log('tried query filter 5 times and failed')
+                throw err
+                // results.push({
+                //   type: 'error',
+                //   message: `${folder} website did not load`,
+                // })
+              }
+            }
+          }
+
+          // const events = await factory.queryFilter(
+          //   factory.filters.StandardL2TokenCreated(undefined, token.address)
+          // )
 
           // Trigger review if not created by standard token factory.
           if (events.length === 0) {
@@ -217,25 +244,27 @@ export const validate = async (
             })
           }
         } else {
+          console.log('HITTING ETHERSCAN API');
           // Make sure the token is verified on Etherscan.
           // Etherscan API is heavily rate limited, so sleep for 1s to avoid errors.
           await sleep(1000)
-          const { qResult } = await (
+          const { qResult, result: etherscanResult } = await (
             await fetch(
-              `https://api${
-                chain === 'ethereum' ? '' : `-${chain}`
+              `https://api${chain === 'ethereum' ? '' : `-${chain}`
               }.etherscan.io/api?` +
-                new URLSearchParams({
-                  module: 'contract',
-                  action: 'getsourcecode',
-                  address: token.address,
-                  apikey: process.env.ETHERSCAN_API_KEY,
-                })
+              new URLSearchParams({
+                module: 'contract',
+                action: 'getsourcecode',
+                address: token.address,
+                apikey: process.env.ETHERSCAN_API_KEY,
+              })
             )
           ).json()
 
+          console.log(`qResult is defined ${!!qResult}`)
+
           // Trigger review if code not verified on Etherscan
-          if (qResult[0].ABI === 'Contract source code not verified') {
+          if (etherscanResult[0].ABI === 'Contract source code not verified') {
             results.push({
               type: 'warning',
               message: `${folder} on chain ${chain} token ${token.address} code not verified on Etherscan`,

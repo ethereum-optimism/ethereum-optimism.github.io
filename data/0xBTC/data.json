@@ -2,6 +2,7 @@
   "name": "0xBitcoin",
   "symbol": "0xBTC",
   "decimals": 8,
+  "website": "https://0xbitcoin.org/",
   "tokens": {
     "ethereum": {
       "address": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31"
