@@ -84,23 +84,6 @@ export const validate = async (
 
     // Validate each token configuration
     for (const [chain, token] of Object.entries(data.tokens)) {
-      // Check to make sure the website will load
-      for (let i = 0; i < 5; i++) {
-        try {
-          await fetch(data.website)
-          break
-        } catch (err) {
-          if (i < 4) {
-            await sleep(5000)
-          } else {
-            results.push({
-              type: 'error',
-              message: `${folder} on chain ${chain} website did not load`,
-            })
-          }
-        }
-      }
-
       // Validate any standard tokens
       if (folder !== 'ETH' && data.nonstandard !== true) {
         const contract = new ethers.Contract(

@@ -46,7 +46,7 @@ export const TOKEN_DATA_SCHEMA = {
     description: {
       type: 'string',
       minLength: 1,
-      maxLength: 150,
+      maxLength: 1000,
     },
     website: {
       type: 'string',
@@ -79,7 +79,7 @@ export const TOKEN_DATA_SCHEMA = {
     },
   },
   additionalProperties: false,
-  required: ['name', 'symbol', 'decimals', 'tokens', 'description', 'website'],
+  required: ['name', 'symbol', 'decimals', 'tokens'],
 }
 
 module.exports = {
