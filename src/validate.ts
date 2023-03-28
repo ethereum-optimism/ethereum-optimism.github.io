@@ -188,12 +188,32 @@ export const validate = async (
             NETWORK_DATA[chain].provider
           )
 
-          const events = await factory.queryFilter(
-            factory.filters.StandardL2TokenCreated(undefined, token.address)
-          )
+          // The standard l2 token factory query is flaky so it is attempted 5 times.
+          let events
+          for (let i = 0; i < 5; i++) {
+            try {
+              events = await factory.queryFilter(
+                factory.filters.StandardL2TokenCreated(undefined, token.address)
+              )
+              break
+            } catch (err) {
+              if (i < 4) {
+                await sleep(5000)
+              } else {
+                console.error(
+                  `${folder} on chain ${chain} token ${token.address} tried query filter 5 times and failed`,
+                  err
+                )
+                results.push({
+                  type: 'warning',
+                  message: `${folder} on chain ${chain} token ${token.address} tried query filter 5 times and failed`,
+                })
+              }
+            }
+          }
 
           // Trigger review if not created by standard token factory.
-          if (events.length === 0) {
+          if (events && events.length === 0) {
             results.push({
               type: 'warning',
               message: `${folder} on chain ${chain} token ${token.address} not created by standard token factory`,
