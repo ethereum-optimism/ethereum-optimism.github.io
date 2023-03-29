@@ -24,6 +24,7 @@ export interface TokenData {
     'optimism-kovan'?: Token
     goerli?: Token
     'optimism-goerli'?: Token
+    'base-goerli'?: Token
   }
 }
 
