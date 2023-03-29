@@ -217,28 +217,38 @@ export const validate = async (
             })
           }
         } else {
-          // Make sure the token is verified on Etherscan.
-          // Etherscan API is heavily rate limited, so sleep for 1s to avoid errors.
-          await sleep(1000)
-          const { qResult } = await (
-            await fetch(
-              `https://api${
-                chain === 'ethereum' ? '' : `-${chain}`
-              }.etherscan.io/api?` +
+          try {
+            // Make sure the token is verified on Etherscan.
+            // Etherscan API is heavily rate limited, so sleep for 1s to avoid errors.
+            await sleep(1000)
+            const { result: etherscanResult } = await (
+              await fetch(
+                `https://api${chain === 'ethereum' ? '' : `-${chain}`
+                }.etherscan.io/api?` +
                 new URLSearchParams({
                   module: 'contract',
                   action: 'getsourcecode',
                   address: token.address,
                   apikey: process.env.ETHERSCAN_API_KEY,
                 })
-            )
-          ).json()
+              )
+            ).json()
 
-          // Trigger review if code not verified on Etherscan
-          if (qResult[0].ABI === 'Contract source code not verified') {
+            // Trigger review if code not verified on Etherscan
+            if (etherscanResult[0].ABI === 'Contract source code not verified') {
+              results.push({
+                type: 'warning',
+                message: `${folder} on chain ${chain} token ${token.address} code not verified on Etherscan`,
+              })
+            }
+          } catch (e) {
+            console.error(
+              `unable to fetch etherscan ${folder} on chain ${chain} token ${token.address}`,
+              e
+            )
             results.push({
               type: 'warning',
-              message: `${folder} on chain ${chain} token ${token.address} code not verified on Etherscan`,
+              message: `Etherscan API request failed for ${folder} on chain ${chain} token ${token.address}`,
             })
           }
         }
