@@ -82,6 +82,6 @@ export const TOKEN_DATA_SCHEMA = {
   required: ['name', 'symbol', 'decimals', 'tokens', 'description', 'website'],
 }
 
-module.exports = {
+export default {
   TOKEN_DATA_SCHEMA,
 }
