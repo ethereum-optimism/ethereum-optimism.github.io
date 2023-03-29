@@ -11,9 +11,6 @@
     },
     "optimism": {
       "address": "0xEc6adef5E1006bb305bB1975333e8fc4071295bf"
-    },
-    "optimism-kovan": {
-      "address": "0xEc6adef5E1006bb305bB1975333e8fc4071295bf"
     }
   }
 }

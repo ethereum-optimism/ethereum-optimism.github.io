@@ -15,18 +15,6 @@
       "overrides": {
         "decimals": 16
       }
-    },
-    "kovan": {
-      "address": "0x8274ea38fe9bea66f8e7c6f3ef742b85d86aeb5d",
-      "overrides": {
-        "decimals": 16
-      }
-    },
-    "optimism-kovan": {
-      "address": "0x35597dC6f8fDc81d71b311A9E4e2710ef6accb68",
-      "overrides": {
-        "decimals": 16
-      }
     }
   }
 }
