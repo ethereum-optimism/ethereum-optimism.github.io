@@ -1,6 +1,8 @@
 import { ethers } from 'ethers'
 
-export const NETWORK_DATA = {
+import { Network } from './types'
+
+export const NETWORK_DATA: { [network: string]: Network } = {
   ethereum: {
     id: 1,
     name: 'Mainnet',
@@ -41,7 +43,6 @@ export const NETWORK_DATA = {
       84531
     ),
     layer: 2,
-    pair: 'goerli',
     bridge: '0x4200000000000000000000000000000000000010',
   },
 }
