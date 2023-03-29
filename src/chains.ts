@@ -17,22 +17,6 @@ export const NETWORK_DATA = {
     layer: 2,
     bridge: '0x4200000000000000000000000000000000000010',
   },
-  kovan: {
-    id: 42,
-    name: 'Kovan',
-    provider: new ethers.providers.InfuraProvider('kovan'),
-    layer: 1,
-    bridge: '0x22F24361D548e5FaAfb36d1437839f080363982B',
-  },
-  'optimism-kovan': {
-    id: 69,
-    name: 'Optimism Kovan',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://kovan.optimism.io'
-    ),
-    layer: 2,
-    bridge: '0x4200000000000000000000000000000000000010',
-  },
   goerli: {
     id: 5,
     name: 'Goerli',

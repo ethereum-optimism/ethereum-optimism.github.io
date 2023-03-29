@@ -9,14 +9,8 @@
     "optimism": {
       "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
     },
-    "kovan": {
-      "address": "0x0000000000000000000000000000000000000000"
-    },
     "goerli": {
       "address": "0x0000000000000000000000000000000000000000"
-    },
-    "optimism-kovan": {
-      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
     },
     "optimism-goerli": {
       "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
