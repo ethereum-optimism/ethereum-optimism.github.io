@@ -10,6 +10,13 @@ export interface Token {
   }
 }
 
+export type Chain =
+  | 'ethereum'
+  | 'optimism'
+  | 'goerli'
+  | 'optimism-goerli'
+  | 'base-goerli'
+
 export interface TokenData {
   nonstandard?: boolean
   nobridge?: boolean
@@ -19,13 +26,7 @@ export interface TokenData {
   decimals: number
   description: string
   website: string
-  tokens: {
-    ethereum?: Token
-    optimism?: Token
-    goerli?: Token
-    'optimism-goerli'?: Token
-    'base-goerli'?: Token
-  }
+  tokens: Partial<Record<Chain, Token>>
 }
 
 export interface ValidationResult {
