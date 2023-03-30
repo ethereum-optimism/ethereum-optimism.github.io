@@ -29,6 +29,10 @@ export interface TokenData {
   tokens: Partial<Record<Chain, Token>>
 }
 
+export interface ExpectedMismatches {
+  [folder: string]: Partial<Record<Chain, { symbol?: string; name?: string }>>
+}
+
 export interface ValidationResult {
   type: 'error' | 'warning'
   message: string

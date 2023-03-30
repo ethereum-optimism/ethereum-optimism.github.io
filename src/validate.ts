@@ -16,7 +16,7 @@ import { generate } from './generate'
 import { TOKEN_DATA_SCHEMA } from './schemas'
 import { L2_TO_L1_PAIR, NETWORK_DATA } from './chains'
 import { TOKEN_ABI } from './abi'
-import { Chain, TokenData, ValidationResult } from './types'
+import { Chain, ExpectedMismatches, TokenData, ValidationResult } from './types'
 
 /**
  * Validates a token list data folder.
@@ -28,7 +28,8 @@ import { Chain, TokenData, ValidationResult } from './types'
  */
 export const validate = async (
   datadir: string,
-  tokens: string[]
+  tokens: string[],
+  updateExpectedMismatches: boolean
 ): Promise<ValidationResult[]> => {
   // Load data files to validate and filter for requested tokens
   console.log(tokens)
@@ -46,7 +47,11 @@ export const validate = async (
   const cg = await cgret.json()
 
   const results = []
+  const expectedMismatches: ExpectedMismatches = JSON.parse(
+    fs.readFileSync('./src/expectedMismatches.json', 'utf8')
+  )
   for (const folder of folders) {
+    const tokenExpectedMismatches = { ...expectedMismatches[folder] }
     // Make sure the data file exists
     const datafile = path.join(datadir, folder, 'data.json')
     if (!fs.existsSync(datafile)) {
@@ -127,7 +132,23 @@ export const validate = async (
         // Check that the token has the correct symbol
         if (token.overrides?.symbol === undefined) {
           try {
-            if (data.symbol !== (await contract.symbol())) {
+            if (
+              data.symbol !== (await contract.symbol()) &&
+              tokenExpectedMismatches[chain as Chain].symbol !== data.symbol
+            ) {
+              if (updateExpectedMismatches) {
+                const newChainMismatch = {
+                  ...(tokenExpectedMismatches[chain as Chain] ?? {}),
+                  symbol: data.symbol,
+                }
+                tokenExpectedMismatches[chain as Chain] = newChainMismatch
+                expectedMismatches[folder] = tokenExpectedMismatches
+                fs.writeFileSync(
+                  './src/expectedMismatches.json',
+                  JSON.stringify(expectedMismatches, null, 2)
+                )
+              }
+
               results.push({
                 type: 'error',
                 message: `${folder} on chain ${chain} token ${token.address} has incorrect symbol`,
@@ -149,7 +170,23 @@ export const validate = async (
         // Check that the token has the correct name
         if (token.overrides?.name === undefined) {
           try {
-            if (data.name !== (await contract.name())) {
+            if (
+              data.name !== (await contract.name()) &&
+              tokenExpectedMismatches[chain as Chain]?.name !== data.name
+            ) {
+              if (updateExpectedMismatches) {
+                const newChainMismatch = {
+                  ...(tokenExpectedMismatches[chain as Chain] ?? {}),
+                  name: data.name,
+                }
+                tokenExpectedMismatches[chain as Chain] = newChainMismatch
+                expectedMismatches[folder] = tokenExpectedMismatches
+                fs.writeFileSync(
+                  './src/expectedMismatches.json',
+                  JSON.stringify(expectedMismatches, null, 2)
+                )
+              }
+
               results.push({
                 type: 'error',
                 message: `${folder} on chain ${chain} token ${token.address} has incorrect name`,

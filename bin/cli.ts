@@ -21,8 +21,17 @@ program
     '--tokens <tokens>',
     'Comma-separated list of tokens symbols to validate'
   )
+  .option(
+    '--updateExpectedMismatches <updateExpectedMismatches>',
+    'Whether the expected mismatches should be updated',
+    false
+  )
   .action(async (options) => {
-    const results = await validate(options.datadir, options.tokens.split(','))
+    const results = await validate(
+      options.datadir,
+      options.tokens.split(','),
+      options.updateExpectedMismatches
+    )
 
     const errs = results.filter((r) => r.type === 'error')
     if (errs.length > 0) {
