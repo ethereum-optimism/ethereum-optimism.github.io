@@ -1,3 +1,5 @@
+import { providers } from 'ethers'
+
 export interface Token {
   address: string
   overrides?: {
@@ -29,4 +31,12 @@ export interface TokenData {
 export interface ValidationResult {
   type: 'error' | 'warning'
   message: string
+}
+
+export interface Network {
+  id: number
+  name: string
+  provider: providers.BaseProvider
+  layer: number
+  bridge: string
 }

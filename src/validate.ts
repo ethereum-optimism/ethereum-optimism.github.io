@@ -86,10 +86,11 @@ export const validate = async (
     for (const [chain, token] of Object.entries(data.tokens)) {
       // Validate any standard tokens
       if (folder !== 'ETH' && data.nonstandard !== true) {
+        const networkData = NETWORK_DATA[chain]
         const contract = new ethers.Contract(
           token.address,
           TOKEN_ABI,
-          NETWORK_DATA[chain].provider
+          networkData.provider
         )
 
         // Check that the token exists on this chain
@@ -181,11 +182,11 @@ export const validate = async (
           }
         }
 
-        if (chain.startsWith('optimism')) {
+        if (networkData.layer === 2) {
           const factory = new ethers.Contract(
             '0x4200000000000000000000000000000000000012',
             FACTORY_ABI,
-            NETWORK_DATA[chain].provider
+            networkData.provider
           )
 
           const events = await factory.queryFilter(
