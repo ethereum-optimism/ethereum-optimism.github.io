@@ -10,12 +10,13 @@ import addFormats from 'ajv-formats'
 import { schema } from '@uniswap/token-lists'
 import { ethers } from 'ethers'
 import { sleep } from '@eth-optimism/core-utils'
+import { getContractInterface } from '@eth-optimism/contracts'
 
 import { generate } from './generate'
 import { TOKEN_DATA_SCHEMA } from './schemas'
-import { NETWORK_DATA } from './chains'
-import { FACTORY_ABI, TOKEN_ABI } from './abi'
-import { TokenData, ValidationResult } from './types'
+import { L2_TO_L1_PAIR, NETWORK_DATA } from './chains'
+import { TOKEN_ABI } from './abi'
+import { Chain, TokenData, ValidationResult } from './types'
 
 /**
  * Validates a token list data folder.
@@ -86,7 +87,7 @@ export const validate = async (
     for (const [chain, token] of Object.entries(data.tokens)) {
       // Validate any standard tokens
       if (folder !== 'ETH' && data.nonstandard !== true) {
-        const networkData = NETWORK_DATA[chain]
+        const networkData = NETWORK_DATA[chain as Chain]
         const contract = new ethers.Contract(
           token.address,
           TOKEN_ABI,
@@ -183,22 +184,56 @@ export const validate = async (
         }
 
         if (networkData.layer === 2) {
-          const factory = new ethers.Contract(
-            '0x4200000000000000000000000000000000000012',
-            FACTORY_ABI,
-            networkData.provider
-          )
+          if (!data.nobridge) {
+            if (token.overrides?.bridge === undefined) {
+              try {
+                const tokenContract = new ethers.Contract(
+                  token.address,
+                  getContractInterface('L2StandardERC20'),
+                  networkData.provider
+                )
 
-          const events = await factory.queryFilter(
-            factory.filters.StandardL2TokenCreated(undefined, token.address)
-          )
+                const l2Bridge = (await tokenContract.l2Bridge()) as string
+                // Trigger review if the bridge for the token is not set
+                // to the standard bridge address.
+                if (
+                  l2Bridge?.toUpperCase() !== networkData.bridge.toUpperCase()
+                ) {
+                  results.push({
+                    type: 'error',
+                    message: `${folder} on chain ${chain} token ${token.address} not using standard bridge`,
+                  })
+                }
 
-          // Trigger review if not created by standard token factory.
-          if (events.length === 0) {
-            results.push({
-              type: 'warning',
-              message: `${folder} on chain ${chain} token ${token.address} not created by standard token factory`,
-            })
+                const l1Token = (await tokenContract.l1Token()) as string
+                const l1Chain = L2_TO_L1_PAIR[chain as Chain]
+                const l1ChainData = data.tokens[l1Chain]
+                if (
+                  l1ChainData &&
+                  l1ChainData.address.toUpperCase() !== l1Token.toUpperCase()
+                ) {
+                  results.push({
+                    type: 'error',
+                    message: `${folder} on chain ${chain} token ${token.address} does not match L1 token address`,
+                  })
+                }
+              } catch (e) {
+                console.error(
+                  `${folder} on chain ${chain} token ${token.address} could not fetch l2Bridge or l1Token`,
+                  e
+                )
+                results.push({
+                  type: 'error',
+                  message: `${folder} on chain ${chain} token ${token.address} could not fetch l2Bridge or l1Token.
+                    This token most likely needs nobridge or a bridge override set.`,
+                })
+              }
+            } else {
+              results.push({
+                type: 'warning',
+                message: `${folder} on chain ${chain} token ${token.address} has an overridden bridge`,
+              })
+            }
           }
         } else {
           try {
@@ -207,19 +242,22 @@ export const validate = async (
             await sleep(1000)
             const { result: etherscanResult } = await (
               await fetch(
-                `https://api${chain === 'ethereum' ? '' : `-${chain}`
+                `https://api${
+                  chain === 'ethereum' ? '' : `-${chain}`
                 }.etherscan.io/api?` +
-                new URLSearchParams({
-                  module: 'contract',
-                  action: 'getsourcecode',
-                  address: token.address,
-                  apikey: process.env.ETHERSCAN_API_KEY,
-                })
+                  new URLSearchParams({
+                    module: 'contract',
+                    action: 'getsourcecode',
+                    address: token.address,
+                    apikey: process.env.ETHERSCAN_API_KEY,
+                  })
               )
             ).json()
 
             // Trigger review if code not verified on Etherscan
-            if (etherscanResult[0].ABI === 'Contract source code not verified') {
+            if (
+              etherscanResult[0].ABI === 'Contract source code not verified'
+            ) {
               results.push({
                 type: 'warning',
                 message: `${folder} on chain ${chain} token ${token.address} code not verified on Etherscan`,
