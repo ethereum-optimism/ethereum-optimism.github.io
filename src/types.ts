@@ -10,6 +10,19 @@ export interface Token {
   }
 }
 
+/*
+ * Supported chains for the tokenlist
+ * If adding a new chain consider keeping the name
+ * consistent with wagmi
+ * @see https://github.com/wagmi-dev/references/blob/main/packages/chains/src/optimismGoerli.ts
+ */
+export type Chain =
+  | 'ethereum'
+  | 'optimism'
+  | 'goerli'
+  | 'optimism-goerli'
+  | 'base-goerli'
+
 export interface TokenData {
   nonstandard?: boolean
   nobridge?: boolean
@@ -19,13 +32,7 @@ export interface TokenData {
   decimals: number
   description: string
   website: string
-  tokens: {
-    ethereum?: Token
-    optimism?: Token
-    goerli?: Token
-    'optimism-goerli'?: Token
-    'base-goerli'?: Token
-  }
+  tokens: Partial<Record<Chain, Token>>
 }
 
 export interface ValidationResult {

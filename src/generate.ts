@@ -42,7 +42,8 @@ export const generate = (datadir: string) => {
           decimals: token.overrides?.decimals ?? data.decimals,
           logoURI: `${BASE_URL}/data/${folder}/logo.${logoext}`,
           extensions: {
-            optimismBridgeAddress: token.overrides?.bridge ?? NETWORK_DATA[chain].bridge,
+            optimismBridgeAddress:
+              token.overrides?.bridge ?? NETWORK_DATA[chain].bridge,
           },
         }
         if (data.nobridge) {

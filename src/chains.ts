@@ -1,8 +1,8 @@
 import { ethers } from 'ethers'
 
-import { Network } from './types'
+import { Chain, Network } from './types'
 
-export const NETWORK_DATA: { [network: string]: Network } = {
+export const NETWORK_DATA: Record<Chain, Network> = {
   ethereum: {
     id: 1,
     name: 'Mainnet',
@@ -45,4 +45,10 @@ export const NETWORK_DATA: { [network: string]: Network } = {
     layer: 2,
     bridge: '0x4200000000000000000000000000000000000010',
   },
+}
+
+export const L2_TO_L1_PAIR: Partial<Record<Chain, Chain>> = {
+  optimism: 'ethereum',
+  'optimism-goerli': 'goerli',
+  'base-goerli': 'goerli',
 }
