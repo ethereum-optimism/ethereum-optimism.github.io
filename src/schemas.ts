@@ -71,7 +71,7 @@ export const TOKEN_DATA_SCHEMA = {
         { required: ['base-goerli'] },
         { required: ['goerli'] },
         { required: ['optimism-goerli'] },
-      ]
+      ],
     },
   },
   additionalProperties: false,
