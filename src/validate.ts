@@ -252,14 +252,15 @@ export const validate = async (
             await sleep(1000)
             const { result: etherscanResult } = await (
               await fetch(
-                `https://api${chain === 'ethereum' ? '' : `-${chain}`
+                `https://api${
+                  chain === 'ethereum' ? '' : `-${chain}`
                 }.etherscan.io/api?` +
-                new URLSearchParams({
-                  module: 'contract',
-                  action: 'getsourcecode',
-                  address: token.address,
-                  apikey: process.env.ETHERSCAN_API_KEY,
-                })
+                  new URLSearchParams({
+                    module: 'contract',
+                    action: 'getsourcecode',
+                    address: token.address,
+                    apikey: process.env.ETHERSCAN_API_KEY,
+                  })
               )
             ).json()
 
