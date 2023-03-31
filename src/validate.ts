@@ -50,7 +50,7 @@ export const validate = async (
     fs.readFileSync('./src/expectedMismatches.json', 'utf8')
   )
   for (const folder of folders) {
-    const tokenExpectedMismatches = { ...expectedMismatches[folder] }
+    const tokenExpectedMismatches = expectedMismatches[folder] ?? {}
     // Make sure the data file exists
     const datafile = path.join(datadir, folder, 'data.json')
     if (!fs.existsSync(datafile)) {
@@ -133,7 +133,7 @@ export const validate = async (
           try {
             if (
               data.symbol !== (await contract.symbol()) &&
-              tokenExpectedMismatches[chain as Chain].symbol !== data.symbol
+              tokenExpectedMismatches[chain as Chain]?.symbol !== data.symbol
             ) {
               results.push({
                 type: 'error',
@@ -252,15 +252,14 @@ export const validate = async (
             await sleep(1000)
             const { result: etherscanResult } = await (
               await fetch(
-                `https://api${
-                  chain === 'ethereum' ? '' : `-${chain}`
+                `https://api${chain === 'ethereum' ? '' : `-${chain}`
                 }.etherscan.io/api?` +
-                  new URLSearchParams({
-                    module: 'contract',
-                    action: 'getsourcecode',
-                    address: token.address,
-                    apikey: process.env.ETHERSCAN_API_KEY,
-                  })
+                new URLSearchParams({
+                  module: 'contract',
+                  action: 'getsourcecode',
+                  address: token.address,
+                  apikey: process.env.ETHERSCAN_API_KEY,
+                })
               )
             ).json()
 
