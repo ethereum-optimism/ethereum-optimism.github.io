@@ -28,8 +28,7 @@ import { Chain, ExpectedMismatches, TokenData, ValidationResult } from './types'
  */
 export const validate = async (
   datadir: string,
-  tokens: string[],
-  updateExpectedMismatches: boolean
+  tokens: string[]
 ): Promise<ValidationResult[]> => {
   // Load data files to validate and filter for requested tokens
   console.log(tokens)
@@ -136,19 +135,6 @@ export const validate = async (
               data.symbol !== (await contract.symbol()) &&
               tokenExpectedMismatches[chain as Chain].symbol !== data.symbol
             ) {
-              if (updateExpectedMismatches) {
-                const newChainMismatch = {
-                  ...(tokenExpectedMismatches[chain as Chain] ?? {}),
-                  symbol: data.symbol,
-                }
-                tokenExpectedMismatches[chain as Chain] = newChainMismatch
-                expectedMismatches[folder] = tokenExpectedMismatches
-                fs.writeFileSync(
-                  './src/expectedMismatches.json',
-                  JSON.stringify(expectedMismatches, null, 2)
-                )
-              }
-
               results.push({
                 type: 'error',
                 message: `${folder} on chain ${chain} token ${token.address} has incorrect symbol`,
@@ -174,19 +160,6 @@ export const validate = async (
               data.name !== (await contract.name()) &&
               tokenExpectedMismatches[chain as Chain]?.name !== data.name
             ) {
-              if (updateExpectedMismatches) {
-                const newChainMismatch = {
-                  ...(tokenExpectedMismatches[chain as Chain] ?? {}),
-                  name: data.name,
-                }
-                tokenExpectedMismatches[chain as Chain] = newChainMismatch
-                expectedMismatches[folder] = tokenExpectedMismatches
-                fs.writeFileSync(
-                  './src/expectedMismatches.json',
-                  JSON.stringify(expectedMismatches, null, 2)
-                )
-              }
-
               results.push({
                 type: 'error',
                 message: `${folder} on chain ${chain} token ${token.address} has incorrect name`,
