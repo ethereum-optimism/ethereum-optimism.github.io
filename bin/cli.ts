@@ -48,7 +48,7 @@ program
     if (warns.length > 0) {
       fs.writeFileSync(
         'result_warnings.txt',
-        errs.map((err) => err.message).join('\r\n')
+        warns.map((warn) => warn.message).join('\r\n')
       )
       for (const warn of warns) {
         console.log(`warning: ${warn.message}`)
