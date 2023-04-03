@@ -72,7 +72,7 @@ jobs:
         run: |
           EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
           echo "text<<$EOF" >> $GITHUB_OUTPUT
-          echo "results=$(cat std.txt)" >> $GITHUB_OUTPUT
+          echo "log_results=$(cat std.txt)" >> $GITHUB_OUTPUT
           echo "$EOF" >> $GITHUB_OUTPUT
 
       - uses: actions/github-script@v6
@@ -84,7 +84,7 @@ jobs:
               repo: context.repo.repo,
               body: `Validate results:
               \`\`\`bash
-              ${{ steps.validate_results.outputs.results }}
+              ${{ steps.validate_results.outputs.log_results }}
               \`\`\`
               `
             })
