@@ -28,8 +28,7 @@ import { Chain, ExpectedMismatches, TokenData, ValidationResult } from './types'
  */
 export const validate = async (
   datadir: string,
-  tokens: string[],
-  updateExpectedMismatches: boolean
+  tokens: string[]
 ): Promise<ValidationResult[]> => {
   // Load data files to validate and filter for requested tokens
   console.log(tokens)
@@ -47,11 +46,7 @@ export const validate = async (
   const cg = await cgret.json()
 
   const results = []
-  const expectedMismatches: ExpectedMismatches = JSON.parse(
-    fs.readFileSync('./src/expectedMismatches.json', 'utf8')
-  )
   for (const folder of folders) {
-    const tokenExpectedMismatches = { ...expectedMismatches[folder] }
     // Make sure the data file exists
     const datafile = path.join(datadir, folder, 'data.json')
     if (!fs.existsSync(datafile)) {
@@ -72,6 +67,17 @@ export const validate = async (
         message: `${folder} has ${logofiles.length} logo files, make sure your logo is either logo.png OR logo.svg`,
       })
     }
+
+    const expectedMismatchesFilePath = path.join(
+      datadir,
+      folder,
+      'expectedMismatches.json'
+    )
+    const expectedMismatches: ExpectedMismatches = fs.existsSync(
+      expectedMismatchesFilePath
+    )
+      ? JSON.parse(fs.readFileSync(expectedMismatchesFilePath, 'utf8'))
+      : {}
 
     // Validate the data file
     const v = new Validator()
@@ -134,21 +140,8 @@ export const validate = async (
           try {
             if (
               data.symbol !== (await contract.symbol()) &&
-              tokenExpectedMismatches[chain as Chain].symbol !== data.symbol
+              expectedMismatches.symbol !== data.symbol
             ) {
-              if (updateExpectedMismatches) {
-                const newChainMismatch = {
-                  ...(tokenExpectedMismatches[chain as Chain] ?? {}),
-                  symbol: data.symbol,
-                }
-                tokenExpectedMismatches[chain as Chain] = newChainMismatch
-                expectedMismatches[folder] = tokenExpectedMismatches
-                fs.writeFileSync(
-                  './src/expectedMismatches.json',
-                  JSON.stringify(expectedMismatches, null, 2)
-                )
-              }
-
               results.push({
                 type: 'error',
                 message: `${folder} on chain ${chain} token ${token.address} has incorrect symbol`,
@@ -172,21 +165,8 @@ export const validate = async (
           try {
             if (
               data.name !== (await contract.name()) &&
-              tokenExpectedMismatches[chain as Chain]?.name !== data.name
+              expectedMismatches.name !== data.name
             ) {
-              if (updateExpectedMismatches) {
-                const newChainMismatch = {
-                  ...(tokenExpectedMismatches[chain as Chain] ?? {}),
-                  name: data.name,
-                }
-                tokenExpectedMismatches[chain as Chain] = newChainMismatch
-                expectedMismatches[folder] = tokenExpectedMismatches
-                fs.writeFileSync(
-                  './src/expectedMismatches.json',
-                  JSON.stringify(expectedMismatches, null, 2)
-                )
-              }
-
               results.push({
                 type: 'error',
                 message: `${folder} on chain ${chain} token ${token.address} has incorrect name`,
