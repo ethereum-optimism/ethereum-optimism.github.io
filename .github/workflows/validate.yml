@@ -85,7 +85,7 @@ jobs:
               repo: context.repo.repo,
               body: `Validate results:
               \`\`\`bash
-              ${{ steps.validate_results.outputs.validate_results }}
+              ${{ steps.validate_results.outputs.text }}
               \`\`\`
               `
             })
