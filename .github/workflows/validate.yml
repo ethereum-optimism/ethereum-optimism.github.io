@@ -73,7 +73,7 @@ jobs:
           name: validation-artifacts
           path: result_errors.txt
 
-     - name: Upload validation warnings
+      - name: Upload validation warnings
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
