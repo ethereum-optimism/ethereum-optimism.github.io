@@ -67,6 +67,7 @@ jobs:
             std.txt
 
       - name: Upload validation errors
+        if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
           name: validation-errors
