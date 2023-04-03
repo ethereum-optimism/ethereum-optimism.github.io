@@ -66,6 +66,11 @@ jobs:
             err.txt
             std.txt
 
+      -name: get validate results
+       id: validate_results
+       if: ${{ always() }}
+       run: echo "results=$(cat std.txt)" >> $GITHUB_OUTPUT
+
       - uses: actions/github-script@v6
         with:
           script: |
@@ -73,6 +78,10 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '👋 Thanks for reporting!'
+              body: `Validate results:
+              \`\`\`bash
+              ${{ steps.validate_results.outputs.results }}
+              \`\`\`
+              `
             })
 
