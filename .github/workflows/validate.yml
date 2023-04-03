@@ -71,13 +71,13 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: validation-errors
-          path: result_errors.json
+          path: result_errors.txt
 
       - name: get validate results
         id: validate_results
         if: ${{ always() }}
         run: |
-          message="$(cat result_errors.json)"
+          message="$(cat result_errors.txt)"
           EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
           echo "text<<$EOF" >> $GITHUB_OUTPUT
           echo "$message" >> $GITHUB_OUTPUT

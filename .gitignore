@@ -3,6 +3,7 @@ node_modules
 .env
 err.out
 std.out
-result_errors.json
+result_errors.txt
+result_warnings.txt
 dist/
 tmp/

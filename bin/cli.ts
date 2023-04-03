@@ -26,7 +26,10 @@ program
 
     const errs = results.filter((r) => r.type === 'error')
     if (errs.length > 0) {
-      fs.writeFileSync('result_errors.json', JSON.stringify(errs, null, 2))
+      fs.writeFileSync(
+        'result_errors.txt',
+        errs.map((err) => err.message).join('\r\n')
+      )
       for (const err of errs) {
         if (err.message.startsWith('final token list is invalid')) {
           // Message generated here is super long and doesn't really give more information than the
@@ -43,7 +46,10 @@ program
 
     const warns = results.filter((r) => r.type === 'warning')
     if (warns.length > 0) {
-      fs.writeFileSync('./dist/warnings.json', JSON.stringify(warns, null, 2))
+      fs.writeFileSync(
+        'result_warnings.txt',
+        errs.map((err) => err.message).join('\r\n')
+      )
       for (const warn of warns) {
         console.log(`warning: ${warn.message}`)
       }
