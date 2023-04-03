@@ -69,7 +69,11 @@ jobs:
       - name: get validate results
         id: validate_results
         if: ${{ always() }}
-        run: echo "results=$(cat std.txt)" >> $GITHUB_OUTPUT
+        run: |
+          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+          echo "text<<$EOF" >> $GITHUB_OUTPUT
+          echo "results=$(cat std.txt)" >> $GITHUB_OUTPUT
+          echo "$EOF" >> $GITHUB_OUTPUT
 
       - uses: actions/github-script@v6
         with:
