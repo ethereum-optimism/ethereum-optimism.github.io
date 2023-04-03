@@ -70,20 +70,37 @@ jobs:
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
-          name: validation-errors
+          name: validation-artifacts
           path: result_errors.txt
 
-      - name: get validate results
-        id: validate_results
+     - name: Upload validation warnings
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: validation-artifacts
+          path: result_warnings.txt
+
+      - name: get validation errors
+        id: validation_errors
         if: ${{ always() }}
         run: |
           message="$(cat result_errors.txt)"
           EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
-          echo "text<<$EOF" >> $GITHUB_OUTPUT
+          echo "results<<$EOF" >> $GITHUB_OUTPUT
           echo "$message" >> $GITHUB_OUTPUT
           echo "$EOF" >> $GITHUB_OUTPUT
 
-      - name: comment validation results
+      - name: get validation warnings
+        id: validation_warnings
+        if: ${{ always() }}
+        run: |
+          message="$(cat result_warnings.txt)"
+          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+          echo "results<<$EOF" >> $GITHUB_OUTPUT
+          echo "$message" >> $GITHUB_OUTPUT
+          echo "$EOF" >> $GITHUB_OUTPUT
+
+      - name: comment validation errors
         if: ${{ always() }}
         uses: actions/github-script@v6
         with:
@@ -94,7 +111,23 @@ jobs:
               repo: context.repo.repo,
               body: `These errors were encountered during validation and should be fixed before merging:
               \`\`\`bash
-              ${{ steps.validate_results.outputs.text }}
+              ${{ steps.validation_errors.outputs.results }}
+              \`\`\`
+              `
+            })
+
+      - name: comment validation warnings
+        if: ${{ always() }}
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `These warnings were encountered during validation:
+              \`\`\`bash
+              ${{ steps.validation_warnings.outputs.results }}
               \`\`\`
               `
             })
