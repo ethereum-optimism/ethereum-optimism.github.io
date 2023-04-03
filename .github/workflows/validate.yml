@@ -83,7 +83,9 @@ jobs:
           echo "$message" >> $GITHUB_OUTPUT
           echo "$EOF" >> $GITHUB_OUTPUT
 
-      - uses: actions/github-script@v6
+      - name: comment validation results
+        if: ${{ always() }}
+        uses: actions/github-script@v6
         with:
           script: |
             github.rest.issues.createComment({
