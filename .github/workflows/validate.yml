@@ -77,7 +77,7 @@ jobs:
         id: validate_results
         if: ${{ always() }}
         run: |
-          message="$(cat validation-errors.json)"
+          message="$(cat result_errors.json)"
           EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
           echo "text<<$EOF" >> $GITHUB_OUTPUT
           echo "$message" >> $GITHUB_OUTPUT
