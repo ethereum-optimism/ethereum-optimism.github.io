@@ -70,9 +70,10 @@ jobs:
         id: validate_results
         if: ${{ always() }}
         run: |
+          message="$(cat std.txt)"
           EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
           echo "text<<$EOF" >> $GITHUB_OUTPUT
-          echo "log_results=testing" >> $GITHUB_OUTPUT
+          echo "$message" >> $GITHUB_OUTPUT
           echo "$EOF" >> $GITHUB_OUTPUT
 
       - uses: actions/github-script@v6
@@ -84,7 +85,7 @@ jobs:
               repo: context.repo.repo,
               body: `Validate results:
               \`\`\`bash
-              ${{ steps.validate_results.outputs.log_results }}
+              ${{ steps.validate_results.outputs.validate_results }}
               \`\`\`
               `
             })
