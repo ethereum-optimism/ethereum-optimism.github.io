@@ -36,7 +36,7 @@ export interface TokenData {
 }
 
 export interface ExpectedMismatches {
-  [folder: string]: Partial<Record<Chain, { symbol?: string; name?: string }>>
+  [folder: string]: { symbol?: string; name?: string }
 }
 
 export interface ValidationResult {

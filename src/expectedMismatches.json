@@ -1,197 +1,89 @@
 {
   "0xBTC": {
-    "ethereum": {
-      "name": "0xBitcoin"
-    },
-    "optimism": {
-      "name": "0xBitcoin"
-    }
+    "name": "0xBitcoin"
   },
   "aCRV": {
-    "ethereum": {
-      "name": "AladdinCRV"
-    }
+    "name": "AladdinCRV"
   },
   "AELIN": {
-    "optimism": {
-      "name": "Aelin Protocol"
-    }
+    "name": "Aelin Protocol"
   },
   "BOB": {
-    "ethereum": {
-      "name": "BOB Token"
-    },
-    "optimism": {
-      "name": "BOB Token"
-    }
+    "name": "BOB Token"
   },
   "BOND": {
-    "optimism": {
-      "name": "BarnBridge Governance Token"
-    }
+    "name": "BarnBridge Governance Token"
   },
   "cbETH": {
-    "goerli": {
-      "name": "Coinbase Wrapped Staked ETH",
-      "symbol": "cbETH"
-    }
+    "symbol": "cbETH",
+    "name": "Coinbase Wrapped Staked ETH"
   },
   "DHT": {
-    "ethereum": {
-      "name": "dHEDGE DAO Token"
-    }
+    "name": "dHEDGE DAO Token"
   },
   "DUCK": {
-    "ethereum": {
-      "name": "Unit protocol"
-    },
-    "optimism": {
-      "name": "Unit protocol"
-    }
+    "name": "Unit protocol"
   },
   "FRAX": {
-    "ethereum": {
-      "name": "FRAX"
-    },
-    "optimism": {
-      "name": "FRAX"
-    }
+    "name": "FRAX"
   },
   "frxETH": {
-    "goerli": {
-      "name": "Frax Ether",
-      "symbol": "frxETH"
-    }
+    "symbol": "frxETH",
+    "name": "Frax Ether"
   },
   "FXS": {
-    "ethereum": {
-      "name": "FXS"
-    },
-    "optimism": {
-      "name": "FXS"
-    }
+    "name": "FXS"
   },
   "GYEN": {
-    "optimism": {
-      "name": "GMO JPY"
-    }
+    "name": "GMO JPY"
   },
   "HOP": {
-    "ethereum": {
-      "name": "HOP"
-    },
-    "optimism": {
-      "name": "HOP"
-    }
+    "name": "HOP"
   },
   "JRT": {
-    "ethereum": {
-      "name": "Jarvis Network Token"
-    }
+    "name": "Jarvis Network Token"
   },
   "LINK": {
-    "ethereum": {
-      "name": "Chainlink"
-    },
-    "optimism": {
-      "name": "Chainlink"
-    },
-    "goerli": {
-      "name": "Chainlink"
-    },
-    "optimism-goerli": {
-      "name": "Chainlink"
-    }
+    "name": "Chainlink"
   },
   "LYRA": {
-    "ethereum": {
-      "name": "Lyra"
-    },
-    "optimism": {
-      "name": "Lyra"
-    }
+    "name": "Lyra"
   },
   "MOM": {
-    "goerli": {
-      "name": "Monetum",
-      "symbol": "MOM"
-    },
-    "optimism-goerli": {
-      "name": "Monetum",
-      "symbol": "MOM"
-    }
+    "symbol": "MOM",
+    "name": "Monetum"
   },
   "sBTC": {
-    "optimism": {
-      "name": "Synthetic Bitcoin"
-    }
+    "name": "Synthetic Bitcoin"
   },
   "sETH": {
-    "optimism": {
-      "name": "Synthetic Ether"
-    }
+    "name": "Synthetic Ether"
   },
   "sLINK": {
-    "optimism": {
-      "name": "Synthetic Chainlink"
-    }
+    "name": "Synthetic Chainlink"
   },
   "SNX": {
-    "ethereum": {
-      "name": "Synthetix"
-    },
-    "optimism": {
-      "name": "Synthetix"
-    },
-    "goerli": {
-      "name": "Synthetix"
-    },
-    "optimism-goerli": {
-      "name": "Synthetix"
-    }
+    "name": "Synthetix"
   },
   "sUSD": {
-    "optimism": {
-      "name": "Synthetix USD"
-    },
-    "optimism-goerli": {
-      "name": "Synthetix USD"
-    }
+    "name": "Synthetix USD"
   },
   "THALES": {
-    "ethereum": {
-      "name": "Optimistic Thales Token"
-    },
-    "optimism": {
-      "name": "Optimistic Thales Token"
-    }
+    "name": "Optimistic Thales Token"
   },
   "TRB": {
-    "ethereum": {
-      "name": "Tellor"
-    }
+    "name": "Tellor"
   },
   "USDT": {
-    "goerli": {
-      "name": "Tether USD"
-    }
+    "name": "Tether USD"
   },
   "UST": {
-    "ethereum": {
-      "name": "UST (Wormhole)"
-    }
+    "name": "UST (Wormhole)"
   },
   "WMP": {
-    "goerli": {
-      "name": "WAMP"
-    },
-    "optimism-goerli": {
-      "name": "WAMP"
-    }
+    "name": "WAMP"
   },
   "ZUSD": {
-    "optimism": {
-      "name": "Z.com USD"
-    }
+    "name": "Z.com USD"
   }
 }

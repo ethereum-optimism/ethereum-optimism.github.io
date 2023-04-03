@@ -133,7 +133,7 @@ export const validate = async (
           try {
             if (
               data.symbol !== (await contract.symbol()) &&
-              tokenExpectedMismatches[chain as Chain]?.symbol !== data.symbol
+              tokenExpectedMismatches.symbol !== data.symbol
             ) {
               results.push({
                 type: 'error',
@@ -158,7 +158,7 @@ export const validate = async (
           try {
             if (
               data.name !== (await contract.name()) &&
-              tokenExpectedMismatches[chain as Chain]?.name !== data.name
+              tokenExpectedMismatches.name !== data.name
             ) {
               results.push({
                 type: 'error',
