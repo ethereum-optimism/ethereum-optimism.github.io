@@ -1,4 +1,5 @@
 import fs from 'fs'
+import path from 'path'
 
 import { Command } from 'commander'
 
@@ -26,7 +27,10 @@ program
 
     const errs = results.filter((r) => r.type === 'error')
     if (errs.length > 0) {
-      fs.writeFileSync('./dist/errors.json', JSON.stringify(errs, null, 2))
+      fs.writeFileSync(
+        path.join(__dirname, '/dist/errors.json'),
+        JSON.stringify(errs, null, 2)
+      )
       for (const err of errs) {
         if (err.message.startsWith('final token list is invalid')) {
           // Message generated here is super long and doesn't really give more information than the
