@@ -36,7 +36,8 @@ export interface TokenData {
 }
 
 export interface ExpectedMismatches {
-  [folder: string]: { symbol?: string; name?: string }
+  symbol?: string
+  name?: string
 }
 
 export interface ValidationResult {

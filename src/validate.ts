@@ -46,11 +46,7 @@ export const validate = async (
   const cg = await cgret.json()
 
   const results = []
-  const expectedMismatches: ExpectedMismatches = JSON.parse(
-    fs.readFileSync('./src/expectedMismatches.json', 'utf8')
-  )
   for (const folder of folders) {
-    const tokenExpectedMismatches = expectedMismatches[folder] ?? {}
     // Make sure the data file exists
     const datafile = path.join(datadir, folder, 'data.json')
     if (!fs.existsSync(datafile)) {
@@ -71,6 +67,17 @@ export const validate = async (
         message: `${folder} has ${logofiles.length} logo files, make sure your logo is either logo.png OR logo.svg`,
       })
     }
+
+    const expectedMismatchesFilePath = path.join(
+      datadir,
+      folder,
+      'expectedMismatches.json'
+    )
+    const expectedMismatches: ExpectedMismatches = fs.existsSync(
+      expectedMismatchesFilePath
+    )
+      ? JSON.parse(fs.readFileSync(expectedMismatchesFilePath, 'utf8'))
+      : {}
 
     // Validate the data file
     const v = new Validator()
@@ -133,7 +140,7 @@ export const validate = async (
           try {
             if (
               data.symbol !== (await contract.symbol()) &&
-              tokenExpectedMismatches.symbol !== data.symbol
+              expectedMismatches.symbol !== data.symbol
             ) {
               results.push({
                 type: 'error',
@@ -158,7 +165,7 @@ export const validate = async (
           try {
             if (
               data.name !== (await contract.name()) &&
-              tokenExpectedMismatches.name !== data.name
+              expectedMismatches.name !== data.name
             ) {
               results.push({
                 type: 'error',
@@ -252,15 +259,14 @@ export const validate = async (
             await sleep(1000)
             const { result: etherscanResult } = await (
               await fetch(
-                `https://api${
-                  chain === 'ethereum' ? '' : `-${chain}`
+                `https://api${chain === 'ethereum' ? '' : `-${chain}`
                 }.etherscan.io/api?` +
-                  new URLSearchParams({
-                    module: 'contract',
-                    action: 'getsourcecode',
-                    address: token.address,
-                    apikey: process.env.ETHERSCAN_API_KEY,
-                  })
+                new URLSearchParams({
+                  module: 'contract',
+                  action: 'getsourcecode',
+                  address: token.address,
+                  apikey: process.env.ETHERSCAN_API_KEY,
+                })
               )
             ).json()
 
