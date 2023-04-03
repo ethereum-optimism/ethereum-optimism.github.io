@@ -66,10 +66,10 @@ jobs:
             err.txt
             std.txt
 
-      -name: get validate results
-       id: validate_results
-       if: ${{ always() }}
-       run: echo "results=$(cat std.txt)" >> $GITHUB_OUTPUT
+      - name: get validate results
+        id: validate_results
+        if: ${{ always() }}
+        run: echo "results=$(cat std.txt)" >> $GITHUB_OUTPUT
 
       - uses: actions/github-script@v6
         with:
