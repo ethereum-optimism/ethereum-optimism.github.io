@@ -71,7 +71,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: validation-errors
-          path: dist/errors.json
+          path: result_errors.json
 
       - name: get validate results
         id: validate_results

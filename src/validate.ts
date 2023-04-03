@@ -41,11 +41,20 @@ export const validate = async (
       return !tokens || tokens.includes(folder)
     })
 
-  // Load the CoinGecko tokenlist once to avoid additional requests
-  const cgret = await fetch('https://tokens.coingecko.com/uniswap/all.json')
-  const cg = await cgret.json()
-
   const results = []
+  // Load the CoinGecko tokenlist once to avoid additional requests
+  let cgret
+  let cg
+  try {
+    cgret = await fetch('https://tokens.coingecko.com/uniswap/all.json')
+    cg = await cgret.json()
+  } catch (err) {
+    results.push({
+      type: 'warning',
+      message: 'fetch for CoinGecko token list failed',
+    })
+  }
+
   for (const folder of folders) {
     // Make sure the data file exists
     const datafile = path.join(datadir, folder, 'data.json')
@@ -186,7 +195,7 @@ export const validate = async (
         }
 
         // Check that the Ethereum token exists in the CG token list
-        if (chain === 'ethereum') {
+        if (chain === 'ethereum' && cg !== undefined) {
           const found = cg.tokens.find((t) => {
             return t.address.toLowerCase() === token.address.toLowerCase()
           })
