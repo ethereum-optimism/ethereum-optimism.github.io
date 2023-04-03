@@ -16,7 +16,7 @@ import { generate } from './generate'
 import { TOKEN_DATA_SCHEMA } from './schemas'
 import { L2_TO_L1_PAIR, NETWORK_DATA } from './chains'
 import { TOKEN_ABI } from './abi'
-import { Chain, TokenData, ValidationResult } from './types'
+import { Chain, ExpectedMismatches, TokenData, ValidationResult } from './types'
 
 /**
  * Validates a token list data folder.
@@ -67,6 +67,17 @@ export const validate = async (
         message: `${folder} has ${logofiles.length} logo files, make sure your logo is either logo.png OR logo.svg`,
       })
     }
+
+    const expectedMismatchesFilePath = path.join(
+      datadir,
+      folder,
+      'expectedMismatches.json'
+    )
+    const expectedMismatches: ExpectedMismatches = fs.existsSync(
+      expectedMismatchesFilePath
+    )
+      ? JSON.parse(fs.readFileSync(expectedMismatchesFilePath, 'utf8'))
+      : {}
 
     // Validate the data file
     const v = new Validator()
@@ -127,7 +138,10 @@ export const validate = async (
         // Check that the token has the correct symbol
         if (token.overrides?.symbol === undefined) {
           try {
-            if (data.symbol !== (await contract.symbol())) {
+            if (
+              data.symbol !== (await contract.symbol()) &&
+              expectedMismatches.symbol !== data.symbol
+            ) {
               results.push({
                 type: 'error',
                 message: `${folder} on chain ${chain} token ${token.address} has incorrect symbol`,
@@ -149,7 +163,10 @@ export const validate = async (
         // Check that the token has the correct name
         if (token.overrides?.name === undefined) {
           try {
-            if (data.name !== (await contract.name())) {
+            if (
+              data.name !== (await contract.name()) &&
+              expectedMismatches.name !== data.name
+            ) {
               results.push({
                 type: 'error',
                 message: `${folder} on chain ${chain} token ${token.address} has incorrect name`,
