@@ -150,30 +150,34 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `These errors were encountered during validation and should be fixed before merging:
-              \`\`\`bash
-              ${{ steps.validation_errors.outputs.text }}
-              \`\`\`
-              `
-            })
+            if (steps.check_for_result_errors.outputs.result) {
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `These errors were encountered during validation and should be fixed before merging:
+                \`\`\`bash
+                ${{ steps.validation_errors.outputs.text }}
+                \`\`\`
+                `
+              })
+            }
 
       - name: comment validation warnings
         if: ${{ always() }}
         uses: actions/github-script@v6
         with:
           script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `These warnings were encountered during validation:
-              \`\`\`bash
-              ${{ steps.validation_warnings.outputs.text }}
-              \`\`\`
-              `
-            })
+            if (steps.check_for_result_warnings.outputs.result) {
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `These warnings were encountered during validation:
+                \`\`\`bash
+                ${{ steps.validation_warnings.outputs.text }}
+                \`\`\`
+                `
+              })
+            }
 
