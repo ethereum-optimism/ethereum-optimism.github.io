@@ -60,7 +60,7 @@ jobs:
 
       - name: Validate token list
         run: |
-          yarn validate --datadir ./data --tokens "${{ steps.changed_tokens.tokens }}" 2> err.txt 1> std.txt
+          yarn validate --datadir ./data --tokens "${{ steps.changed_tokens.outputs.tokens }}" 2> err.txt 1> std.txt
 
       - name: Print output
         if: ${{ always() }}
