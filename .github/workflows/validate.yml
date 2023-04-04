@@ -47,22 +47,19 @@ jobs:
           files: |
             data/**
 
-      - name: List all changed files
-        id: listed_files
+      - name: List all changed tokens
+        id: changed_tokens
         run: |
-          files=""
+          tokens=""
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             RESULT=$(echo -e "$file" | sed -nr "s|^data/([^/]*/?).*|\1|p")
-            files+="${RESULT},"
-            echo "${files}"
+            tokens+="${RESULT},"
           done
-          files=${files%,*}
-          echo ${files}
+          echo "tokens=${tokens%,*}" >> $GITHUB_OUTPUT
 
       - name: Validate token list
         run: |
-          CHANGED=$(echo ${{ steps.listed_files.outputs.RESULT }} | sed -nr "s/data\/(.*?)/p" | paste -sd "," -)
-          yarn validate --datadir ./data --tokens "${CHANGED}" 2> err.txt 1> std.txt
+          yarn validate --datadir ./data --tokens "${steps.changed_tokens.tokens}" 2> err.txt 1> std.txt
 
       - name: Print output
         if: ${{ always() }}
