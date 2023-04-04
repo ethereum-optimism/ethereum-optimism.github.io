@@ -52,10 +52,8 @@ jobs:
         run: |
           files=""
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo $file
             RESULT=$(echo -e "$file" | sed -nr "s|^data/([^/]*/?).*|\1|p" | paste -sd "," -)
             files+="${RESULT},"
-            echo "${files}"
           done
 
       - name: Validate token list
