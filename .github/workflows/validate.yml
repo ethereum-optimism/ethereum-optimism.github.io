@@ -52,7 +52,7 @@ jobs:
         run: |
           args=()
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            RESULT=$(echo $file | sed -nr "s/data\/(.*?)/p" | paste -sd "," -)
+            RESULT=$(echo ${{ file }} | sed -nr "s/data\/(.*?)/p" | paste -sd "," -)
             arg+=RESULT
             echo "${args}"
           done
