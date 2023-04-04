@@ -126,7 +126,7 @@ jobs:
         run: |
           if ${{ steps.check_for_result_errors.outputs.result == 'true' }}; then
             echo ${{ steps.check_for_result_errors.outputs.result == 'true' }}
-            message="$(cat result_errors.txt)"
+            message="$(cat validation_result_errors.txt)"
             EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
             echo "text<<$EOF" >> $GITHUB_OUTPUT
             echo "$message" >> $GITHUB_OUTPUT
@@ -138,7 +138,7 @@ jobs:
         if: ${{ always() }}
         run: |
           if ${{ steps.check_for_result_warnings.outputs.result == 'true' }}; then
-            message="$(cat result_warnings.txt)"
+            message="$(cat validation_result_warnings.txt)"
             EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
             echo "text<<$EOF" >> $GITHUB_OUTPUT
             echo "$message" >> $GITHUB_OUTPUT
