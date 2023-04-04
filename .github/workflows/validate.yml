@@ -153,6 +153,20 @@ jobs:
               })
             }
 
+      - name: comment no validation errors
+        if: ${{ always() }}
+        uses: actions/github-script@v6
+        with:
+          script: |
+            if (!${{ steps.check_for_validation_errors.outputs.result }}) {
+              github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `✅ There were no errors encountered during validation`
+              })
+            }
+
       - name: comment validation warnings
         if: ${{ always() }}
         uses: actions/github-script@v6
