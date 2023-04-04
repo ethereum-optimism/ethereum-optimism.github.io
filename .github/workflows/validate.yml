@@ -104,6 +104,7 @@ jobs:
         id: validation_errors
         if: ${{ always() }}
         run: |
+          echo ${{ steps.check_for_result_errors.outputs.result }}
           message="$(cat result_errors.txt)"
           EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
           echo "text<<$EOF" >> $GITHUB_OUTPUT
