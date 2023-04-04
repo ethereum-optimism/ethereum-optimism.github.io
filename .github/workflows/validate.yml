@@ -76,16 +76,40 @@ jobs:
             err.txt
             std.txt
 
+      - name: Check existence of validation errors
+        if: ${{ always() }}
+        id: check_for_validation_errors
+        run: |
+          result='false'
+          if [ -f validation_result_errors.txt ]; then
+            result='true'
+          fi
+          echo "result=$result" >> $GITHUB_OUTPUT
+
+      - name: Check existence of validation warnings
+        if: ${{ always() }}
+        id: check_for_validation_warnings
+        run: |
+          result='false'
+          if [ -f validation_result_warnings.txt ]; then
+            result='true'
+          fi
+          echo "result=$result" >> $GITHUB_OUTPUT
+
       - name: Upload validation errors
-        if: -d result_errors.txt
+        if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
+<<<<<<< HEAD
 <<<<<<< HEAD
           path: validation_result_errors.txt
 =======
           path: result_errors.txt
 >>>>>>> f7bbcff (always comment validation results to pull request)
+=======
+          path: validation_result_errors.txt
+>>>>>>> 8ac66d6 (working validation)
 
       - name: Upload validation warnings
         if: ${{ always() }}
@@ -93,60 +117,72 @@ jobs:
         with:
           name: validation-artifacts
 <<<<<<< HEAD
+<<<<<<< HEAD
           path: validation_result_warnings.txt
 =======
           path: result_warnings.txt
+=======
+          path: validation_result_warnings.txt
+>>>>>>> 8ac66d6 (working validation)
 
       - name: get validation errors
         id: validation_errors
         if: ${{ always() }}
         run: |
-          message="$(cat result_errors.txt)"
-          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
-          echo "text<<$EOF" >> $GITHUB_OUTPUT
-          echo "$message" >> $GITHUB_OUTPUT
-          echo "$EOF" >> $GITHUB_OUTPUT
+          if ${{ steps.check_for_validation_errors.outputs.result == 'true' }}; then
+            message="$(cat validation_result_errors.txt)"
+            EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+            echo "text<<$EOF" >> $GITHUB_OUTPUT
+            echo "$message" >> $GITHUB_OUTPUT
+            echo "$EOF" >> $GITHUB_OUTPUT
+          fi
 
       - name: get validation warnings
         id: validation_warnings
         if: ${{ always() }}
         run: |
-          message="$(cat result_warnings.txt)"
-          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
-          echo "text<<$EOF" >> $GITHUB_OUTPUT
-          echo "$message" >> $GITHUB_OUTPUT
-          echo "$EOF" >> $GITHUB_OUTPUT
+          if ${{ steps.check_for_validation_warnings.outputs.result == 'true' }}; then
+            message="$(cat validation_result_warnings.txt)"
+            EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+            echo "text<<$EOF" >> $GITHUB_OUTPUT
+            echo "$message" >> $GITHUB_OUTPUT
+            echo "$EOF" >> $GITHUB_OUTPUT
+          fi
 
       - name: comment validation errors
         if: ${{ always() }}
         uses: actions/github-script@v6
         with:
           script: |
-            github.rest.issues.createComment({
+            if (${{ steps.check_for_validation_errors.outputs.result }}) {
+              github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `These errors were encountered during validation and should be fixed before merging:
+              body: `🛑 These errors were encountered during validation and should be fixed before merging:
               \`\`\`bash
               ${{ steps.validation_errors.outputs.text }}
               \`\`\`
               `
-            })
+              })
+            }
 
       - name: comment validation warnings
         if: ${{ always() }}
         uses: actions/github-script@v6
         with:
           script: |
-            github.rest.issues.createComment({
+            if (${{ steps.check_for_validation_warnings.outputs.result }}) {
+              github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `These warnings were encountered during validation:
+              body: `⚠️ These warnings were encountered during validation:
               \`\`\`bash
               ${{ steps.validation_warnings.outputs.text }}
               \`\`\`
               `
-            })
+              })
+            }
 
 >>>>>>> f7bbcff (always comment validation results to pull request)
