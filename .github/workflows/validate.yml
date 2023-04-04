@@ -55,7 +55,6 @@ jobs:
             RESULT=$(echo -e "$file" | sed -nr "s|^data/([^/]*/?).*|\1|p")
             tokens+="${RESULT},"
           done
-          echo ${tokens%,*}
           echo "token_result=${tokens%,*}" >> $GITHUB_OUTPUT
 
       - name: Validate token list
