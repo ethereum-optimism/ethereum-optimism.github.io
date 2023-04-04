@@ -98,13 +98,6 @@ jobs:
           echo $result
           echo "result=$result" >> $GITHUB_OUTPUT
 
-      - name: Check file existence
-        if: ${{ always() }}
-        id: check_files
-        uses: andstor/file-existence-action@v2
-        with:
-          files: "validation_result_errors.txt"
-
       - name: Upload validation errors
         id: upload_validation_errors
         if: ${{ always() }}
