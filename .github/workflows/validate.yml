@@ -96,7 +96,7 @@ jobs:
 
       - name: Upload validation errors
         id: upload_validation_errors
-        if: ${{ steps.check_files.outputs.files_exists == 'true' }}
+        if: steps.check_files.outputs.files_exists == 'true'
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
