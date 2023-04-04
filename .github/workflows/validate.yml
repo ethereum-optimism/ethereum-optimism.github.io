@@ -83,6 +83,7 @@ jobs:
           if [ -d result_errors.txt ]; then
             result=true
           fi
+          echo $result
           echo "result=$result" >> $GITHUB_OUTPUT
 
       - name: Upload validation errors
