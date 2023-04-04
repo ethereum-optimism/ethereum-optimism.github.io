@@ -81,7 +81,7 @@ jobs:
         id: check_for_result_errors
         run: |
           result=false
-          if [ -f result_errors.txt ]; then
+          if [ -f validation_result_errors.txt ]; then
             result=true
           fi
           echo $result
