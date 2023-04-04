@@ -43,12 +43,13 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v35
         with:
+          dir_names: true
           files: |
             data/**
 
       - name: Validate token list
         run: |
-          CHANGED=$(echo ${{ steps.changed-files.outputs.all_changed_files }} | sed -nr "s/data\/(.*?)\/.*/\1/g" | paste -sd "," -)
+          CHANGED=$(echo ${{ steps.changed-files.outputs.all_changed_files }} | sed -nr "s/data\/(.*?)/g" | paste -sd "," -)
           yarn validate --datadir ./data --tokens "${CHANGED}" 2> err.txt 1> std.txt
 
       - name: Print output
