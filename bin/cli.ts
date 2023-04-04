@@ -39,9 +39,6 @@ program
           console.error(`error: ${err.message}`)
         }
       }
-
-      // Exit with error code so CI fails
-      process.exit(1)
     }
 
     const warns = results.filter((r) => r.type === 'warning')
@@ -53,6 +50,11 @@ program
       for (const warn of warns) {
         console.log(`warning: ${warn.message}`)
       }
+    }
+
+    if (errs.length > 0) {
+      // Exit with error code so CI fails
+      process.exit(1)
     }
   })
 
