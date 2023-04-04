@@ -76,8 +76,17 @@ jobs:
             err.txt
             std.txt
 
+      - name: Check existence of result_errors
+        id: check_for_result_errors
+        run: |
+          result=false
+          if [ -d result_errors.txt ]; then
+            result=true
+          fi
+          echo "result=$result" >> $GITHUB_OUTPUT
+
       - name: Upload validation errors
-        if: -d result_errors.txt
+        if: check_for_result_errors.outputs.result
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
