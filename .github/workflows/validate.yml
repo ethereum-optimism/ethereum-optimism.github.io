@@ -77,76 +77,15 @@ jobs:
             std.txt
 
       - name: Upload validation errors
-        if: -d result_errors.txt
+        if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
-<<<<<<< HEAD
           path: validation_result_errors.txt
-=======
-          path: result_errors.txt
->>>>>>> b4d96a2 (always comment validation results to pull request)
 
       - name: Upload validation warnings
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
-<<<<<<< HEAD
           path: validation_result_warnings.txt
-=======
-          path: result_warnings.txt
-
-      - name: get validation errors
-        id: validation_errors
-        if: ${{ always() }}
-        run: |
-          message="$(cat result_errors.txt)"
-          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
-          echo "text<<$EOF" >> $GITHUB_OUTPUT
-          echo "$message" >> $GITHUB_OUTPUT
-          echo "$EOF" >> $GITHUB_OUTPUT
-
-      - name: get validation warnings
-        id: validation_warnings
-        if: ${{ always() }}
-        run: |
-          message="$(cat result_warnings.txt)"
-          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
-          echo "text<<$EOF" >> $GITHUB_OUTPUT
-          echo "$message" >> $GITHUB_OUTPUT
-          echo "$EOF" >> $GITHUB_OUTPUT
-
-      - name: comment validation errors
-        if: ${{ always() }}
-        uses: actions/github-script@v6
-        with:
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `These errors were encountered during validation and should be fixed before merging:
-              \`\`\`bash
-              ${{ steps.validation_errors.outputs.text }}
-              \`\`\`
-              `
-            })
-
-      - name: comment validation warnings
-        if: ${{ always() }}
-        uses: actions/github-script@v6
-        with:
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `These warnings were encountered during validation:
-              \`\`\`bash
-              ${{ steps.validation_warnings.outputs.text }}
-              \`\`\`
-              `
-            })
-
->>>>>>> b4d96a2 (always comment validation results to pull request)
