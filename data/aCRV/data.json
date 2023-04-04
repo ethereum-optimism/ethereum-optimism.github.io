@@ -7,7 +7,10 @@
     "twitter": "@0xconcentrator",
     "tokens": {
       "ethereum": {
-        "address": "0x2b95a1dcc3d405535f9ed33c219ab38e8d7e0884"
+        "address": "0x2b95a1dcc3d405535f9ed33c219ab38e8d7e0884",
+        "overrides": {
+          "name": "My Ethereum Token"
+        }
       },
       "optimism": {
         "address": "0x764ad60e1b81f6cacfec1a2926393d688d4493e6"
