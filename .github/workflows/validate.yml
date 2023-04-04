@@ -87,6 +87,17 @@ jobs:
           echo $result
           echo "result=$result" >> $GITHUB_OUTPUT
 
+      - name: Check existence of result_warnings
+        if: ${{ always() }}
+        id: check_for_result_warnings
+        run: |
+          result='false'
+          if [ -f validation_result_warnings.txt ]; then
+            result='true'
+          fi
+          echo $result
+          echo "result=$result" >> $GITHUB_OUTPUT
+
       - name: Check file existence
         if: ${{ always() }}
         id: check_files
@@ -111,7 +122,7 @@ jobs:
 
       - name: get validation errors
         id: validation_errors
-        if: ${{ always() }}
+        if: steps.check_for_result_errors.outputs.result == 'true'
         run: |
           echo ${{ steps.check_for_result_errors.outputs.result == 'true' }}
           message="$(cat result_errors.txt)"
@@ -122,7 +133,7 @@ jobs:
 
       - name: get validation warnings
         id: validation_warnings
-        if: ${{ always() }}
+        if: steps.check_for_result_warnings.outputs.result == 'true'
         run: |
           message="$(cat result_warnings.txt)"
           EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
