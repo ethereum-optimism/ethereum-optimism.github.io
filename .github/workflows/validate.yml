@@ -41,25 +41,15 @@ jobs:
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v35
+        uses: tj-actions/changed-files@v29
         with:
-          dir_names: true
           files: |
             data/**
 
-      - name: List all changed tokens
-        id: changed_tokens
-        run: |
-          tokens=""
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            token=$(echo -e "$file" | sed -nr "s|^data/([^/]*/?).*|\1|p")
-            tokens+="${token},"
-          done
-          echo "result=${tokens%,*}" >> $GITHUB_OUTPUT
-
       - name: Validate token list
         run: |
-          yarn validate --datadir ./data --tokens "${{ steps.changed_tokens.outputs.result }}" 2> err.txt 1> std.txt
+          CHANGED=$(echo ${{ steps.changed-files.outputs.all_changed_files }} | sed -nr "s/data\/(.*?)\/.*/\1/p" | paste -sd "," -)
+          yarn validate --datadir ./data --tokens "${CHANGED}" 2> err.txt 1> std.txt
 
       - name: Print output
         if: ${{ always() }}
