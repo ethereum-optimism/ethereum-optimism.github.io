@@ -170,14 +170,14 @@ jobs:
           script: |
             if (${{ steps.check_for_result_warnings.outputs.result }}) {
               github.rest.issues.createComment({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                body: `These warnings were encountered during validation:
-                \`\`\`bash
-                ${{ steps.validation_warnings.outputs.text }}
-                \`\`\`
-                `
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `These warnings were encountered during validation:
+              \`\`\`bash
+              ${{ steps.validation_warnings.outputs.text }}
+              \`\`\`
+              `
               })
             }
 
