@@ -95,9 +95,8 @@ jobs:
           files: "validation_result_errors.txt"
 
       - name: Upload validation errors
-        needs: [check_files]
         id: upload_validation_errors
-        if: needs.check_files.outputs.files_exists == 'true'
+        if: steps.check_files.outputs.files_exists == 'true'
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
