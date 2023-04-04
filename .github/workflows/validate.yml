@@ -77,6 +77,7 @@ jobs:
             std.txt
 
       - name: Check existence of result_errors
+        if: ${{ always() }}
         id: check_for_result_errors
         run: |
           result=false
