@@ -86,7 +86,7 @@ jobs:
           echo "result=$result" >> $GITHUB_OUTPUT
 
       - name: Upload validation errors
-        if: ${{ check_for_result_errors.outputs.result }}
+        if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
