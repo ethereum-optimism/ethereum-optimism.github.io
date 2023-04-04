@@ -246,6 +246,7 @@ export const validate = async (
                 })
               }
             } else {
+              console.error('OVERRIDEN BRIDGE')
               results.push({
                 type: 'warning',
                 message: `${folder} on chain ${chain} token ${token.address} has an overridden bridge`,
@@ -259,15 +260,14 @@ export const validate = async (
             await sleep(1000)
             const { result: etherscanResult } = await (
               await fetch(
-                `https://api${
-                  chain === 'ethereum' ? '' : `-${chain}`
+                `https://api${chain === 'ethereum' ? '' : `-${chain}`
                 }.etherscan.io/api?` +
-                  new URLSearchParams({
-                    module: 'contract',
-                    action: 'getsourcecode',
-                    address: token.address,
-                    apikey: process.env.ETHERSCAN_API_KEY,
-                  })
+                new URLSearchParams({
+                  module: 'contract',
+                  action: 'getsourcecode',
+                  address: token.address,
+                  apikey: process.env.ETHERSCAN_API_KEY,
+                })
               )
             ).json()
 
