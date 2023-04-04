@@ -46,14 +46,6 @@ jobs:
           files: |
             data/**
 
-      - name: List changed files
-        run: |
-          some_string=""
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            some_string+=$(echo "$file | sed -nr "s/data\/(.*?)\/.*/\1/p"")
-          done
-          echo some_string
-
       - name: Validate token list
         run: |
           CHANGED=$(echo -e ${{ steps.changed-files.outputs.all_changed_files }} | sed -nr "s/data\/(.*?)\/.*/\1/p" | paste -sd "," -)
