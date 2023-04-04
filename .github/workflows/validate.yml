@@ -49,7 +49,7 @@ jobs:
       - name: List changed files
         id: listed_files
         run: |
-          echo "LINES=$(echo -e ${{ steps.changed-files.outputs.all_changed_files }} | paste -sd "\n" -)"
+          echo "LINES=$(echo -e ${{ steps.changed-files.outputs.all_changed_files }} | paste -sd "\n" -)" >> $GITHUB_OUTPUT
 
       - name: Validate token list
         run: |
