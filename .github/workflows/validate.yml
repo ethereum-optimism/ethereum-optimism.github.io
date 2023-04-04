@@ -56,7 +56,8 @@ jobs:
             files+="${RESULT},"
             echo "${files}"
           done
-          echo ${files%,*}
+          files=${files%,*}
+          echo ${files}
 
       - name: Validate token list
         run: |
