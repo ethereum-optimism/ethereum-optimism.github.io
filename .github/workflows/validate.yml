@@ -76,8 +76,28 @@ jobs:
             err.txt
             std.txt
 
+      - name: Check existence of validation errors
+        if: ${{ always() }}
+        id: check_for_validation_errors
+        run: |
+          result='false'
+          if [ -f validation_result_errors.txt ]; then
+            result='true'
+          fi
+          echo "result=$result" >> $GITHUB_OUTPUT
+
+      - name: Check existence of validation warnings
+        if: ${{ always() }}
+        id: check_for_validation_warnings
+        run: |
+          result='false'
+          if [ -f validation_result_warnings.txt ]; then
+            result='true'
+          fi
+          echo "result=$result" >> $GITHUB_OUTPUT
+
       - name: Upload validation errors
-        if: -d result_errors.txt
+        if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
