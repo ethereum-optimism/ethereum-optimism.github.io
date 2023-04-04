@@ -107,7 +107,7 @@ jobs:
 
       - name: Upload validation errors
         id: upload_validation_errors
-        if: steps.check_files.outputs.files_exists == 'true'
+        if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
@@ -122,24 +122,28 @@ jobs:
 
       - name: get validation errors
         id: validation_errors
-        if: steps.check_for_result_errors.outputs.result == 'true'
+        if: ${{ always() }}
         run: |
-          echo ${{ steps.check_for_result_errors.outputs.result == 'true' }}
-          message="$(cat result_errors.txt)"
-          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
-          echo "text<<$EOF" >> $GITHUB_OUTPUT
-          echo "$message" >> $GITHUB_OUTPUT
-          echo "$EOF" >> $GITHUB_OUTPUT
+          if ${{ steps.check_for_result_errors.outputs.result == 'true' }}; then
+            echo ${{ steps.check_for_result_errors.outputs.result == 'true' }}
+            message="$(cat result_errors.txt)"
+            EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+            echo "text<<$EOF" >> $GITHUB_OUTPUT
+            echo "$message" >> $GITHUB_OUTPUT
+            echo "$EOF" >> $GITHUB_OUTPUT
+          fi
 
       - name: get validation warnings
         id: validation_warnings
-        if: steps.check_for_result_warnings.outputs.result == 'true'
+        if: ${{ always() }}
         run: |
-          message="$(cat result_warnings.txt)"
-          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
-          echo "text<<$EOF" >> $GITHUB_OUTPUT
-          echo "$message" >> $GITHUB_OUTPUT
-          echo "$EOF" >> $GITHUB_OUTPUT
+          if ${{ steps.check_for_result_warnings.outputs.result == 'true' }}; then
+            message="$(cat result_warnings.txt)"
+            EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+            echo "text<<$EOF" >> $GITHUB_OUTPUT
+            echo "$message" >> $GITHUB_OUTPUT
+            echo "$EOF" >> $GITHUB_OUTPUT
+          fi
 
       - name: comment validation errors
         if: ${{ always() }}
