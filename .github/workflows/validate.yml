@@ -92,14 +92,14 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
-          path: result_errors.txt
+          path: validation_result_errors.txt
 
       - name: Upload validation warnings
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
-          path: result_warnings.txt
+          path: validation_result_warnings.txt
 
       - name: get validation errors
         id: validation_errors
