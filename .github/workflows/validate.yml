@@ -80,9 +80,9 @@ jobs:
         if: ${{ always() }}
         id: check_for_result_errors
         run: |
-          result=false
+          result='false'
           if [ -f validation_result_errors.txt ]; then
-            result=true
+            result='true'
           fi
           echo $result
           echo "result=$result" >> $GITHUB_OUTPUT
