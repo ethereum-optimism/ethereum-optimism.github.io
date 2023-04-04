@@ -50,8 +50,11 @@ jobs:
       - name: List all changed files
         id: listed_files
         run: |
+          args=()
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            RESULT=$(echo "$file | sed -nr "s/data\/(.*?)/p"") >> $GITHUB_OUTPUT
+            RESULT=$(echo "$file | sed -nr "s/data\/(.*?)/p"")
+            arg+=RESULT
+            echo "${args}"
           done
 
       - name: Validate token list
