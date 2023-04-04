@@ -84,7 +84,6 @@ jobs:
           if [ -f validation_result_errors.txt ]; then
             result='true'
           fi
-          echo $result
           echo "result=$result" >> $GITHUB_OUTPUT
 
       - name: Check existence of result_warnings
@@ -95,7 +94,6 @@ jobs:
           if [ -f validation_result_warnings.txt ]; then
             result='true'
           fi
-          echo $result
           echo "result=$result" >> $GITHUB_OUTPUT
 
       - name: Upload validation errors
@@ -118,7 +116,6 @@ jobs:
         if: ${{ always() }}
         run: |
           if ${{ steps.check_for_result_errors.outputs.result == 'true' }}; then
-            echo ${{ steps.check_for_result_errors.outputs.result == 'true' }}
             message="$(cat validation_result_errors.txt)"
             EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
             echo "text<<$EOF" >> $GITHUB_OUTPUT
