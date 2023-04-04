@@ -56,7 +56,7 @@ jobs:
             tokens+="${RESULT},"
           done
           echo ${tokens%,*}
-          echo "token_result=${tokens%,*}" >> $GITHUB_OUTPUT
+          echo "token_result=$tokens" >> $GITHUB_OUTPUT
 
       - name: Validate token list
         run: |
