@@ -150,7 +150,7 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            if (steps.check_for_result_errors.outputs.result) {
+            if (${{ steps.check_for_result_errors.outputs.result }}) {
               github.rest.issues.createComment({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
@@ -168,7 +168,7 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            if (steps.check_for_result_warnings.outputs.result) {
+            if (${{ steps.check_for_result_warnings.outputs.result }}) {
               github.rest.issues.createComment({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
