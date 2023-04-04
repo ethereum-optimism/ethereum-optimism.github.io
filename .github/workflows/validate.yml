@@ -46,14 +46,9 @@ jobs:
           files: |
             data/**
 
-      - name: List changed files
-        id: listed_files
-        run: |
-          echo "LINES=$(echo -e ${{ steps.changed-files.outputs.all_changed_files }} | paste -sd "\n" -)" >> $GITHUB_OUTPUT
-
       - name: Validate token list
         run: |
-          CHANGED=$(echo -e ${{ steps.listed_files.outputs.LINES }} | sed -nr "s/data\/(.*?)\/.*/\1/p" | paste -sd "," -)
+          CHANGED=$(echo ${{ steps.changed-files.outputs.all_changed_files }} | sed -nr "s/data\/(.*?)\/.*/\1/p" | paste -sd "," -)
           yarn validate --datadir ./data --tokens "${CHANGED}" 2> err.txt 1> std.txt
 
       - name: Print output
