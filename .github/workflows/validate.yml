@@ -56,7 +56,7 @@ jobs:
 
       - name: Validate token list
         run: |
-          CHANGED=$(echo ${{ steps.listed_files-files.outputs.RESULT }} | sed -nr "s/data\/(.*?)/p" | paste -sd "," -)
+          CHANGED=$(echo ${{ steps.listed_files.outputs.RESULT }} | sed -nr "s/data\/(.*?)/p" | paste -sd "," -)
           yarn validate --datadir ./data --tokens "${CHANGED}" 2> err.txt 1> std.txt
 
       - name: Print output
