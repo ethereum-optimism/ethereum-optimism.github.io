@@ -76,9 +76,9 @@ jobs:
             err.txt
             std.txt
 
-      - name: Check existence of result_errors
+      - name: Check existence of validation errors
         if: ${{ always() }}
-        id: check_for_result_errors
+        id: check_for_validation_errors
         run: |
           result='false'
           if [ -f validation_result_errors.txt ]; then
@@ -86,9 +86,9 @@ jobs:
           fi
           echo "result=$result" >> $GITHUB_OUTPUT
 
-      - name: Check existence of result_warnings
+      - name: Check existence of validation warnings
         if: ${{ always() }}
-        id: check_for_result_warnings
+        id: check_for_validation_warnings
         run: |
           result='false'
           if [ -f validation_result_warnings.txt ]; then
@@ -115,7 +115,7 @@ jobs:
         id: validation_errors
         if: ${{ always() }}
         run: |
-          if ${{ steps.check_for_result_errors.outputs.result == 'true' }}; then
+          if ${{ steps.check_for_validation_errors.outputs.result == 'true' }}; then
             message="$(cat validation_result_errors.txt)"
             EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
             echo "text<<$EOF" >> $GITHUB_OUTPUT
@@ -127,7 +127,7 @@ jobs:
         id: validation_warnings
         if: ${{ always() }}
         run: |
-          if ${{ steps.check_for_result_warnings.outputs.result == 'true' }}; then
+          if ${{ steps.check_for_validation_warnings.outputs.result == 'true' }}; then
             message="$(cat validation_result_warnings.txt)"
             EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
             echo "text<<$EOF" >> $GITHUB_OUTPUT
@@ -140,7 +140,7 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            if (${{ steps.check_for_result_errors.outputs.result }}) {
+            if (${{ steps.check_for_validation_errors.outputs.result }}) {
               github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
@@ -158,7 +158,7 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            if (${{ steps.check_for_result_warnings.outputs.result }}) {
+            if (${{ steps.check_for_validation_warnings.outputs.result }}) {
               github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
