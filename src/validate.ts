@@ -246,7 +246,6 @@ export const validate = async (
                 })
               }
             } else {
-              console.error('OVERRIDEN BRIDGE')
               results.push({
                 type: 'warning',
                 message: `${folder} on chain ${chain} token ${token.address} has an overridden bridge`,
