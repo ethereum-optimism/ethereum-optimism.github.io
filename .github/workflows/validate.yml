@@ -88,6 +88,7 @@ jobs:
           echo "result=$result" >> $GITHUB_OUTPUT
 
       - name: Check file existence
+        if: ${{ always() }}
         id: check_files
         uses: andstor/file-existence-action@v2
         with:
