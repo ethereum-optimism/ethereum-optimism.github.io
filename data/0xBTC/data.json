@@ -7,7 +7,10 @@
       "address": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31"
     },
     "optimism": {
-      "address": "0xe0BB0D3DE8c10976511e5030cA403dBf4c25165B"
+      "address": "0xe0BB0D3DE8c10976511e5030cA403dBf4c25165B",
+      "overrides": {
+        "name": "OPBTC"
+      }
     }
   }
 }
