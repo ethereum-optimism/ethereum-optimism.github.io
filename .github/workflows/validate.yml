@@ -81,4 +81,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
-          path: validation_resultss.txt
+          path: validation_results.txt
