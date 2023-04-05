@@ -76,16 +76,9 @@ jobs:
             err.txt
             std.txt
 
-      - name: Upload validation errors
+      - name: Upload validation results
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
-          path: validation_result_errors.txt
-
-      - name: Upload validation warnings
-        if: ${{ always() }}
-        uses: actions/upload-artifact@v3
-        with:
-          name: validation-artifacts
-          path: validation_result_warnings.txt
+          path: validation_resultss.txt
