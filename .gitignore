@@ -3,7 +3,6 @@ node_modules
 .env
 err.out
 std.out
-validation_result_errors.txt
-validation_result_warnings.txt
+validation_results.txt
 dist/
 tmp/

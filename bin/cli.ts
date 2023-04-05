@@ -24,11 +24,25 @@ program
   .action(async (options) => {
     const results = await validate(options.datadir, options.tokens.split(','))
 
+    const validationResultsFilePath = 'validation_results.txt'
     const errs = results.filter((r) => r.type === 'error')
-    if (errs.length > 0) {
+    const warns = results.filter((r) => r.type === 'warning')
+
+    if (errs.length > 0 || warns.length > 0) {
       fs.writeFileSync(
-        'validation_result_errors.txt',
-        errs.map((err) => err.message).join('\r\n')
+        validationResultsFilePath,
+        `Below are the results from running validation for the token changes. To ` +
+          `re-run the validation locally run: ` +
+          `yarn validate --datadir ./data --tokens ${options.tokens}\n\n`
+      )
+    }
+
+    if (errs.length > 0) {
+      fs.appendFileSync(
+        validationResultsFilePath,
+        `These errors caused the validation to fail:\n${errs
+          .map((err) => err.message)
+          .join('\r\n')}\n\n`
       )
       for (const err of errs) {
         if (err.message.startsWith('final token list is invalid')) {
@@ -41,11 +55,12 @@ program
       }
     }
 
-    const warns = results.filter((r) => r.type === 'warning')
     if (warns.length > 0) {
-      fs.writeFileSync(
-        'validation_result_warnings.txt',
-        warns.map((warn) => warn.message).join('\r\n')
+      fs.appendFileSync(
+        validationResultsFilePath,
+        `These warnings were found during validation, but did not cause validation to fail:\n${warns
+          .map((warn) => warn.message)
+          .join('\r\n')}\n`
       )
       for (const warn of warns) {
         console.log(`warning: ${warn.message}`)
