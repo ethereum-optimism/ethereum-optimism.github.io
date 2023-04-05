@@ -276,6 +276,10 @@ export const validate = async (
                     module: 'contract',
                     action: 'getsourcecode',
                     address: token.address,
+                    // If we ever get rate limited by etherscan uncomment this line and add a method for
+                    // fetching the appropriate etherscan api key based on the chain.
+                    // https://linear.app/optimism/issue/FE-1396
+                    // apikey: getEtherscanApiKey(),
                   })
               )
             ).json()
