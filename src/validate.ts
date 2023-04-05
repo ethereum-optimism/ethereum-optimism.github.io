@@ -276,7 +276,6 @@ export const validate = async (
                     module: 'contract',
                     action: 'getsourcecode',
                     address: token.address,
-                    apikey: process.env.ETHERSCAN_API_KEY,
                   })
               )
             ).json()
