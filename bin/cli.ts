@@ -26,6 +26,10 @@ program
 
     const errs = results.filter((r) => r.type === 'error')
     if (errs.length > 0) {
+      fs.writeFileSync(
+        'validation_result_errors.txt',
+        errs.map((err) => err.message).join('\r\n')
+      )
       for (const err of errs) {
         if (err.message.startsWith('final token list is invalid')) {
           // Message generated here is super long and doesn't really give more information than the
@@ -35,16 +39,22 @@ program
           console.error(`error: ${err.message}`)
         }
       }
-
-      // Exit with error code so CI fails
-      process.exit(1)
     }
 
     const warns = results.filter((r) => r.type === 'warning')
     if (warns.length > 0) {
+      fs.writeFileSync(
+        'validation_result_warnings.txt',
+        warns.map((warn) => warn.message).join('\r\n')
+      )
       for (const warn of warns) {
         console.log(`warning: ${warn.message}`)
       }
+    }
+
+    if (errs.length > 0) {
+      // Exit with error code so CI fails
+      process.exit(1)
     }
   })
 
