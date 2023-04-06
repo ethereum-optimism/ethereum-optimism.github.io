@@ -13,13 +13,19 @@
   "scripts": {
     "validate": "tsx ./bin/cli.ts validate",
     "generate": "tsx ./bin/cli.ts generate",
+    "generate:ci": "yarn generate --datadir ./data --outfile optimism.tokenlist.json",
     "build": "tsc -p ./tsconfig.json",
+    "build:ci": "yarn generate:ci && yarn build",
+    "release": "yarn build:ci && npm publish",
     "test": "jest --detectOpenHandles",
     "lint:check": "eslint . --max-warnings=0",
     "lint:fix": "eslint --fix .",
     "lint": "yarn lint:fix && yarn lint:check",
     "start-bot": "tsx ./src/bot.ts"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@actions/core": "^1.4.0",
     "@babel/eslint-parser": "^7.18.2",
