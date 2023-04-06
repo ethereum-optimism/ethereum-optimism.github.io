@@ -17,7 +17,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.PAT }}
           fetch-depth: 0
 
       - name: Use Node.js 16.x
