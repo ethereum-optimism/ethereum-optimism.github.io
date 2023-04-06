@@ -3,6 +3,19 @@ queue_rules:
     conditions: []
 
 pull_request_rules:
+  - name: Automatic merge on approval
+    conditions:
+      - and:
+          - 'base==master'
+          - '#review-threads-unresolved=0'
+          - '#changes-requested-reviews-by=0'
+          - 'label!=do-not-merge'
+          - '#approved-reviews-by>=1'
+    actions:
+      queue:
+        name: default
+        method: squash
+
   - name: Ask to resolve conflict
     conditions:
       - conflict
