@@ -1,0 +1,16 @@
+{
+  "name": "ParaSwap",
+  "symbol": "PSP",
+  "decimals": 18,
+  "description": "Multichain DEX Aggregator",
+  "website": "https://www.paraswap.io",
+  "twitter": "@paraswap",
+  "tokens": {
+    "ethereum": {
+      "address": "0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5"
+    },
+    "optimism": {
+      "address": "0xd3594E879B358F430E20F82bea61e83562d49D48"
+    }
+  }
+}
