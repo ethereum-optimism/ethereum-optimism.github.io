@@ -4,7 +4,7 @@
   "version": "6.3.17",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "types": "src/index.ts",
+  "types": "index.ts",
   "homepage": "https://github.com/ethereum-optimism/tokenlist#readme",
   "license": "MIT",
   "author": "Optimism",
