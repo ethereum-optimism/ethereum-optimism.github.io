@@ -41,6 +41,8 @@ jobs:
 
       - name: Patch token list version
         run: |
+          git config --global user.email "mergify[bot]@users.noreply.github.com"
+          git config --global user.name "mergify[bot]"
           npm version patch
 
       - name: Generate token list
