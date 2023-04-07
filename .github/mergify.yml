@@ -18,6 +18,14 @@ pull_request_rules:
         name: default
         method: squash
 
+  - name: remove outdated reviews for non trusted authors
+    conditions:
+      - and:
+        - base=master
+        - author!=@ecopod
+    actions:
+      dismiss_reviews: {}
+
   - name: Ask to resolve conflict
     conditions:
       - conflict
