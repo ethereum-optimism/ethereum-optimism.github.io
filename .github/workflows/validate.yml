@@ -75,3 +75,10 @@ jobs:
             pr.txt
             err.txt
             std.txt
+
+      - name: Upload validation results
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: validation-artifacts
+          path: validation_results.txt
