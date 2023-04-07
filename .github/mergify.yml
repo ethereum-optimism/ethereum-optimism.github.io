@@ -20,8 +20,7 @@ pull_request_rules:
     conditions:
       - and:
         - base=master
-        - or:
-          - author!=@ecopod
+        - author!=@ecopod
     actions:
       dismiss_reviews: {}
 
