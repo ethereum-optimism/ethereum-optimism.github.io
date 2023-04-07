@@ -41,8 +41,6 @@ jobs:
 
       - name: Patch token list version
         run: |
-          git config --global user.email "will@oplabs.co"
-          git config --global user.name "Github action bot"
           npm version patch
 
       - name: Generate token list
