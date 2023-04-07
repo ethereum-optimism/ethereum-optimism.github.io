@@ -11,6 +11,8 @@ pull_request_rules:
           - '#changes-requested-reviews-by=0'
           - 'label!=do-not-merge'
           - '#approved-reviews-by>=1'
+          - check-success=validate
+          - check-success=test (16.x)
     actions:
       queue:
         name: default
