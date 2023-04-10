@@ -4,7 +4,7 @@
   "version": "6.3.21",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "types": "index.ts",
+  "types": "dist/index.d.ts",
   "homepage": "https://github.com/ethereum-optimism/tokenlist#readme",
   "license": "MIT",
   "author": "Optimism",
@@ -14,7 +14,8 @@
   },
   "tsup": {
     "entry": [
-      "index.ts"
+      "index.ts",
+      "optimism.tokenlist.json"
     ],
     "outDir": "dist",
     "format": [
@@ -30,7 +31,7 @@
     "generate": "tsx ./bin/cli.ts generate",
     "generate:ci": "yarn generate --datadir ./data --outfile optimism.tokenlist.json",
     "build": "yarn tsup",
-    "build:ci": "yarn generate:ci && yarn build",
+    "build:ci": "yarn generate:ci && yarn tsup --dts",
     "release": "yarn build:ci && npm publish",
     "test": "jest --detectOpenHandles",
     "lint:check": "eslint . --max-warnings=0",
