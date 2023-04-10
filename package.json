@@ -5,12 +5,12 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "homepage": "https://github.com/ethereum-optimism/tokenlist#readme",
+  "homepage": "https://github.com/ethereum-optimism/ethereum-optimism.github.io#readme",
   "license": "MIT",
   "author": "Optimism",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereum-optimism/tokenlist.git"
+    "url": "git+https://github.com/ethereum-optimism/ethereum-optimism.github.io.git"
   },
   "tsup": {
     "entry": [
