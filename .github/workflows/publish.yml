@@ -22,6 +22,8 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
+          always-auth: 'true'
+          scope: '@eth-optimism'
 
       - name: Install dependencies to prepare for release 🔧
         run: yarn
