@@ -1,12 +1,12 @@
 {
-  "name": "Optimism",
+  "name": "Superchain Token List",
   "logoURI": "https://ethereum-optimism.github.io/optimism.svg",
   "keywords": [
     "scaling",
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-04-11T21:33:51.703Z",
+  "timestamp": "2023-04-11T23:16:47.154Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2571,6 +2571,6 @@
   "version": {
     "major": 6,
     "minor": 3,
-    "patch": 24
+    "patch": 25
   }
 }
