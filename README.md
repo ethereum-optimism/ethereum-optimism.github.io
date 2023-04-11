@@ -1,6 +1,6 @@
 # Superchain Token List
 
-The Superchain token list is used as the source of truth for the [Optimism bridge UI](https://app.optimism.io/bridge) which is the main portal for moving assets between Layer 1 and Layer 2.
+The Superchain token list is used as the source of truth for the [Optimism bridge UI](https://app.optimism.io/bridge) and [Base bridge UI)(https://bridge.base.org/deposit) which are the main portals for moving assets between Layer 1 and Layer 2.
 
 ## Review process and merge criteria
 
