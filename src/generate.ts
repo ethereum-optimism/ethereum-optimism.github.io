@@ -58,7 +58,7 @@ export const generate = (datadir: string) => {
         return list
       },
       {
-        name: 'Optimism',
+        name: 'Superchain Token List',
         logoURI: `${BASE_URL}/optimism.svg`,
         keywords: ['scaling', 'layer2', 'infrastructure'],
         timestamp: new Date().toISOString(),

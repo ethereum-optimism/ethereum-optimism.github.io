@@ -1,6 +1,6 @@
-# Optimism Token List
+# Superchain Token List
 
-The Optimism token list is used as the source of truth for the [Optimism Gateway](https://app.optimism.io/bridge) which is the main portal for moving assets between Layer 1 and Layer 2.
+The Superchain token list is used as the source of truth for the [Optimism bridge UI](https://app.optimism.io/bridge) and [Base bridge UI)(https://bridge.base.org/deposit) which are the main portals for moving assets between Layer 1 and Layer 2.
 
 ## Review process and merge criteria
 
@@ -74,6 +74,9 @@ Add a file to your folder called `data.json` with the following format:
     },
     "optimism-goerli": {
       "address": "0x6789678967896789678967896789678967896789"
+    },
+    "base-goerli": {
+      "address": "0x7890789078907890789078907890789078907890"
     }
   }
 }
@@ -85,6 +88,7 @@ We currently accept tokens on the following chains:
 - `ethereum`
 - `optimism`
 - `goerli`
+- `base-goerli`
 - `optimism-goerli`
 
 #### Non-bridgable tokens
@@ -164,4 +168,4 @@ Your pull request will be validated by a series of automated checks. If one of t
 
 ### Wait for the token list to update automatically
 
-Once your PR is merged, the token list will update automatically to include your token. Please do NOT update the token list directly. All token list updates will be handled automatically when PRs are merged into the `master` branch. 
+Once your PR is merged, the token list will update automatically to include your token. Please do NOT update the token list directly. All token list updates will be handled automatically when PRs are merged into the `master` branch.
