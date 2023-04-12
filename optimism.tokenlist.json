@@ -950,6 +950,24 @@
     },
     {
       "chainId": 1,
+      "address": "0xf2051511B9b121394FA75B8F7d4E7424337af687",
+      "name": "DAOhaus Token",
+      "symbol": "HAUS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HAUS/logo.png",
+      "extensions": {}
+    },
+    {
+      "chainId": 10,
+      "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+      "name": "DAOhaus Token on Optimism",
+      "symbol": "HAUS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HAUS/logo.png",
+      "extensions": {}
+    },
+    {
+      "chainId": 1,
       "address": "0xF655C8567E0f213e6C634CD2A68d992152161dC6",
       "name": "Impermax",
       "symbol": "IBEX",
