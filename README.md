@@ -43,7 +43,7 @@ If your automated checks failed, you can see the reason for the failure by downl
 
 If you make changes and need to run the validation check again, you will need to wait for a reviewer to approve the checks to run again. However, if you do not want to wait for a reviewer to approve the checks to run again to see if the failures have been resolved, you can run the validation checks locally by running:
 ```
-tsx ./bin/cli.ts validate --datadir ./data --tokens <data folder name (e.g. ETH)>
+npx tsx ./bin/cli.ts validate --datadir ./data --tokens <data folder name (e.g. ETH)>
 ```
 ### Final approval
 
