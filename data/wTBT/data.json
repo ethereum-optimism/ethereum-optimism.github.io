@@ -1,0 +1,16 @@
+{
+    "name": "wTBT(Bridge Token)",
+    "symbol": "wTBT",
+    "decimals": 18,
+    "description": "TProtocol is trying to bring real yield into DeFi.",
+    "website": "https://tprotocol.io/",
+    "twitter": "@TProtocol_",
+    "tokens": {
+      "ethereum": {
+        "address": "0xD38e031f4529a07996aaB977d2B79f0e00656C56"
+      },
+      "optimism": {
+        "address": "0xdb4eA87fF83eB1c80b8976FC47731Da6a31D35e5"
+      }
+    }
+  }
