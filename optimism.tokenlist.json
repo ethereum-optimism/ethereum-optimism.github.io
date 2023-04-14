@@ -116,6 +116,24 @@
     },
     {
       "chainId": 10,
+      "address": "0xF17A3fE536F8F7847F1385ec1bC967b2Ca9caE8D",
+      "name": "Alongside Crypto Market Index",
+      "symbol": "AMKT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AMKT/logo.svg",
+      "extensions": {}
+    },
+    {
+      "chainId": 1,
+      "address": "0xC27D9BC194a648fE3069955a5126699C4e49351C",
+      "name": "Alongside Crypto Market Index",
+      "symbol": "AMKT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AMKT/logo.svg",
+      "extensions": {}
+    },
+    {
+      "chainId": 10,
       "address": "0x3e29d3a9316dab217754d13b28646b76607c5f04",
       "name": "Alchemix ETH",
       "symbol": "alETH",
