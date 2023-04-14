@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-04-14T15:20:34.228Z",
+  "timestamp": "2023-04-14T15:43:37.999Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2547,6 +2547,28 @@
     },
     {
       "chainId": 1,
+      "address": "0xD38e031f4529a07996aaB977d2B79f0e00656C56",
+      "name": "wTBT Pool",
+      "symbol": "wTBT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wTBT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xdb4eA87fF83eB1c80b8976FC47731Da6a31D35e5",
+      "name": "wTBT(Bridge Token)",
+      "symbol": "wTBT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wTBT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xB4272071eCAdd69d933AdcD19cA99fe80664fc08",
       "name": "CryptoFranc",
       "symbol": "XCHF",
@@ -2615,6 +2637,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 32
+    "patch": 33
   }
 }
