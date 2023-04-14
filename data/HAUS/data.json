@@ -1,0 +1,19 @@
+{
+    "name": "DAOhaus Token",
+    "symbol": "HAUS",
+    "decimals": 18,
+    "description": "DAOhaus is the protocol for purpose-driven governance",
+    "website": "https://daohaus.club/",
+    "twitter": "@nowdaoit",
+    "tokens": {
+      "ethereum": {
+        "address": "0xf2051511B9b121394FA75B8F7d4E7424337af687"
+      },
+      "optimism": {
+        "address": "0x01B8b6384298D4848E3BE63D4C9D17830EeE488A",
+        "overrides": {
+            "name": "DAOhaus Token on Optimism"
+          }
+      }
+    }
+  }
