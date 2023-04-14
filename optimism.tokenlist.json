@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-04-14T15:12:08.930Z",
+  "timestamp": "2023-04-14T15:20:34.228Z",
   "tokens": [
     {
       "chainId": 1,
@@ -116,30 +116,34 @@
     },
     {
       "chainId": 10,
-      "address": "0xF17A3fE536F8F7847F1385ec1bC967b2Ca9caE8D",
-      "name": "Alongside Crypto Market Index",
-      "symbol": "AMKT",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/AMKT/logo.svg",
-      "extensions": {}
-    },
-    {
-      "chainId": 1,
-      "address": "0xC27D9BC194a648fE3069955a5126699C4e49351C",
-      "name": "Alongside Crypto Market Index",
-      "symbol": "AMKT",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/AMKT/logo.svg",
-      "extensions": {}
-    },
-    {
-      "chainId": 10,
       "address": "0x3e29d3a9316dab217754d13b28646b76607c5f04",
       "name": "Alchemix ETH",
       "symbol": "alETH",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/alETH/logo.svg",
       "extensions": {}
+    },
+    {
+      "chainId": 1,
+      "address": "0xF17A3fE536F8F7847F1385ec1bC967b2Ca9caE8D",
+      "name": "Alongside Crypto Market Index",
+      "symbol": "AMKT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AMKT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xC27D9BC194a648fE3069955a5126699C4e49351C",
+      "name": "Alongside Crypto Market Index",
+      "symbol": "AMKT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AMKT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
     },
     {
       "chainId": 1,
@@ -2611,6 +2615,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 31
+    "patch": 32
   }
 }
