@@ -12,7 +12,7 @@
       "optimism": {
         "address": "0xdb4eA87fF83eB1c80b8976FC47731Da6a31D35e5",
         "overrides": {
-            "name": "wTBT(Bridge Token)"
+          "name": "wTBT(Bridge Token)"
         }
       }
     }
