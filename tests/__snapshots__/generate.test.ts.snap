@@ -44,7 +44,7 @@ Object {
     },
   ],
   "version": Object {
-    "major": 6,
+    "major": 7,
     "minor": 3,
     "patch": Any<Number>,
   },
