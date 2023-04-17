@@ -24,6 +24,7 @@
   "include": [
     "index.ts",
     "optimism.tokenlist.json",
+    "default.tokens.json",
     "package.json",
     "src/**/*",
     "bin/**/*"

@@ -6,6 +6,7 @@ import { glob } from 'glob'
 import { version } from '../package.json'
 import { NETWORK_DATA } from './chains'
 import { TokenData } from './types'
+import { defaultTokenDataFolders } from './defaultTokens'
 
 /**
  * Base URL where static assets are hosted.
@@ -19,12 +20,16 @@ const BASE_URL = 'https://ethereum-optimism.github.io'
  *
  * @returns Generated token list JSON object.
  */
-export const generate = (datadir: string) => {
+export const generate = (datadir: string, defaultTokensOnly = false) => {
   return fs
     .readdirSync(datadir)
     .sort((a, b) => {
       return a.toLowerCase().localeCompare(b.toLowerCase())
     })
+    .filter(
+      (folder) =>
+        !defaultTokensOnly || defaultTokenDataFolders.has(folder.toUpperCase())
+    )
     .map((folder) => {
       const data: TokenData = JSON.parse(
         fs.readFileSync(path.join(datadir, folder, 'data.json'), 'utf8')

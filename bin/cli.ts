@@ -83,4 +83,14 @@ program
     fs.writeFileSync(options.outfile, JSON.stringify(list, null, 2))
   })
 
+program
+  .command('generate-default-tokens')
+  .description('Generates a list of the most used tokens')
+  .requiredOption('--datadir <datadir>', 'Directory containing data files')
+  .requiredOption('--outfile <outfile>', 'Output file to write')
+  .action(async (options) => {
+    const list = generate(options.datadir, true).tokens
+    fs.writeFileSync(options.outfile, JSON.stringify(list, null, 2))
+  })
+
 program.parse()
