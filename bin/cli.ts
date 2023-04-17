@@ -32,8 +32,8 @@ program
       fs.writeFileSync(
         validationResultsFilePath,
         `Below are the results from running validation for the token changes. To ` +
-        `re-run the validation locally run: ` +
-        `yarn validate --datadir ./data --tokens ${options.tokens}\n\n`
+          `re-run the validation locally run: ` +
+          `yarn validate --datadir ./data --tokens ${options.tokens}\n\n`
       )
     }
 
