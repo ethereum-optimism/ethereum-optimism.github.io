@@ -15,8 +15,7 @@
   "tsup": {
     "entry": [
       "index.ts",
-      "optimism.tokenlist.json",
-      "default.tokens.json"
+      "optimism.tokenlist.json"
     ],
     "outDir": "dist",
     "format": [
@@ -30,8 +29,7 @@
   "scripts": {
     "validate": "tsx ./bin/cli.ts validate",
     "generate": "tsx ./bin/cli.ts generate",
-    "generate-default-tokens": "tsx ./bin/cli.ts generate-default-tokens",
-    "generate:ci": "yarn generate --datadir ./data --outfile optimism.tokenlist.json && yarn generate-default-tokens --datadir ./data --outfile default.tokens.json",
+    "generate:ci": "yarn generate --datadir ./data --outfile optimism.tokenlist.json",
     "build": "yarn tsup",
     "build:ci": "yarn generate:ci && yarn tsup --dts",
     "release": "yarn build:ci && npm publish",

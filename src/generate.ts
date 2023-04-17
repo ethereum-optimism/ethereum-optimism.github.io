@@ -20,16 +20,12 @@ const BASE_URL = 'https://ethereum-optimism.github.io'
  *
  * @returns Generated token list JSON object.
  */
-export const generate = (datadir: string, defaultTokensOnly = false) => {
+export const generate = (datadir: string) => {
   return fs
     .readdirSync(datadir)
     .sort((a, b) => {
       return a.toLowerCase().localeCompare(b.toLowerCase())
     })
-    .filter(
-      (folder) =>
-        !defaultTokensOnly || defaultTokenDataFolders.has(folder.toUpperCase())
-    )
     .map((folder) => {
       const data: TokenData = JSON.parse(
         fs.readFileSync(path.join(datadir, folder, 'data.json'), 'utf8')
@@ -49,6 +45,9 @@ export const generate = (datadir: string, defaultTokensOnly = false) => {
           extensions: {
             optimismBridgeAddress:
               token.overrides?.bridge ?? NETWORK_DATA[chain].bridge,
+            opListId: defaultTokenDataFolders.has(folder.toUpperCase())
+              ? 'default'
+              : 'extended',
           },
         }
         if (data.nobridge) {

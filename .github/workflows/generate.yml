@@ -55,9 +55,3 @@ jobs:
         with:
           commit_message: 'bot(ci): generate token list'
           file_pattern: optimism.tokenlist.json
-
-      - name: Commit default tokens
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: 'bot(ci): default tokens'
-          file_pattern: default.tokens.json

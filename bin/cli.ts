@@ -32,8 +32,8 @@ program
       fs.writeFileSync(
         validationResultsFilePath,
         `Below are the results from running validation for the token changes. To ` +
-          `re-run the validation locally run: ` +
-          `yarn validate --datadir ./data --tokens ${options.tokens}\n\n`
+        `re-run the validation locally run: ` +
+        `yarn validate --datadir ./data --tokens ${options.tokens}\n\n`
       )
     }
 
@@ -80,16 +80,6 @@ program
   .requiredOption('--outfile <outfile>', 'Output file to write')
   .action(async (options) => {
     const list = generate(options.datadir)
-    fs.writeFileSync(options.outfile, JSON.stringify(list, null, 2))
-  })
-
-program
-  .command('generate-default-tokens')
-  .description('Generates a list of the most used tokens')
-  .requiredOption('--datadir <datadir>', 'Directory containing data files')
-  .requiredOption('--outfile <outfile>', 'Output file to write')
-  .action(async (options) => {
-    const list = generate(options.datadir, true).tokens
     fs.writeFileSync(options.outfile, JSON.stringify(list, null, 2))
   })
 
