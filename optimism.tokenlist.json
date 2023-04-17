@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-04-14T15:43:37.999Z",
+  "timestamp": "2023-04-17T18:09:26.068Z",
   "tokens": [
     {
       "chainId": 1,
@@ -709,6 +709,28 @@
       "symbol": "ETH",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xef3A930e1FfFFAcd2fc13434aC81bD278B0ecC8d",
+      "name": "StaFi",
+      "symbol": "FIS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FIS/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xD8737CA46aa6285dE7B8777a8e3db232911baD41",
+      "name": "StaFi Token",
+      "symbol": "FIS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FIS/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
       }
@@ -1718,6 +1740,28 @@
     },
     {
       "chainId": 1,
+      "address": "0x9559Aaa82d9649C7A7b220E7c461d2E74c9a3593",
+      "name": "StaFi",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/rETH_StaFi/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x6c2f7b6110a37b3B0fbdd811876be368df02E8B0",
+      "name": "StaFi Staked ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/rETH_StaFi/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x07FA101efde726E0956Edd2c4D5C8d3d1A5E9c53",
       "name": "Respawn Finance Wrapped Staked Ethereum",
       "symbol": "RFWSTETH",
@@ -2637,6 +2681,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 33
+    "patch": 34
   }
 }
