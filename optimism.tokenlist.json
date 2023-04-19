@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-04-17T19:37:05.681Z",
+  "timestamp": "2023-04-19T21:15:49.495Z",
   "tokens": [
     {
       "chainId": 1,
@@ -905,6 +905,54 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/FXS/logo.svg",
       "extensions": {
+        "opListId": "extended"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x900dB999074d9277c5DA2A43F252D74366230DA0",
+      "name": "Giveth",
+      "symbol": "GIV",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GIV/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x528CDc92eAB044E1E39FE43B9514bfdAB4412B98",
+      "name": "Giveth Token",
+      "symbol": "GIV",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GIV/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xB9a344f23792bd2F72D050c2De8ccD6F4e700e4F",
+      "name": "Giveth Test Token",
+      "symbol": "DRGIV4",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GIV/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0xEf6301DA234fC7b0545c6E877D3359FE0B9E50a4",
+      "name": "Giveth Test Token",
+      "symbol": "TGIV",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GIV/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended"
       }
     },
@@ -2952,6 +3000,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 35
+    "patch": 36
   }
 }
