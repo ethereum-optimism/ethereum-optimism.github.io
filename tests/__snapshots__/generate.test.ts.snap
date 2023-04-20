@@ -17,6 +17,7 @@ Object {
       "decimals": 18,
       "extensions": Object {
         "opListId": "default",
+        "opTokenId": "ETH",
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
       },
       "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
@@ -29,6 +30,7 @@ Object {
       "decimals": 18,
       "extensions": Object {
         "opListId": "default",
+        "opTokenId": "ETH",
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
       },
       "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
@@ -41,6 +43,7 @@ Object {
       "decimals": 18,
       "extensions": Object {
         "opListId": "extended",
+        "opTokenId": "OP",
       },
       "logoURI": "https://ethereum-optimism.github.io/data/OP/logo.png",
       "name": "Optimism",
