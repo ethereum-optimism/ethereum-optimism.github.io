@@ -48,6 +48,7 @@ export const generate = (datadir: string) => {
             opListId: defaultTokenDataFolders.has(folder.toUpperCase())
               ? 'default'
               : 'extended',
+            opTokenId: folder,
           },
         }
         if (data.nobridge) {
