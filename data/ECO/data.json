@@ -1,0 +1,23 @@
+{
+    "name": "Eco",
+    "symbol": "ECO",
+    "decimals": 18,
+    "description": "Eco is a cryptocurrency with independent monetary policy, designed to enable an independently governed payment economy.",
+    "website": "https://eco.org/",
+    "twitter": "https://twitter.com/EcoAssoc",
+    "nonstandard": true,
+    "tokens": {
+        "goerli": {
+            "address": "0x3E87d4d9E69163E7590f9b39a70853cf25e5ABE3",
+            "overrides": {
+                "bridge": "0x720f04d50EEE79BcdDB58796CC4C10a3cC6561ce"
+            }
+        },
+        "optimism-goerli": {
+            "address": "0xe283c60a4D4Ec22D05FC4AdDd4CD665eeE7CFeE9",
+            "overrides": {
+                "bridge": "0x0578612da30C6EBeAB8e2610400b1D434EE5F9E2"
+            }
+        }
+    }
+}
