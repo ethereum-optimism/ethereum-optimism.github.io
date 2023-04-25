@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-04-24T17:39:23.692Z",
+  "timestamp": "2023-04-25T21:22:07.273Z",
   "tokens": [
     {
       "chainId": 1,
@@ -742,6 +742,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "DUCK"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x3E87d4d9E69163E7590f9b39a70853cf25e5ABE3",
+      "name": "Eco",
+      "symbol": "ECO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ECO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x61EC48a41cC1E589c935975b37039c9784C3c87d",
+        "opListId": "extended",
+        "opTokenId": "ECO"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x5b1FBa1430959583593689DA8df4DAec5f9b234B",
+      "name": "Eco",
+      "symbol": "ECO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ECO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x41EB809380b8f009f302b7D3Ab147E8CA473Cc60",
+        "opListId": "extended",
+        "opTokenId": "ECO"
       }
     },
     {
@@ -3277,6 +3303,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 38
+    "patch": 39
   }
 }
