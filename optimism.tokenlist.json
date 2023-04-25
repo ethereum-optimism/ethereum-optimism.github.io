@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-04-21T16:54:14.708Z",
+  "timestamp": "2023-04-24T17:39:23.692Z",
   "tokens": [
     {
       "chainId": 1,
@@ -417,6 +417,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "cbETH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xfc2189D367d8d3D7CCA1aF43ff6169197DC7351e",
+      "name": "Chi USD",
+      "symbol": "CHI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CHI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "CHI"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xCa0E54b636DB823847B29F506BFFEE743F57729D",
+      "name": "Chi USD",
+      "symbol": "CHI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CHI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CHI"
       }
     },
     {
@@ -3251,6 +3277,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 37
+    "patch": 38
   }
 }
