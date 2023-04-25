@@ -10,13 +10,13 @@
         "goerli": {
             "address": "0x3E87d4d9E69163E7590f9b39a70853cf25e5ABE3",
             "overrides": {
-                "bridge": "0x720f04d50EEE79BcdDB58796CC4C10a3cC6561ce"
+                "bridge": "0x61EC48a41cC1E589c935975b37039c9784C3c87d"
             }
         },
         "optimism-goerli": {
-            "address": "0xe283c60a4D4Ec22D05FC4AdDd4CD665eeE7CFeE9",
+            "address": "0x5b1FBa1430959583593689DA8df4DAec5f9b234B",
             "overrides": {
-                "bridge": "0x0578612da30C6EBeAB8e2610400b1D434EE5F9E2"
+                "bridge": "0x41EB809380b8f009f302b7D3Ab147E8CA473Cc60"
             }
         }
     }
