@@ -8,6 +8,9 @@
     },
     "optimism": {
       "address": "0xFE8B128bA8C78aabC59d4c64cEE7fF28e9379921"
+    },
+    "goerli": {
+      "address": "0xfA8449189744799aD2AcE7e0EBAC8BB7575eff47"
     }
   }
 }
