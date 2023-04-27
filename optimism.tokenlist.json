@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-04-27T17:03:00.212Z",
+  "timestamp": "2023-04-27T22:54:56.052Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2281,6 +2281,58 @@
     },
     {
       "chainId": 1,
+      "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+      "name": "Rocket Pool Protocol",
+      "symbol": "RPL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RPL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "RPL"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xC81D1F0EB955B0c020E5d5b264E1FF72c14d1401",
+      "name": "Rocket Pool Protocol",
+      "symbol": "RPL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RPL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RPL"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x5e932688E81a182e3dE211dB6544F98b8e4f89C7",
+      "name": "Rocket Pool Protocol",
+      "symbol": "RPL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RPL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "RPL"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0xa00E3A3511aAC35cA78530c85007AFCd31753819",
+      "name": "Rocket Pool Protocol",
+      "symbol": "RPL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RPL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RPL"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x7697b462a7c4ff5f8b55bdbc2f4076c2af9cf51a",
       "name": "Sarcophagus",
       "symbol": "SARCO",
@@ -3327,6 +3379,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 41
+    "patch": 42
   }
 }
