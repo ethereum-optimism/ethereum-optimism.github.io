@@ -1,0 +1,21 @@
+{
+    "name": "Rocket Pool Protocol",
+    "symbol": "RPL",
+    "decimals": 18,
+    "website": "https://rocketpool.net/",
+    "twitter": "@Rocket_Pool",
+    "tokens": {
+      "ethereum": {
+        "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f"
+      },
+      "optimism": {
+        "address": "0xC81D1F0EB955B0c020E5d5b264E1FF72c14d1401"
+      },
+      "goerli": {
+        "address": "0x5e932688E81a182e3dE211dB6544F98b8e4f89C7"
+      },
+      "optimism-goerli": {
+        "address": "0xa00E3A3511aAC35cA78530c85007AFCd31753819"
+      }
+    }
+}
