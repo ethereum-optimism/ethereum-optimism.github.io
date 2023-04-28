@@ -1,6 +1,8 @@
 # Superchain Token List
 
-The Superchain token list is used as the source of truth for the [Optimism bridge UI](https://app.optimism.io/bridge) and [Base bridge UI](https://bridge.base.org/deposit) which are the main portals for moving assets between Layer 1 and Layer 2.
+The Superchain token list is used as the source of truth for the [Optimism bridge UI](https://app.optimism.io/bridge) and [Base bridge UI](https://bridge.base.org/deposit) which are the main interfaces for moving assets between Layer 1 and Layer 2.
+
+It is worth noting that the Superchain Token List makes a distinction between token deployment / bridging and list curation. Tokens can be deployed / bridged in a permissionless manner, anyone can deploy / bridge a token on the Superchain. The Superchain Token List is a curated list of tokens and is managed by the maintainers of this repo.
 
 ## Review process and merge criteria
 
