@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-04-29T00:09:13.444Z",
+  "timestamp": "2023-04-29T00:12:23.269Z",
   "tokens": [
     {
       "chainId": 1,
@@ -453,6 +453,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/COLLAB/logo.png",
       "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "COLLAB"
       }
@@ -465,6 +466,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/COLLAB/logo.png",
       "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "COLLAB"
       }
@@ -3379,6 +3381,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 43
+    "patch": 44
   }
 }
