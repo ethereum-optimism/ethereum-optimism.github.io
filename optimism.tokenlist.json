@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-04-24T17:39:23.692Z",
+  "timestamp": "2023-04-29T00:12:23.269Z",
   "tokens": [
     {
       "chainId": 1,
@@ -742,6 +742,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "DUCK"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x3E87d4d9E69163E7590f9b39a70853cf25e5ABE3",
+      "name": "Eco",
+      "symbol": "ECO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ECO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x61EC48a41cC1E589c935975b37039c9784C3c87d",
+        "opListId": "extended",
+        "opTokenId": "ECO"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x5b1FBa1430959583593689DA8df4DAec5f9b234B",
+      "name": "Eco",
+      "symbol": "ECO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ECO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x41EB809380b8f009f302b7D3Ab147E8CA473Cc60",
+        "opListId": "extended",
+        "opTokenId": "ECO"
       }
     },
     {
@@ -2131,7 +2157,7 @@
       "name": "Rocket Pool ETH",
       "symbol": "rETH",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "default",
@@ -2144,7 +2170,33 @@
       "name": "Rocket Pool ETH",
       "symbol": "rETH",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "rETH"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x178E141a0E3b34152f73Ff610437A7bf9B83267A",
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "default",
+        "opTokenId": "rETH"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x1010824414d822cd2167F9aD73a2a99bd2e0E4aE",
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
@@ -2227,6 +2279,58 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "RGT"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+      "name": "Rocket Pool Protocol",
+      "symbol": "RPL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RPL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "RPL"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xC81D1F0EB955B0c020E5d5b264E1FF72c14d1401",
+      "name": "Rocket Pool Protocol",
+      "symbol": "RPL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RPL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RPL"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x5e932688E81a182e3dE211dB6544F98b8e4f89C7",
+      "name": "Rocket Pool Protocol",
+      "symbol": "RPL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RPL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "RPL"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0xa00E3A3511aAC35cA78530c85007AFCd31753819",
+      "name": "Rocket Pool Protocol",
+      "symbol": "RPL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RPL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RPL"
       }
     },
     {
@@ -3277,6 +3381,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 38
+    "patch": 44
   }
 }
