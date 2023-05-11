@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-04-29T00:12:23.269Z",
+  "timestamp": "2023-05-11T17:01:37.006Z",
   "tokens": [
     {
       "chainId": 1,
@@ -363,7 +363,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/cbETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
-        "opListId": "extended",
+        "opListId": "default",
         "opTokenId": "cbETH"
       }
     },
@@ -376,7 +376,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/cbETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
+        "opListId": "default",
         "opTokenId": "cbETH"
       }
     },
@@ -389,7 +389,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/cbETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
-        "opListId": "extended",
+        "opListId": "default",
         "opTokenId": "cbETH"
       }
     },
@@ -402,7 +402,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/cbETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
+        "opListId": "default",
         "opTokenId": "cbETH"
       }
     },
@@ -415,7 +415,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/cbETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
+        "opListId": "default",
         "opTokenId": "cbETH"
       }
     },
@@ -752,20 +752,20 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/ECO/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x61EC48a41cC1E589c935975b37039c9784C3c87d",
+        "optimismBridgeAddress": "0x7a01E277B8fDb8CDB2A2258508514716359f44A0",
         "opListId": "extended",
         "opTokenId": "ECO"
       }
     },
     {
       "chainId": 420,
-      "address": "0x5b1FBa1430959583593689DA8df4DAec5f9b234B",
+      "address": "0x54bBECeA38ff36D32323f8A754683C1F5433A89f",
       "name": "Eco",
       "symbol": "ECO",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/ECO/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x41EB809380b8f009f302b7D3Ab147E8CA473Cc60",
+        "optimismBridgeAddress": "0x7a01E277B8fDb8CDB2A2258508514716359f44A0",
         "opListId": "extended",
         "opTokenId": "ECO"
       }
@@ -3381,6 +3381,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 44
+    "patch": 45
   }
 }
