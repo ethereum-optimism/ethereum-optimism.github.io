@@ -49,7 +49,7 @@ npx tsx ./bin/cli.ts validate --datadir ./data --tokens <data folder name (e.g. 
 ```
 ### Final approval
 
-All PRs are subject to a light-weight final approval, even if not marked as `requires manual review`. If you are adding a token to a `Base` chain (e.g. `base-goerli`) please add [@roberto-bayardo](https://github.com/roberto-bayardo) as a reviewer.
+All PRs are subject to a light-weight final approval, even if not marked as `requires manual review`. If you are adding a token to a `Base` chain (e.g. `base-goerli`) please add a comment to your PR and tag [@roberto-bayardo](https://github.com/roberto-bayardo) as they are the point of contact for Base tokens.
 
 ## Adding a token to the list
 
