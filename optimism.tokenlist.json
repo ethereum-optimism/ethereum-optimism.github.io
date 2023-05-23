@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-05-17T16:11:22.840Z",
+  "timestamp": "2023-05-23T18:39:23.588Z",
   "tokens": [
     {
       "chainId": 1,
@@ -511,6 +511,19 @@
       }
     },
     {
+      "chainId": 84531,
+      "address": "0xA29b548056c3fD0f68BAd9d4829EC4E66f22f796",
+      "name": "Compound",
+      "symbol": "COMP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/COMP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "COMP"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
       "name": "Curve DAO Token",
@@ -950,6 +963,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "FLASH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x85f6eB2BD5a062f5F8560BE93FB7147e16c81472",
+      "name": "Franklin",
+      "symbol": "FLy",
+      "decimals": 4,
+      "logoURI": "https://ethereum-optimism.github.io/data/FLY/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "FLY"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xB58d1d90c4f0A89c96337387FEAffF0A7a75a722",
+      "name": "Franklin",
+      "symbol": "FLy",
+      "decimals": 4,
+      "logoURI": "https://ethereum-optimism.github.io/data/FLY/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "FLY"
       }
     },
     {
@@ -1695,6 +1734,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MASK"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x2ebd53d035150f328bd754d6dc66b99b0edb89aa",
+      "name": "Metronome2",
+      "symbol": "MET",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MET/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "MET"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x9a2e53158e12bc09270af10c16a466cb2b5d7836",
+      "name": "Metronome2",
+      "symbol": "MET",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MET/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MET"
       }
     },
     {
@@ -3381,6 +3446,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 47
+    "patch": 51
   }
 }
