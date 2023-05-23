@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-05-17T16:11:22.840Z",
+  "timestamp": "2023-05-23T16:42:05.376Z",
   "tokens": [
     {
       "chainId": 1,
@@ -500,6 +500,19 @@
     {
       "chainId": 420,
       "address": "0x6AF3cb766D6cd37449bfD321D961A61B0515c1BC",
+      "name": "Compound",
+      "symbol": "COMP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/COMP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "COMP"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0xA29b548056c3fD0f68BAd9d4829EC4E66f22f796",
       "name": "Compound",
       "symbol": "COMP",
       "decimals": 18,
@@ -3381,6 +3394,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 47
+    "patch": 48
   }
 }
