@@ -10,6 +10,7 @@
         "address": "0xc770eefad204b5180df6a14ee197d99d808ee52d",
         "overrides": {
           "name": "FOX"
+        },
       },
       "optimism": {
         "address": "0xF1a0DA3367BC7aa04F8D94BA57B862ff37CeD174"
