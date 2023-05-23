@@ -7,7 +7,7 @@
     "twitter": "@ShapeShift",
     "tokens": {
       "ethereum": {
-        "address": "0xc770eefad204b5180df6a14ee197d99d808ee52d"
+        "address": "0xc770eefad204b5180df6a14ee197d99d808ee52d",
         "overrides": {
           "name": "FOX"
       },
