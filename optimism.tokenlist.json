@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-05-23T18:39:23.588Z",
+  "timestamp": "2023-05-23T20:19:39.409Z",
   "tokens": [
     {
       "chainId": 1,
@@ -989,6 +989,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "FLY"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xc770eefad204b5180df6a14ee197d99d808ee52d",
+      "name": "FOX",
+      "symbol": "FOX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FOX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "FOX"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xF1a0DA3367BC7aa04F8D94BA57B862ff37CeD174",
+      "name": "ShapeShift FOX",
+      "symbol": "FOX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FOX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "FOX"
       }
     },
     {
@@ -3446,6 +3472,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 51
+    "patch": 52
   }
 }
