@@ -1,0 +1,19 @@
+{
+  "name": "Reserve Rights",
+  "symbol": "RSR",
+  "decimals": 18,
+  "description": "An ERC20 governance token for the Reserve Protocol",
+  "website": "https://register.app/",
+  "twitter": "@reserveprotocol",
+  "tokens": {
+    "ethereum": {
+      "address": "0x320623b8e4ff03373931769a31fc52a4e78b5d70"
+    },
+    "goerli": {
+      "address": "0xB58b5530332D2E9e15bfd1f2525E6fD84e830307"
+    },
+    "base-goerli": {
+      "address": "0xc8058960a9d7E7d81143BDBA38d19e6824165932"
+    }
+  }
+}
