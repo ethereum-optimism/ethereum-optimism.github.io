@@ -1,0 +1,15 @@
+{
+    "name": "Franklin",
+    "symbol": "FLY",
+    "decimals": 4,
+    "website": "https://tokenfly.co/",
+    "twitter": "@FrankLinYield",
+    "tokens": {
+      "ethereum": {
+        "address": "0x85f6eB2BD5a062f5F8560BE93FB7147e16c81472"
+      },
+      "optimism": {
+        "address": "0xB64Ee8d9Fd6DA8CF6B4A451B4746D9E60a5634A1"
+      }
+    }
+}
