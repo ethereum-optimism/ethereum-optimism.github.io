@@ -1,0 +1,14 @@
+{
+  "name": "Venom",
+  "symbol": "VNM",
+  "decimals": 18,
+  "description": "Venom (#VNM) is a hyper-deflationary token with unique rewards, true burn mechanics, and a strong community-driven ecosystem.",
+  "website": "https://venomcrypto.io",
+  "twitter": "@VenomCryptoVNM",
+  "nobridge": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x804ea14b08dEc488e5B0bC408f23EEf107fE3717"
+    }
+  }
+}
