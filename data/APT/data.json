@@ -1,0 +1,21 @@
+{
+  "name": "Aptos",
+  "symbol": "APT",
+  "decimals": 8,
+  "description": "APT from Aptos, bridged by Wormhole.",
+  "website": "https://wormhole.com",
+  "twitter": "@wormholecrypto",
+  "tokens": {
+    "ethereum": {
+      "address": "0x8CDf7AF57E4c8B930e1B23c477c22f076530585e"
+    },
+    "optimism": {
+      "address": "0xC5B3AC2DF8D8D7AC851F763a5b3Ff23B4A696d59"
+    },
+    "goerli": {
+      "address": "0xd7A89a8DD20Cb4F252c7FB96B6421b37d82cE506"
+    },
+    "base-goerli": {
+      "address": "0xd934A15FfA3945DD0Ba2cb7b4174024261A14874"
+    }
+}
