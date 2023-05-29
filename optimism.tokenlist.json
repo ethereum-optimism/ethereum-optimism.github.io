@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-05-23T20:28:53.882Z",
+  "timestamp": "2023-05-29T14:50:34.795Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3470,6 +3470,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x3E5D9D8a63CC8a88748f229999CF59487e90721e",
+      "name": "MetalSwap",
+      "symbol": "XMT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/XMT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "XMT"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x3E5D9D8a63CC8a88748f229999CF59487e90721e",
+      "name": "MetalSwap",
+      "symbol": "XMT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/XMT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "XMT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
       "name": "0x Protocol Token",
       "symbol": "ZRX",
@@ -3524,6 +3550,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 53
+    "patch": 54
   }
 }
