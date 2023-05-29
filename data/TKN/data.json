@@ -1,5 +1,5 @@
 {
-  "name": "Token Name Service",
+  "name": "TokenDao",
   "symbol": "TKN",
   "decimals": 18,
   "description": "Organizing the world's token symbols",
@@ -7,10 +7,16 @@
   "twitter": "@TokenDao_",
   "tokens": {
     "ethereum": {
-      "address": "0x82D09e30d5D682D69B4A5d97C61b7BA651457625"
+      "address": "0x82D09e30d5D682D69B4A5d97C61b7BA651457625",
+      "overrides": {
+        "name": "Token Name Service"
+      }
     },
     "optimism": {
-      "address": "0x3Eb398fEc5F7327C6b15099a9681d9568ded2e82"
+      "address": "0x3Eb398fEc5F7327C6b15099a9681d9568ded2e82",
+      "overrides": {
+        "name": "Token Name Service"
+      }
     }
   }
 }
