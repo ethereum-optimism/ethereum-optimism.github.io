@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-05-23T20:28:53.882Z",
+  "timestamp": "2023-05-29T14:52:27.074Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2798,6 +2798,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x82D09e30d5D682D69B4A5d97C61b7BA651457625",
+      "name": "Token Name Service",
+      "symbol": "TKN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TKN/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "TKN"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x3Eb398fEc5F7327C6b15099a9681d9568ded2e82",
+      "name": "Token Name Service",
+      "symbol": "TKN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TKN/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TKN"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
       "name": "Tellor",
       "symbol": "TRB",
@@ -3470,6 +3496,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x3E5D9D8a63CC8a88748f229999CF59487e90721e",
+      "name": "MetalSwap",
+      "symbol": "XMT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/XMT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "XMT"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x3E5D9D8a63CC8a88748f229999CF59487e90721e",
+      "name": "MetalSwap",
+      "symbol": "XMT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/XMT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "XMT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
       "name": "0x Protocol Token",
       "symbol": "ZRX",
@@ -3524,6 +3576,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 53
+    "patch": 55
   }
 }
