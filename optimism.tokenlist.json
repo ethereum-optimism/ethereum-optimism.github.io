@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-06-02T16:47:38.224Z",
+  "timestamp": "2023-06-02T16:49:06.944Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2709,6 +2709,58 @@
     },
     {
       "chainId": 1,
+      "address": "0xD31a59c85aE9D8edEFeC411D448f90841571b89c",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "SOL"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xba1Cf949c382A32a09A17B2AdF3587fc7fA664f1",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SOL"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x494701CE895389d917a938f0ea202D4eB9684Eab",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "SOL"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x6Fb1dE2372e48fe66c84cf37cc2fb54EaEe62988",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SOL"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x42d6622dece394b54999fbd73d108123806f6a18",
       "name": "SPANK",
       "symbol": "SPANK",
@@ -3695,6 +3747,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 60
+    "patch": 61
   }
 }
