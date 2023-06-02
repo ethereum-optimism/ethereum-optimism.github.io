@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-06-02T16:44:48.834Z",
+  "timestamp": "2023-06-02T16:47:38.224Z",
   "tokens": [
     {
       "chainId": 1,
@@ -172,6 +172,58 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "AMKT"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x8CDf7AF57E4c8B930e1B23c477c22f076530585e",
+      "name": "Aptos",
+      "symbol": "APT",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/APT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "APT"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xC5B3AC2DF8D8D7AC851F763a5b3Ff23B4A696d59",
+      "name": "Aptos",
+      "symbol": "APT",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/APT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "APT"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xd7A89a8DD20Cb4F252c7FB96B6421b37d82cE506",
+      "name": "Aptos",
+      "symbol": "APT",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/APT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "APT"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0xd934A15FfA3945DD0Ba2cb7b4174024261A14874",
+      "name": "Aptos",
+      "symbol": "APT",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/APT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "APT"
       }
     },
     {
@@ -3643,6 +3695,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 59
+    "patch": 60
   }
 }
