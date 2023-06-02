@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-05-31T23:47:21.028Z",
+  "timestamp": "2023-06-02T16:44:48.834Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2478,6 +2478,45 @@
     },
     {
       "chainId": 1,
+      "address": "0x320623b8e4ff03373931769a31fc52a4e78b5d70",
+      "name": "Reserve Rights",
+      "symbol": "RSR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RSR/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "RSR"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xB58b5530332D2E9e15bfd1f2525E6fD84e830307",
+      "name": "Goerli Reserve RSR",
+      "symbol": "RSR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RSR/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "RSR"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0xc8058960a9d7E7d81143BDBA38d19e6824165932",
+      "name": "Base Goerli Reserve RSR",
+      "symbol": "RSR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RSR/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RSR"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x7697b462a7c4ff5f8b55bdbc2f4076c2af9cf51a",
       "name": "Sarcophagus",
       "symbol": "SARCO",
@@ -3604,6 +3643,6 @@
   "version": {
     "major": 7,
     "minor": 3,
-    "patch": 58
+    "patch": 59
   }
 }
