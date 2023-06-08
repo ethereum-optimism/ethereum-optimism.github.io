@@ -3,7 +3,7 @@
     "symbol": "eUSD",
     "decimals": 18,
     "description": "The Electronic Dollar",
-    "website": "register.app",
+    "website": "https://register.app",
     "twitter": "@reserveprotocol",
     "tokens": {
       "ethereum": {
