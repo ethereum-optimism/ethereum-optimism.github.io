@@ -1,0 +1,22 @@
+{
+  "name": "Solana",
+  "symbol": "SOL",
+  "decimals": 9,
+  "description": "SOL from Solana, bridged by Wormhole.",
+  "website": "https://wormhole.com",
+  "twitter": "@wormholecrypto",
+  "tokens": {
+    "ethereum": {
+      "address": "0xD31a59c85aE9D8edEFeC411D448f90841571b89c"
+    },
+    "optimism": {
+      "address": "0xba1Cf949c382A32a09A17B2AdF3587fc7fA664f1"
+    },
+    "goerli": {
+      "address": "0x494701CE895389d917a938f0ea202D4eB9684Eab"
+    },
+    "base-goerli": {
+      "address": "0x6Fb1dE2372e48fe66c84cf37cc2fb54EaEe62988"
+    }
+  }
+}
