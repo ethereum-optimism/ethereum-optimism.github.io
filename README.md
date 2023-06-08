@@ -169,6 +169,50 @@ If you require overrides for specific tokens, you can include the `overrides` fi
 }
 ```
 
+##### Bridge overrides
+To override an L1 bridge address, specify the L2 chain it bridges to along with the address of the L1 bridge. For an L2 bridge address override, just specify the address of the L2 bridge.
+
+Here is an example:
+
+```
+{
+  "name": "Synthetix",
+  "symbol": "SNX",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+      "overrides": {
+        "bridge": {
+          "optimism": "0x39Ea01a0298C315d149a490E34B59Dbf2EC7e48F"
+        }
+      }
+    },
+    "optimism": {
+      "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
+      "overrides": {
+        "bridge": "0x136b1EC699c62b0606854056f02dC7Bb80482d63"
+      }
+    },
+    "goerli": {
+      "address": "0x51f44ca59b867E005e48FA573Cb8df83FC7f7597",
+      "overrides": {
+        "bridge": {
+          "optimism-goerli": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65"
+        }
+      }
+    },
+    "optimism-goerli": {
+      "address": "0x2E5ED97596a8368EB9E44B1f3F25B2E813845303",
+      "overrides": {
+        "bridge": "0xD2b3F0Ea40dB68088415412b0043F37B3088836D"
+      }
+    }
+  }
+}
+```
+
+
 ### Create a pull request
 
 Open a [pull request](https://github.com/ethereum-optimism/ethereum-optimism.github.io/pulls) with the changes that you've made. Please only add one token per pull request to simplify the review process. This means two new files inside of one new folder. If you want to add multiple tokens, please open different PRs for each token.
