@@ -18,12 +18,6 @@
             "overrides": {
                 "bridge": "0x6aA809bAeA2e4C057b3994127cB165119c6fc3B2"
             }
-        },
-        "base-goerli": {
-            "address": "0x7ea172aa6DFe9bEceef679D4Cf90E600e89b9969",
-            "overrides": {
-                "bridge": "0xE831Ac97C6dcCA91acC48788Ce091BfD1c084750"
-            }
         }
     }
 }
