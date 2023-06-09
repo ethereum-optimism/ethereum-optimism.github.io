@@ -14,9 +14,19 @@ import { getContractInterface } from '@eth-optimism/contracts'
 
 import { generate } from './generate'
 import { TOKEN_DATA_SCHEMA } from './schemas'
-import { L2_TO_L1_PAIR, NETWORK_DATA } from './chains'
+import {
+  L2_STANDARD_BRIDGE_INFORMATION,
+  L2_TO_L1_PAIR,
+  NETWORK_DATA,
+} from './chains'
 import { TOKEN_ABI } from './abi'
-import { Chain, ExpectedMismatches, TokenData, ValidationResult } from './types'
+import {
+  Chain,
+  ExpectedMismatches,
+  L2Chain,
+  TokenData,
+  ValidationResult,
+} from './types'
 
 /**
  * Validates a token list data folder.
@@ -224,7 +234,10 @@ export const validate = async (
                 // Trigger review if the bridge for the token is not set
                 // to the standard bridge address.
                 if (
-                  l2Bridge?.toUpperCase() !== networkData.bridge.toUpperCase()
+                  l2Bridge?.toUpperCase() !==
+                  L2_STANDARD_BRIDGE_INFORMATION[
+                    chain as L2Chain
+                  ].l2StandardBridgeAddress.toUpperCase()
                 ) {
                   results.push({
                     type: 'error',
