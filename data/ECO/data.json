@@ -10,7 +10,9 @@
         "goerli": {
             "address": "0x3E87d4d9E69163E7590f9b39a70853cf25e5ABE3",
             "overrides": {
-                "bridge": "0x7a01E277B8fDb8CDB2A2258508514716359f44A0"
+                "bridge": {
+                    "optimism-goerli": "0x7a01E277B8fDb8CDB2A2258508514716359f44A0"
+                }
             }
         },
         "optimism-goerli": {
