@@ -7,6 +7,18 @@
     "twitter": "https://twitter.com/EcoAssoc",
     "nonstandard": true,
     "tokens": {
+        "ethereum": {
+            "address": "0x8dBF9A4c99580fC7Fd4024ee08f3994420035727",
+            "overrides": {
+                "bridge": "0xAa029BbdC947F5205fBa0F3C11b592420B58f824"
+            }
+        },
+        "optimism": {
+            "address": "0xe7BC9b3A936F122f08AAC3b1fac3C3eC29A78874",
+            "overrides": {
+                "bridge": "0xAa029BbdC947F5205fBa0F3C11b592420B58f824"
+            }
+        },
         "goerli": {
             "address": "0x3E87d4d9E69163E7590f9b39a70853cf25e5ABE3",
             "overrides": {
