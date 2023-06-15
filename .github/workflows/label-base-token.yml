@@ -13,17 +13,18 @@ jobs:
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v6
+        uses: tj-actions/changed-files@v36
         with:
+          files: **.json
           separator: ','
 
-      - name: Check for 'base-goerli' in .json files and set output
+      - name: Check for 'base-goerli' is in changed files
         id: check
         run: |
           FILES='${{ steps.changed-files.outputs.all_modified_files }}'
           IFS=',' read -ra FILE_ARRAY <<< "$FILES"
           for file in "${FILE_ARRAY[@]}"; do
-            if [[ $file == *.json ]] && grep -q 'base-goerli' $file; then
+            if grep -q 'base-goerli' $file; then
               echo "::set-output name=add_label::true"
               break
             fi
