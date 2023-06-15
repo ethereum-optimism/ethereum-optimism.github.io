@@ -1,0 +1,41 @@
+name: Label PR if token is for base-goerli
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Get changed .json files
+        id: changed-files
+        uses: tj-actions/changed-files@v36
+        with:
+          files: 'data/**/**.json'
+          separator: ','
+
+      - name: Check for 'base-goerli' is in changed files
+        id: check
+        run: |
+          FILES='${{ steps.changed-files.outputs.all_modified_files }}'
+          IFS=',' read -ra FILE_ARRAY <<< "$FILES"
+          for file in "${FILE_ARRAY[@]}"; do
+            if grep -q 'base-goerli' $file; then
+              echo "::set-output name=add_label::true"
+              break
+            fi
+          done
+        shell: bash
+
+      - name: Add 'base-token' label
+        if: steps.check.outputs.add_label == 'true'
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          labels: 'base-goerli'
