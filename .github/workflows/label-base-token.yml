@@ -37,5 +37,5 @@ jobs:
         if: steps.check.outputs.add_label == 'true'
         uses: actions-ecosystem/action-add-labels@v1
         with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
+          github_token: ${{secrets.PAT}}
           labels: 'base-goerli'
