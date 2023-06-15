@@ -1,0 +1,13 @@
+{
+  "name": "TESTDONOTMERGE",
+  "symbol": "TESTMERGEDONTMERGE",
+  "decimals": 18,
+  "description": "To add description later",
+  "website": "optimism.io",
+  "twitter": "optimism.io",
+  "tokens": {
+    "base-goerli": {
+      "address": "0xBEEFBEEFBEEFBEEFBEEFBEEFBEEFBEEFBEEFBEEF"
+    }
+  }
+}
