@@ -1,6 +1,8 @@
 name: Label PR if token is for base-goerli
 
 on:
+  push:
+    branches: [master]
   pull_request:
     branches: [master]
 
