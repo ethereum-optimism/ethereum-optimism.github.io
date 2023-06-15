@@ -17,13 +17,13 @@ jobs:
         with:
           separator: ','
 
-      - name: Check for 'base-goerli' in files and set output
+      - name: Check for 'base-goerli' in .json files and set output
         id: check
         run: |
           FILES='${{ steps.changed-files.outputs.all_modified_files }}'
           IFS=',' read -ra FILE_ARRAY <<< "$FILES"
           for file in "${FILE_ARRAY[@]}"; do
-            if grep -q 'base-goerli' $file; then
+            if [[ $file == *.json ]] && grep -q 'base-goerli' $file; then
               echo "::set-output name=add_label::true"
               break
             fi
