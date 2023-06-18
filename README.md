@@ -17,6 +17,9 @@ It is worth noting that the Superchain Token List makes a distinction between t
 - [Fee on transfer tokens](https://github.com/d-xo/weird-erc20#fee-on-transfer)
 - [Tokens that modify balances without emitting a Transfer event](https://github.com/d-xo/weird-erc20#balance-modifications-outside-of-transfers-rebasingairdrops)
 
+### Base tokens
+For right now, `Base` tokens go through a separate review process. So, if you are adding tokens across both `Optimism` and `Base`, please separate this pull request into separate pull requests for each chain, in order to streamline the review process. If you are adding a token to a `Base` chain (e.g. `base-goerli`) please add [@roberto-bayardo](https://github.com/roberto-bayardo) as a reviewer as they are the point of contact for `Base` tokens and must approve all `Base` tokens before they are merged.
+
 ### Automated checks
 
 Our CI performs a series of automated checks on every PR.
@@ -49,7 +52,7 @@ npx tsx ./bin/cli.ts validate --datadir ./data --tokens <data folder name (e.g. 
 ```
 ### Final approval
 
-All PRs are subject to a light-weight final approval, even if not marked as `requires manual review`. If you are adding a token to a `Base` chain (e.g. `base-goerli`) please add a comment to your PR and tag [@roberto-bayardo](https://github.com/roberto-bayardo) as they are the point of contact for Base tokens.
+All PRs are subject to a light-weight final approval, even if not marked as `requires manual review`.
 
 ## Adding a token to the list
 
