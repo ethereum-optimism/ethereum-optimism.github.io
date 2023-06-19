@@ -7,18 +7,32 @@
     "twitter": "https://twitter.com/EcoAssoc",
     "nonstandard": true,
     "tokens": {
+        "ethereum": {
+            "address": "0x8dBF9A4c99580fC7Fd4024ee08f3994420035727",
+            "overrides": {
+                "bridge": {
+                    "optimism": "0xAa029BbdC947F5205fBa0F3C11b592420B58f824"
+                }
+            }
+        },
+        "optimism": {
+            "address": "0xe7BC9b3A936F122f08AAC3b1fac3C3eC29A78874",
+            "overrides": {
+                "bridge": "0xAa029BbdC947F5205fBa0F3C11b592420B58f824"
+            }
+        },
         "goerli": {
             "address": "0x3E87d4d9E69163E7590f9b39a70853cf25e5ABE3",
             "overrides": {
                 "bridge": {
-                    "optimism-goerli": "0x7a01E277B8fDb8CDB2A2258508514716359f44A0"
+                    "optimism-goerli": "0x9A4464D6bFE006715382D39D183AAf66c952a3e0"
                 }
             }
         },
         "optimism-goerli": {
-            "address": "0x54bBECeA38ff36D32323f8A754683C1F5433A89f",
+            "address": "0xD2f598c826429EEe7c071C02735549aCd88F2c09",
             "overrides": {
-                "bridge": "0x7a01E277B8fDb8CDB2A2258508514716359f44A0"
+                "bridge": "0x6aA809bAeA2e4C057b3994127cB165119c6fc3B2"
             }
         }
     }
