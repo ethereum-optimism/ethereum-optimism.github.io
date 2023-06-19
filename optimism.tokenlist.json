@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-06-15T22:34:12.287Z",
+  "timestamp": "2023-06-19T22:03:17.169Z",
   "tokens": [
     {
       "chainId": 1,
@@ -811,6 +811,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x8dBF9A4c99580fC7Fd4024ee08f3994420035727",
+      "name": "Eco",
+      "symbol": "ECO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ECO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xAa029BbdC947F5205fBa0F3C11b592420B58f824",
+        "opListId": "extended",
+        "opTokenId": "ECO"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xe7BC9b3A936F122f08AAC3b1fac3C3eC29A78874",
+      "name": "Eco",
+      "symbol": "ECO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ECO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xAa029BbdC947F5205fBa0F3C11b592420B58f824",
+        "opListId": "extended",
+        "opTokenId": "ECO"
+      }
+    },
+    {
       "chainId": 5,
       "address": "0x3E87d4d9E69163E7590f9b39a70853cf25e5ABE3",
       "name": "Eco",
@@ -818,20 +844,20 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/ECO/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x7a01E277B8fDb8CDB2A2258508514716359f44A0",
+        "optimismBridgeAddress": "0x9A4464D6bFE006715382D39D183AAf66c952a3e0",
         "opListId": "extended",
         "opTokenId": "ECO"
       }
     },
     {
       "chainId": 420,
-      "address": "0x54bBECeA38ff36D32323f8A754683C1F5433A89f",
+      "address": "0xD2f598c826429EEe7c071C02735549aCd88F2c09",
       "name": "Eco",
       "symbol": "ECO",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/ECO/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x7a01E277B8fDb8CDB2A2258508514716359f44A0",
+        "optimismBridgeAddress": "0x6aA809bAeA2e4C057b3994127cB165119c6fc3B2",
         "opListId": "extended",
         "opTokenId": "ECO"
       }
@@ -3680,6 +3706,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 69
+    "patch": 70
   }
 }
