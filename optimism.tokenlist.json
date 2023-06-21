@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-06-19T22:03:17.169Z",
+  "timestamp": "2023-06-21T14:57:01.283Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2980,6 +2980,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x50327c6c5a14DCaDE707ABad2E27eB517df87AB5",
+      "name": "TRON",
+      "symbol": "TRX",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "TRX"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xb1aE0a34DC3976d98C1741C92b798dAF8E0e1e11",
+      "name": "TRON",
+      "symbol": "TRX",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TRX"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
       "name": "TrueUSD",
       "symbol": "TUSD",
@@ -3706,6 +3732,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 70
+    "patch": 71
   }
 }
