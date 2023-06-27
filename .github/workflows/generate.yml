@@ -31,7 +31,7 @@ jobs:
           cache: pnpm
 
       - name: Install dependencies
-        run: pnpm --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Patch token list version
         run: |
