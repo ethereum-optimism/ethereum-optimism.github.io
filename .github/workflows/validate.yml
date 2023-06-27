@@ -50,16 +50,17 @@ jobs:
           echo "result=${tokens%,*}" >> $GITHUB_OUTPUT
 
       - name: Validate token list
+        if: ${{ steps.changed_tokens.outputs.result != '' }}
         run: |
           pnpm validate --datadir ./data --tokens "${{ steps.changed_tokens.outputs.result }}" 2> err.txt 1> std.txt
 
       - name: Print output
-        if: ${{ always() }}
+        if: ${{ steps.changed_tokens.outputs.result != '' }}
         run: |
           cat std.txt; cat err.txt
 
       - name: Upload artifacts
-        if: ${{ always() }}
+        if: ${{ steps.changed_tokens.outputs.result != '' }}
         uses: actions/upload-artifact@v3
         with:
           name: logs-artifact
@@ -69,7 +70,7 @@ jobs:
             std.txt
 
       - name: Upload validation results
-        if: ${{ always() }}
+        if: ${{ steps.changed_tokens.outputs.result != '' }}
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
