@@ -76,11 +76,3 @@ pull_request_rules:
       comment:
         message: |
           Congrats! Your token has been merged.  Consider joining our Discord to stay up to date with other builders in the ecosystem. Make sure to drink plenty of water.
-
-  - name: Request review from Base team if PR has 'base-goerli' label
-    conditions:
-      - label=base-goerli
-    actions:
-      request_reviews:
-        users:
-          - roberto-bayardo
