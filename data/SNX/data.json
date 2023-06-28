@@ -6,7 +6,9 @@
     "ethereum": {
       "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
       "overrides": {
-        "bridge": "0x39Ea01a0298C315d149a490E34B59Dbf2EC7e48F"
+        "bridge": {
+          "optimism": "0x39Ea01a0298C315d149a490E34B59Dbf2EC7e48F"
+        }
       }
     },
     "optimism": {
@@ -18,7 +20,9 @@
     "goerli": {
       "address": "0x51f44ca59b867E005e48FA573Cb8df83FC7f7597",
       "overrides": {
-        "bridge": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65"
+        "bridge": {
+          "optimism-goerli": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65"
+        }
       }
     },
     "optimism-goerli": {

@@ -6,7 +6,9 @@
     "ethereum": {
       "address": "0x3C513dB8Bdc3806e4489d62C3d549A5Aaf6A4e97",
       "overrides": {
-        "bridge": "0xaBA2c5F108F7E820C049D5Af70B16ac266c8f128"
+        "bridge": {
+          "optimism": "0xaBA2c5F108F7E820C049D5Af70B16ac266c8f128"
+        }
       }
     },
     "optimism": {

@@ -16,25 +16,17 @@ jobs:
         with:
           fetch-depth: 0
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8.6.0
+
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
 
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - uses: actions/cache@v2
-        id: yarn-cache
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-
       - name: Install dependencies
-        run: yarn --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Save PR number
         run: echo ${{ github.event.number }} > pr.txt
@@ -58,16 +50,17 @@ jobs:
           echo "result=${tokens%,*}" >> $GITHUB_OUTPUT
 
       - name: Validate token list
+        if: ${{ steps.changed_tokens.outputs.result != '' }}
         run: |
-          yarn validate --datadir ./data --tokens "${{ steps.changed_tokens.outputs.result }}" 2> err.txt 1> std.txt
+          pnpm validate --datadir ./data --tokens "${{ steps.changed_tokens.outputs.result }}" 2> err.txt 1> std.txt
 
       - name: Print output
-        if: ${{ always() }}
+        if: ${{ steps.changed_tokens.outputs.result != '' }}
         run: |
           cat std.txt; cat err.txt
 
       - name: Upload artifacts
-        if: ${{ always() }}
+        if: ${{ steps.changed_tokens.outputs.result != '' }}
         uses: actions/upload-artifact@v3
         with:
           name: logs-artifact
@@ -77,7 +70,7 @@ jobs:
             std.txt
 
       - name: Upload validation results
-        if: ${{ always() }}
+        if: ${{ steps.changed_tokens.outputs.result != '' }}
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts

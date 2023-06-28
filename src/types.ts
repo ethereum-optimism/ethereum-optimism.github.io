@@ -3,7 +3,10 @@ import { providers } from 'ethers'
 export interface Token {
   address: string
   overrides?: {
-    bridge?: string
+    // This is set to a string for l2 tokens and a map for
+    // l1 tokens in order to map from l1 to the appropriate
+    // l2 bridge.
+    bridge?: string | Partial<Record<L2Chain, string>>
     name?: string
     symbol?: string
     decimals?: number
@@ -22,6 +25,17 @@ export type Chain =
   | 'goerli'
   | 'optimism-goerli'
   | 'base-goerli'
+
+const l2Chains = ['optimism', 'optimism-goerli', 'base-goerli'] as const
+export type L2Chain = typeof l2Chains[number]
+
+export const isL2Chain = (chain: string): chain is L2Chain => {
+  return l2Chains.includes(chain as L2Chain)
+}
+
+export const isL1Chain = (chain: string): chain is L1Chain => !isL2Chain(chain)
+
+export type L1Chain = 'ethereum' | 'goerli'
 
 export interface TokenData {
   nonstandard?: boolean
@@ -50,5 +64,4 @@ export interface Network {
   name: string
   provider: providers.BaseProvider
   layer: number
-  bridge: string
 }

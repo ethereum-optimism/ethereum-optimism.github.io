@@ -17,6 +17,9 @@ It is worth noting that the Superchain Token List makes a distinction between t
 - [Fee on transfer tokens](https://github.com/d-xo/weird-erc20#fee-on-transfer)
 - [Tokens that modify balances without emitting a Transfer event](https://github.com/d-xo/weird-erc20#balance-modifications-outside-of-transfers-rebasingairdrops)
 
+### Base tokens
+For right now, `Base` tokens go through a separate review process. So, if you are adding tokens across both `Optimism` and `Base`, please separate this pull request into separate pull requests for each chain, in order to streamline the review process. If you are adding a token to a `Base` chain (e.g. `base-goerli`) please add [@roberto-bayardo](https://github.com/roberto-bayardo) as a reviewer as they are the point of contact for `Base` tokens and must approve all `Base` tokens before they are merged.
+
 ### Automated checks
 
 Our CI performs a series of automated checks on every PR.
@@ -49,7 +52,7 @@ npx tsx ./bin/cli.ts validate --datadir ./data --tokens <data folder name (e.g. 
 ```
 ### Final approval
 
-All PRs are subject to a light-weight final approval, even if not marked as `requires manual review`. If you are adding a token to a `Base` chain (e.g. `base-goerli`) please add a comment to your PR and tag [@roberto-bayardo](https://github.com/roberto-bayardo) as they are the point of contact for Base tokens.
+All PRs are subject to a light-weight final approval, even if not marked as `requires manual review`.
 
 ## Adding a token to the list
 
@@ -168,6 +171,50 @@ If you require overrides for specific tokens, you can include the `overrides` fi
   }
 }
 ```
+
+##### Bridge overrides
+To override an L1 bridge address, specify the L2 chain it bridges to along with the address of the L1 bridge. For an L2 bridge address override, just specify the address of the L2 bridge.
+
+Here is an example:
+
+```
+{
+  "name": "Synthetix",
+  "symbol": "SNX",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+      "overrides": {
+        "bridge": {
+          "optimism": "0x39Ea01a0298C315d149a490E34B59Dbf2EC7e48F"
+        }
+      }
+    },
+    "optimism": {
+      "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
+      "overrides": {
+        "bridge": "0x136b1EC699c62b0606854056f02dC7Bb80482d63"
+      }
+    },
+    "goerli": {
+      "address": "0x51f44ca59b867E005e48FA573Cb8df83FC7f7597",
+      "overrides": {
+        "bridge": {
+          "optimism-goerli": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65"
+        }
+      }
+    },
+    "optimism-goerli": {
+      "address": "0x2E5ED97596a8368EB9E44B1f3F25B2E813845303",
+      "overrides": {
+        "bridge": "0xD2b3F0Ea40dB68088415412b0043F37B3088836D"
+      }
+    }
+  }
+}
+```
+
 
 ### Create a pull request
 

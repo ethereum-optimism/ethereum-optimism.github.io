@@ -3,12 +3,12 @@ FROM node:16-alpine3.14
 WORKDIR /app
 
 COPY package*.json /app
-COPY yarn.lock /app
+COPY pnpm-lock.yaml /app
 
-RUN yarn install
+RUN pnpm install
 
 COPY . /app
 
-CMD [ "yarn", "start-bot" ]
+CMD [ "pnpm", "start-bot" ]
 
 EXPOSE 7300
