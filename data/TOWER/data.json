@@ -1,19 +1,19 @@
 {
-    "name": "TOWER",
-    "symbol": "TOWER",
-    "decimals": 18,
-    "description": "TOWER Token is an ERC-20 utility token of the TOWER Project initiated by Animoca Brands",
-    "website": "https://www.crazydefenseheroes.com/",
-    "twitter": "https://twitter.com/towertoken?lang=en",
-    "tokens": {
-      "ethereum": {
-        "address": "0x1C9922314ED1415c95b9FD453c3818fd41867d0B"
-      },
-      "goerli": {
-        "address": "0xD56474D34A6a7B6C07D9c8E9535B658260BD3152"
-      },
-      "base-goerli": {
-        "address": "0x0bab321796c25acAA0D82E60C53322Db1DBF5D07"
-      }
+  "name": "TOWER",
+  "symbol": "TOWER",
+  "decimals": 18,
+  "description": "TOWER Token is an ERC-20 utility token of the TOWER Project initiated by Animoca Brands",
+  "website": "https://www.crazydefenseheroes.com/",
+  "twitter": "https://twitter.com/towertoken?lang=en",
+  "tokens": {
+    "ethereum": {
+      "address": "0x1C9922314ED1415c95b9FD453c3818fd41867d0B"
+    },
+    "goerli": {
+      "address": "0xD56474D34A6a7B6C07D9c8E9535B658260BD3152"
+    },
+    "base-goerli": {
+      "address": "0x0bab321796c25acAA0D82E60C53322Db1DBF5D07"
     }
   }
+}
