@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-06-28T16:53:43.309Z",
+  "timestamp": "2023-07-11T15:28:45.239Z",
   "tokens": [
     {
       "chainId": 1,
@@ -182,7 +182,6 @@
       "decimals": 8,
       "logoURI": "https://ethereum-optimism.github.io/data/APT/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "APT"
       }
@@ -195,7 +194,6 @@
       "decimals": 8,
       "logoURI": "https://ethereum-optimism.github.io/data/APT/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "APT"
       }
@@ -208,20 +206,6 @@
       "decimals": 8,
       "logoURI": "https://ethereum-optimism.github.io/data/APT/logo.svg",
       "extensions": {
-        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
-        "opListId": "extended",
-        "opTokenId": "APT"
-      }
-    },
-    {
-      "chainId": 84531,
-      "address": "0xd934A15FfA3945DD0Ba2cb7b4174024261A14874",
-      "name": "Aptos",
-      "symbol": "APT",
-      "decimals": 8,
-      "logoURI": "https://ethereum-optimism.github.io/data/APT/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "APT"
       }
@@ -2674,7 +2658,6 @@
       "decimals": 9,
       "logoURI": "https://ethereum-optimism.github.io/data/SOL/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "SOL"
       }
@@ -2687,7 +2670,6 @@
       "decimals": 9,
       "logoURI": "https://ethereum-optimism.github.io/data/SOL/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SOL"
       }
@@ -2700,20 +2682,6 @@
       "decimals": 9,
       "logoURI": "https://ethereum-optimism.github.io/data/SOL/logo.svg",
       "extensions": {
-        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
-        "opListId": "extended",
-        "opTokenId": "SOL"
-      }
-    },
-    {
-      "chainId": 84531,
-      "address": "0x6Fb1dE2372e48fe66c84cf37cc2fb54EaEe62988",
-      "name": "Solana",
-      "symbol": "SOL",
-      "decimals": 9,
-      "logoURI": "https://ethereum-optimism.github.io/data/SOL/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SOL"
       }
@@ -3732,6 +3700,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 73
+    "patch": 74
   }
 }
