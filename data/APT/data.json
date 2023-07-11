@@ -14,9 +14,6 @@
     },
     "goerli": {
       "address": "0xd7A89a8DD20Cb4F252c7FB96B6421b37d82cE506"
-    },
-    "base-goerli": {
-      "address": "0xd934A15FfA3945DD0Ba2cb7b4174024261A14874"
     }
   }
 }
