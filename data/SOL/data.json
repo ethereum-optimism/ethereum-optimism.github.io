@@ -5,6 +5,7 @@
   "description": "SOL from Solana, bridged by Wormhole.",
   "website": "https://wormhole.com",
   "twitter": "@wormholecrypto",
+  "nobridge": true,
   "tokens": {
     "ethereum": {
       "address": "0xD31a59c85aE9D8edEFeC411D448f90841571b89c"
