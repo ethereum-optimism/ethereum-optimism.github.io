@@ -5,6 +5,7 @@
   "description": "APT from Aptos, bridged by Wormhole.",
   "website": "https://wormhole.com",
   "twitter": "@wormholecrypto",
+  "nobridge": true,
   "tokens": {
     "ethereum": {
       "address": "0x8CDf7AF57E4c8B930e1B23c477c22f076530585e"
@@ -14,9 +15,6 @@
     },
     "goerli": {
       "address": "0xd7A89a8DD20Cb4F252c7FB96B6421b37d82cE506"
-    },
-    "base-goerli": {
-      "address": "0xd934A15FfA3945DD0Ba2cb7b4174024261A14874"
     }
   }
 }
