@@ -5,6 +5,7 @@
   "description": "APT from Aptos, bridged by Wormhole.",
   "website": "https://wormhole.com",
   "twitter": "@wormholecrypto",
+  "nobridge": true,
   "tokens": {
     "ethereum": {
       "address": "0x8CDf7AF57E4c8B930e1B23c477c22f076530585e"
