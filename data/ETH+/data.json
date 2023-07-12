@@ -1,0 +1,19 @@
+{
+  "name": "ETHPlus",
+  "symbol": "ETH+",
+  "decimals": 18,
+  "description": "ETH Plus",
+  "website": "https://register.app",
+  "twitter": "@reserveprotocol",
+  "tokens": {
+    "ethereum": {
+      "address": "0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8"
+    },
+    "goerli": {
+      "address": "0x9828BEA55B91f5eAD1b4520680688C820b5a9Cbd"
+    },
+    "base-goerli": {
+      "address": "0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53"
+    }
+  }
+}

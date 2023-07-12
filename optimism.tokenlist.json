@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-11T15:28:45.239Z",
+  "timestamp": "2023-07-12T16:50:02.440Z",
   "tokens": [
     {
       "chainId": 1,
@@ -974,6 +974,82 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "ETH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8",
+      "name": "ETHPlus",
+      "symbol": "ETH+",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH+/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "ETH+"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x9828BEA55B91f5eAD1b4520680688C820b5a9Cbd",
+      "name": "ETHPlus",
+      "symbol": "ETH+",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH+/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "ETH+"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53",
+      "name": "ETHPlus",
+      "symbol": "ETH+",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH+/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ETH+"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+      "name": "Electronic Dollar",
+      "symbol": "eUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/eUSD/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "eUSD"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xaCD1E1F368c363287aff0Df4e5eCBa1B0caC3ee3",
+      "name": "Electronic Dollar",
+      "symbol": "eUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/eUSD/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "eUSD"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0xE265FC71d45fd791c9ebf3EE0a53FBB220Eb8f75",
+      "name": "Electronic Dollar",
+      "symbol": "eUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/eUSD/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "eUSD"
       }
     },
     {
@@ -2506,6 +2582,20 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/RSR/logo.png",
       "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "RSR"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0xc8058960a9d7E7d81143BDBA38d19e6824165932",
+      "name": "Base Goerli Reserve RSR",
+      "symbol": "RSR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RSR/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "RSR"
       }
@@ -2918,6 +3008,44 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "TKN"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x1C9922314ED1415c95b9FD453c3818fd41867d0B",
+      "name": "TOWER",
+      "symbol": "TOWER",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TOWER/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "TOWER"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xD56474D34A6a7B6C07D9c8E9535B658260BD3152",
+      "name": "TOWER",
+      "symbol": "TOWER",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TOWER/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "TOWER"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x0bab321796c25acAA0D82E60C53322Db1DBF5D07",
+      "name": "TOWER",
+      "symbol": "TOWER",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TOWER/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TOWER"
       }
     },
     {
@@ -3700,6 +3828,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 74
+    "patch": 80
   }
 }
