@@ -17,6 +17,15 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
+  base: {
+    id: 8543,
+    name: 'Base',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      // Update to 'https://mainnet.base.org' once live
+      'https://developer-access-mainnet.base.org',
+    ),
+    layer: 2,
+  },
   goerli: {
     id: 5,
     name: 'Goerli',
@@ -58,6 +67,9 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   optimism: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
+  base: {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
   'optimism-goerli': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
@@ -68,6 +80,7 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
 
 export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   optimism: 'ethereum',
+  base: 'ethereum',
   'optimism-goerli': 'goerli',
   'base-goerli': 'goerli',
 }
@@ -80,6 +93,10 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     {
       l2Chain: 'optimism',
       l1StandardBridgeAddress: '0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1',
+    },
+    {
+      l2Chain: 'base',
+      l1StandardBridgeAddress: '0x3154Cf16ccdb4C6d922629664174b904d80F2C35',
     },
   ],
   goerli: [
