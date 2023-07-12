@@ -22,6 +22,7 @@ export interface Token {
 export type Chain =
   | 'ethereum'
   | 'optimism'
+  | 'base'
   | 'goerli'
   | 'optimism-goerli'
   | 'base-goerli'
