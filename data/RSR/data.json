@@ -14,6 +14,12 @@
       "overrides": {
         "name": "Goerli Reserve RSR"
       }
+    },
+    "base-goerli": {
+      "address": "0xc8058960a9d7E7d81143BDBA38d19e6824165932",
+      "overrides": {
+        "name": "Base Goerli Reserve RSR"
+      }
     }
   }
 }
