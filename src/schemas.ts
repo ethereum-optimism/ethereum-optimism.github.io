@@ -60,6 +60,7 @@ export const TOKEN_DATA_SCHEMA = {
       properties: {
         ethereum: TOKEN_SCHEMA,
         optimism: TOKEN_SCHEMA,
+        base: TOKEN_SCHEMA,
         'base-goerli': TOKEN_SCHEMA,
         goerli: TOKEN_SCHEMA,
         'optimism-goerli': TOKEN_SCHEMA,
@@ -68,6 +69,7 @@ export const TOKEN_DATA_SCHEMA = {
       anyOf: [
         { required: ['ethereum'] },
         { required: ['optimism'] },
+        { required: ['base'] },
         { required: ['base-goerli'] },
         { required: ['goerli'] },
         { required: ['optimism-goerli'] },
