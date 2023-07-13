@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-13T17:31:39.705Z",
+  "timestamp": "2023-07-13T18:40:56.892Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3593,7 +3593,43 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "WETH"
+      }
+    },
+    {
       "chainId": 10,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "WETH"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "WETH"
+      }
+    },
+    {
+      "chainId": 8543,
       "address": "0x4200000000000000000000000000000000000006",
       "name": "Wrapped Ether",
       "symbol": "WETH",
@@ -3828,6 +3864,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 83
+    "patch": 84
   }
 }
