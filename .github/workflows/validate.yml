@@ -60,7 +60,7 @@ jobs:
           cat std.txt; cat err.txt
 
       - name: Upload artifacts
-        if: ${{ steps.changed_tokens.outputs.result != '' }}
+        if: ${{ always() && steps.changed_tokens.outputs.result != '' }}
         uses: actions/upload-artifact@v3
         with:
           name: logs-artifact
@@ -70,7 +70,7 @@ jobs:
             std.txt
 
       - name: Upload validation results
-        if: ${{ steps.changed_tokens.outputs.result != '' }}
+        if: ${{ always() && steps.changed_tokens.outputs.result != '' }}
         uses: actions/upload-artifact@v3
         with:
           name: validation-artifacts
