@@ -51,12 +51,11 @@ jobs:
 
       - name: Validate token list
         if: ${{ steps.changed_tokens.outputs.result != '' }}
-        continue-on-error: true
         run: |
           pnpm validate --datadir ./data --tokens "${{ steps.changed_tokens.outputs.result }}" 2> err.txt 1> std.txt
 
       - name: Print output
-        if: ${{ steps.changed_tokens.outputs.result != '' }}
+        if: always() &amp;&amp; ${{ steps.changed_tokens.outputs.result != '' }}
         run: |
           cat std.txt; cat err.txt
 
