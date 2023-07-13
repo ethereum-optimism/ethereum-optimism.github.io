@@ -51,7 +51,7 @@ jobs:
 
       - name: Validate token list
         if: ${{ steps.changed_tokens.outputs.result != '' }}
-			  continue-on-error: true
+        continue-on-error: true
         run: |
           pnpm validate --datadir ./data --tokens "${{ steps.changed_tokens.outputs.result }}" 2> err.txt 1> std.txt
 
