@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-13T18:40:56.892Z",
+  "timestamp": "2023-07-13T18:42:28.555Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1472,6 +1472,58 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "HAN"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x5052fa4a2a147eaAa4c0242e9Cc54a10A4f42070",
+      "name": "HANePlatform",
+      "symbol": "HANeP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HANeP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "HANeP"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xC3248A1bd9D72fa3DA6E6ba701E58CbF818354eB",
+      "name": "HANePlatform",
+      "symbol": "HANeP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HANeP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "HANeP"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x13Ed63d6387C54352d2F5893821068b6Cd8f8103",
+      "name": "HANePlatform",
+      "symbol": "HANeP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HANeP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "HANeP"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0xFf733b2A3557a7ed6697007ab5D11B79FdD1b76B",
+      "name": "HANePlatform",
+      "symbol": "HANeP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HANeP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "HANeP"
       }
     },
     {
@@ -3864,6 +3916,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 84
+    "patch": 85
   }
 }
