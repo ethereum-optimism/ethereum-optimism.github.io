@@ -1,0 +1,13 @@
+{
+  "name": "HarryPotterObamaSonic10Inu",
+  "symbol": "BITCOIN",
+  "decimals": 8,
+  "tokens": {
+    "ethereum": {
+      "address": "0x72e4f9F808C49A2a61dE9C5896298920Dc4EEEa9"
+    },
+    "optimism": {
+      "address": "0x8a6039fc7a479928b1d73f88040362e9c50db275"
+    }
+  }
+}
