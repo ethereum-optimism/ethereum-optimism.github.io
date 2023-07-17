@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-14T16:08:16.575Z",
+  "timestamp": "2023-07-17T18:40:59.254Z",
   "tokens": [
     {
       "chainId": 1,
@@ -338,6 +338,32 @@
         "optimismBridgeAddress": "0x158F513096923fF2d3aab2BcF4478536de6725e2",
         "opListId": "extended",
         "opTokenId": "BitBTC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x72e4f9F808C49A2a61dE9C5896298920Dc4EEEa9",
+      "name": "HarryPotterObamaSonic10Inu",
+      "symbol": "BITCOIN",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/BITCOIN/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "BITCOIN"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x8a6039fc7a479928b1d73f88040362e9c50db275",
+      "name": "HarryPotterObamaSonic10Inu",
+      "symbol": "BITCOIN",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/BITCOIN/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BITCOIN"
       }
     },
     {
@@ -3980,6 +4006,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 88
+    "patch": 89
   }
 }
