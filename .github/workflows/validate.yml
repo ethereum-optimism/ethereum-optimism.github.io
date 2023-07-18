@@ -52,26 +52,10 @@ jobs:
       - name: Validate token list
         if: ${{ steps.changed_tokens.outputs.result != '' }}
         run: |
-          pnpm validate --datadir ./data --tokens "${{ steps.changed_tokens.outputs.result }}" 2> err.txt 1> std.txt
+          pnpm validate --datadir ./data --tokens "${{ steps.changed_tokens.outputs.result }}" 
 
       - name: Print output
         if: ${{ always() && steps.changed_tokens.outputs.result != '' }}
         run: |
           cat std.txt; cat err.txt
 
-      - name: Upload artifacts
-        if: ${{ always() && steps.changed_tokens.outputs.result != '' }}
-        uses: actions/upload-artifact@v3
-        with:
-          name: logs-artifact
-          path: |
-            pr.txt
-            err.txt
-            std.txt
-
-      - name: Upload validation results
-        if: ${{ always() && steps.changed_tokens.outputs.result != '' }}
-        uses: actions/upload-artifact@v3
-        with:
-          name: validation-artifacts
-          path: validation_results.txt
