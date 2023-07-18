@@ -20,7 +20,7 @@ Please note that by adding a token to the list we aren’t making any claims abo
 - [Tokens that modify balances without emitting a Transfer event](https://github.com/d-xo/weird-erc20#balance-modifications-outside-of-transfers-rebasingairdrops)
 
 ### Base tokens
-For right now, `Base` tokens go through a separate review process. So, if you are adding tokens across both `Optimism` and `Base`, please separate this pull request into separate pull requests for each chain, in order to streamline the review process. If you are adding a token to a `Base` chain (e.g. `base-goerli`) please add [@roberto-bayardo](https://github.com/roberto-bayardo) as a reviewer as they are the point of contact for `Base` tokens and must approve all `Base` tokens before they are merged.
+For right now, `Base` tokens go through a separate review process. So, if you are adding tokens across both `Optimism` and `Base`, please separate this pull request into separate pull requests for each chain, in order to streamline the review process. If you are adding a token to a `Base` chain (e.g. `base` [mainnet] or `base-goerli` [testnet]) please add [@roberto-bayardo](https://github.com/roberto-bayardo) as a reviewer as they are the point of contact for `Base` tokens and must approve all `Base` tokens before they are merged.
 
 ### Automated checks
 
@@ -91,8 +91,11 @@ Add a file to your folder called `data.json` with the following format:
     "optimism-goerli": {
       "address": "0x6789678967896789678967896789678967896789"
     },
-    "base-goerli": {
+    "base": {
       "address": "0x7890789078907890789078907890789078907890"
+    },
+    "base-goerli": {
+      "address": "0x1011121011121011121011121011121011121011"
     }
   }
 }
@@ -104,6 +107,7 @@ We currently accept tokens on the following chains:
 - `ethereum`
 - `optimism`
 - `goerli`
+- `base`
 - `base-goerli`
 - `optimism-goerli`
 
