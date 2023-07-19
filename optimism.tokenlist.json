@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-19T17:23:53.458Z",
+  "timestamp": "2023-07-19T18:44:52.477Z",
   "tokens": [
     {
       "chainId": 1,
@@ -480,6 +480,44 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "cbETH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xC4C2614E694cF534D407Ee49F8E44D125E4681c4",
+      "name": "Chain Games",
+      "symbol": "CHAIN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CHAIN/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "CHAIN"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x76EBA9F21d659Fc15D5f33a1a0C7f9088D0FBd28",
+      "name": "Chain Games",
+      "symbol": "CHAIN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CHAIN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "CHAIN"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x52b7D8851d6CcBC6342ba0855Be65f7B82A3F17f",
+      "name": "Chain Games",
+      "symbol": "CHAIN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CHAIN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CHAIN"
       }
     },
     {
@@ -4006,6 +4044,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 90
+    "patch": 91
   }
 }
