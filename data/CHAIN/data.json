@@ -1,0 +1,22 @@
+{
+  "name": "Chain Games",
+  "symbol": "CHAIN",
+  "decimals": 18,
+  "description": "Chain Token is used in Chain Games which is a Web3 gaming platform providing blockchain-based decentralized games of skill",
+  "website": "https://chaingames.io/",
+  "twitter": "@realchaingames",
+  "tokens": {
+    "ethereum": {
+      "address": "0xC4C2614E694cF534D407Ee49F8E44D125E4681c4"
+    },
+    "goerli": {
+      "address": "0x76EBA9F21d659Fc15D5f33a1a0C7f9088D0FBd28",
+      "overrides": {
+        "name": "Chain Games"
+      }
+    },
+    "base-goerli": {
+      "address": "0x52b7D8851d6CcBC6342ba0855Be65f7B82A3F17f"
+    }
+  }
+}
