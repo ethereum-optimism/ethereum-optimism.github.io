@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-19T18:44:52.477Z",
+  "timestamp": "2023-07-24T15:57:09.508Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3833,6 +3833,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x163f8C2467924be0ae7B5347228CABF260318753",
+      "name": "Worldcoin",
+      "symbol": "WLD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WLD/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "WLD"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1",
+      "name": "Worldcoin",
+      "symbol": "WLD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WLD/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WLD"
+      }
+    },
+    {
       "chainId": 5,
       "address": "0x753BD3E00B9585AC9a94Fdf287f41d8D51e5CF8b",
       "name": "WAMP",
@@ -4044,6 +4070,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 91
+    "patch": 92
   }
 }
