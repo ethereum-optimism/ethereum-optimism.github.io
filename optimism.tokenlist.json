@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-24T15:57:09.508Z",
+  "timestamp": "2023-07-24T21:57:16.309Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3841,7 +3841,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/WLD/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
-        "opListId": "extended",
+        "opListId": "default",
         "opTokenId": "WLD"
       }
     },
@@ -3854,7 +3854,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/WLD/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
+        "opListId": "default",
         "opTokenId": "WLD"
       }
     },
@@ -4070,6 +4070,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 92
+    "patch": 93
   }
 }
