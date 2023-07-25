@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-25T00:31:05.404Z",
+  "timestamp": "2023-07-25T16:59:51.525Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2014,6 +2014,58 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MASK"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x4Bbf46E7c31eDc1F33aF4d57F0C4a0f13398427c",
+      "name": "MBS",
+      "symbol": "MBS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MBS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MBS"
+      }
+    },
+    {
+      "chainId": 8543,
+      "address": "0x8Fbd0648971d56f1f2c35Fa075Ff5Bc75fb0e39D",
+      "name": "MBS",
+      "symbol": "MBS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MBS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MBS"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x4A63b812739011763Fd061bA788290d599310732",
+      "name": "MBS",
+      "symbol": "MBS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MBS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "MBS"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0xBF7e0A518e518C0ab46D15C28ab646090E25D6ef",
+      "name": "MBS",
+      "symbol": "MBS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MBS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MBS"
       }
     },
     {
@@ -4066,6 +4118,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 94
+    "patch": 95
   }
 }
