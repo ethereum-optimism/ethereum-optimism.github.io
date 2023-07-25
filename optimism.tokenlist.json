@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-19T18:44:52.477Z",
+  "timestamp": "2023-07-25T00:31:05.404Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3004,7 +3004,6 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/sUSD/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x39Ea01a0298C315d149a490E34B59Dbf2EC7e48F",
         "opListId": "default",
         "opTokenId": "sUSD"
       }
@@ -3017,7 +3016,6 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/sUSD/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x136b1EC699c62b0606854056f02dC7Bb80482d63",
         "opListId": "default",
         "opTokenId": "sUSD"
       }
@@ -3030,7 +3028,6 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/sUSD/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65",
         "opListId": "default",
         "opTokenId": "sUSD"
       }
@@ -3043,7 +3040,6 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/sUSD/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0xD2b3F0Ea40dB68088415412b0043F37B3088836D",
         "opListId": "default",
         "opTokenId": "sUSD"
       }
@@ -3833,6 +3829,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x163f8C2467924be0ae7B5347228CABF260318753",
+      "name": "Worldcoin",
+      "symbol": "WLD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WLD/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "default",
+        "opTokenId": "WLD"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1",
+      "name": "Worldcoin",
+      "symbol": "WLD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WLD/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "WLD"
+      }
+    },
+    {
       "chainId": 5,
       "address": "0x753BD3E00B9585AC9a94Fdf287f41d8D51e5CF8b",
       "name": "WAMP",
@@ -4044,6 +4066,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 91
+    "patch": 94
   }
 }
