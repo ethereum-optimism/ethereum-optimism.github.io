@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-26T20:30:58.761Z",
+  "timestamp": "2023-07-26T20:32:46.536Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1549,6 +1549,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/HAN/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "HAN"
       }
@@ -1575,6 +1576,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/HAN/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
         "opListId": "extended",
         "opTokenId": "HAN"
       }
@@ -1593,6 +1595,32 @@
       }
     },
     {
+      "chainId": 8543,
+      "address": "0x9e5AAC1Ba1a2e6aEd6b32689DFcF62A509Ca96f3",
+      "name": "HanChain",
+      "symbol": "HAN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HAN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "HAN"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0xE2B21D4684b2bA62F3BE1FE286eacb90D26E394d",
+      "name": "HanChain",
+      "symbol": "HAN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HAN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "HAN"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x5052fa4a2a147eaAa4c0242e9Cc54a10A4f42070",
       "name": "HANePlatform",
@@ -1601,6 +1629,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/HANeP/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "HANeP"
       }
@@ -1627,6 +1656,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/HANeP/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
         "opListId": "extended",
         "opTokenId": "HANeP"
       }
@@ -1640,6 +1670,32 @@
       "logoURI": "https://ethereum-optimism.github.io/data/HANeP/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "HANeP"
+      }
+    },
+    {
+      "chainId": 8543,
+      "address": "0x3e7eF8f50246f725885102E8238CBba33F276747",
+      "name": "HANePlatform",
+      "symbol": "HANeP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HANeP/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "HANeP"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x35D48A789904E9b15705977192e5d95e2aF7f1D3",
+      "name": "HANePlatform",
+      "symbol": "HANeP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HANeP/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "HANeP"
       }
@@ -4198,6 +4254,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 99
+    "patch": 100
   }
 }
