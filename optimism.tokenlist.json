@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-26T19:57:22.867Z",
+  "timestamp": "2023-07-26T20:30:58.761Z",
   "tokens": [
     {
       "chainId": 1,
@@ -425,6 +425,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/cbETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "default",
         "opTokenId": "cbETH"
       }
@@ -438,6 +439,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/cbETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "cbETH"
+      }
+    },
+    {
+      "chainId": 8543,
+      "address": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+      "name": "Coinbase Wrapped Staked ETH",
+      "symbol": "cbETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/cbETH/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "cbETH"
       }
@@ -471,7 +485,7 @@
     },
     {
       "chainId": 84531,
-      "address": "0x7c6b91D9Be155A6Db01f749217d76fF02A7227F2",
+      "address": "0x4fC531f8Ae7A7808E0dccCA08F1e3c7694582950",
       "name": "Coinbase Wrapped Staked ETH",
       "symbol": "cbETH",
       "decimals": 18,
@@ -4184,6 +4198,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 98
+    "patch": 99
   }
 }
