@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-25T16:59:51.525Z",
+  "timestamp": "2023-07-26T19:54:55.318Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1114,6 +1114,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "eUSD"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xa0246c9032bC3A600820415aE600c6388619A14D",
+      "name": "FARM Reward Token",
+      "symbol": "FARM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FARM/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "FARM"
+      }
+    },
+    {
+      "chainId": 8543,
+      "address": "0xD08a2917653d4E460893203471f0000826fb4034",
+      "name": "FARM Reward Token",
+      "symbol": "FARM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FARM/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "FARM"
       }
     },
     {
@@ -4118,6 +4144,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 95
+    "patch": 96
   }
 }
