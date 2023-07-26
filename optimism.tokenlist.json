@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-26T19:54:55.318Z",
+  "timestamp": "2023-07-26T19:57:22.867Z",
   "tokens": [
     {
       "chainId": 1,
@@ -580,6 +580,20 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/COMP/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "COMP"
+      }
+    },
+    {
+      "chainId": 8543,
+      "address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
+      "name": "Compound",
+      "symbol": "COMP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/COMP/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "COMP"
       }
@@ -1690,6 +1704,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "IBEX"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x1571eD0bed4D987fe2b498DdBaE7DFA19519F651",
+      "name": "iFARM",
+      "symbol": "iFARM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IFARM/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "IFARM"
+      }
+    },
+    {
+      "chainId": 8543,
+      "address": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea",
+      "name": "iFARM",
+      "symbol": "iFARM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IFARM/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "IFARM"
       }
     },
     {
@@ -4144,6 +4184,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 96
+    "patch": 98
   }
 }
