@@ -30,6 +30,12 @@
       "overrides": {
         "bridge": "0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65"
       }
+    },
+    "base": {
+      "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb"
+    },
+    "base-goerli": {
+      "address": "0x174956bDfbCEb6e53089297cce4fE2825E58d92C"
     }
   }
 }
