@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-26T20:32:46.536Z",
+  "timestamp": "2023-07-28T16:02:02.974Z",
   "tokens": [
     {
       "chainId": 1,
@@ -713,6 +713,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x10E6593CDda8c58a1d0f14C5164B376352a55f2F",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "default",
         "opTokenId": "DAI"
       }
@@ -739,6 +740,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x05a388Db09C2D44ec0b00Ee188cD42365c42Df23",
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
         "opListId": "default",
         "opTokenId": "DAI"
       }
@@ -752,6 +754,32 @@
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65",
+        "opListId": "default",
+        "opTokenId": "DAI"
+      }
+    },
+    {
+      "chainId": 8543,
+      "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "DAI"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x174956bDfbCEb6e53089297cce4fE2825E58d92C",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "DAI"
       }
@@ -4254,6 +4282,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 100
+    "patch": 101
   }
 }
