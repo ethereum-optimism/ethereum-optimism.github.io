@@ -1,8 +1,9 @@
 {
-  "name": "HOP",
+  "name": "Hop",
   "symbol": "HOP",
   "decimals": 18,
-  "description": "A governance token",
+  "description": "A multi-chain token that powers the Hop ecosystem",
+
   "website": "https://hop.exchange",
   "nobridge": true,
   "twitter": "@hopprotocol",
