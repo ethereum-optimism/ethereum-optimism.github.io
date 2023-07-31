@@ -2,7 +2,7 @@
   "name": "Hop",
   "symbol": "HOP",
   "decimals": 18,
-  "description": "A multi-chain token that powers the Hop ecosystem, briged by Hop Protocol",
+  "description": "A multi-chain token that powers the Hop ecosystem, bridged by Hop Protocol",
   "website": "https://hop.exchange",
   "nobridge": true,
   "twitter": "@hopprotocol",
