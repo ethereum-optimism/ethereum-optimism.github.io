@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-31T21:38:09.067Z",
+  "timestamp": "2023-07-31T21:39:54.281Z",
   "tokens": [
     {
       "chainId": 1,
@@ -219,6 +219,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/BAL/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "default",
         "opTokenId": "BAL"
       }
@@ -232,6 +233,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/BAL/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "BAL"
+      }
+    },
+    {
+      "chainId": 8543,
+      "address": "0x7c6b91D9Be155A6Db01f749217d76fF02A7227F2",
+      "name": "Balancer",
+      "symbol": "BAL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BAL/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "BAL"
       }
@@ -4296,6 +4310,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 103
+    "patch": 104
   }
 }
