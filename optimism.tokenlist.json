@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-02T01:13:06.978Z",
+  "timestamp": "2023-08-02T21:28:34.515Z",
   "tokens": [
     {
       "chainId": 1,
@@ -238,7 +238,7 @@
       }
     },
     {
-      "chainId": 8543,
+      "chainId": 8453,
       "address": "0x7c6b91D9Be155A6Db01f749217d76fF02A7227F2",
       "name": "Balancer",
       "symbol": "BAL",
@@ -458,7 +458,7 @@
       }
     },
     {
-      "chainId": 8543,
+      "chainId": 8453,
       "address": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
       "name": "Coinbase Wrapped Staked ETH",
       "symbol": "cbETH",
@@ -614,7 +614,7 @@
       }
     },
     {
-      "chainId": 8543,
+      "chainId": 8453,
       "address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
       "name": "Compound",
       "symbol": "COMP",
@@ -773,7 +773,7 @@
       }
     },
     {
-      "chainId": 8543,
+      "chainId": 8453,
       "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
       "name": "Dai Stablecoin",
       "symbol": "DAI",
@@ -1200,7 +1200,7 @@
       }
     },
     {
-      "chainId": 8543,
+      "chainId": 8453,
       "address": "0xD08a2917653d4E460893203471f0000826fb4034",
       "name": "FARM Reward Token",
       "symbol": "FARM",
@@ -1637,7 +1637,7 @@
       }
     },
     {
-      "chainId": 8543,
+      "chainId": 8453,
       "address": "0x9e5AAC1Ba1a2e6aEd6b32689DFcF62A509Ca96f3",
       "name": "HanChain",
       "symbol": "HAN",
@@ -1717,7 +1717,7 @@
       }
     },
     {
-      "chainId": 8543,
+      "chainId": 8453,
       "address": "0x3e7eF8f50246f725885102E8238CBba33F276747",
       "name": "HANePlatform",
       "symbol": "HANeP",
@@ -1832,7 +1832,7 @@
       }
     },
     {
-      "chainId": 8543,
+      "chainId": 8453,
       "address": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea",
       "name": "iFARM",
       "symbol": "iFARM",
@@ -2208,7 +2208,7 @@
       }
     },
     {
-      "chainId": 8543,
+      "chainId": 8453,
       "address": "0x8Fbd0648971d56f1f2c35Fa075Ff5Bc75fb0e39D",
       "name": "MBS",
       "symbol": "MBS",
@@ -3638,7 +3638,7 @@
       }
     },
     {
-      "chainId": 8543,
+      "chainId": 8453,
       "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
       "name": "USD Base Coin",
       "symbol": "USDbC",
@@ -4063,7 +4063,7 @@
       }
     },
     {
-      "chainId": 8543,
+      "chainId": 8453,
       "address": "0x4200000000000000000000000000000000000006",
       "name": "Wrapped Ether",
       "symbol": "WETH",
@@ -4296,7 +4296,7 @@
       }
     },
     {
-      "chainId": 8543,
+      "chainId": 8453,
       "address": "0x3bB4445D30AC020a84c1b5A8A2C6248ebC9779D0",
       "name": "0x Protocol Token",
       "symbol": "ZRX",
@@ -4338,6 +4338,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 105
+    "patch": 106
   }
 }
