@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-31T21:39:54.281Z",
+  "timestamp": "2023-08-02T01:13:06.978Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3619,6 +3619,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "default",
         "opTokenId": "USDC"
       }
@@ -3637,6 +3638,19 @@
       }
     },
     {
+      "chainId": 8543,
+      "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+      "name": "USD Base Coin",
+      "symbol": "USDbC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "USDC"
+      }
+    },
+    {
       "chainId": 5,
       "address": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
       "name": "USD Coin",
@@ -3645,6 +3659,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
         "opListId": "default",
         "opTokenId": "USDC"
       }
@@ -3658,6 +3673,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "USDC"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x853154e2A5604E5C74a2546E2871Ad44932eB92C",
+      "name": "USD Base Coin",
+      "symbol": "USDbC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "USDC"
       }
@@ -4310,6 +4338,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 104
+    "patch": 105
   }
 }
