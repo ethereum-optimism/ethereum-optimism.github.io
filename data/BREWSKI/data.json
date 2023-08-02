@@ -1,0 +1,22 @@
+{
+  "name": "BREWSKI Coin",
+  "symbol": "BREWSKI",
+  "decimals": 18,
+  "description": "BREWSKI Labs is the creator of BREWSKI NFT Collection & coin , the next evolution in the craft beer community. BREWSKI Coin is at the center of the BREWSKI Labs ecosystem underpinning the BREWSKI NFT Marketplace and BREWSKI DAO for community-led initiatives driving craft beer culture forward.",
+  "website": "https://www.brewskilabs.io",
+  "twitter": "@BrewskiLabs",
+  "tokens": {
+    "ethereum": {
+      "address": "0x9E3c6575f674BdeE85731d23259971Aa6ddA7b9b"
+    },
+    "goerli": {
+      "address": "0xe47d6b6D17D078CB9df1205a47a5D502a0df25C1"
+    },
+    "base": {
+      "address": "0x9E3c6575f674BdeE85731d23259971Aa6ddA7b9b"
+    },
+    "base-goerli": {
+      "address": "0x441920f197E5Dd85d29f4985980c583b24C893c0"
+    }
+  }
+}
