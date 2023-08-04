@@ -6,6 +6,9 @@
     "website": "https://nftearth.exchange",
     "twitter": "@NFTEarth_L2",
     "tokens": {
+      "ethereum": {
+        "address": "0x8c223a82e07fecb49d602150d7c2b3a4c9630310"
+      },
       "optimism": {
         "address": "0x8637725aDa78db0674a679CeA2A5e0A0869EF4A1"
       },
