@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-03T21:05:36.258Z",
+  "timestamp": "2023-08-04T20:05:33.302Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3328,6 +3328,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xd41f3d112cb8695c7a8992e4055bd273f3ce8729",
+      "name": "Synth",
+      "symbol": "SYNTH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SYNTH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "SYNTH"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xa925f4057d6E6C8FAf8bdE537Ad14BA91A1D0337",
+      "name": "Synth",
+      "symbol": "SYNTH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SYNTH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SYNTH"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xCdF7028ceAB81fA0C6971208e83fa7872994beE5",
       "name": "Threshold Network Token",
       "symbol": "T",
@@ -4364,6 +4390,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 107
+    "patch": 108
   }
 }
