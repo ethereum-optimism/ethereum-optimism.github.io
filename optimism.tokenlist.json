@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-02T21:28:34.515Z",
+  "timestamp": "2023-08-03T21:05:36.258Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2520,6 +2520,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x808507121B80c02388fAd14726482e061B8da827",
+      "name": "Pendle",
+      "symbol": "PENDLE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PENDLE/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "PENDLE"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xBC7B1Ff1c6989f006a1185318eD4E7b5796e66E1",
+      "name": "Pendle",
+      "symbol": "PENDLE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PENDLE/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "PENDLE"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
       "name": "Pepe",
       "symbol": "PEPE",
@@ -4338,6 +4364,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 106
+    "patch": 107
   }
 }
