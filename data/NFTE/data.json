@@ -2,9 +2,10 @@
     "name": "NFTEarthOFT",
     "symbol": "NFTE",
     "decimals": 18,
-    "description": "NFTEarth is a decentralized NFT marketplace on built on Optimism and other networks designed for scalability.",
+    "description": "NFTEarth is a decentralized NFT marketplace built on Optimism and other networks designed for scalability. The native protocol token NFTE is bridged between chains via LayerZero.",
     "website": "https://nftearth.exchange",
     "twitter": "@NFTEarth_L2",
+    "nobridge": true,
     "tokens": {
       "ethereum": {
         "address": "0x8c223a82e07fecb49d602150d7c2b3a4c9630310"
