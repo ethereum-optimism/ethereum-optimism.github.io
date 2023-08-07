@@ -1,0 +1,16 @@
+{
+  "name": "Plague",
+  "symbol": "PLG",
+  "decimals": 18,
+  "description": "Self minting token by user transfers plus chance to airdrop INFC tokens",
+  "website": "",
+  "twitter": "@JointhePlague",
+  "tokens": {
+    "ethereum": {
+      "address": ""
+    },
+    "optimism": {
+      "address": "0x7C34073C56285944F9A5384137186abFAe1C3bf0"
+    }
+  }
+}
