@@ -1,0 +1,16 @@
+{
+  "name": "Infected",
+  "symbol": "INFC",
+  "decimals": 18,
+  "description": "Reward token in the Plague ecosystem",
+  "website": "",
+  "twitter": "@JointhePlague",
+  "tokens": {
+    "ethereum": {
+      "address": ""
+    },
+    "optimism": {
+      "address": "0x235226d2050C001FE78dED104364F9C2eB852E42"
+    }
+  }
+}
