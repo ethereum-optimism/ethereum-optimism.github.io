@@ -6,10 +6,7 @@
   "website": "",
   "twitter": "@JointhePlague",
   "tokens": {
-    "ethereum": {
-      "address": ""
-    },
-    "optimism": {
+    "base": {
       "address": "0x7C34073C56285944F9A5384137186abFAe1C3bf0"
     }
   }
