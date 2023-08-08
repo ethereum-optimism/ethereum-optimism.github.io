@@ -3,7 +3,6 @@
   "symbol": "PLG",
   "decimals": 18,
   "description": "Self minting token by user transfers plus chance to airdrop INFC tokens",
-  "website": "",
   "twitter": "@JointhePlague",
   "nobridge": true,
   "tokens": {
