@@ -5,6 +5,7 @@
   "description": "Self minting token by user transfers plus chance to airdrop INFC tokens",
   "website": "",
   "twitter": "@JointhePlague",
+  "nobridge": true,
   "tokens": {
     "base": {
       "address": "0x7C34073C56285944F9A5384137186abFAe1C3bf0"
