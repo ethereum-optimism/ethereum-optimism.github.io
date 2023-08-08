@@ -1,7 +1,7 @@
 {
   "name": "@eth-optimism/tokenlist",
   "description": "[Optimism] token list",
-  "version": "8.3.71",
+  "version": "8.3.108",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "exports": {
@@ -36,14 +36,14 @@
   "scripts": {
     "validate": "tsx ./bin/cli.ts validate",
     "generate": "tsx ./bin/cli.ts generate",
-    "generate:ci": "yarn generate --datadir ./data --outfile optimism.tokenlist.json",
-    "build": "yarn tsup",
-    "build:ci": "yarn generate:ci && yarn tsup --dts",
-    "release": "yarn build:ci && npm publish",
+    "generate:ci": "pnpm generate --datadir ./data --outfile optimism.tokenlist.json",
+    "build": "tsup",
+    "build:ci": "pnpm generate:ci && pnpm tsup --dts",
+    "release": "pnpm build:ci && npm publish",
     "test": "jest --detectOpenHandles",
     "lint:check": "eslint . --max-warnings=0",
     "lint:fix": "eslint --fix .",
-    "lint": "yarn lint:fix && yarn lint:check",
+    "lint": "pnpm lint:fix && pnpm lint:check",
     "start-bot": "tsx ./src/bot.ts",
     "typecheck": "tsc -p ./tsconfig.json --noEmit"
   },

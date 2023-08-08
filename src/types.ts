@@ -22,11 +22,12 @@ export interface Token {
 export type Chain =
   | 'ethereum'
   | 'optimism'
+  | 'base'
   | 'goerli'
   | 'optimism-goerli'
   | 'base-goerli'
 
-const l2Chains = ['optimism', 'optimism-goerli', 'base-goerli'] as const
+const l2Chains = ['optimism', 'optimism-goerli', 'base', 'base-goerli'] as const
 export type L2Chain = typeof l2Chains[number]
 
 export const isL2Chain = (chain: string): chain is L2Chain => {

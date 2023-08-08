@@ -16,6 +16,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8.6.0
+
       # Setup .npmrc file to publish to npm
       - name: Use Node.js 16.x
         uses: actions/setup-node@v3
@@ -26,9 +30,9 @@ jobs:
           scope: '@eth-optimism'
 
       - name: Install dependencies to prepare for release 🔧
-        run: yarn
+        run: pnpm install --frozen-lockfile
 
       - name: Build and publish package on NPM 📦
-        run: yarn release
+        run: pnpm release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
