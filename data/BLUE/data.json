@@ -5,6 +5,7 @@
   "description": "Swap & Liquidity Pool Token for BlueSwap DEX",
   "website": "https://blueswap.app",
   "twitter": "@blueswapbase",
+  "nobridge": true,
   "tokens": {
     "base": {
       "address": "0x30136B90e532141FeD006c61105cff3668b5c774"
