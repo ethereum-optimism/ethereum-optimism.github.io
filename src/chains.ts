@@ -42,7 +42,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
   sepolia: {
     id: 11155111,
     name: 'Sepolia',
-    provider: new ethers.providers.InfuraProvider('goerli'),
+    provider: new ethers.providers.InfuraProvider('sepolia'),
     layer: 1,
   },
   'optimism-goerli': {
