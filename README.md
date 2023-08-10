@@ -6,6 +6,18 @@ It is worth noting that the Superchain Token List makes a distinction between t
 
 Please note that by adding a token to the list we aren’t making any claims about the token itself; tokens are not reviewed for their quality, merits, or soundness as investments.
 
+## Creating a PR
+
+The easiest way to create a PR is with stackblitz but you can also fork the repo as well. To do it in stackblitz do the following steps
+
+1. Start a new session at the following link [https://pr.new/github.com/ethereum-optimism/ethereum-optimism.github.io](https://pr.new/github.com/ethereum-optimism/ethereum-optimism.github.io)
+2. After making your changes run `pnpm checks` to validate your changes
+3. Select "Source Control" icon in the left vertical navigation bar. Depending on your permissions you may need to fork the repository
+4. Click on "Commit & Push" to send the changes to GitHub.
+5. Finally, you can submit your pull request by clicking on the "Open New PR" button
+
+To visit your pr again if changes are needed simply go to `pr.new/github.com/GITTHUB_NAME/YOURGITHUB_REPO/tree/BRANCH_NAME_OR_PR_NUMBER`. E.g. `pr.new/https://github.com/ethereum-optimism/ethereum-optimism.github.io/pull/454`
+
 ## Review process and merge criteria
 
 ### Process overview
@@ -41,17 +53,9 @@ These issues are marked below as "requires manual review".
   - *Why CoinGecko? CoinGecko's token list updates every hour which means we get token list updates very quickly. CoinGecko also uses an in-depth [listing criteria](https://www.coingecko.com/en/methodology).*
 
 #### Debugging Automated checks failures
-If your automated checks failed, you can see the reason for the failure by downloading `validation-artifacts.zip`, unzipping it and opening the `validation_results.txt` file. To locate the `validation-artifacts` follow these steps:
 
-1. Click on the `Details` link for `Validate PR` check in your PR
-2. Click `Summary` in the left panel
-3. Find the section on the page labeled `Artifacts` and click on `validation-artifacts`
-4. After download of `validation-artifacts.zip`, unzip it and open `validation_results.txt`
+To run the automated checks run `pnpm check`. Pnpm check happens automatically when you open your project in stackblitz if using stackblitz to create your PR.
 
-If you make changes and need to run the validation check again, you will need to wait for a reviewer to approve the checks to run again. However, if you do not want to wait for a reviewer to approve the checks to run again to see if the failures have been resolved, you can run the validation checks locally by running:
-```
-npx tsx ./bin/cli.ts validate --datadir ./data --tokens <data folder name (e.g. ETH)>
-```
 ### Final approval
 
 All PRs are subject to a light-weight final approval, even if not marked as `requires manual review`.

@@ -34,7 +34,7 @@
     "clean": true
   },
   "scripts": {
-    "allchecks": "tsx ./allchecks.ts",
+    "check": "tsx ./allchecks.ts",
     "validate": "tsx ./bin/cli.ts validate",
     "generate": "tsx ./bin/cli.ts generate",
     "generate:ci": "pnpm generate --datadir ./data --outfile optimism.tokenlist.json",
