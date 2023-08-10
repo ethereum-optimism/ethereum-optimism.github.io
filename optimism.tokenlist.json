@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-04T20:05:33.302Z",
+  "timestamp": "2023-08-09T22:54:22.128Z",
   "tokens": [
     {
       "chainId": 1,
@@ -572,6 +572,46 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "CHI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xc8d9871a79551ab4439c9e08f12962e3785f0437",
+      "name": "CryptoOracle Collective",
+      "symbol": "COC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/COC/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "COC"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x629c2fd5d5f432357465b59d7832389a89956f0b",
+      "name": "CryptoOracle Collective",
+      "symbol": "COC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/COC/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "COC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xE2B21D4684b2bA62F3BE1FE286eacb90D26E394d",
+      "name": "CryptoOracle Collective",
+      "symbol": "COC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/COC/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "COC"
       }
     },
     {
@@ -4390,6 +4430,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 108
+    "patch": 110
   }
 }

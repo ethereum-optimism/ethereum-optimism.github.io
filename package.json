@@ -1,9 +1,16 @@
 {
   "name": "@eth-optimism/tokenlist",
   "description": "[Optimism] token list",
-  "version": "8.3.108",
+  "version": "8.3.110",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "types": "dist/index.d.ts",
   "homepage": "https://github.com/ethereum-optimism/ethereum-optimism.github.io#readme",
   "license": "MIT",
