@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-10T16:54:30.122Z",
+  "timestamp": "2023-08-10T16:55:39.222Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2496,26 +2496,36 @@
     },
     {
       "chainId": 1,
-      "address": "0x0f9b80fc3c8b9123D0aEf43Df58ebDBC034A8901",
-      "name": "NFTEarth",
+      "address": "0x8c223a82e07fecb49d602150d7c2b3a4c9630310",
+      "name": "NFTEarthOFT",
       "symbol": "NFTE",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/NFTE/logo.png",
       "extensions": {
-        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "NFTE"
       }
     },
     {
       "chainId": 10,
-      "address": "0xc96f4F893286137aC17e07Ae7F217fFca5db3AB6",
-      "name": "NFTEarth",
+      "address": "0x8637725aDa78db0674a679CeA2A5e0A0869EF4A1",
+      "name": "NFTEarthOFT",
       "symbol": "NFTE",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/NFTE/logo.png",
       "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NFTE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc2106ca72996e49bBADcB836eeC52B765977fd20",
+      "name": "NFTEarthOFT",
+      "symbol": "NFTE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NFTE/logo.png",
+      "extensions": {
         "opListId": "extended",
         "opTokenId": "NFTE"
       }
@@ -4482,6 +4492,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 113
+    "patch": 114
   }
 }
