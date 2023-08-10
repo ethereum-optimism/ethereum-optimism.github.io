@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-09T22:54:22.128Z",
+  "timestamp": "2023-08-10T14:49:05.365Z",
   "tokens": [
     {
       "chainId": 1,
@@ -922,9 +922,10 @@
       "name": "Dola USD Stablecoin",
       "symbol": "DOLA",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "DOLA"
       }
@@ -935,9 +936,22 @@
       "name": "Dola USD Stablecoin",
       "symbol": "DOLA",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DOLA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4621b7A9c75199271F773Ebd9A499dbd165c3191",
+      "name": "Dola USD Stablecoin",
+      "symbol": "DOLA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "DOLA"
       }
@@ -3548,6 +3562,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F",
+      "name": "Trace Token",
+      "symbol": "TRAC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRAC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "TRAC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7Af72aD5E8793023DC722d617fe3338ac6b5ccE9",
+      "name": "Trace Token",
+      "symbol": "TRAC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRAC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TRAC"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
       "name": "Tellor",
       "symbol": "TRB",
@@ -4430,6 +4470,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 110
+    "patch": 112
   }
 }
