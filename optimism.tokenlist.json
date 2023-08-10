@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-10T14:44:14.130Z",
+  "timestamp": "2023-08-10T14:49:05.365Z",
   "tokens": [
     {
       "chainId": 1,
@@ -922,9 +922,10 @@
       "name": "Dola USD Stablecoin",
       "symbol": "DOLA",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "DOLA"
       }
@@ -935,9 +936,22 @@
       "name": "Dola USD Stablecoin",
       "symbol": "DOLA",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DOLA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4621b7A9c75199271F773Ebd9A499dbd165c3191",
+      "name": "Dola USD Stablecoin",
+      "symbol": "DOLA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "DOLA"
       }
@@ -4456,6 +4470,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 111
+    "patch": 112
   }
 }
