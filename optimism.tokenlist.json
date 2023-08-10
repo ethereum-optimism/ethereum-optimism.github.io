@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-10T14:49:05.365Z",
+  "timestamp": "2023-08-10T16:54:30.122Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1825,10 +1825,10 @@
     {
       "chainId": 1,
       "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
-      "name": "HOP",
+      "name": "Hop",
       "symbol": "HOP",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.svg",
       "extensions": {
         "opListId": "extended",
         "opTokenId": "HOP"
@@ -1837,10 +1837,22 @@
     {
       "chainId": 10,
       "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
-      "name": "HOP",
+      "name": "Hop",
       "symbol": "HOP",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "HOP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+      "name": "Hop",
+      "symbol": "HOP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.svg",
       "extensions": {
         "opListId": "extended",
         "opTokenId": "HOP"
@@ -4470,6 +4482,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 112
+    "patch": 113
   }
 }
