@@ -21,7 +21,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     id: 8453,
     name: 'Base',
     provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://mainnet.base.org',
+      'https://mainnet.base.org'
     ),
     layer: 2,
   },

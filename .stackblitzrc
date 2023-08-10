@@ -1,0 +1,4 @@
+{
+  "installDependencies": true,
+  "startScript": "pnpm allchecks",
+}
