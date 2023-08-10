@@ -1,16 +1,20 @@
 {
-    "name": "NFTEarth",
+    "name": "NFTEarthOFT",
     "symbol": "NFTE",
     "decimals": 18,
-    "description": "NFTEarth is a marketplace for NFTs.",
+    "description": "NFTEarth is a decentralized NFT marketplace built on Optimism and other networks designed for scalability. The native protocol token NFTE is bridged between chains via LayerZero.",
     "website": "https://nftearth.exchange",
     "twitter": "@NFTEarth_L2",
+    "nobridge": true,
     "tokens": {
       "ethereum": {
-        "address": "0x0f9b80fc3c8b9123D0aEf43Df58ebDBC034A8901"
+        "address": "0x8c223a82e07fecb49d602150d7c2b3a4c9630310"
       },
       "optimism": {
-        "address": "0xc96f4F893286137aC17e07Ae7F217fFca5db3AB6"
+        "address": "0x8637725aDa78db0674a679CeA2A5e0A0869EF4A1"
+      },
+      "base": {
+        "address": "0xc2106ca72996e49bBADcB836eeC52B765977fd20"
       }
     }
   }

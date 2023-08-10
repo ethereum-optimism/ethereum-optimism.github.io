@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-10T14:49:05.365Z",
+  "timestamp": "2023-08-10T16:57:28.584Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1825,10 +1825,10 @@
     {
       "chainId": 1,
       "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
-      "name": "HOP",
+      "name": "Hop",
       "symbol": "HOP",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.svg",
       "extensions": {
         "opListId": "extended",
         "opTokenId": "HOP"
@@ -1837,10 +1837,22 @@
     {
       "chainId": 10,
       "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
-      "name": "HOP",
+      "name": "Hop",
       "symbol": "HOP",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "HOP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+      "name": "Hop",
+      "symbol": "HOP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.svg",
       "extensions": {
         "opListId": "extended",
         "opTokenId": "HOP"
@@ -1896,6 +1908,18 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "IFARM"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x235226d2050C001FE78dED104364F9C2eB852E42",
+      "name": "Infected",
+      "symbol": "INFC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/INFC/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "INFC"
       }
     },
     {
@@ -2484,26 +2508,36 @@
     },
     {
       "chainId": 1,
-      "address": "0x0f9b80fc3c8b9123D0aEf43Df58ebDBC034A8901",
-      "name": "NFTEarth",
+      "address": "0x8c223a82e07fecb49d602150d7c2b3a4c9630310",
+      "name": "NFTEarthOFT",
       "symbol": "NFTE",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/NFTE/logo.png",
       "extensions": {
-        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "NFTE"
       }
     },
     {
       "chainId": 10,
-      "address": "0xc96f4F893286137aC17e07Ae7F217fFca5db3AB6",
-      "name": "NFTEarth",
+      "address": "0x8637725aDa78db0674a679CeA2A5e0A0869EF4A1",
+      "name": "NFTEarthOFT",
       "symbol": "NFTE",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/NFTE/logo.png",
       "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NFTE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc2106ca72996e49bBADcB836eeC52B765977fd20",
+      "name": "NFTEarthOFT",
+      "symbol": "NFTE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NFTE/logo.png",
+      "extensions": {
         "opListId": "extended",
         "opTokenId": "NFTE"
       }
@@ -2700,6 +2734,18 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "PHTK"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7C34073C56285944F9A5384137186abFAe1C3bf0",
+      "name": "Plague",
+      "symbol": "PLG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PLG/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PLG"
       }
     },
     {
@@ -4470,6 +4516,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 112
+    "patch": 115
   }
 }
