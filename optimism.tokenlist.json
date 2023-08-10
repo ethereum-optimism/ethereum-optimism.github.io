@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-10T16:55:39.222Z",
+  "timestamp": "2023-08-10T16:57:28.584Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1911,6 +1911,18 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0x235226d2050C001FE78dED104364F9C2eB852E42",
+      "name": "Infected",
+      "symbol": "INFC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/INFC/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "INFC"
+      }
+    },
+    {
       "chainId": 5,
       "address": "0x0C4a63D472120d7859E2842b7C2Bafbd8eDe8f44",
       "name": "InsureToken",
@@ -2722,6 +2734,18 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "PHTK"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7C34073C56285944F9A5384137186abFAe1C3bf0",
+      "name": "Plague",
+      "symbol": "PLG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PLG/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PLG"
       }
     },
     {
@@ -4492,6 +4516,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 114
+    "patch": 115
   }
 }
