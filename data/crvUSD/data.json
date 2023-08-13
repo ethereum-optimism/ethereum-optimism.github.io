@@ -1,0 +1,16 @@
+{
+  "name": "Curve.Fi USD Stablecoin",
+  "symbol": "crvUSD",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E"
+    },
+    "optimism": {
+      "address": "0xC52D7F23a2e460248Db6eE192Cb23dD12bDDCbf6"
+    },
+    "base": {
+      "address": "0xc04Fb38f10AD352c5f16Bd4546F7456E7f1A2D9e"
+    }
+  }
+}
