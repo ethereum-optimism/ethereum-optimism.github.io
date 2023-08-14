@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-14T04:47:48.359Z",
+  "timestamp": "2023-08-14T15:11:56.547Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3669,7 +3669,7 @@
     },
     {
       "chainId": 8453,
-      "address": "0x7Af72aD5E8793023DC722d617fe3338ac6b5ccE9",
+      "address": "0xA81a52B4dda010896cDd386C7fBdc5CDc835ba23",
       "name": "Trace Token",
       "symbol": "TRAC",
       "decimals": 18,
@@ -4564,6 +4564,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 117
+    "patch": 118
   }
 }
