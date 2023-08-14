@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-09T22:54:22.128Z",
+  "timestamp": "2023-08-14T04:47:48.359Z",
   "tokens": [
     {
       "chainId": 1,
@@ -922,9 +922,10 @@
       "name": "Dola USD Stablecoin",
       "symbol": "DOLA",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "DOLA"
       }
@@ -935,9 +936,22 @@
       "name": "Dola USD Stablecoin",
       "symbol": "DOLA",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DOLA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4621b7A9c75199271F773Ebd9A499dbd165c3191",
+      "name": "Dola USD Stablecoin",
+      "symbol": "DOLA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "DOLA"
       }
@@ -1811,10 +1825,10 @@
     {
       "chainId": 1,
       "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
-      "name": "HOP",
+      "name": "Hop",
       "symbol": "HOP",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.svg",
       "extensions": {
         "opListId": "extended",
         "opTokenId": "HOP"
@@ -1823,10 +1837,22 @@
     {
       "chainId": 10,
       "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
-      "name": "HOP",
+      "name": "Hop",
       "symbol": "HOP",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "HOP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+      "name": "Hop",
+      "symbol": "HOP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HOP/logo.svg",
       "extensions": {
         "opListId": "extended",
         "opTokenId": "HOP"
@@ -1882,6 +1908,18 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "IFARM"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x235226d2050C001FE78dED104364F9C2eB852E42",
+      "name": "Infected",
+      "symbol": "INFC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/INFC/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "INFC"
       }
     },
     {
@@ -2470,26 +2508,36 @@
     },
     {
       "chainId": 1,
-      "address": "0x0f9b80fc3c8b9123D0aEf43Df58ebDBC034A8901",
-      "name": "NFTEarth",
+      "address": "0x8c223a82e07fecb49d602150d7c2b3a4c9630310",
+      "name": "NFTEarthOFT",
       "symbol": "NFTE",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/NFTE/logo.png",
       "extensions": {
-        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "NFTE"
       }
     },
     {
       "chainId": 10,
-      "address": "0xc96f4F893286137aC17e07Ae7F217fFca5db3AB6",
-      "name": "NFTEarth",
+      "address": "0x8637725aDa78db0674a679CeA2A5e0A0869EF4A1",
+      "name": "NFTEarthOFT",
       "symbol": "NFTE",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/NFTE/logo.png",
       "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NFTE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc2106ca72996e49bBADcB836eeC52B765977fd20",
+      "name": "NFTEarthOFT",
+      "symbol": "NFTE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NFTE/logo.png",
+      "extensions": {
         "opListId": "extended",
         "opTokenId": "NFTE"
       }
@@ -2686,6 +2734,18 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "PHTK"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7C34073C56285944F9A5384137186abFAe1C3bf0",
+      "name": "Plague",
+      "symbol": "PLG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PLG/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PLG"
       }
     },
     {
@@ -3432,6 +3492,54 @@
     },
     {
       "chainId": 1,
+      "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+      "name": "tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/tBTC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "tBTC"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x679874fBE6D4E7Cc54A59e315FF1eB266686a937",
+      "name": "tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/tBTC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "tBTC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
+      "name": "Base tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/tBTC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "tBTC"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x783349cd20f26CE12e747b1a17bC38D252c9e119",
+      "name": "Base tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/tBTC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "tBTC"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x8947da500Eb47F82df21143D0C01A29862a8C3c5",
       "name": "Optimistic Thales Token",
       "symbol": "THALES",
@@ -3544,6 +3652,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "TOWER"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F",
+      "name": "Trace Token",
+      "symbol": "TRAC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRAC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "TRAC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7Af72aD5E8793023DC722d617fe3338ac6b5ccE9",
+      "name": "Trace Token",
+      "symbol": "TRAC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRAC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TRAC"
       }
     },
     {
@@ -4430,6 +4564,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 110
+    "patch": 117
   }
 }
