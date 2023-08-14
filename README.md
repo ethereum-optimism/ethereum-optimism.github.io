@@ -34,6 +34,8 @@ To visit your pr again if changes are needed simply go to `pr.new/github.com/GIT
 ### Base tokens
 For right now, `Base` tokens go through a separate review process. So, if you are adding tokens across both `Optimism` and `Base`, please separate this pull request into separate pull requests for each chain, in order to streamline the review process. If you are adding a token to a `Base` chain (e.g. `base` [mainnet] or `base-goerli` [testnet]) please add [@roberto-bayardo](https://github.com/roberto-bayardo) as a reviewer as they are the point of contact for `Base` tokens and must approve all `Base` tokens before they are merged.
 
+Instead of using the predeploy token factory on Base, we recommend you use the token factory at this [alternate address](https://github.cbhq.net/protocols/base-web) for the time being to avoid having a token address that may conflict with a different token on Optimism.
+
 ### Automated checks
 
 Our CI performs a series of automated checks on every PR.
