@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-14T23:43:12.916Z",
+  "timestamp": "2023-08-15T16:00:03.012Z",
   "tokens": [
     {
       "chainId": 1,
@@ -239,7 +239,7 @@
     },
     {
       "chainId": 8453,
-      "address": "0x7c6b91D9Be155A6Db01f749217d76fF02A7227F2",
+      "address": "0x4158734D47Fc9692176B5085E0F52ee0Da5d47F1",
       "name": "Balancer",
       "symbol": "BAL",
       "decimals": 18,
@@ -1529,6 +1529,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/GRG/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "GRG"
       }
@@ -1542,6 +1543,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/GRG/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GRG"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x09188484e1Ab980DAeF53a9755241D759C5B7d60",
+      "name": "Rigo Token",
+      "symbol": "GRG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GRG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GRG"
       }
@@ -4592,6 +4606,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 120
+    "patch": 122
   }
 }
