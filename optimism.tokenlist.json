@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-15T15:58:23.004Z",
+  "timestamp": "2023-08-15T16:01:50.988Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1529,6 +1529,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/GRG/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "GRG"
       }
@@ -1542,6 +1543,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/GRG/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GRG"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x09188484e1Ab980DAeF53a9755241D759C5B7d60",
+      "name": "Rigo Token",
+      "symbol": "GRG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GRG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GRG"
       }
@@ -2864,6 +2878,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "PSP"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x3FB90DaA2AEEb7b50A07cbcf23B9369B2A8099AF",
+      "name": "PTY Token",
+      "symbol": "PTY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PTY/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "PTY"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x8ee73c484a26e0a5df2ee2a4960b789967dd0415",
+      "name": "PTY Token",
+      "symbol": "PTY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PTY/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "PTY"
       }
     },
     {
@@ -4592,6 +4632,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 121
+    "patch": 123
   }
 }
