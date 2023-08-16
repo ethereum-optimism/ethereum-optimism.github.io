@@ -1,0 +1,28 @@
+{
+  "name": "HANePlatform",
+  "symbol": "HANeP",
+  "decimals": 18,
+  "description": "A token for the Decentralized copyright holder Identity Verification Smart Contract",
+  "website": "https://hanep.io",
+  "twitter": "@HANeP_official",
+  "tokens": {
+    "ethereum": {
+      "address": "0x5052fa4a2a147eaAa4c0242e9Cc54a10A4f42070"
+    },
+    "optimism": {
+      "address": "0xC3248A1bd9D72fa3DA6E6ba701E58CbF818354eB"
+    },
+    "goerli": {
+      "address": "0x13Ed63d6387C54352d2F5893821068b6Cd8f8103"
+    },
+    "optimism-goerli": {
+      "address": "0xFf733b2A3557a7ed6697007ab5D11B79FdD1b76B"
+    },
+    "base": {
+      "address": "0x3e7eF8f50246f725885102E8238CBba33F276747"
+    },
+    "base-goerli": {
+      "address": "0x35D48A789904E9b15705977192e5d95e2aF7f1D3"
+    }
+  }
+}

@@ -29,4 +29,5 @@ export const defaultTokenDataFolders = new Set([
   'CRV',
   'GTC',
   'ZRX',
+  'WLD',
 ])

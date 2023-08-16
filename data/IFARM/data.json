@@ -1,0 +1,16 @@
+{
+    "name": "iFARM",
+    "symbol": "iFARM",
+    "decimals": 18,
+    "description": "Interest Bearing FARM Token",
+    "website": "https://harvest.finance",
+    "twitter": "@harvest_finance",
+    "tokens": {
+      "ethereum": {
+        "address": "0x1571eD0bed4D987fe2b498DdBaE7DFA19519F651"
+      },
+      "base": {
+        "address": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea"
+      }
+    }
+  }

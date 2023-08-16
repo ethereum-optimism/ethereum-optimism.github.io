@@ -1,0 +1,14 @@
+{
+  "name": "Synth",
+  "symbol": "SYNTH",
+  "decimals": 18,
+  "description": "Multi-strategy crypto hedge fund",
+  "tokens": {
+    "ethereum": {
+      "address": "0xd41f3d112cb8695c7a8992e4055bd273f3ce8729"
+    },
+    "optimism": {
+      "address": "0xa925f4057d6E6C8FAf8bdE537Ad14BA91A1D0337"
+    }
+  }
+}
