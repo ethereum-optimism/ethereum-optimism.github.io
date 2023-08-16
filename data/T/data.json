@@ -1,0 +1,19 @@
+{
+  "name": "Threshold Network Token",
+  "symbol": "T",
+  "decimals": 18,
+  "description": "Threshold Network is the home of $tBTC, proxy re-encryption #PRE, $thUSD, and all threshold cryptography.",
+  "website": "https://threshold.network",
+  "twitter": "@TheTNetwork",
+  "tokens": {
+    "ethereum": {
+      "address": "0xCdF7028ceAB81fA0C6971208e83fa7872994beE5"
+    },
+    "optimism": {
+      "address": "0x747e42Eb0591547a0ab429B3627816208c734EA7"
+    },
+    "goerli": {
+      "address": "0x3f16380656cAE45D3f80D8833682d2b606eD094A"
+    }
+  }
+}
