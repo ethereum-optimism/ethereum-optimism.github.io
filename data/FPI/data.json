@@ -5,13 +5,13 @@
     "description": "The Frax Price Index is a protocol within the Frax ecosystem. The system will adjust every month according to an on-chain Consumer Price Index oracle so that holders of the FPI will increase their dollar-denominated value each month according to the reported CPI increase.",
     "website": "https://frax.finance/",
     "twitter": "@fraxfinance",
-    "nobridge": false,
+    "nobridge": true,
     "tokens": {
         "ethereum": {
             "address": "0x5Ca135cB8527d76e932f34B5145575F9d8cbE08E"
         },
         "optimism": {
           "address": "0xc5d43a94e26fca47a9b21cf547ae4aa0268670e1"
-        },
+        }
     }
 }
