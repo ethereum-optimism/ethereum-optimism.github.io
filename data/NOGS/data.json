@@ -1,0 +1,16 @@
+{
+  "name": "Noggles",
+  "symbol": "NOGS",
+  "decimals": 18,
+  "description": "Noggles (NOGS) is a nounish coin created to push the boundaries of the ⌐◨-◨ meme.\nLaunched on July 4th 2023 and powered by Nouns Name Service (NNS) and by other contributors, Noggles is an experimental attempt to create a nounish economy around the proliferation of the iconic ⌐◨-◨.",
+  "website": "https://noggles.com",
+  "twitter": "@nogglescoin",
+  "tokens": {
+    "goerli": {
+      "address": "0xE291F09a0B4FfC4e020A6BC48869385c674d379C"
+    },
+    "base-goerli": {
+      "address": "0xfe8b128ba8c78aabc59d4c64cee7ff28e9379921"
+    }
+  }
+}
