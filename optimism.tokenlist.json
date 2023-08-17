@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-17T16:43:36.054Z",
+  "timestamp": "2023-08-17T17:03:42.062Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1394,6 +1394,54 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "FOX"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x5Ca135cB8527d76e932f34B5145575F9d8cbE08E",
+      "name": "Frax Price Index",
+      "symbol": "FPI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FPI/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "FPI"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xc5d43a94e26fca47a9b21cf547ae4aa0268670e1",
+      "name": "Frax Price Index",
+      "symbol": "FPI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FPI/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "FPI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xc2544A32872A91F4A553b404C6950e89De901fdb",
+      "name": "Frax Price Index Share",
+      "symbol": "FPIS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FPIS/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "FPIS"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x8368Dca5CE2a4Db530c0F6e535d90B6826428Dee",
+      "name": "Frax Price Index Share",
+      "symbol": "FPIS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FPIS/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "FPIS"
       }
     },
     {
@@ -4764,6 +4812,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 133
+    "patch": 134
   }
 }
