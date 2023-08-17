@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-15T16:01:50.988Z",
+  "timestamp": "2023-08-17T16:24:18.820Z",
   "tokens": [
     {
       "chainId": 1,
@@ -378,6 +378,18 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BITCOIN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x30136B90e532141FeD006c61105cff3668b5c774",
+      "name": "BlueSwap",
+      "symbol": "BLUE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BLUE/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "BLUE"
       }
     },
     {
@@ -1392,6 +1404,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/FRAX/logo.svg",
       "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "FRAX"
       }
@@ -1404,6 +1417,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/FRAX/logo.svg",
       "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "FRAX"
       }
@@ -1416,6 +1430,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/frxETH/logo.svg",
       "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "frxETH"
       }
@@ -1428,6 +1443,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/frxETH/logo.svg",
       "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "frxETH"
       }
@@ -1452,6 +1468,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/FXS/logo.svg",
       "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "FXS"
       }
@@ -1464,6 +1481,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/FXS/logo.svg",
       "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "FXS"
       }
@@ -2941,6 +2959,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "default",
         "opTokenId": "rETH"
       }
@@ -2980,6 +2999,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "rETH"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c",
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "rETH"
       }
@@ -3071,6 +3103,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/RPL/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "RPL"
       }
@@ -3110,6 +3143,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/RPL/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RPL"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1f73EAf55d696BFFA9b0EA16fa987B93b0f4d302",
+      "name": "Rocket Pool Protocol",
+      "symbol": "RPL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RPL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "RPL"
       }
@@ -3188,6 +3234,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "sBTC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0000000000071821e8033345a7be174647be0706",
+      "name": "Scry Protocol",
+      "symbol": "SCRY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SCRY/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "SCRY"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x64ba55a341ec586a4c5d58d6297cde5125ab55bc",
+      "name": "Scry Protocol",
+      "symbol": "SCRY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SCRY/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SCRY"
       }
     },
     {
@@ -3615,6 +3687,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/THALES/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "default",
         "opTokenId": "THALES"
       }
@@ -3628,6 +3701,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/THALES/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "THALES"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf34e0cff046e154CAfCae502C7541b9E5FD8C249",
+      "name": "Optimistic Thales Token",
+      "symbol": "THALES",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/THALES/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "THALES"
       }
@@ -4459,6 +4545,32 @@
       }
     },
     {
+      "chainId": 5,
+      "address": "0xaA8cf5D519de4cFEa26FaDBff22299551Fb86C74",
+      "name": "OpenX Optimism",
+      "symbol": "wOpenX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wOpenX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "wOpenX"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x8B87444Dd5b001246180e90a4fFea94ADF55446c",
+      "name": "OpenX Optimism",
+      "symbol": "wOpenX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wOpenX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "wOpenX"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
       "name": "Wrapped liquid staked Ether 2.0",
@@ -4632,6 +4744,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 123
+    "patch": 131
   }
 }
