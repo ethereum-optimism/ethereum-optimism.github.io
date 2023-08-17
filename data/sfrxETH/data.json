@@ -1,0 +1,17 @@
+{
+    "name": "Staked Frax Ether",
+    "symbol": "sfrxETH",
+    "decimals": 18,
+    "website": "https://frax.finance/",
+    "description": "sfrxETH is the version of frxETH which accrues staking yield. All profit generated from Frax Ether validators is distributed to sfrxETH holders. By exchanging frxETH for sfrxETH, one become's eligible for staking yield, which is redeemed upon converting sfrxETH back to frxETH.",
+    "twitter": "@fraxfinance",
+    "nobridge": false,
+    "tokens": {
+        "ethereum": {
+            "address": "0xac3E018457B222d93114458476f3E3416Abbe38F"
+        },
+        "optimism": {
+          "address": "0x484c2D6e3cDd945a8B2DF735e079178C1036578c"
+        },
+    }
+}
