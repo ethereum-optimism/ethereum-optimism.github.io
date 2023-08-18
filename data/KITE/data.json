@@ -1,0 +1,16 @@
+{
+  "name": "KITE",
+  "symbol": "KITE",
+  "decimals": 18,
+  "description": "A multi-collateral RAI fork",
+  "website": "https://letsgethai.com/",
+  "twitter": "@letsgethai",
+  "tokens": {
+    "goerli": {
+      "address": "0xC535B85eC0fbDB69654c7E2Fe497053Af95d8A2e"
+    },
+    "optimism-goerli": {
+      "address": "0xbcc847DdE48E579fa8d98E0d4bd46161A0f84F8A"
+    }
+  }
+}
