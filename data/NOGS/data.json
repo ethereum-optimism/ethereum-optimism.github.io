@@ -11,6 +11,12 @@
     },
     "base-goerli": {
       "address": "0xfe8b128ba8c78aabc59d4c64cee7ff28e9379921"
+    },
+    "ethereum": {
+      "address": "0x5fa20d59d2a907e5fed9fb80b4a8d9f0d069a48d"
+    },
+    "base": {
+      "address": "0x13741c5df9ab03e7aa9fb3bf1f714551dd5a5f8a"
     }
   }
 }
