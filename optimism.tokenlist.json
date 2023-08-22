@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-18T18:58:00.188Z",
+  "timestamp": "2023-08-22T22:22:02.043Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2697,6 +2697,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x5fa20d59d2a907e5fed9fb80b4a8d9f0d069a48d",
+      "name": "Noggles",
+      "symbol": "NOGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOGS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "NOGS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x13741c5df9ab03e7aa9fb3bf1f714551dd5a5f8a",
+      "name": "Noggles",
+      "symbol": "NOGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOGS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NOGS"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0x4200000000000000000000000000000000000042",
       "name": "Optimism",
@@ -4876,6 +4902,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 137
+    "patch": 138
   }
 }
