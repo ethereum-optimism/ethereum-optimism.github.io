@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-22T22:22:02.043Z",
+  "timestamp": "2023-08-22T22:25:57.683Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3637,6 +3637,18 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0xA9C9Dcb054421DEDc9d9006CFfe843D0a5Cd6339",
+      "name": "Sustainable Growth",
+      "symbol": "SUS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SUS/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "SUS"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
       "name": "Synthetix USD",
@@ -4902,6 +4914,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 138
+    "patch": 139
   }
 }
