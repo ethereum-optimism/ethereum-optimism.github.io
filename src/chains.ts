@@ -29,7 +29,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     id: 424,
     name: 'PGN - Public Goods Network',
     provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rps.publicgoods.network'
+      'https://rpc.publicgoods.network'
     ),
     layer: 2,
   },
