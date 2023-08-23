@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-17T20:57:12.643Z",
+  "timestamp": "2023-08-22T22:37:29.732Z",
   "tokens": [
     {
       "chainId": 1,
@@ -756,6 +756,46 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "CRV"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+      "name": "Curve.Fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/crvUSD/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "crvUSD"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xC52D7F23a2e460248Db6eE192Cb23dD12bDDCbf6",
+      "name": "Curve.Fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/crvUSD/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "crvUSD"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x417Ac0e078398C154EdFadD9Ef675d30Be60Af93",
+      "name": "Curve.Fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/crvUSD/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "crvUSD"
       }
     },
     {
@@ -1618,6 +1658,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GRG"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x761a3557184cbc07b7493da0661c41177b2f97fa",
+      "name": "ValleyDAO Token",
+      "symbol": "GROW",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GROW/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "GROW"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xc871cCf95024eFa2CbcE69B5B775D2a1DcF49c1B",
+      "name": "ValleyDAO Token",
+      "symbol": "GROW",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GROW/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GROW"
       }
     },
     {
@@ -2657,6 +2723,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x5fa20d59d2a907e5fed9fb80b4a8d9f0d069a48d",
+      "name": "Noggles",
+      "symbol": "NOGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOGS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "NOGS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x13741c5df9ab03e7aa9fb3bf1f714551dd5a5f8a",
+      "name": "Noggles",
+      "symbol": "NOGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOGS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NOGS"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0x4200000000000000000000000000000000000042",
       "name": "Optimism",
@@ -3568,6 +3660,18 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SUKU"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xA9C9Dcb054421DEDc9d9006CFfe843D0a5Cd6339",
+      "name": "Sustainable Growth",
+      "symbol": "SUS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SUS/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "SUS"
       }
     },
     {
@@ -4836,6 +4940,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 136
+    "patch": 140
   }
 }
