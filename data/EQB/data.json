@@ -1,0 +1,15 @@
+{
+  "name": "Equilibria Token",
+  "symbol": "EQB",
+  "decimals": 18,
+  "website": "https://equilibria.fi/",
+  "twitter": "@Equilibriafi",
+  "tokens": {
+    "ethereum": {
+      "address": "0xfE80D611c6403f70e5B1b9B722D2B3510B740B2B"
+    },
+    "optimism": {
+      "address": "0xaf3A6f67Af1624d3878A8d30b09FAe7915DcA2a0"
+    }
+  }
+}

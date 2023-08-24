@@ -1,0 +1,12 @@
+{
+  "name": "Sustainable Growth",
+  "symbol": "SUS",
+  "decimals": 18,
+  "description": "Token focused at growing with a sustainable level due to incetivized temporarely locking mechanism.",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xA9C9Dcb054421DEDc9d9006CFfe843D0a5Cd6339"
+    }
+  }
+}
