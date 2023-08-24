@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-24T20:34:19.377Z",
+  "timestamp": "2023-08-24T20:40:21.842Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1124,6 +1124,58 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ENS"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x22Fc5A29bd3d6CCe19a06f844019fd506fCe4455",
+      "name": "Equilibria Pendle",
+      "symbol": "ePendle",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ePENDLE/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "ePENDLE"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x76c37F9949e05b37C8373d155C1Fef46a6858481",
+      "name": "Equilibria Pendle",
+      "symbol": "ePendle",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ePENDLE/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ePENDLE"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xfE80D611c6403f70e5B1b9B722D2B3510B740B2B",
+      "name": "Equilibria Token",
+      "symbol": "EQB",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/EQB/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "EQB"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xaf3A6f67Af1624d3878A8d30b09FAe7915DcA2a0",
+      "name": "Equilibria Token",
+      "symbol": "EQB",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/EQB/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "EQB"
       }
     },
     {
@@ -5006,6 +5058,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 144
+    "patch": 145
   }
 }
