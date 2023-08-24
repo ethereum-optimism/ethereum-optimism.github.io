@@ -15,7 +15,7 @@
       "base-goerli": {
         "address": "0x121dAEb77cFbC6a9CfC691Da4F5E97c8Bd02518F"
       },
-      "etherum-goerli": {
+      "goerli": {
         "address": "0x3b23554f7345d50e902a8e317361d83acf2481a6"
       }
     }
