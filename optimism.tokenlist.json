@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-17T16:13:16.800Z",
+  "timestamp": "2023-08-24T02:35:31.275Z",
   "tokens": [
     {
       "chainId": 1,
@@ -549,7 +549,7 @@
     },
     {
       "chainId": 84531,
-      "address": "0x52b7D8851d6CcBC6342ba0855Be65f7B82A3F17f",
+      "address": "0x0c79e0E0284a631b72946b27d8F61EA6d9bF45c6",
       "name": "Chain Games",
       "symbol": "CHAIN",
       "decimals": 18,
@@ -756,6 +756,46 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "CRV"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+      "name": "Curve.Fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/crvUSD/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "crvUSD"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xC52D7F23a2e460248Db6eE192Cb23dD12bDDCbf6",
+      "name": "Curve.Fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/crvUSD/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "crvUSD"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x417Ac0e078398C154EdFadD9Ef675d30Be60Af93",
+      "name": "Curve.Fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/crvUSD/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "crvUSD"
       }
     },
     {
@@ -1398,6 +1438,54 @@
     },
     {
       "chainId": 1,
+      "address": "0x5Ca135cB8527d76e932f34B5145575F9d8cbE08E",
+      "name": "Frax Price Index",
+      "symbol": "FPI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FPI/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "FPI"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xc5d43a94e26fca47a9b21cf547ae4aa0268670e1",
+      "name": "Frax Price Index",
+      "symbol": "FPI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FPI/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "FPI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xc2544A32872A91F4A553b404C6950e89De901fdb",
+      "name": "Frax Price Index Share",
+      "symbol": "FPIS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FPIS/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "FPIS"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x8368Dca5CE2a4Db530c0F6e535d90B6826428Dee",
+      "name": "Frax Price Index Share",
+      "symbol": "FPIS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FPIS/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "FPIS"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
       "name": "FRAX",
       "symbol": "FRAX",
@@ -1570,6 +1658,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GRG"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x761a3557184cbc07b7493da0661c41177b2f97fa",
+      "name": "ValleyDAO Token",
+      "symbol": "GROW",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GROW/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "GROW"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xc871cCf95024eFa2CbcE69B5B775D2a1DcF49c1B",
+      "name": "ValleyDAO Token",
+      "symbol": "GROW",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GROW/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GROW"
       }
     },
     {
@@ -2583,6 +2697,58 @@
       }
     },
     {
+      "chainId": 5,
+      "address": "0xE291F09a0B4FfC4e020A6BC48869385c674d379C",
+      "name": "Noggles",
+      "symbol": "NOGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOGS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "NOGS"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0xfe8b128ba8c78aabc59d4c64cee7ff28e9379921",
+      "name": "Noggles",
+      "symbol": "NOGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOGS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NOGS"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x5fa20d59d2a907e5fed9fb80b4a8d9f0d069a48d",
+      "name": "Noggles",
+      "symbol": "NOGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOGS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "NOGS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x13741c5df9ab03e7aa9fb3bf1f714551dd5a5f8a",
+      "name": "Noggles",
+      "symbol": "NOGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOGS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NOGS"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0x4200000000000000000000000000000000000042",
       "name": "Optimism",
@@ -3232,6 +3398,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x0000000000071821e8033345a7be174647be0706",
+      "name": "Scry Protocol",
+      "symbol": "SCRY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SCRY/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "SCRY"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x64ba55a341ec586a4c5d58d6297cde5125ab55bc",
+      "name": "Scry Protocol",
+      "symbol": "SCRY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SCRY/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SCRY"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xf1Dc500FdE233A4055e25e5BbF516372BC4F6871",
       "name": "Saddle DAO",
       "symbol": "SDL",
@@ -3266,6 +3458,30 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "sETH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xac3E018457B222d93114458476f3E3416Abbe38F",
+      "name": "Staked Frax Ether",
+      "symbol": "sfrxETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/sfrxETH/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "sfrxETH"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x484c2D6e3cDd945a8B2DF735e079178C1036578c",
+      "name": "Staked Frax Ether",
+      "symbol": "sfrxETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/sfrxETH/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "sfrxETH"
       }
     },
     {
@@ -3444,6 +3660,18 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SUKU"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xA9C9Dcb054421DEDc9d9006CFfe843D0a5Cd6339",
+      "name": "Sustainable Growth",
+      "symbol": "SUS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SUS/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "SUS"
       }
     },
     {
@@ -4513,6 +4741,32 @@
       }
     },
     {
+      "chainId": 5,
+      "address": "0xaA8cf5D519de4cFEa26FaDBff22299551Fb86C74",
+      "name": "OpenX Optimism",
+      "symbol": "wOpenX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wOpenX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "wOpenX"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x8B87444Dd5b001246180e90a4fFea94ADF55446c",
+      "name": "OpenX Optimism",
+      "symbol": "wOpenX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wOpenX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "wOpenX"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
       "name": "Wrapped liquid staked Ether 2.0",
@@ -4686,6 +4940,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 127
+    "patch": 141
   }
 }
