@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-24T02:35:31.275Z",
+  "timestamp": "2023-08-24T20:30:07.564Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3550,6 +3550,58 @@
     },
     {
       "chainId": 1,
+      "address": "0xB49fa25978abf9a248b8212Ab4b87277682301c0",
+      "name": "Rai.Finance",
+      "symbol": "SOFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOFI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "SOFI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x703D57164CA270b0B330A87FD159CfEF1490c0a5",
+      "name": "Rai.Finance",
+      "symbol": "SOFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOFI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SOFI"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x19e9338be738c7e51b2126A5e7B6A4c1ecB03DC2",
+      "name": "Rai.Finance",
+      "symbol": "SOFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOFI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "SOFI"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0xdb9888b842408b0b8efa1f5477bd9f351754999e",
+      "name": "Rai.Finance",
+      "symbol": "SOFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOFI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SOFI"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xD31a59c85aE9D8edEFeC411D448f90841571b89c",
       "name": "Solana",
       "symbol": "SOL",
@@ -4940,6 +4992,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 141
+    "patch": 142
   }
 }
