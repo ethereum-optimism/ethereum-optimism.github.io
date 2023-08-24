@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-24T20:31:22.074Z",
+  "timestamp": "2023-08-24T20:34:19.377Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3328,6 +3328,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/RSR/logo.png",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "RSR"
       }
@@ -3349,6 +3350,19 @@
       "chainId": 84531,
       "address": "0xc8058960a9d7E7d81143BDBA38d19e6824165932",
       "name": "Base Goerli Reserve RSR",
+      "symbol": "RSR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RSR/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RSR"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
+      "name": "Reserve Rights",
       "symbol": "RSR",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/RSR/logo.png",
@@ -4992,6 +5006,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 143
+    "patch": 144
   }
 }
