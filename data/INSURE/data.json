@@ -7,10 +7,13 @@
     "nonstandard": true,
     "tokens": {
         "goerli": {
-            "address": "0x0C4a63D472120d7859E2842b7C2Bafbd8eDe8f44"
+            "address": "0x09f0Ad07E7363557D077CF3e3BbaB9365DA533F6"
         },
         "optimism-goerli": {
-            "address": "0xeF26Ca2844b0b470AfC1b0aeF5F65e677dE6CD1f"
+            "address": "0xfb0a8CF5B2302f880aA26461C78A8DC20A02aE25",
+            "overrides": {
+                "name": "AltInsureToken"
+            }
         }
     }
 }
