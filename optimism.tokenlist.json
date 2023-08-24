@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-24T20:30:07.564Z",
+  "timestamp": "2023-08-24T20:31:22.074Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2078,11 +2078,11 @@
     },
     {
       "chainId": 5,
-      "address": "0x0C4a63D472120d7859E2842b7C2Bafbd8eDe8f44",
+      "address": "0x09f0Ad07E7363557D077CF3e3BbaB9365DA533F6",
       "name": "InsureToken",
       "symbol": "INSURE",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/INSURE/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/INSURE/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
         "opListId": "extended",
@@ -2091,11 +2091,11 @@
     },
     {
       "chainId": 420,
-      "address": "0xeF26Ca2844b0b470AfC1b0aeF5F65e677dE6CD1f",
-      "name": "InsureToken",
+      "address": "0xfb0a8CF5B2302f880aA26461C78A8DC20A02aE25",
+      "name": "AltInsureToken",
       "symbol": "INSURE",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/INSURE/logo.png",
+      "logoURI": "https://ethereum-optimism.github.io/data/INSURE/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
@@ -4992,6 +4992,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 142
+    "patch": 143
   }
 }
