@@ -22,7 +22,7 @@ Please note that by adding a token to the list we aren’t making any claims abo
 ### Base tokens
 For right now, `Base` tokens go through a separate review process. So, if you are adding tokens across both `Optimism` and `Base`, please separate this pull request into separate pull requests for each chain, in order to streamline the review process. If you are adding a token to a `Base` chain (e.g. `base` [mainnet] or `base-goerli` [testnet]) please add [@roberto-bayardo](https://github.com/roberto-bayardo) as a reviewer as they are the point of contact for `Base` tokens and must approve all `Base` tokens before they are merged.
 
-Instead of using the predeploy token factory on Base, we recommend you use the token factory at this [alternate address](https://github.cbhq.net/protocols/base-web) for the time being to avoid having a token address that may conflict with a different token on Optimism.
+Instead of using the predeploy token factory on Base, we recommend you use the token factory [listed here](https://docs.base.org/base-contracts/#l2-contract-addresses) for the time being to avoid having a token address that may conflict with a different token on Optimism.
 
 ### Automated checks
 
