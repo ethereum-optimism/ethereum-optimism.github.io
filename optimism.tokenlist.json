@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-24T20:40:21.842Z",
+  "timestamp": "2023-08-25T18:39:07.811Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2995,6 +2995,44 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x76ff2AB6b34142421F44A68cC8Dd08f45F9Ee2F2",
+      "name": "PIP",
+      "symbol": "PIP",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/PIP/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PIP"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x9B5Bbb80f2B2F9EdB997e4A9AF9D54E27E9E089f",
+      "name": "PIP",
+      "symbol": "PIP",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/PIP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "PIP"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x8be06e6ed3eb7121a42fc710b2bf16e83227ab97",
+      "name": "PIP",
+      "symbol": "PIP",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/PIP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "PIP"
+      }
+    },
+    {
       "chainId": 8453,
       "address": "0x7C34073C56285944F9A5384137186abFAe1C3bf0",
       "name": "Plague",
@@ -4859,8 +4897,21 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0xd17d5c95B9183354eF24866b61480FC53B729555",
+      "name": "OpenX Optimism",
+      "symbol": "wOpenX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wOpenX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "wOpenX"
+      }
+    },
+    {
       "chainId": 5,
-      "address": "0xaA8cf5D519de4cFEa26FaDBff22299551Fb86C74",
+      "address": "0x9f94cB0a13f125144052eAE76b56ff915A3DAb4a",
       "name": "OpenX Optimism",
       "symbol": "wOpenX",
       "decimals": 18,
@@ -4872,8 +4923,21 @@
       }
     },
     {
+      "chainId": 10,
+      "address": "0x96bBD55479e9923512dcc95Eb7Df5edDe6FB9874",
+      "name": "OpenX Optimism",
+      "symbol": "wOpenX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wOpenX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "wOpenX"
+      }
+    },
+    {
       "chainId": 420,
-      "address": "0x8B87444Dd5b001246180e90a4fFea94ADF55446c",
+      "address": "0x9c4d82Ff5d1562287000bAE8fFCDbDDa475bdA2A",
       "name": "OpenX Optimism",
       "symbol": "wOpenX",
       "decimals": 18,
@@ -5058,6 +5122,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 145
+    "patch": 147
   }
 }
