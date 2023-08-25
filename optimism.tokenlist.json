@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-24T20:40:21.842Z",
+  "timestamp": "2023-08-25T18:37:46.458Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2995,6 +2995,44 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x76ff2AB6b34142421F44A68cC8Dd08f45F9Ee2F2",
+      "name": "PIP",
+      "symbol": "PIP",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/PIP/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PIP"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x9B5Bbb80f2B2F9EdB997e4A9AF9D54E27E9E089f",
+      "name": "PIP",
+      "symbol": "PIP",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/PIP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "PIP"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x8be06e6ed3eb7121a42fc710b2bf16e83227ab97",
+      "name": "PIP",
+      "symbol": "PIP",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/PIP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "PIP"
+      }
+    },
+    {
       "chainId": 8453,
       "address": "0x7C34073C56285944F9A5384137186abFAe1C3bf0",
       "name": "Plague",
@@ -5058,6 +5096,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 145
+    "patch": 146
   }
 }
