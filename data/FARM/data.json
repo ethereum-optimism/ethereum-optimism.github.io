@@ -1,0 +1,16 @@
+{
+    "name": "FARM Reward Token",
+    "symbol": "FARM",
+    "decimals": 18,
+    "description": "Harvest Finance Reward Token",
+    "website": "https://harvest.finance",
+    "twitter": "@harvest_finance",
+    "tokens": {
+      "ethereum": {
+        "address": "0xa0246c9032bC3A600820415aE600c6388619A14D"
+      },
+      "base": {
+        "address": "0xD08a2917653d4E460893203471f0000826fb4034"
+      }
+    }
+  }

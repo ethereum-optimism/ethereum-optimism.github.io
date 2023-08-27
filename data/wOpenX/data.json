@@ -1,0 +1,22 @@
+{
+  "name": "OpenX Optimism",
+  "symbol": "wOpenX",
+  "decimals": 18,
+  "description": "The Open X Project writes smart contracts that facilitate the open exchange of ideas and value permissionless blockchains make possible.",
+  "website": "https://openxswap.exchange",
+  "twitter": "@OpenXSwap",
+  "tokens": {
+    "ethereum": {
+      "address": "0xd17d5c95B9183354eF24866b61480FC53B729555"
+    },
+    "goerli": {
+      "address": "0x9f94cB0a13f125144052eAE76b56ff915A3DAb4a"
+    },
+    "optimism": {
+      "address": "0x96bBD55479e9923512dcc95Eb7Df5edDe6FB9874"
+    },
+    "optimism-goerli": {
+      "address": "0x9c4d82Ff5d1562287000bAE8fFCDbDDa475bdA2A"
+    }
+  }
+}

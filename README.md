@@ -1,8 +1,10 @@
 # Superchain Token List
 
-The Superchain token list is used as the source of truth for the [Optimism bridge UI](https://app.optimism.io/bridge) and [Base bridge UI](https://bridge.base.org/deposit) which are the main interfaces for moving assets between Layer 1 and Layer 2.
+The Superchain token list is a list of tokens managed by the maintainers of this repo that have been deployed on Superchains including the OP Mainnet and Base. It serves as a source of truth for services such as the [Optimism bridge UI](https://app.optimism.io/bridge).
 
-It is worth noting that the Superchain Token List makes a distinction between token deployment / bridging and list curation. Tokens can be deployed / bridged in a permissionless manner, [anyone can deploy / bridge a token](https://github.com/ethereum-optimism/optimism-tutorial/tree/01e4f94fa2671cfed0c6c82257345f77b3b858ef/standard-bridge-standard-token) on the Superchain. The Superchain Token List is a curated list of tokens and is managed by the maintainers of this repo.
+It is worth noting that the Superchain Token List makes a distinction between token deployment / bridging and list curation. Tokens can be deployed / bridged in a permissionless manner, [anyone can deploy / bridge a token](https://github.com/ethereum-optimism/optimism-tutorial/tree/01e4f94fa2671cfed0c6c82257345f77b3b858ef/standard-bridge-standard-token) on the Superchain.
+
+Please note that by adding a token to the list we aren’t making any claims about the token itself; tokens are not reviewed for their quality, merits, or soundness as investments.
 
 ## Review process and merge criteria
 
@@ -18,7 +20,9 @@ It is worth noting that the Superchain Token List makes a distinction between t
 - [Tokens that modify balances without emitting a Transfer event](https://github.com/d-xo/weird-erc20#balance-modifications-outside-of-transfers-rebasingairdrops)
 
 ### Base tokens
-For right now, `Base` tokens go through a separate review process. So, if you are adding tokens across both `Optimism` and `Base`, please separate this pull request into separate pull requests for each chain, in order to streamline the review process. If you are adding a token to a `Base` chain (e.g. `base-goerli`) please add [@roberto-bayardo](https://github.com/roberto-bayardo) as a reviewer as they are the point of contact for `Base` tokens and must approve all `Base` tokens before they are merged.
+For right now, `Base` tokens go through a separate review process. So, if you are adding tokens across both `Optimism` and `Base`, please separate this pull request into separate pull requests for each chain, in order to streamline the review process. If you are adding a token to a `Base` chain (e.g. `base` [mainnet] or `base-goerli` [testnet]) please add [@roberto-bayardo](https://github.com/roberto-bayardo) as a reviewer as they are the point of contact for `Base` tokens and must approve all `Base` tokens before they are merged.
+
+Instead of using the predeploy token factory on Base, we recommend you use the token factory [listed here](https://docs.base.org/base-contracts/#l2-contract-addresses) for the time being to avoid having a token address that may conflict with a different token on Optimism.
 
 ### Automated checks
 
@@ -89,8 +93,11 @@ Add a file to your folder called `data.json` with the following format:
     "optimism-goerli": {
       "address": "0x6789678967896789678967896789678967896789"
     },
-    "base-goerli": {
+    "base": {
       "address": "0x7890789078907890789078907890789078907890"
+    },
+    "base-goerli": {
+      "address": "0x1011121011121011121011121011121011121011"
     }
   }
 }
@@ -102,6 +109,7 @@ We currently accept tokens on the following chains:
 - `ethereum`
 - `optimism`
 - `goerli`
+- `base`
 - `base-goerli`
 - `optimism-goerli`
 
