@@ -1,0 +1,16 @@
+{
+    "name": "Stable Coin",
+    "symbol": "SBC",
+    "decimals": 18,
+    "website": "https://brale.xyz/stable-coin-SBC",
+    "twitter": "@brale_xyz",
+    "nobridge": true,
+    "tokens": {
+      "ethereum": {
+        "address": "0xf9FB20B8E097904f0aB7d12e9DbeE88f2dcd0F16"
+      },
+      "base": {
+        "address": "0xfdcC3dd6671eaB0709A4C0f3F53De9a333d80798"
+      }
+    }
+}
