@@ -1,0 +1,15 @@
+{
+    "name": "Glo Dollar",
+    "symbol": "USDGLO",
+    "decimals": 18,
+    "website": "https://www.glodollar.org/",
+    "twitter": "@glodollar",
+    "tokens": {
+      "ethereum": {
+        "address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3"
+      },
+      "base": {
+        "address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3"
+      }
+    }
+}
