@@ -4,7 +4,6 @@
     "decimals": 18,
     "website": "https://brale.xyz/stable-coin-SBC",
     "twitter": "@brale_xyz",
-    "nobridge": true,
     "tokens": {
       "ethereum": {
         "address": "0xf9FB20B8E097904f0aB7d12e9DbeE88f2dcd0F16"
