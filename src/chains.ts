@@ -25,10 +25,24 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
+  pgn: {
+    id: 424,
+    name: 'PGN - Public Goods Network',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://rpc.publicgoods.network'
+    ),
+    layer: 2,
+  },
   goerli: {
     id: 5,
     name: 'Goerli',
     provider: new ethers.providers.InfuraProvider('goerli'),
+    layer: 1,
+  },
+  sepolia: {
+    id: 11155111,
+    name: 'Sepolia',
+    provider: new ethers.providers.InfuraProvider('sepolia'),
     layer: 1,
   },
   'optimism-goerli': {
@@ -45,6 +59,14 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     provider: new ethers.providers.StaticJsonRpcProvider(
       'https://goerli.base.org',
       84531
+    ),
+    layer: 2,
+  },
+  'pgn-sepolia': {
+    id: 58008,
+    name: 'PGN Sepolia',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://rpc.sepolia.publicgoods.network'
     ),
     layer: 2,
   },
@@ -69,10 +91,16 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   base: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
+  pgn: {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
   'optimism-goerli': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
   'base-goerli': {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
+  'pgn-sepolia': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
 }
@@ -80,8 +108,10 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
 export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   optimism: 'ethereum',
   base: 'ethereum',
+  pgn: 'ethereum',
   'optimism-goerli': 'goerli',
   'base-goerli': 'goerli',
+  'pgn-sepolia': 'sepolia'
 }
 
 export const L1_STANDARD_BRIDGE_INFORMATION: Record<
@@ -97,6 +127,10 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
       l2Chain: 'base',
       l1StandardBridgeAddress: '0x3154Cf16ccdb4C6d922629664174b904d80F2C35',
     },
+    {
+      l2Chain: 'pgn',
+      l1StandardBridgeAddress: '0xD0204B9527C1bA7bD765Fa5CCD9355d38338272b',
+    },
   ],
   goerli: [
     {
@@ -108,4 +142,9 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
       l1StandardBridgeAddress: '0xfa6d8ee5be770f84fc001d098c4bd604fe01284a',
     },
   ],
+  sepolia: [
+    {
+      l2Chain: 'pgn-sepolia',
+      l1StandardBridgeAddress: '0xFaE6abCAF30D23e233AC7faF747F2fC3a5a6Bfa3',
+    },
 }
