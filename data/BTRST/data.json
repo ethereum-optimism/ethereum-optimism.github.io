@@ -1,5 +1,5 @@
 {
-  "name": "Braintrust",
+  "name": "BTRST",
   "symbol": "BTRST",
   "decimals": 18,
   "description": "Token for ownership and governance of Braintrust, the decentralized talent network.",
@@ -10,7 +10,7 @@
       "address": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824"
     },
     "optimism": {
-      "address": "0x9E7Eb1dc2968a92C401a702572e2ABecd4086a12"
+      "address": "0xEd50aCE88bd42B45cB0F49be15395021E141254e"
     },
     "base": {
       "address": "0xFE8B128bA8C78aabC59d4c64cEE7fF28e9379921"
