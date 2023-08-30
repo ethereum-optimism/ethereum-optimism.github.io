@@ -12,8 +12,8 @@
     "optimism": {
       "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
         "overrides": {
-        "name": "USDC.e",
-        "symbol": "Bridged USDC"
+        "name": "Bridged USDC",
+        "symbol": "USDC.e"
       }
     },
     "base": {
@@ -29,8 +29,8 @@
     "optimism-goerli": {
       "address": "0x7E07E15D2a87A24492740D16f5bdF58c16db0c4E",
         "overrides": {
-        "name": "USDC.e",
-        "symbol": "Bridged USDC"
+        "name": "Bridged USDC",
+        "symbol": "USDC.e"
       }
     },
     "base-goerli": {
