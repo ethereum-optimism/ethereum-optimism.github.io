@@ -1,0 +1,22 @@
+{
+  "name": "Wrapped Ampleforth",
+  "symbol": "WAMPL",
+  "decimals": 18,
+  "description": "Wrapped Ampleforth",
+  "website": "https://ampleforth.org",
+  "twitter": "@ampleforthorg",
+  "tokens": {
+    "ethereum": {
+      "address": "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef"
+    },
+    "goerli": {
+      "address": "0x3b624861a14979537DE1B88F9565F41a7fc45FBf"
+    },
+    "base": {
+      "address": "0x489fe42C267fe0366B16b0c39e7AEEf977E841eF"
+    },
+    "base-goerli": {
+      "address": "0xeAeAdAC73baaF4cB8B024dE9D65B2eeFa722856C"
+    }
+  }
+}
