@@ -1,0 +1,22 @@
+{
+  "name": "SPOT",
+  "symbol": "SPOT",
+  "decimals": 9,
+  "description": "Spot",
+  "website": "https://spot.cash",
+  "twitter": "@SPOTprotocol",
+  "tokens": {
+    "ethereum": {
+      "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE"
+    },
+    "goerli": {
+      "address": "0x95014Bc18F82a98CFAA3253fbD3184125A01f848"
+    },
+    "base": {
+      "address": "0xEfB8A6EFf62b14b82A3197CEa85958C6370E1a94"
+    },
+    "base-goerli": {
+      "address": "0x78b3C724A2F663D11373C4a1978689271895256f"
+    }
+  }
+}
