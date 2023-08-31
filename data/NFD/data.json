@@ -7,7 +7,7 @@
   "twitter": "@NFDtoken",
   "tokens": {
     "ethereum": {
-      "address": "0xdfdb7f72c1f195c5951a234e8db9806eb0635346"
+      "address": "0xdfdb7f72c1f195c5951a234e8db9806eb0635346",
       "overrides": {
         "name": "Feisty Doge NFT"
       }
