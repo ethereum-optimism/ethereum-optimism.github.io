@@ -147,4 +147,5 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
       l2Chain: 'pgn-sepolia',
       l1StandardBridgeAddress: '0xFaE6abCAF30D23e233AC7faF747F2fC3a5a6Bfa3',
     },
+  ]
 }
