@@ -5,6 +5,7 @@
   "description": "PRIME is a utility token for games in the Echelon ecosystem such as Parallel TCG, Parallel Colony, and more.",
   "website": "https://echelon.io/",
   "twitter": "https://twitter.com/EchelonFND",
+  "nobridge": true,
   "tokens": {
     "ethereum": {
       "address": "0xb23d80f5fefcddaa212212f028021b41ded428cf"
