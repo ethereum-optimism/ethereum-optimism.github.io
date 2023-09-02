@@ -1,0 +1,13 @@
+{
+    "name": "DOHCOIN",
+    "symbol": "DOH",
+    "decimals": 18,
+    "description": "DOHCOIN Token mined with DOH MINER NFTs.",
+    "website": "https://dohcoin.com",
+    "twitter": "@dohwtf",
+    "tokens": {
+      "base": {
+        "address": "0xF37923311D71c986D701cddb3394777322294E3a"
+      }
+    }
+  }
