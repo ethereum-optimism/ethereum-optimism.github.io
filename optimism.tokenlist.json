@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-03T09:29:21.414Z",
+  "timestamp": "2023-09-03T09:31:04.979Z",
   "tokens": [
     {
       "chainId": 1,
@@ -601,7 +601,7 @@
     },
     {
       "chainId": 84531,
-      "address": "0x0c79e0E0284a631b72946b27d8F61EA6d9bF45c6",
+      "address": "0xeEFf5B1cd3DE16F347996725F5184fdAA54565A0",
       "name": "Chain Games",
       "symbol": "CHAIN",
       "decimals": 18,
@@ -5282,6 +5282,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 152
+    "patch": 153
   }
 }
