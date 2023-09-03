@@ -2,6 +2,8 @@ import { ethers } from 'ethers'
 
 import { Chain, L1Chain, L2Chain, Network } from './types'
 
+const DEFAULT_INFURA_KEY = '84842078b09946638c03157f83405213'
+
 export const NETWORK_DATA: Record<Chain, Network> = {
   ethereum: {
     id: 1,
@@ -42,7 +44,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
   sepolia: {
     id: 11155111,
     name: 'Sepolia',
-    provider: new ethers.providers.InfuraProvider('sepolia'),
+    provider: new ethers.providers.StaticJsonRpcProvider(`https://sepolia.infura.io/v3/${DEFAULT_INFURA_KEY}`, 11155111),
     layer: 1,
   },
   'optimism-goerli': {
