@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-08-25T18:39:07.811Z",
+  "timestamp": "2023-09-03T09:24:31.754Z",
   "tokens": [
     {
       "chainId": 1,
@@ -980,6 +980,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "DHT"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xbaac2b4491727d78d2b78815144570b9f2fe8899",
+      "name": "The Doge NFT",
+      "symbol": "DOG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DOG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "DOG"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xafb89a09d82fbde58f18ac6437b3fc81724e4df6",
+      "name": "The Doge NFT",
+      "symbol": "DOG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DOG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DOG"
       }
     },
     {
@@ -2714,6 +2740,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xdfdb7f72c1f195c5951a234e8db9806eb0635346",
+      "name": "Feisty Doge NFT",
+      "symbol": "NFD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NFD/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "NFD"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x37289326b7bca5a776a5071b8d693c0588c5c9a6",
+      "name": "Feisty Doge",
+      "symbol": "NFD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NFD/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NFD"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x8c223a82e07fecb49d602150d7c2b3a4c9630310",
       "name": "NFTEarthOFT",
       "symbol": "NFTE",
@@ -3015,6 +3067,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/PIP/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
         "opListId": "extended",
         "opTokenId": "PIP"
       }
@@ -3028,6 +3081,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/PIP/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "PIP"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x86842f66d94083694f49b155640e293d60c057a3",
+      "name": "PIP",
+      "symbol": "PIP",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/PIP/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "PIP"
       }
@@ -4359,8 +4425,8 @@
     {
       "chainId": 10,
       "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
-      "name": "USD Coin",
-      "symbol": "USDC",
+      "name": "Bridged USDC",
+      "symbol": "USDC.e",
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
       "extensions": {
@@ -4399,8 +4465,8 @@
     {
       "chainId": 420,
       "address": "0x7E07E15D2a87A24492740D16f5bdF58c16db0c4E",
-      "name": "USD Coin",
-      "symbol": "USDC",
+      "name": "Bridged USDC",
+      "symbol": "USDC.e",
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
       "extensions": {
@@ -5122,6 +5188,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 147
+    "patch": 149
   }
 }
