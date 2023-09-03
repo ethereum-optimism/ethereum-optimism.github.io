@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-03T09:24:31.754Z",
+  "timestamp": "2023-09-03T09:26:05.539Z",
   "tokens": [
     {
       "chainId": 1,
@@ -440,6 +440,58 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BOND"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x936Ab482d6bd111910a42849D3A51Ff80BB0A711",
+      "name": "Burn Wrapped AJNA",
+      "symbol": "bwAJNA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/bwAJNA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "bwAJNA"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x6c518f9D1a163379235816c543E62922a79863Fa",
+      "name": "Burn Wrapped AJNA",
+      "symbol": "bwAJNA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/bwAJNA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "bwAJNA"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xE38DFd7aB36806B882bD7332a8aE454f2273D015",
+      "name": "Burn Wrapped AJNA",
+      "symbol": "bwAJNA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/bwAJNA/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "bwAJNA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf0f326af3b1Ed943ab95C29470730CC8Cf66ae47",
+      "name": "Burn Wrapped AJNA",
+      "symbol": "bwAJNA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/bwAJNA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "bwAJNA"
       }
     },
     {
@@ -5188,6 +5240,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 149
+    "patch": 150
   }
 }
