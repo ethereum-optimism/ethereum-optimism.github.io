@@ -1,0 +1,19 @@
+{
+  "name": "Feisty Doge",
+  "symbol": "NFD",
+  "decimals": 18,
+  "description": "A fractionalized NFT of and from the real doge, Kabosu.",
+  "website": "https://feistydoge.art/",
+  "twitter": "@NFDtoken",
+  "tokens": {
+    "ethereum": {
+      "address": "0xdfdb7f72c1f195c5951a234e8db9806eb0635346",
+      "overrides": {
+        "name": "Feisty Doge NFT"
+      }
+    },
+    "base": {
+      "address": "0x37289326b7bca5a776a5071b8d693c0588c5c9a6"
+    }
+  }
+}
