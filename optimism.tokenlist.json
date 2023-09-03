@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-03T09:27:28.303Z",
+  "timestamp": "2023-09-03T09:29:21.414Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5037,6 +5037,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/wOpenX/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "wOpenX"
       }
@@ -5050,6 +5051,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/wOpenX/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
         "opListId": "extended",
         "opTokenId": "wOpenX"
       }
@@ -5076,6 +5078,32 @@
       "logoURI": "https://ethereum-optimism.github.io/data/wOpenX/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "wOpenX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xcC2a24405480242f8EE5d9b0aE27861D801d7FFA",
+      "name": "OpenX Optimism",
+      "symbol": "wOpenX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wOpenX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "wOpenX"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x8434DE6a606A412AfFEcF9B992bCdB72D5233fE9",
+      "name": "OpenX Optimism",
+      "symbol": "wOpenX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wOpenX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "wOpenX"
       }
@@ -5254,6 +5282,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 151
+    "patch": 152
   }
 }
