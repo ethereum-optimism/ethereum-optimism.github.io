@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-03T09:22:27.839Z",
+  "timestamp": "2023-09-03T09:24:31.754Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2740,6 +2740,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xdfdb7f72c1f195c5951a234e8db9806eb0635346",
+      "name": "Feisty Doge NFT",
+      "symbol": "NFD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NFD/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "NFD"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x37289326b7bca5a776a5071b8d693c0588c5c9a6",
+      "name": "Feisty Doge",
+      "symbol": "NFD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NFD/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NFD"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x8c223a82e07fecb49d602150d7c2b3a4c9630310",
       "name": "NFTEarthOFT",
       "symbol": "NFTE",
@@ -5162,6 +5188,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 148
+    "patch": 149
   }
 }
