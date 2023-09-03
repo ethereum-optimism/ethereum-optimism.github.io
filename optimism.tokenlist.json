@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-03T09:26:05.539Z",
+  "timestamp": "2023-09-03T09:27:28.303Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4248,6 +4248,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/TOWER/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "TOWER"
       }
@@ -4268,6 +4269,19 @@
     {
       "chainId": 84531,
       "address": "0x0bab321796c25acAA0D82E60C53322Db1DBF5D07",
+      "name": "TOWER",
+      "symbol": "TOWER",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TOWER/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TOWER"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf7C1CEfCf7E1dd8161e00099facD3E1Db9e528ee",
       "name": "TOWER",
       "symbol": "TOWER",
       "decimals": 18,
@@ -5240,6 +5254,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 150
+    "patch": 151
   }
 }
