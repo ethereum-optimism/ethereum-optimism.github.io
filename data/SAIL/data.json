@@ -1,0 +1,22 @@
+{
+  "name": "Sail",
+  "symbol": "SAIL",
+  "decimals": 18,
+  "description": "SAIL is the governance token of AdmiralDAO, the DAO behind Clipper DEX.",
+  "website": "https://www.admiraldao.xyz/sail",
+  "twitter": "@Clipper_DEX",
+  "tokens": {
+    "ethereum": {
+      "address": "0xd8F1460044925d2D5c723C7054cd9247027415B7"
+    },
+    "optimism": {
+      "address": "0x7a1263eC3Bf0a19e25C553B8A2C312e903262C5E"
+    },
+    "goerli": {
+      "address": "0x769728b5298445BA2828c0f3F5384227fbF590C5"
+    },
+    "optimism-goerli": {
+      "address": "0x4c16dD6e9b402Ea4FB5bE647Be2F49e3d59BB08A"
+    }
+  }
+}
