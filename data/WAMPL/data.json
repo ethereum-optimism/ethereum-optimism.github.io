@@ -11,6 +11,9 @@
     },
     "goerli": {
       "address": "0x3b624861a14979537DE1B88F9565F41a7fc45FBf"
+      "overrides": {
+        "symbol": "WAMPL"
+      }
     },
     "base": {
       "address": "0x489fe42C267fe0366B16b0c39e7AEEf977E841eF"
