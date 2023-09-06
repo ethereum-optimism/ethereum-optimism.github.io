@@ -10,7 +10,7 @@
       "address": "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef"
     },
     "goerli": {
-      "address": "0x3b624861a14979537DE1B88F9565F41a7fc45FBf"
+      "address": "0x3b624861a14979537DE1B88F9565F41a7fc45FBf",
       "overrides": {
         "symbol": "WAMPL"
       }
