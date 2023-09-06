@@ -1,0 +1,18 @@
+{
+    "name": "1INCH Token",
+    "symbol": "1INCH",
+    "decimals": 18,
+    "website": "https://1inch.io/",
+    "twitter": "@1inch",
+    "tokens": {
+      "ethereum": {
+        "address": "0x111111111117dC0aa78b770fA6A738034120C302"
+      },
+      "optimism": {
+        "address": "0xAd42D013ac31486B73b6b059e748172994736426"
+      },
+      "base": {
+        "address": "0xc5fecC3a29Fb57B5024eEc8a2239d4621e111CBE"
+      }
+    }
+}
