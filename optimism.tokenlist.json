@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-03T09:31:04.979Z",
+  "timestamp": "2023-09-06T15:00:53.017Z",
   "tokens": [
     {
       "chainId": 1,
@@ -874,6 +874,46 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "CTSI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x43D4A3cd90ddD2F8f4f693170C9c8098163502ad",
+      "name": "Prime",
+      "symbol": "D2D",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/D2D/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "D2D"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x91e1d2b9b0d9afcf1f024df09a68799fb200bc63",
+      "name": "Prime",
+      "symbol": "D2D",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/D2D/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "D2D"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x03e5b5930f3a42b56af4a982b10e60957bdd2f61",
+      "name": "Prime",
+      "symbol": "D2D",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/D2D/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "D2D"
       }
     },
     {
@@ -5282,6 +5322,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 153
+    "patch": 154
   }
 }
