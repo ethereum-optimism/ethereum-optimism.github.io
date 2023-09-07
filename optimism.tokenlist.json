@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-07T11:42:14.316Z",
+  "timestamp": "2023-09-07T19:35:33.612Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4972,6 +4972,58 @@
     },
     {
       "chainId": 1,
+      "address": "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef",
+      "name": "Wrapped Ampleforth",
+      "symbol": "WAMPL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WAMPL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "WAMPL"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x3b624861a14979537DE1B88F9565F41a7fc45FBf",
+      "name": "Wrapped Ampleforth",
+      "symbol": "WAMPL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WAMPL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "WAMPL"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x489fe42C267fe0366B16b0c39e7AEEf977E841eF",
+      "name": "Wrapped Ampleforth",
+      "symbol": "WAMPL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WAMPL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WAMPL"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x395Ae52bB17aef68C2888d941736A71dC6d4e125",
+      "name": "Wrapped Ampleforth",
+      "symbol": "WAMPL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WAMPL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WAMPL"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
       "name": "Wrapped BTC",
       "symbol": "WBTC",
@@ -5414,6 +5466,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 156
+    "patch": 157
   }
 }
