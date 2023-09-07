@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-06T15:01:33.919Z",
+  "timestamp": "2023-09-07T11:42:14.316Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3662,6 +3662,58 @@
     },
     {
       "chainId": 1,
+      "address": "0xd8F1460044925d2D5c723C7054cd9247027415B7",
+      "name": "SAIL Token",
+      "symbol": "SAIL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SAIL/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "SAIL"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x7a1263eC3Bf0a19e25C553B8A2C312e903262C5E",
+      "name": "SAIL Token",
+      "symbol": "SAIL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SAIL/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SAIL"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x769728b5298445BA2828c0f3F5384227fbF590C5",
+      "name": "SAIL Token",
+      "symbol": "SAIL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SAIL/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "SAIL"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x4c16dD6e9b402Ea4FB5bE647Be2F49e3d59BB08A",
+      "name": "SAIL Token",
+      "symbol": "SAIL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SAIL/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SAIL"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x7697b462a7c4ff5f8b55bdbc2f4076c2af9cf51a",
       "name": "Sarcophagus",
       "symbol": "SARCO",
@@ -5362,6 +5414,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 155
+    "patch": 156
   }
 }
