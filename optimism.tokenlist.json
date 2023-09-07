@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-07T19:35:33.612Z",
+  "timestamp": "2023-09-07T19:36:25.972Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2846,6 +2846,58 @@
     },
     {
       "chainId": 1,
+      "address": "0x6731827Cb6879a2091ce3ab3423f7bf20539b579",
+      "name": "Empower Token",
+      "symbol": "MPWR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MPWR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MPWR"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x1E1dfcf72dceF548e6AE581863a564FFe429dAA8",
+      "name": "Goerli MPWR",
+      "symbol": "MPWR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MPWR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "MPWR"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x1901Bf2952F438Fa6251ac100375769f9Afd907d",
+      "name": "Base Goerli MPWR",
+      "symbol": "MPWR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MPWR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MPWR"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x85267fBC6e1e1563bB9247336F05D9220eA99f52",
+      "name": "Empower Token",
+      "symbol": "MPWR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MPWR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MPWR"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2",
       "name": "Meta",
       "symbol": "MTA",
@@ -5466,6 +5518,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 157
+    "patch": 158
   }
 }
