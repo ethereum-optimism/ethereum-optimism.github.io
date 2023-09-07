@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-07T19:36:25.972Z",
+  "timestamp": "2023-09-07T19:38:21.462Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2333,6 +2333,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/KNC/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "default",
         "opTokenId": "KNC"
       }
@@ -2346,6 +2347,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/KNC/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "KNC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x28fe69Ff6864C1C218878BDCA01482D36B9D57b1",
+      "name": "Kyber Network Crystal v2",
+      "symbol": "KNC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/KNC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "KNC"
       }
@@ -3238,6 +3252,7 @@
       "decimals": 9,
       "logoURI": "https://ethereum-optimism.github.io/data/PIP/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "PIP"
       }
@@ -3272,6 +3287,19 @@
     {
       "chainId": 84531,
       "address": "0x86842f66d94083694f49b155640e293d60c057a3",
+      "name": "PIP",
+      "symbol": "PIP",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/PIP/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "PIP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x76ff2AB6b34142421F44A68cC8Dd08f45F9Ee2F2",
       "name": "PIP",
       "symbol": "PIP",
       "decimals": 9,
@@ -5518,6 +5546,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 158
+    "patch": 159
   }
 }
