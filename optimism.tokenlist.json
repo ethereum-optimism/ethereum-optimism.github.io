@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-07T19:38:21.462Z",
+  "timestamp": "2023-09-15T20:32:14.067Z",
   "tokens": [
     {
       "chainId": 1,
@@ -480,6 +480,46 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BOND"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
+      "name": "BTRST",
+      "symbol": "BTRST",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BTRST/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "BTRST"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xEd50aCE88bd42B45cB0F49be15395021E141254e",
+      "name": "BTRST",
+      "symbol": "BTRST",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BTRST/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BTRST"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xA7d68d155d17cB30e311367c2Ef1E82aB6022b67",
+      "name": "BTRST",
+      "symbol": "BTRST",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BTRST/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BTRST"
       }
     },
     {
@@ -5546,6 +5586,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 159
+    "patch": 160
   }
 }
