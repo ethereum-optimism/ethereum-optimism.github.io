@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-21T22:57:57.563Z",
+  "timestamp": "2023-09-21T23:02:02.167Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2376,6 +2376,58 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "INSURE"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x17d2628D30F8e9E966c9Ba831c9B9b01ea8Ea75C",
+      "name": "ISKRA TOKEN",
+      "symbol": "ISK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ISK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "ISK"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xce90437e27Cf9e4D22240C4CDb413BaF8Ec165D8",
+      "name": "ISKRA TOKEN",
+      "symbol": "ISK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ISK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "ISK"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x17d2628D30F8e9E966c9Ba831c9B9b01ea8Ea75C",
+      "name": "ISKRA TOKEN",
+      "symbol": "ISK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ISK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ISK"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x47762082D83994AFd311E559FE582B6dC99D89c4",
+      "name": "ISKRA TOKEN",
+      "symbol": "ISK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ISK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ISK"
       }
     },
     {
@@ -5558,6 +5610,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+      "name": "yearn.finance",
+      "symbol": "YFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YFI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "YFI"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x9046D36440290FfDE54FE0DD84Db8b1CfEE9107B",
+      "name": "yearn.finance",
+      "symbol": "YFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YFI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "YFI"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
       "name": "0x Protocol Token",
       "symbol": "ZRX",
@@ -5626,6 +5704,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 161
+    "patch": 163
   }
 }
