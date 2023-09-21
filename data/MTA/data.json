@@ -10,6 +10,9 @@
     },
     "optimism": {
       "address": "0x929b939f8524c3be977af57a4a0ad3fb1e374b50"
+    },
+    "base":     {
+      "address": "0xba7D47f471ADD16875e765edEe0858C3413A56Fd"
     }
   }
 }
