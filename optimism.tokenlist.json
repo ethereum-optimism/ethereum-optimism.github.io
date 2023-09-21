@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-21T23:02:02.167Z",
+  "timestamp": "2023-09-21T23:24:54.274Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3037,6 +3037,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MTA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "MTA"
       }
@@ -3050,6 +3051,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MTA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MTA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xba7D47f471ADD16875e765edEe0858C3413A56Fd",
+      "name": "Meta",
+      "symbol": "MTA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MTA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MTA"
       }
@@ -5704,6 +5718,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 163
+    "patch": 164
   }
 }
