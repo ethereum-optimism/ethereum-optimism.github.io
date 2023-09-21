@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-21T23:24:54.274Z",
+  "timestamp": "2023-09-21T23:37:43.257Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1031,7 +1031,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x10E6593CDda8c58a1d0f14C5164B376352a55f2F",
-        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "baseBridgeAddress": "0xD0204B9527C1bA7bD765Fa5CCD9355d38338272b",
         "opListId": "default",
         "opTokenId": "DAI"
       }
@@ -1092,6 +1092,19 @@
     {
       "chainId": 84531,
       "address": "0x174956bDfbCEb6e53089297cce4fE2825E58d92C",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "DAI"
+      }
+    },
+    {
+      "chainId": 424,
+      "address": "0x997cf63ab30BA8e591203228d5c5468Fc3834166",
       "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
@@ -5718,6 +5731,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 164
+    "patch": 165
   }
 }
