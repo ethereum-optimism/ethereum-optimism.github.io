@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-21T22:57:57.563Z",
+  "timestamp": "2023-09-21T23:37:43.257Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1031,7 +1031,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x10E6593CDda8c58a1d0f14C5164B376352a55f2F",
-        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "baseBridgeAddress": "0xD0204B9527C1bA7bD765Fa5CCD9355d38338272b",
         "opListId": "default",
         "opTokenId": "DAI"
       }
@@ -1092,6 +1092,19 @@
     {
       "chainId": 84531,
       "address": "0x174956bDfbCEb6e53089297cce4fE2825E58d92C",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "DAI"
+      }
+    },
+    {
+      "chainId": 424,
+      "address": "0x997cf63ab30BA8e591203228d5c5468Fc3834166",
       "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
@@ -2380,6 +2393,58 @@
     },
     {
       "chainId": 1,
+      "address": "0x17d2628D30F8e9E966c9Ba831c9B9b01ea8Ea75C",
+      "name": "ISKRA TOKEN",
+      "symbol": "ISK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ISK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "ISK"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xce90437e27Cf9e4D22240C4CDb413BaF8Ec165D8",
+      "name": "ISKRA TOKEN",
+      "symbol": "ISK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ISK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "ISK"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x17d2628D30F8e9E966c9Ba831c9B9b01ea8Ea75C",
+      "name": "ISKRA TOKEN",
+      "symbol": "ISK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ISK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ISK"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x47762082D83994AFd311E559FE582B6dC99D89c4",
+      "name": "ISKRA TOKEN",
+      "symbol": "ISK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ISK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ISK"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x8a9c67fee641579deba04928c4bc45f66e26343a",
       "name": "Jarvis Network Token",
       "symbol": "JRT",
@@ -2985,6 +3050,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MTA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "MTA"
       }
@@ -2998,6 +3064,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MTA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MTA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xba7D47f471ADD16875e765edEe0858C3413A56Fd",
+      "name": "Meta",
+      "symbol": "MTA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MTA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MTA"
       }
@@ -5558,6 +5637,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+      "name": "yearn.finance",
+      "symbol": "YFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YFI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "YFI"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x9046D36440290FfDE54FE0DD84Db8b1CfEE9107B",
+      "name": "yearn.finance",
+      "symbol": "YFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YFI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "YFI"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
       "name": "0x Protocol Token",
       "symbol": "ZRX",
@@ -5626,6 +5731,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 161
+    "patch": 165
   }
 }
