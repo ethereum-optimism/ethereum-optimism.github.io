@@ -1,0 +1,16 @@
+{
+  "name": "Tetu Token",
+  "symbol": "TETU",
+  "decimals": 18,
+  "description": "Asset management protocol",
+  "website": "https://tetu.io",
+  "twitter": "@tetu_io",
+  "tokens": {
+    "ethereum": {
+      "address": "0x0F72964Fa4b766521d84107991E837c30D0EF2b1"
+    },
+    "base": {
+      "address": "0x5E42c17CAEab64527D9d80d506a3FE01179afa02"
+    }
+  }
+}
