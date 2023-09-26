@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-22T21:38:39.197Z",
+  "timestamp": "2023-09-26T18:41:46.252Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5658,6 +5658,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/YFI/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "YFI"
       }
@@ -5671,6 +5672,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/YFI/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "YFI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x9EaF8C1E34F05a589EDa6BAfdF391Cf6Ad3CB239",
+      "name": "yearn.finance",
+      "symbol": "YFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YFI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "YFI"
       }
@@ -5745,6 +5759,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 167
+    "patch": 168
   }
 }
