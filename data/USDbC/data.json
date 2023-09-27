@@ -1,0 +1,16 @@
+{
+  "name": "USD Base Coin",
+  "symbol": "USDbC",
+  "decimals": 6,
+  "description": "USDC is a faster, safer, and more efficient way to send, spend, and exchange money around the globe.",
+  "website": "https://www.circle.com/en/usdc",
+  "twitter": "@circlepay",
+  "tokens": {
+    "base": {
+      "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+    },
+    "base-goerli": {
+      "address": "0x853154e2A5604E5C74a2546E2871Ad44932eB92C",
+    }
+  }
+}
