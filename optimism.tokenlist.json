@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-26T18:41:46.252Z",
+  "timestamp": "2023-09-29T20:17:41.978Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2446,11 +2446,25 @@
     {
       "chainId": 1,
       "address": "0x8a9c67fee641579deba04928c4bc45f66e26343a",
-      "name": "Jarvis Network Token",
+      "name": "Jarvis Reward Token",
       "symbol": "JRT",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/JRT/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "JRT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xde0D2ee637D3e4Fd02bc99508CA5e94dd7055766",
+      "name": "Jarvis Reward Token",
+      "symbol": "JRT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/JRT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "JRT"
       }
@@ -5759,6 +5773,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 168
+    "patch": 169
   }
 }
