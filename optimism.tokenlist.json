@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-29T20:17:41.978Z",
+  "timestamp": "2023-09-29T20:18:30.268Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3575,6 +3575,54 @@
     },
     {
       "chainId": 1,
+      "address": "0xb23d80f5fefcddaa212212f028021b41ded428cf",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xfa980ced6895ac314e7de34ef1bfae90a5add21b",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x121dAEb77cFbC6a9CfC691Da4F5E97c8Bd02518F",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x3b23554f7345d50e902a8e317361d83acf2481a6",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5",
       "name": "ParaSwap",
       "symbol": "PSP",
@@ -5773,6 +5821,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 169
+    "patch": 170
   }
 }
