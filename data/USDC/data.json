@@ -32,6 +32,7 @@
     },
     "base-goerli": {
       "address": "0xf175520c52418dfe19c8098071a252da48cd1c19",
+      "nobridge": true
     }
   }
 }
