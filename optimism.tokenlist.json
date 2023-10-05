@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-10-03T12:48:01.230Z",
+  "timestamp": "2023-10-05T07:03:43.282Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4583,6 +4583,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x0F72964Fa4b766521d84107991E837c30D0EF2b1",
+      "name": "Tetu Token",
+      "symbol": "TETU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TETU/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "TETU"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5E42c17CAEab64527D9d80d506a3FE01179afa02",
+      "name": "Tetu Token",
+      "symbol": "TETU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TETU/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TETU"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x8947da500Eb47F82df21143D0C01A29862a8C3c5",
       "name": "Optimistic Thales Token",
       "symbol": "THALES",
@@ -5821,6 +5847,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 171
+    "patch": 172
   }
 }
