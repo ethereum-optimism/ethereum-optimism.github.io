@@ -55,6 +55,14 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
+  'optimism-sepolia': {
+    id: 11155420,
+    name: 'Optimism Sepolia',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://sepolia.optimism.io'
+    ),
+    layer: 2,
+  },
   'base-goerli': {
     id: 84531,
     name: 'Base Goerli',
@@ -99,6 +107,9 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   'optimism-goerli': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
+  'optimism-sepolia': {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
   'base-goerli': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
@@ -112,6 +123,7 @@ export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   base: 'ethereum',
   pgn: 'ethereum',
   'optimism-goerli': 'goerli',
+  'optimism-sepolia': 'sepolia',
   'base-goerli': 'goerli',
   'pgn-sepolia': 'sepolia'
 }
@@ -145,6 +157,10 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     },
   ],
   sepolia: [
+    {
+      l2Chain: 'optimism-sepolia',
+      l1StandardBridgeAddress: '0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1',
+    },
     {
       l2Chain: 'pgn-sepolia',
       l1StandardBridgeAddress: '0xFaE6abCAF30D23e233AC7faF747F2fC3a5a6Bfa3',
