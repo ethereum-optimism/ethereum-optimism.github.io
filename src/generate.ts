@@ -88,7 +88,7 @@ const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
     }
     return [
       {
-        [chain === 'optimism' || chain === 'optimism-goerli'
+        [chain === 'optimism' || chain === 'optimism-goerli' || chain === 'optimism-sepolia'
           ? 'optimismBridgeAddress'
           : 'baseBridgeAddress']:
           tokenBridgeOverride ??
@@ -117,7 +117,7 @@ const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
         )
       }
       return {
-        [l2Chain === 'optimism' || l2Chain === 'optimism-goerli'
+        [l2Chain === 'optimism' || l2Chain === 'optimism-goerli' || l2Chain === 'optimism-sepolia'
           ? 'optimismBridgeAddress'
           : 'baseBridgeAddress']:
           tokenBridgeOverride?.[l2Chain] ??
