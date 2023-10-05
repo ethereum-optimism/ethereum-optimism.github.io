@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-22T21:38:39.197Z",
+  "timestamp": "2023-10-03T12:48:01.230Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2446,11 +2446,25 @@
     {
       "chainId": 1,
       "address": "0x8a9c67fee641579deba04928c4bc45f66e26343a",
-      "name": "Jarvis Network Token",
+      "name": "Jarvis Reward Token",
       "symbol": "JRT",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/JRT/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "JRT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xde0D2ee637D3e4Fd02bc99508CA5e94dd7055766",
+      "name": "Jarvis Reward Token",
+      "symbol": "JRT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/JRT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "JRT"
       }
@@ -3557,6 +3571,54 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "PREMIA"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xb23d80f5fefcddaa212212f028021b41ded428cf",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xfa980ced6895ac314e7de34ef1bfae90a5add21b",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x121dAEb77cFbC6a9CfC691Da4F5E97c8Bd02518F",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x3b23554f7345d50e902a8e317361d83acf2481a6",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
       }
     },
     {
@@ -5658,6 +5720,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/YFI/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "YFI"
       }
@@ -5671,6 +5734,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/YFI/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "YFI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x9EaF8C1E34F05a589EDa6BAfdF391Cf6Ad3CB239",
+      "name": "yearn.finance",
+      "symbol": "YFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YFI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "YFI"
       }
@@ -5745,6 +5821,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 167
+    "patch": 171
   }
 }
