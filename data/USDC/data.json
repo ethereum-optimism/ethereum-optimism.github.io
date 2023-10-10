@@ -5,34 +5,25 @@
   "description": "USDC is a faster, safer, and more efficient way to send, spend, and exchange money around the globe.",
   "website": "https://www.circle.com/en/usdc",
   "twitter": "@circlepay",
+  "nobridge": true,
   "tokens": {
     "ethereum": {
       "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     },
-    "optimism": {
-      "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
-        "overrides": {
-        "name": "Bridged USDC",
-        "symbol": "USDC.e"
-      }
-    },
-    "base": {
-      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-      "nobridge": true
-    },
     "goerli": {
       "address": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F"
     },
-    "optimism-goerli": {
-      "address": "0x7E07E15D2a87A24492740D16f5bdF58c16db0c4E",
-        "overrides": {
-        "name": "Bridged USDC",
-        "symbol": "USDC.e"
-      }
+    "base": {
+      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
     },
     "base-goerli": {
-      "address": "0xf175520c52418dfe19c8098071a252da48cd1c19",
-      "nobridge": true
+      "address": "0xf175520c52418dfe19c8098071a252da48cd1c19"
+    },
+    "optimism": {
+      "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85"
+    },
+    "optimism-goerli": {
+      "address": "0xe05606174bac4A6364B31bd0eCA4bf4dD368f8C6"
     }
   }
 }
