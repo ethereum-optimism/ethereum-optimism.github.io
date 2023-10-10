@@ -1,0 +1,16 @@
+{
+    "name": "Alluo Token",
+    "symbol": "ALLUO",
+    "decimals": 18,
+    "description": "Governance and utility token of the Alluo Protocol. Find out more at alluo.com",
+    "website": "alluo.com",
+    "twitter": "https://twitter.com/AlluoApp",
+    "tokens": {
+      "ethereum": {
+        "address": "0x1e5193ccc53f25638aa22a940af899b692e10b09"
+      },
+      "base": {
+        "address": "0xAA6128c76bD82b80ce5801E4022F2EF50AD53FC6"
+      }
+    }
+  }
