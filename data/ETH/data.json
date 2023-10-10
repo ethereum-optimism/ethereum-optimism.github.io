@@ -12,7 +12,13 @@
     "goerli": {
       "address": "0x0000000000000000000000000000000000000000"
     },
+    "sepolia": {
+      "address": "0x0000000000000000000000000000000000000000"
+    },
     "optimism-goerli": {
+      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
+    },
+    "optimism-sepolia": {
       "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
     }
   }
