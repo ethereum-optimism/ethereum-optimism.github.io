@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-10-05T07:03:43.282Z",
+  "timestamp": "2023-10-10T17:28:12.283Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1507,7 +1507,33 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0x0000000000000000000000000000000000000000",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "opListId": "default",
+        "opTokenId": "ETH"
+      }
+    },
+    {
       "chainId": 420,
+      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "ETH"
+      }
+    },
+    {
+      "chainId": 11155420,
       "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
       "name": "Ether",
       "symbol": "ETH",
@@ -5847,6 +5873,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 172
+    "patch": 173
   }
 }
