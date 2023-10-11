@@ -2,7 +2,7 @@
   "name": "USD Coin",
   "symbol": "USDC",
   "decimals": 6,
-  "description": "USDC is a faster, safer, and more efficient way to send, spend, and exchange money around the globe.",
+  "description": "USDC is a faster, safer, and more efficient way to send, spend, and exchange money around the globe. This is native USDC, minted by Circle's Cross-Chain Transfer Protocol.",
   "website": "https://www.circle.com/en/usdc",
   "twitter": "@circlepay",
   "nobridge": true,
