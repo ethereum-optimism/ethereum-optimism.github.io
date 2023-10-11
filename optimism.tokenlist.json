@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-26T18:41:46.252Z",
+  "timestamp": "2023-10-10T17:28:12.283Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1507,7 +1507,33 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0x0000000000000000000000000000000000000000",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "opListId": "default",
+        "opTokenId": "ETH"
+      }
+    },
+    {
       "chainId": 420,
+      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "ETH"
+      }
+    },
+    {
+      "chainId": 11155420,
       "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
       "name": "Ether",
       "symbol": "ETH",
@@ -2446,11 +2472,25 @@
     {
       "chainId": 1,
       "address": "0x8a9c67fee641579deba04928c4bc45f66e26343a",
-      "name": "Jarvis Network Token",
+      "name": "Jarvis Reward Token",
       "symbol": "JRT",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/JRT/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "JRT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xde0D2ee637D3e4Fd02bc99508CA5e94dd7055766",
+      "name": "Jarvis Reward Token",
+      "symbol": "JRT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/JRT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "JRT"
       }
@@ -3561,6 +3601,54 @@
     },
     {
       "chainId": 1,
+      "address": "0xb23d80f5fefcddaa212212f028021b41ded428cf",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xfa980ced6895ac314e7de34ef1bfae90a5add21b",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x121dAEb77cFbC6a9CfC691Da4F5E97c8Bd02518F",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x3b23554f7345d50e902a8e317361d83acf2481a6",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5",
       "name": "ParaSwap",
       "symbol": "PSP",
@@ -4517,6 +4605,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "tBTC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0F72964Fa4b766521d84107991E837c30D0EF2b1",
+      "name": "Tetu Token",
+      "symbol": "TETU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TETU/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "TETU"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5E42c17CAEab64527D9d80d506a3FE01179afa02",
+      "name": "Tetu Token",
+      "symbol": "TETU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TETU/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TETU"
       }
     },
     {
@@ -5759,6 +5873,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 168
+    "patch": 173
   }
 }
