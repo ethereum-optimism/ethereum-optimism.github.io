@@ -1,0 +1,15 @@
+{
+  "name": "Growability Network Token",
+  "symbol": "GRW",
+  "decimals": 18,
+  "description": "Growability Network Token",
+  "website": "https://growability.io",
+  "tokens": {
+      "ethereum": {
+          "address": "0x6A36B5149A102199Ac784D45C196aF6B76a91eF7"
+      },
+      "optimism": {
+          "address": "0x6a4e451431247E5F7222BD556567Bd49EC0a52D9"
+      }
+  }
+}
