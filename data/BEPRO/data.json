@@ -1,0 +1,16 @@
+{
+    "name": "Bepro",
+    "symbol": "BEPRO",
+    "decimals": 18,
+    "description": "Empowering developers to buidl and earn crypto by completing tasks",
+    "website": "https://bepro.network",
+    "twitter": "@bepronet",
+    "tokens": {
+      "ethereum": {
+        "address": "0xcf3c8be2e2c42331da80ef210e9b1b307c03d36a"
+      },
+      "base": {
+        "address": "0xc9d7411768FBbbd2ab0A97273E18882AD776383E"
+      }
+    }
+}
