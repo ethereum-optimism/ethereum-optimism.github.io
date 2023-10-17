@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-10-11T21:42:23.900Z",
+  "timestamp": "2023-10-17T17:35:24.313Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4397,6 +4397,58 @@
     },
     {
       "chainId": 1,
+      "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+      "name": "SPOT",
+      "symbol": "SPOT",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/SPOT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "SPOT"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x95014Bc18F82a98CFAA3253fbD3184125A01f848",
+      "name": "SPOT",
+      "symbol": "SPOT",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/SPOT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "SPOT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x8f2E6758C4D6570344bd5007DEc6301cd57590A0",
+      "name": "SPOT",
+      "symbol": "SPOT",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/SPOT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SPOT"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x7d4f70b55f7883e5981B41E91C3eD908821063f9",
+      "name": "SPOT",
+      "symbol": "SPOT",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/SPOT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SPOT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xcb9f85730f57732fc899fb158164b9ed60c77d49",
       "name": "Staked Lyra",
       "symbol": "stkLYRA",
@@ -5917,6 +5969,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 174
+    "patch": 175
   }
 }
