@@ -1,5 +1,5 @@
 {
-  "name": "Scamfari Token",
+  "name": "Scamfari",
   "symbol": "SCM",
   "decimals": 18,
   "description": "Scamfari Token",
@@ -11,9 +11,6 @@
     },
     "optimism": {
       "address": "0x61ccfe71d8ee67780320b0d990A02D702d99C271"
-    },
-    "goerli": {
-      "address": "0x738BE0a1146aAD9Cdd5fd9A5e3B51CeE712C43A7"
     }
   }
 }
