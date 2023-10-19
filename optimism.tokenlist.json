@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-10-17T17:35:24.313Z",
+  "timestamp": "2023-10-19T11:14:46.374Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1156,7 +1156,7 @@
     },
     {
       "chainId": 424,
-      "address": "0x997cf63ab30BA8e591203228d5c5468Fc3834166",
+      "address": "0x6C121674ba6736644A7e73A8741407fE8a5eE5BA",
       "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
@@ -5969,6 +5969,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 175
+    "patch": 176
   }
 }
