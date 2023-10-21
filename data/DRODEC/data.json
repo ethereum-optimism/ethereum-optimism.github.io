@@ -8,7 +8,12 @@
   "tokens": {
     "ethereum": {
       "address": "0xe1eb70b51c87e927d1a823dbd478c27ab0f777f1"
+     },
+    "optimism": {
+      "address": "0xdc486e3ca8a1bd88d964c517e26a1e5ae3277ae1"
     },
-    
+    "base": {
+      "address": "0xa179f57920bf958528771ffa35694a3325f042c7"
+    }
   }
 }
