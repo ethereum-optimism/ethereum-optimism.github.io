@@ -1,0 +1,16 @@
+{
+  "name": "Wrapped eETH",
+  "symbol": "weETH",
+  "decimals": 18,
+  "description": "Ether.fi Wrapped eETH",
+  "website": "https://www.ether.fi/",
+  "twitter": "@ether_fi",
+  "tokens": {
+    "goerli": {
+      "address": "0xAc687b5ccd042e0d70405219112d95035938e3e8"
+    },
+    "optimism-goerli": {
+      "address": "0x7e7d4467112689329f7E06571eD0E8CbAd4910eE"
+    }
+  }
+}
