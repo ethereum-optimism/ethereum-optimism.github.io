@@ -1,0 +1,16 @@
+{
+  "name": "DRODEC",
+  "symbol": "DRODEC",
+  "decimals": 18,
+  "description": "The reward and utility token for the DeFli Network's decentralized drone detection project",
+  "website": "https://defli.network/drone-detection-host",
+  "twitter": "@token",
+  "tokens": {
+    "ethereum": {
+      "address": "0xe1eb70B51C87e927d1a823Dbd478C27AB0F777F1"
+    },
+    "optimism": {
+      "address": "0xEf2e500f0384693eDa5423264e14e839DBD17Cb6"
+    }
+  }
+}
