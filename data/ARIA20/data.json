@@ -1,0 +1,16 @@
+{
+  "name": "Arianee",
+  "symbol": "ARIA20",
+  "decimals": 18,
+  "description": "ARIA20 is the native token for Arianee Protocol.",
+  "website": "https://www.arianee.org",
+  "twitter": "@ArianeeProject",
+  "tokens": {
+    "ethereum": {
+      "address": "0xeDF6568618A00C6F0908Bf7758A16F76B6E04aF9"
+    },
+    "optimism": {
+      "address": "0xE935b261D3351eFB33ff8c4f94AFb9016E7383Aa"
+    }
+  }
+}
