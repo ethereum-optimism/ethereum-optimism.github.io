@@ -7,13 +7,13 @@
   "twitter": "@defli_networks",
   "tokens": {
     "ethereum": {
-      "address": "0xe1eb70b51c87e927d1a823dbd478c27ab0f777f1"
+      "address": "0xe1eb70B51C87e927d1a823Dbd478C27AB0F777F1"
      },
     "optimism": {
-      "address": "0xdc486e3ca8a1bd88d964c517e26a1e5ae3277ae1"
+      "address": "0x05c87b79844227a4d95171E9969da3DD7d65914e"
     },
     "base": {
-      "address": "0xa179f57920bf958528771ffa35694a3325f042c7"
+      "address": "0x5a01bdaa010938eb7615c63cb22cf3e94e8505df"
     }
   }
 }
