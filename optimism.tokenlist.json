@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-10-27T18:25:03.744Z",
+  "timestamp": "2023-10-30T22:49:46.776Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3806,6 +3806,18 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0x41E99e0F73a88947C52070FF67C19B7aBc171A54",
+      "name": "Redemption Finance",
+      "symbol": "RDMP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RDMP/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "RDMP"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xae78736cd615f374d3085123a210448e74fc6393",
       "name": "Rocket Pool ETH",
@@ -6023,6 +6035,6 @@
   "version": {
     "major": 8,
     "minor": 3,
-    "patch": 178
+    "patch": 179
   }
 }
