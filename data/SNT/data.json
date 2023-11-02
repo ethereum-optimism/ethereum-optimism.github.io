@@ -17,6 +17,13 @@
         "name": "Status Test Token",
         "symbol": "STT"
       }
+    },
+    "goerli-optimism": {
+      "address": "0xcAD273fA2bb77875333439FDf4417D995159c3E1",
+      "overrides": {
+        "name": "Status Test Token",
+        "symbol": "STT"
+      }
     }
   }
 }
