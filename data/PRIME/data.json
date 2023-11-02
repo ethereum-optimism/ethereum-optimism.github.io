@@ -1,0 +1,23 @@
+{
+  "name": "Prime",
+  "symbol": "PRIME",
+  "decimals": 18,
+  "description": "PRIME is a utility token for games in the Echelon ecosystem such as Parallel TCG, Parallel Colony, and more. This token is currently bridged with LayerZero.",
+  "website": "https://echelon.io/",
+  "twitter": "https://twitter.com/EchelonFND",
+  "nobridge": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0xb23d80f5fefcddaa212212f028021b41ded428cf"
+    },
+    "base": {
+      "address": "0xfa980ced6895ac314e7de34ef1bfae90a5add21b"
+    },
+    "base-goerli": {
+      "address": "0x121dAEb77cFbC6a9CfC691Da4F5E97c8Bd02518F"
+    },
+    "goerli": {
+      "address": "0x3b23554f7345d50e902a8e317361d83acf2481a6"
+    }
+  }
+}

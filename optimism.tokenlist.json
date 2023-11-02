@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-09-26T18:41:46.252Z",
+  "timestamp": "2023-10-31T22:05:31.613Z",
   "tokens": [
     {
       "chainId": 1,
@@ -506,6 +506,86 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BOND"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "BridgedUSDC"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "BridgedUSDC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+      "name": "USD Base Coin",
+      "symbol": "USDbC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BridgedUSDC"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x853154e2A5604E5C74a2546E2871Ad44932eB92C",
+      "name": "USD Base Coin",
+      "symbol": "USDbC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BridgedUSDC"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+      "name": "Bridged USDC",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BridgedUSDC"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x7E07E15D2a87A24492740D16f5bdF58c16db0c4E",
+      "name": "Bridged USDC",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BridgedUSDC"
       }
     },
     {
@@ -1104,7 +1184,7 @@
     },
     {
       "chainId": 424,
-      "address": "0x997cf63ab30BA8e591203228d5c5468Fc3834166",
+      "address": "0x6C121674ba6736644A7e73A8741407fE8a5eE5BA",
       "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
@@ -1507,7 +1587,33 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0x0000000000000000000000000000000000000000",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "opListId": "default",
+        "opTokenId": "ETH"
+      }
+    },
+    {
       "chainId": 420,
+      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "ETH"
+      }
+    },
+    {
+      "chainId": 11155420,
       "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
       "name": "Ether",
       "symbol": "ETH",
@@ -2446,11 +2552,25 @@
     {
       "chainId": 1,
       "address": "0x8a9c67fee641579deba04928c4bc45f66e26343a",
-      "name": "Jarvis Network Token",
+      "name": "Jarvis Reward Token",
       "symbol": "JRT",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/JRT/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "JRT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xde0D2ee637D3e4Fd02bc99508CA5e94dd7055766",
+      "name": "Jarvis Reward Token",
+      "symbol": "JRT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/JRT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "JRT"
       }
@@ -3561,6 +3681,54 @@
     },
     {
       "chainId": 1,
+      "address": "0xb23d80f5fefcddaa212212f028021b41ded428cf",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xfa980ced6895ac314e7de34ef1bfae90a5add21b",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x121dAEb77cFbC6a9CfC691Da4F5E97c8Bd02518F",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x3b23554f7345d50e902a8e317361d83acf2481a6",
+      "name": "Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRIME/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5",
       "name": "ParaSwap",
       "symbol": "PSP",
@@ -3635,6 +3803,18 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "RAI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x41E99e0F73a88947C52070FF67C19B7aBc171A54",
+      "name": "Redemption Finance",
+      "symbol": "RDMP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RDMP/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "RDMP"
       }
     },
     {
@@ -3991,6 +4171,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x8353b92201f19b4812eee32efd325f7ede123718",
+      "name": "Scamfari",
+      "symbol": "SCM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SCM/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "SCM"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x61ccfe71d8ee67780320b0d990A02D702d99C271",
+      "name": "Scamfari",
+      "symbol": "SCM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SCM/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SCM"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0000000000071821e8033345a7be174647be0706",
       "name": "Scry Protocol",
       "symbol": "SCRY",
@@ -4257,6 +4463,58 @@
     },
     {
       "chainId": 1,
+      "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+      "name": "SPOT",
+      "symbol": "SPOT",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/SPOT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "SPOT"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x95014Bc18F82a98CFAA3253fbD3184125A01f848",
+      "name": "SPOT",
+      "symbol": "SPOT",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/SPOT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "SPOT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x8f2E6758C4D6570344bd5007DEc6301cd57590A0",
+      "name": "SPOT",
+      "symbol": "SPOT",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/SPOT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SPOT"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x7d4f70b55f7883e5981B41E91C3eD908821063f9",
+      "name": "SPOT",
+      "symbol": "SPOT",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/SPOT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SPOT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xcb9f85730f57732fc899fb158164b9ed60c77d49",
       "name": "Staked Lyra",
       "symbol": "stkLYRA",
@@ -4517,6 +4775,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "tBTC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0F72964Fa4b766521d84107991E837c30D0EF2b1",
+      "name": "Tetu Token",
+      "symbol": "TETU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TETU/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "TETU"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5E42c17CAEab64527D9d80d506a3FE01179afa02",
+      "name": "Tetu Token",
+      "symbol": "TETU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TETU/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TETU"
       }
     },
     {
@@ -4853,34 +5137,6 @@
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
       "extensions": {
-        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
-        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
-        "opListId": "default",
-        "opTokenId": "USDC"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
-      "name": "Bridged USDC",
-      "symbol": "USDC.e",
-      "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "USDC"
-      }
-    },
-    {
-      "chainId": 8453,
-      "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
-      "name": "USD Base Coin",
-      "symbol": "USDbC",
-      "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "USDC"
       }
@@ -4893,34 +5149,54 @@
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
       "extensions": {
-        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
-        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
         "opListId": "default",
         "opTokenId": "USDC"
       }
     },
     {
-      "chainId": 420,
-      "address": "0x7E07E15D2a87A24492740D16f5bdF58c16db0c4E",
-      "name": "Bridged USDC",
-      "symbol": "USDC.e",
+      "chainId": 8453,
+      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "name": "USD Coin",
+      "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
       "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "USDC"
       }
     },
     {
       "chainId": 84531,
-      "address": "0x853154e2A5604E5C74a2546E2871Ad44932eB92C",
-      "name": "USD Base Coin",
-      "symbol": "USDbC",
+      "address": "0xf175520c52418dfe19c8098071a252da48cd1c19",
+      "name": "USD Coin",
+      "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
       "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "USDC"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "USDC"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0xe05606174bac4A6364B31bd0eCA4bf4dD368f8C6",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
+      "extensions": {
         "opListId": "default",
         "opTokenId": "USDC"
       }
@@ -5757,8 +6033,8 @@
     }
   ],
   "version": {
-    "major": 8,
-    "minor": 3,
-    "patch": 168
+    "major": 9,
+    "minor": 0,
+    "patch": 1
   }
 }

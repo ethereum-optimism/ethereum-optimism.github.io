@@ -112,6 +112,7 @@ We currently accept tokens on the following chains:
 - `base`
 - `base-goerli`
 - `optimism-goerli`
+- `optimism-sepolia`
 
 #### Non-bridgable tokens
 
