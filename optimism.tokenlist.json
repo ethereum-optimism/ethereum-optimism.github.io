@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-10-23T22:52:14.594Z",
+  "timestamp": "2023-11-03T14:13:19.947Z",
   "tokens": [
     {
       "chainId": 1,
@@ -186,6 +186,44 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "alETH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x6B0b3a982b4634aC68dD83a4DBF02311cE324181",
+      "name": "Artificial Liquid Intelligence Token",
+      "symbol": "ALI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ALI/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "ALI"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x3ACd26F0b5080C30c066a2055A4254A5BB05F22a",
+      "name": "Artificial Liquid Intelligence Token",
+      "symbol": "ALI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ALI/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "ALI"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0xC6729C6cFc6B872acF641EB3EA628C9F038e5ABb",
+      "name": "Artificial Liquid Intelligence Token",
+      "symbol": "ALI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ALI/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ALI"
       }
     },
     {
@@ -3806,6 +3844,18 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0x41E99e0F73a88947C52070FF67C19B7aBc171A54",
+      "name": "Redemption Finance",
+      "symbol": "RDMP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RDMP/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "RDMP"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xae78736cd615f374d3085123a210448e74fc6393",
       "name": "Rocket Pool ETH",
@@ -4155,6 +4205,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "sBTC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x8353b92201f19b4812eee32efd325f7ede123718",
+      "name": "Scamfari",
+      "symbol": "SCM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SCM/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "SCM"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x61ccfe71d8ee67780320b0d990A02D702d99C271",
+      "name": "Scamfari",
+      "symbol": "SCM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SCM/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SCM"
       }
     },
     {
@@ -5995,8 +6071,8 @@
     }
   ],
   "version": {
-    "major": 8,
-    "minor": 3,
-    "patch": 177
+    "major": 9,
+    "minor": 0,
+    "patch": 2
   }
 }
