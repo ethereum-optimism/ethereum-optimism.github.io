@@ -33,6 +33,9 @@
     },
     "base": {
       "address": "0x22e6966B799c4D5B13BE962E1D117b56327FDa66"
+    },
+    "base-goerli": {
+      "address": "0x6AF3cb766D6cd37449bfD321D961A61B0515c1BC"
     }
   }
 }
