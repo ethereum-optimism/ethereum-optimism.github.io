@@ -30,6 +30,9 @@
       "overrides": {
         "bridge": "0xD2b3F0Ea40dB68088415412b0043F37B3088836D"
       }
+    },
+    "base": {
+      "address": "0x22e6966B799c4D5B13BE962E1D117b56327FDa66"
     }
   }
 }
