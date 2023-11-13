@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-11-13T15:50:01.538Z",
+  "timestamp": "2023-11-13T15:57:32.493Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6026,6 +6026,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/wstETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x76943C0D61395d8F2edF9060e1533529cAe05dE6",
+        "baseBridgeAddress": "0x9de443AdC5A411E83F1878Ef24C3F52C61571e72",
         "opListId": "default",
         "opTokenId": "wstETH"
       }
@@ -6039,6 +6040,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/wstETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x8E01013243a96601a86eb3153F0d9Fa4fbFb6957",
+        "opListId": "default",
+        "opTokenId": "wstETH"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wstETH/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xac9D11cD4D7eF6e54F14643a393F68Ca014287AB",
         "opListId": "default",
         "opTokenId": "wstETH"
       }
@@ -6231,6 +6245,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 7
+    "patch": 8
   }
 }
