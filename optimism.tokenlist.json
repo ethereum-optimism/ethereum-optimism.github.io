@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-11-09T16:36:17.122Z",
+  "timestamp": "2023-11-13T15:50:01.538Z",
   "tokens": [
     {
       "chainId": 1,
@@ -286,6 +286,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "APT"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xeDF6568618A00C6F0908Bf7758A16F76B6E04aF9",
+      "name": "ARIANEE",
+      "symbol": "ARIA20",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ARIA20/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "ARIA20"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x998b3Fd0998bffF66D28aB03DfE417FC3B884188",
+      "name": "ARIANEE",
+      "symbol": "ARIA20",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ARIA20/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ARIA20"
       }
     },
     {
@@ -6205,6 +6231,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 6
+    "patch": 7
   }
 }
