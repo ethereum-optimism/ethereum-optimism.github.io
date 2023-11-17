@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-11-13T15:57:32.493Z",
+  "timestamp": "2023-11-15T23:24:28.180Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3380,6 +3380,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
+      "name": "Ocean Token",
+      "symbol": "OCEAN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OCEAN/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "OCEAN"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x2561aa2bB1d2Eb6629EDd7b0938d7679B8b49f9E",
+      "name": "Ocean Token",
+      "symbol": "OCEAN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OCEAN/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OCEAN"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0x4200000000000000000000000000000000000042",
       "name": "Optimism",
@@ -6245,6 +6271,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 8
+    "patch": 9
   }
 }
