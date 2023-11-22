@@ -39,6 +39,9 @@
     },
     "pgn": {
       "address": "0x6C121674ba6736644A7e73A8741407fE8a5eE5BA"
+    },
+    "mode": {
+      "address": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea"
     }
   }
 }
