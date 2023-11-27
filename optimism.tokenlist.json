@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-11-15T23:24:28.180Z",
+  "timestamp": "2023-11-27T15:48:42.856Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5800,6 +5800,19 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/weETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "weETH"
+      }
+    },
+    {
       "chainId": 5,
       "address": "0xAc687b5ccd042e0d70405219112d95035938e3e8",
       "name": "Wrapped eETH",
@@ -5808,6 +5821,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/weETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "weETH"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x346e03F8Cce9fE01dCB3d0Da3e9D00dC2c0E08f0",
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/weETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "weETH"
       }
@@ -6271,6 +6297,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 9
+    "patch": 10
   }
 }
