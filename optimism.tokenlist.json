@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-11-27T15:48:42.856Z",
+  "timestamp": "2023-11-28T19:32:10.183Z",
   "tokens": [
     {
       "chainId": 1,
@@ -235,6 +235,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/AMKT/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "AMKT"
       }
@@ -248,6 +249,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/AMKT/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "AMKT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x13F4196cC779275888440b3000AE533BbBbC3166",
+      "name": "Alongside Crypto Market Index",
+      "symbol": "AMKT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AMKT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "AMKT"
       }
@@ -1531,6 +1545,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ePENDLE"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x97D0CfEB4FdE54B430307c9482d6f79C761Fe9B6",
+      "name": "Epoch",
+      "symbol": "EPOCH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/EPOCH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "EPOCH"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xd1cac46a9a77169C310c2C780A4267eE6CA884f5",
+      "name": "Epoch",
+      "symbol": "EPOCH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/EPOCH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "EPOCH"
       }
     },
     {
@@ -6297,6 +6337,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 10
+    "patch": 11
   }
 }
