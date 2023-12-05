@@ -2,7 +2,7 @@
   "name": "DRODEC",
   "symbol": "DRODEC",
   "decimals": 18,
-  "description": "DRODEC is the utility and reward token for the DeFli Drone Detection Network. Bridged by wormhole."
+  "description": "DRODEC is the utility and reward token for the DeFli Drone Detection Network. Bridged by wormhole.",
   "website": "https://defli.network/drone-detection-host",
   "twitter": "@defli_networks", 
   "nobridge": true,
