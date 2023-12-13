@@ -12,7 +12,7 @@
     "goerli": {
       "address": "0x3ACd26F0b5080C30c066a2055A4254A5BB05F22a"
     },
-    "base-mainnet": {
+    "base": {
       "address": "0x97c806e7665d3AFd84A8Fe1837921403D59F3Dcc"
     },
     "base-goerli": {
