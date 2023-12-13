@@ -1,0 +1,14 @@
+{
+    "name": "BridgeToken",
+    "symbol": "BTK",
+    "decimals": 18,
+    "tokens": {
+      "goerli": {
+        "address": "0xBD46539A4A373B329c411Cd5A4363886c1E60F23"
+      },
+         
+      "base-goerli": {
+        "address": "0x8E8eF4138cC395589e09E14550A62F7932B6B486"
+      }
+    }
+  }
