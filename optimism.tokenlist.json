@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-12-01T16:47:11.507Z",
+  "timestamp": "2023-12-14T16:48:11.187Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3215,6 +3215,58 @@
     },
     {
       "chainId": 1,
+      "address": "0x48afbbd342f64ef8a9ab1c143719b63c2ad81710",
+      "name": "MetaPoolETH",
+      "symbol": "mpETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/mpETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "mpETH"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x819845b60a192167ed1139040b4f8eca31834f27",
+      "name": "MetaPoolETH",
+      "symbol": "mpETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/mpETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "mpETH"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x748c905130CC15b92B97084Fd1eEBc2d2419146f",
+      "name": "MetaPoolETH",
+      "symbol": "mpETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/mpETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "mpETH"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x4A36562d5D7074f8EE664922b320e066e67C2a24",
+      "name": "MetaPoolETH",
+      "symbol": "mpETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/mpETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "mpETH"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x6731827Cb6879a2091ce3ab3423f7bf20539b579",
       "name": "Empower Token",
       "symbol": "MPWR",
@@ -6337,6 +6389,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 12
+    "patch": 13
   }
 }
