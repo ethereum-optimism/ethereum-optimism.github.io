@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Frenpet_logo" data-name="Frenpet logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <circle cx="128" cy="128" r="128" fill="#342e2e"/>
+  <g>
+    <rect x="154.82" y="111.69" width="9.32" height="26.61" fill="#dbfee6"/>
+    <rect x="110.09" y="111.69" width="9.32" height="26.61" fill="#dbfee6"/>
+    <path d="m127.36,15.36c-61.86,0-112,50.14-112,112s50.14,112,112,112,112-50.14,112-112S189.22,15.36,127.36,15.36Zm54.51,149.75h-17.73v26.01h-27.05v-26.02h-17.68v26.01h-27.4v-26.01h-18.07v-88.72h9.32v-9.32h89.27v9.32h9.32v88.72h.02Z" fill="#dbfee6" fill-rule="evenodd"/>
+  </g>
+</svg>
