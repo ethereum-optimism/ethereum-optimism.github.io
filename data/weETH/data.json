@@ -17,9 +17,6 @@
     },
     "optimism-goerli": {
       "address": "0x7e7d4467112689329f7E06571eD0E8CbAd4910eE"
-    },
-    "base": {
-      "address": "0x4c94DE27c94962Dba6Ebb77924Ac54189db75EFA"
     }
   }
 }
