@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-12-16T18:16:17.204Z",
+  "timestamp": "2023-12-16T18:21:13.587Z",
   "tokens": [
     {
       "chainId": 1,
@@ -337,6 +337,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/ARPA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "ARPA"
       }
@@ -350,6 +351,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/ARPA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ARPA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1C9Fa01e87487712706Fb469a13bEb234262C867",
+      "name": "ARPA Token",
+      "symbol": "ARPA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ARPA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ARPA"
       }
@@ -6427,6 +6441,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 14
+    "patch": 15
   }
 }
