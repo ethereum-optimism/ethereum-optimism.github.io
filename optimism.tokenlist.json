@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-12-16T18:43:29.242Z",
+  "timestamp": "2023-12-18T20:42:57.419Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1429,6 +1429,42 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "DOLA"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xe1eb70B51C87e927d1a823Dbd478C27AB0F777F1",
+      "name": "DRODEC",
+      "symbol": "DRODEC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DRODEC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "DRODEC"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x05c87b79844227a4d95171E9969da3DD7d65914e",
+      "name": "DRODEC",
+      "symbol": "DRODEC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DRODEC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "DRODEC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5a01bdaa010938eb7615c63cb22cf3e94e8505df",
+      "name": "DRODEC",
+      "symbol": "DRODEC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DRODEC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "DRODEC"
       }
     },
     {
@@ -6441,6 +6477,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 18
+    "patch": 19
   }
 }
