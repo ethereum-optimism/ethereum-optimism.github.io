@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-12-19T19:36:32.374Z",
+  "timestamp": "2023-12-19T19:41:33.680Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4580,6 +4580,46 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x9F52c8ecbEe10e00D9faaAc5Ee9Ba0fF6550F511",
+      "name": "Sipher Token",
+      "symbol": "SIPHER",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SIPHER/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "SIPHER"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xb94944669f7967E16588E55Ac41Be0d5ef399DcD",
+      "name": "Sipher Token",
+      "symbol": "SIPHER",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SIPHER/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SIPHER"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xd0D1e44FC9aDAEB732F73fFC2429CD1dB9cD4529",
+      "name": "Sipher Token",
+      "symbol": "SIPHER",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SIPHER/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SIPHER"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0xc5Db22719A06418028A40A9B5E9A7c02959D0d08",
       "name": "Synthetic Chainlink",
@@ -6491,6 +6531,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 20
+    "patch": 21
   }
 }
