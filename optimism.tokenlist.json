@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-11-28T19:32:10.183Z",
+  "timestamp": "2023-12-18T20:42:57.419Z",
   "tokens": [
     {
       "chainId": 1,
@@ -337,6 +337,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/ARPA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "ARPA"
       }
@@ -350,6 +351,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/ARPA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ARPA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1C9Fa01e87487712706Fb469a13bEb234262C867",
+      "name": "ARPA Token",
+      "symbol": "ARPA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ARPA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ARPA"
       }
@@ -1419,6 +1433,42 @@
     },
     {
       "chainId": 1,
+      "address": "0xe1eb70B51C87e927d1a823Dbd478C27AB0F777F1",
+      "name": "DRODEC",
+      "symbol": "DRODEC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DRODEC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "DRODEC"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x05c87b79844227a4d95171E9969da3DD7d65914e",
+      "name": "DRODEC",
+      "symbol": "DRODEC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DRODEC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "DRODEC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5a01bdaa010938eb7615c63cb22cf3e94e8505df",
+      "name": "DRODEC",
+      "symbol": "DRODEC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DRODEC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "DRODEC"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x92E187a03B6CD19CB6AF293ba17F2745Fd2357D5",
       "name": "Unit protocol",
       "symbol": "DUCK",
@@ -1881,6 +1931,30 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "FLASH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x720CD16b011b987Da3518fbf38c3071d4F0D1495",
+      "name": "Flux",
+      "symbol": "FLUX",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/FLUX/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "FLUX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb008bdcf9cdff9da684a190941dc3dca8c2cdd44",
+      "name": "Flux",
+      "symbol": "FLUX",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/FLUX/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "FLUX"
       }
     },
     {
@@ -2936,6 +3010,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/LUSD/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "default",
         "opTokenId": "LUSD"
       }
@@ -2949,6 +3024,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/LUSD/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "LUSD"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x368181499736d0c0CC614DBB145E2EC1AC86b8c6",
+      "name": "LUSD Stablecoin",
+      "symbol": "LUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LUSD/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "LUSD"
       }
@@ -3211,6 +3299,58 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MOM"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x48afbbd342f64ef8a9ab1c143719b63c2ad81710",
+      "name": "MetaPoolETH",
+      "symbol": "mpETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/mpETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "mpETH"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x819845b60a192167ed1139040b4f8eca31834f27",
+      "name": "MetaPoolETH",
+      "symbol": "mpETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/mpETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "mpETH"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x748c905130CC15b92B97084Fd1eEBc2d2419146f",
+      "name": "MetaPoolETH",
+      "symbol": "mpETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/mpETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x636Af16bf2f682dD3109e60102b8E1A089FedAa8",
+        "opListId": "extended",
+        "opTokenId": "mpETH"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x4A36562d5D7074f8EE664922b320e066e67C2a24",
+      "name": "MetaPoolETH",
+      "symbol": "mpETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/mpETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "mpETH"
       }
     },
     {
@@ -6337,6 +6477,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 11
+    "patch": 19
   }
 }
