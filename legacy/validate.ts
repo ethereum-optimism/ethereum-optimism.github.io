@@ -27,9 +27,6 @@ import {
   TokenData,
   ValidationResult,
 } from './types'
-import { fetchTokenlist } from './types/TokenList'
-import { validateDataJson } from './validateDataJson'
-import { validateLogo } from './validateLogo'
 
 /**
  * Validates a token list data folder.
@@ -40,9 +37,11 @@ import { validateLogo } from './validateLogo'
  * @return Validation results.
  */
 export const validate = async (
-  tokens: string[],
-  datadir: string = path.join(__dirname, '..', 'data')
+  datadir: string,
+  tokens: string[]
 ): Promise<ValidationResult[]> => {
+  // Load data files to validate and filter for requested tokens
+  console.log(tokens)
   const folders = fs
     .readdirSync(datadir)
     .sort((a, b) => {
@@ -53,41 +52,41 @@ export const validate = async (
     })
 
   const results = []
-
-  const coinGeckoTokenList = await fetchTokenlist().catch(e => {
+  // Load the CoinGecko tokenlist once to avoid additional requests
+  let cgret
+  let cg
+  try {
+    cgret = await fetch('https://tokens.coingecko.com/uniswap/all.json')
+    cg = await cgret.json()
+  } catch (err) {
+    console.error('fetch for CoinGecko token list failed', err)
     results.push({
       type: 'warning',
-      message: `Failed to fetch token list from CoinGecko`,
-      cause: e
+      message: 'fetch for CoinGecko token list failed',
     })
-  })
+  }
 
   for (const folder of folders) {
+    // Make sure the data file exists
     const datafile = path.join(datadir, folder, 'data.json')
     if (!fs.existsSync(datafile)) {
       results.push({
         type: 'error',
         message: `data file ${datafile} does not exist`,
       })
-      continue
     }
 
     // Load the data now that we know it exists
-    const dataJson = await validateDataJson(folder).catch((e) => {
-      results.push({
-        type: 'error',
-        message: `data file ${datafile} is invalid`,
-        cause: e,
-      })
-    })
+    const data: TokenData = JSON.parse(fs.readFileSync(datafile, 'utf8'))
 
-    const logoFilePaths = validateLogo(folder).catch((e) => {
+    // Make sure ONE logo file exists
+    const logofiles = glob.sync(`${path.join(datadir, folder)}/logo.{png,svg}`)
+    if (logofiles.length !== 1) {
       results.push({
         type: 'error',
-        message: `logo for ${folder} is invalid`,
-        cause: e,
+        message: `${folder} has ${logofiles.length} logo files, make sure your logo is either logo.png OR logo.svg`,
       })
-    })
+    }
 
     const expectedMismatchesFilePath = path.join(
       datadir,
@@ -283,17 +282,18 @@ export const validate = async (
             await sleep(1000)
             const { result: etherscanResult } = await (
               await fetch(
-                `https://api${chain === 'ethereum' ? '' : `-${chain}`
+                `https://api${
+                  chain === 'ethereum' ? '' : `-${chain}`
                 }.etherscan.io/api?` +
-                new URLSearchParams({
-                  module: 'contract',
-                  action: 'getsourcecode',
-                  address: token.address,
-                  // If we ever get rate limited by etherscan uncomment this line and add a method for
-                  // fetching the appropriate etherscan api key based on the chain.
-                  // https://linear.app/optimism/issue/FE-1396
-                  // apikey: getEtherscanApiKey(),
-                })
+                  new URLSearchParams({
+                    module: 'contract',
+                    action: 'getsourcecode',
+                    address: token.address,
+                    // If we ever get rate limited by etherscan uncomment this line and add a method for
+                    // fetching the appropriate etherscan api key based on the chain.
+                    // https://linear.app/optimism/issue/FE-1396
+                    // apikey: getEtherscanApiKey(),
+                  })
               )
             ).json()
 

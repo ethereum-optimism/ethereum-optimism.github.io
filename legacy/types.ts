@@ -1,5 +1,3 @@
-import { providers } from 'ethers'
-
 export interface Token {
   address: string
   overrides?: {

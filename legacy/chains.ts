@@ -2,7 +2,7 @@ import { ethers } from 'ethers'
 
 import { Chain, L1Chain, L2Chain, Network } from './types'
 
-export const NETWORK_DATA: Record<Chain, Network> = {
+export const NETWORK_DATA = {
   ethereum: {
     id: 1,
     name: 'Mainnet',
@@ -70,9 +70,9 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
-}
+} as const satisfies Record<Chain, Network >
 
-interface L2BridgeInformation {
+  interface L2BridgeInformation {
   l2StandardBridgeAddress: string
 }
 
