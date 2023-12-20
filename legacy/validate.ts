@@ -19,7 +19,7 @@ import {
   L2_TO_L1_PAIR,
   NETWORK_DATA,
 } from './chains'
-import { TOKEN_ABI } from './abi'
+import { TOKEN_ABI } from './TOKEN_ABI'
 import {
   Chain,
   ExpectedMismatches,
@@ -282,18 +282,17 @@ export const validate = async (
             await sleep(1000)
             const { result: etherscanResult } = await (
               await fetch(
-                `https://api${
-                  chain === 'ethereum' ? '' : `-${chain}`
+                `https://api${chain === 'ethereum' ? '' : `-${chain}`
                 }.etherscan.io/api?` +
-                  new URLSearchParams({
-                    module: 'contract',
-                    action: 'getsourcecode',
-                    address: token.address,
-                    // If we ever get rate limited by etherscan uncomment this line and add a method for
-                    // fetching the appropriate etherscan api key based on the chain.
-                    // https://linear.app/optimism/issue/FE-1396
-                    // apikey: getEtherscanApiKey(),
-                  })
+                new URLSearchParams({
+                  module: 'contract',
+                  action: 'getsourcecode',
+                  address: token.address,
+                  // If we ever get rate limited by etherscan uncomment this line and add a method for
+                  // fetching the appropriate etherscan api key based on the chain.
+                  // https://linear.app/optimism/issue/FE-1396
+                  // apikey: getEtherscanApiKey(),
+                })
               )
             ).json()
 

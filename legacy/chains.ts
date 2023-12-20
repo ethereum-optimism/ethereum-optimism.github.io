@@ -70,9 +70,9 @@ export const NETWORK_DATA = {
     ),
     layer: 2,
   },
-} as const satisfies Record<Chain, Network >
+} as const satisfies Record<Chain, Network>
 
-  interface L2BridgeInformation {
+interface L2BridgeInformation {
   l2StandardBridgeAddress: string
 }
 

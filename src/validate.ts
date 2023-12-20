@@ -30,6 +30,7 @@ import {
 import { fetchTokenlist } from './types/TokenList'
 import { validateDataJson } from './validateDataJson'
 import { validateLogo } from './validateLogo'
+import { TokenDataJson } from './types/TokenDataJson'
 
 /**
  * Validates a token list data folder.
@@ -73,12 +74,13 @@ export const validate = async (
     }
 
     // Load the data now that we know it exists
-    const dataJson = await validateDataJson(folder).catch((e) => {
+    const dataJson: TokenDataJson | undefined = await validateDataJson(folder).catch((e) => {
       results.push({
         type: 'error',
         message: `data file ${datafile} is invalid`,
         cause: e,
       })
+      return undefined
     })
 
     const logoFilePaths = validateLogo(folder).catch((e) => {
@@ -100,25 +102,10 @@ export const validate = async (
       ? JSON.parse(fs.readFileSync(expectedMismatchesFilePath, 'utf8'))
       : {}
 
-    // Validate the data file
-    const v = new Validator()
-    const result = v.validate(data, TOKEN_DATA_SCHEMA as any)
-    if (!result.valid) {
-      for (const error of result.errors) {
-        results.push({
-          type: 'error',
-          message: `${folder}: ${error.property}: ${error.message}`,
-        })
-      }
-
-      // Since the data file is invalid, we can't continue validating the rest of the files
-      continue
-    }
-
     // Validate each token configuration
-    for (const [chain, token] of Object.entries(data.tokens)) {
+    for (const [chain, token] of Object.entries(dataJson?.tokens)) {
       // Validate any standard tokens
-      if (folder !== 'ETH' && data.nonstandard !== true) {
+      if (folder !== 'ETH' && dataJson.nonstandard !== true) {
         const networkData = NETWORK_DATA[chain as Chain]
         const contract = new ethers.Contract(
           token.address,

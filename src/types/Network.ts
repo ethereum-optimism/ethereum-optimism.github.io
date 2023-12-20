@@ -1,4 +1,5 @@
 import { z } from 'zod'
+import * as viemChains from 'viem/chains'
 
 /**
  * Validator for valid l1 network names
@@ -41,3 +42,9 @@ export const zNetworkName = z.union([
  * Valid network name
  */
 export type NetworkName = z.infer<typeof zNetworkName>
+
+export const networks = {
+  ethereum: {
+    ...viemChains.mainnet,
+  }
+}
