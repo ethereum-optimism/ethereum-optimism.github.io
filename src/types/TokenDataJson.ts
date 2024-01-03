@@ -25,7 +25,10 @@ export const zStandardTokenDataJson = z.strictObject({
   twitter: zWebsite.optional().describe('Project website for token'),
   tokens: z.record(zNetworkName)
 }).superRefine(async (data, ctx) => {
-
+  ctx.addIssue({
+    code: z.ZodIssueCode.custom,
+    message: 'broken'
+  })
 })
 
 
