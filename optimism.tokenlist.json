@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-01-03T22:49:15.116Z",
+  "timestamp": "2024-01-05T23:20:56.219Z",
   "tokens": [
     {
       "chainId": 1,
@@ -196,6 +196,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/ALI/logo.png",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "ALI"
       }
@@ -209,6 +210,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/ALI/logo.png",
       "extensions": {
         "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "ALI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x97c806e7665d3AFd84A8Fe1837921403D59F3Dcc",
+      "name": "Artificial Liquid Intelligence Token",
+      "symbol": "ALI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ALI/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ALI"
       }
@@ -6531,6 +6545,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 22
+    "patch": 23
   }
 }
