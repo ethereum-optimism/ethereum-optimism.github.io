@@ -1,0 +1,17 @@
+{
+  "name": "Stable Coin",
+  "symbol": "SBC",
+  "decimals": 18,
+  "description": "SBC is a regulated, full-reserve stablecoin issued by Brale. SBC is fully backed by cash and U.S. government obligations and is always redeemable 1:1 for U.S. dollars. SBC can be bridged between Ethereum and Base on the from the Brale exchange.",
+  "website": "https://brale.xyz/stablecoins/SBC",
+  "twitter": "@brale_xyz",
+  "nobridge": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0xf9FB20B8E097904f0aB7d12e9DbeE88f2dcd0F16"
+    },
+    "base": {
+      "address": "0xfdcC3dd6671eaB0709A4C0f3F53De9a333d80798"
+    }
+  }
+}
