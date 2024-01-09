@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-01-08T17:14:28.176Z",
+  "timestamp": "2024-01-09T00:22:06.495Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4698,6 +4698,32 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0xE452027cdEF746c7Cd3DB31CB700428b16cD8E51",
+      "name": "Status Test Token",
+      "symbol": "STT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SNT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "opListId": "extended",
+        "opTokenId": "SNT"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0x0B5DAd18B8791ddb24252B433ec4f21f9e6e5Ed0",
+      "name": "Status Test Token",
+      "symbol": "STT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SNT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SNT"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
       "name": "Synthetix",
@@ -6545,6 +6571,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 24
+    "patch": 25
   }
 }
