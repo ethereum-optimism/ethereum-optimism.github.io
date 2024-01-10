@@ -109,6 +109,7 @@ We currently accept tokens on the following chains:
 - `ethereum`
 - `optimism`
 - `goerli`
+- `sepolia`
 - `base`
 - `base-goerli`
 - `optimism-goerli`
