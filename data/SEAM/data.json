@@ -2,9 +2,10 @@
     "name": "Seamless",
     "symbol": "SEAM",
     "decimals": 18,
-    "description": "Seamless Governance Token",
+    "description": "Seamless Governance Token (native Base L2 token)",
     "website": "https://www.seamlessprotocol.com",
     "twitter": "@SeamlessFi",
+    "nobridge": true,
     "tokens": {
       "ethereum": {
         "address": "0x6b66ccd1340c479B07B390d326eaDCbb84E726Ba"
