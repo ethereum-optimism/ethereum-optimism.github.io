@@ -1,0 +1,16 @@
+{
+  "name": "Sandclock Yield USDC",
+  "symbol": "scUSDC",
+  "decimals": 18,
+  "description": "A tokenized yield strategy",
+  "website": "https://sandclock.org",
+  "twitter": "@SandclockOrg",
+  "tokens": {
+    "ethereum": {
+      "address": "0x096697720056886b905d0deb0f06affb8e4665e5"
+    },
+    "base": {
+      "address": "0x2e2452cC6d4f0ac103D86e1198C046b41187aF05"
+    }
+  }
+}
