@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-01-09T00:22:06.495Z",
+  "timestamp": "2024-01-16T16:46:33.992Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2256,6 +2256,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/GROW/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "GROW"
       }
@@ -2269,6 +2270,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/GROW/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GROW"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x321725ee44CB4bfA544CF45a5A585b925d30A58C",
+      "name": "ValleyDAO Token",
+      "symbol": "GROW",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GROW/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GROW"
       }
@@ -6571,6 +6585,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 25
+    "patch": 26
   }
 }
