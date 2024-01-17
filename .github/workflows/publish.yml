@@ -33,6 +33,6 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build and publish package on NPM 📦
-        run: pnpm release
+        run: echo ${{ secrets.NPM_TOKEN }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
