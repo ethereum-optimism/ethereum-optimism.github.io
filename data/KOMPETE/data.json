@@ -1,5 +1,5 @@
 {
-    "name": "KOMPETE",
+    "name": "KOMPETE Token",
     "symbol": "KOMPETE",
     "decimals": 10,
     "description": "KOMPETE's virtual currency that enables players to trade cosmetics with each other on the Bazaar.",
@@ -10,7 +10,7 @@
         "address": "0x1E0b2992079B620AA13A7c2E7c88D2e1E18E46E9"
       },
       "base": {
-        "address": "0xbe33A808F0D59d0D969A2996C9609Ac36aA515C9"
+        "address": "0x93d2B0C3E8E960F40AE1Db263acB1821A1Bee7b0"
       }
     }
   }
