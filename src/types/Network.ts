@@ -14,7 +14,7 @@ export const zL1NetworkName = z.union([
  * Valid L1 network name
  */
 export type L1NetworkName = z.infer<typeof zL1NetworkName>
-import * as chains from '@eth-optimism/contracts-ts'
+
 /**
  * Validator for valid l2 network names
  */
