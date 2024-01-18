@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-01-16T16:46:33.992Z",
+  "timestamp": "2024-01-18T00:00:32.590Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4572,6 +4572,70 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x3f14920c99BEB920Afa163031c4e47a3e03B3e4A",
+      "name": "Send Token",
+      "symbol": "send",
+      "decimals": 0,
+      "logoURI": "https://ethereum-optimism.github.io/data/send/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "send"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x3f14920c99BEB920Afa163031c4e47a3e03B3e4A",
+      "name": "Send Token",
+      "symbol": "send",
+      "decimals": 0,
+      "logoURI": "https://ethereum-optimism.github.io/data/send/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "send"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x3f14920c99BEB920Afa163031c4e47a3e03B3e4A",
+      "name": "Send Token",
+      "symbol": "send",
+      "decimals": 0,
+      "logoURI": "https://ethereum-optimism.github.io/data/send/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "send"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x3f14920c99BEB920Afa163031c4e47a3e03B3e4A",
+      "name": "Send Token",
+      "symbol": "send",
+      "decimals": 0,
+      "logoURI": "https://ethereum-optimism.github.io/data/send/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a",
+        "opListId": "extended",
+        "opTokenId": "send"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x3f14920c99BEB920Afa163031c4e47a3e03B3e4A",
+      "name": "Send Token",
+      "symbol": "send",
+      "decimals": 0,
+      "logoURI": "https://ethereum-optimism.github.io/data/send/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "send"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0xE405de8F52ba7559f9df3C368500B6E6ae6Cee49",
       "name": "Synthetic Ether",
@@ -6585,6 +6649,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 26
+    "patch": 27
   }
 }
