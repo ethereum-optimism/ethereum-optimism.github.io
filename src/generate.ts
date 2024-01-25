@@ -80,6 +80,25 @@ export const generate = (datadir: string) => {
     )
 }
 
+const optimism = ['optimism', 'optimism-goerli', 'optimism-sepolia']
+const base = ['base', 'base-goerli', 'base-sepolia']
+const pgn = ['pgn', 'pgn-sepolia']
+
+/**
+ * TODO: work out a better way to key these, perhaps by ID because
+ * the fallback to pgn isn't great for other Superchain networks
+ */
+const getTokenBridgeKey = (chain: string) => {
+  if (optimism.includes(chain)) {
+    return 'optimismBridgeAddress'
+  }
+  if (base.includes(chain)) {
+    return 'baseBridgeAddress'
+  }
+
+  return 'pgnBridgeAddress'
+}
+
 const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
   if (isL2Chain(chain)) {
     const tokenBridgeOverride = token.overrides?.bridge
@@ -88,9 +107,7 @@ const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
     }
     return [
       {
-        [chain === 'optimism' || chain === 'optimism-goerli' || chain === 'optimism-sepolia'
-          ? 'optimismBridgeAddress'
-          : 'baseBridgeAddress']:
+        [getTokenBridgeKey(chain)]:
           tokenBridgeOverride ??
           L2_STANDARD_BRIDGE_INFORMATION[chain].l2StandardBridgeAddress,
       },
@@ -117,9 +134,7 @@ const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
         )
       }
       return {
-        [l2Chain === 'optimism' || l2Chain === 'optimism-goerli' || l2Chain === 'optimism-sepolia'
-          ? 'optimismBridgeAddress'
-          : 'baseBridgeAddress']:
+        [getTokenBridgeKey(l2Chain)]:
           tokenBridgeOverride?.[l2Chain] ??
           l1StandardBridgeInfoForL2.l1StandardBridgeAddress,
       }
