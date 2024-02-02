@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-01-25T06:29:00.425Z",
+  "timestamp": "2024-02-02T05:07:36.150Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2824,6 +2824,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x1E0b2992079B620AA13A7c2E7c88D2e1E18E46E9",
+      "name": "KOMPETE Token",
+      "symbol": "KOMPETE",
+      "decimals": 10,
+      "logoURI": "https://ethereum-optimism.github.io/data/KOMPETE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "KOMPETE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x8f019931375454Fe4EE353427eB94E2E0C9e0a8C",
+      "name": "KOMPETE Token",
+      "symbol": "KOMPETE",
+      "decimals": 10,
+      "logoURI": "https://ethereum-optimism.github.io/data/KOMPETE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "KOMPETE"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789",
       "name": "Kromatika",
       "symbol": "KROM",
@@ -4050,6 +4076,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "PRIME"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x226bb599a12C826476e3A771454697EA52E9E220",
+      "name": "Propy",
+      "symbol": "PRO",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "PRO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x18dD5B087bCA9920562aFf7A0199b96B9230438b",
+      "name": "Propy",
+      "symbol": "PRO",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "PRO"
       }
     },
     {
@@ -6698,6 +6750,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 29
+    "patch": 32
   }
 }
