@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-01-18T00:00:32.590Z",
+  "timestamp": "2024-02-02T20:56:41.437Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2823,6 +2823,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x1E0b2992079B620AA13A7c2E7c88D2e1E18E46E9",
+      "name": "KOMPETE Token",
+      "symbol": "KOMPETE",
+      "decimals": 10,
+      "logoURI": "https://ethereum-optimism.github.io/data/KOMPETE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "KOMPETE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x8f019931375454Fe4EE353427eB94E2E0C9e0a8C",
+      "name": "KOMPETE Token",
+      "symbol": "KOMPETE",
+      "decimals": 10,
+      "logoURI": "https://ethereum-optimism.github.io/data/KOMPETE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "KOMPETE"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789",
       "name": "Kromatika",
       "symbol": "KROM",
@@ -3182,6 +3208,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MET/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "MET"
       }
@@ -3195,6 +3222,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MET/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MET"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x93dc5Cb35627A759848c7A7F0079EA7b49E435a5",
+      "name": "Metronome2",
+      "symbol": "MET",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MET/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MET"
       }
@@ -4053,6 +4093,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x226bb599a12C826476e3A771454697EA52E9E220",
+      "name": "Propy",
+      "symbol": "PRO",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "PRO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x18dD5B087bCA9920562aFf7A0199b96B9230438b",
+      "name": "Propy",
+      "symbol": "PRO",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/PRO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "PRO"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5",
       "name": "ParaSwap",
       "symbol": "PSP",
@@ -4569,6 +4635,54 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SDL"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x6b66ccd1340c479B07B390d326eaDCbb84E726Ba",
+      "name": "Seamless",
+      "symbol": "SEAM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SEAM/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "SEAM"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x4a46Ebdd35B12703717d6F4DfbF5db91E6Ac0660",
+      "name": "Seamless",
+      "symbol": "SEAM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SEAM/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "SEAM"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85",
+      "name": "Seamless",
+      "symbol": "SEAM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SEAM/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "SEAM"
+      }
+    },
+    {
+      "chainId": 84531,
+      "address": "0x8c0dE778f20e7D25E6E2AAc23d5Bee1d19Deb491",
+      "name": "Seamless",
+      "symbol": "SEAM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SEAM/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "SEAM"
       }
     },
     {
@@ -5412,6 +5526,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/TKN/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "TKN"
       }
@@ -5425,6 +5540,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/TKN/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TKN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x78b3C724A2F663D11373C4a1978689271895256f",
+      "name": "Token Name Service",
+      "symbol": "TKN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TKN/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "TKN"
       }
@@ -6649,6 +6777,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 27
+    "patch": 34
   }
 }
