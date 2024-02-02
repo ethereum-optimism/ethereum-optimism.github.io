@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-02-01T17:19:21.296Z",
+  "timestamp": "2024-02-02T19:06:15.765Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3208,6 +3208,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MET/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "MET"
       }
@@ -3221,6 +3222,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MET/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MET"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x93dc5Cb35627A759848c7A7F0079EA7b49E435a5",
+      "name": "Metronome2",
+      "symbol": "MET",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MET/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MET"
       }
@@ -6749,6 +6763,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 32
+    "patch": 33
   }
 }
