@@ -95,8 +95,10 @@ const getTokenBridgeKey = (chain: string) => {
   if (base.includes(chain)) {
     return 'baseBridgeAddress'
   }
-
-  return 'pgnBridgeAddress'
+  if (pgn.includes(chain)) {
+    return 'pgnBridgeAddress'
+  }
+  throw new Error('unknown network ' + chain)
 }
 
 const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
