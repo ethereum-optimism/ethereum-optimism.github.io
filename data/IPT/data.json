@@ -1,5 +1,5 @@
 {
-    "name": "Interest Protocol Token",
+    "name": "Interest Protocol",
     "symbol": "IPT",
     "decimals": 18,
     "description": "Governance token for Interest Protocol",
@@ -10,7 +10,7 @@
             "address": "0xd909C5862Cdb164aDB949D92622082f0092eFC3d"
         },
         "optimism": {
-            "address": "0x4ea5eC30487132328616dBa55E46346CA840B685"
+            "address": "0xa211E25F7246950E0cCe054e3161C7c0b6379485"
         }
     }
 }
