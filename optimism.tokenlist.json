@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-02-02T20:56:41.437Z",
+  "timestamp": "2024-02-08T02:05:32.707Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2701,6 +2701,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "INSURE"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xd909C5862Cdb164aDB949D92622082f0092eFC3d",
+      "name": "Interest Protocol",
+      "symbol": "IPT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IPT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "IPT"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xa211E25F7246950E0cCe054e3161C7c0b6379485",
+      "name": "Interest Protocol",
+      "symbol": "IPT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IPT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "IPT"
       }
     },
     {
@@ -6777,6 +6803,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 34
+    "patch": 35
   }
 }
