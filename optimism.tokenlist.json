@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-02-02T05:07:36.150Z",
+  "timestamp": "2024-02-09T20:08:22.010Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2706,6 +2706,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xd909C5862Cdb164aDB949D92622082f0092eFC3d",
+      "name": "Interest Protocol",
+      "symbol": "IPT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IPT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "IPT"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xa211E25F7246950E0cCe054e3161C7c0b6379485",
+      "name": "Interest Protocol",
+      "symbol": "IPT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IPT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "IPT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x17d2628D30F8e9E966c9Ba831c9B9b01ea8Ea75C",
       "name": "ISKRA TOKEN",
       "symbol": "ISK",
@@ -3209,6 +3235,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MET/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "MET"
       }
@@ -3222,6 +3249,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MET/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MET"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x93dc5Cb35627A759848c7A7F0079EA7b49E435a5",
+      "name": "Metronome2",
+      "symbol": "MET",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MET/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MET"
       }
@@ -5513,6 +5553,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/TKN/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "TKN"
       }
@@ -5526,6 +5567,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/TKN/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TKN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x78b3C724A2F663D11373C4a1978689271895256f",
+      "name": "Token Name Service",
+      "symbol": "TKN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TKN/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "TKN"
       }
@@ -6750,6 +6804,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 32
+    "patch": 35
   }
 }
