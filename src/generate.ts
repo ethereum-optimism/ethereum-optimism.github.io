@@ -85,8 +85,7 @@ const base = ['base', 'base-goerli', 'base-sepolia']
 const pgn = ['pgn', 'pgn-sepolia']
 
 /**
- * TODO: work out a better way to key these, perhaps by ID because
- * the fallback to pgn isn't great for other Superchain networks
+ * TODO: work out a better way to key these, perhaps by ID
  */
 const getTokenBridgeKey = (chain: string) => {
   if (optimism.includes(chain)) {
