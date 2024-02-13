@@ -9,8 +9,8 @@
     "ethereum": {
       "address": "0xB17548c7B510427baAc4e267BEa62e800b247173"
     },
-    "base": {
-      "address": "0x2974dC646e375e83bd1c0342625b49f288987fA4"
+    "optimism": {
+      "address": "0x8Eb99a441b04576282e9069977F6DE6053EF6a97"
     }
   }
 }
