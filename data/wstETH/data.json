@@ -33,7 +33,7 @@
       }
     },
     "optimism-sepolia": {
-      "address": "0xaB0c6F1015b644c252064155759Cdc90a6CBd50d",
+      "address": "0x24B47cd3A74f1799b32B2de11073764Cb1bb318B",
       "overrides": {
         "bridge": "0xdBA2760246f315203F8B716b3a7590F0FFdc704a"
       }
