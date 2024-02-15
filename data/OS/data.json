@@ -1,0 +1,16 @@
+{
+  "name": "Ethereans",
+  "symbol": "OS",
+  "decimals": 18,
+  "description": "Governance Token of EthereansOS (EthOS) protocol. More info: https://ethos.eth",
+  "website": "https://ethereans.app",
+  "twitter": "@ethereansOS",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6100dd79fCAA88420750DceE3F735d168aBcB771"
+    },
+    "optimism": {
+      "address": "0x6AF3cb766D6cd37449bfD321D961A61B0515c1BC"
+    }
+  }
+}
