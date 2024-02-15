@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-02-15T22:01:51.417Z",
+  "timestamp": "2024-02-15T22:02:29.117Z",
   "tokens": [
     {
       "chainId": 1,
@@ -550,6 +550,58 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BITCOIN"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0A638F07ACc6969abF392bB009f216D22aDEa36d",
+      "name": "Brickken",
+      "symbol": "BKN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BKN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "BKN"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x97a13487f889dc770Ac925Be2d3b6c833FA7746a",
+      "name": "Brickken",
+      "symbol": "BKN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BKN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "BKN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xddB293BB5C5258F7484A94a0fBd5c8B2F6E4e376",
+      "name": "Brickken",
+      "symbol": "BKN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BKN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BKN"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0xe2c5fd88341c18025665e4088d8eed23f5c573a7",
+      "name": "Brickken",
+      "symbol": "BKN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BKN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BKN"
       }
     },
     {
@@ -6907,6 +6959,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 40
+    "patch": 41
   }
 }
