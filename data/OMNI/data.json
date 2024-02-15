@@ -1,0 +1,17 @@
+{
+  "name": "OmniCat",
+  "symbol": "OMNI",
+  "decimals": 18,
+  "description": "The first omnichain memecoin",
+  "website": "https://omnicat.xyz/",
+  "twitter": "@OmniCatCoin",
+  "nobridge": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x9e20461bc2c4c980f62f1B279D71734207a6A356"
+    },
+    "base": {
+      "address": "0xC48E605c7b722a57277e087a6170B9E227e5AC0A"
+    }
+  }
+}
