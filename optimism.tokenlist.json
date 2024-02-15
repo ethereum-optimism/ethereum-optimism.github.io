@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-02-13T19:30:12.536Z",
+  "timestamp": "2024-02-15T17:44:02.652Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3744,6 +3744,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x6100dd79fCAA88420750DceE3F735d168aBcB771",
+      "name": "Ethereans",
+      "symbol": "OS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OS/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "OS"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x6AF3cb766D6cd37449bfD321D961A61B0515c1BC",
+      "name": "Ethereans",
+      "symbol": "OS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OS/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OS"
+      }
+    },
+    {
       "chainId": 5,
       "address": "0x32B3b2281717dA83463414af4E8CfB1970E56287",
       "name": "OptimismUselessToken-Bridged",
@@ -6855,6 +6881,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 36
+    "patch": 37
   }
 }
