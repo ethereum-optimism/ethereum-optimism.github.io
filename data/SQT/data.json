@@ -1,0 +1,22 @@
+{
+    "name": "SubQuery Token",
+    "symbol": "SQT",
+    "decimals": 18,
+    "description": "The SubQuery Network is facilitating an open web3 data revolution by allowing you to completely decentralise your infrastructure stack.",
+    "website": "https://subquery.network",
+    "twitter": "@SubQueryNetwork",
+    "tokens": {
+      "ethereum": {
+        "address": "0x09395a2A58DB45db0da254c7EAa5AC469D8bDc85"
+      },
+      "base": {
+        "address": "0x858c50C3AF1913b0E849aFDB74617388a1a5340d"
+      },
+      "sepolia": {
+        "address": "0xE6E15Ffc71AbDAe8D34D65bB695959fbd6c15435"
+      },
+      "base-sepolia": {
+        "address": "0x37B797EBE14B4490FE64c67390AeCfE20D650953"
+      }
+    }
+}
