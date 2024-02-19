@@ -1,0 +1,22 @@
+{
+  "name": "Brickken",
+  "symbol": "BKN",
+  "decimals": 18,
+  "description": "Brickken transforms tokenization or Real World Assets (RWA) and asset management with its comprehensive Token Suite",
+  "website": "https://brickken.com",
+  "twitter": "@Brickken",
+  "tokens": {
+    "ethereum": {
+      "address": "0x0A638F07ACc6969abF392bB009f216D22aDEa36d"
+    },
+    "sepolia": {
+      "address": "0x97a13487f889dc770Ac925Be2d3b6c833FA7746a"
+    },
+    "base": {
+      "address": "0xddB293BB5C5258F7484A94a0fBd5c8B2F6E4e376"
+    },
+    "base-sepolia": {
+      "address": "0xe2c5fd88341c18025665e4088d8eed23f5c573a7"
+    }
+  }
+}
