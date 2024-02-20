@@ -16,14 +16,18 @@
       },
       "sepolia": {
         "address": "0xF01901ad15fcd248a7175E03c0ecCC0fD1D943Eb",
-        "bridge": {
-          "base-sepolia": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120"
+        "overrides": {
+          "bridge": {
+            "base-sepolia": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120"
+          }
         }
       },
       "goerli": {
         "address": "0x4a46Ebdd35B12703717d6F4DfbF5db91E6Ac0660",
-        "bridge": {
-          "base-goerli": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a"
+        "overrides": {
+          "bridge": {
+            "base-goerli": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a"
+          }
         }
       },
       "base": {
