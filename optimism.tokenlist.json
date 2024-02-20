@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-02-20T16:46:04.045Z",
+  "timestamp": "2024-02-20T16:49:10.893Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6772,6 +6772,32 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wstETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4Abf633d9c0F4aEebB4C2E3213c7aa1b8505D332",
+        "opListId": "default",
+        "opTokenId": "wstETH"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0x24B47cd3A74f1799b32B2de11073764Cb1bb318B",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wstETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xdBA2760246f315203F8B716b3a7590F0FFdc704a",
+        "opListId": "default",
+        "opTokenId": "wstETH"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xD38e031f4529a07996aaB977d2B79f0e00656C56",
       "name": "wTBT Pool",
@@ -6959,6 +6985,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 42
+    "patch": 43
   }
 }
