@@ -5,19 +5,44 @@
     "description": "Seamless Governance Token (native Base L2 token)",
     "website": "https://www.seamlessprotocol.com",
     "twitter": "@SeamlessFi",
-    "nobridge": true,
     "tokens": {
       "ethereum": {
-        "address": "0x6b66ccd1340c479B07B390d326eaDCbb84E726Ba"
+        "address": "0x6b66ccd1340c479B07B390d326eaDCbb84E726Ba",
+        "overrides": {
+          "bridge": {
+            "base": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35"
+          }
+        }
+      },
+      "sepolia": {
+        "address": "0xF01901ad15fcd248a7175E03c0ecCC0fD1D943Eb",
+        "bridge": {
+          "base-sepolia": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120"
+        }
       },
       "goerli": {
-        "address": "0x4a46Ebdd35B12703717d6F4DfbF5db91E6Ac0660"
+        "address": "0x4a46Ebdd35B12703717d6F4DfbF5db91E6Ac0660",
+        "bridge": {
+          "base-goerli": "0xfa6d8ee5be770f84fc001d098c4bd604fe01284a"
+        }
       },
       "base": {
-        "address": "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85"
+        "address": "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85",
+        "overrides": {
+          "bridge": "0x4200000000000000000000000000000000000010"
+        }
+      },
+      "base-sepolia": {
+        "address": "0x178898686F23a50CCAC17962df41395484804a6B",
+        "overrides": {
+          "bridge": "0x4200000000000000000000000000000000000010"
+        }
       },
       "base-goerli": {
-        "address": "0x8c0dE778f20e7D25E6E2AAc23d5Bee1d19Deb491"
+        "address": "0x8c0dE778f20e7D25E6E2AAc23d5Bee1d19Deb491",
+        "overrides": {
+          "bridge": "0x4200000000000000000000000000000000000010"
+        }
       }
     }
   }
