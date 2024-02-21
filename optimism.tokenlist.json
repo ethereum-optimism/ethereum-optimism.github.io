@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-02-19T09:49:30.246Z",
+  "timestamp": "2024-02-21T00:28:23.369Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3785,6 +3785,44 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x0001A500A6B18995B03f44bb040A5fFc28E45CB0",
+      "name": "Autonolas",
+      "symbol": "OLAS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OLAS/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "OLAS"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xFC2E6e6BCbd49ccf3A5f029c79984372DcBFE527",
+      "name": "Autonolas",
+      "symbol": "OLAS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OLAS/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OLAS"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xEdfc28215B1Eb6eb0be426f1f529cf691A5C2400",
+      "name": "Autonolas",
+      "symbol": "OLAS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OLAS/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "OLAS"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0x4200000000000000000000000000000000000042",
       "name": "Optimism",
@@ -6768,6 +6806,32 @@
       "logoURI": "https://ethereum-optimism.github.io/data/wstETH/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0xac9D11cD4D7eF6e54F14643a393F68Ca014287AB",
+        "opListId": "default",
+        "opTokenId": "wstETH"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wstETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4Abf633d9c0F4aEebB4C2E3213c7aa1b8505D332",
+        "opListId": "default",
+        "opTokenId": "wstETH"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0x24B47cd3A74f1799b32B2de11073764Cb1bb318B",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wstETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xdBA2760246f315203F8B716b3a7590F0FFdc704a",
         "opListId": "default",
         "opTokenId": "wstETH"
       }
