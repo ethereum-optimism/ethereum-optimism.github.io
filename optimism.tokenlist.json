@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-02-20T16:55:17.931Z",
+  "timestamp": "2024-02-22T19:50:08.421Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4146,6 +4146,18 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0xe0231bb166D09A3f0739F7AFAd68438C0fA142a5",
+      "name": "Ponder",
+      "symbol": "PNDR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PNDR/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "PNDR"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e",
       "name": "PoolTogether",
@@ -7023,6 +7035,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 44
+    "patch": 45
   }
 }
