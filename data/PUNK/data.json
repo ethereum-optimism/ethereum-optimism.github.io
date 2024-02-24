@@ -1,0 +1,13 @@
+{
+    "name": "DePunk",
+    "symbol": "PUNK",
+    "decimals": 8,
+    "description": "DePunk: NFTs with $PUNK Royalties",
+    "website": "https://depunk.xyz/",
+    "twitter": "https://twitter.com/depunkonbase",
+    "tokens": {
+      "base": {
+        "address": "0xa04Ef42A0BB3E4204c1eAcC26eD3110B79CA322a"
+      }
+    }
+  }
