@@ -23,7 +23,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     id: 8453,
     name: 'Base',
     provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://mainnet.base.org',
+      'https://mainnet.base.org'
     ),
     layer: 2,
   },
@@ -39,7 +39,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     id: 34443,
     name: 'Mode',
     provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://mainnet.mode.network',
+      'https://mainnet.mode.network'
     ),
     layer: 2,
   },
@@ -52,7 +52,10 @@ export const NETWORK_DATA: Record<Chain, Network> = {
   sepolia: {
     id: 11155111,
     name: 'Sepolia',
-    provider: new ethers.providers.StaticJsonRpcProvider(`https://sepolia.infura.io/v3/${DEFAULT_INFURA_KEY}`, 11155111),
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      `https://sepolia.infura.io/v3/${DEFAULT_INFURA_KEY}`,
+      11155111
+    ),
     layer: 1,
   },
   'optimism-goerli': {
@@ -150,7 +153,7 @@ export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   'optimism-sepolia': 'sepolia',
   'base-goerli': 'goerli',
   'base-sepolia': 'sepolia',
-  'pgn-sepolia': 'sepolia'
+  'pgn-sepolia': 'sepolia',
 }
 
 export const L1_STANDARD_BRIDGE_INFORMATION: Record<
@@ -198,5 +201,5 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
       l2Chain: 'base-sepolia',
       l1StandardBridgeAddress: '0xfd0Bf71F60660E2f608ed56e1659C450eB113120',
     },
-  ]
+  ],
 }

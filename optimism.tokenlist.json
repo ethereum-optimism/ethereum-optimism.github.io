@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-02-22T19:50:08.421Z",
+  "timestamp": "2024-02-26T22:13:01.682Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6142,7 +6142,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
-        "baseBridgeAddress": "0xD0204B9527C1bA7bD765Fa5CCD9355d38338272b",
+        "baseBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
         "opListId": "default",
         "opTokenId": "USDT"
       }
@@ -6189,6 +6189,19 @@
     {
       "chainId": 424,
       "address": "0x6535b3db9B908a2bbA29F83c168a0e661C3fAbf7",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "USDT"
+      }
+    },
+    {
+      "chainId": 34443,
+      "address": "0xf0F161fDA2712DB8b566946122a5af183995e2eD",
       "name": "Tether USD",
       "symbol": "USDT",
       "decimals": 6,
