@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-03-08T21:31:24.939Z",
+  "timestamp": "2024-03-08T21:38:02.574Z",
   "tokens": [
     {
       "chainId": 1,
@@ -768,6 +768,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BridgedUSDC"
+      }
+    },
+    {
+      "chainId": 99999999,
+      "address": "0xccCcCc4532d20C06726866e328F7478Edabf907B",
+      "name": "USD Base Coin",
+      "symbol": "USDzC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BridgedUSDC"
       }
@@ -1854,6 +1867,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3e2Ea9B92B7E48A52296fD261dc26fd995284631",
         "opListId": "default",
         "opTokenId": "ETH"
       }
@@ -1893,6 +1907,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "baseBridgeAddress": "0x5376f1D543dcbB5BD416c56C189e4cB7399fCcCB",
         "opListId": "default",
         "opTokenId": "ETH"
       }
@@ -1919,6 +1934,32 @@
       "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "ETH"
+      }
+    },
+    {
+      "chainId": 99999999,
+      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "ETH"
+      }
+    },
+    {
+      "chainId": 7777777,
+      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "ETH"
       }

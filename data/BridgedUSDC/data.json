@@ -39,6 +39,13 @@
         "name": "Bridged USDC",
         "symbol": "USDC.e"
       }
+    },
+    "zora-sepolia": {
+      "address": "0xccCcCc4532d20C06726866e328F7478Edabf907B",
+      "overrides": {
+        "name": "USD Base Coin",
+        "symbol": "USDzC"
+      }
     }
   }
 }
