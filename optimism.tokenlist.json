@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-03-08T21:38:27.549Z",
+  "timestamp": "2024-03-08T21:38:37.132Z",
   "tokens": [
     {
       "chainId": 1,
@@ -700,7 +700,7 @@
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
       "extensions": {
-        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "baseBridgeAddress": "0x3e2Ea9B92B7E48A52296fD261dc26fd995284631",
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "BridgedUSDC"
@@ -773,9 +773,22 @@
       }
     },
     {
+      "chainId": 7777777,
+      "address": "0xccCcCc4532d20C06726866e328F7478Edabf907B",
+      "name": "Bridged USDC",
+      "symbol": "USDzC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BridgedUSDC"
+      }
+    },
+    {
       "chainId": 99999999,
       "address": "0xccCcCc4532d20C06726866e328F7478Edabf907B",
-      "name": "USD ZORA Coin",
+      "name": "Bridged USDC",
       "symbol": "USDzC",
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
