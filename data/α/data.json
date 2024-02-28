@@ -1,0 +1,13 @@
+{
+  "name": "ALPHA",
+  "symbol": "α",
+  "decimals": 18,
+  "description": "",
+  "website": "",
+  "twitter": "",
+  "tokens": {
+    "optimism": {
+      "address": "0xeC06A4f1F866e233AF232ECc4f99ee5CDC287E67"
+    }
+  }
+}

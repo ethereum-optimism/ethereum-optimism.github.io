@@ -7030,6 +7030,19 @@
         "opListId": "extended",
         "opTokenId": "ZUSD"
       }
+    },
+    {
+      "chainId": 10,
+      "address": "0xeC06A4f1F866e233AF232ECc4f99ee5CDC287E67",
+      "name": "ALPHA",
+      "symbol": "α",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/techbykeith/crypto/main/aa.jpg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "α"
+      }
     }
   ],
   "version": {
