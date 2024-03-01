@@ -1,0 +1,14 @@
+{
+    "name": "BMW",
+    "symbol": "BMW",
+    "decimals": 18,
+    "tokens": {
+      "sepolia": {
+        "address": "0xbfAB80ccc15DF6fb7185f9498d6039317331846a"
+      },
+
+      "base-sepolia": {
+        "address": "0x3B231af80746fcF9b9A1c4806d7e2C8e4EF9d9B0"
+      }
+    }
+  }
