@@ -2,13 +2,14 @@
     "name": "BMW",
     "symbol": "BMW",
     "decimals": 18,
+    "description": "This is a test bridge from sepolia to base sepolia that implements layer zero OFT with the bridged tokens in base sepolia",
     "tokens": {
       "sepolia": {
-        "address": "0xbfAB80ccc15DF6fb7185f9498d6039317331846a"
+        "address": "0x201388DF45878c9F0ca7331b930a2019720b5Bba"
       },
 
       "base-sepolia": {
-        "address": "0x3B231af80746fcF9b9A1c4806d7e2C8e4EF9d9B0"
+        "address": "0xbfAB80ccc15DF6fb7185f9498d6039317331846a"
       }
     }
   }
