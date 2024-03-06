@@ -17,6 +17,12 @@
       "overrides": {
         "name": "Token Name Service"
       }
+    },
+    "base": {
+      "address": "0x78b3C724A2F663D11373C4a1978689271895256f",
+      "overrides": {
+        "name": "Token Name Service"
+      }
     }
   }
 }
