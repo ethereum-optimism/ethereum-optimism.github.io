@@ -23,6 +23,20 @@
       "overrides": {
         "bridge": "0xac9D11cD4D7eF6e54F14643a393F68Ca014287AB"
       }
+    },
+    "sepolia": {
+      "address": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b",
+      "overrides": {
+        "bridge": {
+            "optimism-sepolia" : "0x4Abf633d9c0F4aEebB4C2E3213c7aa1b8505D332"
+        }
+      }
+    },
+    "optimism-sepolia": {
+      "address": "0x24B47cd3A74f1799b32B2de11073764Cb1bb318B",
+      "overrides": {
+        "bridge": "0xdBA2760246f315203F8B716b3a7590F0FFdc704a"
+      }
     }
   }
 }
