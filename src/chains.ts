@@ -80,6 +80,15 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
+  'base-sepolia': {
+    id: 84532,
+    name: 'Base Sepolia',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://sepolia.base.org',
+      84532
+    ),
+    layer: 2,
+  },
   'pgn-sepolia': {
     id: 58008,
     name: 'PGN Sepolia',
@@ -124,6 +133,9 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   'base-goerli': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
+  'base-sepolia': {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
   'pgn-sepolia': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
@@ -137,6 +149,7 @@ export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   'optimism-goerli': 'goerli',
   'optimism-sepolia': 'sepolia',
   'base-goerli': 'goerli',
+  'base-sepolia': 'sepolia',
   'pgn-sepolia': 'sepolia'
 }
 
@@ -180,6 +193,10 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     {
       l2Chain: 'pgn-sepolia',
       l1StandardBridgeAddress: '0xFaE6abCAF30D23e233AC7faF747F2fC3a5a6Bfa3',
+    },
+    {
+      l2Chain: 'base-sepolia',
+      l1StandardBridgeAddress: '0xfd0Bf71F60660E2f608ed56e1659C450eB113120',
     },
   ]
 }
