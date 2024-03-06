@@ -13,7 +13,7 @@ jobs:
           stale-pr-message: 'This pr has been automatically marked as stale and will be closed in 7 days if no updates'
           close-issue-message: 'This issue was closed as stale.  Please reopen if this is a mistake'
           close-pr-message: 'This PR was closed as stale.  Please reopen if this is a mistake'
-          days-before-issue-stale: 7
-          days-before-pr-stale: 7
-          days-before-issue-close: 7
-          days-before-pr-close: 7
+          days-before-issue-stale: 100
+          days-before-pr-stale: 30
+          days-before-issue-close: 114
+          days-before-pr-close: 37
