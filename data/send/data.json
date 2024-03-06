@@ -1,0 +1,25 @@
+{
+  "name": "Send Token",
+  "symbol": "send",
+  "decimals": 0,
+  "description": "Send is designed for instant payments and utilizes smart contract accounts to onboard users into the world of crypto.",
+  "website": "https://send.it",
+  "twitter": "@send",
+  "tokens": {
+    "ethereum": {
+      "address": "0x3f14920c99BEB920Afa163031c4e47a3e03B3e4A"
+    },
+    "base": {
+      "address": "0x3f14920c99BEB920Afa163031c4e47a3e03B3e4A"
+    },
+    "sepolia": {
+      "address": "0x3f14920c99BEB920Afa163031c4e47a3e03B3e4A"
+    },
+    "goerli": {
+      "address": "0x3f14920c99BEB920Afa163031c4e47a3e03B3e4A"
+    },
+    "base-goerli": {
+      "address": "0x3f14920c99BEB920Afa163031c4e47a3e03B3e4A"
+    }
+  }
+}
