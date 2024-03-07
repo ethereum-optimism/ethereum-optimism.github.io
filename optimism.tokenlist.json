@@ -6,8 +6,34 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-03-07T00:44:06.722Z",
+  "timestamp": "2024-03-07T06:24:34.755Z",
   "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x0469dFb82A816C5F0a566625Cec09216A721E90e",
+      "name": "LikeButton.eth",
+      "symbol": "❤️",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/❤️/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "❤️"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xE0742c2d2Bdbb3c138Ce81Bc5589DC07865f0a49",
+      "name": "LikeButton.eth",
+      "symbol": "❤️",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/❤️/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "❤️"
+      }
+    },
     {
       "chainId": 1,
       "address": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31",
@@ -7094,6 +7120,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 46
+    "patch": 47
   }
 }
