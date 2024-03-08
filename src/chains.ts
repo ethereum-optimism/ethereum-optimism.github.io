@@ -100,13 +100,14 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
-  zora: {
+  'zora': {
     id: 7777777,
     name: 'Zora',
     provider: new ethers.providers.StaticJsonRpcProvider(
       'https://rpc.zora.energy',
       7777777
     ),
+    layer: 2,
   },
   'zora-sepolia': {
     id: 99999999,
@@ -115,6 +116,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
       'https://sepolia.rpc.zora.energy',
       99999999
     ),
+    layer: 2,
   },
 }
 
