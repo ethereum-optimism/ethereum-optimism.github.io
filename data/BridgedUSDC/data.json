@@ -41,16 +41,16 @@
       }
     },
     "zora": {
-      "address": "0xccCcCc4532d20C06726866e328F7478Edabf907B",
+      "address": "0xCccCCccc7021b32EBb4e8C08314bD62F7c653EC4",
       "overrides": {
-        "name": "Bridged USDC",
+        "name": "USD Coin (Bridged from Ethereum)",
         "symbol": "USDzC"
       }
     },
     "zora-sepolia": {
       "address": "0xccCcCc4532d20C06726866e328F7478Edabf907B",
       "overrides": {
-        "name": "Bridged USDC",
+        "name": "USD Coin (Bridged from Ethereum)",
         "symbol": "USDzC"
       }
     }

@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-03-08T21:39:00.092Z",
+  "timestamp": "2024-03-08T21:55:02.866Z",
   "tokens": [
     {
       "chainId": 1,
@@ -774,8 +774,8 @@
     },
     {
       "chainId": 7777777,
-      "address": "0xccCcCc4532d20C06726866e328F7478Edabf907B",
-      "name": "Bridged USDC",
+      "address": "0xCccCCccc7021b32EBb4e8C08314bD62F7c653EC4",
+      "name": "USD Coin (Bridged from Ethereum)",
       "symbol": "USDzC",
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
@@ -786,9 +786,9 @@
       }
     },
     {
-      "chainId": 99999999,
+      "chainId": 999999999,
       "address": "0xccCcCc4532d20C06726866e328F7478Edabf907B",
-      "name": "Bridged USDC",
+      "name": "USD Coin (Bridged from Ethereum)",
       "symbol": "USDzC",
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
@@ -1952,7 +1952,7 @@
       }
     },
     {
-      "chainId": 99999999,
+      "chainId": 999999999,
       "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
       "name": "Ether",
       "symbol": "ETH",
@@ -6827,7 +6827,7 @@
       }
     },
     {
-      "chainId": 99999999,
+      "chainId": 999999999,
       "address": "0x4200000000000000000000000000000000000006",
       "name": "Wrapped Ether",
       "symbol": "WETH",

@@ -62,7 +62,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     id: 420,
     name: 'Optimism Goerli',
     provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://goerli.optimism.io'
+      'https://optimism-goerli-rpc.publicnode.com'
     ),
     layer: 2,
   },
@@ -78,7 +78,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     id: 84531,
     name: 'Base Goerli',
     provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://goerli.base.org',
+      'https://base-goerli-rpc.publicnode.com',
       84531
     ),
     layer: 2,
@@ -110,11 +110,11 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     layer: 2,
   },
   'zora-sepolia': {
-    id: 99999999,
+    id: 999999999,
     name: 'Zora Sepolia',
     provider: new ethers.providers.StaticJsonRpcProvider(
       'https://sepolia.rpc.zora.energy',
-      99999999
+      999999999
     ),
     layer: 2,
   },
