@@ -119,13 +119,17 @@ export const validate = async (
       // Validate any standard tokens
       if (folder !== 'ETH' && data.nonstandard !== true) {
         const networkData = NETWORK_DATA[chain as Chain]
-        console.log(`Getting network for ${chain}`);
-        const contract = new ethers.Contract(
-          token.address,
-          TOKEN_ABI,
-          networkData.provider
-        )
-
+        let contract;
+        try {
+          contract = new ethers.Contract(
+            token.address,
+            TOKEN_ABI,
+            networkData.provider
+          )
+        } catch (e: any) {
+          console.error(`error getting contract info on ${chain}, ${e}`);
+          throw e;
+        }
 
         // Check that the token exists on this chain
         if ((await contract.provider.getCode(token.address)) === '0x') {
