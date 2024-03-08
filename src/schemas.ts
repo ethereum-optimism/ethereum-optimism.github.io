@@ -79,6 +79,8 @@ export const TOKEN_DATA_SCHEMA = {
         { required: ['sepolia'] },
         { required: ['optimism-goerli'] },
         { required: ['optimism-sepolia'] },
+        { required: ['zora'] },
+        { required: ['zora-sepolia'] },
       ],
     },
   },
