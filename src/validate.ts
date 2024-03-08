@@ -119,11 +119,17 @@ export const validate = async (
       // Validate any standard tokens
       if (folder !== 'ETH' && data.nonstandard !== true) {
         const networkData = NETWORK_DATA[chain as Chain]
-        const contract = new ethers.Contract(
-          token.address,
-          TOKEN_ABI,
-          networkData.provider
-        )
+        let contract;
+        try {
+          contract = new ethers.Contract(
+            token.address,
+            TOKEN_ABI,
+            networkData.provider
+          )
+        } catch (e: any) {
+          console.error(`error getting contract info on ${chain}, ${e}`);
+          throw e;
+        }
 
         // Check that the token exists on this chain
         if ((await contract.provider.getCode(token.address)) === '0x') {
@@ -282,18 +288,17 @@ export const validate = async (
             await sleep(1000)
             const { result: etherscanResult } = await (
               await fetch(
-                `https://api${
-                  chain === 'ethereum' ? '' : `-${chain}`
+                `https://api${chain === 'ethereum' ? '' : `-${chain}`
                 }.etherscan.io/api?` +
-                  new URLSearchParams({
-                    module: 'contract',
-                    action: 'getsourcecode',
-                    address: token.address,
-                    // If we ever get rate limited by etherscan uncomment this line and add a method for
-                    // fetching the appropriate etherscan api key based on the chain.
-                    // https://linear.app/optimism/issue/FE-1396
-                    // apikey: getEtherscanApiKey(),
-                  })
+                new URLSearchParams({
+                  module: 'contract',
+                  action: 'getsourcecode',
+                  address: token.address,
+                  // If we ever get rate limited by etherscan uncomment this line and add a method for
+                  // fetching the appropriate etherscan api key based on the chain.
+                  // https://linear.app/optimism/issue/FE-1396
+                  // apikey: getEtherscanApiKey(),
+                })
               )
             ).json()
 

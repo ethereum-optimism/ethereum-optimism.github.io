@@ -67,6 +67,8 @@ export const TOKEN_DATA_SCHEMA = {
         sepolia: TOKEN_SCHEMA,
         'optimism-goerli': TOKEN_SCHEMA,
         'optimism-sepolia': TOKEN_SCHEMA,
+        'zora': TOKEN_SCHEMA,
+        'zora-sepolia': TOKEN_SCHEMA,
       },
       additionalProperties: false,
       anyOf: [
@@ -79,6 +81,8 @@ export const TOKEN_DATA_SCHEMA = {
         { required: ['sepolia'] },
         { required: ['optimism-goerli'] },
         { required: ['optimism-sepolia'] },
+        { required: ['zora'] },
+        { required: ['zora-sepolia'] },
       ],
     },
   },

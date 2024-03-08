@@ -20,6 +20,12 @@
     },
     "optimism-sepolia": {
       "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
+    },
+    "zora-sepolia": {
+      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
+    },
+    "zora": {
+      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
     }
   }
 }
