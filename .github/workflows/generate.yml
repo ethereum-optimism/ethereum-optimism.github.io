@@ -1,50 +1,56 @@
 name: Generate Token List
 
+# This workflow is triggered manually or whenever there's a push to the master branch.
 on:
-  workflow_dispatch:
-  push:
-    branches: [master]
+ workflow_dispatch: # Manual trigger
+ push:
+    branches: [master] # Trigger on push to master
 
 jobs:
-  generate:
+ generate:
     name: generate
+    # This job runs only if the commit is not made by the 'github-actions[bot]' and the repository is 'ethereum-optimism/ethereum-optimism.github.io'.
     if: |
       github.event.head_commit.committer.username != 'github-actions[bot]'
         && github.repository == 'ethereum-optimism/ethereum-optimism.github.io'
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # Use the latest Ubuntu virtual environment
 
     steps:
       - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.PAT }}
-          fetch-depth: 0
+          token: ${{ secrets.PAT }} # Use a Personal Access Token (PAT) for authentication
+          fetch-depth: 0 # Fetch all history for all branches and tags
 
       - uses: pnpm/action-setup@v2
         with:
-          version: 8.6.0
+          version: 8.6.0 # Specify the version of pnpm to use
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
         with:
-          node-version: 16.x
-          cache: pnpm
+          node-version: 16.x # Use Node.js version 16.x
+          cache: pnpm # Cache dependencies for faster builds
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile # Install dependencies without modifying package-lock.json
 
+      # Patch the token list version using npm version patch
       - name: Patch token list version
         run: |
           git config --global user.email "mergify[bot]@users.noreply.github.com"
           git config --global user.name "mergify[bot]"
           npm version patch
 
+      # Generate the token list
       - name: Generate token list
         run: |
           pnpm generate:ci
 
+      # Commit the updated token list
       - name: Commit token list
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'bot(ci): generate token list'
-          file_pattern: optimism.tokenlist.json
+          commit_message: 'bot(ci): generate token list' # Commit message
+          file_pattern: optimism.tokenlist.json # Specify the file to commit
+
