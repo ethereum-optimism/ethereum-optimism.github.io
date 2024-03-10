@@ -1,0 +1,15 @@
+{
+    "name": "Decentralized Insurance Protocol Token",
+    "symbol": "DIP",
+    "decimals": 18,
+    "website": "https://docs.etherisc.com",
+    "twitter": "@etherisc",
+    "tokens": {
+      "ethereum": {
+        "address": "0xc719d010b63e5bbf2c0551872cd5316ed26acd83"
+      },
+      "base": {
+        "address": "0xfdB341C7426D4581ffc101210b8c3996060c2701"
+      }
+    }
+}
