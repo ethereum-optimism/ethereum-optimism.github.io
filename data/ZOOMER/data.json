@@ -2,6 +2,10 @@
   "name": "ZoomerCoin",
   "symbol": "ZOOMER",
   "decimals": 18,
+  "nobridge": true,
+  "description": "The first and only omni-chain memecoin for Gen Z",
+  "website": "https://zoomer.money",
+  "twitter": "@ZoomerCoin",
   "tokens": {
     "ethereum": {
       "address": "0x0D505C03d30e65f6e9b4Ef88855a47a89e4b7676"
