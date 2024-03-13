@@ -80,54 +80,53 @@ export const generate = (datadir: string) => {
     )
 }
 
-const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
-  if (isL2Chain(chain)) {
-    const tokenBridgeOverride = token.overrides?.bridge
+// Function to get bridge information based on token data, chain, and token
+const getBridges = (tokenData, chain, token) => {
+ // Check if the chain is an L2 chain
+ if (isL2Chain(chain)) {
+    // Check for a token bridge override and ensure it's a string
+    const tokenBridgeOverride = token.overrides?.bridge;
     if (tokenBridgeOverride && typeof tokenBridgeOverride !== 'string') {
-      throw new Error('L2 Bridge override should be a string')
+      throw new Error('L2 Bridge override should be a string');
     }
-    const networkSep = chain.indexOf('-')
-    const chainName = networkSep === -1 ? chain : chain.slice(0, networkSep)
-    const bridgeKey = `${chainName}BridgeAddress`
+    // Extract the chain name and construct the bridge key
+    const networkSep = chain.indexOf('-');
+    const chainName = networkSep === -1 ? chain : chain.slice(0, networkSep);
+    const bridgeKey = `${chainName}BridgeAddress`;
+    // Return the bridge information with the override or default address
     return [
       {
-        [bridgeKey]:
-          tokenBridgeOverride ??
-          L2_STANDARD_BRIDGE_INFORMATION[chain].l2StandardBridgeAddress,
+        [bridgeKey]: tokenBridgeOverride ?? L2_STANDARD_BRIDGE_INFORMATION[chain].l2StandardBridgeAddress,
       },
-    ]
-  }
+    ];
+ }
 
-  if (isL1Chain(chain)) {
-    const l2ChainsForL1 = L1_STANDARD_BRIDGE_INFORMATION[chain].map(
-      (l1Bridge) => l1Bridge.l2Chain
-    )
+ // Check if the chain is an L1 chain
+ if (isL1Chain(chain)) {
+    // Get the L2 chains supported by the L1 chain
+    const l2ChainsForL1 = L1_STANDARD_BRIDGE_INFORMATION[chain].map((l1Bridge) => l1Bridge.l2Chain);
     const l2ChainsSupported = Object.entries(tokenData.tokens)
-      .filter(
-        ([tokenChain]) =>
-          isL2Chain(tokenChain) && l2ChainsForL1.includes(tokenChain)
-      )
-      .map(([l2Chain]) => l2Chain as L2Chain)
+      .filter(([tokenChain]) => isL2Chain(tokenChain) && l2ChainsForL1.includes(tokenChain))
+      .map(([l2Chain]) => l2Chain);
+    // Return the bridge information for each supported L2 chain
     return l2ChainsSupported.map((l2Chain) => {
-      const l1StandardBridgeInfoForL2 = L1_STANDARD_BRIDGE_INFORMATION[
-        chain
-      ].find((l1BridgeInfo) => l1BridgeInfo.l2Chain === l2Chain)
-      const tokenBridgeOverride = token.overrides?.bridge
+      const l1StandardBridgeInfoForL2 = L1_STANDARD_BRIDGE_INFORMATION[chain].find((l1BridgeInfo) => l1BridgeInfo.l2Chain === l2Chain);
+      // Check for a token bridge override and ensure it's a map from L2 chain to bridge address
+      const tokenBridgeOverride = token.overrides?.bridge;
       if (tokenBridgeOverride && typeof tokenBridgeOverride === 'string') {
-        throw new Error(
-          'L1 Bridge override should be a map from l2 chain to bridge address'
-        )
+        throw new Error('L1 Bridge override should be a map from L2 chain to bridge address');
       }
-      const networkSep = l2Chain.indexOf('-')
-      const chainName = networkSep === -1 ? l2Chain : l2Chain.slice(0, networkSep)
-      const bridgeKey = `${chainName}BridgeAddress`
+      // Extract the chain name and construct the bridge key
+      const networkSep = l2Chain.indexOf('-');
+      const chainName = networkSep === -1 ? l2Chain : l2Chain.slice(0, networkSep);
+      const bridgeKey = `${chainName}BridgeAddress`;
+      // Return the bridge information with the override or default address
       return {
-        [bridgeKey]:
-          tokenBridgeOverride?.[l2Chain] ??
-          l1StandardBridgeInfoForL2.l1StandardBridgeAddress,
-      }
-    })
-  }
+        [bridgeKey]: tokenBridgeOverride?.[l2Chain] ?? l1StandardBridgeInfoForL2.l1StandardBridgeAddress,
+      };
+    });
+ }
+};
 
   throw new Error('unsupported chain')
 }
