@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-03-13T15:35:30.967Z",
+  "timestamp": "2024-03-14T16:46:11.188Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6593,6 +6593,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/WBTC/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
         "opListId": "default",
         "opTokenId": "WBTC"
       }
@@ -6632,6 +6633,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/WBTC/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "WBTC"
+      }
+    },
+    {
+      "chainId": 34443,
+      "address": "0xcDd475325D6F564d27247D1DddBb0DAc6fA0a5CF",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/WBTC/logo.svg",
+      "extensions": {
+        "modeBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "WBTC"
       }
@@ -7174,6 +7188,6 @@
   "version": {
     "major": 9,
     "minor": 0,
-    "patch": 50
+    "patch": 51
   }
 }
