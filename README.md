@@ -115,6 +115,7 @@ We currently accept tokens on the following chains:
 - `base`
 - `base-goerli`
 - `base-sepolia`
+- `lisk-sepolia`
 - `optimism-goerli`
 - `optimism-sepolia`
 
