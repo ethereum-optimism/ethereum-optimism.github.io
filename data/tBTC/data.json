@@ -10,17 +10,8 @@
     "ethereum": {
       "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88"
     },
-    "goerli": {
-      "address": "0x679874fBE6D4E7Cc54A59e315FF1eB266686a937"
-    },
     "base": {
       "address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
-      "overrides": {
-        "name": "Base tBTC v2"
-      }
-    },
-    "base-goerli": {
-      "address": "0x783349cd20f26CE12e747b1a17bC38D252c9e119",
       "overrides": {
         "name": "Base tBTC v2"
       }

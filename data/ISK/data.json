@@ -9,14 +9,8 @@
     "ethereum": {
       "address": "0x17d2628D30F8e9E966c9Ba831c9B9b01ea8Ea75C"
     },
-    "goerli": {
-      "address": "0xce90437e27Cf9e4D22240C4CDb413BaF8Ec165D8"
-    },
     "base": {
       "address": "0x17d2628D30F8e9E966c9Ba831c9B9b01ea8Ea75C"
-    },
-    "base-goerli": {
-      "address": "0x47762082D83994AFd311E559FE582B6dC99D89c4"
     }
   }
 }

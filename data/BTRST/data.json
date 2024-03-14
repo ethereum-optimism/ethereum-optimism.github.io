@@ -15,12 +15,6 @@
     "base": {
       "address": "0xA7d68d155d17cB30e311367c2Ef1E82aB6022b67"
     },
-    "goerli": {
-      "address": "0x39e09359F5a7396937504Eb2766722e2bf4650e8"
-    },
-    "base-goerli": {
-      "address": "0x99aC4484e8a1dbd6A185380B3A811913Ac884D87"
-    },
     "sepolia": {
       "address": "0xE490c7698F2b80789Fe312162d9D0a1Bd8C9beeE"
     },
