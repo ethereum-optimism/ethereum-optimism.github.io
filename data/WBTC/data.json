@@ -18,6 +18,9 @@
     "optimism-goerli": {
       "address": "0xe0a592353e81a94Db6E3226fD4A99F881751776a",
       "overrides": { "name":"Wrapped BTC L2" }
+    },
+    "mode": {
+      "address": "0xcDd475325D6F564d27247D1DddBb0DAc6fA0a5CF"
     }
   }
 }
