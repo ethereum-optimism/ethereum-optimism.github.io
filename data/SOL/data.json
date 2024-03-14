@@ -1,5 +1,5 @@
 {
-  "name": "Solana",
+  "name": "Wrapped SOL",
   "symbol": "SOL",
   "decimals": 9,
   "description": "SOL from Solana, bridged by Wormhole.",
