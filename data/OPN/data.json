@@ -7,6 +7,9 @@
   "tokens": {
     "ethereum": {
       "address": "0xc28eb2250d1AE32c7E74CFb6d6b86afC9BEb6509"
+    },
+    "base": {
+      "address": "0x9A6d24c02eC35ad970287eE8296D4D6552a31DbE"
     }
   }
 }
