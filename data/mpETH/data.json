@@ -7,12 +7,15 @@
   "twitter": "@meta_pool",
   "tokens": {
     "ethereum": {
-      "address": "0x48afbbd342f64ef8a9ab1c143719b63c2ad81710"
+      "address": "0x48afbbd342f64ef8a9ab1c143719b63c2ad81710",
+      "overrides": {
+        "name": "MetaPoolETH"
+      }
     },
     "optimism": {
       "address": "0x819845b60a192167ed1139040b4f8eca31834f27",
       "overrides": {
-        "name": "MetaPool ETH Liquid Staking Token"
+        "name": "MetaPoolETH"
       }
     }
   }

@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-03-14T19:49:08.001Z",
+  "timestamp": "2024-03-15T16:31:52.487Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5628,8 +5628,8 @@
     }
   ],
   "version": {
-    "major": 9,
+    "major": 10,
     "minor": 0,
-    "patch": 51
+    "patch": 0
   }
 }
