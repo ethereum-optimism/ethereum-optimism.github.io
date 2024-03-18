@@ -1,0 +1,16 @@
+{
+    "name": "Chad USD",
+    "symbol": "CUSD",
+    "decimals": 18,
+    "tokens": {
+      "ethereum": {
+        "address": "0x0b6A24A288eF6e1bFFd94EBe0EE026D80Cb4cE82"
+      },
+      "optimism": {
+        "address": "0x3Df6a89859089715235153582f53114898bB0145"
+      },
+      "base": {
+        "address": "0x4493faE71502871245B7049580b3195bC930e661"
+      }
+    }
+  }
