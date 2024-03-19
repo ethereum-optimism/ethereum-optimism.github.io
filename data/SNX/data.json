@@ -18,28 +18,8 @@
         "bridge": "0x136b1EC699c62b0606854056f02dC7Bb80482d63"
       }
     },
-    "goerli": {
-      "address": "0x51f44ca59b867E005e48FA573Cb8df83FC7f7597",
-      "overrides": {
-        "bridge": {
-          "optimism-goerli": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65"
-        }
-      }
-    },
-    "optimism-goerli": {
-      "address": "0x2E5ED97596a8368EB9E44B1f3F25B2E813845303",
-      "overrides": {
-        "bridge": "0xD2b3F0Ea40dB68088415412b0043F37B3088836D"
-      }
-    },
     "base": {
       "address": "0x22e6966B799c4D5B13BE962E1D117b56327FDa66"
-    },
-    "base-goerli": {
-      "address": "0x6AF3cb766D6cd37449bfD321D961A61B0515c1BC"
-    },
-    "mode": {
-      "address": "0x9e5AAC1Ba1a2e6aEd6b32689DFcF62A509Ca96f3"
     }
   }
 }
