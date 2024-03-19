@@ -1,0 +1,21 @@
+{
+    "name": "Smart Layer Network Token",
+    "symbol": "SLN",
+    "decimals": 18,
+    "website": "https://smartlayer.network",
+    "twitter": "@SmartLayer",
+    "tokens": {
+      "ethereum": {
+        "address": "0xDb82c0d91E057E05600C8F8dc836bEb41da6df14"
+      },
+      "sepolia": {
+        "address": "0x0404ab3994ED48C300cE219546f757AD34484Dc7"
+      },
+      "optimism-sepolia": {
+        "address": "0x0c387bcd77e4EC57Af8C2709E4322ac05D74BFD7"
+      },
+      "base-sepolia": {
+        "address": "0xf57750397ff3d5c7b1c3c658c878be2419f89425"
+      }
+    }
+}
