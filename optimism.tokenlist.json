@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-03-19T15:19:14.198Z",
+  "timestamp": "2024-03-19T15:26:44.153Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1087,6 +1087,7 @@
         "optimismBridgeAddress": "0x10E6593CDda8c58a1d0f14C5164B376352a55f2F",
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "pgnBridgeAddress": "0xD0204B9527C1bA7bD765Fa5CCD9355d38338272b",
+        "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
         "opListId": "default",
         "opTokenId": "DAI"
       }
@@ -1126,6 +1127,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
       "extensions": {
         "pgnBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "DAI"
+      }
+    },
+    {
+      "chainId": 34443,
+      "address": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
+      "extensions": {
+        "modeBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "DAI"
       }
@@ -2491,6 +2505,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/LINK/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
         "opListId": "default",
         "opTokenId": "LINK"
       }
@@ -2504,6 +2519,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/LINK/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "LINK"
+      }
+    },
+    {
+      "chainId": 34443,
+      "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LINK/logo.png",
+      "extensions": {
+        "modeBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "LINK"
       }
@@ -4135,6 +4163,18 @@
       }
     },
     {
+      "chainId": 34443,
+      "address": "0x9e5AAC1Ba1a2e6aEd6b32689DFcF62A509Ca96f3",
+      "name": "Synthetix",
+      "symbol": "SNX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SNX/logo.svg",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "SNX"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xB49fa25978abf9a248b8212Ab4b87277682301c0",
       "name": "Rai.Finance",
@@ -4815,6 +4855,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/UNI/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
         "opListId": "default",
         "opTokenId": "UNI"
       }
@@ -4828,6 +4869,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/UNI/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "UNI"
+      }
+    },
+    {
+      "chainId": 34443,
+      "address": "0x3e7eF8f50246f725885102E8238CBba33F276747",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UNI/logo.png",
+      "extensions": {
+        "modeBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "UNI"
       }
@@ -5642,6 +5696,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 2
+    "patch": 3
   }
 }
