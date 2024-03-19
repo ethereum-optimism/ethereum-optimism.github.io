@@ -20,6 +20,9 @@
     },
     "base": {
       "address": "0x22e6966B799c4D5B13BE962E1D117b56327FDa66"
+    },
+    "mode": {
+      "address": "0x9e5AAC1Ba1a2e6aEd6b32689DFcF62A509Ca96f3"
     }
   }
 }
