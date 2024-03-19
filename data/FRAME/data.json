@@ -1,0 +1,13 @@
+{
+  "name": "FrameToken",
+  "symbol": "FRAME",
+  "decimals": 18,
+  "description": "The BASED builder coin.",
+  "website": "frametoken.us",
+  "twitter": "@FRAMEonBASE",
+  "tokens": {
+    "base": {
+      "address": "0x91F45aa2BdE7393e0AF1CC674FFE75d746b93567"
+    },
+  }
+}
