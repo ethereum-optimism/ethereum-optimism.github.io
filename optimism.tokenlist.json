@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-03-18T16:34:31.581Z",
+  "timestamp": "2024-03-19T15:19:14.198Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4869,6 +4869,18 @@
       }
     },
     {
+      "chainId": 34443,
+      "address": "0xd988097fb8612cc24eeC14542bC03424c656005f",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "USDC"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
       "name": "Decentralized USD",
@@ -5630,6 +5642,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   }
 }
