@@ -1,0 +1,19 @@
+{
+  "name": "BananaCat",
+  "symbol": "BCAT",
+  "decimals": 9,
+  "description": "The world's most famous cat in a banana suit.",
+  "website": "https://bananacat.community/",
+  "twitter": "@bananacat_erc20",
+  "tokens": {
+    "ethereum": {
+      "address": "0x0590cc9232eBF68D81F6707A119898219342ecB9"
+    },
+    "optimism": {
+      "address": "0x2d945C2F224d9F1566C4978fD2Ffa46358EBfBa4"
+    },
+    "base": {
+      "address": "0x31413c1Ef43Ec45C40c62194331030aF05f4e10C"
+    }
+  }
+}
