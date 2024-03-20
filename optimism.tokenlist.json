@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-03-20T18:33:48.396Z",
+  "timestamp": "2024-03-20T21:18:48.057Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3960,6 +3960,20 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/SEAM/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "SEAM"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xF01901ad15fcd248a7175E03c0ecCC0fD1D943Eb",
+      "name": "Seamless",
+      "symbol": "SEAM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SEAM/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
         "opListId": "extended",
         "opTokenId": "SEAM"
       }
@@ -3972,6 +3986,20 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/SEAM/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SEAM"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x178898686F23a50CCAC17962df41395484804a6B",
+      "name": "Seamless",
+      "symbol": "SEAM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SEAM/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SEAM"
       }
@@ -5750,6 +5778,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 7
+    "patch": 8
   }
 }
