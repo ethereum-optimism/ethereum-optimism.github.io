@@ -20,8 +20,8 @@ Please note that by adding a token to the list we aren’t making any claims abo
 - [Tokens that modify balances without emitting a Transfer event](https://github.com/d-xo/weird-erc20#balance-modifications-outside-of-transfers-rebasingairdrops)
 
 ### Specifying chains
-For right now, each OP Chain has their own review process. So, if you are adding tokens across multiple chains, please separate your pull request so that you have one PR for each chain, in order to streamline the review process. 
-- If you are adding a token to a `Base` chain (e.g. `base` [mainnet] or `base-sepolia` [testnet]) please add [@roberto-bayardo](https://github.com/roberto-bayardo) as a reviewer as they are the point of contact for `Base` tokens and must approve all `Base` tokens before they are merged.
+For right now, each OP Chain has their own review process. So, if you are adding tokens across multiple chains, please separate your pull request so that you have one PR for each chain, in order to streamline the review process.
+- If you are adding a token to a `Base` chain (e.g. `base` [mainnet] or `base-sepolia` [testnet]) please add [@cfluke-cb](https://github.com/cfluke-cb) as a reviewer as they are the point of contact for `Base` tokens and must approve all `Base` tokens before they are merged.
   - Instead of using the predeploy token factory on Base, we recommend you use the token factory [listed here](https://docs.base.org/base-contracts/#l2-contract-addresses) for the time being to avoid having a token address that may conflict with a different token on Optimism.
 - If you are adding a token to `Zora`: please use the [`zora` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/zora) and add [@tbtstl](https://github.com/tbtstl) as a reviewer.
 - If you are adding a token to `Mode`: please use the [`mode` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/mode).
