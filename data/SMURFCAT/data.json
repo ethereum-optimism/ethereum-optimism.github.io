@@ -1,6 +1,6 @@
 {
   "name": "Real Smurf Cat",
-  "symbol": "шайлушай",
+  "symbol": "SMURFCAT",
   "decimals": 18,
   "description": "Smurfcat is a memecoin launched on the Ethereum blockchain. It's a tribute to the Smurfcat originally created by Nate Hallinan in 2011, and popularized by TikTok. It began as a fun currency and has evolved into a whole ecosystem revolving around the little guy. As the meme matures, the full Smurfcat story will be revealed. Join us and become part of a movement. Bringing together a community where fun, creativity and mycelium coexist.",
   "website": "https://smurfcat.eth.limo/",
@@ -8,6 +8,9 @@
   "tokens": {
     "ethereum": {
       "address": "0xfF836A5821E69066c87E268bC51b849FaB94240C"
+      "overrides": {
+        "symbol": "шайлушай"
+      } 
     },
     "base": {
       "address": "0x2809ee30c77d7887e4f77394a1ac0e49de0e397f"
