@@ -17,20 +17,6 @@
       "overrides": {
         "bridge": "0x136b1EC699c62b0606854056f02dC7Bb80482d63"
       }
-    },
-    "goerli": {
-      "address": "0xB1f664162c0269A469a699709D37cc5739379dD1",
-      "overrides": {
-        "bridge": {
-          "optimism-goerli": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65"
-        }
-      }
-    },
-    "optimism-goerli": {
-      "address": "0xeBaEAAD9236615542844adC5c149F86C36aD1136",
-      "overrides": {
-        "bridge": "0xD2b3F0Ea40dB68088415412b0043F37B3088836D"
-      }
     }
   }
 }
