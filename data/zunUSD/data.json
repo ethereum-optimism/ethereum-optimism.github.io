@@ -1,0 +1,19 @@
+{
+    "name": "Zunami USD",
+    "symbol": "zunUSD",
+    "decimals": 18,
+    "description": "Zunami is a decentralized protocol that issues aggregated stablecoins, whose collateral is utilized in a omnipools and differentiated among various profit-generating strategies.",
+    "website": "https://www.zunami.io/",
+    "twitter": "@zunamiprotocol",
+    "tokens": {
+      "ethereum": {
+        "address": "0x8C0D76C9B18779665475F3E212D9Ca1Ed6A1A0e6"
+      },
+      "optimism": {
+        "address": "0x93C3E0fa191141c957C2632752eC35C84d0C440a"
+      },
+      "base": {
+        "address": "0x6ef3864876424ADE834a7C1BE8C0CF3d71208B84"
+      }
+    }
+  }
