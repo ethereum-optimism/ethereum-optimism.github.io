@@ -14,20 +14,6 @@
       },
       "optimism": {
         "address": "0x528CDc92eAB044E1E39FE43B9514bfdAB4412B98"
-      },
-      "goerli": {
-        "address": "0xB9a344f23792bd2F72D050c2De8ccD6F4e700e4F",
-        "overrides": {
-          "name" : "Giveth Test Token",
-          "symbol": "DRGIV4"
-        }
-      },
-      "optimism-goerli": {
-        "address": "0xEf6301DA234fC7b0545c6E877D3359FE0B9E50a4",
-        "overrides": {
-          "name" : "Giveth Test Token",
-          "symbol": "TGIV"
-        }
       }
     }
 }
