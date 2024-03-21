@@ -1,0 +1,13 @@
+{
+  "name": "DeFido",
+  "symbol": "DEFIDO",
+  "decimals": 18,
+  "website": "https://defido.io/",
+  "description": "A faithful guardian with a legacy, innovating for the future within the Base ecosystem.",
+  "twitter": "@defidotoken",
+  "tokens": {
+    "base": {
+      "address": "0xD064c53f043d5aee2Ac9503B13eE012BF2def1d0"
+    }
+  }
+}
