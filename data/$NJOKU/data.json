@@ -1,0 +1,16 @@
+{
+  "name": "NJOKU",
+  "symbol": "$NJOKU",
+  "decimals": "18",
+  "description": "Njoku is based",
+  "website": "https://lazerpay.finance/",
+  "twitter": "https://twitter.com/njokuScript",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+    },
+    "base": {
+      "address": "0xf6254f68e7269db533ee8e32d603b352fd4506ac"
+    }
+  }
+}
