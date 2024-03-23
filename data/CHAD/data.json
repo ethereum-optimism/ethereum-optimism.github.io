@@ -1,0 +1,16 @@
+{
+  "name": "Chad",
+  "symbol": "CHAD",
+  "decimals": 18,
+  "description": "The most popular crypto meme since the 1800's",
+  "website": "https://thechadcoin.com/",
+  "twitter": "https://twitter.com/chadcoinerc",
+  "tokens": {
+    "ethereum": {
+      "address": "0x68d009F251FF3a271477F77aCb704C3b0F32a0c0"
+    },
+    "base": {
+      "address": "0x6aD71308a68Bb17b4B9Ee9F6637D055A1Af1FD84"
+    }
+  }
+}
