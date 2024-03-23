@@ -1,0 +1,19 @@
+{
+  "name": "TornadoCash",
+  "symbol": "TORN",
+  "decimals": 18,
+  "description": "Tornado Cash is a decentralized, non-custodial privacy solution built on Ethereum.",
+  "website": "https://ipfs.io/ipns/tornadocash.eth",
+  "twitter": "https://twitter.com/tornadocash",
+  "tokens": {
+    "ethereum": {
+      "address": "0x77777FeDdddFfC19Ff86DB637967013e6C6A116C"
+    },
+    "optimism": {
+      "address": "0x1Ec19fE28c9e042a5403bB49Ad742880D4f8f2E3"
+    },
+    "base": {
+      "address": "0xFa956eB0c4b3E692aD5a6B2f08170aDE55999ACa"
+    }
+  }
+}
