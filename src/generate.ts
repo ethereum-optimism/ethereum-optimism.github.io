@@ -80,40 +80,24 @@ export const generate = (datadir: string) => {
     )
 }
 
-const optimism = ['optimism', 'optimism-goerli', 'optimism-sepolia']
-const base = ['base', 'base-goerli', 'base-sepolia']
-const pgn = ['pgn', 'pgn-sepolia']
-
-/**
- * TODO: work out a better way to key these, perhaps by ID
- */
-const getTokenBridgeKey = (chain: string) => {
-  if (optimism.includes(chain)) {
-    return 'optimismBridgeAddress'
-  }
-  if (base.includes(chain)) {
-    return 'baseBridgeAddress'
-  }
-  if (pgn.includes(chain)) {
-    return 'pgnBridgeAddress'
-  }
-  throw new Error('unknown network ' + chain)
-}
-
 const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
   if (isL2Chain(chain)) {
     const tokenBridgeOverride = token.overrides?.bridge
     if (tokenBridgeOverride && typeof tokenBridgeOverride !== 'string') {
       throw new Error('L2 Bridge override should be a string')
     }
+    const networkSep = chain.indexOf('-')
+    const chainName = networkSep === -1 ? chain : chain.slice(0, networkSep)
+    const bridgeKey = `${chainName}BridgeAddress`
     return [
       {
-        [getTokenBridgeKey(chain)]:
+        [bridgeKey]:
           tokenBridgeOverride ??
           L2_STANDARD_BRIDGE_INFORMATION[chain].l2StandardBridgeAddress,
       },
     ]
   }
+
   if (isL1Chain(chain)) {
     const l2ChainsForL1 = L1_STANDARD_BRIDGE_INFORMATION[chain].map(
       (l1Bridge) => l1Bridge.l2Chain
@@ -134,8 +118,11 @@ const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
           'L1 Bridge override should be a map from l2 chain to bridge address'
         )
       }
+      const networkSep = l2Chain.indexOf('-')
+      const chainName = networkSep === -1 ? l2Chain : l2Chain.slice(0, networkSep)
+      const bridgeKey = `${chainName}BridgeAddress`
       return {
-        [getTokenBridgeKey(l2Chain)]:
+        [bridgeKey]:
           tokenBridgeOverride?.[l2Chain] ??
           l1StandardBridgeInfoForL2.l1StandardBridgeAddress,
       }
