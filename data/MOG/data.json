@@ -1,0 +1,16 @@
+{
+  "name": "Mog Coin",
+  "symbol": "MOG",
+  "decimals": 18,
+  "description": "This coin Mogs all other coins",
+  "website": "https://mogcoin.xyz/",
+  "twitter": "@mogcoineth",
+  "tokens": {
+    "ethereum": {
+      "address": "0xaaee1a9723aadb7afa2810263653a34ba2c21c7a"
+    },
+    "base": {
+      "address": "0xd658Ea2C10f474f133d8903aC2b4B6637C2C5E5D"
+    }
+  }
+}
