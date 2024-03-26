@@ -23,16 +23,14 @@ export type Chain =
   | 'ethereum'
   | 'optimism'
   | 'base'
-  | 'goerli'
-  | 'optimism-goerli'
   | 'optimism-sepolia'
-  | 'base-goerli'
   | 'base-sepolia'
   | 'pgn'
   | 'pgn-sepolia'
   | 'sepolia'
+  | 'mode'
 
-const l2Chains = ['optimism', 'optimism-goerli', 'optimism-sepolia', 'base', 'base-goerli', 'base-sepolia', 'pgn-sepolia', 'pgn'] as const
+const l2Chains = ['optimism', 'optimism-sepolia', 'base', 'base-sepolia', 'pgn-sepolia', 'pgn', 'mode'] as const
 export type L2Chain = typeof l2Chains[number]
 
 export const isL2Chain = (chain: string): chain is L2Chain => {
@@ -41,7 +39,7 @@ export const isL2Chain = (chain: string): chain is L2Chain => {
 
 export const isL1Chain = (chain: string): chain is L1Chain => !isL2Chain(chain)
 
-export type L1Chain = 'ethereum' | 'goerli' | 'sepolia'
+export type L1Chain = 'ethereum' | 'sepolia'
 
 export interface TokenData {
   nonstandard?: boolean

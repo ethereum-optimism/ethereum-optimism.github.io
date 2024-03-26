@@ -6,12 +6,6 @@
   "website": "https://noggles.com",
   "twitter": "@nogglescoin",
   "tokens": {
-    "goerli": {
-      "address": "0xE291F09a0B4FfC4e020A6BC48869385c674d379C"
-    },
-    "base-goerli": {
-      "address": "0xfe8b128ba8c78aabc59d4c64cee7ff28e9379921"
-    },
     "ethereum": {
       "address": "0x5fa20d59d2a907e5fed9fb80b4a8d9f0d069a48d"
     },
