@@ -1,23 +1,16 @@
 {
-  "name": "USD Coin",
+  "name": "USDC",
   "symbol": "USDC",
-  "decimals": 6,
-  "description": "USDC is a faster, safer, and more efficient way to send, spend, and exchange money around the globe. This is native USDC, minted by Circle's Cross-Chain Transfer Protocol.",
-  "website": "https://www.circle.com/en/usdc",
-  "twitter": "@circlepay",
-  "nobridge": true,
+  "decimals": "6",
+  "description": "Nj",
+  "website": "https://lazerpay.finance/",
+  "twitter": "https://twitter.com/njokuScript",
   "tokens": {
     "ethereum": {
-      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
     },
-    "base": {
-      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
-    },
-    "optimism": {
-      "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85"
-    },
-    "mode": {
-      "address": "0xd988097fb8612cc24eeC14542bC03424c656005f"
+    "base-sepolia": {
+      "address": "0x4367d7192e54ce171fbbaf7577eaf28ae2bfdaee"
     }
   }
 }
