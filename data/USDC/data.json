@@ -2,7 +2,7 @@
   "name": "USDC",
   "symbol": "USDC",
   "decimals": "6",
-  "description": "yo",
+  "description": "nj",
   "website": "https://lazerpay.finance/",
   "twitter": "https://twitter.com/njokuScript",
   "tokens": {
@@ -10,7 +10,7 @@
       "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
     },
     "base-sepolia": {
-      "address": "0x7220478f12d8cca1c3f0523f4b6cb64da36acfc9"
+      "address": "0xdceb584bd4e37f0a2cec412a21ebd923bbb9c7cc"
     }
   }
 }
