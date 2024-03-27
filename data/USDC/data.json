@@ -1,16 +1,16 @@
 {
-  "name": "USDC",
+  "name": "USD Coin",
   "symbol": "USDC",
   "decimals": "6",
-  "description": "nj",
-  "website": "https://lazerpay.finance/",
-  "twitter": "https://twitter.com/njokuScript",
+  "description": "lol",
+  "website": "",
+  "twitter": "",
   "tokens": {
     "ethereum": {
-      "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
     },
-    "base-sepolia": {
-      "address": "0xdceb584bd4e37f0a2cec412a21ebd923bbb9c7cc"
+    "base": {
+      "address": "0x152e3805e6494d70124c17619bc54d35ca78990f"
     }
   }
 }
