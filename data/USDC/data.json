@@ -1,5 +1,5 @@
 {
-  "name": "USD Coin",
+  "name": "USDC",
   "symbol": "USDC",
   "decimals": "6",
   "description": "lol",
@@ -7,10 +7,13 @@
   "twitter": "",
   "tokens": {
     "ethereum": {
-      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
     },
     "base": {
       "address": "0x152e3805e6494d70124c17619bc54d35ca78990f"
+    },
+    "base-sepolia": {
+      "address": "0xa1c1a26e0fd398f0b6c603e0ee35a435108da01d"
     }
   }
 }
