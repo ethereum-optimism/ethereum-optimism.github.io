@@ -1,0 +1,14 @@
+{
+  "name": "ICHI",
+  "symbol": "ICHI",
+  "decimals": 18,
+  "description": "The ICHI token is the governance and value token of ICHI Protocols",
+  "website": "https://ichi.org",
+  "twitter": "@ichifoundation",
+  "tokens": {
+    "ethereum": {
+      "address": "0x111111517e4929d3dcbdfa7cce55d30d4b6bc4d6"
+    }
+    }
+  }
+}
