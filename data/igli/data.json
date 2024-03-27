@@ -1,0 +1,16 @@
+{
+  "name": "igli",
+  "symbol": "igli",
+  "decimals": "18",
+  "description": "BRC20 + Public Goods {IDO} from the Rocky Mountains of Colorado.",
+  "website": "https://igli.io/",
+  "twitter": "https://twitter.com/BRCIGLI/",
+  "tokens": {
+    "ethereum": {
+      "address": "0xCc6773F710b7F2A2357e228609c114f8FAe04B61"
+    },
+    "base": {
+      "address": "0xcafd0d45f1de3a194cab458b40214f6bfd922ca2"
+    }
+  }
+}
