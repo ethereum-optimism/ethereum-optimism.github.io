@@ -1,0 +1,16 @@
+{
+  "name": "Pepe",
+  "symbol": "PEPE",
+  "decimals": 18,
+  "description": "Deployed in 2020, the project claims to be one of the first MEME on Ethereum and is aiming to create an interconnected PEPE and MEME community.",
+  "website": "https://ogpepe.io/",
+  "twitter": "https://twitter.com/theogpepe2020",
+  "tokens": {
+    "ethereum": {
+      "address": "0x4dFae3690b93c47470b03036A17B23C1Be05127C"
+    },
+    "base": {
+      "address": "0x9F371C6388732E2E2359BC44Ea9a12D2B4A904DD"
+    }
+  }
+}
