@@ -1,0 +1,16 @@
+{
+  "name": "Midcurve Token",
+  "symbol": "MIDCURVE",
+  "decimals": 18,
+  "description": "Embrace the Curve. We make our own fundamentals; a rebellion against the midcurve establishment.",
+  "website": "https://midcurve.meme/",
+  "twitter": "@midcurve_meme",
+  "tokens": {
+    "ethereum": {
+      "address": "0xf61d6953400903aAdb38e733E98E57DCf9DD32B3"
+    },
+    "base": {
+      "address": "0xb51D5559711cf964C72bE277115D3fC93C85ff52"
+    }
+  }
+}
