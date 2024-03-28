@@ -1,0 +1,16 @@
+{
+  "name": "DogeGF",
+  "symbol": "DOGEGF",
+  "decimals": "18",
+  "description": "DogeGF is an innovative blockchain meme project that stands at the crossroads of cryptocurrency and community spirit. Built on a foundation of reciprocity, it aims to redefine the meme coin landscape by promoting acts of kindness and mutual support among its users.",
+  "website": "https://www.dogegf.com/",
+  "twitter": "https://twitter.com/dogegftoken",
+  "tokens": {
+    "ethereum": {
+      "address": "0xfb130d93E49DcA13264344966A611dc79a456Bc5"
+    },
+    "base": {
+      "address": "0x881ed0fcef78120a135ec6cc66cef2779fe95bba"
+    }
+  }
+}
