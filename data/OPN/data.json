@@ -1,0 +1,16 @@
+{
+  "name": "OPN Ecosystem Token",
+  "symbol": "OPN",
+  "decimals": 18,
+  "description": "The OPEN Ticketing Ecosystem is the home of onchain ticketing",
+  "website": "https://onopen.xyz/",
+  "twitter": "@onopenxyz",
+  "tokens": {
+    "ethereum": {
+      "address": "0xc28eb2250d1AE32c7E74CFb6d6b86afC9BEb6509"
+    },
+    "base": {
+      "address": "0x9A6d24c02eC35ad970287eE8296D4D6552a31DbE"
+    }
+  }
+}
