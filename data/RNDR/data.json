@@ -1,0 +1,16 @@
+{
+  "name": "Render Token",
+  "symbol": "RNDR",
+  "decimals": "18",
+  "description": "Render",
+  "website": "https://rendernetwork.com/",
+  "twitter": "https://twitter.com/rendernetwork",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24"
+    },
+    "base": {
+      "address": "0x1639764a347c15658e3d77439b5705f4daa5541b"
+    }
+  }
+}
