@@ -1,0 +1,18 @@
+{
+    "name": "Gemach",
+    "symbol": "GMAC",
+    "decimals": 18,
+    "description": "DAO offering AI on-chain trading agents and companions. All products are self-custodial - interest free loans, index funds, and sniper bot.",
+    "website": "https://gemach.io",
+    "twitter": "@gemach_io",
+    "nobridge": true,
+    "tokens": {
+      "ethereum": {
+        "address": "0xD96e84DDBc7CbE1D73c55B6fe8c64f3a6550deea"
+      },
+      "optimism": {
+        "address": "0x53ed36b1d07a5f4b01e5f872fd054f8439335460"
+      }
+
+    }
+  }
