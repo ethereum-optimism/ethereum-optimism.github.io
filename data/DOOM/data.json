@@ -1,0 +1,16 @@
+{
+  "name": "Doom",
+  "symbol": "DOOM",
+  "decimals": "4",
+  "description": "Social token by XCOPYART",
+  "website": "https://xcopy.art/",
+  "twitter": "https://twitter.com/XCOPYART",
+  "tokens": {
+    "ethereum": {
+      "address": "0xa4f9cec920ca520a7feb2c3a63050e08967bc111"
+    },
+    "base": {
+      "address": "0x45edf16134cc2552d04eef1c84d2d726de5ff018"
+    }
+  }
+}
