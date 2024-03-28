@@ -1,0 +1,16 @@
+{
+  "name": "ShibaDoge",
+  "symbol": "ShibDoge",
+  "decimals": "9",
+  "description": "The first community-driven utility token & ecosystem created by Shiba & Dogecoin whales coming together for the greater good of both communities",
+  "website": "https://shibadoge.com/",
+  "twitter": "https://twitter.com/RealShibaDoge",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6ADb2E268de2aA1aBF6578E4a8119b960E02928F"
+    },
+    "base": {
+      "address": "0x606b2db8bf642677fe12e8f067bf55145a350cb5"
+    }
+  }
+}
