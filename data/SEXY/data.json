@@ -1,0 +1,16 @@
+{
+  "name": "Settled ETHXY Token",
+  "symbol": "SEXY",
+  "decimals": "18",
+  "description": "EthXY is a MMORPG built on top of Telegram. SEXY is a game token used for a variety of game mechanics and weapon + armor purchases.",
+  "website": "www.ethxy.com",
+  "twitter": "https://twitter.com/ethxy",
+  "tokens": {
+    "ethereum": {
+      "address": "0xc52FaFDc900cB92Ae01E6E4F8979aF7f436e2EB2"
+    },
+    "base": {
+      "address": "0xbc5323b77db76ea691e02a57d7511b2abc8d75d2"
+    }
+  }
+}

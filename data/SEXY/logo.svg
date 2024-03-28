@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+<head><title> -svgshare.com </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+<link href="/static/style.css" media="all" rel="stylesheet" type="text/css" />
+<script src="/static/indieconfig.js"></script>
+<script src="/static/webaction.js"></script>
+<meta property="og:url"                content="https://svgshare.com/s/14nZ" />
+<meta property="og:type"               content="website" />
+<meta property="og:title"              content="" />
+<meta property="og:description"        content="" />
+<meta property="og:image"              content="https://svgshare.com/p/14nZ.png" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@svgur_com">
+<meta name="twitter:creator" content="@kevinmarks">
+<meta name="twitter:text:title" content="SVGshare">
+<meta name="twitter:text:description" content="svgshare.com">
+<meta name="twitter:image" content="https://svgshare.com/p/14nZ.png">
+</head>  
+  <body >
+  <nav><h1><a href="/"><img class="logo u-logo" src="/static/sharelogo.svg"/></a>svgshare</h1> <a href="/">Add SVG</a></nav>
+  <div class="h-entry">
+  <h2 class="p-name"></h2>
+  <div class="picframe wide"><img id="svg" class="u-photo" src="/i/14nZ.svg" /></div>
+  <p>actual size:
+  <div class="picframe"><img id="svg" class="u-photo" src="/i/14nZ.svg" /></div>
+<ul class="grid">
+  <li class="shadegrid black"><img id="svg"  src="/i/14nZ.svg" /></li>
+  <li class="shadegrid grey"><img id="svg"  src="/i/14nZ.svg" /></li>
+  <li class="shadegrid white"><img id="svg"  src="/i/14nZ.svg" /></li>
+  <li class="shadegrid pink"><img id="svg"  src="/i/14nZ.svg" /></li>
+</ul>
+<hr>
+<section class="info">
+  <p class="p-summary">
+  <p><time class="dt-published" datetime="2024-03-27 23:29:08.802768">Published: 2024-03-27 23:29:08.802768</time> 
+  </div>
+  <div id="preview" width=1000 height=500></div>
+  <ul id="shares">
+  <li><h3>Image Link (chat, IM, email)</h3>
+  <input readonly value="https://svgshare.com/s/14nZ" type="text" >
+  <li><h3>Direct Link (chat, IM, email)</h3>
+  <input readonly value="https://svgshare.com/i/14nZ.svg" type="text" >
+  <li><h3>HTML (website, blog)</h3>
+  <input readonly value="&lt;a href='https://svgshare.com/s/14nZ' &gt;&lt;img src='https://svgshare.com/i/14nZ.svg' title='' /&gt;&lt;/a&gt;" type="text" >
+  <li><h3>HTML iframe (website, blog)</h3>
+  <input readonly value="&lt;iframe src='https://svgshare.com/f/14nZ' width=100% height=100% &gt;&lt;/iframe&gt;" type="text" >
+  <li><h3>Hash resolver</h3>
+  <input readonly value="https://svgshare.com/getbyhash/sha1-a8cRbUDkXDqK9jLXaXFIByGZXqc=" type="text" >
+  </ul>
+  <a href="/dweb?url=https://svgshare.com/i/14nZ.svg">dwtf</a>
+</section>
+<footer>made so you can easily upload, embed and share SVG vector files by <a href="http://kevinmarks.com">Kevin Marks</a>
+<p><indie-action do="reply" with="https://svgshare.com/s/14nZ">
+<a class="action reply" target="_blank" href="https://twitter.com/intent/tweet?url=https://svgshare.com/s/14nZ"><img src="/static/twitterlogo.svg" alt="" height=16> Tweet a comment</a>
+</indie-action>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location)
+             + "&url=" + encodeURIComponent("https://svgshare.com/p/14nZ.png") + "&url=" + encodeURIComponent("https://svgshare.com/i/14nZ.svg")
+             + "&url=" + encodeURIComponent("http://svgur.com/s/14nZ");
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+  </body>
+</html>
