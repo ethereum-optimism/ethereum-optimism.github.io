@@ -1,0 +1,18 @@
+{
+  "name": "DEFLI",
+  "symbol": "FLI",
+  "decimals": 18,
+  "description": "FLI is the utility and rewards token for DeFli Networks.",
+  "website": "https://defli.xyz",
+  "twitter": "@defli_networks", ,
+  "tokens": {
+    
+    "optimism": {
+      "address": "0x74d550dfda5091efbcec4741bd3d26db14f6fada "
+    },
+    "base": {
+      "address": "0x076Bf099C7aaBd0BC9bC37930113428906F51d89"
+    }
+   
+  }
+}
