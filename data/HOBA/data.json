@@ -1,0 +1,16 @@
+{
+  "name": "Honey Badger",
+  "symbol": "HOBA",
+  "decimals": 9,
+  "description": "$HOBA is the Honey Badger on Ethereum and it doesn't give a f*ck.",
+  "website": "www.hbdc.tech",
+  "twitter": "www.twitter.com/hbdcerc20",
+  "tokens": {
+    "ethereum": {
+      "address": "0x25cBB21A9dA7C3C63bb77CCCa5B2E2482AEdB710"
+    },
+    "base": {
+      "address": "0xf9e8ed6005081a9b707b22a3248a4195febb4de3"
+    }
+  }
+}
