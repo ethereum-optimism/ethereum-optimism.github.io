@@ -1,7 +1,7 @@
 {
   "name": "SoftDAO",
   "symbol": "SOFT",
-  "decimals": "18",
+  "decimals": 18,
   "description": "SOFT is for launching tokens\n\nUse the SOFT Protocol to launch your token on any EVM-compatible chain. Fundraise and distribute your tokens to hundreds of thousands of users on-chain. Compatible with both private and public events.",
   "website": "https://softdao.ch",
   "twitter": "https://twitter.com/thesoftdao",
