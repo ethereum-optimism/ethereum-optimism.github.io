@@ -3,14 +3,14 @@
   "symbol": "MONKE",
   "decimals": 18,
   "description": "Monke Eth",
-  "website": "https://monke-erc.com/",
+  "website": "https://monke-erc.com",
   "twitter": "https://twitter.com/monke_meme_eth",
   "tokens": {
     "ethereum": {
       "address": "0xc8168d5665f4418353728ac970713e09C0B7c20e"
     },
     "base": {
-      "address": "0x3b34c718b9292a952910082fe62d5c41156b1508"
+      "address": "0xe8740ff403060dae99c63a684e0dfe3eaa97e9bc"
     }
   }
 }
