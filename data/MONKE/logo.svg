@@ -160,7 +160,7 @@ background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' 
 		clientId : "com.jumpshare.login.apple",
 		scope : 'name email',
 		redirectURI: "https://jumpshare.com/apple_auth",
-		state : "3158667b697dfc29d0f3",
+		state : "6e50d85c1eeae49a50f0",
 		usePopup : true
 	});
 </script>
@@ -1384,7 +1384,7 @@ background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' 
 			<div class="thumbnail clearfix ">
 					<!-- div style="width: 100%; height: 100%; background-image: url(https://previews.jumpshare.com/thumb/8347537cc507cff07a90f5a5803f8e5ea6dfd6f11a4890699ebfc7e78d1da83c46498e42b20f74fab2534387aff9832c1b06c0337cfa3bea32add6c5f93b0af168ad94e880030d9b205cb60fb7ec615e); background-size: cover; background-position: center center;">
 			</div> -->
-		<img src="https://previews.jumpshare.com/thumb/8347537cc507cff07a90f5a5803f8e5ea6dfd6f11a4890699ebfc7e78d1da83c46498e42b20f74fab2534387aff9832c1b06c0337cfa3bea32add6c5f93b0af168ad94e880030d9b205cb60fb7ec615e" data-full-image-src="https://pouch.jumpshare.com/preview/QJ27J6ljLAS629oRGlW4oOd8sFRBbknG5p02bR0w19xsn1l1uYrrmCcHMnb2mJUh62pbYy4xo5OIexnIaKR2Oj39sHInpzD2tzJ-OilCtHo" data-original-image-src="https://pouch.jumpshare.com/preview/QJ27J6ljLAS629oRGlW4oOd8sFRBbknG5p02bR0w19zm8rlfg6BIppQ_gEBz0Lyjp8s6CqWxBhBqcqLS2zdijGcziRh1tSO63ezN1Xl214g" data-full-image-embed="https://previews.jumpshare.com/thumb/815bc01b796dd6f1733c957c5af19493a5824497a24785ecb56c0893d573a7b3a5a97470c515e01acb4b447305895d72bee3521defccbaabb85cc8c817aa12934050fc8ffa7d9979661e786a41c2dcad"  /> <!-- src="https://previews.jumpshare.com/thumb/8347537cc507cff07a90f5a5803f8e5ea6dfd6f11a4890699ebfc7e78d1da83c46498e42b20f74fab2534387aff9832c1b06c0337cfa3bea32add6c5f93b0af168ad94e880030d9b205cb60fb7ec615e"  -->
+		<img src="https://previews.jumpshare.com/thumb/8347537cc507cff07a90f5a5803f8e5ea6dfd6f11a4890699ebfc7e78d1da83c46498e42b20f74fab2534387aff9832c1b06c0337cfa3bea32add6c5f93b0af168ad94e880030d9b205cb60fb7ec615e" data-full-image-src="https://pouch.jumpshare.com/preview/QJ27J6ljLAS629oRGlW4oOd8sFRBbknG5p02bR0w19xsn1l1uYrrmCcHMnb2mJUhvxsiopaPJ-_GH5odznLRxbb1JU6RY9oe8gfHTIwRvJU" data-original-image-src="https://pouch.jumpshare.com/preview/QJ27J6ljLAS629oRGlW4oOd8sFRBbknG5p02bR0w19zm8rlfg6BIppQ_gEBz0LyjLD9HfEo6Hif70xZ3fplIY2HJkNSL1OMCMIiuqR-hfUQ" data-full-image-embed="https://previews.jumpshare.com/thumb/815bc01b796dd6f1733c957c5af19493a5824497a24785ecb56c0893d573a7b3a5a97470c515e01acb4b447305895d72bee3521defccbaabb85cc8c817aa12934050fc8ffa7d9979661e786a41c2dcad"  /> <!-- src="https://previews.jumpshare.com/thumb/8347537cc507cff07a90f5a5803f8e5ea6dfd6f11a4890699ebfc7e78d1da83c46498e42b20f74fab2534387aff9832c1b06c0337cfa3bea32add6c5f93b0af168ad94e880030d9b205cb60fb7ec615e"  -->
 				</div>
 </a>		<div class="thumb-overlay ">
 						<div class="btn-group btn-cog-wheel pull-right">
@@ -1392,8 +1392,8 @@ background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' 
 			<ul class="dropdown-menu top-right js-dropdown-menu">
 				<span class="arrow icn-dd-top-arrow-panel"></span>
 															<li><a data-id="LqutBisKdyPIAGTuLN3A" class="import">Save</a></li>
-																		<li><a class="download" data-link="https://pouch.jumpshare.com/download/OZBQuuDyTpBIexC3jPMkEV6rGs1f3KN9rjjHMphhxxszotGtFUBWjDkSEBphEC1UlgfCpt_83bTalmM-OlBtXA">Download</a></li>
-					<li><a class="preview hide" data-preview-url="https://pouch.jumpshare.com/preview/QJ27J6ljLAS629oRGlW4oOd8sFRBbknG5p02bR0w19xsn1l1uYrrmCcHMnb2mJUh62pbYy4xo5OIexnIaKR2Oj39sHInpzD2tzJ-OilCtHo">Preview</a></li>
+																		<li><a class="download" data-link="https://pouch.jumpshare.com/download/OZBQuuDyTpBIexC3jPMkEUb_kUTCTzXIEKi0snDQLS0BUDw6RbF1QiP3UvnyF5tjwywXEQvAvD3EaWMKDdFUOA">Download</a></li>
+					<li><a class="preview hide" data-preview-url="https://pouch.jumpshare.com/preview/QJ27J6ljLAS629oRGlW4oOd8sFRBbknG5p02bR0w19xsn1l1uYrrmCcHMnb2mJUhvxsiopaPJ-_GH5odznLRxbb1JU6RY9oe8gfHTIwRvJU">Preview</a></li>
 											</ul>
 			</div>
 
@@ -1411,7 +1411,7 @@ background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' 
           <div class="thumb-info size-info pull-left">
       <span class='size-num' data-item-size="130319">127 KB</span>
     </div>
-    <span class="time pull-left">33 mins ago</span>
+    <span class="time pull-left">1 hr ago</span>
   </div>
 	<div class="thumb-meta">
 	<div class="thumb-info pull-left">
@@ -1419,7 +1419,7 @@ background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' 
 								        
 					</div>
 </div>	<div class="thumb-footer">
-      <span class="time footer_timer pull-left">33 minutes ago</span>
+      <span class="time footer_timer pull-left">1 hour ago</span>
   </div>
 	</div>
 </li>
