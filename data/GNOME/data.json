@@ -1,0 +1,16 @@
+{
+    "name": "GenomesDAO Governance",
+    "symbol": "GNOME ",
+    "decimals": 18,
+    "description": "GNOME is GenomesDAOs governance token. To gain governance rights in GenomesDAO, you must acquire GNOME and lock them for veGNOME.",
+    "website": "https://genomes.io/",
+    "twitter": "@GenomesDAO",
+    "tokens": {
+      "ethereum": {
+        "address": "0xE58Eb0Bb13a71d7B95c4C3cBE6Cb3DBb08f9cBFB"
+      },
+      "base": {
+        "address": "0x526dabf2D611cb4405DAb0Cc9D293F718e79F1c4"
+      }
+    }
+  }
