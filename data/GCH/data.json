@@ -1,0 +1,16 @@
+{
+  "name": "Gooch",
+  "symbol": "GCH",
+  "decimals": 18,
+  "description": "$GCH, the peoples gooch",
+  "website": "Goochtoken.xyz",
+  "twitter": "https://twitter.com/TokenGooch",
+  "tokens": {
+    "ethereum": {
+      "address": "0x42379293f2b7a5b379abf54329a8CfdD0E518a9B"
+    },
+    "base": {
+      "address": "0x74b32f58b65095e72b49a5d0fcdc5bfab6168d17"
+    }
+  }
+}
