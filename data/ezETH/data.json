@@ -1,0 +1,16 @@
+{
+    "name": "Renzo Restaked ETH",
+    "symbol": "ezETH",
+    "decimals": 18,
+    "description": "Renzo Restaked ETH",
+    "website": "https://www.ankr.com/",
+    "twitter": "@RenzoProtocol",
+    "tokens": {
+        "ethereum": {
+            "address": "0xbf5495Efe5DB9ce00f80364C8B423567e58d2110"
+        },
+        "mode": {
+            "address": "0xEf252e50C3d354f97Ca402b1E22455AA8Bcba105"
+        }
+    }
+}
