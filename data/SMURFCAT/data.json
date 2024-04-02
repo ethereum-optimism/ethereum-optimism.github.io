@@ -7,10 +7,7 @@
   "twitter": "@smurfcateth",
   "tokens": {
     "ethereum": {
-      "address": "0xfF836A5821E69066c87E268bC51b849FaB94240C",
-      "overrides": {
-        "symbol": "шайлушай"
-      } 
+      "address": "0xfF836A5821E69066c87E268bC51b849FaB94240C"
     },
     "base": {
       "address": "0x2809ee30c77d7887e4f77394a1ac0e49de0e397f"
