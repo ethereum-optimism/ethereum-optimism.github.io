@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-02T19:16:48.596Z",
+  "timestamp": "2024-04-02T19:18:29.947Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3487,6 +3487,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/PEPE/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "PEPE"
       }
@@ -3500,6 +3501,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/PEPE/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "PEPE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb4fde59a779991bfb6a52253b51947828b982be3",
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PEPE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "PEPE"
       }
@@ -6030,6 +6044,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 17
+    "patch": 18
   }
 }
