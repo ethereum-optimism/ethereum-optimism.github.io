@@ -2,12 +2,15 @@
   "name": "HarryPotterObamaSonic10Inu",
   "symbol": "BITCOIN",
   "decimals": 8,
+  "description": "The People's BITCOIN",
+  "website": "https://hpos10i.com/",
+  "twitter": "https://twitter.com/RealHPOS10I",
   "tokens": {
     "ethereum": {
       "address": "0x72e4f9F808C49A2a61dE9C5896298920Dc4EEEa9"
     },
-    "optimism": {
-      "address": "0x8a6039fc7a479928b1d73f88040362e9c50db275"
+    "base": {
+      "address": "0x2a06A17CBC6d0032Cac2c6696DA90f29D39a1a29"
     }
   }
 }
