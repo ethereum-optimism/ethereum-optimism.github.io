@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-02T19:18:29.947Z",
+  "timestamp": "2024-04-02T19:25:45.185Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3815,6 +3815,46 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd",
+      "name": "Razor Network",
+      "symbol": "RAZOR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RAZOR/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "RAZOR"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xf8397db1eedb800fdbce9e62ad83a28059cbb068",
+      "name": "Razor Network",
+      "symbol": "RAZOR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RAZOR/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RAZOR"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x6af3cb766d6cd37449bfd321d961a61b0515c1bc",
+      "name": "Razor Network",
+      "symbol": "RAZOR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RAZOR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RAZOR"
+      }
+    },
+    {
       "chainId": 8453,
       "address": "0x41E99e0F73a88947C52070FF67C19B7aBc171A54",
       "name": "Redemption Finance",
@@ -6044,6 +6084,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 18
+    "patch": 19
   }
 }
