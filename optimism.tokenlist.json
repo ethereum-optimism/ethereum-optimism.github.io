@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-03-26T19:02:10.464Z",
+  "timestamp": "2024-04-02T18:50:28.265Z",
   "tokens": [
     {
       "chainId": 1,
@@ -564,20 +564,20 @@
       "decimals": 8,
       "logoURI": "https://ethereum-optimism.github.io/data/BITCOIN/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "BITCOIN"
       }
     },
     {
-      "chainId": 10,
-      "address": "0x8a6039fc7a479928b1d73f88040362e9c50db275",
+      "chainId": 8453,
+      "address": "0x2a06A17CBC6d0032Cac2c6696DA90f29D39a1a29",
       "name": "HarryPotterObamaSonic10Inu",
       "symbol": "BITCOIN",
       "decimals": 8,
       "logoURI": "https://ethereum-optimism.github.io/data/BITCOIN/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BITCOIN"
       }
@@ -1314,6 +1314,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "DOG"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xfb130d93E49DcA13264344966A611dc79a456Bc5",
+      "name": "DogeGF",
+      "symbol": "DOGEGF",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DOGEGF/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "DOGEGF"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x881ed0fcef78120a135ec6cc66cef2779fe95bba",
+      "name": "DogeGF",
+      "symbol": "DOGEGF",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DOGEGF/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DOGEGF"
       }
     },
     {
@@ -2930,6 +2956,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MOCHI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xaaee1a9723aadb7afa2810263653a34ba2c21c7a",
+      "name": "Mog Coin",
+      "symbol": "Mog",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MOG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MOG"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2da56acb9ea78330f947bd57c54119debda7af71",
+      "name": "Mog Coin",
+      "symbol": "Mog",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MOG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MOG"
       }
     },
     {
@@ -5846,6 +5898,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 9
+    "patch": 12
   }
 }
