@@ -1,0 +1,13 @@
+{
+    "name": "Kibble",
+    "symbol": "KIBBLE",
+    "decimals": 18,
+    "description": "The currency of Cat Town, an idle economic game built on Base.",
+    "website": "https://cat.town",
+    "twitter": "@CatTownBase",
+    "tokens": {
+      "base": {
+        "address": "0x64cc19a52f4d631ef5be07947caba14ae00c52eb"
+      }
+    }
+  }
