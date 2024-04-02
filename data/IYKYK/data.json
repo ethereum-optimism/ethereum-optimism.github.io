@@ -1,0 +1,16 @@
+{
+  "name": "IYKYK",
+  "symbol": "IYKYK",
+  "decimals": 18,
+  "description": "IYKYK",
+  "website": "https://fins.wtf",
+  "twitter": "@iykyk_official",
+  "tokens": {
+    "ethereum": {
+      "address": "0x7cb683151a83c2b10a30cbb003cda9996228a2ba"
+    },
+    "base": {
+      "address": "0x99027c41F74b38862f53bda999881D8389fC6A92"
+    }
+  }
+}
