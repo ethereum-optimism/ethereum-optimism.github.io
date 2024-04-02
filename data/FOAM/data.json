@@ -1,0 +1,19 @@
+{
+    "name": "FOAM Token",
+    "symbol": "FOAM",
+    "decimals": 18,
+    "description": "Official token of the FOAM protocol powering Proof of Location",
+    "website": "https://foam.space",
+    "twitter": "@foamspace",
+    "tokens": {
+      "ethereum": {
+        "address": "0x4946Fcea7C692606e8908002e55A582af44AC121"
+      },
+      "optimism": {
+        "address": "0x79E6c6b6aABA4432FAbacB30cC0C879D8f3E598e"
+      },
+      "base": {
+        "address": "0x6059d0ed9368c36941514d2864fD114a84853d5a"
+      }
+    }
+}
