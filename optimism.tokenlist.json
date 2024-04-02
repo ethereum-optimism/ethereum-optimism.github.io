@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-02T18:59:04.064Z",
+  "timestamp": "2024-04-02T19:11:20.640Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1076,6 +1076,46 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "crvUSD"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xf4308b0263723b121056938c2172868E408079D0",
+      "name": "CryoDAO",
+      "symbol": "CRYO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CRYO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "CRYO"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x01402d1Bc10Ae6E96C0E494A5860748517a3c070",
+      "name": "CryoDAO",
+      "symbol": "CRYO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CRYO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CRYO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1f4446fAAAed23090f324f051C3F8c5ce5aD1c36",
+      "name": "CryoDAO",
+      "symbol": "CRYO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CRYO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CRYO"
       }
     },
     {
@@ -5898,6 +5938,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 13
+    "patch": 14
   }
 }
