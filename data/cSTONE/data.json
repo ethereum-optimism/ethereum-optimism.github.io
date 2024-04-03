@@ -1,0 +1,16 @@
+{
+  "name": "STONE Carnival LP (cSTONE)",
+  "symbol": "cSTONE",
+  "decimals": 18,
+  "description": "STONE Carnival LP",
+  "website": "https://stakestone.io/",
+  "twitter": "@Stake_stone",
+  "tokens": {
+    "ethereum": {
+      "address": "0x4d831e22F062b5327dFdB15f0b6a5dF20E2E3dD0"
+    },
+    "mode": {
+      "address": "0xF419234b27D0EFb71D93D522804dF370A4107Be1"
+    }
+  }
+}

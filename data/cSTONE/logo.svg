@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 2备份</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cSTONE备份-9" transform="translate(-296.000000, -171.000000)">
+            <g id="编组-2备份" transform="translate(298.000000, 173.000000)">
+                <circle id="椭圆形" stroke="#FFFFFF" stroke-width="1.5" fill="#101010" cx="40" cy="40" r="40.75"></circle>
+                <g id="编组-3" transform="translate(20.714286, 11.428571)">
+                    <path d="M18.1634349,1.25335756 L0,36.9911742 L0,36.9911742 L19.0885947,54.5374196 L38.1961078,38.1916214 L19.4370625,1.25355497 C19.2584358,0.901824717 18.8284966,0.761496536 18.4767663,0.940123204 C18.3417625,1.00868511 18.2320386,1.11837493 18.1634349,1.25335756 Z" id="路径-21" stroke="#FFFFFF" stroke-width="2.14285714"></path>
+                    <polyline id="路径-22" stroke="#FFFFFF" stroke-width="2.14285714" points="8.21557071 20.7867848 18.8735916 25.9560606 29.6413986 20.7867848"></polyline>
+                    <polygon id="路径-25" stroke="#FFFFFF" stroke-width="1.43595359" fill="#FFFFFF" fill-rule="nonzero" points="0.559536306 37.4466491 7.7707343 33.6842674 15.1752173 38.6959028 31.1828141 34.7509703 37.9200657 38.4745649 19.0980538 54.5374196"></polygon>
+                    <polyline id="路径-23" stroke="#FFFFFF" stroke-width="2.14285714" points="18.4729427 25.5053637 16.1131183 39.0345907 19.0980538 54.5374196"></polyline>
+                    <line x1="16.1131183" y1="39.0345907" x2="19.0980538" y2="54.5374196" id="路径-23" stroke="#101010" stroke-width="2.14285714"></line>
+                    <ellipse id="椭圆形" stroke="#101010" stroke-width="1.20724346" fill="#F6D064" cx="28.9285714" cy="47.2934045" rx="9.03923541" ry="9.01537579"></ellipse>
+                    <text id="c" font-family="Montserrat-SemiBold, Montserrat" font-size="19.3158954" font-weight="500" fill="#000000">
+                        <tspan x="23.2946429" y="52.6189599">c</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
