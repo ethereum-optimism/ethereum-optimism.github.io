@@ -1,7 +1,7 @@
 {
   "name": "Wrapped MistCoin",
   "symbol": "WMC",
-  "decimals": "2",
+  "decimals": 2,
   "description": "MistCoin is the first ERC20 token deployed in Ethereum Mainnet. It was launched by Fabian Vogelsteller and Alex Van de Sande when they were testing tokens implementation in Ethereum Foundation Mist Wallet.\n\nFew days after MistCoin launch, Fabian and Vitalik Buterin released the widely adopted ERC20 standard.",
   "website": "https://www.misteth.com/",
   "twitter": "https://twitter.com/MistCoin",
