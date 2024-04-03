@@ -1,0 +1,16 @@
+{
+  "name": "hoge.finance",
+  "symbol": "HOGE",
+  "decimals": 9,
+  "description": "Hoge Finance ($HOGE) is a deflationary ERC720 token featuring a 2% burn and 1% reflection mechanism on every transaction.\n\nOriginally deployed on the Ethereum L1 network.",
+  "website": "www.Hoge.report",
+  "twitter": "www.twitter.com/hogefinance",
+  "tokens": {
+    "ethereum": {
+      "address": "0xfAd45E47083e4607302aa43c65fB3106F1cd7607"
+    },
+    "base": {
+      "address": "0x376dcf817c191dc0f9bf0f88398b4145489460e2"
+    }
+  }
+}
