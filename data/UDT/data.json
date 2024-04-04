@@ -1,0 +1,25 @@
+{
+  "name": "Unlock Discount Token",
+  "symbol": "UDT",
+  "decimals": 18,
+  "description": "Governance token for Unlock Protocol, a protocol for creating memberships and subscriptions as NFTs",
+  "website": "https://unlock-protocol.com",
+  "twitter": "@unlockprotocol",
+  "tokens": {
+    "ethereum": {
+      "address": "0x90DE74265a416e1393A450752175AED98fe11517"
+    },
+    "optimism": {
+      "address": "0x35CCe76D854c6E90F665C2B49899E158da9D517E"
+    },
+    "sepolia": {
+      "address": "0x447B1492C5038203f1927eB2a374F5Fcdc25999d"
+    },
+    "base": {
+      "address": "0xE68858e8fe7b491B13d1aefccBBC7367D1f1848e"
+    },
+    "base-sepolia": {
+      "address": "0x345F99F6873866f8b73aD4a500396c4635E0E755"
+    }
+  }
+}
