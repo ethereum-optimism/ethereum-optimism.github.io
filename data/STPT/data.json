@@ -1,0 +1,16 @@
+{
+    "name": "STPT Network",
+    "symbol": "STPT",
+    "decimals": 18,
+    "description": "Our mission is to pioneer the advancement of AI in gaming.",
+    "website": "https://www.stp.network/",
+    "twitter": "@STP_Network",
+    "tokens": {
+      "ethereum": {
+        "address": "0xDe7D85157d9714EADf595045CC12Ca4A5f3E2aDb"
+        },
+      "base": {
+        "address": "0x4489d0a0345eCB216A3994De780d453c7fA6312C"
+        }
+      }
+}
