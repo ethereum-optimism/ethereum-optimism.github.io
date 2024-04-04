@@ -1,0 +1,16 @@
+{
+  "name": "Everyrealm Token",
+  "symbol": "EVERY",
+  "decimals": 18,
+  "description": "$EVERY Sepolia ",
+  "website": "https://www.everyworld.com/",
+  "twitter": "https://twitter.com/JoinEveryworld",
+  "tokens": {
+    "ethereum": {
+      "address": "0xbABedB663F3E70E6CEdb26558e8ceFB12d321Caa"
+    },
+    "base-sepolia": {
+      "address": "0xb01701025c3b12e0b5022d8a98f15f8ad3602a7b"
+    }
+  }
+}
