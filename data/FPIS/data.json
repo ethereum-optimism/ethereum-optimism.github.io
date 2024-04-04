@@ -1,0 +1,17 @@
+{
+    "name": "Frax Price Index Share",
+    "symbol": "FPIS",
+    "decimals": 18,
+    "description": "The Frax Price Index Share (FPIS) token is the governance token of the Frax Price Index (FPI) system, which is also entitled to seigniorage from the protocol. Excess yield will be directed from the treasury to FPIS holders, similar to Frax Finance's FXS structure.",
+    "website": "https://frax.finance/",
+    "twitter": "@fraxfinance",
+    "nobridge": true,
+    "tokens": {
+        "ethereum": {
+            "address": "0xc2544A32872A91F4A553b404C6950e89De901fdb"
+        },
+        "optimism": {
+          "address": "0x8368Dca5CE2a4Db530c0F6e535d90B6826428Dee"
+        }
+    }
+}

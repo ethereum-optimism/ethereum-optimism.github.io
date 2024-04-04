@@ -1,0 +1,27 @@
+{
+  "name": "USD Coin",
+  "symbol": "USDC",
+  "decimals": 6,
+  "description": "USDC is a faster, safer, and more efficient way to send, spend, and exchange money around the globe.",
+  "website": "https://www.circle.com/en/usdc",
+  "twitter": "@circlepay",
+  "tokens": {
+    "ethereum": {
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    },
+    "base": {
+      "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+      "overrides": {
+        "name": "USD Base Coin",
+        "symbol": "USDbC"
+      }
+    },
+    "optimism": {
+      "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+      "overrides": {
+        "name": "Bridged USDC",
+        "symbol": "USDC.e"
+      }
+    }
+  }
+}

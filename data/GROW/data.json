@@ -1,0 +1,19 @@
+{
+    "name": "ValleyDAO Token",
+    "symbol": "GROW",
+    "decimals": 18,
+    "description": "ValleyDAO Governance Token",
+    "website": "https://www.valleydao.bio",
+    "twitter": "@valley_dao",
+    "tokens": {
+        "ethereum": {
+            "address": "0x761a3557184cbc07b7493da0661c41177b2f97fa"
+        },
+        "optimism": {
+            "address": "0xc871cCf95024eFa2CbcE69B5B775D2a1DcF49c1B"
+        },
+        "base": {
+            "address": "0x321725ee44CB4bfA544CF45a5A585b925d30A58C"
+        }
+    }
+}

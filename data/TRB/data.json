@@ -1,0 +1,13 @@
+{
+    "name": "Tellor",
+    "symbol": "TRB",
+    "decimals": 18,
+    "tokens": {
+      "ethereum": {
+        "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0"
+      },
+      "optimism": {
+        "address": "0xaf8ca653fa2772d58f4368b0a71980e9e3ceb888"
+      }
+    }
+  }

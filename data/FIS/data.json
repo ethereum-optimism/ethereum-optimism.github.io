@@ -1,0 +1,18 @@
+{
+    "name": "StaFi Token",
+    "symbol": "FIS",
+    "decimals": 18,
+    "website": "https://stafi.io",
+    "twitter": "@StaFi_Protocol",
+    "tokens": {
+      "ethereum": {
+        "address": "0xef3A930e1FfFFAcd2fc13434aC81bD278B0ecC8d",
+        "overrides": {
+          "name": "StaFi"
+        }
+      },
+      "optimism": {
+        "address": "0xD8737CA46aa6285dE7B8777a8e3db232911baD41"
+      }
+    }
+}

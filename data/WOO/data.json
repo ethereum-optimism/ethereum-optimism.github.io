@@ -1,0 +1,16 @@
+{
+    "name": "Wootrade Network",
+    "symbol": "WOO",
+    "decimals": 18,
+    "description": "WOO Network connects traders, exchanges, institutions, and DeFi platforms with democratized access to the best-in-class liquidity and trading execution at zero or low cost.",
+    "website": "https://woo.network",
+    "twitter": "@WOOnetwork",
+    "tokens": {
+      "ethereum": {
+        "address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B"
+      },
+      "optimism": {
+        "address": "0x871f2F2ff935FD1eD867842FF2a7bfD051A5E527"
+      }
+    }
+}

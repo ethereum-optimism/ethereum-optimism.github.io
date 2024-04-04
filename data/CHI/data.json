@@ -1,0 +1,16 @@
+{
+    "name": "Chi USD",
+    "symbol": "CHI",
+    "decimals": 18,
+    "description": "Fully Collateralized, Scalable, Decentralized Stablecoin",
+    "website": "https://essencefinance.io",
+    "twitter": "@Essence_Fi",
+    "tokens": {
+      "ethereum": {
+        "address": "0xfc2189D367d8d3D7CCA1aF43ff6169197DC7351e"
+      },
+      "optimism": {
+        "address": "0xCa0E54b636DB823847B29F506BFFEE743F57729D"
+      }
+    }
+  }

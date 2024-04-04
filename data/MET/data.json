@@ -1,0 +1,18 @@
+{
+  "name": "Metronome2",
+  "symbol": "MET",
+  "decimals": 18,
+  "website": "https://metronome.io/",
+  "twitter": "@MetronomeDAO",
+  "tokens": {
+    "ethereum": {
+      "address": "0x2ebd53d035150f328bd754d6dc66b99b0edb89aa"
+    },
+    "optimism": {
+      "address": "0x9a2e53158e12bc09270af10c16a466cb2b5d7836"
+    },
+    "base": {
+    "address":"0x93dc5Cb35627A759848c7A7F0079EA7b49E435a5"
+    }
+  }
+}

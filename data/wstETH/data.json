@@ -6,7 +6,10 @@
     "ethereum": {
       "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
       "overrides": {
-        "bridge": "0x76943C0D61395d8F2edF9060e1533529cAe05dE6"
+        "bridge": {
+          "optimism": "0x76943C0D61395d8F2edF9060e1533529cAe05dE6",
+          "base": "0x9de443AdC5A411E83F1878Ef24C3F52C61571e72"
+        }
       }
     },
     "optimism": {
@@ -15,16 +18,24 @@
         "bridge": "0x8E01013243a96601a86eb3153F0d9Fa4fbFb6957"
       }
     },
-    "kovan": {
-      "address": "0xa88751C0a08623E11ff38c6B70F2BbEe7865C17c",
+    "base": {
+      "address": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
       "overrides": {
-        "bridge": "0x65321bf24210b81500230dCEce14Faa70a9f50a7"
+        "bridge": "0xac9D11cD4D7eF6e54F14643a393F68Ca014287AB"
       }
     },
-    "optimism-kovan": {
-      "address": "0xF9C842dE4381a70eB265d10CF8D43DceFF5bA935",
+    "sepolia": {
+      "address": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b",
       "overrides": {
-        "bridge": "0x2E34e7d705AfaC3C4665b6feF31Aa394A1c81c92"
+        "bridge": {
+            "optimism-sepolia" : "0x4Abf633d9c0F4aEebB4C2E3213c7aa1b8505D332"
+        }
+      }
+    },
+    "optimism-sepolia": {
+      "address": "0x24B47cd3A74f1799b32B2de11073764Cb1bb318B",
+      "overrides": {
+        "bridge": "0xdBA2760246f315203F8B716b3a7590F0FFdc704a"
       }
     }
   }

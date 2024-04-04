@@ -1,0 +1,16 @@
+{
+  "name": "Trace Token",
+  "symbol": "TRAC",
+  "decimals": 18,
+  "description": "The Trace token (TRAC) is a utility token for the OriginTrail Decentralized Knowledge Graph (DKG).",
+  "website": "https://origintrail.io/",
+  "twitter": "@origin_trail",
+  "tokens": {
+    "ethereum": {
+      "address": "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F"
+    },
+    "base": {
+      "address": "0xA81a52B4dda010896cDd386C7fBdc5CDc835ba23"
+    }
+  }
+}

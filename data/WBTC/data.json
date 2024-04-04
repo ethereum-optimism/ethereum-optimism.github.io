@@ -12,19 +12,8 @@
     "optimism": {
       "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095"
     },
-    "kovan": {
-      "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095"
-    },
-    "optimism-kovan": {
-      "address": "0x2382a8f65b9120E554d1836a504808aC864E169d",
-      "overrides": { "name":"Wrapped BTC L2" }
-    },
-    "goerli": {
-      "address": "0xC04B0d3107736C32e19F1c62b2aF67BE61d63a05"
-    },
-    "optimism-goerli": {
-      "address": "0xe0a592353e81a94Db6E3226fD4A99F881751776a",
-      "overrides": { "name":"Wrapped BTC L2" }
+    "mode": {
+      "address": "0xcDd475325D6F564d27247D1DddBb0DAc6fA0a5CF"
     }
   }
 }

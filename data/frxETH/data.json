@@ -1,0 +1,16 @@
+{
+    "name": "Frax Ether",
+    "symbol": "frxETH",
+    "decimals": 18,
+    "website": "https://frax.finance/",
+    "twitter": "@fraxfinance",
+    "nobridge": true,
+    "tokens": {
+        "ethereum": {
+            "address": "0x5e8422345238f34275888049021821e8e08caa1f"
+        },
+        "optimism": {
+          "address": "0x6806411765Af15Bddd26f8f544A34cC40cb9838B"
+        }
+    }
+}

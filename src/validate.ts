@@ -10,12 +10,23 @@ import addFormats from 'ajv-formats'
 import { schema } from '@uniswap/token-lists'
 import { ethers } from 'ethers'
 import { sleep } from '@eth-optimism/core-utils'
+import { getContractInterface } from '@eth-optimism/contracts'
 
 import { generate } from './generate'
 import { TOKEN_DATA_SCHEMA } from './schemas'
-import { NETWORK_DATA } from './chains'
-import { FACTORY_ABI, TOKEN_ABI } from './abi'
-import { TokenData, ValidationResult } from './types'
+import {
+  L2_STANDARD_BRIDGE_INFORMATION,
+  L2_TO_L1_PAIR,
+  NETWORK_DATA,
+} from './chains'
+import { TOKEN_ABI } from './abi'
+import {
+  Chain,
+  ExpectedMismatches,
+  L2Chain,
+  TokenData,
+  ValidationResult,
+} from './types'
 
 /**
  * Validates a token list data folder.
@@ -40,11 +51,21 @@ export const validate = async (
       return !tokens || tokens.includes(folder)
     })
 
-  // Load the CoinGecko tokenlist once to avoid additional requests
-  const cgret = await fetch('https://tokens.coingecko.com/uniswap/all.json')
-  const cg = await cgret.json()
-
   const results = []
+  // Load the CoinGecko tokenlist once to avoid additional requests
+  let cgret
+  let cg
+  try {
+    cgret = await fetch('https://tokens.coingecko.com/uniswap/all.json')
+    cg = await cgret.json()
+  } catch (err) {
+    console.error('fetch for CoinGecko token list failed', err)
+    results.push({
+      type: 'warning',
+      message: 'fetch for CoinGecko token list failed',
+    })
+  }
+
   for (const folder of folders) {
     // Make sure the data file exists
     const datafile = path.join(datadir, folder, 'data.json')
@@ -67,6 +88,17 @@ export const validate = async (
       })
     }
 
+    const expectedMismatchesFilePath = path.join(
+      datadir,
+      folder,
+      'expectedMismatches.json'
+    )
+    const expectedMismatches: ExpectedMismatches = fs.existsSync(
+      expectedMismatchesFilePath
+    )
+      ? JSON.parse(fs.readFileSync(expectedMismatchesFilePath, 'utf8'))
+      : {}
+
     // Validate the data file
     const v = new Validator()
     const result = v.validate(data, TOKEN_DATA_SCHEMA as any)
@@ -84,29 +116,13 @@ export const validate = async (
 
     // Validate each token configuration
     for (const [chain, token] of Object.entries(data.tokens)) {
-      // Check to make sure the website will load
-      for (let i = 0; i < 5; i++) {
-        try {
-          await fetch(data.website)
-          break
-        } catch (err) {
-          if (i < 4) {
-            await sleep(5000)
-          } else {
-            results.push({
-              type: 'error',
-              message: `${folder} on chain ${chain} website did not load`,
-            })
-          }
-        }
-      }
-
       // Validate any standard tokens
       if (folder !== 'ETH' && data.nonstandard !== true) {
+        const networkData = NETWORK_DATA[chain as Chain]
         const contract = new ethers.Contract(
           token.address,
           TOKEN_ABI,
-          NETWORK_DATA[chain].provider
+          networkData.provider
         )
 
         // Check that the token exists on this chain
@@ -142,7 +158,10 @@ export const validate = async (
         // Check that the token has the correct symbol
         if (token.overrides?.symbol === undefined) {
           try {
-            if (data.symbol !== (await contract.symbol())) {
+            if (
+              data.symbol !== (await contract.symbol()) &&
+              expectedMismatches.symbol !== data.symbol
+            ) {
               results.push({
                 type: 'error',
                 message: `${folder} on chain ${chain} token ${token.address} has incorrect symbol`,
@@ -164,10 +183,11 @@ export const validate = async (
         // Check that the token has the correct name
         if (token.overrides?.name === undefined) {
           try {
-            if (data.name !== (await contract.name())) {
+            const name = await contract.name()
+            if (data.name !== name && expectedMismatches.name !== data.name) {
               results.push({
                 type: 'error',
-                message: `${folder} on chain ${chain} token ${token.address} has incorrect name`,
+                message: `${folder} on chain ${chain} token ${token.address} has incorrect name. Got ${name}`,
               })
             }
           } catch (err) {
@@ -184,7 +204,7 @@ export const validate = async (
         }
 
         // Check that the Ethereum token exists in the CG token list
-        if (chain === 'ethereum') {
+        if (chain === 'ethereum' && cg !== undefined) {
           const found = cg.tokens.find((t) => {
             return t.address.toLowerCase() === token.address.toLowerCase()
           })
@@ -198,47 +218,100 @@ export const validate = async (
           }
         }
 
-        if (chain.startsWith('optimism')) {
-          const factory = new ethers.Contract(
-            '0x4200000000000000000000000000000000000012',
-            FACTORY_ABI,
-            NETWORK_DATA[chain].provider
-          )
+        if (networkData.layer === 2) {
+          if (!data.nobridge) {
+            if (token.overrides?.bridge === undefined) {
+              try {
+                const tokenContract = new ethers.Contract(
+                  token.address,
+                  getContractInterface('L2StandardERC20'),
+                  networkData.provider
+                )
 
-          const events = await factory.queryFilter(
-            factory.filters.StandardL2TokenCreated(undefined, token.address)
-          )
+                const l2Bridge = (await tokenContract.l2Bridge()) as string
+                // Trigger review if the bridge for the token is not set
+                // to the standard bridge address.
+                if (
+                  l2Bridge?.toUpperCase() !==
+                  L2_STANDARD_BRIDGE_INFORMATION[
+                    chain as L2Chain
+                  ].l2StandardBridgeAddress.toUpperCase()
+                ) {
+                  results.push({
+                    type: 'error',
+                    message: `${folder} on chain ${chain} token ${token.address} not using standard bridge`,
+                  })
+                }
 
-          // Trigger review if not created by standard token factory.
-          if (events.length === 0) {
-            results.push({
-              type: 'warning',
-              message: `${folder} on chain ${chain} token ${token.address} not created by standard token factory`,
-            })
+                const l1Token = (await tokenContract.l1Token()) as string
+                const l1Chain = L2_TO_L1_PAIR[chain as Chain]
+                const l1ChainData = data.tokens[l1Chain]
+                if (
+                  l1ChainData &&
+                  l1ChainData.address.toUpperCase() !== l1Token.toUpperCase()
+                ) {
+                  results.push({
+                    type: 'error',
+                    message: `${folder} on chain ${chain} token ${token.address} does not match L1 token address`,
+                  })
+                }
+              } catch (e) {
+                console.error(
+                  `${folder} on chain ${chain} token ${token.address} could not fetch l2Bridge or l1Token`,
+                  e
+                )
+                results.push({
+                  type: 'error',
+                  message: `${folder} on chain ${chain} token ${token.address} could not fetch l2Bridge or l1Token.
+                    This token most likely needs nobridge or a bridge override set.`,
+                })
+              }
+            } else {
+              results.push({
+                type: 'warning',
+                message: `${folder} on chain ${chain} token ${token.address} has an overridden bridge`,
+              })
+            }
           }
         } else {
-          // Make sure the token is verified on Etherscan.
-          // Etherscan API is heavily rate limited, so sleep for 1s to avoid errors.
-          await sleep(1000)
-          const { qResult } = await (
-            await fetch(
-              `https://api${
-                chain === 'ethereum' ? '' : `-${chain}`
-              }.etherscan.io/api?` +
-                new URLSearchParams({
-                  module: 'contract',
-                  action: 'getsourcecode',
-                  address: token.address,
-                  apikey: process.env.ETHERSCAN_API_KEY,
-                })
-            )
-          ).json()
+          try {
+            // Make sure the token is verified on Etherscan.
+            // Etherscan API is heavily rate limited, so sleep for 1s to avoid errors.
+            await sleep(1000)
+            const { result: etherscanResult } = await (
+              await fetch(
+                `https://api${
+                  chain === 'ethereum' ? '' : `-${chain}`
+                }.etherscan.io/api?` +
+                  new URLSearchParams({
+                    module: 'contract',
+                    action: 'getsourcecode',
+                    address: token.address,
+                    // If we ever get rate limited by etherscan uncomment this line and add a method for
+                    // fetching the appropriate etherscan api key based on the chain.
+                    // https://linear.app/optimism/issue/FE-1396
+                    // apikey: getEtherscanApiKey(),
+                  })
+              )
+            ).json()
 
-          // Trigger review if code not verified on Etherscan
-          if (qResult[0].ABI === 'Contract source code not verified') {
+            // Trigger review if code not verified on Etherscan
+            if (
+              etherscanResult[0].ABI === 'Contract source code not verified'
+            ) {
+              results.push({
+                type: 'warning',
+                message: `${folder} on chain ${chain} token ${token.address} code not verified on Etherscan`,
+              })
+            }
+          } catch (e) {
+            console.error(
+              `unable to fetch etherscan ${folder} on chain ${chain} token ${token.address}`,
+              e
+            )
             results.push({
               type: 'warning',
-              message: `${folder} on chain ${chain} token ${token.address} code not verified on Etherscan`,
+              message: `Etherscan API request failed for ${folder} on chain ${chain} token ${token.address}`,
             })
           }
         }

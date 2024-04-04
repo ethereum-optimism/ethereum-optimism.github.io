@@ -1,0 +1,14 @@
+{
+    "name": "USD+",
+    "symbol": "USD+",
+    "decimals": 6,
+    "description": "Overnight Finance is an Asset Management Protocol offering Low-Risk Passive Yield Products primarily for conservative stablecoin investors, both individuals and protocol treasuries. The protocol aspires to be the 'Vanguard of DeFi' whose product range includes USD+ – DeFi equivalent of the money market, ETS – delta-neutral strategies, and Insurance.",
+    "website": "https://overnight.fi",
+    "twitter": "@overnight_fi",
+    "nobridge": true,
+    "tokens": {
+      "optimism": {
+        "address": "0x73cb180bf0521828d8849bc8CF2B920918e23032"
+      }
+    }
+  }

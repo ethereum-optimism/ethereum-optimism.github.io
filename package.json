@@ -1,30 +1,60 @@
 {
   "name": "@eth-optimism/tokenlist",
   "description": "[Optimism] token list",
-  "version": "4.3.0",
-  "main": "index.js",
-  "homepage": "https://github.com/ethereum-optimism/tokenlist#readme",
+  "version": "10.0.19",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/ethereum-optimism/ethereum-optimism.github.io#readme",
   "license": "MIT",
   "author": "Optimism",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereum-optimism/tokenlist.git"
+    "url": "git+https://github.com/ethereum-optimism/ethereum-optimism.github.io.git"
+  },
+  "tsup": {
+    "entry": [
+      "index.ts",
+      "optimism.tokenlist.json"
+    ],
+    "outDir": "dist",
+    "format": [
+      "esm",
+      "cjs"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true
   },
   "scripts": {
-    "validate": "ts-node ./bin/cli.ts validate",
-    "generate": "ts-node ./bin/cli.ts generate",
-    "build": "tsc -p ./tsconfig.json",
+    "validate": "tsx ./bin/cli.ts validate",
+    "generate": "tsx ./bin/cli.ts generate",
+    "generate:ci": "pnpm generate --datadir ./data --outfile optimism.tokenlist.json",
+    "build": "tsup",
+    "build:ci": "pnpm generate:ci && pnpm tsup --dts",
+    "release": "pnpm build:ci && npm publish",
     "test": "jest --detectOpenHandles",
     "lint:check": "eslint . --max-warnings=0",
     "lint:fix": "eslint --fix .",
-    "lint": "yarn lint:fix && yarn lint:check",
-    "start-bot": "ts-node ./src/bot.ts"
+    "lint": "pnpm lint:fix && pnpm lint:check",
+    "start-bot": "tsx ./src/bot.ts",
+    "typecheck": "tsc -p ./tsconfig.json --noEmit"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@actions/core": "^1.4.0",
     "@babel/eslint-parser": "^7.18.2",
     "@eth-optimism/common-ts": "^0.6.5",
-    "@eth-optimism/contracts": "^0.5.7",
+    "@eth-optimism/contracts": "^0.5.40",
     "@eth-optimism/core-utils": "^0.9.3",
     "@types/glob": "^8.0.0",
     "@types/jest": "^29.0.3",
@@ -58,7 +88,8 @@
     "prettier": "^2.3.1",
     "ts-jest": "^29.0.1",
     "ts-mocha": "^10.0.0",
-    "ts-node": "^10.8.2",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
     "typescript": "^4.6.2",
     "uuid": "^9.0.0"
   }

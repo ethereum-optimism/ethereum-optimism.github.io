@@ -1,0 +1,23 @@
+{
+  "name": "Aptos Coin",
+  "symbol": "APT",
+  "decimals": 8,
+  "description": "APT from Aptos, bridged by Wormhole.",
+  "website": "https://wormhole.com",
+  "twitter": "@wormholecrypto",
+  "nobridge": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x8CDf7AF57E4c8B930e1B23c477c22f076530585e",
+      "overrides": {
+        "name": "Aptos"
+      }
+    },
+    "optimism": {
+      "address": "0xC5B3AC2DF8D8D7AC851F763a5b3Ff23B4A696d59",
+      "overrides": {
+        "name": "Aptos"
+      }
+    }
+  }
+}

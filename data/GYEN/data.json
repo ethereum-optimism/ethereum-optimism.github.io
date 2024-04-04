@@ -1,0 +1,16 @@
+{
+  "name": "GMO JPY",
+  "symbol": "GYEN",
+  "decimals": 6,
+  "description": "GYEN is the first regulated digital JPY which is 100% Fiat-backed.",
+  "website": "https://stablecoin.z.com/",
+  "twitter": "@GMOTrust",
+  "tokens": {
+    "ethereum": {
+      "address": "0xC08512927D12348F6620a698105e1BAac6EcD911"
+    },
+    "optimism": {
+      "address": "0x589d35656641d6aB57A545F08cf473eCD9B6D5F7"
+    }
+  }
+}

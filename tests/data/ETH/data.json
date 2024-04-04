@@ -10,12 +10,6 @@
     },
     "optimism": {
       "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
-    },
-    "kovan": {
-      "address": "0x0000000000000000000000000000000000000000"
-    },
-    "optimism-kovan": {
-      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
     }
   }
 }
