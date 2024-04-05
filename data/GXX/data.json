@@ -1,0 +1,16 @@
+{
+  "name": "ProcessID",
+  "symbol": "GXX",
+  "decimals": 18,
+  "description": "0x33labs®\nNON-EXPERIMENTAL ERC404 TOKEN STANDARD\nPROCESS ID : 0x404\nhttps://twitter.com/0x33labs",
+  "website": "https://www.0x33.xyz/",
+  "twitter": "https://twitter.com/0x33___",
+  "tokens": {
+    "ethereum": {
+      "address": "0x45706ECc1952eF8F3EB4a75721787364a7526821"
+    },
+    "base": {
+      "address": "0x40c22123f160362779de6a18f30d8af95902dd0e"
+    }
+  }
+}
