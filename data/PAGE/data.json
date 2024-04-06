@@ -1,0 +1,19 @@
+{
+    "name": "Page Token",
+    "symbol": "PAGE",
+    "decimals": 18,
+    "tokens": {
+      "ethereum": {
+        "address": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e"
+      },
+      "optimism": {
+        "address": "0x75BBf12b24bE6B91c3B93cd35321f75b8e8Eab1E"
+      },
+      "polygon": {
+        "address": "0x9ceE70895726B0ea14E6019C961dAf32222a7C2f"
+      },
+      "base": {
+        "address": "0xcb3D2498E189f4D0C5e3cDaBc96ad4469f5478d3"
+      }
+    }
+  }
