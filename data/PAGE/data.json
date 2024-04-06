@@ -1,7 +1,7 @@
 {
     "name": "Page Token",
     "symbol": "PAGE",
-    "decimals": 18,
+    "decimals": 8,
     "tokens": {
       "ethereum": {
         "address": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e"
