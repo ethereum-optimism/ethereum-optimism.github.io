@@ -1,0 +1,16 @@
+{
+  "name": "TestToken",
+  "symbol": "TT",
+  "decimals": 18,
+  "description": "The TestToken contract is created to test out the opportunities that being listed in Base Token List provides. It's an ERC20-compatible token developed using the OpenZeppelin library, offering a versatile solution for tokenized applications on the Ethereum blockchain. Named 'TestToken' with the symbol 'TT', it provides developers with a reliable foundation for experimenting with decentralized finance (DeFi), gaming platforms, and other token-based projects. With its simplicity and flexibility, TestToken is ideal for testing and prototyping within the Ethereum ecosystem. It features two essential functions: mint(uint256 amount) allows minting tokens to the caller's address, while mintTo(address user, uint256 amount) enables minting tokens to a specified address. Developers can leverage TestToken to explore tokenization concepts, such as rewards, incentives, and governance mechanisms. Its clean codebase and integration with the OpenZeppelin library ensure reliability and security in token operations. Whether used for educational purposes, testing environments, or production deployments, TestToken serves as a valuable tool for understanding and innovating within the blockchain space.",
+  "website": "https://token.com",
+  "twitter": "@token",
+  "tokens": {
+    "sepolia": {
+      "address": "0xBa61d6d73f1f7a0B9fC88dFD7dcC300f5a86a256"
+    },
+    "base-sepolia": {
+      "address": "0x75a708B2834D40a3A5D67e490489b58112fC7Df7"
+    }
+  }
+}
