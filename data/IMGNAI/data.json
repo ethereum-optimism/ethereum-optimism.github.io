@@ -1,0 +1,16 @@
+{
+  "name": "Imagine AI`",
+  "symbol": "IMGNAI",
+  "decimals": 9,
+  "description": "imgnAI is building a new leader in consumer AI. Their flagship product, Nai, is a popular AI-powered text-to-image app currently live on Telegram, Discord, and via Web.",
+  "website": "https://imgnai.com",
+  "twitter": "@imgn_ai",
+  "tokens": {
+    "ethereum": {
+      "address": "0xA735A3AF76CC30791C61c10d585833829d36CBe0"
+    },
+    "base": {
+      "address": "0xad873250989E120B411dcB878183832795a8a3E1"
+    }
+  }
+}
