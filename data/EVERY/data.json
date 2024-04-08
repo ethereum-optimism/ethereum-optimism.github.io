@@ -7,10 +7,16 @@
   "twitter": "https://twitter.com/JoinEveryworld",
   "tokens": {
     "sepolia": {
-      "address": "0xbABedB663F3E70E6CEdb26558e8ceFB12d321Caa"
+      "address": "0xbABedB663F3E70E6CEdb26558e8ceFB12d321Caa",
+      "overrides": {
+        "name": "Everyrealm Token"
+      }
     },
     "base-sepolia": {
-      "address": "0xb01701025c3b12e0b5022d8a98f15f8ad3602a7b"
+      "address": "0xb01701025c3b12e0b5022d8a98f15f8ad3602a7b",
+      "overrides": {
+        "name": "Everyrealm Token"
+      }
     },
     "ethereum": {
       "address": "0x9aFa9999e45484Adf5d8EED8D9Dfe0693BACd838"
