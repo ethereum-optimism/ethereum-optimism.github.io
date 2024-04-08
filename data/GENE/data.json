@@ -1,0 +1,19 @@
+{
+    "name": "Genomes",
+    "symbol": "GENE",
+    "decimals": 18,
+    "description": "The GENE token is a utility token that enables the querying of the DNA vaults within the GenomesDAO ecosystem. It acts as the native currency within the GenomesDAO platform.",
+    "website": "https://genomes.io/",
+    "twitter": "@GenomesDAO",
+    "tokens": {
+      "ethereum": {
+        "address": "0x21413c119b0C11C5d96aE1bD328917bC5C8ED67E",
+        "overrides": {
+          "name": "GenomesDAO"
+        }
+      },
+      "base": {
+        "address": "0xE8F4c2257e90E7F7Fd131d6D5949851CDe5b2A9B"
+      }
+    }
+  }
