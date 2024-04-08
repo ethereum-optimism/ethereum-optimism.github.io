@@ -3,6 +3,7 @@
     "symbol": "RSC",
     "decimals": 18,
     "website": "https://www.researchhub.com/",
+    "twitter": "@ResearchHub",
     "tokens": {
       "ethereum": {
         "address": "0xd101dcc414f310268c37eeb4cd376ccfa507f571"
