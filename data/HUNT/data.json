@@ -1,0 +1,16 @@
+{
+  "name": "HUNT Token",
+  "symbol": "HUNT",
+  "decimals": 18,
+  "description": "Hunt Town is a Web3 builders guild where builders come together to contribute to the expansion of Web3 culture and products.",
+  "website": "https://hunt.town",
+  "twitter": "@steemhunt",
+  "tokens": {
+    "ethereum": {
+      "address": "0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5"
+    },
+    "base": {
+      "address": "0x102A7fE099Ca1d917562080A9BFd6a0Dfd711b78"
+    }
+  }
+}
