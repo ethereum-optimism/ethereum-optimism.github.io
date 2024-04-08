@@ -1,0 +1,14 @@
+{
+  "name": "xZoomerCoin",
+  "symbol": "xZOOMER",
+  "decimals": 18,
+  "nobridge": true,
+  "description": "The first and only cross-chain memecoin for Gen Z",
+  "website": "https://zoomer.money",
+  "twitter": "@ZoomerCoin",
+  "tokens": {
+    "optimism": {
+      "address": "0xB962150760F9A3bB00e3E9Cf48297EE20AdA4A33"
+    }
+  }
+}
