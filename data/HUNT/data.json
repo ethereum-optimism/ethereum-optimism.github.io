@@ -1,5 +1,5 @@
 {
-  "name": "HUNT Token",
+  "name": "HuntToken",
   "symbol": "HUNT",
   "decimals": 18,
   "description": "Hunt Town is a Web3 builders guild where builders come together to contribute to the expansion of Web3 culture and products.",
@@ -10,7 +10,7 @@
       "address": "0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5"
     },
     "base": {
-      "address": "0x102A7fE099Ca1d917562080A9BFd6a0Dfd711b78"
+      "address": "0x37f0c2915CeCC7e977183B8543Fc0864d03E064C"
     }
   }
 }
