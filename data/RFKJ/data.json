@@ -1,0 +1,16 @@
+{
+  "name": "Independence Token",
+  "symbol": "RFKJ",
+  "decimals": 18,
+  "description": "Secure America’s future. RFKJ is The Independence token dedicated to supporting RFK JR. and his charities.",
+  "website": "https://www.rfkjtoken.com/",
+  "twitter": "https://twitter.com/rfkjtoken",
+  "tokens": {
+    "ethereum": {
+      "address": "0xF64265e65c4529879a7ABf467E00D39E39C0B0DA"
+    },
+    "base": {
+      "address": "0x854f87a6a5f362580e4f83787c9b658e4c25d0"
+    }
+  }
+}
