@@ -1,0 +1,15 @@
+{
+  "name": "Metacade",
+  "symbol": "MCADE",
+  "decimals": 18,
+  "website": "https://metacade.co/",
+  "twitter": "@Metacade_",
+  "tokens": {
+    "sepolia": {
+      "address": "0x9975451FB0B41AfE849390a6A20b502F17B35ec7"
+    },
+    "base-sepolia": {
+      "address":"0x41E6C9902a27D1995585C1B2DbA06569BBFb90Bc"
+    }
+  }
+}
