@@ -1,0 +1,16 @@
+{
+  "name": "FEDUP",
+  "symbol": "FEDUP",
+  "decimals": 4,
+  "description": "$FEDUP Clown Memetoken ,inspired by SRB  Bear Collection, now coming to BASE with legendary clown memes, real yield and DeFi.",
+  "website": "https://fedupclown.com",
+  "twitter": "https://twitter.com/Fedup_clown",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6c80aeA8C83948D502c43539E22Ce2a2956Ad004"
+    },
+    "base": {
+      "address": "0x5fe3d79A091dE0083213Ad0efDAD66E6d9fF9a98"
+    }
+  }
+}
