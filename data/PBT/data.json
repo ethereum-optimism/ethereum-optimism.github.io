@@ -1,0 +1,16 @@
+{
+  "name": "PolyBet",
+  "symbol": "PBT",
+  "decimals": 18,
+  "description": "PolyBet is a decentralized prediction market platform that lets users bet on the outcome of events.\n\n",
+  "website": "https://polybet.com/",
+  "twitter": "https://twitter.com/poly_bet",
+  "tokens": {
+    "ethereum": {
+      "address": "0xa406844323F1603701E6ad95ADc8A082213a68ce"
+    },
+    "base": {
+      "address": "0x621b4e6ab7d9d17820cb3c3cc05cf0b1262b81dd"
+    }
+  }
+}
