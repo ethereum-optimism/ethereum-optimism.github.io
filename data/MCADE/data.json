@@ -3,20 +3,19 @@
   "symbol": "MCADE",
   "decimals": 18,
   "website": "https://metacade.co/",
-  "description": "Metacade is the premier Web3 gaming platform where community thrives. Play, earn, build, and connect in a universe designed for gamers to enjoy and benefit from the latest in gaming innovation.",
   "twitter": "@Metacade_",
   "tokens": {
     "ethereum": {
       "address": "0xed328e9c1179a30ddc1e7595e036aed8760c22af"
     },
     "sepolia": {
-      "address": "0x9975451FB0B41AfE849390a6A20b502F17B35ec7"
+      "address": "0x1391E5032b3523E6A86dDF1D85605D6180B962d8"
     },
     "base": {
       "address": "0xc48823EC67720a04A9DFD8c7d109b2C3D6622094"
     },
     "base-sepolia": {
-      "address":"0x41E6C9902a27D1995585C1B2DbA06569BBFb90Bc"
+      "address":"0x162aA1C7bba68861eA33CF1ffFa8bCADDdFdA145"
     }
   }
 }
