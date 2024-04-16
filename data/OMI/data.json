@@ -2,6 +2,7 @@
   "name": "OMI Token",
   "symbol": "OMI",
   "decimals": 18,
+  "description": "OMI is the official utility token of the VeVe Digital Collectibles Ecosystem",
   "website": "https://www.ecomi.com/",
   "twitter": "@ecomi_",
   "tokens": {
