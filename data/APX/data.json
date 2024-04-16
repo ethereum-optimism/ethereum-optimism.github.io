@@ -1,0 +1,16 @@
+{
+  "name": "AstroPepeX",
+  "symbol": "APX",
+  "decimals": 18,
+  "description": "The world's very first AI generated & deployed cryptocurrency. APX is unlike any other token, because it was created with autonomous code and the OpenAI API.\n\nAdvanced AI models created the contract code, name, symbol, supply and image inside of a single script before deploying AstroPepeX, and burning 100% of LP in the process to eliminate any possible human ties.\n\nThis made it entirely devoid of human bias, interference, centralization and manipulation. AI IS DEV.",
+  "website": "https://astropepe.io/",
+  "twitter": "https://twitter.com/astropepe_x",
+  "tokens": {
+    "ethereum": {
+      "address": "0xed4e879087ebD0e8A77d66870012B5e0dffd0Fa4"
+    },
+    "base": {
+      "address": "0x9796b8f71a8034815561fbbca245275423e09c0c"
+    }
+  }
+}
