@@ -1,0 +1,21 @@
+{
+  "name": "OMI Token",
+  "symbol": "OMI",
+  "decimals": 18,
+  "website": "https://www.ecomi.com/",
+  "twitter": "@ecomi_",
+  "tokens": {
+    "ethereum": {
+      "address": "0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e"
+    },
+    "sepolia": {
+      "address": "0xfF36224B9CF97e7791D99fE19281Ff78B0b24208"
+    },
+    "base": {
+      "address": "0x3792DBDD07e87413247DF995e692806aa13D3299"
+    },
+    "base-sepolia": {
+      "address": "0x7B7aA5dbd3c4DF9f64871470a8585B80986C8C48"
+    }
+  }
+}
