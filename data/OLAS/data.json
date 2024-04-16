@@ -1,0 +1,19 @@
+{
+  "name": "Autonolas",
+  "symbol": "OLAS",
+  "decimals": 18,
+  "description": "Crypto's Ocean of Services: The unified network for off-chain services, e.g. automation, relayers and co-owned AI. Coordinated by OLAS, powered by autonomous agents.",
+  "website": "https://olas.network",
+  "twitter": "@autonolas",
+  "tokens": {
+    "ethereum": {
+      "address": "0x0001A500A6B18995B03f44bb040A5fFc28E45CB0"
+    },
+    "optimism": {
+      "address": "0xFC2E6e6BCbd49ccf3A5f029c79984372DcBFE527"
+    },
+    "base": {
+      "address": "0x54330d28ca3357F294334BDC454a032e7f353416"
+    }
+  }
+}
