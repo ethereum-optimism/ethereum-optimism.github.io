@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-18T23:17:57.995Z",
+  "timestamp": "2024-04-19T19:32:37.309Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3546,6 +3546,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xc28eb2250d1AE32c7E74CFb6d6b86afC9BEb6509",
+      "name": "Open Ecosystem Token",
+      "symbol": "OPN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OPN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "OPN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x9A6d24c02eC35ad970287eE8296D4D6552a31DbE",
+      "name": "Open Ecosystem Token",
+      "symbol": "OPN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OPN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OPN"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x6100dd79fCAA88420750DceE3F735d168aBcB771",
       "name": "Ethereans",
       "symbol": "OS",
@@ -6410,6 +6436,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 20
+    "patch": 21
   }
 }
