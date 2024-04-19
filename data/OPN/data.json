@@ -1,0 +1,16 @@
+{
+  "name": "Open Ecosystem Token",
+  "symbol": "OPN",
+  "decimals": 18,
+  "description": "The OPEN Ticketing Ecosystem, which has issued over 5 million onchain tickets globally, offers tools for integrators, event organisers and artists to regain control of their ticketing and explore new financing, access and fan relationship opportunities. ",
+  "website": "https://onopen.xyz/",
+  "twitter": "https://twitter.com/onopenxyz",
+  "tokens": {
+    "ethereum": {
+      "address": "0xc28eb2250d1AE32c7E74CFb6d6b86afC9BEb6509"
+    },
+    "base": {
+      "address": "0x9A6d24c02eC35ad970287eE8296D4D6552a31DbE"
+    }
+  }
+}
