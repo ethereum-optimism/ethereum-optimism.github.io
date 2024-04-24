@@ -4,7 +4,7 @@
   "decimals": 18,
   "description": "An RToken that earns the DeFi rate any time you're in stables.",
   "website": "https://app.reserve.org/ethereum/token/0x0d86883faf4ffd7aeb116390af37746f45b6f378/overview",
-  "twitter": "@reserveprotocol",
+  "twitter": "@USD_3",
   "tokens": {
     "ethereum": {
       "address": "0x0d86883FAf4FfD7aEb116390af37746F45b6f378"
