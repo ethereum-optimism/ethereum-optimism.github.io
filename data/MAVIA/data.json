@@ -6,6 +6,7 @@
   "website": "https://mavia.com",
   "twitter": "@MaviaGame",
   "nobridge": true,
+  "nonstandard": true,
   "tokens": {
     "ethereum": {
       "address": "0x24fcFC492C1393274B6bcd568ac9e225BEc93584"
