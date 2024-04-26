@@ -7,16 +7,16 @@
   "twitter": "@meta_pool",
   "tokens": {
     "ethereum": {
-      "address": "0x48afbbd342f64ef8a9ab1c143719b63c2ad81710"
+      "address": "0x48afbbd342f64ef8a9ab1c143719b63c2ad81710",
+      "overrides": {
+        "name": "MetaPoolETH"
+      }
     },
     "optimism": {
-      "address": "0x819845b60a192167ed1139040b4f8eca31834f27"
-    },
-    "goerli": {
-      "address": "0x748c905130CC15b92B97084Fd1eEBc2d2419146f"
-    },
-    "optimism-goerli": {
-      "address": "0x4A36562d5D7074f8EE664922b320e066e67C2a24"
+      "address": "0x819845b60a192167ed1139040b4f8eca31834f27",
+      "overrides": {
+        "name": "MetaPoolETH"
+      }
     }
   }
 }
