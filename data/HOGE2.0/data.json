@@ -1,0 +1,13 @@
+{
+  "name": "Bridged Wrapped HOGE",
+  "symbol": "HOGE2.0",
+  "decimals": 18,
+  "description": "Redeemable 1-for-1 for HOGE on ETH. No tax or reflections.",
+  "website": "https://www.hogefinance.net",
+  "twitter": "@hogefinance",
+  "tokens": {
+    "ethereum": {
+      "address": "0x25699C4b6bbF148A8FDb4b5823e8D9BbA44C8090"
+    }
+  }
+}
