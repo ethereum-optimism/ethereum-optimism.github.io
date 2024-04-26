@@ -1,0 +1,22 @@
+{
+    "name": "Ethix",
+    "symbol": "ETHIX",
+    "decimals": 18,
+    "description": "EthicHub connects DeFi to the real world: crowdlending backed by crowd-collateral for the unbanked farmers excluded from TradFi.",
+    "website": "https://ethichub.com",
+    "twitter": "@EthicHub",
+    "tokens": {
+      "ethereum": {
+        "address": "0xFd09911130e6930Bf87F2B0554c44F400bD80D3e"
+      },
+      "sepolia": {
+        "address": "0xf63eeab5ce6c49654708442ea1afb7b56693b734"
+      },
+      "optimism-sepolia": {
+        "address": "0xFd09911130e6930Bf87F2B0554c44F400bD80D3e"
+      },
+      "base-sepolia": {
+        "address": "0xFd09911130e6930Bf87F2B0554c44F400bD80D3e"
+      }
+    }
+  }
