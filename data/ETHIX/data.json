@@ -5,6 +5,7 @@
     "description": "EthicHub connects DeFi to the real world: crowdlending backed by crowd-collateral for the unbanked farmers excluded from TradFi.",
     "website": "https://ethichub.com",
     "twitter": "@EthicHub",
+    "nonstandard": true,
     "tokens": {
       "ethereum": {
         "address": "0xFd09911130e6930Bf87F2B0554c44F400bD80D3e"
