@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-29T19:08:29.762Z",
+  "timestamp": "2024-04-29T19:15:18.904Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1233,6 +1233,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/CTSI/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "CTSI"
       }
@@ -1246,6 +1247,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/CTSI/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CTSI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x259fac10c5cbfefe3e710e1d9467f70a76138d45",
+      "name": "Cartesi Token",
+      "symbol": "CTSI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CTSI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "CTSI"
       }
@@ -3894,6 +3908,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "OUTb"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xAB846Fb6C81370327e784Ae7CbB6d6a6af6Ff4BF",
+      "name": "Paladin Token",
+      "symbol": "PAL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PAL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "PAL"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x224114c444e3C3d936532fE08351648700570909",
+      "name": "Paladin Token",
+      "symbol": "PAL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PAL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "PAL"
       }
     },
     {
@@ -6866,6 +6906,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 33
+    "patch": 34
   }
 }
