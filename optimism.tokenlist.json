@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-29T19:25:23.642Z",
+  "timestamp": "2024-04-29T19:40:10.549Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5980,6 +5980,72 @@
     },
     {
       "chainId": 1,
+      "address": "0x90DE74265a416e1393A450752175AED98fe11517",
+      "name": "Unlock Discount Token",
+      "symbol": "UDT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UDT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "UDT"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xc709c9116dBf29Da9c25041b13a07A0e68aC5d2D",
+      "name": "Unlock Discount Token",
+      "symbol": "UDT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UDT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "UDT"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x447B1492C5038203f1927eB2a374F5Fcdc25999d",
+      "name": "Unlock Discount Token",
+      "symbol": "UDT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UDT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "UDT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xD7eA82D19f1f59FF1aE95F1945Ee6E6d86A25B96",
+      "name": "Unlock Discount Token",
+      "symbol": "UDT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UDT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "UDT"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x68a8011d72E6D41bf7CE9dC49De0aeaEBAAC9b39",
+      "name": "Unlock Discount Token",
+      "symbol": "UDT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UDT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "UDT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
       "name": "UMA Voting Token v1",
       "symbol": "UMA",
@@ -6906,6 +6972,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 35
+    "patch": 36
   }
 }
