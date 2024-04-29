@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-29T18:41:28.738Z",
+  "timestamp": "2024-04-29T18:42:10.407Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3128,6 +3128,30 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MASK"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x24fcFC492C1393274B6bcd568ac9e225BEc93584",
+      "name": "Heroes of Mavia",
+      "symbol": "MAVIA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MAVIA/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "MAVIA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x24fcFC492C1393274B6bcd568ac9e225BEc93584",
+      "name": "Heroes of Mavia",
+      "symbol": "MAVIA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MAVIA/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "MAVIA"
       }
     },
     {
@@ -6476,6 +6500,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 24
+    "patch": 25
   }
 }
