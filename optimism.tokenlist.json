@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-19T21:08:36.481Z",
+  "timestamp": "2024-04-29T18:39:48.925Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1597,6 +1597,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/EPOCH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "EPOCH"
       }
@@ -1610,6 +1611,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/EPOCH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "EPOCH"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x287f0D88e29a3D7AEb4d0c10BAE5B902dB69B17D",
+      "name": "Epoch",
+      "symbol": "EPOCH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/EPOCH/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "EPOCH"
       }
@@ -6436,6 +6450,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 22
+    "patch": 23
   }
 }
