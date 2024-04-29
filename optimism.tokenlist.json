@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-29T18:43:02.898Z",
+  "timestamp": "2024-04-29T18:45:07.223Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1287,6 +1287,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/DF/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "DF"
       }
@@ -1300,6 +1301,45 @@
       "logoURI": "https://ethereum-optimism.github.io/data/DF/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DF"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x4ed818eDd4a0c36A3F43826A60630879b8164401",
+      "name": "dForce",
+      "symbol": "DF",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DF/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "DF"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x0d73bEC7B116c3053b7F0fa108e45A8Ae9A038e9",
+      "name": "dForce",
+      "symbol": "DF",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DF/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DF"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x178929287b25fe1aC9e0b112CE3899312b6d0557",
+      "name": "dForce",
+      "symbol": "DF",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DF/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "DF"
       }
@@ -6526,6 +6566,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 26
+    "patch": 27
   }
 }
