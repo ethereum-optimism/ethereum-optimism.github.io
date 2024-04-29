@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-29T18:39:48.925Z",
+  "timestamp": "2024-04-29T18:41:28.738Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4456,6 +4456,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x4c406C068106375724275Cbff028770C544a1333",
+      "name": "Sandclock WETH Vault v2",
+      "symbol": "scWETHv2",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/scWETHv2/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "scWETHv2"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2A3Ed1738D7339995914C380a02e28e8AE9Dce3b",
+      "name": "Sandclock WETH Vault v2",
+      "symbol": "scWETHv2",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/scWETHv2/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "scWETHv2"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
       "name": "Savings Dai",
       "symbol": "sDAI",
@@ -6450,6 +6476,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 23
+    "patch": 24
   }
 }
