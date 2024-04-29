@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-29T18:51:44.615Z",
+  "timestamp": "2024-04-29T18:53:21.380Z",
   "tokens": [
     {
       "chainId": 1,
@@ -290,6 +290,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "APT"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x594daad7d77592a2b97b725a7ad59d7e188b5bfa",
+      "name": "Apu Apustaja",
+      "symbol": "APU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/APU/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "APU"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7a2c5e7788e55ec0a7ba4aeec5b3da322718fb5e",
+      "name": "Apu Apustaja",
+      "symbol": "APU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/APU/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "APU"
       }
     },
     {
@@ -3414,6 +3440,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MOM"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xc8168d5665f4418353728ac970713e09C0B7c20e",
+      "name": "MONKE",
+      "symbol": "MONKE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MONKE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MONKE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xe8740ff403060dae99c63a684e0dfe3eaa97e9bc",
+      "name": "MONKE",
+      "symbol": "MONKE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MONKE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MONKE"
       }
     },
     {
@@ -6696,6 +6748,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 29
+    "patch": 30
   }
 }
