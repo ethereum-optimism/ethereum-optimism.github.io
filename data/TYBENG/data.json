@@ -1,0 +1,16 @@
+{
+  "name": "TYBENG",
+  "symbol": "TYBENG",
+  "decimals": 18,
+  "description": "TYBENG",
+  "website": "tybeng.com",
+  "twitter": "https://twitter.com/TD_Canada",
+  "tokens": {
+    "ethereum": {
+      "address": "0x70069dbdcde634fafc827661e579e34194b39d51"
+    },
+    "base-sepolia": {
+      "address": "0xb69f923d823b16d6fe95e8a8c4abac36c213d311"
+    }
+  }
+}
