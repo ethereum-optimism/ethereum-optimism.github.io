@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-29T18:53:21.380Z",
+  "timestamp": "2024-04-29T18:54:08.656Z",
   "tokens": [
     {
       "chainId": 1,
@@ -694,6 +694,86 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "BOB"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x42bBFa2e77757C645eeaAd1655E0911a7553Efbc",
+      "name": "Boba Token",
+      "symbol": "BOBA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BOBA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "BOBA"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x07ad578FF86B135bE19A12759064b802Cb88854D",
+      "name": "Boba Token",
+      "symbol": "BOBA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BOBA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BOBA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1F9bD96DDB4Bd07d6061f8933e9bA9EDE9967550",
+      "name": "Boba Token",
+      "symbol": "BOBA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BOBA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BOBA"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x33faF65b3DfcC6A1FccaD4531D9ce518F0FDc896",
+      "name": "Boba Token",
+      "symbol": "BOBA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BOBA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "BOBA"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0x1696baFBe18EFB141823a041E22E43d12B144407",
+      "name": "Boba Token",
+      "symbol": "BOBA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BOBA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BOBA"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0xCCA0a8Af17089575DCf6db9e750F204d234b3426",
+      "name": "Boba Token",
+      "symbol": "BOBA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BOBA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BOBA"
       }
     },
     {
@@ -6748,6 +6828,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 30
+    "patch": 31
   }
 }
