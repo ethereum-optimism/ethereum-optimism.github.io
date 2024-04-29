@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-29T18:45:07.223Z",
+  "timestamp": "2024-04-29T18:45:53.177Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4994,6 +4994,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xfe3b138879d6d0555be4132dcfe6e7424e257a2e",
+      "name": "SoftDAO",
+      "symbol": "SOFT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOFT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "SOFT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x04d1963c76eb1bec59d0eeb249ed86f736b82993",
+      "name": "SoftDAO",
+      "symbol": "SOFT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOFT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SOFT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xD31a59c85aE9D8edEFeC411D448f90841571b89c",
       "name": "Solana",
       "symbol": "SOL",
@@ -6566,6 +6592,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 27
+    "patch": 28
   }
 }
