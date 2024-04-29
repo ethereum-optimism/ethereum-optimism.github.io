@@ -1,0 +1,16 @@
+{
+  "name": "KiboShib",
+  "symbol": "KIBSHI",
+  "decimals": 18,
+  "description": "KIBSHI is the world's first AI-generated meme coin. It is a cryptocurrency that is the result of the union between Kabosu (DOGE) and Shiba Inu (SHIB).",
+  "website": "https://kiboshib.com",
+  "twitter": "@kiboshib",
+  "tokens": {
+    "ethereum": {
+      "address": "0x02e7F808990638E9e67E1f00313037EDe2362361"
+    },
+    "base": {
+      "address": "0xC7DcCA0a3e69bD762C8DB257f868f76Be36c8514"
+    }
+  }
+}
