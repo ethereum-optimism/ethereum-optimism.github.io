@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-29T18:42:10.407Z",
+  "timestamp": "2024-04-29T18:43:02.898Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5404,6 +5404,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x2c9084e65d046146d6cfc26bf45f5b80042b90eb",
+      "name": "Current Thing",
+      "symbol": "THING",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/THING/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "THING"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x6a38905c6eb562bae76f1af0d0f98f2801fb2490",
+      "name": "Current Thing",
+      "symbol": "THING",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/THING/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "THING"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x82D09e30d5D682D69B4A5d97C61b7BA651457625",
       "name": "Token Name Service",
       "symbol": "TKN",
@@ -6500,6 +6526,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 25
+    "patch": 26
   }
 }
