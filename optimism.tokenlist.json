@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-29T19:40:10.549Z",
+  "timestamp": "2024-04-29T20:06:46.360Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2846,6 +2846,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x6fB3e0A217407EFFf7Ca062D46c26E5d60a14d69",
+      "name": "IoTeX Network",
+      "symbol": "IOTX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IOTX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "IOTX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xBCBAf311ceC8a4EAC0430193A528d9FF27ae38C1",
+      "name": "IoTeX Network",
+      "symbol": "IOTX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IOTX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "IOTX"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xd909C5862Cdb164aDB949D92622082f0092eFC3d",
       "name": "Interest Protocol",
       "symbol": "IPT",
@@ -3179,6 +3205,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/LIZ/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "LIZ"
       }
@@ -3192,6 +3219,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/LIZ/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LIZ"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1c4076e33D1A165636f89F1A2025271e238C25d7",
+      "name": "Theranos Coin",
+      "symbol": "LIZ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LIZ/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "LIZ"
       }
@@ -6972,6 +7012,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 36
+    "patch": 37
   }
 }
