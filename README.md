@@ -19,10 +19,12 @@ Please note that by adding a token to the list we aren’t making any claims abo
 - [Fee on transfer tokens](https://github.com/d-xo/weird-erc20#fee-on-transfer)
 - [Tokens that modify balances without emitting a Transfer event](https://github.com/d-xo/weird-erc20#balance-modifications-outside-of-transfers-rebasingairdrops)
 
-### Base tokens
-For right now, `Base` tokens go through a separate review process. So, if you are adding tokens across both `Optimism` and `Base`, please separate this pull request into separate pull requests for each chain, in order to streamline the review process. If you are adding a token to a `Base` chain (e.g. `base` [mainnet] or `base-goerli` [testnet]) please add [@roberto-bayardo](https://github.com/roberto-bayardo) as a reviewer as they are the point of contact for `Base` tokens and must approve all `Base` tokens before they are merged.
-
-Instead of using the predeploy token factory on Base, we recommend you use the token factory [listed here](https://docs.base.org/base-contracts/#l2-contract-addresses) for the time being to avoid having a token address that may conflict with a different token on Optimism.
+### Specifying chains
+For right now, each OP Chain has their own review process. So, if you are adding tokens across multiple chains, please separate your pull request so that you have one PR for each chain, in order to streamline the review process.
+- If you're adding a token to `Base` (e.g. `base` [mainnet] or `base-sepolia` [testnet]) please tag [@cfluke-cb](https://github.com/cfluke-cb), [taycaldwell](https://github.com/taycaldwell) and [wbnns](https://github.com/wbnns) in the PR message. They are the points of contact for `Base` tokens and one of them must ACK/approve in order to be merged.
+  - **Note:** Instead of using the predeploy token factory on Base, we recommend you use the token factory [listed here](https://docs.base.org/base-contracts/#l2-contract-addresses) to avoid having a token address that may conflict with a different token on Optimism.
+- If you are adding a token to `Zora`: please use the [`zora` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/zora) and add [@tbtstl](https://github.com/tbtstl) as a reviewer.
+- If you are adding a token to `Mode`: please use the [`mode` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/mode).
 
 ### Automated checks
 
@@ -87,16 +89,16 @@ Add a file to your folder called `data.json` with the following format:
     "optimism": {
       "address": "0x2345234523452345234523452345234523452345"
     },
-    "goerli": {
+    "sepolia": {
       "address": "0x5678567856785678567856785678567856785678"
     },
-    "optimism-goerli": {
+    "optimism-sepolia": {
       "address": "0x6789678967896789678967896789678967896789"
     },
     "base": {
       "address": "0x7890789078907890789078907890789078907890"
     },
-    "base-goerli": {
+    "base-sepolia": {
       "address": "0x1011121011121011121011121011121011121011"
     }
   }
@@ -108,12 +110,12 @@ We currently accept tokens on the following chains:
 
 - `ethereum`
 - `optimism`
-- `goerli`
 - `sepolia`
 - `base`
-- `base-goerli`
-- `optimism-goerli`
+- `base-sepolia`
 - `optimism-sepolia`
+- `mode`
+- `pgn`
 
 #### Non-bridgable tokens
 
@@ -207,15 +209,15 @@ Here is an example:
         "bridge": "0x136b1EC699c62b0606854056f02dC7Bb80482d63"
       }
     },
-    "goerli": {
+    "sepolia": {
       "address": "0x51f44ca59b867E005e48FA573Cb8df83FC7f7597",
       "overrides": {
         "bridge": {
-          "optimism-goerli": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65"
+          "optimism-sepolia": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65"
         }
       }
     },
-    "optimism-goerli": {
+    "optimism-sepolia": {
       "address": "0x2E5ED97596a8368EB9E44B1f3F25B2E813845303",
       "overrides": {
         "bridge": "0xD2b3F0Ea40dB68088415412b0043F37B3088836D"
