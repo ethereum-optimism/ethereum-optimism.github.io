@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-30T16:54:51.190Z",
+  "timestamp": "2024-04-30T16:55:21.236Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3260,6 +3260,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "LPF"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d",
+      "name": "LQTY",
+      "symbol": "LQTY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LQTY/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "LQTY"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5259384690acf240e9b0a8811bd0ffbfbddc125c",
+      "name": "LQTY",
+      "symbol": "LQTY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LQTY/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LQTY"
       }
     },
     {
@@ -7130,6 +7156,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 40
+    "patch": 41
   }
 }
