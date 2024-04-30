@@ -1,16 +1,16 @@
 {
-    "name": "Wrapped Pocket",
-    "symbol": "wPOKT",
-    "decimals": 6,
-    "description": "Wrapped POKT (wPOKT) is a tokenized version of Pocket (POKT). wPOKT is backed by POKT at a 1:1 ratio via a network of validators, allowing users to transfer liquidity between the POKT and the ETH networks in a decentralized and autonomous manner. Holders of wPOKT can bridge it over to the Pocket Network blockchain to stake as a node runner, validator or directly as an application/gateway (after the upcoming upgrade) to access the relay throughput that Pocket Network provides.",
-    "website": "https://www.pokt.network/",
-    "twitter": "@POKTnetwork",
-    "tokens": {
-      "ethereum": {
-        "address": "0x67f4c72a50f8df6487720261e188f2abe83f57d7"
-      },
-      "base": {
-        "address": "0x9f682ef927a4030c0b0bdfe143945b5d3ce9e3de"
-      }
+  "name": "Wrapped Pocket",
+  "symbol": "wPOKT",
+  "decimals": 6,
+  "description": "Wrapped POKT (wPOKT) is a tokenized version of Pocket (POKT). wPOKT is backed by POKT at a 1:1 ratio via a network of validators, allowing users to transfer liquidity between the POKT and the ETH networks in a decentralized and autonomous manner. Holders of wPOKT can bridge it over to the Pocket Network blockchain to stake as a node runner, validator or directly as an application/gateway to access the relay throughput that Pocket Network provides.",
+  "website": "https://www.pokt.network/",
+  "twitter": "https://twitter.com/POKTnetwork",
+  "tokens": {
+    "ethereum": {
+      "address": "0x67f4c72a50f8df6487720261e188f2abe83f57d7"
+    },
+    "base": {
+      "address": "0x3bfc2bb3b3c187ddc79e38d4a17c830e2a380b70"
     }
   }
+}
