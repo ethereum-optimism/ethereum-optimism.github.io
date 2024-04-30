@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-30T16:53:18.194Z",
+  "timestamp": "2024-04-30T16:54:51.190Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3913,6 +3913,58 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e",
+      "name": "OMI Token",
+      "symbol": "OMI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OMI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "OMI"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xfF36224B9CF97e7791D99fE19281Ff78B0b24208",
+      "name": "OMI Token",
+      "symbol": "OMI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OMI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "OMI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x3792DBDD07e87413247DF995e692806aa13D3299",
+      "name": "OMI Token",
+      "symbol": "OMI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OMI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OMI"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x7B7aA5dbd3c4DF9f64871470a8585B80986C8C48",
+      "name": "OMI Token",
+      "symbol": "OMI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OMI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OMI"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0x4200000000000000000000000000000000000042",
       "name": "Optimism",
@@ -7078,6 +7130,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 39
+    "patch": 40
   }
 }
