@@ -1,0 +1,16 @@
+{
+  "name": "ACToken",
+  "symbol": "AC",
+  "decimals": 18,
+  "description": "testing only",
+  "website": "www.sepolia.etherscan.io/token/0x9f4951526901c9d1d35eb04f1b22568e3ba4680b",
+  "twitter": "https://twitter.com/ETHGasStation",
+  "tokens": {
+    "ethereum": {
+      "address": "0x9f4951526901C9d1d35eB04F1B22568E3ba4680b"
+    },
+    "base-sepolia": {
+      "address": "0x7b3166341d3b011546e2a9d978ef47536bf837e6"
+    }
+  }
+}
