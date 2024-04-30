@@ -1,0 +1,16 @@
+{
+  "name": "IoTeX Network",
+  "symbol": "IOTX",
+  "decimals": 18,
+  "description": "IoTeX is DePIN's only modular infrastructure platform connecting smart devices and real-world data to blockchains.",
+  "website": "http://iotex.io/",
+  "twitter": "@iotex_io",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6fB3e0A217407EFFf7Ca062D46c26E5d60a14d69"
+    },
+    "base": {
+      "address": "0xBCBAf311ceC8a4EAC0430193A528d9FF27ae38C1"
+    }
+  }
+}

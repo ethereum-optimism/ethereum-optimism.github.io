@@ -1,0 +1,18 @@
+{
+  "name": "Heroes of Mavia",
+  "symbol": "MAVIA",
+  "decimals": 18,
+  "description": "Heroes of Mavia is a mobile free-to-play Web3 MMO Strategy game developed by Skrice Studios. The game takes place in a fantasy-themed island called Mavia, where players build bases on plots of land and battle neighboring bases and armies to earn in-game resources, such as Gold, Oil and Ruby.",
+  "website": "https://mavia.com",
+  "twitter": "@MaviaGame",
+  "nobridge": true,
+  "nonstandard": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x24fcFC492C1393274B6bcd568ac9e225BEc93584"
+    },
+    "base": {
+      "address": "0x24fcFC492C1393274B6bcd568ac9e225BEc93584"
+    }
+  }
+}
