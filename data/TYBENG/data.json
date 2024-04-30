@@ -3,14 +3,17 @@
   "symbol": "TYBENG",
   "decimals": 18,
   "description": "TYBENG",
-  "website": "tybeng.com",
-  "twitter": "https://twitter.com/TD_Canada",
+  "website": "https://benjibananas.com/",
+  "twitter": "https://twitter.com/BenjiBananas",
   "tokens": {
     "ethereum": {
-      "address": "0x70069dbdcde634fafc827661e579e34194b39d51"
+      "address": "0xd9ebbc7970e26b4eced7323b9331763e8272d011"
     },
     "base-sepolia": {
       "address": "0xb69f923d823b16d6fe95e8a8c4abac36c213d311"
+    },
+    "base": {
+      "address": "0x029a3b0532871735809a51e8653d6017ef04b6fa"
     }
   }
 }
