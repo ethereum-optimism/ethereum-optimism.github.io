@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-30T16:55:21.236Z",
+  "timestamp": "2024-04-30T16:56:45.843Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6296,6 +6296,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x0d86883FAf4FfD7aEb116390af37746F45b6f378",
+      "name": "Web 3 Dollar",
+      "symbol": "USD3",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/USD3/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "USD3"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xEFb97aaF77993922aC4be4Da8Fbc9A2425322677",
+      "name": "Web 3 Dollar",
+      "symbol": "USD3",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/USD3/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "USD3"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
       "name": "USD Coin",
       "symbol": "USDC",
@@ -7156,6 +7182,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 41
+    "patch": 42
   }
 }
