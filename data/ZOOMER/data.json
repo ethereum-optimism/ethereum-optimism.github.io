@@ -6,6 +6,7 @@
   "description": "The first and only cross-chain memecoin for Gen Z",
   "website": "https://zoomer.money",
   "twitter": "@ZoomerCoin",
+  "nonstandard": true,
   "tokens": {
     "ethereum": {
       "address": "0x0D505C03d30e65f6e9b4Ef88855a47a89e4b7676"
