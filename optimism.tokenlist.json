@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-30T16:47:46.719Z",
+  "timestamp": "2024-04-30T16:53:18.194Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4791,6 +4791,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/SARCO/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "SARCO"
       }
@@ -4804,6 +4805,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/SARCO/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SARCO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xF3907Bc0FFF5Ff5aCf1E3dD7987005779C7bf57d",
+      "name": "Sarcophagus",
+      "symbol": "SARCO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SARCO/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SARCO"
       }
@@ -7064,6 +7078,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 38
+    "patch": 39
   }
 }
