@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-29T20:06:46.360Z",
+  "timestamp": "2024-04-30T16:47:46.719Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3442,6 +3442,58 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MBS"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xed328e9c1179a30ddc1e7595e036aed8760c22af",
+      "name": "Metacade",
+      "symbol": "MCADE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MCADE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MCADE"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x1391E5032b3523E6A86dDF1D85605D6180B962d8",
+      "name": "Metacade",
+      "symbol": "MCADE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MCADE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "MCADE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc48823EC67720a04A9DFD8c7d109b2C3D6622094",
+      "name": "Metacade",
+      "symbol": "MCADE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MCADE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MCADE"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x162aA1C7bba68861eA33CF1ffFa8bCADDdFdA145",
+      "name": "Metacade",
+      "symbol": "MCADE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MCADE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MCADE"
       }
     },
     {
@@ -7012,6 +7064,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 37
+    "patch": 38
   }
 }
