@@ -1,0 +1,16 @@
+{
+  "name": "ZynCoin",
+  "symbol": "ZYN",
+  "decimals": 18,
+  "description": "ZynCoin is more than a memecoin, it's a lifestyle. Comfy gum pillows for all. With ownership renounced and liquidity locked, we are a community-led token spreading the gospel of $ZYN.",
+  "website": "https://www.zyncoin.io/",
+  "twitter": "https://twitter.com/ZynCoinERC20",
+  "tokens": {
+    "ethereum": {
+      "address": "0x58cB30368ceB2d194740b144EAB4c2da8a917Dcb"
+    },
+    "base": {
+      "address": "0x82c8f48ac694841360de84d649a0d48d239b61f8"
+    }
+  }
+}
