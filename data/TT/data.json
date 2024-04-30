@@ -7,10 +7,10 @@
   "twitter": "@token",
   "tokens": {
     "sepolia": {
-      "address": "0x19dcecf9308F058Ace0580CDc06b2932eb428d3c",
+      "address": "0x19dcecf9308F058Ace0580CDc06b2932eb428d3c"
     },
     "base-sepolia": {
-      "address": "0x70d0DB2a202C42F3cc3b468354B942A73912eC95",
+      "address": "0x70d0DB2a202C42F3cc3b468354B942A73912eC95"
     }
   }
 }
