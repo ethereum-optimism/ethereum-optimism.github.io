@@ -6,7 +6,7 @@
   "website": "https://defli.xyz/crypto",
   "twitter": "@defli_networks", 
   "nobridge": true,
-  "nonstandard": true
+  "nonstandard": true,
   "tokens": {
     "base": {
       "address": "0x076Bf099C7aaBd0BC9bC37930113428906F51d89"
