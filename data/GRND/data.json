@@ -1,19 +1,24 @@
 {
-    "name": "GRND",
-    "symbol": "GRND",
-    "decimals": 18,
-    "tokens": {
-      "ethereum": {
-        "address": "0x9816082D089faD585B0735dcaf15147bBB9A4C4d"
-      },
-      "optimism": {
-        "address": "0x337919Bc5737D046Dd4b559D2663aF7B0948EfE6"
-      },
-      "polygon": {
-        "address": "0xC41cFdc0A3199eE6b22bd3c2e6624aC10695e510"
-      },
-      "base":  {
-        "address": "0x7E00780C65D0291E5210fC208ABce0C5A966d538"
+  "name": "Token Name",
+  "symbol": "SYMBOL",
+  "decimals": 18,
+  "description": "The token of the UNDRGRND Art Community",
+  "website": "https://undrgrnd.io",
+  "twitter": "@undrgrnd_nft",
+  "tokens": {
+    "ethereum": {
+      "address": "0x9816082D089faD585B0735dcaf15147bBB9A4C4d"
+    },
+    "optimism": {
+      "address": "0x337919Bc5737D046Dd4b559D2663aF7B0948EfE6"
+    },
+    "polygon": {
+      "address": "0xC41cFdc0A3199eE6b22bd3c2e6624aC10695e510"
+    },
+    "base": {
+      "address": "0x7E00780C65D0291E5210fC208ABce0C5A966d538"
     }
   }
+}
+
 
