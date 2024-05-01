@@ -12,9 +12,6 @@
     "optimism": {
       "address": "0x337919Bc5737D046Dd4b559D2663aF7B0948EfE6"
     },
-    "polygon": {
-      "address": "0xC41cFdc0A3199eE6b22bd3c2e6624aC10695e510"
-    },
     "base": {
       "address": "0x7E00780C65D0291E5210fC208ABce0C5A966d538"
     }
