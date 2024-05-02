@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-30T16:56:45.843Z",
+  "timestamp": "2024-05-02T15:24:40.984Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2046,6 +2046,18 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "FLASH"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x076Bf099C7aaBd0BC9bC37930113428906F51d89",
+      "name": "DEFLI",
+      "symbol": "FLI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FLI/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "FLI"
       }
     },
     {
@@ -7182,6 +7194,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 42
+    "patch": 43
   }
 }
