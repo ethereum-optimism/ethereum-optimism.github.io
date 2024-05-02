@@ -4,7 +4,8 @@
   "decimals": 18,
   "description": "Blockchain Project Launchpad & Token Exchange. Powered by INDODAX.",
   "website": "https://tokenomy.com/",
-  "twitter": "https://twitter.com/tokenomy",
+  "twitter": "@tokenomy",
+  "nobridge": true,
   "tokens": {
     "ethereum": {
       "address": "0xdd16ec0f66e54d453e6756713e533355989040e4"
