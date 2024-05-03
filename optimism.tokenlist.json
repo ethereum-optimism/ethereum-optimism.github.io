@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-02T15:24:40.984Z",
+  "timestamp": "2024-05-03T16:13:27.560Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1606,6 +1606,58 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "DOLA"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xb31ef9e52d94d4120eb44fe1ddfde5b4654a6515",
+      "name": "DOSE",
+      "symbol": "DOSE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DOSE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "DOSE"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x466027eea4c47dd172a3f0bdd5f9d74b230bde10",
+      "name": "DOSE",
+      "symbol": "DOSE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DOSE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "DOSE"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x063ba9e853d30f1a45417500d9b72dc3caab3d4b",
+      "name": "DOSE",
+      "symbol": "DOSE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DOSE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DOSE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x455234ab787665a219125235fb01b22b512dfcaa",
+      "name": "DOSE",
+      "symbol": "DOSE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DOSE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DOSE"
       }
     },
     {
@@ -7194,6 +7246,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 43
+    "patch": 44
   }
 }
