@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-03T16:18:19.988Z",
+  "timestamp": "2024-05-03T16:19:56.835Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1981,6 +1981,58 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "ETH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xFd09911130e6930Bf87F2B0554c44F400bD80D3e",
+      "name": "Ethix",
+      "symbol": "ETHIX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETHIX/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "ETHIX"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xf63eeab5ce6c49654708442ea1afb7b56693b734",
+      "name": "Ethix",
+      "symbol": "ETHIX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETHIX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "ETHIX"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0xFd09911130e6930Bf87F2B0554c44F400bD80D3e",
+      "name": "Ethix",
+      "symbol": "ETHIX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETHIX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ETHIX"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0xFd09911130e6930Bf87F2B0554c44F400bD80D3e",
+      "name": "Ethix",
+      "symbol": "ETHIX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ETHIX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ETHIX"
       }
     },
     {
@@ -6811,6 +6863,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x88800092fF476844f74dC2FC427974BBee2794Ae",
+      "name": "Ambire Wallet",
+      "symbol": "WALLET",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WALLET/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "WALLET"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0BbbEad62f7647AE8323d2cb243A0DB74B7C2b80",
+      "name": "Ambire Wallet",
+      "symbol": "WALLET",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WALLET/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WALLET"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef",
       "name": "Wrapped Ampleforth",
       "symbol": "WAMPL",
@@ -7349,6 +7427,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 47
+    "patch": 48
   }
 }
