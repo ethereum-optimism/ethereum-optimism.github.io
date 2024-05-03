@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-03T16:14:44.279Z",
+  "timestamp": "2024-05-03T16:16:54.026Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2793,6 +2793,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "HAUS"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x25cbb21a9da7c3c63bb77ccca5b2e2482aedb710",
+      "name": "Honey Badger",
+      "symbol": "HOBA",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/HOBA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "HOBA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2ede02ec52cbb49e81885c8fa171c3ba8bcd5374",
+      "name": "Honey Badger",
+      "symbol": "HOBA",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/HOBA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "HOBA"
       }
     },
     {
@@ -7309,6 +7335,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 45
+    "patch": 46
   }
 }
