@@ -7,10 +7,13 @@
   "twitter": "https://twitter.com/DOSEToken",
   "tokens": {
     "ethereum": {
-      "address": "0x466027eea4c47dd172a3f0bdd5f9d74b230bde10"
+      "address": "0xb31ef9e52d94d4120eb44fe1ddfde5b4654a6515"
     },
     "base-sepolia": {
       "address": "0x063ba9e853d30f1a45417500d9b72dc3caab3d4b"
+    },
+    "base": {
+      "address": "0x27c1141dd86b116cc3350fb4e52fe839bcd8ef27"
     }
   }
 }
