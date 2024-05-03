@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-03T16:19:56.835Z",
+  "timestamp": "2024-05-03T16:21:59.281Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7149,6 +7149,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x67f4c72a50f8df6487720261e188f2abe83f57d7",
+      "name": "Wrapped Pocket",
+      "symbol": "wPOKT",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/wPOKT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "wPOKT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x3bfc2bb3b3c187ddc79e38d4a17c830e2a380b70",
+      "name": "Wrapped Pocket",
+      "symbol": "wPOKT",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/wPOKT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "wPOKT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
       "name": "Wrapped liquid staked Ether 2.0",
       "symbol": "wstETH",
@@ -7427,6 +7453,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 48
+    "patch": 49
   }
 }
