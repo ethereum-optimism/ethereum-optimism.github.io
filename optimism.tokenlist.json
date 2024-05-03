@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-03T16:13:27.560Z",
+  "timestamp": "2024-05-03T16:14:44.279Z",
   "tokens": [
     {
       "chainId": 1,
@@ -984,6 +984,19 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "CHAIN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x20b048fA035D5763685D695e66aDF62c5D9F5055",
+      "name": "Biochar",
+      "symbol": "CHAR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CHAR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CHAR"
       }
     },
     {
@@ -5914,6 +5927,30 @@
     },
     {
       "chainId": 1,
+      "address": "0xdd16ec0f66e54d453e6756713e533355989040e4",
+      "name": "Tokenomy",
+      "symbol": "TEN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TEN/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "TEN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4fb9b20dafe45d91ae287f2e07b2e79709308178",
+      "name": "Tokenomy",
+      "symbol": "TEN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TEN/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "TEN"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0F72964Fa4b766521d84107991E837c30D0EF2b1",
       "name": "Tetu Token",
       "symbol": "TETU",
@@ -6198,6 +6235,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "TUSD"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xd9ebbc7970e26b4eced7323b9331763e8272d011",
+      "name": "TYBENG",
+      "symbol": "TYBENG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TYBENG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "TYBENG"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x029a3b0532871735809a51e8653d6017ef04b6fa",
+      "name": "TYBENG",
+      "symbol": "TYBENG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TYBENG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TYBENG"
       }
     },
     {
@@ -7246,6 +7309,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 44
+    "patch": 45
   }
 }
