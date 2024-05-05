@@ -5,6 +5,7 @@
   "description": "imgnAI is building a new leader in consumer AI. Their flagship product, Nai, is a popular AI-powered text-to-image app currently live on Telegram, Discord, and via Web.",
   "website": "https://imgnai.com",
   "twitter": "@imgn_ai",
+  "nonstandard": true,
   "tokens": {
     "ethereum": {
       "address": "0xA735A3AF76CC30791C61c10d585833829d36CBe0"
