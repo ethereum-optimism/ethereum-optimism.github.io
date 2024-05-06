@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-06T20:54:52.674Z",
+  "timestamp": "2024-05-06T20:55:32.694Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7515,6 +7515,42 @@
     },
     {
       "chainId": 1,
+      "address": "0x0D505C03d30e65f6e9b4Ef88855a47a89e4b7676",
+      "name": "ZoomerCoin",
+      "symbol": "ZOOMER",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ZOOMER/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "ZOOMER"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xD1dB4851bcF5B41442cAA32025Ce0Afe6B8EabC2",
+      "name": "Based ZoomerCoin",
+      "symbol": "ZOOMER",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ZOOMER/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "ZOOMER"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xB962150760F9A3bB00e3E9Cf48297EE20AdA4A33",
+      "name": "xZoomerCoin",
+      "symbol": "xZOOMER",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ZOOMER/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "ZOOMER"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
       "name": "0x Protocol Token",
       "symbol": "ZRX",
@@ -7689,6 +7725,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 52
+    "patch": 53
   }
 }
