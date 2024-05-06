@@ -7,6 +7,9 @@
   "twitter": "https://twitter.com/MANTRAOMniverse",
   "tokens": {
     "ethereum": {
+      "address": "0x3593D125a4f7849a1B059E64F4517A86Dd60c95d"
+    },
+    "sepolia": {
       "address": "0xCbC45aaD4a64B081a51b8ebD12a16864F3c0a930"
     },
     "base-sepolia": {
