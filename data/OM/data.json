@@ -1,0 +1,16 @@
+{
+  "name": "MANTRA DAO",
+  "symbol": "OM",
+  "decimals": 18,
+  "description": "MANTRA token (MANTRA DAO was rebranded and is now known as MANTRA)",
+  "website": "https://www.mantrachain.io/",
+  "twitter": "https://twitter.com/MANTRAOMniverse",
+  "tokens": {
+    "ethereum": {
+      "address": "0xCbC45aaD4a64B081a51b8ebD12a16864F3c0a930"
+    },
+    "base-sepolia": {
+      "address": "0x705348dc789a0912c207c4607555cd0de8b92c16"
+    }
+  }
+}
