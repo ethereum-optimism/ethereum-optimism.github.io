@@ -7,13 +7,13 @@
   "twitter": "https://twitter.com/MANTRAOMniverse",
   "tokens": {
     "ethereum": {
-      "address": "0x3593D125a4f7849a1B059E64F4517A86Dd60c95d"
+      "address": "0xCbC45aaD4a64B081a51b8ebD12a16864F3c0a930"
     },
     "sepolia": {
       "address": "0xCbC45aaD4a64B081a51b8ebD12a16864F3c0a930"
     },
     "base-sepolia": {
-      "address": "0x705348dc789a0912c207c4607555cd0de8b92c16"
+      "address": "0xf2fb84dce2edbee0577181a80c2607d19177eef9"
     }
   }
 }
