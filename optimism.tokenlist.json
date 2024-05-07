@@ -2714,26 +2714,26 @@
       "chainId": 1,
       "address": "0x0469dFb82A816C5F0a566625Cec09216A721E90e",
       "name": "LikeButton.eth",
-      "symbol": "LIKE",
+      "symbol": "❤️",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/LIKE/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
-        "opTokenId": "LIKE"
+        "opTokenId": "❤️"
       }
     },
     {
       "chainId": 8453,
       "address": "0xE0742c2d2Bdbb3c138Ce81Bc5589DC07865f0a49",
       "name": "LikeButton.eth",
-      "symbol": "LIKE",
+      "symbol": "❤️",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/LIKE/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
-        "opTokenId": "LIKE"
+        "opTokenId": "❤️"
       }
     },
     {
