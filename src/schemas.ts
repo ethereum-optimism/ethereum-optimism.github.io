@@ -15,6 +15,7 @@ export const TOKEN_SCHEMA = {
       },
       symbol: {
         type: 'string',
+        pattern: '^\\S+$' // allow unicode
       },
       decimals: {
         type: 'integer',
