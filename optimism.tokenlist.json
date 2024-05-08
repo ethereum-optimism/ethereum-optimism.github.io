@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-06T20:55:32.694Z",
+  "timestamp": "2024-05-08T16:53:27.323Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7725,6 +7725,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 53
+    "patch": 54
   }
 }
