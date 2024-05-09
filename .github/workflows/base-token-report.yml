@@ -1,0 +1,47 @@
+name: Token Analysis CI
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'data/**/data.json'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install goplus
+
+    - name: Run Token Analysis
+      id: token_analysis
+      run: |
+        reports=""
+        for file in $(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep 'data/.**/data.json'); do
+          report=$(python bin/base_check.py "$file")
+          reports+="$report\n\n"
+        done
+        echo "::set-output name=reports::$reports"
+
+    - name: Add Analysis Results as PR Comment
+      uses: actions/github-script@v6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          const reports = `${{ steps.token_analysis.outputs.reports }}`;
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: reports
+          })
