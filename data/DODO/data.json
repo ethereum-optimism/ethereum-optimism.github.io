@@ -1,0 +1,16 @@
+{
+  "name": "DODO bird",
+  "symbol": "DODO",
+  "decimals": 18,
+  "description": "DODO",
+  "website": "dodoex.io",
+  "twitter": "https://twitter.com/BreederDodo",
+  "tokens": {
+    "ethereum": {
+      "address": "0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd"
+    },
+    "base": {
+      "address": "0x2b31294d12c4483a6dcd1d34cff219c946dd8f7f"
+    }
+  }
+}
