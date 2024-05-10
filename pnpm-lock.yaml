@@ -39,8 +39,8 @@ devDependencies:
     specifier: ^4.26.0
     version: 4.33.0(eslint@8.23.1)(typescript@4.8.3)
   '@uniswap/token-lists':
-    specifier: ^1.0.0-beta.30
-    version: 1.0.0-beta.30
+    specifier: ^1.0.0-beta.32
+    version: 1.0.0-beta.34
   ajv:
     specifier: ^8.11.0
     version: 8.11.0
@@ -142,7 +142,7 @@ packages:
     resolution: {integrity: sha512-q+epW0trjVUUHboliPb4UF9g2msf+w61b32tAkFEwL/IwP0DQWgbCMM0Hbe3e3WXSKz5VcUXbzJQgy8Hkra/Lg==}
     dependencies:
       tunnel: 0.0.6
-      undici: 5.28.3
+      undici: 5.28.4
     dev: true
 
   /@ampproject/remapping@2.2.0:
@@ -2570,8 +2570,8 @@ packages:
     resolution: {integrity: sha512-sL/cEvJWAnClXw0wHk85/2L0G6Sj8UB0Ctc1TEMbKSsmpRosqhwj9gWgFRZSrBr2f9tiXISwNhCPmlfqUqyb9Q==}
     dev: true
 
-  /@uniswap/token-lists@1.0.0-beta.30:
-    resolution: {integrity: sha512-HwY2VvkQ8lNR6ks5NqQfAtg+4IZqz3KV1T8d2DlI8emIn9uMmaoFbIOg0nzjqAVKKnZSbMTRRtUoAh6mmjRvog==}
+  /@uniswap/token-lists@1.0.0-beta.34:
+    resolution: {integrity: sha512-Hc3TfrFaupg0M84e/Zv7BoF+fmMWDV15mZ5s8ZQt2qZxUcNw2GQW+L6L/2k74who31G+p1m3GRYbJpAo7d1pqA==}
     engines: {node: '>=10'}
     dev: true
 
@@ -6956,8 +6956,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici@5.28.3:
-    resolution: {integrity: sha512-3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==}
+  /undici@5.28.4:
+    resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.1.0

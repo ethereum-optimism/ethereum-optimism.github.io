@@ -1,0 +1,23 @@
+{
+  "name": "Presearch",
+  "symbol": "PRE",
+  "decimals": 18,
+  "description": "Presearch.com, established in 2017, prides itself on providing a decentralized, privacy-oriented and unbiased search experience. People use Presearch to search in peace, knowing they can browse free of tracking abuse, privacy violations and non-consent inventory.",
+  "website": "https://presearch.io",
+  "twitter": "@presearchnews",
+  "nonstandard": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0xEC213F83defB583af3A000B1c0ada660b1902A0F"
+    },
+    "sepolia": {
+      "address": "0x0765C04EF390A63E8b7Bb6A5FCA2F42169C7bB19"
+    },
+    "base": {
+      "address": "0x3816dD4bd44c8830c2FA020A5605bAC72FA3De7A"
+    },
+    "base-sepolia": {
+      "address": "0xc0C034725e4eC6DDd23B8D4e6412094BcfB3F5D6"
+    }
+  }
+}
