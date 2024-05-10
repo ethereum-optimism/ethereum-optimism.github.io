@@ -13,6 +13,9 @@
             "address": "0x5465145a47260D5E715733997333A175D97285Bb"
         },
         "base": {
-             "address": "0x3a38dde9824e18CC4C0A147824F95Bf5d608F0B3"
-        }
+            "address": "0x3a38dde9824e18CC4C0A147824F95Bf5d608F0B3",
+            "overrides": {
+                "name": "HairDAO"
+              }
+       }
 }
