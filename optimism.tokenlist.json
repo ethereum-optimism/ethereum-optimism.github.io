@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-13T16:05:35.198Z",
+  "timestamp": "2024-05-13T16:07:34.234Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4149,6 +4149,58 @@
     },
     {
       "chainId": 1,
+      "address": "0x3593D125a4f7849a1B059E64F4517A86Dd60c95d",
+      "name": "MANTRA DAO",
+      "symbol": "OM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OM/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "OM"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xCbC45aaD4a64B081a51b8ebD12a16864F3c0a930",
+      "name": "MANTRA DAO",
+      "symbol": "OM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OM/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "OM"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x3992B27dA26848C2b19CeA6Fd25ad5568B68AB98",
+      "name": "MANTRA",
+      "symbol": "OM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OM/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OM"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x3011f9ef02c27a6a678e0099584c1c5be64134a1",
+      "name": "MANTRA DAO",
+      "symbol": "OM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OM/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OM"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e",
       "name": "OMI Token",
       "symbol": "OMI",
@@ -7765,6 +7817,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 57
+    "patch": 58
   }
 }
