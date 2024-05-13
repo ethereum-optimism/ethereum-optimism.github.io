@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-13T16:07:34.234Z",
+  "timestamp": "2024-05-13T16:08:14.240Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3025,6 +3025,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "IFARM"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xA735A3AF76CC30791C61c10d585833829d36CBe0",
+      "name": "Image Generation AI",
+      "symbol": "imgnAI",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/IMGNAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "IMGNAI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x18E692c03De43972Fe81058f322fa542Ae1A5E2c",
+      "name": "Imagine AI",
+      "symbol": "imgnAI",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/IMGNAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "IMGNAI"
       }
     },
     {
@@ -7817,6 +7843,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 58
+    "patch": 59
   }
 }
