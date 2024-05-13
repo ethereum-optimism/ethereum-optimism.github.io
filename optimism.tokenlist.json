@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-13T16:03:05.756Z",
+  "timestamp": "2024-05-13T16:04:20.118Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2776,6 +2776,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/HAIR/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "HAIR"
       }
@@ -2789,6 +2790,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/HAIR/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "HAIR"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x3a38dde9824e18CC4C0A147824F95Bf5d608F0B3",
+      "name": "HairDAO",
+      "symbol": "HAIR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/HAIR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "HAIR"
       }
@@ -4739,6 +4753,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "PSP"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+      "name": "pSTAKE Finance",
+      "symbol": "PSTAKE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PSTAKE/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "PSTAKE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x38815A4455921667d673B4cb3d48F0383eE93400",
+      "name": "pSTAKE Finance",
+      "symbol": "PSTAKE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PSTAKE/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "PSTAKE"
       }
     },
     {
@@ -7751,6 +7791,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 55
+    "patch": 56
   }
 }
