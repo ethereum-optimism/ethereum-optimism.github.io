@@ -1,0 +1,28 @@
+{
+  "name": "Boba Token",
+  "symbol": "BOBA",
+  "decimals": 18,
+  "description": "Boba is an Ethereum L2 optimistic rollup",
+  "website": "https://boba.network",
+  "twitter": "@bobanetwork",
+  "tokens": {
+    "ethereum": {
+      "address": "0x42bBFa2e77757C645eeaAd1655E0911a7553Efbc"
+    },
+    "optimism": {
+      "address": "0x07ad578FF86B135bE19A12759064b802Cb88854D"
+    },
+    "base": {
+      "address": "0x1F9bD96DDB4Bd07d6061f8933e9bA9EDE9967550"
+    },
+    "sepolia": {
+      "address": "0x33faF65b3DfcC6A1FccaD4531D9ce518F0FDc896"
+    },
+    "optimism-sepolia": {
+      "address": "0x1696baFBe18EFB141823a041E22E43d12B144407"
+    },
+    "base-sepolia": {
+      "address": "0xCCA0a8Af17089575DCf6db9e750F204d234b3426"
+    }
+  }
+}
