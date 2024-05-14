@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-14T17:48:15.178Z",
+  "timestamp": "2024-05-14T22:55:08.273Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7761,6 +7761,46 @@
     },
     {
       "chainId": 1,
+      "address": "0x6b5204b0be36771253cc38e88012e02b752f0f36",
+      "name": "Zunami Governance Token",
+      "symbol": "ZUN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ZUN/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "ZUN"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x4A36562d5D7074f8EE664922b320e066e67C2a24",
+      "name": "Zunami Governance Token",
+      "symbol": "ZUN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ZUN/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ZUN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB5617AC8918CDC0e877c9Fb7e75B9dF62DBD539B",
+      "name": "Zunami Governance Token",
+      "symbol": "ZUN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ZUN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ZUN"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xc2e660C62F72c2ad35AcE6DB78a616215E2F2222",
       "name": "Zunami ETH",
       "symbol": "zunETH",
@@ -7895,6 +7935,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 61
+    "patch": 62
   }
 }
