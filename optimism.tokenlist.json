@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-14T17:47:09.861Z",
+  "timestamp": "2024-05-14T17:48:15.178Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7331,6 +7331,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x7c8E7A5CA7c6EdCEc00B6bF12DA207AEe4Af5513",
+      "name": "Wrapped HOGE",
+      "symbol": "wHOGE",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/wHOGE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "wHOGE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xDf690C65d067035364a58369C26820D3696D7799",
+      "name": "Wrapped HOGE",
+      "symbol": "wHOGE",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/wHOGE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "wHOGE"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x163f8C2467924be0ae7B5347228CABF260318753",
       "name": "Worldcoin",
       "symbol": "WLD",
@@ -7869,6 +7895,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 60
+    "patch": 61
   }
 }
