@@ -1,0 +1,16 @@
+{
+  "name": "LIF3",
+  "symbol": "LIF3",
+  "decimals": 18,
+  "description": "LIF3 is the token of the LIF3 ecosystem. Lif3 is an emerging powerhouse protocol in the decentralized finance (DeFi) sector that provides a comprehensive suite of features to manage digital assets across multiple blockchains. Encompassing the various products Lif3 has to offer, users are able to safely and securely invest in a multitude of options that best fit their financial goals, preferred strategies, and risk profiles. The available features include but are not limited to swapping between different cryptocurrencies, yield farming, providing liquidity to earn incentives, and engaging in a decentralized lending market that offers yield on single assets and liquidity paired assets, as well as leveraging. We also offer avenues for users to acquire crypto with credit cards and to trade derivatives on our decentralized spot and perpetual exchange that sup- ports low swap fees and zero price impact trades. Additionally, with the Lif3 mobile wallet for cryptocurrency, users can easily access and manage their digital assets from their phones on a secured mobile app, making it easy to stay on top of their investments without having to worry about third-party security risks. Currently, Lif3 is a multi-chain protocol that is operational on Ethereum, BNB Chain, Polygon, and Fantom Opera with plans to expand in the future. And as a part of our commitment to pushing the boundaries of DeFi and making the most innovative and advanced solutions accessible, we have decided to launch our own permissioned Layer 1 (L1) blockchain. As an extension of our L1 infrastructure, we offer Layer 2 blockchains as a Service. This allows developers to build on top of the permissioned Lif3 Chain and utilize its high-speed infrastructure and security to power their DeFi applications.",
+  "website": "https://lif3.com/",
+  "twitter": "@Official_LIF3",
+  "tokens": {
+    "ethereum": {
+      "address": "0x7138Eb0d563f3F6722500936A11DcAe99D738A2c"
+    },
+    "base": {
+      "address": "0xfFB9CA5A2A0844535461f43429696939d5897869"
+    }
+  }
+}
