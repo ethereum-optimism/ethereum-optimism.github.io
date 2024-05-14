@@ -8,6 +8,7 @@
     "tokens": {
         "base": {
             "address": "0x61431b49D43220a53B4a2583870D69F67cEd8d76"
-        }
+        },
+        "nobridge": true
     }
 }
