@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-13T16:08:14.240Z",
+  "timestamp": "2024-05-14T17:47:09.861Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3167,6 +3167,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "IYKYK"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x23894DC9da6c94ECb439911cAF7d337746575A72",
+      "name": "Geojam",
+      "symbol": "JAM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/JAM/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "JAM"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xff9957816c813c5ad0b9881a8990df1e3aa2a057",
+      "name": "Geojam",
+      "symbol": "JAM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/JAM/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "JAM"
       }
     },
     {
@@ -7843,6 +7869,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 59
+    "patch": 60
   }
 }

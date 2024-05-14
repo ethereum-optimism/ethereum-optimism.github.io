@@ -1,0 +1,16 @@
+{
+  "name": "Geojam",
+  "symbol": "JAM",
+  "decimals": 18,
+  "description": "The JAM token powers the Geojam ecosystem through curating experiences, integrating with brands, and rewarding community engagement.",
+  "website": "https://www.geojam.xyz/",
+  "twitter": "https://twitter.com/geojamofficial",
+  "tokens": {
+    "ethereum": {
+      "address": "0x23894DC9da6c94ECb439911cAF7d337746575A72"
+    },
+    "base": {
+      "address": "0xff9957816c813c5ad0b9881a8990df1e3aa2a057"
+    }
+  }
+}
