@@ -7,10 +7,16 @@
   "twitter": "@ENSLikeButton",
   "tokens": {
     "ethereum": {
-      "address": "0x0469dFb82A816C5F0a566625Cec09216A721E90e"
+      "address": "0x0469dFb82A816C5F0a566625Cec09216A721E90e",
+      "overrides": {
+        "symbol": "❤️"
+      }
     },
     "base": {
-      "address": "0xE0742c2d2Bdbb3c138Ce81Bc5589DC07865f0a49"
+      "address": "0xE0742c2d2Bdbb3c138Ce81Bc5589DC07865f0a49",
+      "overrides": {
+        "symbol": "❤️"
       }
     }
+  }
 }
