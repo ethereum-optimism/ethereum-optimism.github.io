@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-16T16:41:07.967Z",
+  "timestamp": "2024-05-16T16:43:32.953Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6930,6 +6930,18 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "USDC"
+      }
+    },
+    {
       "chainId": 8453,
       "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
       "name": "USD Coin",
@@ -6942,9 +6954,33 @@
       }
     },
     {
+      "chainId": 84532,
+      "address": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "USDC"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
       "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "USDC"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7",
+      "name": "USDC",
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
@@ -8013,6 +8049,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 65
+    "patch": 66
   }
 }
