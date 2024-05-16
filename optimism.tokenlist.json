@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-16T16:43:32.953Z",
+  "timestamp": "2024-05-16T16:44:47.345Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2619,6 +2619,30 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GIV"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xD96e84DDBc7CbE1D73c55B6fe8c64f3a6550deea",
+      "name": "Gemach",
+      "symbol": "GMAC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GMAC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "GMAC"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x53ed36b1d07a5f4b01e5f872fd054f8439335460",
+      "name": "Gemach",
+      "symbol": "GMAC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GMAC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "GMAC"
       }
     },
     {
@@ -8049,6 +8073,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 66
+    "patch": 67
   }
 }
