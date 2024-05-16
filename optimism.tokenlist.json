@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-16T16:39:34.400Z",
+  "timestamp": "2024-05-16T16:41:07.967Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1412,6 +1412,18 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0x61431b49D43220a53B4a2583870D69F67cEd8d76",
+      "name": "Deribet DEGEN",
+      "symbol": "dbDEGEN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/dbDEGEN/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "dbDEGEN"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6",
       "name": "Dentacoin",
@@ -2085,6 +2097,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "EVERY"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xe0bCEEF36F3a6eFDd5EEBFACD591423f8549B9D5",
+      "name": "Defactor",
+      "symbol": "FACTR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FACTR/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "FACTR"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xd33c7B753ECaa85E5D5F5B5fD99Dec59f26a087E",
+      "name": "Defactor",
+      "symbol": "FACTR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FACTR/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "FACTR"
       }
     },
     {
@@ -3375,6 +3413,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "LDO"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x7138Eb0d563f3F6722500936A11DcAe99D738A2c",
+      "name": "LIF3",
+      "symbol": "LIF3",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LIF3/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "LIF3"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xfFB9CA5A2A0844535461f43429696939d5897869",
+      "name": "LIF3",
+      "symbol": "LIF3",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LIF3/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LIF3"
       }
     },
     {
@@ -7949,6 +8013,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 64
+    "patch": 65
   }
 }
