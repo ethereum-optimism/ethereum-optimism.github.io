@@ -1,0 +1,13 @@
+{
+  "name": "Wild Goat Coin",
+  "symbol": "WGC",
+  "decimals": 6,
+  "description": "The Wild Goat is a king amongst men. He came and saw all the memecoins. He conquered by minting his own. Wild Goat Coin was born.",
+  "website": "https://www.wildgoatcoin.com/",
+  "twitter": "@wildgoatcoin",
+  "tokens": {
+    "base": {
+      "address": "0xfB18511F1590a494360069F3640c27d55c2B5290"
+    }
+  }
+}
