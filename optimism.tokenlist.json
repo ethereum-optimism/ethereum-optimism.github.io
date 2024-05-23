@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-23T16:20:15.193Z",
+  "timestamp": "2024-05-23T16:23:33.385Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1023,6 +1023,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "CHI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xCB56b52316041A62B6b5D0583DcE4A8AE7a3C629",
+      "name": "Cigarette Token",
+      "symbol": "CIG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CIG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "CIG"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf88Cf71B891a89A1CB02ec17ce3aD80e5Ae31e1b",
+      "name": "Cigarette Token",
+      "symbol": "CIG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CIG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CIG"
       }
     },
     {
@@ -7482,6 +7508,18 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0xfB18511F1590a494360069F3640c27d55c2B5290",
+      "name": "Wild Goat Coin",
+      "symbol": "WGC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/WGC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "WGC"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x7c8E7A5CA7c6EdCEc00B6bF12DA207AEe4Af5513",
       "name": "Wrapped HOGE",
@@ -8087,6 +8125,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 70
+    "patch": 71
   }
 }
