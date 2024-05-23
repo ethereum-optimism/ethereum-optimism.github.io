@@ -21,8 +21,7 @@ Please note that by adding a token to the list we aren’t making any claims abo
 
 ### Specifying chains
 For right now, each OP Chain has their own review process. So, if you are adding tokens across multiple chains, please separate your pull request so that you have one PR for each chain, in order to streamline the review process.
-- If you're adding a token to `Base` (e.g. `base` [mainnet] or `base-sepolia` [testnet]) please tag [@cfluke-cb](https://github.com/cfluke-cb), [taycaldwell](https://github.com/taycaldwell) and [wbnns](https://github.com/wbnns) in the PR message. They are the points of contact for `Base` tokens and one of them must ACK/approve in order to be merged.
-  - **Note:** Instead of using the predeploy token factory on Base, we recommend you use the token factory [listed here](https://docs.base.org/base-contracts/#l2-contract-addresses) to avoid having a token address that may conflict with a different token on Optimism.
+- If you're adding a token to `Base` (e.g. `base` [mainnet] or `base-sepolia` [testnet]), instead of using the predeploy token factory on Base, we recommend you use the token factory [listed here](https://docs.base.org/base-contracts/#l2-contract-addresses) to avoid having a token address that may conflict with a different token on Optimism.
 - If you are adding a token to `Zora`: please use the [`zora` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/zora) and add [@tbtstl](https://github.com/tbtstl) as a reviewer.
 - If you are adding a token to `Mode`: please use the [`mode` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/mode).
 
