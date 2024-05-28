@@ -1,0 +1,22 @@
+{
+  "name": "Union Protocol",
+  "symbol": "UNION",
+  "decimals": 18,
+  "description": "Union is a member-owned credit protocol built on Ethereum where members can underwrite lines of credit to other member addresses. The Union Protocol is a credit network that enables any address to accumulate a credit line on-chain in a permission-less, crypto-native way. The protocol itself is not an underwriter of risk, rather a mechanism to lower the cost of coordinating trust into available credit.",
+  "website": "https://app.union.finance/",
+  "twitter": "@unionprotocol",
+  "tokens": {
+    "ethereum": {
+      "address": "0x5Dfe42eEA70a3e6f93EE54eD9C321aF07A85535C",
+      "overrides": {
+        "name": "UNION"
+      }
+    },
+    "optimism": {
+      "address": "0xB025ee78b54B5348BD638Fe4a6D77Ec2F813f4f9",
+      "overrides": {
+        "name": "OpUNION"
+      }
+    }
+  }
+}
