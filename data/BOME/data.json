@@ -5,6 +5,7 @@
   "description": "Introducing the BOOK OF MEME: an experimental project poised to redefine web3 culture by amalgamating memes, decentralized storage solutions, and degen shitcoin trading and gambling.",
   "website": "https://bookof.meme",
   "twitter": "@darkfarms1",
+  "nonstandard": true,
   "tokens": {
     "ethereum": {
       "address": "0x966f17cd63c93c39f38897e5c633e59cef0591f1"
