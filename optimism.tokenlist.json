@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-05-23T16:23:33.385Z",
+  "timestamp": "2024-06-05T16:47:49.579Z",
   "tokens": [
     {
       "chainId": 1,
@@ -778,6 +778,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x966f17cd63c93c39f38897e5c633e59cef0591f1",
+      "name": "BOOK OF MEME",
+      "symbol": "BOME",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/BOME/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "BOME"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0956CB4A1D8924680FEb671d2E4a122E2114313e",
+      "name": "BOOK OF MEME",
+      "symbol": "BOME",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/BOME/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BOME"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0391D2021f89DC339F60Fff84546EA23E337750f",
       "name": "BarnBridge Governance Token",
       "symbol": "BOND",
@@ -1301,6 +1327,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "CTSI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x321c2fe4446c7c963dc41dd58879af648838f98d",
+      "name": "Cryptex",
+      "symbol": "CTX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CTX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "CTX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xBB22Ff867F8Ca3D5F2251B4084F6Ec86D4666E14",
+      "name": "Cryptex",
+      "symbol": "CTX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CTX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CTX"
       }
     },
     {
@@ -5249,6 +5301,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xFc169284da39e8d337D01AB011C3e5d92f7DDBa6",
+      "name": "GenRize",
+      "symbol": "RIZE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RIZE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "RIZE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0A4c8Ee5a092Ba333B54C142634c871768891558",
+      "name": "GenRize",
+      "symbol": "RIZE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RIZE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RIZE"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
       "name": "Rocket Pool Protocol",
       "symbol": "RPL",
@@ -6957,6 +7035,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x38547D918b9645F2D94336B6b61AEB08053E142c",
+      "name": "USC",
+      "symbol": "USC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/USC/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "USC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x38547D918b9645F2D94336B6b61AEB08053E142c",
+      "name": "USC",
+      "symbol": "USC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/USC/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "USC"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0d86883FAf4FfD7aEb116390af37746F45b6f378",
       "name": "Web 3 Dollar",
       "symbol": "USD3",
@@ -8125,6 +8229,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 71
+    "patch": 72
   }
 }
