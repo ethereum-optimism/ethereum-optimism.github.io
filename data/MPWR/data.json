@@ -9,18 +9,6 @@
     "ethereum": {
       "address": "0x6731827Cb6879a2091ce3ab3423f7bf20539b579"
     },
-    "goerli": {
-      "address": "0x1E1dfcf72dceF548e6AE581863a564FFe429dAA8",
-      "overrides": {
-        "name": "Goerli MPWR"
-      }
-    },
-    "base-goerli": {
-      "address": "0x1901Bf2952F438Fa6251ac100375769f9Afd907d",
-      "overrides": {
-        "name": "Base Goerli MPWR"
-      }
-    },
     "base": {
       "address": "0x85267fBC6e1e1563bB9247336F05D9220eA99f52"
     }

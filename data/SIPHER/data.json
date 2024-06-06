@@ -1,0 +1,18 @@
+{
+    "name": "Sipher Token",
+    "symbol": "SIPHER",
+    "decimals": 18,
+    "website": "https://playsipher.com/",
+    "twitter": "@playSIPHER",
+    "tokens": {
+      "ethereum": {
+        "address": "0x9F52c8ecbEe10e00D9faaAc5Ee9Ba0fF6550F511"
+      },
+      "optimism": {
+        "address": "0xb94944669f7967E16588E55Ac41Be0d5ef399DcD"
+      },
+      "base": {
+        "address": "0xd0D1e44FC9aDAEB732F73fFC2429CD1dB9cD4529"
+      }
+    }
+}
