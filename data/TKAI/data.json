@@ -6,11 +6,11 @@
     "website": "https://taikai.network",
     "twitter": "@taikainetwork",
     "tokens": {
-      "ethereum": {
-        "address": "0x7c5b267ed81009aa7374b5ca7e5137da47045ba8"
-      },
-      "base": {
-        "address": "0x1287A235474E0331C0975e373bdD066444d1Bd35"
-      }
+        "ethereum": {
+            "address": "0x7c5b267ed81009aa7374b5ca7e5137da47045ba8"
+        },
+        "base": {
+            "address": "0x1287A235474E0331C0975e373bdD066444d1Bd35"
+        }
     }
-  }
+}
