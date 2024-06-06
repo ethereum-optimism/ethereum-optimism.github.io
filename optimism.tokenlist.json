@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-05T16:47:49.579Z",
+  "timestamp": "2024-06-06T00:51:05.321Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4301,6 +4301,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x5c1760c98be951A4067DF234695c8014D8e7619C",
+      "name": "Nouns",
+      "symbol": "NOUNS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOUNS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "NOUNS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0a93a7BE7e7e426fC046e204C44d6b03A302b631",
+      "name": "Nouns",
+      "symbol": "NOUNS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOUNS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NOUNS"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
       "name": "Ocean Token",
       "symbol": "OCEAN",
@@ -8229,6 +8255,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 72
+    "patch": 73
   }
 }
