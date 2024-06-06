@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-06T00:51:05.321Z",
+  "timestamp": "2024-06-06T21:06:24.731Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6641,6 +6641,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x7c5b267ed81009aa7374b5ca7e5137da47045ba8",
+      "name": "TAIKAI Token",
+      "symbol": "TKAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TKAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "TKAI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1287A235474E0331C0975e373bdD066444d1Bd35",
+      "name": "TAIKAI Token",
+      "symbol": "TKAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TKAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TKAI"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x82D09e30d5D682D69B4A5d97C61b7BA651457625",
       "name": "Token Name Service",
       "symbol": "TKN",
@@ -8255,6 +8281,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 73
+    "patch": 74
   }
 }
