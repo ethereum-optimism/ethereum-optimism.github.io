@@ -5,6 +5,7 @@
     "description": "WeFi is a unique composable leverage investment platform allowing users onchain leveraged trade ",
     "website": "https://wefi.xyz",
     "twitter": "@wefi_xyz",
+    "nobridge": true,
     "tokens": {
       "base": {
         "address": "0xffa188493c15dfaf2c206c97d8633377847b6a52"
