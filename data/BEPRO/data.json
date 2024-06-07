@@ -13,7 +13,10 @@
           }
       },
       "base": {
-          "address": "0xf1095aa7DC127ed45441aCfb742694d6a0261b00"
+          "address": "0xf1095aa7DC127ed45441aCfb742694d6a0261b00",
+          "overrides": {
+            "name": "Bepro Token"
+          }
       }
   }
 }
