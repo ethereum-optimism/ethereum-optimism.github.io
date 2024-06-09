@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-06T21:06:24.731Z",
+  "timestamp": "2024-06-09T21:02:25.498Z",
   "tokens": [
     {
       "chainId": 1,
@@ -528,6 +528,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BAXA"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xCF3C8Be2e2C42331Da80EF210e9B1b307C03d36A",
+      "name": "Bepro Token",
+      "symbol": "BEPRO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BEPRO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "BEPRO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf1095aa7DC127ed45441aCfb742694d6a0261b00",
+      "name": "Bepro Token",
+      "symbol": "BEPRO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BEPRO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BEPRO"
       }
     },
     {
@@ -8281,6 +8307,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 74
+    "patch": 75
   }
 }
