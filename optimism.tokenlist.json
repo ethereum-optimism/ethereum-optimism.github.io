@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-09T21:02:25.498Z",
+  "timestamp": "2024-06-10T14:51:53.336Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8057,6 +8057,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x42EDBbA2f54e1E765235A81Bd416F1DA89Dc8540",
+      "name": "YokAI: Generative Monsters",
+      "symbol": "YOKAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YOKAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "YOKAI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x6AEde1aec1C4062E4ED2e91F14877c04db97b3F6",
+      "name": "YokAI: Generative Monsters",
+      "symbol": "YOKAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YOKAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "YOKAI"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0D505C03d30e65f6e9b4Ef88855a47a89e4b7676",
       "name": "ZoomerCoin",
       "symbol": "ZOOMER",
@@ -8307,6 +8333,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 75
+    "patch": 76
   }
 }
