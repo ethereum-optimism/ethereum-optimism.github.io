@@ -11,6 +11,12 @@
     },
     "base": {
       "address": "0x029a3b0532871735809a51e8653d6017ef04b6fa"
+    },
+    "sepolia": {
+      "address": "0x70069DBDCde634FAfc827661E579e34194B39D51"
+    },
+    "base-sepolia": {
+      "address": "0x5A2318A2a3d403e2F428E107A8b808F7F57aAde9"
     }
   }
 }
