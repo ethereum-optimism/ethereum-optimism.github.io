@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-10T14:51:53.336Z",
+  "timestamp": "2024-06-10T14:57:48.476Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8017,6 +8017,46 @@
     },
     {
       "chainId": 1,
+      "address": "0x55296f69f40ea6d20e478533c15a6b08b654e758",
+      "name": "XY Oracle",
+      "symbol": "XYO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/XYO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "XYO"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x9db118d43069b73b8a252bf0be49d50edbd81fc8",
+      "name": "XY Oracle",
+      "symbol": "XYO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/XYO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "XYO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xd7b99ffb8b2afc6fe013a17207cbe50f223adc94",
+      "name": "XY Oracle",
+      "symbol": "XYO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/XYO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "XYO"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
       "name": "yearn.finance",
       "symbol": "YFI",
@@ -8333,6 +8373,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 76
+    "patch": 77
   }
 }
