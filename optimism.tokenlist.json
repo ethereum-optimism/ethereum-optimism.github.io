@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-10T14:57:48.476Z",
+  "timestamp": "2024-06-11T17:14:33.242Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6073,6 +6073,9 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/SNX/logo.svg",
       "extensions": {
+        "optimismBridgeAddress": "0x39Ea01a0298C315d149a490E34B59Dbf2EC7e48F",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
         "opListId": "default",
         "opTokenId": "SNX"
       }
@@ -6085,6 +6088,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/SNX/logo.svg",
       "extensions": {
+        "optimismBridgeAddress": "0x136b1EC699c62b0606854056f02dC7Bb80482d63",
         "opListId": "default",
         "opTokenId": "SNX"
       }
@@ -6097,6 +6101,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/SNX/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "SNX"
       }
@@ -6109,6 +6114,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/SNX/logo.svg",
       "extensions": {
+        "modeBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "SNX"
       }
@@ -8373,6 +8379,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 77
+    "patch": 78
   }
 }
