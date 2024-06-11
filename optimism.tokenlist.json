@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-11T17:14:33.242Z",
+  "timestamp": "2024-06-11T17:18:56.834Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6946,6 +6946,32 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0x70069DBDCde634FAfc827661E579e34194B39D51",
+      "name": "TYBENG",
+      "symbol": "TYBENG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TYBENG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "TYBENG"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x5A2318A2a3d403e2F428E107A8b808F7F57aAde9",
+      "name": "TYBENG",
+      "symbol": "TYBENG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TYBENG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TYBENG"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xDd1Ad9A21Ce722C151A836373baBe42c868cE9a4",
       "name": "Universal Basic Income",
@@ -8379,6 +8405,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 78
+    "patch": 79
   }
 }
