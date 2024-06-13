@@ -1,0 +1,16 @@
+{
+  "name": "Wraped Staked Ether Mock",
+  "symbol": "WStETHMock",
+  "decimals": 18,
+  "tokens": {
+    "sepolia": {
+      "address": "0xF38C4Ba6D14BA68Cf13a127F281ad420614eaBeB"
+    },
+    "optimism-sepolia": {
+      "address": "0x9c1AeE855D2f08D7bF1aA5B2370fbDe5d19b576B"
+    },
+    "base-sepolia": {
+      "address": "0x04AcA9D9944CbEBF42297B307cb2E97bc51a35a9"
+    }
+  }
+}

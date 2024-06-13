@@ -1,0 +1,17 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" fill="#00A3FF" height="512" width="512"/>
+  <path id="svg_2" fill="white" d="m150.988,237.834l-2.866,4.397c-32.326,49.588 -25.106,114.532 17.358,156.139c24.981,24.477 57.722,36.717 90.464,36.721c0,0 0,0 -104.956,-197.257z"/>
+  <path id="svg_3" fill="white" d="m255.935,297.785l-104.956,-59.951c104.956,197.257 104.956,197.257 104.956,197.257c0,-42.961 0,-92.189 0,-137.306z" opacity="0.6"/>
+  <path id="svg_4" fill="white" d="m361.012,237.834l2.866,4.397c32.326,49.588 25.106,114.532 -17.358,156.139c-24.981,24.477 -57.722,36.717 -90.464,36.721c0,0 0,0 104.956,-197.257z" opacity="0.6"/>
+  <path id="svg_5" fill="white" d="m256.044,297.785l104.956,-59.951c-104.955,197.257 -104.956,197.257 -104.956,197.257c0,-42.961 0,-92.189 0,-137.306z" opacity="0.2"/>
+  <path id="svg_6" fill="white" d="m256.062,163.834l0,103.399l90.408,-51.666l-90.408,-51.733z" opacity="0.2"/>
+  <path id="svg_7" fill="white" d="m256.077,163.834l-90.473,51.732l90.473,51.667l0,-103.399z" opacity="0.6"/>
+  <path id="svg_8" fill="white" d="m256.077,76.875l-90.473,138.724l90.473,-51.877l0,-86.847z"/>
+  <path id="svg_9" fill="white" d="m256.062,163.707l90.477,51.879l-90.477,-138.793l0,86.914z" opacity="0.6"/>
+  <path id="svg_12" d="m65,87" opacity="NaN" fill="#00A3FF"/>
+  <text xml:space="preserve" text-anchor="start" font-family="'Cabin'" font-size="250" stroke-width="0" id="svg_17" y="342" x="93" stroke="null" fill="#000000">DL</text>
+ </g>
+</svg>
