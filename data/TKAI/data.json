@@ -1,0 +1,16 @@
+{
+    "name": "TAIKAI Token",
+    "symbol": "TKAI",
+    "decimals": 18,
+    "description": "TKAI is TAIKAI’s native ERC-20 utility token which will be used as a medium of exchange within the TAIKAI Hackathon and Garden Ecosystem.",
+    "website": "https://taikai.network",
+    "twitter": "@taikainetwork",
+    "tokens": {
+        "ethereum": {
+            "address": "0x7c5b267ed81009aa7374b5ca7e5137da47045ba8"
+        },
+        "base": {
+            "address": "0x1287A235474E0331C0975e373bdD066444d1Bd35"
+        }
+    }
+}
