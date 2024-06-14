@@ -1,0 +1,16 @@
+{
+    "name": "CHI",
+    "symbol": "CHI",
+    "decimals": 18,
+    "description": "Governance Token of Chi Protocol",
+    "website": "https://chiprotocol.io/",
+    "twitter": "@ProtocolChi",
+    "tokens": {
+        "ethereum": {
+            "address": "0x3b21418081528845a6DF4e970bD2185545b712ba"
+        },
+        "base": {
+            "address": "0x3b21418081528845a6DF4e970bD2185545b712ba"
+        }
+    }
+}
