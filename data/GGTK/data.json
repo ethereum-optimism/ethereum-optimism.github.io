@@ -10,7 +10,10 @@
       "address": "0xfa99a87b14b02e2240c79240c5a20f945ca5ef76"
     },
     "base": {
-      "address": "0xf0345Ba710F1354e41B808737a35A517dE5397dB"
+      "address": "0xf0345Ba710F1354e41B808737a35A517dE5397dB",
+      "overrides": {
+        "name": "GG Token"
+      }
     }
   }
 }
