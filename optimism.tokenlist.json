@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-17T17:13:58.285Z",
+  "timestamp": "2024-06-17T17:48:32.586Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4129,6 +4129,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MONKE"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x4116f14b6d462B32a1C10F98049E4B1765e34FA9",
+      "name": "dotmoovs",
+      "symbol": "MOOV",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MOOV/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MOOV"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x6b20e045cD881EeF5853EB6C148E1c88a20ab395",
+      "name": "dotmoovs",
+      "symbol": "MOOV",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MOOV/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MOOV"
       }
     },
     {
@@ -8391,6 +8417,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 81
+    "patch": 82
   }
 }
