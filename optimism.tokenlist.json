@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-11T17:18:56.834Z",
+  "timestamp": "2024-06-17T17:13:58.285Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4010,7 +4010,6 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MKR/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
-        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "MKR"
       }
@@ -4024,19 +4023,6 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MKR/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "MKR"
-      }
-    },
-    {
-      "chainId": 8453,
-      "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
-      "name": "Maker",
-      "symbol": "MKR",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/MKR/logo.png",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MKR"
       }
@@ -8405,6 +8391,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 79
+    "patch": 81
   }
 }
