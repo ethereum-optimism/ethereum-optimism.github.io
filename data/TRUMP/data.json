@@ -1,0 +1,13 @@
+{
+    "name": "FreeTrump",
+    "symbol": "TRUMP",
+    "decimals": 18,
+    "description": "FREETRUMP ERC is an ERC20 political meme coin dedicated to protecting the freedom of President Donald J. Trump.",
+    "website": "https://freetrumperc.com",
+    "twitter": "@realfreetrump",
+    "tokens": {
+      "ethereum": {
+        "address": "0xD015422879A1308ba557510345E944B912b9aB73"
+      }
+    }
+  }
