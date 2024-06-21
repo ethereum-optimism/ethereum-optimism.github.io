@@ -20,7 +20,7 @@ pull_request_rules:
     conditions:
       - and:
           - base=master
-          - author!=@ecopod
+          - author!=realfreetrump
     actions:
       dismiss_reviews: {}
 
@@ -50,10 +50,9 @@ pull_request_rules:
         message: |
           Merge failed. Please see automated check logs for more details.
 
-
   - name: Say hi to contributors if they are not part of the regularcontributors team
     conditions:
-      - author!=@regularcontributors
+      - author!=realfreetrump
     actions:
       comment:
         message: |
@@ -62,9 +61,9 @@ pull_request_rules:
 
   - name: Say thanks
     conditions:
-      - author!=@regularcontributors
+      - author!=realfreetrump
       - merged
     actions:
       comment:
         message: |
-          Congrats! Your token has been merged.  Consider joining our Discord to stay up to date with other builders in the ecosystem. Make sure to drink plenty of water.
+          Congrats! Your token has been merged. Consider joining our Discord to stay up to date with other builders in the ecosystem. Make sure to drink plenty of water.
