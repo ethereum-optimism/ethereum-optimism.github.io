@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-19T17:04:21.361Z",
+  "timestamp": "2024-06-21T16:40:00.044Z",
   "tokens": [
     {
       "chainId": 1,
@@ -176,6 +176,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "AELIN"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x8dce83eca4af45dbe618da1779f9aaca43201084",
+      "name": "AlphaKEK.AI",
+      "symbol": "AIKEK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AIKEK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "AIKEK"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x681A09A902D9C7445b3B1Ab282C38D60c72F1f09",
+      "name": "AlphaKEK.AI",
+      "symbol": "AIKEK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AIKEK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "AIKEK"
       }
     },
     {
@@ -2697,6 +2723,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GENOME"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xfa99a87b14b02e2240c79240c5a20f945ca5ef76",
+      "name": "GGToken",
+      "symbol": "GGTK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GGTK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "GGTK"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf0345Ba710F1354e41B808737a35A517dE5397dB",
+      "name": "GG Token",
+      "symbol": "GGTK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GGTK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GGTK"
       }
     },
     {
@@ -8521,6 +8573,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 85
+    "patch": 86
   }
 }
