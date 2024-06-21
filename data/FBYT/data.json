@@ -1,0 +1,18 @@
+{
+  "name": "Frost Byte",
+  "symbol": "FBYT",
+  "decimals": 4,
+  "description": "Frost Byte (FBYT) is a versatile multi-chain token designed to facilitate seamless transactions across various blockchain networks. With its precision of 4 decimals, FBYT ensures accurate and efficient handling of digital assets. It addresses the challenge of interoperability by enabling smooth and secure cross-chain transfers, making it ideal for decentralized applications and cross-chain integrations. Frost Byte is the future of interconnected blockchain ecosystems, providing a robust solution for unified digital asset management.",
+  "website": "https://token.webspero.com",
+  "twitter": "@eth_frostbyte",
+  "tokens": {
+    "ethereum": {
+      "address": "0xe0b2246159a195E0B5D0DC8a5F553b046F3E0fd3"
+    },
+    "optimism": {
+      "address": "0x5a11547DF30B8B3e2BE73Cd0d1e004fbBF3c283f"
+    },
+    "optimism-sepolia": {
+      "address": "0x5341F148AC5CC1C845c34383909DDd6aAc71813F"
+    }  }
+}
