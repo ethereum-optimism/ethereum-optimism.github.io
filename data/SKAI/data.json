@@ -6,10 +6,16 @@
     "twitter": "@SkillfulAI",
     "tokens": {
       "ethereum": {
-        "address": "0xCF078DA6e85389de507ceeDE0E3d217e457B9d49"
+        "address": "0xCF078DA6e85389de507ceeDE0E3d217e457B9d49",
+        "overrides": {
+          "name": "Skillful AI"
+        }
       },
       "base": {
-        "address": "0xE7399151B688A265F347693d358821a5A8c213Ec"
+        "address": "0xE7399151B688A265F347693d358821a5A8c213Ec",
+        "overrides": {
+          "name": "Skillful AI"
+        }
       }
     }
 }
