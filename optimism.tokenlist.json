@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-21T16:40:00.044Z",
+  "timestamp": "2024-06-24T13:21:05.409Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6104,6 +6104,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0xCF078DA6e85389de507ceeDE0E3d217e457B9d49",
+      "name": "Skillful AI",
+      "symbol": "SKAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SKAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "SKAI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xE7399151B688A265F347693d358821a5A8c213Ec",
+      "name": "Skillful AI",
+      "symbol": "SKAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SKAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SKAI"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0xc5Db22719A06418028A40A9B5E9A7c02959D0d08",
       "name": "Synthetic Chainlink",
@@ -8573,6 +8599,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 86
+    "patch": 87
   }
 }
