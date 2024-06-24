@@ -1,0 +1,16 @@
+{
+  "name": "AlphaKEK.AI",
+  "symbol": "AIKEK",
+  "decimals": 18,
+  "description": "Leading AI infrastructure for onchain degens & builders. Find the next 100x, leverage our unbiased models, and generate memes.",
+  "website": "https://alphakek.ai",
+  "twitter": "@alphakek_ai",
+  "tokens": {
+    "ethereum": {
+      "address": "0x8dce83eca4af45dbe618da1779f9aaca43201084"
+    },
+    "base": {
+      "address": "0x681A09A902D9C7445b3B1Ab282C38D60c72F1f09"
+    }
+  }
+}

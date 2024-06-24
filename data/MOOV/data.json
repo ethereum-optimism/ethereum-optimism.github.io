@@ -1,0 +1,16 @@
+{
+  "name": "dotmoovs",
+  "symbol": "MOOV",
+  "decimals": 18,
+  "description": "AI Human Biomechanics & Web3",
+  "website": "https://dotmoovs.com",
+  "twitter": "https://twitter.com/dotmoovs",
+  "tokens": {
+    "ethereum": {
+      "address": "0x4116f14b6d462B32a1C10F98049E4B1765e34FA9"
+    },
+    "base": {
+      "address": "0x6b20e045cD881EeF5853EB6C148E1c88a20ab395"
+    }
+  }
+}
