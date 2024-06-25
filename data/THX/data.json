@@ -1,0 +1,16 @@
+{
+    "name": "THX Network",
+    "symbol": "THX",
+    "decimals": 18,
+    "description": "Drive growth and revenue with plug & play reward campaigns",
+    "website": "https://www.thx.network",
+    "twitter": "@thxprotocol",
+    "tokens": {
+      "ethereum": {
+        "address": "0xe632ea2ef2cfd8fc4a2731c76f99078aef6a4b31"
+      },
+      "base": {
+        "address": "0xb363c1235734f4C036Eb82C84C87e099C316fb48"
+      }
+    }
+  }
