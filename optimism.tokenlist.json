@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-25T00:52:31.771Z",
+  "timestamp": "2024-06-25T00:53:12.391Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7942,6 +7942,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0xf31698DDAd0d11160Fe85c500397A470CD3d492E",
+      "name": "WEXO",
+      "symbol": "WEXO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WEXO/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "WEXO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xac12f930318be4f9d37f602cbf89cd33e99aa9d4",
+      "name": "WEXO",
+      "symbol": "WEXO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WEXO/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WEXO"
+      }
+    },
+    {
       "chainId": 8453,
       "address": "0xfB18511F1590a494360069F3640c27d55c2B5290",
       "name": "Wild Goat Coin",
@@ -8625,6 +8651,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 88
+    "patch": 89
   }
 }
