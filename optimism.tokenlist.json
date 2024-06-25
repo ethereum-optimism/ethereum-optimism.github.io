@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-24T13:21:05.409Z",
+  "timestamp": "2024-06-25T00:52:31.771Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1010,6 +1010,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BTRST"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xa2fe5e51729be71261bcf42854012827bc44c044",
+      "name": "Burn",
+      "symbol": "BURN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BURN/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "BURN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xE678215723A44647F4729E92E0032e1634105CAb",
+      "name": "Burn",
+      "symbol": "BURN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BURN/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BURN"
       }
     },
     {
@@ -8599,6 +8625,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 87
+    "patch": 88
   }
 }
