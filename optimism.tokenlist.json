@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-17T22:24:51.508Z",
+  "timestamp": "2024-06-25T18:11:12.863Z",
   "tokens": [
     {
       "chainId": 1,
@@ -176,6 +176,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "AELIN"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x8dce83eca4af45dbe618da1779f9aaca43201084",
+      "name": "AlphaKEK.AI",
+      "symbol": "AIKEK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AIKEK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "AIKEK"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x681A09A902D9C7445b3B1Ab282C38D60c72F1f09",
+      "name": "AlphaKEK.AI",
+      "symbol": "AIKEK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AIKEK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "AIKEK"
       }
     },
     {
@@ -984,6 +1010,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BTRST"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xa2fe5e51729be71261bcf42854012827bc44c044",
+      "name": "Burn",
+      "symbol": "BURN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BURN/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "BURN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xE678215723A44647F4729E92E0032e1634105CAb",
+      "name": "Burn",
+      "symbol": "BURN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BURN/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BURN"
       }
     },
     {
@@ -2697,6 +2749,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GENOME"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xfa99a87b14b02e2240c79240c5a20f945ca5ef76",
+      "name": "GGToken",
+      "symbol": "GGTK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GGTK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "GGTK"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf0345Ba710F1354e41B808737a35A517dE5397dB",
+      "name": "GG Token",
+      "symbol": "GGTK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GGTK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GGTK"
       }
     },
     {
@@ -6052,6 +6130,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0xCF078DA6e85389de507ceeDE0E3d217e457B9d49",
+      "name": "Skillful AI",
+      "symbol": "SKAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SKAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "SKAI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xE7399151B688A265F347693d358821a5A8c213Ec",
+      "name": "Skillful AI",
+      "symbol": "SKAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SKAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SKAI"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0xc5Db22719A06418028A40A9B5E9A7c02959D0d08",
       "name": "Synthetic Chainlink",
@@ -7838,6 +7942,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0xf31698DDAd0d11160Fe85c500397A470CD3d492E",
+      "name": "WEXO",
+      "symbol": "WEXO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WEXO/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "WEXO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xac12f930318be4f9d37f602cbf89cd33e99aa9d4",
+      "name": "WEXO",
+      "symbol": "WEXO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WEXO/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WEXO"
+      }
+    },
+    {
       "chainId": 8453,
       "address": "0xfB18511F1590a494360069F3640c27d55c2B5290",
       "name": "Wild Goat Coin",
@@ -8521,6 +8651,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 84
+    "patch": 90
   }
 }
