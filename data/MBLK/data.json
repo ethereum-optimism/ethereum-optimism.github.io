@@ -1,6 +1,6 @@
 {
         "name": "Magical Blocks",
-        "symbol": "$MBLK",
+        "symbol": "MBLK",
         "decimals": 18,
         "description": "$MBLK is poised to create a sustainable in-game economy with a revolutionary algorithmic in-game reward pool that rewards players for their in-game activities.",
         "website": "https://www.zogilabs.io/",
@@ -10,7 +10,7 @@
             "address": "0xF47245e9A3Ba3dCa8B004E34afc1290B1d435a52"
           },
           "base": {
-            "address": "0xa61BfF072c07F4E65d8204C43FF9CBFB44f425E3"
+            "address": "0x3d8978629430Cf9Ea434D3c5e6cD54044DF11709"
           }
         }
       }
