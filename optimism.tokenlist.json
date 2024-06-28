@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-28T23:14:45.109Z",
+  "timestamp": "2024-06-28T23:16:25.005Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6893,6 +6893,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xe632ea2ef2cfd8fc4a2731c76f99078aef6a4b31",
+      "name": "THX Network",
+      "symbol": "THX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/THX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "THX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb363c1235734f4C036Eb82C84C87e099C316fb48",
+      "name": "THX Network",
+      "symbol": "THX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/THX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "THX"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x7c5b267ed81009aa7374b5ca7e5137da47045ba8",
       "name": "TAIKAI Token",
       "symbol": "TKAI",
@@ -8651,6 +8677,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 91
+    "patch": 92
   }
 }
