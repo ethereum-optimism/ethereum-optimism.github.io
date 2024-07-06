@@ -1,0 +1,13 @@
+{
+  "name": "Marvin",
+  "symbol": "MOB",
+  "decimals": 18,
+  "description": "Marvin on Base is an innovative memecoin project featuring a stellar team, including a marketing developer from Shiba Inu and key opinion leaders (KOLs) from Brett on Base. The project focuses on developing an application to help holders redeem their gas-trapped tokens.",
+  "website": "https://marvinonbase.com",
+  "twitter": "@MarvinBaseChain",
+  "tokens": {
+    "base": {
+      "address": "0x48164eA5Df090E80a0eAeE1147e466Ea28669221"
+    }
+  }
+}
