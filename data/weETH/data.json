@@ -2,6 +2,7 @@
   "name": "Wrapped eETH",
   "symbol": "weETH",
   "decimals": 18,
+  "noBridge": true,
   "description": "Ether.fi Wrapped eETH",
   "website": "https://www.ether.fi/",
   "twitter": "@ether_fi",
