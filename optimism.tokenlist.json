@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-28T23:16:25.005Z",
+  "timestamp": "2024-07-08T23:59:41.620Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6091,6 +6091,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x6f80310CA7F2C654691D1383149Fa1A57d8AB1f8",
+      "name": "Silo Governance Token",
+      "symbol": "Silo",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/Silo/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "Silo"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xF734eFdE0C424BA2B547b186586dE417b0954802",
+      "name": "Silo Governance Token",
+      "symbol": "Silo",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/Silo/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "Silo"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x9F52c8ecbEe10e00D9faaAc5Ee9Ba0fF6550F511",
       "name": "Sipher Token",
       "symbol": "SIPHER",
@@ -8677,6 +8703,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 92
+    "patch": 93
   }
 }
