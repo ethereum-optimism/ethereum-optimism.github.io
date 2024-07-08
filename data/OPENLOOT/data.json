@@ -1,0 +1,16 @@
+{
+  "name": "Open Loot",
+  "symbol": "OPENLOOT",
+  "decimals": 18,
+  "description": "A multi-chain token",
+  "website": "https://openloot.com/",
+  "twitter": "@OpenLoot",
+  "tokens": {
+    "sepolia": {
+      "address": "0x51fe233C9c4518A84dc14eF8033d804FAe35a25D"
+    },
+    "base-sepolia": {
+      "address": "0x9acd8e640636b616844c57569028359e46beed43"
+    }
+  }
+}
