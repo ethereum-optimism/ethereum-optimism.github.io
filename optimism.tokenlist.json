@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-07-11T23:29:25.843Z",
+  "timestamp": "2024-07-12T11:12:33.732Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8452,6 +8452,32 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0xb6C690B6FA95491cb84E2fEa759C714aA740d060",
+      "name": "YYY",
+      "symbol": "YYY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YYY/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "YYY"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x0C6CFdd69DD6117F9CD34437d551FFa9E0d92C94",
+      "name": "YYY",
+      "symbol": "YYY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YYY/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "YYY"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x0D505C03d30e65f6e9b4Ef88855a47a89e4b7676",
       "name": "ZoomerCoin",
@@ -8703,6 +8729,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 94
+    "patch": 95
   }
 }
