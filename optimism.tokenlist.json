@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-07-12T11:12:33.732Z",
+  "timestamp": "2024-07-12T11:26:19.539Z",
   "tokens": [
     {
       "chainId": 1,
@@ -448,6 +448,30 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ATH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x616e8BfA43F920657B3497DBf40D6b1A02D4608d",
+      "name": "Aura BAL",
+      "symbol": "auraBAL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/auraBAL/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "auraBAL"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x223738a747383d6F9f827d95964e4d8E8AC754cE",
+      "name": "Aura BAL",
+      "symbol": "auraBAL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/auraBAL/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "auraBAL"
       }
     },
     {
@@ -8729,6 +8753,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 95
+    "patch": 96
   }
 }
