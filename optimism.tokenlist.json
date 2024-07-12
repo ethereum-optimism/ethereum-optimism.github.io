@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-06-24T13:21:05.409Z",
+  "timestamp": "2024-07-12T11:12:33.732Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1010,6 +1010,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BTRST"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xa2fe5e51729be71261bcf42854012827bc44c044",
+      "name": "Burn",
+      "symbol": "BURN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BURN/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "BURN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xE678215723A44647F4729E92E0032e1634105CAb",
+      "name": "Burn",
+      "symbol": "BURN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BURN/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BURN"
       }
     },
     {
@@ -6065,6 +6091,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x6f80310CA7F2C654691D1383149Fa1A57d8AB1f8",
+      "name": "Silo Governance Token",
+      "symbol": "Silo",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/Silo/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "Silo"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xF734eFdE0C424BA2B547b186586dE417b0954802",
+      "name": "Silo Governance Token",
+      "symbol": "Silo",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/Silo/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "Silo"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x9F52c8ecbEe10e00D9faaAc5Ee9Ba0fF6550F511",
       "name": "Sipher Token",
       "symbol": "SIPHER",
@@ -6863,6 +6915,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "THING"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xe632ea2ef2cfd8fc4a2731c76f99078aef6a4b31",
+      "name": "THX Network",
+      "symbol": "THX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/THX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "THX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb363c1235734f4C036Eb82C84C87e099C316fb48",
+      "name": "THX Network",
+      "symbol": "THX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/THX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "THX"
       }
     },
     {
@@ -7916,6 +7994,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0xf31698DDAd0d11160Fe85c500397A470CD3d492E",
+      "name": "WEXO",
+      "symbol": "WEXO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WEXO/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "WEXO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xac12f930318be4f9d37f602cbf89cd33e99aa9d4",
+      "name": "WEXO",
+      "symbol": "WEXO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WEXO/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WEXO"
+      }
+    },
+    {
       "chainId": 8453,
       "address": "0xfB18511F1590a494360069F3640c27d55c2B5290",
       "name": "Wild Goat Coin",
@@ -8348,6 +8452,32 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0xb6C690B6FA95491cb84E2fEa759C714aA740d060",
+      "name": "YYY",
+      "symbol": "YYY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YYY/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "YYY"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x0C6CFdd69DD6117F9CD34437d551FFa9E0d92C94",
+      "name": "YYY",
+      "symbol": "YYY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YYY/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "YYY"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x0D505C03d30e65f6e9b4Ef88855a47a89e4b7676",
       "name": "ZoomerCoin",
@@ -8599,6 +8729,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 87
+    "patch": 95
   }
 }
