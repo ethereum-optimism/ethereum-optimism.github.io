@@ -1,0 +1,16 @@
+{
+    "name": "Silo Governance Token",
+    "symbol": "Silo",
+    "decimals": 18,
+    "description": "Silo Finance is a non-custodial protocol for risk-isolated lending markets.",
+    "website": "https://silo.finance/",
+    "twitter": "@SiloFinance",
+    "tokens": {
+      "ethereum": {
+        "address": "0x6f80310CA7F2C654691D1383149Fa1A57d8AB1f8"
+      },
+      "base": {
+        "address": "0xF734eFdE0C424BA2B547b186586dE417b0954802"
+      }
+    }
+  }
