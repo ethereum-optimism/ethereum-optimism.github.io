@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-07-12T11:26:19.539Z",
+  "timestamp": "2024-07-16T23:56:27.357Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5116,6 +5116,18 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0x7422f030958Edf9884cE9c46a211029E03eF6da7",
+      "name": "Pepe's Dog",
+      "symbol": "POPO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/POPO/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "POPO"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xEC213F83defB583af3A000B1c0ada660b1902A0F",
       "name": "Presearch",
@@ -8753,6 +8765,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 96
+    "patch": 97
   }
 }
