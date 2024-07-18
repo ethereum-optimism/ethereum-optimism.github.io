@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-07-16T23:56:27.357Z",
+  "timestamp": "2024-07-18T20:49:20.477Z",
   "tokens": [
     {
       "chainId": 1,
@@ -448,6 +448,42 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ATH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF",
+      "name": "Aura",
+      "symbol": "AURA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AURA/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "AURA"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x1509706a6c66CA549ff0cB464de88231DDBe213B",
+      "name": "Aura",
+      "symbol": "AURA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AURA/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "AURA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1509706a6c66CA549ff0cB464de88231DDBe213B",
+      "name": "Aura",
+      "symbol": "AURA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AURA/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "AURA"
       }
     },
     {
@@ -1126,6 +1162,18 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "cbETH"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2fa824bb2e06d6cac7dbab00be37dc0f3d440e8b",
+      "name": "One Cent Coin",
+      "symbol": "🇺🇸",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CENT/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "CENT"
       }
     },
     {
@@ -8765,6 +8813,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 97
+    "patch": 98
   }
 }
