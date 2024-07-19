@@ -2,6 +2,7 @@
     "name": "YFX Token",
     "symbol": "YFX",
     "decimals": 18,
+    "description": "YFX Basechain token",
     "website": "https://yfx.com/",
     "twitter": "@YFX_COM",
     "tokens": {
