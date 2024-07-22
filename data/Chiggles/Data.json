@@ -1,0 +1,14 @@
+{
+  "name": "Chinese Miggles",
+  "symbol": "Chiggles",
+  "decimals": 18,
+  "description": "Chinese Miggles is a fun character inspired by the Mr. Miggles meme. This version mixes the meme's humor with Chinese cultural elements, creating a fresh twist. If you love memes and enjoy cultural fusions, Chinese Miggles will surely entertain you.",
+  "website": "https://chinesemiggles.com",
+  "twitter": "https://t.me/ChineseMiggles",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x6499d9326678be2a8d726bb3da1320c800d2807c"
+    }
+  }
+}
