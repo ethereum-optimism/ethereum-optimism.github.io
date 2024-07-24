@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-07-24T19:09:53.694Z",
+  "timestamp": "2024-07-24T19:30:06.418Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4531,6 +4531,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xab814ce69E15F6B9660A3B184c0B0C97B9394A6b",
+      "name": "Cerebrum DAO Token",
+      "symbol": "NEURON",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NEURON/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "NEURON"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x3568c7a4f7545805e379c264303239781b4e9a79",
+      "name": "Cerebrum DAO Token",
+      "symbol": "NEURON",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NEURON/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NEURON"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xdfdb7f72c1f195c5951a234e8db9806eb0635346",
       "name": "Feisty Doge NFT",
       "symbol": "NFD",
@@ -8891,6 +8917,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 101
+    "patch": 102
   }
 }
