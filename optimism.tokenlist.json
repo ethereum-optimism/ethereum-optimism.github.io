@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-07-22T16:27:32.477Z",
+  "timestamp": "2024-07-24T19:09:53.694Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4852,6 +4852,32 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0x51fe233C9c4518A84dc14eF8033d804FAe35a25D",
+      "name": "Open Loot",
+      "symbol": "OPENLOOT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OPENLOOT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "OPENLOOT"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x9acd8e640636b616844c57569028359e46beed43",
+      "name": "Open Loot",
+      "symbol": "OPENLOOT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OPENLOOT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OPENLOOT"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xc28eb2250d1AE32c7E74CFb6d6b86afC9BEb6509",
       "name": "Open Ecosystem Token",
@@ -8865,6 +8891,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 100
+    "patch": 101
   }
 }
