@@ -29,8 +29,20 @@ export type Chain =
   | 'pgn-sepolia'
   | 'sepolia'
   | 'mode'
+  | 'lisk'
+  | 'lisk-sepolia'
 
-const l2Chains = ['optimism', 'optimism-sepolia', 'base', 'base-sepolia', 'pgn-sepolia', 'pgn', 'mode'] as const
+const l2Chains = [
+  'optimism',
+  'optimism-sepolia',
+  'base',
+  'base-sepolia',
+  'pgn-sepolia',
+  'pgn',
+  'mode',
+  'lisk',
+  'lisk-sepolia',
+] as const
 export type L2Chain = typeof l2Chains[number]
 
 export const isL2Chain = (chain: string): chain is L2Chain => {

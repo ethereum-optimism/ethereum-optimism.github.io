@@ -24,6 +24,7 @@ For right now, each OP Chain has their own review process. So, if you are adding
 - If you're adding a token to `Base` (e.g. `base` [mainnet] or `base-sepolia` [testnet]), instead of using the predeploy token factory on Base, we recommend you use the token factory [listed here](https://docs.base.org/base-contracts/#l2-contract-addresses) to avoid having a token address that may conflict with a different token on Optimism.
 - If you are adding a token to `Zora`: please use the [`zora` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/zora) and add [@tbtstl](https://github.com/tbtstl) as a reviewer.
 - If you are adding a token to `Mode`: please use the [`mode` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/mode).
+- If you are adding a token to `Lisk` (e.g. `lisk` [mainnet] or `lisk-sepolia` [testnet]): please use the [`lisk` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/lisk) and add [@shuse2](https://github.com/shuse2) as a reviewer.
 
 ### Automated checks
 
@@ -115,6 +116,8 @@ We currently accept tokens on the following chains:
 - `optimism-sepolia`
 - `mode`
 - `pgn`
+- `lisk`
+- `lisk-sepolia`
 
 #### Non-bridgable tokens
 

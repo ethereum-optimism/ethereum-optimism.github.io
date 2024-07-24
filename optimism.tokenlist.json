@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-07-12T11:26:19.539Z",
+  "timestamp": "2024-07-22T16:27:32.477Z",
   "tokens": [
     {
       "chainId": 1,
@@ -448,6 +448,42 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ATH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF",
+      "name": "Aura",
+      "symbol": "AURA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AURA/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "AURA"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x1509706a6c66CA549ff0cB464de88231DDBe213B",
+      "name": "Aura",
+      "symbol": "AURA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AURA/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "AURA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1509706a6c66CA549ff0cB464de88231DDBe213B",
+      "name": "Aura",
+      "symbol": "AURA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AURA/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "AURA"
       }
     },
     {
@@ -1126,6 +1162,18 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "cbETH"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2fa824bb2e06d6cac7dbab00be37dc0f3d440e8b",
+      "name": "One Cent Coin",
+      "symbol": "🇺🇸",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CENT/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "CENT"
       }
     },
     {
@@ -3949,6 +3997,58 @@
     },
     {
       "chainId": 1,
+      "address": "0x6033F7f88332B8db6ad452B7C6D5bB643990aE3f",
+      "name": "Lisk",
+      "symbol": "LSK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LSK/logo.svg",
+      "extensions": {
+        "liskBridgeAddress": "0x2658723Bf70c7667De6B25F99fcce13A16D25d08",
+        "opListId": "extended",
+        "opTokenId": "LSK"
+      }
+    },
+    {
+      "chainId": 1135,
+      "address": "0xac485391EB2d7D88253a7F1eF18C37f4242D1A24",
+      "name": "Lisk",
+      "symbol": "LSK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LSK/logo.svg",
+      "extensions": {
+        "liskBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LSK"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x16B840bA01e2b05fc2268eAf6d18892a11EC29D6",
+      "name": "Lisk",
+      "symbol": "LSK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LSK/logo.svg",
+      "extensions": {
+        "liskBridgeAddress": "0x1Fb30e446eA791cd1f011675E5F3f5311b70faF5",
+        "opListId": "extended",
+        "opTokenId": "LSK"
+      }
+    },
+    {
+      "chainId": 4202,
+      "address": "0x8a21CF9Ba08Ae709D64Cb25AfAA951183EC9FF6D",
+      "name": "Lisk",
+      "symbol": "LSK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LSK/logo.svg",
+      "extensions": {
+        "liskBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LSK"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
       "name": "LUSD Stablecoin",
       "symbol": "LUSD",
@@ -5113,6 +5213,18 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "POP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7422f030958Edf9884cE9c46a211029E03eF6da7",
+      "name": "Pepe's Dog",
+      "symbol": "POPO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/POPO/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "POPO"
       }
     },
     {
@@ -8753,6 +8865,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 96
+    "patch": 100
   }
 }
