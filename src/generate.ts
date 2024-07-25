@@ -119,7 +119,8 @@ const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
         )
       }
       const networkSep = l2Chain.indexOf('-')
-      const chainName = networkSep === -1 ? l2Chain : l2Chain.slice(0, networkSep)
+      const chainName =
+        networkSep === -1 ? l2Chain : l2Chain.slice(0, networkSep)
       const bridgeKey = `${chainName}BridgeAddress`
       return {
         [bridgeKey]:
