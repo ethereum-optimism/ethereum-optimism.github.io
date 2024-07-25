@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-07-24T19:30:06.418Z",
+  "timestamp": "2024-07-25T22:15:38.802Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1251,6 +1251,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "CIG"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x5C1d9aA868a30795F92fAe903eDc9eFF269044bf",
+      "name": "Changer",
+      "symbol": "CNG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CNG/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "CNG"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x1D015bF7d8a6fb0fc30959F3e12355530086b2A5",
+      "name": "Changer",
+      "symbol": "CNG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CNG/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CNG"
       }
     },
     {
@@ -8917,6 +8943,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 102
+    "patch": 103
   }
 }
