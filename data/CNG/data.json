@@ -2,7 +2,7 @@
   "name": "Changer",
   "symbol": "CNG",
   "decimals": 18,
-  "description2": "Changer is a crypto liquidity aggregator that has aggregated the majority of centralized exchanges, OTCs, and on-chain decentralized exchanges regardless of the type of chains.",
+  "description": "Changer is a crypto liquidity aggregator that has aggregated the majority of centralized exchanges, OTCs, and on-chain decentralized exchanges regardless of the type of chains.",
   "website": "https://changer.io/",
   "twitter": "@changerofficial",
   "tokens": {
