@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-07-31T15:59:01.027Z",
+  "timestamp": "2024-08-02T20:37:01.325Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3702,6 +3702,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/KROM/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "KROM"
       }
@@ -3715,6 +3716,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/KROM/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "KROM"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xdfF3C626De2Ccd1ECf67E97abc8A74C102C86545",
+      "name": "Kromatika",
+      "symbol": "KROM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/KROM/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "KROM"
       }
@@ -8655,6 +8669,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xF55a93b613D172b86c2Ba3981a849DaE2aeCDE2f",
+      "name": "YFX",
+      "symbol": "YFX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YFX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "YFX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x6F74bAf5A0F209609e5826AcBebc90d394830cf7",
+      "name": "YFX Token",
+      "symbol": "YFX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YFX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "YFX"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x42EDBbA2f54e1E765235A81Bd416F1DA89Dc8540",
       "name": "YokAI: Generative Monsters",
       "symbol": "YOKAI",
@@ -8957,6 +8997,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 105
+    "patch": 106
   }
 }
