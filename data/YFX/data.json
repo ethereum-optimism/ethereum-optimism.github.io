@@ -1,0 +1,19 @@
+{
+    "name": "YFX Token",
+    "symbol": "YFX",
+    "decimals": 18,
+    "description": "YFX Basechain token",
+    "website": "https://yfx.com/",
+    "twitter": "@YFX_COM",
+    "tokens": {
+      "ethereum": {
+        "address": "0xF55a93b613D172b86c2Ba3981a849DaE2aeCDE2f",
+          "overrides": {
+            "name": "YFX"
+          }
+      },
+      "base": {
+        "address": "0x6F74bAf5A0F209609e5826AcBebc90d394830cf7"
+      }
+    }
+}
