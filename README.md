@@ -118,6 +118,7 @@ We currently accept tokens on the following chains:
 - `pgn`
 - `lisk`
 - `lisk-sepolia`
+- `redstone`
 
 #### Non-bridgable tokens
 

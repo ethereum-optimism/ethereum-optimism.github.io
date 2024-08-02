@@ -22,6 +22,13 @@
         "name": "Bridged USDC",
         "symbol": "USDC.e"
       }
+    },
+    "redstone": {
+      "address": "0xD5d59fC063e7548b6015A36fEb10B875924A19be",
+      "overrides": {
+        "name": "Bridged USDC (Lattice)",
+        "symbol": "USDC.e"
+      }
     }
   }
 }
