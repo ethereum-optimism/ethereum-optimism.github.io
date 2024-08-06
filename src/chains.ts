@@ -100,7 +100,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
       'https://rpc.sepolia-api.lisk.com'
     ),
     layer: 2,
-  }
+  },
 }
 
 interface L2BridgeInformation {
