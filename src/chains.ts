@@ -51,6 +51,14 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
+  'redstone': {
+    id: 690,
+    name: 'Redstone',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://rpc.redstonechain.com'
+    ),
+    layer: 2
+  },
   sepolia: {
     id: 11155111,
     name: 'Sepolia',
@@ -123,6 +131,9 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   lisk: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
+  'redstone': {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010'
+  },
   'optimism-sepolia': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
@@ -143,6 +154,7 @@ export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   pgn: 'ethereum',
   mode: 'ethereum',
   lisk: 'ethereum',
+  redstone: 'ethereum',
   'optimism-sepolia': 'sepolia',
   'base-sepolia': 'sepolia',
   'pgn-sepolia': 'sepolia',
@@ -173,6 +185,10 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     {
       l2Chain: 'lisk',
       l1StandardBridgeAddress: '0x2658723Bf70c7667De6B25F99fcce13A16D25d08',
+    },
+    {
+      l2Chain: 'redstone',
+      l1StandardBridgeAddress: '0xc473ca7E02af24c129c2eEf51F2aDf0411c1Df69',
     },
   ],
   sepolia: [
