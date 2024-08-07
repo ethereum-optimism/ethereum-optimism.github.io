@@ -1,0 +1,16 @@
+{
+  "name": "Ankr Staked ETH",
+  "symbol": "ankrETH",
+  "decimals": 18,
+  "description": "Ankr Staked ETH",
+  "website": "https://www.ankr.com/",
+  "twitter": "@ankrstaking",
+  "tokens": {
+    "ethereum": {
+      "address": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb"
+    },
+    "mode": {
+      "address": "0xEf252e50C3d354f97Ca402b1E22455AA8Bcba105"
+    }
+  }
+}
