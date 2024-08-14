@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-08-06T13:26:47.272Z",
+  "timestamp": "2024-08-14T17:32:29.243Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7501,6 +7501,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xcF7801cEf3e91a7e366cf77Ed3d0B6439bB34766",
+      "name": "U-Coin",
+      "symbol": "U",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/U/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "U"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x06de990abC8E6dC2E1a9Ee10E402b3AfCeF5Cdb0",
+      "name": "U-Coin",
+      "symbol": "U",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/U/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "U"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xDd1Ad9A21Ce722C151A836373baBe42c868cE9a4",
       "name": "Universal Basic Income",
       "symbol": "UBI",
@@ -9011,6 +9037,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 107
+    "patch": 108
   }
 }
