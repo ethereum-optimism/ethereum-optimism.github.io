@@ -9,7 +9,10 @@
         "address": "0xe485E2f1bab389C08721B291f6b59780feC83Fd7"
       },
       "optimism": {
-        "address": "0xaF1d71BF947709315655514467D5158E5d3046D5"
+        "address": "0xaF1d71BF947709315655514467D5158E5d3046D5",
+        "overrides": {
+          "name": "Shutter Token"
+        }
       }
     }
   }
