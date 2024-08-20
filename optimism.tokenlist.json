@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-08-16T13:58:10.445Z",
+  "timestamp": "2024-08-20T15:19:23.255Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2913,6 +2913,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GHST"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xF43F21384d03b5cBbddd58d2de64071e4Ce76AB0",
+      "name": "GIGACHAD",
+      "symbol": "GIGACHAD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GIGACHAD/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "GIGACHAD"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4032758A0A5dADC52ea7206fBa72aE3BBf2A44E1",
+      "name": "GigaChad",
+      "symbol": "GIGACHAD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GIGACHAD/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GIGACHAD"
       }
     },
     {
@@ -9063,6 +9089,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 109
+    "patch": 110
   }
 }
