@@ -1,0 +1,17 @@
+{
+    "name": "Mugloo",
+    "symbol": "MUGLOO",
+    "decimals": 4,
+    "description": "Mugloo Token is designed with a simple yet robust tokenomics structure. Mugloo Token is future-ready and designed to be bridgable across chains",
+    "website": "https://token.webspero.com",
+    "twitter": "@eth_frostbyte",
+    "nobridge": false,
+    "tokens": {
+      "ethereum": {
+        "address": "0x8e3c68a9c10d3bf2aaf14f2e569a8223f21bf2b6"
+      },
+      "optimism": {
+        "address": "0x2a7E178AD6b36f914D9E897f405a47A5E7609543"
+      }
+    }
+  }
