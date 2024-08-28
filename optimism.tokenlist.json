@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-08-06T13:26:47.272Z",
+  "timestamp": "2024-08-28T17:48:07.136Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2069,6 +2069,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x39b46B212bDF15b42B166779b9d1787A68b9D0c3",
+      "name": "Dypius",
+      "symbol": "DYP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DYP/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "DYP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5b2124d427fac9c80c902cbdd74b03dd85d7d3fe",
+      "name": "Dypius",
+      "symbol": "DYP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DYP/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DYP"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x8dBF9A4c99580fC7Fd4024ee08f3994420035727",
       "name": "Eco",
       "symbol": "ECO",
@@ -2913,6 +2939,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GHST"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xF43F21384d03b5cBbddd58d2de64071e4Ce76AB0",
+      "name": "GIGACHAD",
+      "symbol": "GIGACHAD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GIGACHAD/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "GIGACHAD"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4032758A0A5dADC52ea7206fBa72aE3BBf2A44E1",
+      "name": "GigaChad",
+      "symbol": "GIGACHAD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GIGACHAD/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GIGACHAD"
       }
     },
     {
@@ -4047,6 +4099,58 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "LRC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xd0a6053f087e87a25dc60701ba6e663b1a548e85",
+      "name": "BLOCKLORDS",
+      "symbol": "LRDS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LRDS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "LRDS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB676f87A6E701f0DE8De5Ab91B56b66109766DB1",
+      "name": "BLOCKLORDS",
+      "symbol": "LRDS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LRDS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LRDS"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xDFcffFF1b184F2051cbeA17dF11d4e074aB5271E",
+      "name": "BLOCKLORDS",
+      "symbol": "LRDS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LRDS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "LRDS"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x9A7bE36dF8221F5a3971693f5d71d2c471785478",
+      "name": "BLOCKLORDS",
+      "symbol": "LRDS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LRDS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LRDS"
       }
     },
     {
@@ -6347,6 +6451,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xe485E2f1bab389C08721B291f6b59780feC83Fd7",
+      "name": "Shutter Token",
+      "symbol": "SHU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SHU/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "SHU"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xaF1d71BF947709315655514467D5158E5d3046D5",
+      "name": "Shutter Token",
+      "symbol": "SHU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SHU/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SHU"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x6f80310CA7F2C654691D1383149Fa1A57d8AB1f8",
       "name": "Silo Governance Token",
       "symbol": "Silo",
@@ -7497,6 +7627,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "TYBENG"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xcF7801cEf3e91a7e366cf77Ed3d0B6439bB34766",
+      "name": "U-Coin",
+      "symbol": "U",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/U/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "U"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x06de990abC8E6dC2E1a9Ee10E402b3AfCeF5Cdb0",
+      "name": "U-Coin",
+      "symbol": "U",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/U/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "U"
       }
     },
     {
@@ -9011,6 +9167,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 107
+    "patch": 113
   }
 }
