@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-08-20T16:05:04.605Z",
+  "timestamp": "2024-08-28T16:49:45.436Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2065,6 +2065,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "DUCK"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x39b46B212bDF15b42B166779b9d1787A68b9D0c3",
+      "name": "Dypius",
+      "symbol": "DYP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DYP/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "DYP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5b2124d427fac9c80c902cbdd74b03dd85d7d3fe",
+      "name": "Dypius",
+      "symbol": "DYP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DYP/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DYP"
       }
     },
     {
@@ -9089,6 +9115,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 111
+    "patch": 112
   }
 }
