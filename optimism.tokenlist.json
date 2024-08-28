@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-08-28T17:48:07.136Z",
+  "timestamp": "2024-08-28T18:31:47.403Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8589,6 +8589,30 @@
     },
     {
       "chainId": 1,
+      "address": "0xc11158c5da9db1d553ed28f0c2ba1cbedd42cfcb",
+      "name": "Wrapped PAW",
+      "symbol": "wPAW",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WPAW/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "WPAW"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc11158c5da9db1d553ed28f0c2ba1cbedd42cfcb",
+      "name": "Wrapped PAW",
+      "symbol": "wPAW",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WPAW/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "WPAW"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x67f4c72a50f8df6487720261e188f2abe83f57d7",
       "name": "Wrapped Pocket",
       "symbol": "wPOKT",
@@ -9167,6 +9191,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 113
+    "patch": 114
   }
 }
