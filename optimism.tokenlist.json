@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-08-29T12:05:42.646Z",
+  "timestamp": "2024-08-29T23:30:26.840Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1176,6 +1176,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "cbETH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x37fc4b48ce93469dbea9918468993c735049642a",
+      "name": "CropBytes",
+      "symbol": "CBX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CBX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "CBX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xD988824d7fA1998D0ABBab2F79A82aF762886caC",
+      "name": "CropBytes",
+      "symbol": "CBX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CBX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CBX"
       }
     },
     {
@@ -9191,6 +9217,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 115
+    "patch": 116
   }
 }
