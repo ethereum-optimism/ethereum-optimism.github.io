@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-08-29T23:30:26.840Z",
+  "timestamp": "2024-08-29T23:31:38.265Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5919,6 +5919,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xbd9908b0cdd50386f92efcc8e1d71766c2782df0",
+      "name": "DAOSquare Governance Token",
+      "symbol": "RICE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RICE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "RICE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf501e4c51dbd89b95de24b9d53778ff97934cd9c",
+      "name": "DAOSquare Governance Token",
+      "symbol": "RICE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RICE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RICE"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xFc169284da39e8d337D01AB011C3e5d92f7DDBa6",
       "name": "GenRize",
       "symbol": "RIZE",
@@ -9217,6 +9243,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 116
+    "patch": 117
   }
 }
