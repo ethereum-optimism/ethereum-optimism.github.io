@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-08-20T16:05:04.605Z",
+  "timestamp": "2024-08-29T12:05:42.646Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2069,6 +2069,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x39b46B212bDF15b42B166779b9d1787A68b9D0c3",
+      "name": "Dypius",
+      "symbol": "DYP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DYP/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "DYP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5b2124d427fac9c80c902cbdd74b03dd85d7d3fe",
+      "name": "Dypius",
+      "symbol": "DYP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DYP/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DYP"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x8dBF9A4c99580fC7Fd4024ee08f3994420035727",
       "name": "Eco",
       "symbol": "ECO",
@@ -4073,6 +4099,58 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "LRC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xd0a6053f087e87a25dc60701ba6e663b1a548e85",
+      "name": "BLOCKLORDS",
+      "symbol": "LRDS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LRDS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "LRDS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB676f87A6E701f0DE8De5Ab91B56b66109766DB1",
+      "name": "BLOCKLORDS",
+      "symbol": "LRDS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LRDS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LRDS"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xDFcffFF1b184F2051cbeA17dF11d4e074aB5271E",
+      "name": "BLOCKLORDS",
+      "symbol": "LRDS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LRDS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "LRDS"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x9A7bE36dF8221F5a3971693f5d71d2c471785478",
+      "name": "BLOCKLORDS",
+      "symbol": "LRDS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LRDS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LRDS"
       }
     },
     {
@@ -8511,6 +8589,30 @@
     },
     {
       "chainId": 1,
+      "address": "0xc11158c5da9db1d553ed28f0c2ba1cbedd42cfcb",
+      "name": "Wrapped PAW",
+      "symbol": "wPAW",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WPAW/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "WPAW"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc11158c5da9db1d553ed28f0c2ba1cbedd42cfcb",
+      "name": "Wrapped PAW",
+      "symbol": "wPAW",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WPAW/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "WPAW"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x67f4c72a50f8df6487720261e188f2abe83f57d7",
       "name": "Wrapped Pocket",
       "symbol": "wPOKT",
@@ -9089,6 +9191,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 111
+    "patch": 115
   }
 }
