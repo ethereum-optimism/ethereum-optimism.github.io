@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-08-29T23:31:38.265Z",
+  "timestamp": "2024-09-02T16:25:11.863Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4715,6 +4715,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x8e3c68a9c10d3bf2aaf14f2e569a8223f21bf2b6",
+      "name": "Mugloo",
+      "symbol": "MUGLOO",
+      "decimals": 4,
+      "logoURI": "https://ethereum-optimism.github.io/data/MUGLOO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "MUGLOO"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x1164b451624E0D53bD8Be84d3fF7f9591bA8922e",
+      "name": "Mugloo",
+      "symbol": "MUGLOO",
+      "decimals": 4,
+      "logoURI": "https://ethereum-optimism.github.io/data/MUGLOO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MUGLOO"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xab814ce69E15F6B9660A3B184c0B0C97B9394A6b",
       "name": "Cerebrum DAO Token",
       "symbol": "NEURON",
@@ -9243,6 +9269,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 117
+    "patch": 118
   }
 }
