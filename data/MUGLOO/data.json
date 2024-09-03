@@ -12,6 +12,12 @@
       },
       "optimism": {
         "address": "0x1164b451624E0D53bD8Be84d3fF7f9591bA8922e"
+      },
+      "base": {
+        "address": "0xE009e453Ac69B0E9602BA091D5331B31B03D3039"
+      },
+      "metall2": {
+        "address": "0xf1F9Ccc7638F124c3d9354Be0edE2ACb5F0A15Bc"
       }
     }
   }
