@@ -1,0 +1,18 @@
+{
+  "name": "Empower Token",
+  "symbol": "MPWR",
+  "decimals": 18,
+  "description": "Empower Token(MPWR) is the ClubRare’s utility token to build the Web-3 E-commerce ecosystem",
+  "website": "https://clubrare.xyz",
+  "twitter": "@clubrare_nft",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6731827Cb6879a2091ce3ab3423f7bf20539b579"
+    },
+    "base": {
+      "address": "0x85267fBC6e1e1563bB9247336F05D9220eA99f52"
+    }
+  }
+}
+
+

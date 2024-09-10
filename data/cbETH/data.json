@@ -12,14 +12,8 @@
     "optimism": {
       "address": "0xaddb6a0412de1ba0f936dcaeb8aaa24578dcf3b2"
     },
-    "goerli": {
-      "address": "0xD0bb78d0B337aA6D3A0530DD2e58560bf00851f1"
-    },
-    "optimism-goerli": {
-      "address": "0xd6909e9e702024eb93312B989ee46794c0fB1C9D"
-    },
-    "base-goerli": {
-      "address": "0x7c6b91D9Be155A6Db01f749217d76fF02A7227F2"
+    "base": {
+      "address": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22"
     }
   }
 }

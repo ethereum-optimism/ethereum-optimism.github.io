@@ -3,11 +3,11 @@
     "symbol": "OUTb",
     "decimals": 18,
     "tokens": {
-      "goerli": {
-        "address": "0x32B3b2281717dA83463414af4E8CfB1970E56287"
+      "sepolia": {
+        "address": "0x12608ff9dac79d8443F17A4d39D93317BAD026Aa"
       },
-      "optimism-goerli": {
-        "address": "0x3e7eF8f50246f725885102E8238CBba33F276747"
+      "optimism-sepolia": {
+        "address": "0x7c6b91D9Be155A6Db01f749217d76fF02A7227F2"
       }
     }
 }

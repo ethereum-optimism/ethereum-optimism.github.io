@@ -1,0 +1,16 @@
+{
+    "name": "GenRize",
+    "symbol": "RIZE",
+    "decimals": 18,
+    "description": "The official multi-chain token of the GenRize Cinematic Metaverse",
+    "website": "https://genrize.io",
+    "twitter": "@OfficialGenrize",
+    "tokens": {
+        "ethereum": {
+            "address": "0xFc169284da39e8d337D01AB011C3e5d92f7DDBa6"
+        },
+        "base": {
+            "address": "0x0A4c8Ee5a092Ba333B54C142634c871768891558"
+        }
+    }
+}

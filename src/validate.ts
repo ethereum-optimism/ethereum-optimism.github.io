@@ -183,13 +183,11 @@ export const validate = async (
         // Check that the token has the correct name
         if (token.overrides?.name === undefined) {
           try {
-            if (
-              data.name !== (await contract.name()) &&
-              expectedMismatches.name !== data.name
-            ) {
+            const name = await contract.name()
+            if (data.name !== name && expectedMismatches.name !== data.name) {
               results.push({
                 type: 'error',
-                message: `${folder} on chain ${chain} token ${token.address} has incorrect name`,
+                message: `${folder} on chain ${chain} token ${token.address} has incorrect name. Got ${name}`,
               })
             }
           } catch (err) {

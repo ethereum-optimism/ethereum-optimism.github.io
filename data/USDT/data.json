@@ -12,11 +12,11 @@
     "optimism": {
       "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58"
     },
-    "goerli": {
-      "address": "0xC2C527C0CACF457746Bd31B2a698Fe89de2b6d49"
+    "pgn": {
+      "address": "0x6535b3db9B908a2bbA29F83c168a0e661C3fAbf7"
     },
-    "optimism-goerli": {
-      "address": "0x853eb4bA5D0Ba2B77a0A5329Fd2110d5CE149ECE"
+    "mode": {
+      "address": "0xf0F161fDA2712DB8b566946122a5af183995e2eD"
     }
   }
 }

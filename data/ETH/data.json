@@ -9,10 +9,10 @@
     "optimism": {
       "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
     },
-    "goerli": {
+    "sepolia": {
       "address": "0x0000000000000000000000000000000000000000"
     },
-    "optimism-goerli": {
+    "optimism-sepolia": {
       "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
     }
   }

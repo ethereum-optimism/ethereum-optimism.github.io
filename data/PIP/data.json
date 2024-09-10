@@ -1,0 +1,16 @@
+{
+  "name": "PIP",
+  "symbol": "PIP",
+  "decimals": 9,
+  "description": "The one platform for all your crypto payment needs",
+  "website": "https://getpip.com",
+  "twitter": "@getpipcom",
+  "tokens": {
+    "ethereum": {
+      "address": "0x76ff2AB6b34142421F44A68cC8Dd08f45F9Ee2F2"
+    },
+    "base": {
+      "address": "0x76ff2AB6b34142421F44A68cC8Dd08f45F9Ee2F2"
+    }
+  }
+}

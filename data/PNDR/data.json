@@ -1,0 +1,13 @@
+{
+  "name": "Ponder",
+  "symbol": "PNDR",
+  "decimals": 18,
+  "description": "Social surveys for the next generation of thinkers",
+  "website": "https://weponder.io",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xe0231bb166D09A3f0739F7AFAd68438C0fA142a5"
+    }
+  }
+}

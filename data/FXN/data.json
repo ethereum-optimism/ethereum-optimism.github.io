@@ -1,0 +1,16 @@
+{
+  "name": "FXN Token",
+  "symbol": "FXN",
+  "decimals": 18,
+  "description": "FXN is gonvernance token of f(x) protocol. f(x) protocol splits yield-bearing tokens into two derivative coins: a stable one, and a more volatile one. On the stable side, the headliners are fETH and fxUSD: both stable (one USD-pegged, one that increases or decreases a little with the price of ETH. Holding the high volatility tokens like xETH, xstETH, and others are like holding leverage on the reserve, i.e. leveraged ETH, but with zero funding costs and no individual liquidations.",
+  "website": "https://fx.aladdin.club/",
+  "twitter": "https://twitter.com/protocol_fx",
+  "tokens": {
+    "ethereum": {
+      "address": "0x365AccFCa291e7D3914637ABf1F7635dB165Bb09"
+    },
+    "base": {
+      "address": "0x90eb5f8310c6d2289ef2475d9b8ae44589663d58"
+    }
+  }
+}

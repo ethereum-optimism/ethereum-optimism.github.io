@@ -1,0 +1,16 @@
+{
+  "name": "Dimo",
+  "symbol": "DIMO",
+  "decimals": 18,
+  "description": "The native Ethereum ERC-20 token of the $DIMO protocol",
+  "website": "https://dimo.xyz",
+  "twitter": "https://twitter.com/DIMO_Network",
+  "tokens": {
+    "ethereum": {
+      "address": "0x5fab9761d60419c9eeebe3915a8fa1ed7e8d2e1b"
+    },
+    "base": {
+      "address": "0xd7ea8433b434223b3da2931620391df157d1c22d"
+    }
+  }
+}

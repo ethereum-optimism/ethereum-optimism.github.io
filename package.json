@@ -1,9 +1,16 @@
 {
   "name": "@eth-optimism/tokenlist",
   "description": "[Optimism] token list",
-  "version": "8.3.76",
+  "version": "10.0.119",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "types": "dist/index.d.ts",
   "homepage": "https://github.com/ethereum-optimism/ethereum-optimism.github.io#readme",
   "license": "MIT",
@@ -55,7 +62,7 @@
     "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^4.26.0",
-    "@uniswap/token-lists": "^1.0.0-beta.30",
+    "@uniswap/token-lists": "^1.0.0-beta.32",
     "ajv": "^8.11.0",
     "ajv-formats": "^2.1.1",
     "commander": "^9.4.0",

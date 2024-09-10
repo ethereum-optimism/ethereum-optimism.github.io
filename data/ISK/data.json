@@ -1,0 +1,16 @@
+{
+  "name": "ISKRA TOKEN",
+  "symbol": "ISK",
+  "decimals": 18,
+  "description": "ISKRA governance token",
+  "website": "https://iskra.world",
+  "twitter": "@iskra_world",
+  "tokens": {
+    "ethereum": {
+      "address": "0x17d2628D30F8e9E966c9Ba831c9B9b01ea8Ea75C"
+    },
+    "base": {
+      "address": "0x17d2628D30F8e9E966c9Ba831c9B9b01ea8Ea75C"
+    }
+  }
+}

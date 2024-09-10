@@ -1,0 +1,30 @@
+{
+  "name": "Status Network Token",
+  "symbol": "SNT",
+  "decimals": 18,
+  "website": "https://status.im/",
+  "twitter": "@ethstatus",
+  "tokens": {
+    "ethereum": {
+      "address": "0x744d70fdbe2ba4cf95131626614a1763df805b9e"
+    },
+    "optimism": {
+      "address": "0x650AF3C15AF43dcB218406d30784416D64Cfb6B2"
+    },
+    "sepolia": {
+      "address": "0xE452027cdEF746c7Cd3DB31CB700428b16cD8E51",
+      "overrides": {
+        "name": "Status Test Token",
+        "symbol": "STT"
+      }
+    },
+    "optimism-sepolia": {
+      "address": "0x0B5DAd18B8791ddb24252B433ec4f21f9e6e5Ed0",
+      "overrides": {
+        "name": "Status Test Token",
+        "symbol": "STT"
+      }
+    }
+  }
+}
+

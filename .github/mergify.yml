@@ -50,14 +50,6 @@ pull_request_rules:
         message: |
           Merge failed. Please see automated check logs for more details.
 
-  - name: automatic update prs
-    conditions:
-      - -conflict
-      - -draft
-      - label!="do-not-merge"
-      - 'base=master'
-    actions:
-      update:
 
   - name: Say hi to contributors if they are not part of the regularcontributors team
     conditions:

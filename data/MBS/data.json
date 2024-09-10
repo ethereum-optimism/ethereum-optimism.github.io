@@ -1,0 +1,16 @@
+{
+  "name": "MBS",
+  "symbol": "MBS",
+  "decimals": 18,
+  "description": "MonkeyLeague is a fast, strategy-based sports game. Build your dream team of MonkeyAthletes, play matches, compete in tournaments and climb the Leagues!",
+  "website": "https://monkeyleague.io",
+  "twitter": "@TheMonkeyLeague",
+  "tokens": {
+    "ethereum": {
+      "address": "0x4Bbf46E7c31eDc1F33aF4d57F0C4a0f13398427c"
+    },
+    "base": {
+      "address": "0x8Fbd0648971d56f1f2c35Fa075Ff5Bc75fb0e39D"
+    }
+  }
+}

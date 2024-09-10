@@ -1,0 +1,16 @@
+{
+  "name": "Artificial Liquid Intelligence Token",
+  "symbol": "ALI",
+  "decimals": 18,
+  "description": "ALI is the native utility token of the Alethea AI Protocol",
+  "website": "https://alethea.ai/",
+  "twitter": "@real_alethea",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6B0b3a982b4634aC68dD83a4DBF02311cE324181"
+    },
+    "base": {
+      "address": "0x97c806e7665d3AFd84A8Fe1837921403D59F3Dcc"
+    }
+  }
+}
