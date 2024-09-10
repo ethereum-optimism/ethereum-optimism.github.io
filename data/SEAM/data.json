@@ -1,0 +1,39 @@
+{
+    "name": "Seamless",
+    "symbol": "SEAM",
+    "decimals": 18,
+    "description": "Seamless Governance Token (native Base L2 token)",
+    "website": "https://www.seamlessprotocol.com",
+    "twitter": "@SeamlessFi",
+    "tokens": {
+      "ethereum": {
+        "address": "0x6b66ccd1340c479B07B390d326eaDCbb84E726Ba",
+        "overrides": {
+          "bridge": {
+            "base": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35"
+          }
+        }
+      },
+      "sepolia": {
+        "address": "0xF01901ad15fcd248a7175E03c0ecCC0fD1D943Eb",
+        "overrides": {
+          "bridge": {
+            "base-sepolia": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120"
+          }
+        }
+      },
+      "base": {
+        "address": "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85",
+        "overrides": {
+          "bridge": "0x4200000000000000000000000000000000000010"
+        }
+      },
+      "base-sepolia": {
+        "address": "0x178898686F23a50CCAC17962df41395484804a6B",
+        "overrides": {
+          "bridge": "0x4200000000000000000000000000000000000010"
+        }
+      }
+    }
+  }
+  

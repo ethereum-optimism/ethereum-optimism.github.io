@@ -1,0 +1,14 @@
+{
+  "name": "Redemption Finance",
+  "symbol": "RDMP",
+  "decimals": 18,
+  "description": "Yield Farming Protocol",
+  "website": "https://rdmp.finance",
+  "twitter": "@RedemptionFi",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x41E99e0F73a88947C52070FF67C19B7aBc171A54"
+    }
+  }
+}

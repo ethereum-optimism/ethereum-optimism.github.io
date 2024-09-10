@@ -1,8 +1,10 @@
 # Superchain Token List
 
-The Superchain token list is used as the source of truth for the [Optimism bridge UI](https://app.optimism.io/bridge) and [Base bridge UI](https://bridge.base.org/deposit) which are the main interfaces for moving assets between Layer 1 and Layer 2.
+The Superchain token list is a list of tokens managed by the maintainers of this repo that have been deployed on Superchains including the OP Mainnet and Base. It serves as a source of truth for services such as the [Optimism bridge UI](https://app.optimism.io/bridge).
 
-It is worth noting that the Superchain Token List makes a distinction between token deployment / bridging and list curation. Tokens can be deployed / bridged in a permissionless manner, [anyone can deploy / bridge a token](https://github.com/ethereum-optimism/optimism-tutorial/tree/01e4f94fa2671cfed0c6c82257345f77b3b858ef/standard-bridge-standard-token) on the Superchain. The Superchain Token List is a curated list of tokens and is managed by the maintainers of this repo.
+It is worth noting that the Superchain Token List makes a distinction between token deployment / bridging and list curation. Tokens can be deployed / bridged in a permissionless manner, [anyone can deploy / bridge a token](https://github.com/ethereum-optimism/optimism-tutorial/tree/01e4f94fa2671cfed0c6c82257345f77b3b858ef/standard-bridge-standard-token) on the Superchain.
+
+Please note that by adding a token to the list we aren’t making any claims about the token itself; tokens are not reviewed for their quality, merits, or soundness as investments.
 
 ## Review process and merge criteria
 
@@ -17,8 +19,12 @@ It is worth noting that the Superchain Token List makes a distinction between t
 - [Fee on transfer tokens](https://github.com/d-xo/weird-erc20#fee-on-transfer)
 - [Tokens that modify balances without emitting a Transfer event](https://github.com/d-xo/weird-erc20#balance-modifications-outside-of-transfers-rebasingairdrops)
 
-### Base tokens
-For right now, `Base` tokens go through a separate review process. So, if you are adding tokens across both `Optimism` and `Base`, please separate this pull request into separate pull requests for each chain, in order to streamline the review process. If you are adding a token to a `Base` chain (e.g. `base-goerli`) please add [@roberto-bayardo](https://github.com/roberto-bayardo) as a reviewer as they are the point of contact for `Base` tokens and must approve all `Base` tokens before they are merged.
+### Specifying chains
+For right now, each OP Chain has their own review process. So, if you are adding tokens across multiple chains, please separate your pull request so that you have one PR for each chain, in order to streamline the review process.
+- If you're adding a token to `Base` (e.g. `base` [mainnet] or `base-sepolia` [testnet]), instead of using the predeploy token factory on Base, we recommend you use the token factory [listed here](https://docs.base.org/base-contracts/#l2-contract-addresses) to avoid having a token address that may conflict with a different token on Optimism.
+- If you are adding a token to `Zora`: please use the [`zora` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/zora) and add [@tbtstl](https://github.com/tbtstl) as a reviewer.
+- If you are adding a token to `Mode`: please use the [`mode` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/mode).
+- If you are adding a token to `Lisk` (e.g. `lisk` [mainnet] or `lisk-sepolia` [testnet]): please use the [`lisk` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/lisk) and add [@shuse2](https://github.com/shuse2) as a reviewer.
 
 ### Automated checks
 
@@ -83,14 +89,17 @@ Add a file to your folder called `data.json` with the following format:
     "optimism": {
       "address": "0x2345234523452345234523452345234523452345"
     },
-    "goerli": {
+    "sepolia": {
       "address": "0x5678567856785678567856785678567856785678"
     },
-    "optimism-goerli": {
+    "optimism-sepolia": {
       "address": "0x6789678967896789678967896789678967896789"
     },
-    "base-goerli": {
+    "base": {
       "address": "0x7890789078907890789078907890789078907890"
+    },
+    "base-sepolia": {
+      "address": "0x1011121011121011121011121011121011121011"
     }
   }
 }
@@ -101,9 +110,15 @@ We currently accept tokens on the following chains:
 
 - `ethereum`
 - `optimism`
-- `goerli`
-- `base-goerli`
-- `optimism-goerli`
+- `sepolia`
+- `base`
+- `base-sepolia`
+- `optimism-sepolia`
+- `mode`
+- `pgn`
+- `lisk`
+- `lisk-sepolia`
+- `redstone`
 
 #### Non-bridgable tokens
 
@@ -197,15 +212,15 @@ Here is an example:
         "bridge": "0x136b1EC699c62b0606854056f02dC7Bb80482d63"
       }
     },
-    "goerli": {
+    "sepolia": {
       "address": "0x51f44ca59b867E005e48FA573Cb8df83FC7f7597",
       "overrides": {
         "bridge": {
-          "optimism-goerli": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65"
+          "optimism-sepolia": "0x1427Bc44755d9Aa317535B1feE38922760Aa4e65"
         }
       }
     },
-    "optimism-goerli": {
+    "optimism-sepolia": {
       "address": "0x2E5ED97596a8368EB9E44B1f3F25B2E813845303",
       "overrides": {
         "bridge": "0xD2b3F0Ea40dB68088415412b0043F37B3088836D"

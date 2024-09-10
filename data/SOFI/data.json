@@ -1,0 +1,16 @@
+{
+    "name": "Rai.Finance",
+    "symbol": "SOFI",
+    "decimals": 18,
+    "description": "Join the new era of SocialFi.",
+    "website": "https://rai.finance/",
+    "twitter": "@RaiFinance",
+    "tokens": {
+      "ethereum": {
+        "address": "0xB49fa25978abf9a248b8212Ab4b87277682301c0"
+      },
+      "base": {
+        "address": "0x703D57164CA270b0B330A87FD159CfEF1490c0a5"
+      }
+    }
+}

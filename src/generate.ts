@@ -86,16 +86,18 @@ const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
     if (tokenBridgeOverride && typeof tokenBridgeOverride !== 'string') {
       throw new Error('L2 Bridge override should be a string')
     }
+    const networkSep = chain.indexOf('-')
+    const chainName = networkSep === -1 ? chain : chain.slice(0, networkSep)
+    const bridgeKey = `${chainName}BridgeAddress`
     return [
       {
-        [chain === 'optimism' || chain === 'optimism-goerli'
-          ? 'optimismBridgeAddress'
-          : 'baseBridgeAddress']:
+        [bridgeKey]:
           tokenBridgeOverride ??
           L2_STANDARD_BRIDGE_INFORMATION[chain].l2StandardBridgeAddress,
       },
     ]
   }
+
   if (isL1Chain(chain)) {
     const l2ChainsForL1 = L1_STANDARD_BRIDGE_INFORMATION[chain].map(
       (l1Bridge) => l1Bridge.l2Chain
@@ -116,10 +118,12 @@ const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
           'L1 Bridge override should be a map from l2 chain to bridge address'
         )
       }
+      const networkSep = l2Chain.indexOf('-')
+      const chainName =
+        networkSep === -1 ? l2Chain : l2Chain.slice(0, networkSep)
+      const bridgeKey = `${chainName}BridgeAddress`
       return {
-        [l2Chain === 'optimism' || l2Chain === 'optimism-goerli'
-          ? 'optimismBridgeAddress'
-          : 'baseBridgeAddress']:
+        [bridgeKey]:
           tokenBridgeOverride?.[l2Chain] ??
           l1StandardBridgeInfoForL2.l1StandardBridgeAddress,
       }
