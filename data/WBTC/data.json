@@ -14,6 +14,9 @@
     },
     "mode": {
       "address": "0xcDd475325D6F564d27247D1DddBb0DAc6fA0a5CF"
+    },
+    "base": {
+      "address": "0x1a498C0927B1F96e6E5eCDe8071B66774cd411F5"
     }
   }
 }
