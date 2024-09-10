@@ -9,11 +9,11 @@
       "ethereum": {
         "address": "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F"
       },
-      "goerli": {
-        "address": "0xaCD1E1F368c363287aff0Df4e5eCBa1B0caC3ee3"
+      "base": {
+        "address": "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4"
       },
-      "base-goerli": {
-        "address": "0xE265FC71d45fd791c9ebf3EE0a53FBB220Eb8f75"
+      "arbitrum": {
+        "address": "0x12275DCB9048680c4Be40942eA4D92c74C63b844"
       }
     }
   }
