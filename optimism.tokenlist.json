@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-05T13:51:52.538Z",
+  "timestamp": "2024-09-10T00:09:42.262Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8901,6 +8901,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x1BED97CBC3c24A4fb5C069C6E311a967386131f7",
+      "name": "Yearn Ether",
+      "symbol": "yETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/yETH/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "yETH"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xCaf1c21DE4214ab2bCDb3A55deEB0114C8EeADa1",
+      "name": "Yearn Ether",
+      "symbol": "yETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/yETH/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "yETH"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
       "name": "yearn.finance",
       "symbol": "YFI",
@@ -9269,6 +9295,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 120
+    "patch": 121
   }
 }
