@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-10T16:16:56.625Z",
+  "timestamp": "2024-09-11T14:42:54.525Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8148,19 +8148,6 @@
       }
     },
     {
-      "chainId": 4202,
-      "address": "0xd26be7331edd458c7afa6d8b7fcb7a9e1bb68909",
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
-      "extensions": {
-        "liskBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "USDT"
-      }
-    },
-    {
       "chainId": 1,
       "address": "0xa693b19d2931d498c5b318df961919bb4aee87a5",
       "name": "UST (Wormhole)",
@@ -9322,6 +9309,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 122
+    "patch": 123
   }
 }
