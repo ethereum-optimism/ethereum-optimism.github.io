@@ -20,9 +20,6 @@
     },
     "lisk": {
       "address": "0x05D032ac25d322df992303dCa074EE7392C117b9"
-    },
-    "lisk-sepolia": {
-      "address": "0xd26be7331edd458c7afa6d8b7fcb7a9e1bb68909"
     }
   }
 }
