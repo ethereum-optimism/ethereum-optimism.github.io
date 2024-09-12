@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-11T14:42:54.525Z",
+  "timestamp": "2024-09-12T23:07:25.729Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4722,6 +4722,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MUGLOO/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "MUGLOO"
       }
@@ -4735,6 +4736,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MUGLOO/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MUGLOO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xe009e453ac69b0e9602ba091d5331b31b03d3039",
+      "name": "Mugloo",
+      "symbol": "MUGLOO",
+      "decimals": 4,
+      "logoURI": "https://ethereum-optimism.github.io/data/MUGLOO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MUGLOO"
       }
@@ -9309,6 +9323,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 123
+    "patch": 124
   }
 }
