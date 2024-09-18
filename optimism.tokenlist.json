@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-12T23:07:25.729Z",
+  "timestamp": "2024-09-18T00:59:54.317Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4895,6 +4895,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x82967568A57625675b260Ebab1294038C9ACcC6e",
+      "name": "Nova DAO",
+      "symbol": "NOVA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOVA/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "NOVA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7Cea109FC3516eD1248ae9AA67B5a352cF74075e",
+      "name": "Nova DAO",
+      "symbol": "NOVA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOVA/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NOVA"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
       "name": "Ocean Token",
       "symbol": "OCEAN",
@@ -9323,6 +9349,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 124
+    "patch": 125
   }
 }
