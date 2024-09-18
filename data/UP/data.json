@@ -2,7 +2,7 @@
   "name": "Unlock Protocol Token",
   "symbol": "UP",
   "decimals": 18,
-  "description": "The Unlock Protocol UP token (UP) is the governance token of the Unlock Protocol, used for rewarding developers and creators, as well as for participating in governance through voting on proposals. It can be acquired by swapping UDT, purchasing it on decentralized exchanges, or earning it via protocol rewards and grants, with a fixed supply of 1 billion tokens on the Base blockchain.",
+  "description": "The Unlock Protocol UP token (UP) is the governance token of the Unlock Protocol, used for rewarding developers and creators, as well as for participating in governance through voting on proposals. It can be acquired by swapping UDT, purchasing it on decentralized exchanges, or earning it via protocol rewards and grants.",
   "website": "https://unlock-protocol.com",
   "twitter": "@unlockprotocol",
   "tokens": {
