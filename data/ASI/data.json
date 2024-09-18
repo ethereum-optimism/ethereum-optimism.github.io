@@ -7,10 +7,18 @@
   "twitter": "https://x.com/ASI_Alliance",
   "tokens": {
     "ethereum": {
-      "address": "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85"
+      "address": "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85",
+      "overrides": {
+        "name": "Fetch",
+        "symbol": "FET"
+      }
     },
     "base": {
-      "address": "0x74F804B4140ee70830B3Eef4e690325841575F89"
+      "address": "0x74F804B4140ee70830B3Eef4e690325841575F89",
+      "overrides": {
+        "name": "Fetch",
+        "symbol": "FET"
+      }
     }
   }
 }
