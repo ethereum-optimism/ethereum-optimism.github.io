@@ -8,6 +8,11 @@
   "tokens": {
      "base": {
       "address": "0xac27fa800955849d6d17cc8952ba9dd6eaa66187"
+    "overrides": {
+        "bridge": {
+          "ethereum": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35"
+        }
+      }
     }
   }
 }
