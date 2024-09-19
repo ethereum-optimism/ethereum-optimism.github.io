@@ -182,7 +182,7 @@ export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   'base-sepolia': 'sepolia',
   'pgn-sepolia': 'sepolia',
   'lisk-sepolia': 'sepolia',
-  'metall2-sepolia': 'ethereum',
+  'metall2-sepolia': 'sepolia',
 }
 
 export const L1_STANDARD_BRIDGE_INFORMATION: Record<
@@ -216,7 +216,7 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     },
     {
       l2Chain: 'metall2',
-      l1StandardBridgeAddress: '0xAEb9E3dD0074A8dd19065f55235591c3Ac0c413E',
+      l1StandardBridgeAddress: '0x6d0f65D59b55B0FEC5d2d15365154DcADC140BF3',
     },
   ],
   sepolia: [
@@ -238,7 +238,7 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     },
     {
       l2Chain: 'metall2-sepolia',
-      l1StandardBridgeAddress: '0xFA0EBa40F30338B50A08613Af2216f914Ae8a7B4',
+      l1StandardBridgeAddress: '0x21530aAdF4DCFb9c477171400E40d4ef615868BE',
     },
   ],
 }
