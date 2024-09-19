@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-12T23:07:25.729Z",
+  "timestamp": "2024-09-18T02:40:07.859Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4325,6 +4325,58 @@
     },
     {
       "chainId": 1,
+      "address": "0x06F3C323f0238c72BF35011071f2b5B7F43A054c",
+      "name": "MASQ",
+      "symbol": "MASQ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MASQ/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MASQ"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x574338FFb9471C7a260e338478409Ed0F8900ea5",
+      "name": "tMASQ",
+      "symbol": "tMASQ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MASQ/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "MASQ"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x45D9C101a3870Ca5024582fd788F4E1e8F7971c3",
+      "name": "MASQ",
+      "symbol": "MASQ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MASQ/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MASQ"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x898E1cE720084A902Bc37dD822eD6D6a5F027E10",
+      "name": "tMASQ",
+      "symbol": "tMASQ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MASQ/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MASQ"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x24fcFC492C1393274B6bcd568ac9e225BEc93584",
       "name": "Heroes of Mavia",
       "symbol": "MAVIA",
@@ -4891,6 +4943,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "NOUNS"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x82967568A57625675b260Ebab1294038C9ACcC6e",
+      "name": "Nova DAO",
+      "symbol": "NOVA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOVA/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "NOVA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7Cea109FC3516eD1248ae9AA67B5a352cF74075e",
+      "name": "Nova DAO",
+      "symbol": "NOVA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NOVA/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NOVA"
       }
     },
     {
@@ -9323,6 +9401,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 124
+    "patch": 126
   }
 }
