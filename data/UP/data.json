@@ -7,8 +7,8 @@
   "twitter": "@unlockprotocol",
   "tokens": {
      "base": {
-      "address": "0xac27fa800955849d6d17cc8952ba9dd6eaa66187"
-      "nobridge": true,
+      "address": "0xac27fa800955849d6d17cc8952ba9dd6eaa66187",
+      "nobridge": true
      }
   }
 }
