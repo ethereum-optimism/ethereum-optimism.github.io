@@ -119,6 +119,8 @@ We currently accept tokens on the following chains:
 - `lisk`
 - `lisk-sepolia`
 - `redstone`
+- `metall2`
+- `metall2-sepolia`
 
 #### Non-bridgable tokens
 
