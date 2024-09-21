@@ -32,6 +32,8 @@ export type Chain =
   | 'lisk'
   | 'lisk-sepolia'
   | 'redstone'
+  | 'metall2'
+  | 'metall2-sepolia'
 
 const l2Chains = [
   'optimism',
@@ -43,7 +45,9 @@ const l2Chains = [
   'mode',
   'lisk',
   'lisk-sepolia',
-  'redstone'
+  'redstone',
+  'metall2',
+  'metall2-sepolia'
 ] as const
 export type L2Chain = typeof l2Chains[number]
 
