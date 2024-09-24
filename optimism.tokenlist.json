@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-23T14:41:45.639Z",
+  "timestamp": "2024-09-24T15:10:25.975Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8633,6 +8633,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x61cc6aF18C351351148815c5F4813A16DEe7A7E4",
+      "name": "WalletConnect",
+      "symbol": "WCT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WCT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "WCT"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x0b432610c50aB5794ED030708a811a7EA71df58f",
+      "name": "WalletConnect",
+      "symbol": "WCT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WCT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WCT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
       "name": "Wrapped eETH",
       "symbol": "weETH",
@@ -9519,6 +9545,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 132
+    "patch": 133
   }
 }
