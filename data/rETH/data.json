@@ -13,6 +13,9 @@
     },
     "base": {
       "address": "0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c"
+    },
+    "bob": {
+      "address": "0xB5686c4f60904Ec2BDA6277d6FE1F7cAa8D1b41a"
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+    "name": "Staked Frax",
+    "symbol": "sFRAX",
+    "decimals": 18,
+    "tokens": {
+        "ethereum": {
+            "address": "0xA663B02CF0a4b149d2aD41910CB81e23e1c41c32"
+        },
+        "bob": {
+            "address": "0xb7eae04B995B3b365040dEE99795112ADD43afa0"
+        }
+    }
+}

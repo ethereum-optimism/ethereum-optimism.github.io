@@ -1,16 +1,19 @@
 {
-    "name": "Tellor",
-    "symbol": "TRB",
-    "decimals": 18,
-    "tokens": {
-      "ethereum": {
-        "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0"
-      },
-      "optimism": {
-        "address": "0xaf8ca653fa2772d58f4368b0a71980e9e3ceb888"
-      },
-      "base": {
-        "address": "0xF8e9E61FFB2b491f7DF29823a76009743671CD96"
-      }
+  "name": "Tellor",
+  "symbol": "TRB",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0"
+    },
+    "optimism": {
+      "address": "0xaf8ca653fa2772d58f4368b0a71980e9e3ceb888"
+    },
+    "base": {
+      "address": "0xF8e9E61FFB2b491f7DF29823a76009743671CD96"
+    },
+    "bob": {
+      "address": "0x665060707c3Ea3c31b3eaBaD7F409072446E1D50"
     }
   }
+}

@@ -8,7 +8,8 @@
       "overrides": {
         "bridge": {
           "optimism": "0x76943C0D61395d8F2edF9060e1533529cAe05dE6",
-          "base": "0x9de443AdC5A411E83F1878Ef24C3F52C61571e72"
+          "base": "0x9de443AdC5A411E83F1878Ef24C3F52C61571e72",
+          "bob": "0x091dF5E1284E49fA682407096aD34cfD42B95B72"
         }
       }
     },
@@ -28,7 +29,7 @@
       "address": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b",
       "overrides": {
         "bridge": {
-            "optimism-sepolia" : "0x4Abf633d9c0F4aEebB4C2E3213c7aa1b8505D332"
+          "optimism-sepolia": "0x4Abf633d9c0F4aEebB4C2E3213c7aa1b8505D332"
         }
       }
     },
@@ -36,6 +37,12 @@
       "address": "0x24B47cd3A74f1799b32B2de11073764Cb1bb318B",
       "overrides": {
         "bridge": "0xdBA2760246f315203F8B716b3a7590F0FFdc704a"
+      }
+    },
+    "bob": {
+      "address": "0x85008aE6198BC91aC0735CB5497CF125ddAAc528",
+      "overrides": {
+        "bridge": "0xd1559523374D93972E0F7fE1AA98642754f5c4d1"
       }
     }
   }

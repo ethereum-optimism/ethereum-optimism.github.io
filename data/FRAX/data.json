@@ -1,17 +1,20 @@
 {
-    "name": "FRAX",
-    "symbol": "FRAX",
-    "decimals": 18,
-    "description": "Frax is a fractional-algorithmic stablecoin protocol. It aims to provide a highly scalable, decentralized, algorithmic money in place of fixed-supply assets like BTC. Additionally, FXS is the value accrual and governance token of the entire Frax ecosystem.",
-    "website": "https://app.frax.finance/",
-    "twitter": "@fraxfinance",
-    "nobridge": true,
-    "tokens": {
-      "ethereum": {
-        "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e"
-      },
-      "optimism": {
-        "address": "0x2E3D870790dC77A83DD1d18184Acc7439A53f475"
-      }
+  "name": "FRAX",
+  "symbol": "FRAX",
+  "decimals": 18,
+  "description": "Frax is a fractional-algorithmic stablecoin protocol. It aims to provide a highly scalable, decentralized, algorithmic money in place of fixed-supply assets like BTC. Additionally, FXS is the value accrual and governance token of the entire Frax ecosystem.",
+  "website": "https://app.frax.finance/",
+  "twitter": "@fraxfinance",
+  "nobridge": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e"
+    },
+    "optimism": {
+      "address": "0x2E3D870790dC77A83DD1d18184Acc7439A53f475"
+    },
+    "bob": {
+      "address": "0xc4a20a608616F18aA631316eEDa9Fb62d089361e"
     }
+  }
 }

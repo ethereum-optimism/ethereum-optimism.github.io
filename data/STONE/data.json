@@ -1,0 +1,13 @@
+{
+  "name": "StakeStone Ether",
+  "symbol": "STONE",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x7122985656e38BDC0302Db86685bb972b145bD3C"
+    },
+    "bob": {
+      "address": "0x96147A9Ae9a42d7Da551fD2322ca15B71032F342"
+    }
+  }
+}

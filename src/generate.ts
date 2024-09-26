@@ -15,7 +15,7 @@ import { defaultTokenDataFolders } from './defaultTokens'
 /**
  * Base URL where static assets are hosted.
  */
-const BASE_URL = 'https://ethereum-optimism.github.io'
+const BASE_URL = 'https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master'
 
 /**
  * Generates a token list from the data in the data folder.

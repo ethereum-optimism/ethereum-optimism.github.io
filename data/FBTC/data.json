@@ -1,0 +1,13 @@
+{
+  "name": "Fire Bitcoin",
+  "symbol": "FBTC",
+  "decimals": 8,
+  "tokens": {
+    "ethereum": {
+      "address": "0xC96dE26018A54D51c097160568752c4E3BD6C364"
+    },
+    "bob": {
+      "address": "0xC96dE26018A54D51c097160568752c4E3BD6C364"
+    }
+  }
+}

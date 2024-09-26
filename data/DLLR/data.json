@@ -1,0 +1,13 @@
+{
+  "name": "Sovryn DLLR",
+  "symbol": "DLLR",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xbdBb63F938c8961AF31eaD3deBa5C96e6A323DD1"
+    },
+    "bob": {
+      "address": "0xf3107eEC1e6F067552C035FD87199e1A5169CB20"
+    }
+  }
+}
