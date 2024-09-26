@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-19T20:02:22.143Z",
+  "timestamp": "2024-09-24T15:10:25.975Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1555,6 +1555,46 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "CRYO"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xF35155E38C8750372ca024a3d1b5cc7174AaaBbC",
+      "name": "Travel Deals",
+      "symbol": "CTRAVL",
+      "decimals": 4,
+      "logoURI": "https://ethereum-optimism.github.io/data/CTRAVL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "CTRAVL"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xeFCC1BaCD639619135746bD8113B70abBFa6C7B0",
+      "name": "Travel Deals",
+      "symbol": "CTRAVL",
+      "decimals": 4,
+      "logoURI": "https://ethereum-optimism.github.io/data/CTRAVL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CTRAVL"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x136B80f6Aa5d03456eAAE779747CC0a5F6835899",
+      "name": "Travel Deals",
+      "symbol": "CTRAVL",
+      "decimals": 4,
+      "logoURI": "https://ethereum-optimism.github.io/data/CTRAVL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CTRAVL"
       }
     },
     {
@@ -8064,6 +8104,18 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0xac27fa800955849d6d17cc8952ba9dd6eaa66187",
+      "name": "UnlockProtocolToken",
+      "symbol": "UP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UP/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "UP"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x38547D918b9645F2D94336B6b61AEB08053E142c",
       "name": "USC",
@@ -8577,6 +8629,32 @@
         "modeBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "WBTC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x61cc6aF18C351351148815c5F4813A16DEe7A7E4",
+      "name": "WalletConnect",
+      "symbol": "WCT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WCT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "WCT"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x0b432610c50aB5794ED030708a811a7EA71df58f",
+      "name": "WalletConnect",
+      "symbol": "WCT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WCT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WCT"
       }
     },
     {
@@ -9467,6 +9545,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 129
+    "patch": 133
   }
 }
