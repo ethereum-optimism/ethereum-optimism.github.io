@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-21T01:50:17.258Z",
+  "timestamp": "2024-09-26T17:48:10.452Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1555,6 +1555,46 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "CRYO"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xF35155E38C8750372ca024a3d1b5cc7174AaaBbC",
+      "name": "Travel Deals",
+      "symbol": "CTRAVL",
+      "decimals": 4,
+      "logoURI": "https://ethereum-optimism.github.io/data/CTRAVL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "CTRAVL"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xeFCC1BaCD639619135746bD8113B70abBFa6C7B0",
+      "name": "Travel Deals",
+      "symbol": "CTRAVL",
+      "decimals": 4,
+      "logoURI": "https://ethereum-optimism.github.io/data/CTRAVL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CTRAVL"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x136B80f6Aa5d03456eAAE779747CC0a5F6835899",
+      "name": "Travel Deals",
+      "symbol": "CTRAVL",
+      "decimals": 4,
+      "logoURI": "https://ethereum-optimism.github.io/data/CTRAVL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CTRAVL"
       }
     },
     {
@@ -4801,6 +4841,7 @@
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "metall2BridgeAddress": "0x6d0f65D59b55B0FEC5d2d15365154DcADC140BF3",
         "opListId": "extended",
         "opTokenId": "MUGLOO"
       }
@@ -4827,6 +4868,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MUGLOO/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MUGLOO"
+      }
+    },
+    {
+      "chainId": 1750,
+      "address": "0xf1F9Ccc7638F124c3d9354Be0edE2ACb5F0A15Bc",
+      "name": "Mugloo",
+      "symbol": "MUGLOO",
+      "decimals": 4,
+      "logoURI": "https://ethereum-optimism.github.io/data/MUGLOO/logo.svg",
+      "extensions": {
+        "metall2BridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MUGLOO"
       }
@@ -7652,6 +7706,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/TRB/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "liskBridgeAddress": "0x2658723Bf70c7667De6B25F99fcce13A16D25d08",
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "TRB"
@@ -7666,6 +7721,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/TRB/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TRB"
+      }
+    },
+    {
+      "chainId": 1135,
+      "address": "0x665060707c3ea3c31b3eabad7f409072446e1d50",
+      "name": "Tellor",
+      "symbol": "TRB",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRB/logo.png",
+      "extensions": {
+        "liskBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "TRB"
       }
@@ -8593,6 +8661,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x61cc6aF18C351351148815c5F4813A16DEe7A7E4",
+      "name": "WalletConnect",
+      "symbol": "WCT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WCT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "WCT"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x0b432610c50aB5794ED030708a811a7EA71df58f",
+      "name": "WalletConnect",
+      "symbol": "WCT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WCT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WCT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
       "name": "Wrapped eETH",
       "symbol": "weETH",
@@ -9479,6 +9573,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 131
+    "patch": 135
   }
 }
