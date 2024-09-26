@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-26T17:48:10.452Z",
+  "timestamp": "2024-09-26T22:38:45.703Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7131,6 +7131,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xE0f63A424a4439cBE457D80E4f4b51aD25b2c56C",
+      "name": "SPX6900",
+      "symbol": "SPX",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/SPX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3ee18b2214aff97000d974cf647e7c347e8fa585",
+        "opListId": "extended",
+        "opTokenId": "SPX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x50dA645f148798F68EF2d7dB7C1CB22A6819bb2C",
+      "name": "SPX6900",
+      "symbol": "SPX",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/SPX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x8d2de8d2f73f1f4cab472ac9a881c9b123c79627",
+        "opListId": "extended",
+        "opTokenId": "SPX"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x09395a2A58DB45db0da254c7EAa5AC469D8bDc85",
       "name": "SubQueryToken",
       "symbol": "SQT",
@@ -9573,6 +9599,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 135
+    "patch": 136
   }
 }
