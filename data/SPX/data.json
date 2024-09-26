@@ -1,0 +1,24 @@
+{
+    "name": "SPX6900",
+    "symbol": "SPX",
+    "decimals": 8,
+    "description": "The Stock Market Coin",
+    "website": "https://spx6900.com",
+    "twitter": "@spx6900",
+    "tokens": {
+        "ethereum": {
+            "address": "0xE0f63A424a4439cBE457D80E4f4b51aD25b2c56C",
+            "overrides": {
+                "bridge": {
+                    "base": "0x3ee18b2214aff97000d974cf647e7c347e8fa585"
+                }
+            }
+        },
+        "base": {
+            "address": "0x50dA645f148798F68EF2d7dB7C1CB22A6819bb2C",
+            "overrides": {
+                "bridge": "0x8d2de8d2f73f1f4cab472ac9a881c9b123c79627"
+            }
+        }
+    }
+}
