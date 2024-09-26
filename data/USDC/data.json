@@ -5,7 +5,7 @@
   "description": "USDC is a faster, safer, and more efficient way to send, spend, and exchange money around the globe. This is native USDC, minted by Circle's Cross-Chain Transfer Protocol.",
   "website": "https://www.circle.com/en/usdc",
   "twitter": "@circlepay",
-  "nobridge": true,
+  "nobridge": false,
   "tokens": {
     "ethereum": {
       "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
