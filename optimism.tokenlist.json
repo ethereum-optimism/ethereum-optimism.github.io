@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-24T15:10:25.975Z",
+  "timestamp": "2024-09-26T17:46:08.268Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7692,6 +7692,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/TRB/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "liskBridgeAddress": "0x2658723Bf70c7667De6B25F99fcce13A16D25d08",
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "TRB"
@@ -7706,6 +7707,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/TRB/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TRB"
+      }
+    },
+    {
+      "chainId": 1135,
+      "address": "0x665060707c3ea3c31b3eabad7f409072446e1d50",
+      "name": "Tellor",
+      "symbol": "TRB",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRB/logo.png",
+      "extensions": {
+        "liskBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "TRB"
       }
@@ -9545,6 +9559,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 133
+    "patch": 134
   }
 }
