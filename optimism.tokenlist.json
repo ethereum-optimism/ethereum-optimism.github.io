@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-26T22:38:45.703Z",
+  "timestamp": "2024-09-27T07:55:09.563Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2953,6 +2953,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "fxUSD"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x423071774C43c0Aaf4210b439E7CDA8c797e2F26",
+      "name": "GALAXIS Token",
+      "symbol": "GALAXIS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GALAXIS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "GALAXIS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2d189eabb667aa1ecfc01963a6a3a5d83960f558",
+      "name": "GALAXIS Token",
+      "symbol": "GALAXIS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GALAXIS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GALAXIS"
       }
     },
     {
@@ -9599,6 +9625,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 136
+    "patch": 137
   }
 }
