@@ -46,7 +46,7 @@
     "lint": "pnpm lint:fix && pnpm lint:check",
     "start-bot": "tsx ./src/bot.ts",
     "typecheck": "tsc -p ./tsconfig.json --noEmit",
-    "postinstall": "pnpm build"
+    "postinstall": "pnpm i tsup && pnpm build"
   },
   "files": [
     "dist"
