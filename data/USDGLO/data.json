@@ -1,0 +1,19 @@
+{
+  "name": "Glo Dollar",
+  "symbol": "USDGLO",
+  "decimals": 18,
+  "description": "Glo Dollar is the stablecoin that funds public goods.",
+  "website": "https://glodollar.org",
+  "twitter": "@glodollar",
+  "tokens": {
+    "ethereum": {
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
+    },
+    "optimism": {
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
+    },
+    "base": {
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
+    },
+  }
+}
