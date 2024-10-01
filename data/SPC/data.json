@@ -1,0 +1,15 @@
+{
+  "name": "SpaceChainV2",
+  "symbol": "SPC",
+  "decimals": 18,
+  "website": "https://www.spacechain.com/",
+  "twitter": "@SpaceChain",
+  "tokens": {
+    "ethereum": {
+      "address": "0x86ed939B500E121C0C5f493F399084Db596dAd20"
+    },
+    "base": {
+      "address":"0xA5649B56AA4e74d8661Ee9656130072df7666784"
+    }
+  }
+}
