@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-27T13:29:35.986Z",
+  "timestamp": "2024-10-02T00:50:20.996Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8595,6 +8595,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421",
+      "name": "VesperToken",
+      "symbol": "VSP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VSP/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "VSP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc8a7B50498f7D3Da97249DE165908F0f588490ED",
+      "name": "VesperToken",
+      "symbol": "VSP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VSP/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "VSP"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0B6F3c17e1626a7cBfA4302CE4E3c45522d23A83",
       "name": "WardenSwap",
       "symbol": "WAD",
@@ -9625,6 +9651,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 138
+    "patch": 139
   }
 }
