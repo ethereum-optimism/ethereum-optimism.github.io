@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-10-02T09:52:13.010Z",
+  "timestamp": "2024-10-02T11:00:02.254Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7131,6 +7131,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x86ed939B500E121C0C5f493F399084Db596dAd20",
+      "name": "SpaceChainV2",
+      "symbol": "SPC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SPC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "SPC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xA5649B56AA4e74d8661Ee9656130072df7666784",
+      "name": "SpaceChainV2",
+      "symbol": "SPC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SPC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SPC"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
       "name": "SPOT",
       "symbol": "SPOT",
@@ -9677,6 +9703,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 140
+    "patch": 141
   }
 }
