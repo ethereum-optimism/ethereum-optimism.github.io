@@ -1,0 +1,11 @@
+<svg width="630" height="702" viewBox="0 0 630 702" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M45 130L180 52H450L585 130V494L315 650L45 494V130Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M45 78L180 0H450L585 78V130L450 52H180L45 130V78ZM45 130L0 156V520L315 702L630 520V156L585 130V494L315 650L45 494V130ZM225 182L180 156V312L315 390L450 312V156L405 182V286L315 338L225 286V182ZM405 390V442L270 520V468L405 390Z" fill="url(#paint0_linear_1_2354)"/>
+<defs>
+<linearGradient id="paint0_linear_1_2354" x1="9.62501" y1="125.483" x2="251.928" y2="736.294" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FDFF85"/>
+<stop offset="0.479167" stop-color="#66F6FF"/>
+<stop offset="1" stop-color="#CD9BFF"/>
+</linearGradient>
+</defs>
+</svg>
