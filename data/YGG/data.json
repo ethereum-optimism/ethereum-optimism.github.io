@@ -1,0 +1,16 @@
+{
+    "name": "Yield Guild Games Token",
+    "symbol": "YGG",
+    "decimals": 18,
+    "description":"We are a Web3 Guild Protocol for enabling guilds globally.",
+    "website": "https://www.yieldguild.io/",
+    "twitter": "@YieldGuild",
+    "tokens": {
+        "ethereum": {
+            "address": "0x25f8087EAD173b73D6e8B84329989A8eEA16CF73"
+        },
+        "base": {
+            "address": "0xaAC78d1219c08AecC8e37e03858FE885f5EF1799"
+        }
+    }
+}
