@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-10-03T19:23:09.149Z",
+  "timestamp": "2024-10-03T19:28:01.455Z",
   "tokens": [
     {
       "chainId": 1,
@@ -9401,6 +9401,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x25f8087EAD173b73D6e8B84329989A8eEA16CF73",
+      "name": "Yield Guild Games Token",
+      "symbol": "YGG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YGG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "YGG"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xaAC78d1219c08AecC8e37e03858FE885f5EF1799",
+      "name": "Yield Guild Games Token",
+      "symbol": "YGG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/YGG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "YGG"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x42EDBbA2f54e1E765235A81Bd416F1DA89Dc8540",
       "name": "YokAI: Generative Monsters",
       "symbol": "YOKAI",
@@ -9703,6 +9729,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 142
+    "patch": 143
   }
 }
