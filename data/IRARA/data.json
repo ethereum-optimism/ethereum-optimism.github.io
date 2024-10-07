@@ -1,0 +1,19 @@
+{
+    "name": "IRARA Token",
+    "symbol": "IRARA",
+    "decimals": 18,
+    "description": "IRARA Token is a test ERC20 for the ClaimToken contract, serving as a cross-chain demo with imToken. Once the token is deposited into the ClaimToken contract on the specified blockchain, the airdrop can be executed through our upcoming Account Abstraction wallet.",
+    "website": "https://github.com/oneleo/claim-token",
+    "twitter": "@irara823",
+    "tokens": {
+      "sepolia": {
+        "address": "0x0dBD2d894157376a4939b5B94940Acd1fD110303"
+      },
+      "base-sepolia": {
+        "address": "0x9F9B4cE2d89847Cf579cBE345c3bB910480Df8dc"
+      },
+      "optimism-sepolia": {
+        "address": "0x819845b60A192167Ed1139040B4F8ecA31834f27"
+      }
+    }
+  }
