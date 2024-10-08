@@ -14,6 +14,9 @@
     },
     "mode": {
       "address": "0xcDd475325D6F564d27247D1DddBb0DAc6fA0a5CF"
+    },
+    "lisk": {
+      "address": "0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3"
     }
   }
 }
