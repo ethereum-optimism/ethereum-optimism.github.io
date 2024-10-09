@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-10-08T18:01:33.393Z",
+  "timestamp": "2024-10-09T00:13:22.326Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3667,6 +3667,46 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "IPT"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x0dBD2d894157376a4939b5B94940Acd1fD110303",
+      "name": "IRARA Token",
+      "symbol": "IRARA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IRARA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "opListId": "extended",
+        "opTokenId": "IRARA"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x9F9B4cE2d89847Cf579cBE345c3bB910480Df8dc",
+      "name": "IRARA Token",
+      "symbol": "IRARA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IRARA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "IRARA"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0x819845b60A192167Ed1139040B4F8ecA31834f27",
+      "name": "IRARA Token",
+      "symbol": "IRARA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IRARA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "IRARA"
       }
     },
     {
@@ -9743,6 +9783,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 144
+    "patch": 145
   }
 }
