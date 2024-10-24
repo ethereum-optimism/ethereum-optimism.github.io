@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-10-24T15:49:08.853Z",
+  "timestamp": "2024-10-24T15:57:07.016Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7003,7 +7003,7 @@
     },
     {
       "chainId": 1,
-      "address": "0x744d70fdbe2ba4cf95131626614a1763df805b9e",
+      "address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E",
       "name": "Status Network Token",
       "symbol": "SNT",
       "decimals": 18,
@@ -9823,6 +9823,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 147
+    "patch": 148
   }
 }
