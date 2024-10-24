@@ -72,6 +72,7 @@ export const TOKEN_DATA_SCHEMA = {
         'optimism-sepolia': TOKEN_SCHEMA,
         'lisk-sepolia': TOKEN_SCHEMA,
         'metall2-sepolia': TOKEN_SCHEMA,
+        'soneium-minato': TOKEN_SCHEMA,
       },
       additionalProperties: false,
       anyOf: [
@@ -88,6 +89,7 @@ export const TOKEN_DATA_SCHEMA = {
         { required: ['optimism-sepolia'] },
         { required: ['lisk-sepolia'] },
         { required: ['metall2-sepolia'] },
+        { required: ['soneium-minato'] },
       ],
     },
   },

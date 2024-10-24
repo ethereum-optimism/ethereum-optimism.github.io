@@ -117,6 +117,14 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
+  'soneium-minato': {
+    id: 1946,
+    name: 'Soneium Minato',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://rpc.minato.soneium.org'
+    ),
+    layer: 2,
+  },
 }
 
 interface L2BridgeInformation {
@@ -168,6 +176,9 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   'metall2-sepolia': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
+  'soneium-minato': {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
 }
 
 export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
@@ -183,6 +194,7 @@ export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   'pgn-sepolia': 'sepolia',
   'lisk-sepolia': 'sepolia',
   'metall2-sepolia': 'sepolia',
+  'soneium-minato': 'sepolia',
 }
 
 export const L1_STANDARD_BRIDGE_INFORMATION: Record<
@@ -239,6 +251,10 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     {
       l2Chain: 'metall2-sepolia',
       l1StandardBridgeAddress: '0x21530aAdF4DCFb9c477171400E40d4ef615868BE',
+    },
+    {
+      l2Chain: 'soneium-minato',
+      l1StandardBridgeAddress: '0x5f5a404A5edabcDD80DB05E8e54A78c9EBF000C2',
     },
   ],
 }

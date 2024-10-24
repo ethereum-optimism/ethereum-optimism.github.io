@@ -25,6 +25,7 @@ For right now, each OP Chain has their own review process. So, if you are adding
 - If you are adding a token to `Zora`: please use the [`zora` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/zora) and add [@tbtstl](https://github.com/tbtstl) as a reviewer.
 - If you are adding a token to `Mode`: please use the [`mode` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/mode).
 - If you are adding a token to `Lisk` (e.g. `lisk` [mainnet] or `lisk-sepolia` [testnet]): please use the [`lisk` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/lisk) and add [@shuse2](https://github.com/shuse2) as a reviewer.
+- If you are adding a token to `Soneium Minato`: please use the [`soneium-minato` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/soneium-minato).
 
 ### Automated checks
 
@@ -121,6 +122,7 @@ We currently accept tokens on the following chains:
 - `redstone`
 - `metall2`
 - `metall2-sepolia`
+- `soneium-minato`
 
 #### Non-bridgable tokens
 
