@@ -15,6 +15,9 @@
       },
       "base": {
         "address": "0x136B80f6Aa5d03456eAAE779747CC0a5F6835899"
+      },
+      "metall2": {
+        "address": "0xF35155E38C8750372ca024a3d1b5cc7174AaaBbC"
       }
     }
 }
