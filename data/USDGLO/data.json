@@ -6,6 +6,7 @@
   "website": "https://glodollar.org",
   "twitter": "@glodollar",
   "nobridge": true,
+  "nonstandard": true,
   "tokens": {
     "ethereum": {
       "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
