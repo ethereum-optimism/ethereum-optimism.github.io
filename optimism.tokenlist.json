@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-10-24T15:57:07.016Z",
+  "timestamp": "2024-10-28T14:47:47.122Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7218,6 +7218,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/SPC/logo.png",
       "extensions": {
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "SPC"
       }
@@ -7231,6 +7232,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/SPC/logo.png",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SPC"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xe539298a99004a102E4B6997ef96e5137Be42Eab",
+      "name": "SpaceChainV2",
+      "symbol": "SPC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SPC/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SPC"
       }
@@ -8708,6 +8722,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/VSP/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "VSP"
       }
@@ -8726,6 +8741,19 @@
       }
     },
     {
+      "chainId": 10,
+      "address": "0x888a88eb9de9401237dbf543EAaf4B90B6574261",
+      "name": "VesperToken",
+      "symbol": "VSP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VSP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "VSP"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x677ddbd918637E5F2c79e164D402454dE7dA8619",
       "name": "VUSD",
@@ -8734,6 +8762,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/VUSD/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "VUSD"
       }
@@ -8747,6 +8776,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/VUSD/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "VUSD"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x17B4f9dA9e06D395dB5de839E299Cf829469E7eF",
+      "name": "VUSD",
+      "symbol": "VUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VUSD/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "VUSD"
       }
@@ -9823,6 +9865,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 148
+    "patch": 149
   }
 }
