@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-10-09T00:13:22.326Z",
+  "timestamp": "2024-10-24T15:57:07.016Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1048,6 +1048,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x5dd57da40e6866c9fcc34f4b6ddc89f1ba740dfe",
+      "name": "Bright",
+      "symbol": "BRIGHT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BRIGHT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "BRIGHT"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x65334cE5aaE9Fb390C056574C7AA4DE33cf1D40E",
+      "name": "Bright",
+      "symbol": "BRIGHT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BRIGHT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BRIGHT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
       "name": "BTRST",
       "symbol": "BTRST",
@@ -1147,6 +1173,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/bwAJNA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "bwAJNA"
       }
@@ -1160,6 +1187,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/bwAJNA/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "bwAJNA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf0f326af3b1Ed943ab95C29470730CC8Cf66ae47",
+      "name": "Burn Wrapped AJNA",
+      "symbol": "bwAJNA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/bwAJNA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "bwAJNA"
       }
@@ -6963,7 +7003,7 @@
     },
     {
       "chainId": 1,
-      "address": "0x744d70fdbe2ba4cf95131626614a1763df805b9e",
+      "address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E",
       "name": "Status Network Token",
       "symbol": "SNT",
       "decimals": 18,
@@ -9783,6 +9823,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 145
+    "patch": 148
   }
 }
