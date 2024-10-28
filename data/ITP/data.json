@@ -5,6 +5,7 @@
   "description": "A protocol for tokenized automated trading vaults.",
   "website": "https://www.infinitetrading.io",
   "twitter": "@infinitetradepr",
+  "nobridge": false,
   "tokens": {
     "optimism": {
       "address": "0x0a7B751FcDBBAA8BB988B9217ad5Fb5cfe7bf7A0"
