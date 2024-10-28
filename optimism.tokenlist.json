@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-10-15T01:29:02.474Z",
+  "timestamp": "2024-10-24T15:57:07.016Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1044,6 +1044,32 @@
         "redstoneBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BridgedUSDC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x5dd57da40e6866c9fcc34f4b6ddc89f1ba740dfe",
+      "name": "Bright",
+      "symbol": "BRIGHT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BRIGHT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "BRIGHT"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x65334cE5aaE9Fb390C056574C7AA4DE33cf1D40E",
+      "name": "Bright",
+      "symbol": "BRIGHT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BRIGHT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BRIGHT"
       }
     },
     {
@@ -6977,7 +7003,7 @@
     },
     {
       "chainId": 1,
-      "address": "0x744d70fdbe2ba4cf95131626614a1763df805b9e",
+      "address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E",
       "name": "Status Network Token",
       "symbol": "SNT",
       "decimals": 18,
@@ -9797,6 +9823,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 146
+    "patch": 148
   }
 }
