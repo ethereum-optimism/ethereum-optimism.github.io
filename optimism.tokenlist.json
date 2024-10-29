@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-10-29T13:52:15.110Z",
+  "timestamp": "2024-10-29T14:09:22.863Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1003,6 +1003,7 @@
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "redstoneBridgeAddress": "0xc473ca7E02af24c129c2eEf51F2aDf0411c1Df69",
+        "liskBridgeAddress": "0xE3622468Ea7dD804702B56ca2a4f88C0936995e6",
         "opListId": "extended",
         "opTokenId": "BridgedUSDC"
       }
@@ -1042,6 +1043,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
       "extensions": {
         "redstoneBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BridgedUSDC"
+      }
+    },
+    {
+      "chainId": 1135,
+      "address": "0xF242275d3a6527d877f2c927a82D9b057609cc71",
+      "name": "Bridged USDC (Lisk)",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/BridgedUSDC/logo.png",
+      "extensions": {
+        "liskBridgeAddress": "0x3b1ac69368eb6447F5db2d4E1641380Fa9e40d29",
         "opListId": "extended",
         "opTokenId": "BridgedUSDC"
       }
@@ -9879,6 +9893,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 150
+    "patch": 151
   }
 }
