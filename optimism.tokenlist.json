@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-10-29T14:09:22.863Z",
+  "timestamp": "2024-10-30T03:50:07.492Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8506,6 +8506,42 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDGLO/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "USDGLO"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDGLO/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "USDGLO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDGLO/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "USDGLO"
+      }
+    },
+    {
       "chainId": 10,
       "address": "0x73cb180bf0521828d8849bc8CF2B920918e23032",
       "name": "USD+",
@@ -9893,6 +9929,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 151
+    "patch": 152
   }
 }
