@@ -1,0 +1,22 @@
+{
+  "name": "IPOR Token",
+  "symbol": "IPOR",
+  "decimals": 18,
+  "description": "The IPOR token is the protocol's native token issued to the parties involved with the project: builders, investors, liquidity providers, and the like.",
+  "website": "https://ipor.io",
+  "twitter": "@ipor_io",
+  "tokens": {
+    "ethereum": {
+      "address": "0x1e4746dC744503b53b4A082cB3607B169a289090"
+    },
+    "base": {
+      "address": "0xbd4e5c2f8de5065993d29a9794e2b7cefc41437a"
+    },
+    "sepolia": {
+      "address": "0x6e14233172B25eba7Ed3CBC513dD8d78d7c2F519"
+    },
+    "base-sepolia": {
+      "address": "0x7EbbA0361cCF8ECF66C4522A9323674Cd33e8b99"
+    }
+  }
+}
