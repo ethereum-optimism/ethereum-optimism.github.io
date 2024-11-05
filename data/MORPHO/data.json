@@ -4,10 +4,10 @@
   "decimals": 18,
   "tokens": {
     "sepolia": {
-      "address": "0x6a73B1Ff3769a1C968dF3BCc42808A2Fb71EdECF"
+      "address": "0x3CF66a662390e37ff260D0cBAa8Af6d426D60D43"
     },
     "base-sepolia": {
-      "address": "0xaA003acD8eB05d0e08A1d61A3B8Ec0166bDf8eb4"
+      "address": "0x3CF66a662390e37ff260D0cBAa8Af6d426D60D43"
     }
   }
 }
