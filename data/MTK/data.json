@@ -1,0 +1,16 @@
+{
+    "name": "My Token",
+    "symbol": "MTK",
+    "decimals": 18,
+    "description": "This is to test to understand the flow of a token on superchain bridge before deploying a mainnet token of our organization",
+    "website": "https://www.mytoken.com/",
+    "twitter": "@mytoken",
+    "tokens": {
+        "sepolia": {
+            "address": "0xe709cE6Ce584a57B7E31AC198731bb528043CE95"
+        },
+        "base-sepolia": {
+            "address": "0xE757800BD5A78E7ae76C05Cb76D72FB9b05365ED"
+        }
+    }
+}
