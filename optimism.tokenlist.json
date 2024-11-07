@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-10-30T03:50:07.492Z",
+  "timestamp": "2024-11-07T17:55:37.108Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3285,6 +3285,44 @@
     },
     {
       "chainId": 1,
+      "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+      "name": "Graph Token",
+      "symbol": "GRT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GRT/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "GRT"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xCA59cCeb39bE1808d7aA607153f4A5062daF3a83",
+      "name": "Graph Token",
+      "symbol": "GRT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GRT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "GRT"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x4a89c86bc3645E6FC0ba945F9eDF070C9B5AEaEa",
+      "name": "Graph Token",
+      "symbol": "GRT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GRT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GRT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
       "name": "Gitcoin",
       "symbol": "GTC",
@@ -4874,6 +4912,32 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0x3CF66a662390e37ff260D0cBAa8Af6d426D60D43",
+      "name": "Morpho Token",
+      "symbol": "MORPHO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "MORPHO"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x3CF66a662390e37ff260D0cBAa8Af6d426D60D43",
+      "name": "Morpho Token",
+      "symbol": "MORPHO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MORPHO"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x48afbbd342f64ef8a9ab1c143719b63c2ad81710",
       "name": "MetaPoolETH",
@@ -5715,6 +5779,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "PNDR"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x906c012fa4C30d580537c2b72d1789F56F488a80",
+      "name": "PogCoin",
+      "symbol": "POGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/POGS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "POGS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x728f0a7FEC1859Cb0d71A432271D4E80310d235f",
+      "name": "PogCoin",
+      "symbol": "POGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/POGS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "POGS"
       }
     },
     {
@@ -9004,7 +9094,33 @@
     },
     {
       "chainId": 10,
-      "address": "0x0b432610c50aB5794ED030708a811a7EA71df58f",
+      "address": "0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+      "name": "WalletConnect",
+      "symbol": "WCT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WCT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WCT"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xb7fB16053a3E3d4306791045769EC686F6EC4432",
+      "name": "WalletConnect",
+      "symbol": "WCT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WCT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "opListId": "extended",
+        "opTokenId": "WCT"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0x75bb6dcA2cD6F9a0189c478bBb8F7EE2fEF07C78",
       "name": "WalletConnect",
       "symbol": "WCT",
       "decimals": 18,
@@ -9929,6 +10045,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 152
+    "patch": 156
   }
 }
