@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-07T17:35:08.773Z",
+  "timestamp": "2024-11-07T17:55:37.108Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5783,6 +5783,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x906c012fa4C30d580537c2b72d1789F56F488a80",
+      "name": "PogCoin",
+      "symbol": "POGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/POGS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "POGS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x728f0a7FEC1859Cb0d71A432271D4E80310d235f",
+      "name": "PogCoin",
+      "symbol": "POGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/POGS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "POGS"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e",
       "name": "PoolTogether",
       "symbol": "POOL",
@@ -10019,6 +10045,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 155
+    "patch": 156
   }
 }
