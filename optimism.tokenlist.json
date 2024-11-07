@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-07T14:29:35.306Z",
+  "timestamp": "2024-11-07T15:49:12.109Z",
   "tokens": [
     {
       "chainId": 1,
@@ -9042,7 +9042,33 @@
     },
     {
       "chainId": 10,
-      "address": "0x0b432610c50aB5794ED030708a811a7EA71df58f",
+      "address": "0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+      "name": "WalletConnect",
+      "symbol": "WCT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WCT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WCT"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xb7fB16053a3E3d4306791045769EC686F6EC4432",
+      "name": "WalletConnect",
+      "symbol": "WCT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WCT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "opListId": "extended",
+        "opTokenId": "WCT"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0x75bb6dcA2cD6F9a0189c478bBb8F7EE2fEF07C78",
       "name": "WalletConnect",
       "symbol": "WCT",
       "decimals": 18,
@@ -9967,6 +9993,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 153
+    "patch": 154
   }
 }
