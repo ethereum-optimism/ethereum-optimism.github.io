@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-08T03:44:18.005Z",
+  "timestamp": "2024-11-08T04:03:33.400Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4987,6 +4987,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MOOV"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x039b598c6b99e70058E1e9021E000BdacD33d026",
+      "name": "Morpho Token",
+      "symbol": "MORPHO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MORPHO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x039b598c6b99e70058E1e9021E000BdacD33d026",
+      "name": "Morpho Token",
+      "symbol": "MORPHO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MORPHO"
       }
     },
     {
@@ -10123,6 +10149,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 159
+    "patch": 160
   }
 }
