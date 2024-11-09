@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-08T04:03:33.400Z",
+  "timestamp": "2024-11-09T14:24:08.661Z",
   "tokens": [
     {
       "chainId": 1,
@@ -718,6 +718,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BEPRO"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xf17e65822b568b3903685a7c9f496cf7656cc6c2",
+      "name": "Biconomy Token",
+      "symbol": "BICO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BICO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "BICO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf5Dbaa3DFC5e81405c7306039fB037a3DCD57Ce2",
+      "name": "Biconomy",
+      "symbol": "BICO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BICO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BICO"
       }
     },
     {
@@ -10149,6 +10175,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 160
+    "patch": 161
   }
 }
