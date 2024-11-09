@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-07T14:29:35.306Z",
+  "timestamp": "2024-11-08T04:03:33.400Z",
   "tokens": [
     {
       "chainId": 1,
@@ -202,6 +202,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "AIKEK"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x9a96ec9B57Fb64FbC60B423d1f4da7691Bd35079",
+      "name": "AjnaToken",
+      "symbol": "AJNA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AJNA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "AJNA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7F05a7A9AF2f5a07D1e64877C8dC37a64a22508E",
+      "name": "Ajna",
+      "symbol": "AJNA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AJNA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "AJNA"
       }
     },
     {
@@ -2010,7 +2036,7 @@
     },
     {
       "chainId": 8453,
-      "address": "0xd7ea8433b434223b3da2931620391df157d1c22d",
+      "address": "0x5eAA326fB2fc97fAcCe6A79A304876daD0F2e96c",
       "name": "Dimo",
       "symbol": "DIMO",
       "decimals": 18,
@@ -3751,6 +3777,58 @@
     },
     {
       "chainId": 1,
+      "address": "0x1e4746dC744503b53b4A082cB3607B169a289090",
+      "name": "IPOR Token",
+      "symbol": "IPOR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IPOR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "IPOR"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xbd4e5c2f8de5065993d29a9794e2b7cefc41437a",
+      "name": "IPOR Token",
+      "symbol": "IPOR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IPOR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "IPOR"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x6e14233172B25eba7Ed3CBC513dD8d78d7c2F519",
+      "name": "IPOR Token",
+      "symbol": "IPOR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IPOR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "IPOR"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x7EbbA0361cCF8ECF66C4522A9323674Cd33e8b99",
+      "name": "IPOR Token",
+      "symbol": "IPOR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/IPOR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "IPOR"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xd909C5862Cdb164aDB949D92622082f0092eFC3d",
       "name": "Interest Protocol",
       "symbol": "IPT",
@@ -4913,6 +4991,58 @@
     },
     {
       "chainId": 1,
+      "address": "0x039b598c6b99e70058E1e9021E000BdacD33d026",
+      "name": "Morpho Token",
+      "symbol": "MORPHO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MORPHO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x039b598c6b99e70058E1e9021E000BdacD33d026",
+      "name": "Morpho Token",
+      "symbol": "MORPHO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MORPHO"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x3CF66a662390e37ff260D0cBAa8Af6d426D60D43",
+      "name": "Morpho Token",
+      "symbol": "MORPHO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "MORPHO"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x3CF66a662390e37ff260D0cBAa8Af6d426D60D43",
+      "name": "Morpho Token",
+      "symbol": "MORPHO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MORPHO"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x48afbbd342f64ef8a9ab1c143719b63c2ad81710",
       "name": "MetaPoolETH",
       "symbol": "mpETH",
@@ -5753,6 +5883,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "PNDR"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x906c012fa4C30d580537c2b72d1789F56F488a80",
+      "name": "PogCoin",
+      "symbol": "POGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/POGS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "POGS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x728f0a7FEC1859Cb0d71A432271D4E80310d235f",
+      "name": "PogCoin",
+      "symbol": "POGS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/POGS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "POGS"
       }
     },
     {
@@ -9042,7 +9198,33 @@
     },
     {
       "chainId": 10,
-      "address": "0x0b432610c50aB5794ED030708a811a7EA71df58f",
+      "address": "0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+      "name": "WalletConnect",
+      "symbol": "WCT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WCT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WCT"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xb7fB16053a3E3d4306791045769EC686F6EC4432",
+      "name": "WalletConnect",
+      "symbol": "WCT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WCT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "opListId": "extended",
+        "opTokenId": "WCT"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0x75bb6dcA2cD6F9a0189c478bBb8F7EE2fEF07C78",
       "name": "WalletConnect",
       "symbol": "WCT",
       "decimals": 18,
@@ -9967,6 +10149,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 153
+    "patch": 160
   }
 }
