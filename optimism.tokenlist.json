@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-09T14:24:08.661Z",
+  "timestamp": "2024-11-10T13:04:36.689Z",
   "tokens": [
     {
       "chainId": 1,
@@ -368,6 +368,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "APU"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xc82e3db60a52cf7529253b4ec688f631aad9e7c2",
+      "name": "ARC",
+      "symbol": "ARC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ARC/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "ARC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x61CA70b867A48265e553a7FBb81bfe44FADa7AE6",
+      "name": "ARC",
+      "symbol": "ARC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ARC/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ARC"
       }
     },
     {
@@ -10175,6 +10201,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 161
+    "patch": 162
   }
 }
