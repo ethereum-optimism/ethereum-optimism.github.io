@@ -2,12 +2,17 @@
   "name": "WardenSwap",
   "symbol": "WAD",
   "decimals": 18,
+  "website": "https://www.wardenswap.finance",
+  "twitter": "@WardenSwap",
   "tokens": {
     "ethereum": {
       "address": "0x0B6F3c17e1626a7cBfA4302CE4E3c45522d23A83"
     },
     "optimism": {
       "address": "0x703D57164CA270b0B330A87FD159CfEF1490c0a5"
+    },
+    "base": {
+      "address": "0xCB3D15e352ceFA5Be4b63b5F3F08a9f2c3e9efF2"
     }
   }
 }
