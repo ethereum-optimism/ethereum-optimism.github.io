@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-20T03:37:27.685Z",
+  "timestamp": "2024-11-20T03:48:07.431Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5811,6 +5811,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x21BfBDa47A0B4B5b1248c767Ee49F7caA9B23697",
+      "name": "OVR",
+      "symbol": "OVR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OVR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "OVR"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x27E3Bc3a66E24CaD043aC3d93A12A8070E3897ba",
+      "name": "OVR",
+      "symbol": "OVR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OVR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OVR"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xAB846Fb6C81370327e784Ae7CbB6d6a6af6Ff4BF",
       "name": "Paladin Token",
       "symbol": "PAL",
@@ -10293,6 +10319,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 165
+    "patch": 166
   }
 }
