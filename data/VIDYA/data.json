@@ -1,0 +1,16 @@
+{
+  "name": "Vidya",
+  "symbol": "VIDYA",
+  "decimals": 18,
+  "description": "A GameFi token",
+  "website": "https://team3d.io",
+  "twitter": "@Team3D_Official",
+  "tokens": {
+    "ethereum": {
+      "address": "0x3d3d35bb9bec23b06ca00fe472b50e7a4c692c30"
+    },
+    "base": {
+      "address": "0x46c8651ddedd50cbdf71de85d3de9aac80247b62"
+    }
+  }
+}
