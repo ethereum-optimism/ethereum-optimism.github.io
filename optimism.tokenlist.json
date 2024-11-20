@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-11T17:46:28.012Z",
+  "timestamp": "2024-11-20T04:06:46.112Z",
   "tokens": [
     {
       "chainId": 1,
@@ -318,6 +318,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "AMKT"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xfF20817765cB7f73d4bde2e66e067E58D11095C2",
+      "name": "Amp",
+      "symbol": "AMP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AMP/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "AMP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb358489D5d92641EdB4D8eE8063f8005964346Ba",
+      "name": "Amp",
+      "symbol": "AMP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AMP/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "AMP"
       }
     },
     {
@@ -3369,6 +3395,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/GRT/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "GRT"
       }
@@ -3389,6 +3416,19 @@
     {
       "chainId": 84532,
       "address": "0x4a89c86bc3645E6FC0ba945F9eDF070C9B5AEaEa",
+      "name": "Graph Token",
+      "symbol": "GRT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GRT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GRT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0F4d237B09Cb37d207BA60353Dc254d4530D4dF1",
       "name": "Graph Token",
       "symbol": "GRT",
       "decimals": 18,
@@ -5510,6 +5550,32 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0x12630f88B4ac181bad45089Ba1D0d5DBed708083",
+      "name": "OPENLOOT",
+      "symbol": "OL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "OL"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x189e5d3e8b540a9f9a5a15BAd683d26fF87E3DdE",
+      "name": "OPENLOOT",
+      "symbol": "OL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OL"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x0001A500A6B18995B03f44bb040A5fFc28E45CB0",
       "name": "Autonolas",
@@ -5767,6 +5833,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "OUTb"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x21BfBDa47A0B4B5b1248c767Ee49F7caA9B23697",
+      "name": "OVR",
+      "symbol": "OVR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OVR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "OVR"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x27E3Bc3a66E24CaD043aC3d93A12A8070E3897ba",
+      "name": "OVR",
+      "symbol": "OVR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OVR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OVR"
       }
     },
     {
@@ -9037,6 +9129,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x3d3d35bb9bec23b06ca00fe472b50e7a4c692c30",
+      "name": "Vidya",
+      "symbol": "VIDYA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VIDYA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "VIDYA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x46c8651ddedd50cbdf71de85d3de9aac80247b62",
+      "name": "Vidya",
+      "symbol": "VIDYA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VIDYA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "VIDYA"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
       "name": "VitaDAO Token",
       "symbol": "VITA",
@@ -10253,6 +10371,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 163
+    "patch": 168
   }
 }
