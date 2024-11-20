@@ -15,7 +15,7 @@ export const TOKEN_SCHEMA = {
       },
       symbol: {
         type: 'string',
-        pattern: '^\\S+$' // allow unicode
+        pattern: '^\\S+$', // allow unicode
       },
       decimals: {
         type: 'integer',
@@ -62,11 +62,16 @@ export const TOKEN_DATA_SCHEMA = {
         ethereum: TOKEN_SCHEMA,
         optimism: TOKEN_SCHEMA,
         base: TOKEN_SCHEMA,
+        lisk: TOKEN_SCHEMA,
         mode: TOKEN_SCHEMA,
         pgn: TOKEN_SCHEMA,
+        redstone: TOKEN_SCHEMA,
+        metall2: TOKEN_SCHEMA,
         sepolia: TOKEN_SCHEMA,
         'base-sepolia': TOKEN_SCHEMA,
         'optimism-sepolia': TOKEN_SCHEMA,
+        'lisk-sepolia': TOKEN_SCHEMA,
+        'metall2-sepolia': TOKEN_SCHEMA,
       },
       additionalProperties: false,
       anyOf: [
@@ -75,9 +80,14 @@ export const TOKEN_DATA_SCHEMA = {
         { required: ['base'] },
         { required: ['mode'] },
         { required: ['pgn'] },
+        { required: ['lisk'] },
+        { required: ['redstone'] },
+        { required: ['metall2'] },
         { required: ['sepolia'] },
         { required: ['base-sepolia'] },
         { required: ['optimism-sepolia'] },
+        { required: ['lisk-sepolia'] },
+        { required: ['metall2-sepolia'] },
       ],
     },
   },

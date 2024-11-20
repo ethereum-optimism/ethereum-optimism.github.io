@@ -7,7 +7,12 @@
   "twitter": "@circlepay",
   "tokens": {
     "ethereum": {
-      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "overrides": {
+        "bridge": {
+          "lisk": "0xE3622468Ea7dD804702B56ca2a4f88C0936995e6"
+        }
+      }
     },
     "base": {
       "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
@@ -21,6 +26,22 @@
       "overrides": {
         "name": "Bridged USDC",
         "symbol": "USDC.e"
+      }
+    },
+    "redstone": {
+      "address": "0xD5d59fC063e7548b6015A36fEb10B875924A19be",
+      "overrides": {
+        "name": "Bridged USDC (Lattice)",
+        "symbol": "USDC.e",
+        "bridge": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    "lisk": {
+      "address": "0xF242275d3a6527d877f2c927a82D9b057609cc71",
+      "overrides": {
+        "name": "Bridged USDC (Lisk)",
+        "symbol": "USDC.e",
+        "bridge": "0x3b1ac69368eb6447F5db2d4E1641380Fa9e40d29"
       }
     }
   }

@@ -1,0 +1,30 @@
+{
+  "name": "MASQ",
+  "symbol": "MASQ",
+  "decimals": 18,
+  "description": "MASQ dVPN and web3 browser brings global freedom to users and adds a privacy layer to your life online.",
+  "website": "https://www.masqbrowser.com/",
+  "twitter": "https://x.com/MASQ_ai",
+  "tokens": {
+    "ethereum": {
+      "address": "0x06F3C323f0238c72BF35011071f2b5B7F43A054c"
+    },
+    "sepolia": {
+      "address": "0x574338FFb9471C7a260e338478409Ed0F8900ea5",
+      "overrides": {
+        "name": "tMASQ",
+        "symbol": "tMASQ"
+      }
+    },
+    "base": {
+      "address": "0x45D9C101a3870Ca5024582fd788F4E1e8F7971c3"
+    },
+    "base-sepolia": {
+      "address": "0x898E1cE720084A902Bc37dD822eD6D6a5F027E10",
+      "overrides": {
+        "name": "tMASQ",
+        "symbol": "tMASQ"
+      }
+    }
+  }
+}

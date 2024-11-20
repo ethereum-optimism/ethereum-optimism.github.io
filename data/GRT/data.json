@@ -1,0 +1,22 @@
+{
+    "name": "Graph Token",
+    "symbol": "GRT",
+    "decimals": 18,
+    "description": "The Graph is an indexing protocol for organizing blockchain data and making it easily accessible with GraphQL.",
+    "website": "https://thegraph.com/",
+    "twitter": "@graphprotocol",
+    "tokens": {
+      "ethereum": {
+        "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7"
+      },
+      "sepolia": {
+        "address": "0xCA59cCeb39bE1808d7aA607153f4A5062daF3a83"
+      },
+      "base-sepolia": {
+        "address": "0x4a89c86bc3645E6FC0ba945F9eDF070C9B5AEaEa"
+      },
+      "base": {
+        "address": "0x0F4d237B09Cb37d207BA60353Dc254d4530D4dF1"
+      }
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "GALAXIS Token",
+  "symbol": "GALAXIS",
+  "decimals": 18,
+  "description": "GALAXIS Token is a utility token. Throughout the platform utilities, benefits and features can be unlocked by holding Galaxis Token. This will apply to both community creators and community members. Galaxis will provide grants to eligible communities in Galaxis Token.",
+  "website": "https://galaxis.xyz/",
+  "twitter": "https://x.com/galaxisxyz",
+  "tokens": {
+    "ethereum": {
+      "address": "0x423071774C43c0Aaf4210b439E7CDA8c797e2F26"
+    },
+    "base": {
+      "address": "0x2d189eabb667aa1ecfc01963a6a3a5d83960f558"
+    }
+  }
+}
