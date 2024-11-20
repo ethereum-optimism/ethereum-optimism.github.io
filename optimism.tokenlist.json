@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-20T04:00:20.759Z",
+  "timestamp": "2024-11-20T04:06:46.112Z",
   "tokens": [
     {
       "chainId": 1,
@@ -9129,6 +9129,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x3d3d35bb9bec23b06ca00fe472b50e7a4c692c30",
+      "name": "Vidya",
+      "symbol": "VIDYA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VIDYA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "VIDYA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x46c8651ddedd50cbdf71de85d3de9aac80247b62",
+      "name": "Vidya",
+      "symbol": "VIDYA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VIDYA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "VIDYA"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
       "name": "VitaDAO Token",
       "symbol": "VITA",
@@ -10345,6 +10371,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 167
+    "patch": 168
   }
 }
