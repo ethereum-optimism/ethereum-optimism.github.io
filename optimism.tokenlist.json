@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-11T17:46:28.012Z",
+  "timestamp": "2024-11-20T03:30:09.443Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3369,6 +3369,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/GRT/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "GRT"
       }
@@ -3389,6 +3390,19 @@
     {
       "chainId": 84532,
       "address": "0x4a89c86bc3645E6FC0ba945F9eDF070C9B5AEaEa",
+      "name": "Graph Token",
+      "symbol": "GRT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GRT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GRT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0F4d237B09Cb37d207BA60353Dc254d4530D4dF1",
       "name": "Graph Token",
       "symbol": "GRT",
       "decimals": 18,
@@ -10253,6 +10267,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 163
+    "patch": 164
   }
 }
