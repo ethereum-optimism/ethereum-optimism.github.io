@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-11T17:46:28.012Z",
+  "timestamp": "2024-11-20T03:37:27.685Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3369,6 +3369,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/GRT/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "GRT"
       }
@@ -3389,6 +3390,19 @@
     {
       "chainId": 84532,
       "address": "0x4a89c86bc3645E6FC0ba945F9eDF070C9B5AEaEa",
+      "name": "Graph Token",
+      "symbol": "GRT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GRT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GRT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0F4d237B09Cb37d207BA60353Dc254d4530D4dF1",
       "name": "Graph Token",
       "symbol": "GRT",
       "decimals": 18,
@@ -5507,6 +5521,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "OGN"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x12630f88B4ac181bad45089Ba1D0d5DBed708083",
+      "name": "OPENLOOT",
+      "symbol": "OL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "OL"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x189e5d3e8b540a9f9a5a15BAd683d26fF87E3DdE",
+      "name": "OPENLOOT",
+      "symbol": "OL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OL"
       }
     },
     {
@@ -10253,6 +10293,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 163
+    "patch": 165
   }
 }
