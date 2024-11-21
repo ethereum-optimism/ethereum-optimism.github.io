@@ -1,0 +1,16 @@
+{
+  "name": "PolySwarm",
+  "symbol": "NCT",
+  "decimals": 18,
+  "description": "PolySwarm (NCT) is a crowdsourced threat intelligence platform that rewards people for detecting malware and protecting enterprise users.",
+  "website": "https://polyswarm.io",
+  "twitter": "@PolySwarm",
+  "tokens": {
+    "ethereum": {
+      "address": "0x9E46A38F5DaaBe8683E10793b06749EEF7D733d1"
+    },
+    "base": {
+      "address": "0xE6bAA3Fedb5Dc88b2c59ba4812388Bb0906D19dB"
+    }
+  }
+}
