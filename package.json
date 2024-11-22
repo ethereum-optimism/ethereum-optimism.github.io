@@ -46,10 +46,10 @@
     "lint": "pnpm lint:fix && pnpm lint:check",
     "start-bot": "tsx ./src/bot.ts",
     "typecheck": "tsc -p ./tsconfig.json --noEmit",
-    "postinstall": "pnpm i tsup && pnpm tsup --dts"
+    "prepare": "pnpm i tsup && pnpm tsup --dts"
   },
   "files": [
-    "dist"
+    "**/*"
   ],
   "devDependencies": {
     "@actions/core": "^1.4.0",
