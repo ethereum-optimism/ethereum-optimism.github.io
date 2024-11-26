@@ -5,6 +5,12 @@
   "website": "https://openloot.com/",
   "twitter": "@OpenLoot",
   "tokens": {
+    "ethereum": {
+      "address": "0x1F57da732A77636D913C9a75d685B26CC85DCC3A"
+    },
+    "base": {
+      "address": "0xEEB221A559F4aD1746F41460807E56d06D198A58"
+    },
     "sepolia": {
       "address": "0x12630f88B4ac181bad45089Ba1D0d5DBed708083"
     },
