@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-27T08:43:35.375Z",
+  "timestamp": "2024-11-27T08:48:21.450Z",
   "tokens": [
     {
       "chainId": 1,
@@ -612,6 +612,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "auraBAL"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xF5a893Cc9b09c46FDAeCE4301Abc88C5c9C926C2",
+      "name": "Animalverse Club",
+      "symbol": "AVC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AVC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "AVC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xaCB1c6492a3d7CB8F38F04496381902ba55Ed3C5",
+      "name": "Animalverse Club",
+      "symbol": "AVC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AVC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "AVC"
       }
     },
     {
@@ -10411,6 +10437,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 170
+    "patch": 171
   }
 }
