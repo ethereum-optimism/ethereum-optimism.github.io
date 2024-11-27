@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-20T04:10:19.409Z",
+  "timestamp": "2024-11-27T08:43:35.375Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4949,6 +4949,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MKR"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
+      "name": "Melon Token",
+      "symbol": "MLN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MLN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MLN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7C298664BD6582f6f264c2Cb5a4B9cC09b6E3889",
+      "name": "Melon Token",
+      "symbol": "MLN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MLN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MLN"
       }
     },
     {
@@ -10385,6 +10411,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 169
+    "patch": 170
   }
 }
