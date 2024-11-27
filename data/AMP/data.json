@@ -1,0 +1,14 @@
+{
+    "name": "Amp",
+    "symbol": "AMP",
+    "decimals": 18,
+    "website": "https://amptoken.org/",
+    "tokens": {
+        "ethereum": {
+            "address": "0xfF20817765cB7f73d4bde2e66e067E58D11095C2"
+        },
+        "base": {
+            "address": "0xb358489D5d92641EdB4D8eE8063f8005964346Ba"
+        }
+    }
+}
