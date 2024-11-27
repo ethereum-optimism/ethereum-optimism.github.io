@@ -1,0 +1,13 @@
+{
+    "name": "Akira Dog",
+    "symbol": "AKIRA",
+    "decimals": 18,
+    "tokens": {
+      "ethereum": {
+        "address": "0x0943a203d80d89D79Bf5EAa1780Fc72A016FB729"
+      },
+      "base": {
+        "address": "0xab387E8f0dF922dEDd9d5067e51816D08a938174"
+      }
+    }
+  }
