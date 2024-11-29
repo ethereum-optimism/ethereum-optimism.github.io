@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-29T08:14:55.534Z",
+  "timestamp": "2024-11-29T08:18:56.702Z",
   "tokens": [
     {
       "chainId": 1,
@@ -280,6 +280,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "AJNA"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0943a203d80d89D79Bf5EAa1780Fc72A016FB729",
+      "name": "Akira Dog",
+      "symbol": "AKIRA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AKIRA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "AKIRA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xab387E8f0dF922dEDd9d5067e51816D08a938174",
+      "name": "Akira Dog",
+      "symbol": "AKIRA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AKIRA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "AKIRA"
       }
     },
     {
@@ -10657,6 +10683,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 178
+    "patch": 179
   }
 }
