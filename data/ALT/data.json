@@ -1,0 +1,19 @@
+{
+  "name": "AltLayer",
+  "symbol": "ALT",
+  "decimals": 18,
+  "description": "Accelerate scaling for Web3",
+  "website": "https://altlayer.io/",
+  "twitter": "@alt_layer",
+  "tokens": {
+    "ethereum": {
+      "address": "0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB",
+      "overrides": {
+        "name": "AltLayer"
+      }
+    },
+    "base": {
+      "address": "0x75f2231A289Ea35895246b21e9c6E5BbF5ce69ED"
+    }
+  }
+}
