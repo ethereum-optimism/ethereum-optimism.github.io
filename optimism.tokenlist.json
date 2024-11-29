@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-29T08:18:56.702Z",
+  "timestamp": "2024-11-29T08:29:57.050Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4425,6 +4425,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "KROM"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x037A54AaB062628C9Bbae1FDB1583c195585fe41",
+      "name": "LCX",
+      "symbol": "LCX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LCX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "LCX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xd7468c14ae76C3Fc308aEAdC223D5D1F71d3c171",
+      "name": "LCX",
+      "symbol": "LCX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LCX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LCX"
       }
     },
     {
@@ -10683,6 +10709,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 179
+    "patch": 180
   }
 }
