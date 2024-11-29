@@ -3,6 +3,7 @@
   "symbol": "UCASH",
   "decimals": 18,
   "website": "https://u.cash/",
+  "description": "Powering Universal Commerce",
   "tokens": {
     "ethereum": {
       "address": "0x92e52a1A235d9A103D970901066CE910AAceFD37"
