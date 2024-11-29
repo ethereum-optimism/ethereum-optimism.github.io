@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-29T08:29:57.050Z",
+  "timestamp": "2024-11-29T08:36:33.596Z",
   "tokens": [
     {
       "chainId": 1,
@@ -356,6 +356,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ALI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB",
+      "name": "AltLayer",
+      "symbol": "ALT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ALT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "ALT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x75f2231A289Ea35895246b21e9c6E5BbF5ce69ED",
+      "name": "AltLayer",
+      "symbol": "ALT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ALT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ALT"
       }
     },
     {
@@ -10709,6 +10735,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 180
+    "patch": 181
   }
 }
