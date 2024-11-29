@@ -1,0 +1,19 @@
+{
+  "name": "Lizcoin",
+  "symbol": "LIZ",
+  "decimals": 18,
+  "description": "The Lizcoin ERC20 token is the governance token for the Gaming Sub-DAO of Lizard Labs. While the studio focuses on immersive, interconnected gaming experiences, the token is primarily used for yield farming and revenue distribution for active participants, protocol governance, and liquidity staking.",
+  "website": "https://lizlabs.io/",
+  "twitter": "@LizLabsio",
+  "tokens": {
+    "ethereum": {
+      "address": "0xAF4144cd943ed5362Fed2BaE6573184659CBe6FF"
+    },
+    "sepolia": {
+      "address": "0xAF9F5cC2384C33dE30a7eDB933A3fb0626eAf542"
+    },
+    "base-sepolia": {
+      "address": "0xBbF7ddbfBFeD11610CA2165ed5d94485f09D98E1"
+    }
+  }
+}

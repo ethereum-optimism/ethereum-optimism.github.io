@@ -1,0 +1,16 @@
+{
+  "name": "Lords",
+  "symbol": "LORDS",
+  "decimals": 18,
+  "description": "The $Lords token is the native token of the Realms Autonomous World. It is governed by BibliothecaDAO who controls the issuance of the token.",
+  "website": "https://realms.world/",
+  "twitter": "@realmsworld",
+  "tokens": {
+    "ethereum": {
+      "address": "0x686f2404e77ab0d9070a46cdfb0b7fecdd2318b0"
+    },
+    "base": {
+      "address": "0xd5b22dCfa9a919b28Afe164fc7Af10b832d4B022"
+    }
+  }
+}
