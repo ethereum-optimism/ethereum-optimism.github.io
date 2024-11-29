@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-29T05:11:59.244Z",
+  "timestamp": "2024-11-29T05:28:38.364Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4493,6 +4493,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "LOCG"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x686f2404e77ab0d9070a46cdfb0b7fecdd2318b0",
+      "name": "Lords",
+      "symbol": "LORDS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LORDS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "LORDS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xd5b22dCfa9a919b28Afe164fc7Af10b832d4B022",
+      "name": "Lords",
+      "symbol": "LORDS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LORDS/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LORDS"
       }
     },
     {
@@ -10477,6 +10503,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 173
+    "patch": 174
   }
 }
