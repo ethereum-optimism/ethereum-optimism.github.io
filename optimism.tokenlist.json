@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-29T05:28:38.364Z",
+  "timestamp": "2024-11-29T05:37:20.907Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1885,6 +1885,44 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "CUSD"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x7ABc8A5768E6bE61A6c693a6e4EAcb5B60602C4D",
+      "name": "Covalent X Token",
+      "symbol": "CXT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CXT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "CXT"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x72E2f504a0769458ACdCdd24236912f48342457C",
+      "name": "Covalent X Token",
+      "symbol": "CXT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CXT/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "CXT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB1E1f3Cc2B6fE4420C1Ac82022b457018Eb628ff",
+      "name": "Covalent X Token",
+      "symbol": "CXT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CXT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CXT"
       }
     },
     {
@@ -10503,6 +10541,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 174
+    "patch": 175
   }
 }
