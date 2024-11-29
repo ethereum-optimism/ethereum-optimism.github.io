@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-29T05:37:20.907Z",
+  "timestamp": "2024-11-29T05:43:04.964Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4479,6 +4479,44 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "LIZ"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xAF4144cd943ed5362Fed2BaE6573184659CBe6FF",
+      "name": "Lizcoin",
+      "symbol": "LIZ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LIZCOIN/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "LIZCOIN"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xAF9F5cC2384C33dE30a7eDB933A3fb0626eAf542",
+      "name": "Lizcoin",
+      "symbol": "LIZ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LIZCOIN/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "LIZCOIN"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0xBbF7ddbfBFeD11610CA2165ed5d94485f09D98E1",
+      "name": "Lizcoin",
+      "symbol": "LIZ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LIZCOIN/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LIZCOIN"
       }
     },
     {
@@ -10541,6 +10579,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 175
+    "patch": 176
   }
 }
