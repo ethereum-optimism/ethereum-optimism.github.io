@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-11-27T08:48:21.450Z",
+  "timestamp": "2024-11-29T05:03:09.932Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3489,6 +3489,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "GTC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x525574C899A7c877a11865339e57376092168258",
+      "name": "GURU Token",
+      "symbol": "GURU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GURU/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "GURU"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0f1cFD0Bb452DB90a3bFC0848349463010419AB2",
+      "name": "GURU Token",
+      "symbol": "GURU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GURU/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GURU"
       }
     },
     {
@@ -10437,6 +10463,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 171
+    "patch": 172
   }
 }
