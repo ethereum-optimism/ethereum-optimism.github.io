@@ -1,0 +1,16 @@
+{
+  "name": "Cryptoodles Toodle Token",
+  "symbol": "TODL",
+  "decimals": 18,
+  "description": "TODL is the native token for the world of Cryptoodles.",
+  "website": "https://cryptoodles.com",
+  "twitter": "https://x.com/cryptoodles",
+  "tokens": {
+    "ethereum": {
+      "address": "0x98933f2396DBaABf812b6E6d27dA4DF109C4c55F"
+    },
+    "base": {
+      "address": "0xcCe908f47318C0eFE6aaE4D65288a57Ea2Fd91d9"
+    }
+  }
+}
