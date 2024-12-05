@@ -1,0 +1,16 @@
+{
+  "name": "BOBO",
+  "symbol": "BOBO",
+  "decimals": 18,
+  "description": "the official bear mascot of all financial markets",
+  "website": "https://bobothebear.io",
+  "twitter": "@bobocoineth",
+  "tokens": {
+    "ethereum": {
+      "address": "0xB90B2A35C65dBC466b04240097Ca756ad2005295"
+    },
+    "base": {
+      "address": "0x570b1533F6dAa82814B25B62B5c7c4c55eB83947"
+    }
+  }
+} 
