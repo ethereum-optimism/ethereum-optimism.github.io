@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-12-10T01:34:57.157Z",
+  "timestamp": "2024-12-10T01:45:57.867Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5978,6 +5978,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x1F57da732A77636D913C9a75d685B26CC85DCC3A",
+      "name": "OPENLOOT",
+      "symbol": "OL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "OL"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xEEB221A559F4aD1746F41460807E56d06D198A58",
+      "name": "OPENLOOT",
+      "symbol": "OL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OL"
+      }
+    },
+    {
       "chainId": 11155111,
       "address": "0x12630f88B4ac181bad45089Ba1D0d5DBed708083",
       "name": "OPENLOOT",
@@ -10867,6 +10893,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 184
+    "patch": 185
   }
 }
