@@ -1,0 +1,16 @@
+{
+  "name": "Heurist",
+  "symbol": "HEU",
+  "decimals": 18,
+  "description": "Heurist is a decentralized AI computing platform enabling serverless access to open source AI models.",
+  "website": "https://www.heurist.ai",
+  "twitter": "@heurist_ai",
+  "tokens": {
+    "ethereum": {
+      "address": "0xec463D00aa4dA76fb112cD2e4AC1C6BeF02da6ea"
+    },
+    "base": {
+      "address": "0xEF22cb48B8483dF6152e1423b19dF5553BbD818b"
+    }
+  }
+}
