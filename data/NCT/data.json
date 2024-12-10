@@ -7,7 +7,10 @@
   "twitter": "@PolySwarm",
   "tokens": {
     "ethereum": {
-      "address": "0x9E46A38F5DaaBe8683E10793b06749EEF7D733d1"
+      "address": "0x9E46A38F5DaaBe8683E10793b06749EEF7D733d1",
+      "overrides": {
+        "name": "Nectar"
+      }
     },
     "base": {
       "address": "0xE6bAA3Fedb5Dc88b2c59ba4812388Bb0906D19dB"
