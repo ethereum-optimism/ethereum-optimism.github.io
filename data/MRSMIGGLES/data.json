@@ -5,6 +5,7 @@
   "description": "Mr Miggles loving wife is here to take over base",
   "website": "https://mrsmigglesbase.com/",
   "twitter": "@MrsMiggles_Base",
+  "nobridge": true,
   "tokens": {
     "base": {
       "address": "0x31b28012f61fc3600e1c076bafc9fd997fb2da90"
