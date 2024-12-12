@@ -1,7 +1,7 @@
 {
   "name": "UCASH",
   "symbol": "UCASH",
-  "decimals": 18,
+  "decimals": 8,
   "website": "https://u.cash/",
   "description": "Powering Universal Commerce",
   "tokens": {
