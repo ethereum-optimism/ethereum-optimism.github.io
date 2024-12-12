@@ -9,6 +9,9 @@
     "ethereum": {
       "address": "0xAF4144cd943ed5362Fed2BaE6573184659CBe6FF"
     },
+    "base": {
+      "address": "0xAF4144cd943ed5362Fed2BaE6573184659CBe6FF"
+    },
     "sepolia": {
       "address": "0xAF9F5cC2384C33dE30a7eDB933A3fb0626eAf542"
     },
