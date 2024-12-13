@@ -1,0 +1,27 @@
+{
+  "name": "OPENLOOT",
+  "symbol": "OL",
+  "decimals": 18,
+  "website": "https://openloot.com/",
+  "twitter": "@OpenLoot",
+  "tokens": {
+    "ethereum": {
+      "address": "0x1F57da732A77636D913C9a75d685B26CC85DCC3A"
+    },
+    "base": {
+      "address": "0xEEB221A559F4aD1746F41460807E56d06D198A58",
+      "overrides": {
+        "bridge": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    "sepolia": {
+      "address": "0x12630f88B4ac181bad45089Ba1D0d5DBed708083"
+    },
+    "base-sepolia": {
+      "address": "0x189e5d3e8b540a9f9a5a15BAd683d26fF87E3DdE",
+      "overrides": {
+        "bridge": "0x4200000000000000000000000000000000000010"
+      }
+    }
+  }
+}

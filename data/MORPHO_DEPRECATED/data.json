@@ -4,17 +4,19 @@
   "decimals": 18,
   "tokens": {
    "ethereum": {
-      "address": "0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
+      "address": "0x039b598c6b99e70058E1e9021E000BdacD33d026",
       "overrides": {
         "bridge": {
           "base": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35"
-        }
+        },
+        "name": "[Deprecated] Morpho Token"
       }
     },
     "base": {
-      "address": "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842",
+      "address": "0x039b598c6b99e70058E1e9021E000BdacD33d026",
       "overrides": {
-        "bridge": "0x4200000000000000000000000000000000000010"
+        "bridge": "0x4200000000000000000000000000000000000010",
+        "name": "[Deprecated] Morpho Token"
       }
     },
    "sepolia": {
