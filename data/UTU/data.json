@@ -17,10 +17,10 @@
       }
     },
     "lisk": {
-      "address": "0x5dc70C31cc67867c1DB8E697E3D9a680f77f0924"
+      "address": "0x398697b203cA909e05690B6684D56938964b07A0"
     },
     "lisk-sepolia": {
-      "address": "0x05f47FDe56DfBA3E3692445c9b9C17B2128c1531",
+      "address": "0x4b82a31EBCD41fD4b98123cF141853aCD1166875",
       "overrides": {
         "name": "UTUCoinMock",
         "symbol": "UTUM"
