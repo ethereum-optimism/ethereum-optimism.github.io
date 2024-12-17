@@ -1,0 +1,15 @@
+{
+  "name": "UCASH",
+  "symbol": "UCASH",
+  "decimals": 8,
+  "website": "https://u.cash/",
+  "description": "Powering Universal Commerce",
+  "tokens": {
+    "ethereum": {
+      "address": "0x92e52a1A235d9A103D970901066CE910AAceFD37"
+    },
+    "base": {
+      "address": "0x26cf750abAf38aF7109Effdbdf79bA50d2EE09A1"
+    }
+  }
+}
