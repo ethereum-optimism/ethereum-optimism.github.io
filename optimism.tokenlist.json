@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-12-17T23:10:49.158Z",
+  "timestamp": "2024-12-17T23:13:38.549Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5787,6 +5787,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x6e6b7adfc7db9feeb8896418ac3422966f65d0a5",
+      "name": "Nektar Network",
+      "symbol": "NET",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NET/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "NET"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2d1B28672C631CC3CE556D3C7F0E78016E809fec",
+      "name": "Nektar Network",
+      "symbol": "NET",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NET/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NET"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xab814ce69E15F6B9660A3B184c0B0C97B9394A6b",
       "name": "Cerebrum DAO Token",
       "symbol": "NEURON",
@@ -10971,6 +10997,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 189
+    "patch": 190
   }
 }
