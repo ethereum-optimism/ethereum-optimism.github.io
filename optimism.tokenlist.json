@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-12-17T23:03:33.748Z",
+  "timestamp": "2024-12-17T23:10:49.158Z",
   "tokens": [
     {
       "chainId": 1,
@@ -9137,6 +9137,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x92e52a1A235d9A103D970901066CE910AAceFD37",
+      "name": "UCASH",
+      "symbol": "UCASH",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/UCASH/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "UCASH"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x26cf750abAf38aF7109Effdbdf79bA50d2EE09A1",
+      "name": "UCASH",
+      "symbol": "UCASH",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/UCASH/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "UCASH"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x90DE74265a416e1393A450752175AED98fe11517",
       "name": "Unlock Discount Token",
       "symbol": "UDT",
@@ -10945,6 +10971,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 188
+    "patch": 189
   }
 }
