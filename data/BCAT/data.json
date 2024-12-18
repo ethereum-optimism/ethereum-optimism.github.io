@@ -3,6 +3,7 @@
   "symbol": "BCAT",
   "decimals": 9,
   "description": "The world's most famous cat in a banana suit.",
+  "nonstandard": true,
   "website": "https://bananacat.community/",
   "twitter": "@bananacat_erc20",
   "tokens": {
