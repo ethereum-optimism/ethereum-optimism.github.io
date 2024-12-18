@@ -1,0 +1,19 @@
+{
+    "name": "CryoDAO",
+    "symbol": "CRYO",
+    "decimals": 18,
+    "description": "CryoDAO Governance Token",
+    "website": "https://www.cryodao.org/",
+    "twitter": "@CryoDAO",
+    "tokens": {
+        "ethereum": {
+            "address": "0xf4308b0263723b121056938c2172868E408079D0"
+        },
+        "optimism": {
+            "address": "0x01402d1Bc10Ae6E96C0E494A5860748517a3c070"
+        },
+        "base": {
+            "address": "0x1f4446fAAAed23090f324f051C3F8c5ce5aD1c36"
+        }
+    }
+}

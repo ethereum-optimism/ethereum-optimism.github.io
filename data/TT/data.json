@@ -1,0 +1,16 @@
+{
+  "name": "TT",
+  "symbol": "TT",
+  "decimals": 6,
+  "description": "Testing token used in order to check Base bridge functionality for building dapps in Base blockchain. ",
+  "website": "https://token.com",
+  "twitter": "@token",
+  "tokens": {
+    "sepolia": {
+      "address": "0x19dcecf9308F058Ace0580CDc06b2932eb428d3c"
+    },
+    "base-sepolia": {
+      "address": "0x5b0331DFF07E9e11960A1Cf03AcAcec5AF263d09"
+    }
+  }
+}

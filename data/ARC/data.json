@@ -1,0 +1,16 @@
+{
+    "name": "ARC",
+    "symbol": "ARC",
+    "decimals": 18,
+    "description": "ARC is at the cutting edge of Web3 and AI advancements. Offering tools and proprietary technologies to facilitate developing and managing decentralized projects, ecosystems, and businesses. The cornerstone of these decentralized finance tools is Reactor, a user-friendly graphical user interface (GUI) for Web3, smart contract, and protocol contract development.",
+    "website": "https://www.arc.ai",
+    "twitter": "@ARCreactorAI",
+    "tokens": {
+      "ethereum": {
+        "address": "0xc82e3db60a52cf7529253b4ec688f631aad9e7c2"
+      },
+      "base": {
+        "address": "0x61CA70b867A48265e553a7FBb81bfe44FADa7AE6"
+      }
+    }
+  }

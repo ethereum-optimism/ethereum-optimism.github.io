@@ -1,0 +1,16 @@
+{
+    "name": "Ambire Wallet",
+    "symbol": "WALLET",
+    "decimals": 18,
+    "description": "The first DeFi wallet that combines power, security and ease of use, while also being open-source and non-custodial.",
+    "website": "https://ambire.com",
+    "twitter": "@AmbireWallet",
+    "tokens": {
+      "ethereum": {
+        "address": "0x88800092fF476844f74dC2FC427974BBee2794Ae"
+      },
+      "base": {
+        "address": "0x0BbbEad62f7647AE8323d2cb243A0DB74B7C2b80"
+      }
+    }
+  }

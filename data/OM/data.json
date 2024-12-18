@@ -1,0 +1,25 @@
+{
+  "name": "MANTRA DAO",
+  "symbol": "OM",
+  "decimals": 18,
+  "description": "MANTRA is a vertically-integrated and regulatory-compliant blockchain ecosystem.",
+  "website": "https://www.mantrachain.io/",
+  "twitter": "@MANTRAOMniverse",
+  "tokens": {
+    "ethereum": {
+      "address": "0x3593D125a4f7849a1B059E64F4517A86Dd60c95d"
+    },
+    "sepolia": {
+      "address": "0xCbC45aaD4a64B081a51b8ebD12a16864F3c0a930"
+    },
+    "base": {
+      "address": "0x3992B27dA26848C2b19CeA6Fd25ad5568B68AB98",
+      "overrides": {
+        "name": "MANTRA"
+      }
+    },
+    "base-sepolia": {
+      "address": "0x3011f9ef02c27a6a678e0099584c1c5be64134a1"
+    }
+  }
+}

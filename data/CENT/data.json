@@ -1,0 +1,15 @@
+{
+  "name": "One Cent Coin",
+  "symbol": "CENT",
+  "decimals": 18,
+  "description": "A $0.01 stable meme coin.",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x2fa824bb2e06d6cac7dbab00be37dc0f3d440e8b",
+      "overrides": {
+        "symbol": "🇺🇸"
+      }
+    }
+  }
+}

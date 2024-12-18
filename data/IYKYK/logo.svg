@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>iykyk</title>
+    <g id="iykyk" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#000000" x="0" y="0" width="1024" height="1024"></rect>
+        <g id="IYKYK" transform="translate(210.200000, 440.600000)" fill="#FFFFFF" fill-rule="nonzero">
+            <polygon id="Path" points="39 0 39 142.4 2.27373675e-13 142.4 2.27373675e-13 0"></polygon>
+            <polygon id="Path" points="93 0 120 54.2 146.4 0 188.6 0 138.8 85.4 138.8 142.4 100.2 142.4 100.2 85.8 50 0"></polygon>
+            <polygon id="Path" points="238.2 56 280.8 0 325.4 0 271.8 67.6 331.8 142.4 282.6 142.4 238.2 85 238.2 142.4 199.6 142.4 199.6 0 238.2 0"></polygon>
+            <polygon id="Path" points="375.8 0 402.8 54.2 429.2 0 471.4 0 421.6 85.4 421.6 142.4 383 142.4 383 85.8 332.8 0"></polygon>
+            <polygon id="Path" points="521 56 563.6 0 608.2 0 554.6 67.6 614.6 142.4 565.4 142.4 521 85 521 142.4 482.4 142.4 482.4 0 521 0"></polygon>
+        </g>
+    </g>
+</svg>
