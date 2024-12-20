@@ -1,0 +1,16 @@
+{
+  "name": "Rekt",
+  "symbol": "REKT",
+  "decimals": 18,
+  "description": "Rekt Coin is a meme coin inspired by the Rektguy NFT project celebrating rekt culture.",
+  "website": "https://rektcoin.com",
+  "twitter": "@RektCoin",
+  "tokens": {
+    "ethereum": {
+      "address": "0xdd3B11eF34cd511a2DA159034a05fcb94D806686"
+    },
+    "base": {
+      "address": "0xB3e3c89B8D9c88B1fe96856E382959eE6291ebbA"
+    }
+  }
+}
