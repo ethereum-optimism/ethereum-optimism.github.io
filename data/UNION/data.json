@@ -1,0 +1,16 @@
+{
+    "name": "Union",
+    "symbol": "UNION",
+    "decimals": 18,
+    "description": "A decentralized protocol for permissionless credit.",
+    "website": "https://union.finance/",
+    "twitter": "@unionprotocol",
+    "tokens": {
+        "ethereum": {
+            "address": "0x5Dfe42eEA70a3e6f93EE54eD9C321aF07A85535C"
+        },
+        "base": {
+            "address": "0x946A2C918F3D928B918C01D813644f27Bcd29D96"
+        }
+    }
+}
