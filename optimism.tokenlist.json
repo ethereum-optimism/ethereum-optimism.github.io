@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-12-22T09:44:15.113Z",
+  "timestamp": "2024-12-22T09:51:47.541Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6241,6 +6241,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x1Ca14f9830292f5e0228FC20F17d11AE457f503F",
+      "name": "Open Meta Token",
+      "symbol": "OMETA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OMETA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "OMETA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x80607684aBc37b507a3412A6839DBC9755c08de0",
+      "name": "Open Meta Token",
+      "symbol": "OMETA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OMETA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OMETA"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e",
       "name": "OMI Token",
       "symbol": "OMI",
@@ -11063,6 +11089,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 192
+    "patch": 193
   }
 }
