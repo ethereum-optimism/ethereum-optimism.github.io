@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-12-18T14:10:37.411Z",
+  "timestamp": "2024-12-22T09:44:15.113Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7083,6 +7083,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xdd3B11eF34cd511a2DA159034a05fcb94D806686",
+      "name": "Rekt",
+      "symbol": "REKT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/REKT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "REKT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB3e3c89B8D9c88B1fe96856E382959eE6291ebbA",
+      "name": "Rekt",
+      "symbol": "REKT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/REKT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "REKT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xae78736cd615f374d3085123a210448e74fc6393",
       "name": "Rocket Pool ETH",
       "symbol": "rETH",
@@ -11037,6 +11063,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 191
+    "patch": 192
   }
 }
