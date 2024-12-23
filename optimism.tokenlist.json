@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-12-22T09:51:47.541Z",
+  "timestamp": "2024-12-23T21:41:02.673Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5353,6 +5353,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MET"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xb26631c6dda06ad89b93c71400d25692de89c068",
+      "name": "Minds",
+      "symbol": "MINDS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MINDS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MINDS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x686015EbF044a1B8A4bE750346be00293a996071",
+      "name": "Minds",
+      "symbol": "MINDS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MINDS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MINDS"
       }
     },
     {
@@ -11089,6 +11115,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 193
+    "patch": 194
   }
 }
