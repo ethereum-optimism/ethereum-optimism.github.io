@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-12-23T21:41:02.673Z",
+  "timestamp": "2024-12-23T21:43:36.295Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3555,6 +3555,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GIV"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x68E2e5c9DFF32419A108713f83274a4Fb5e194CA",
+      "name": "Glacier Network",
+      "symbol": "GLS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GLS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "GLS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xe898bCD00B86A3eaE43914319D2D4460230f735c",
+      "name": "Glacier Network",
+      "symbol": "GLS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GLS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GLS"
       }
     },
     {
@@ -11115,6 +11141,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 194
+    "patch": 195
   }
 }
