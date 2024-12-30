@@ -1,0 +1,16 @@
+{
+  "name": "Glacier Network",
+  "symbol": "GLS",
+  "decimals": 18,
+  "description": "The First Data-Centric Blockchain to Supercharge AI at Scale",
+  "website": "https://www.glacier.io/",
+  "twitter": "@Glacier_Labs",
+  "tokens": {
+    "ethereum": {
+      "address": "0x68E2e5c9DFF32419A108713f83274a4Fb5e194CA"
+    },
+    "base": {
+      "address": "0xe898bCD00B86A3eaE43914319D2D4460230f735c"
+    }
+  }
+} 
