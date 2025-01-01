@@ -1,0 +1,16 @@
+{
+    "name": "PsyDAO Token",
+    "symbol": "PSY",
+    "decimals": 18,
+    "description": "PsyDAO Governance Token",
+    "website": "https://www.psydao.io/",
+    "twitter": "@psy_dao",
+    "tokens": {
+      "ethereum": {
+        "address": "0x2196B84EaCe74867b73fb003AfF93C11FcE1D47A"
+      },
+      "base": {
+        "address": "0x85d0E1BdE4E71AEDE97e0F0412c6E4B3D1E59a97"
+      }
+    }
+  }
