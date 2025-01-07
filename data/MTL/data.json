@@ -1,0 +1,16 @@
+{
+    "name": "Metal DAO",
+    "symbol": "MTL",
+    "decimals": 8,
+    "description": "Metal DAO is a community-driven platform that allows users to participate in the decision-making process of the Metal Dollar protocol. By holding MTL tokens, individuals gain the right to vote on proposals that determine the direction and evolution of the protocol.",
+    "website": "https://www.metalpay.com/",
+    "twitter": "@MetallicusTDBN",
+    "tokens": {
+      "ethereum": {
+        "address": "0xCEB1Ad1420252fc66856EB38497C267cF81F67cC"
+      },
+      "metall2": {
+        "address": "0xBCFc435d8F276585f6431Fc1b9EE9A850B5C00A9"
+      }
+    }
+  }
