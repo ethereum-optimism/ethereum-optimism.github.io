@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-07T01:15:18.854Z",
+  "timestamp": "2025-01-07T01:36:06.513Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7529,6 +7529,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xc98D64DA73a6616c42117b582e832812e7B8D57F",
+      "name": "RSS3",
+      "symbol": "RSS3",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RSS3/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "RSS3"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xDb4d83343623027B6b4C4D3354AE9FdA4A90AD67",
+      "name": "RSS3",
+      "symbol": "RSS3",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RSS3/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RSS3"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xd8F1460044925d2D5c723C7054cd9247027415B7",
       "name": "SAIL Token",
       "symbol": "SAIL",
@@ -11221,6 +11247,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 199
+    "patch": 200
   }
 }
