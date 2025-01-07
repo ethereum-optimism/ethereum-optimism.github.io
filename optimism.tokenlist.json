@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-07T01:07:43.544Z",
+  "timestamp": "2025-01-07T01:15:18.854Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8361,6 +8361,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x031B8d752d73d7Fe9678ACEf26e818280D0646b4",
+      "name": "SOVRUN",
+      "symbol": "SOVRN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOVRN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "SOVRN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xca4c2e10037ac1af9f501ecb11a710776c87d2d5",
+      "name": "SOVRUN",
+      "symbol": "SOVRN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOVRN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SOVRN"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x42d6622dece394b54999fbd73d108123806f6a18",
       "name": "SPANK",
       "symbol": "SPANK",
@@ -11195,6 +11221,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 198
+    "patch": 199
   }
 }
