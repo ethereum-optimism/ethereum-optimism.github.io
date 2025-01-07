@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-12-31T14:03:23.877Z",
+  "timestamp": "2025-01-07T01:36:06.513Z",
   "tokens": [
     {
       "chainId": 1,
@@ -98,6 +98,7 @@
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "default",
         "opTokenId": "AAVE"
       }
@@ -124,6 +125,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/AAVE/logo.svg",
       "extensions": {
         "modeBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "AAVE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x63706e401c06ac8513145b7687A14804d17f814b",
+      "name": "Aave Token",
+      "symbol": "AAVE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AAVE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "AAVE"
       }
@@ -7515,6 +7529,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xc98D64DA73a6616c42117b582e832812e7B8D57F",
+      "name": "RSS3",
+      "symbol": "RSS3",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RSS3/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "RSS3"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xDb4d83343623027B6b4C4D3354AE9FdA4A90AD67",
+      "name": "RSS3",
+      "symbol": "RSS3",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RSS3/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RSS3"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xd8F1460044925d2D5c723C7054cd9247027415B7",
       "name": "SAIL Token",
       "symbol": "SAIL",
@@ -8343,6 +8383,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "SOL"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x031B8d752d73d7Fe9678ACEf26e818280D0646b4",
+      "name": "SOVRUN",
+      "symbol": "SOVRN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOVRN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "SOVRN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xca4c2e10037ac1af9f501ecb11a710776c87d2d5",
+      "name": "SOVRUN",
+      "symbol": "SOVRN",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOVRN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SOVRN"
       }
     },
     {
@@ -11181,6 +11247,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 197
+    "patch": 200
   }
 }
