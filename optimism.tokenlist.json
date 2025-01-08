@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-07T01:50:19.637Z",
+  "timestamp": "2025-01-08T20:30:41.474Z",
   "tokens": [
     {
       "chainId": 1,
@@ -11023,6 +11023,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xdBB7a34Bf10169d6d2D0d02A6cbb436cF4381BFa",
+      "name": "Zentry",
+      "symbol": "ZENT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ZENT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "ZENT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xdf49c226ED9CF05Be0e38cdb86Df4E8A945158B1",
+      "name": "Zentry",
+      "symbol": "ZENT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ZENT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ZENT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0D505C03d30e65f6e9b4Ef88855a47a89e4b7676",
       "name": "ZoomerCoin",
       "symbol": "ZOOMER",
@@ -11273,6 +11299,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 201
+    "patch": 202
   }
 }
