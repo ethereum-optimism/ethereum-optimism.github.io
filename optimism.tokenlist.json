@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-08T20:30:41.474Z",
+  "timestamp": "2025-01-08T20:36:46.121Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8635,6 +8635,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x996d67aa9b37df96428ad3608cb21352bf1fdb90",
+      "name": "Staked Zentry",
+      "symbol": "stZENT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/stZENT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "stZENT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x58cDA7e1ef2de86586033989f7Fe5dB705F2a2F5",
+      "name": "Staked Zentry",
+      "symbol": "stZENT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/stZENT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "stZENT"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x3446dd70b2d52a6bf4a5a192d9b0a161295ab7f9",
       "name": "SUDO GOVERNANCE TOKEN",
       "symbol": "SUDO",
@@ -11299,6 +11325,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 202
+    "patch": 203
   }
 }
