@@ -1,16 +1,16 @@
 {
-    "name": "MetalSwap",
-    "symbol": "XMT",
-    "decimals": 18,
-    "description": "A decentralized platform that allows hedging swaps on financial markets providing a coverage to those working with commodities and investment opportunities for those who contribute to the shared liquidity of the project.",
-    "website": "https://metalswap.finance",
-    "twitter": "@MetalSwapNet",
-    "tokens": {
+  "name": "MetalSwap",
+  "symbol": "XMT",
+  "decimals": 18,
+  "description": "Metal DAO token is the governance token of the Metal DAO which oversees Metal L2 and Metal Dollar, both part of The Digital Banking Network (TDBN). Holders can vote on initiatives that advance these products. They also receive discounts on trading fees through the Metal Pay app.",
+  "website": "https://metalswap.finance",
+  "twitter": "@MetalSwapNet",
+  "tokens": {
       "ethereum": {
-        "address": "0x3E5D9D8a63CC8a88748f229999CF59487e90721e"
+          "address": "0x3E5D9D8a63CC8a88748f229999CF59487e90721e"
       },
       "optimism": {
-        "address": "0x3E5D9D8a63CC8a88748f229999CF59487e90721e"
+          "address": "0x3E5D9D8a63CC8a88748f229999CF59487e90721e"
       }
-    }
   }
+}
