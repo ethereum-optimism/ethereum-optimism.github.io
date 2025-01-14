@@ -115,7 +115,6 @@ We currently accept tokens on the following chains:
 - `base-sepolia`
 - `optimism-sepolia`
 - `mode`
-- `pgn`
 - `lisk`
 - `lisk-sepolia`
 - `redstone`

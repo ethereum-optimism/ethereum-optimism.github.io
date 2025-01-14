@@ -27,14 +27,6 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
-  pgn: {
-    id: 424,
-    name: 'PGN - Public Goods Network',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rpc.publicgoods.network'
-    ),
-    layer: 2,
-  },
   mode: {
     id: 34443,
     name: 'Mode',
@@ -93,14 +85,6 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
-  'pgn-sepolia': {
-    id: 58008,
-    name: 'PGN Sepolia',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rpc.sepolia.publicgoods.network'
-    ),
-    layer: 2,
-  },
   'lisk-sepolia': {
     id: 4202,
     name: 'Lisk Sepolia',
@@ -138,9 +122,6 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   base: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
-  pgn: {
-    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
-  },
   mode: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
@@ -159,9 +140,6 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   'base-sepolia': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
-  'pgn-sepolia': {
-    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
-  },
   'lisk-sepolia': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
@@ -173,14 +151,12 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
 export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   optimism: 'ethereum',
   base: 'ethereum',
-  pgn: 'ethereum',
   mode: 'ethereum',
   lisk: 'ethereum',
   redstone: 'ethereum',
   metall2: 'ethereum',
   'optimism-sepolia': 'sepolia',
   'base-sepolia': 'sepolia',
-  'pgn-sepolia': 'sepolia',
   'lisk-sepolia': 'sepolia',
   'metall2-sepolia': 'sepolia',
 }
@@ -197,10 +173,6 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     {
       l2Chain: 'base',
       l1StandardBridgeAddress: '0x3154Cf16ccdb4C6d922629664174b904d80F2C35',
-    },
-    {
-      l2Chain: 'pgn',
-      l1StandardBridgeAddress: '0xD0204B9527C1bA7bD765Fa5CCD9355d38338272b',
     },
     {
       l2Chain: 'mode',
@@ -223,10 +195,6 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     {
       l2Chain: 'optimism-sepolia',
       l1StandardBridgeAddress: '0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1',
-    },
-    {
-      l2Chain: 'pgn-sepolia',
-      l1StandardBridgeAddress: '0xFaE6abCAF30D23e233AC7faF747F2fC3a5a6Bfa3',
     },
     {
       l2Chain: 'base-sepolia',

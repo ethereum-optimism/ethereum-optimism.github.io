@@ -1,11 +1,7 @@
 {
   "name": "Superchain Token List",
   "logoURI": "https://ethereum-optimism.github.io/optimism.svg",
-  "keywords": [
-    "scaling",
-    "layer2",
-    "infrastructure"
-  ],
+  "keywords": ["scaling", "layer2", "infrastructure"],
   "timestamp": "2025-01-08T20:36:46.121Z",
   "tokens": [
     {
@@ -2173,7 +2169,6 @@
       "extensions": {
         "optimismBridgeAddress": "0x10E6593CDda8c58a1d0f14C5164B376352a55f2F",
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
-        "pgnBridgeAddress": "0xD0204B9527C1bA7bD765Fa5CCD9355d38338272b",
         "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
         "opListId": "default",
         "opTokenId": "DAI"
@@ -2213,7 +2208,6 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
       "extensions": {
-        "pgnBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "DAI"
       }
@@ -9866,7 +9860,6 @@
       "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
-        "pgnBridgeAddress": "0xD0204B9527C1bA7bD765Fa5CCD9355d38338272b",
         "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
         "liskBridgeAddress": "0x2658723Bf70c7667De6B25F99fcce13A16D25d08",
         "opListId": "default",
@@ -9894,7 +9887,6 @@
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
       "extensions": {
-        "pgnBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "USDT"
       }
