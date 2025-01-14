@@ -1,8 +1,12 @@
 {
   "name": "Superchain Token List",
   "logoURI": "https://ethereum-optimism.github.io/optimism.svg",
-  "keywords": ["scaling", "layer2", "infrastructure"],
-  "timestamp": "2025-01-08T20:36:46.121Z",
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2025-01-14T17:05:27.698Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2196,18 +2200,6 @@
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "DAI"
-      }
-    },
-    {
-      "chainId": 424,
-      "address": "0x6C121674ba6736644A7e73A8741407fE8a5eE5BA",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
-      "extensions": {
         "opListId": "default",
         "opTokenId": "DAI"
       }
@@ -9880,18 +9872,6 @@
       }
     },
     {
-      "chainId": 424,
-      "address": "0x6535b3db9B908a2bbA29F83c168a0e661C3fAbf7",
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
-      "extensions": {
-        "opListId": "default",
-        "opTokenId": "USDT"
-      }
-    },
-    {
       "chainId": 34443,
       "address": "0xf0F161fDA2712DB8b566946122a5af183995e2eD",
       "name": "Tether USD",
@@ -11317,6 +11297,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 203
+    "patch": 204
   }
 }
