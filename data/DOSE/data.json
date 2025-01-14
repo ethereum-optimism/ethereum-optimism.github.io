@@ -1,0 +1,22 @@
+{
+  "name": "DOSE",
+  "symbol": "DOSE",
+  "decimals": 18,
+  "description": "DOSE is an ERC-20 utility token that is designed to be the currency of purchase, utility, and action in supported Play-to-Reward gamified fitness games within the OliveX ecosystem.",
+  "website": "https://www.dosetoken.com/",
+  "twitter": "https://twitter.com/DOSEToken",
+  "tokens": {
+    "ethereum": {
+      "address": "0xb31ef9e52d94d4120eb44fe1ddfde5b4654a6515"
+    },
+    "sepolia": {
+      "address": "0x466027eea4c47dd172a3f0bdd5f9d74b230bde10"
+    },
+    "base-sepolia": {
+      "address": "0x063ba9e853d30f1a45417500d9b72dc3caab3d4b"
+    },
+    "base": {
+      "address": "0x455234ab787665a219125235fb01b22b512dfcaa"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Burn",
+  "symbol": "BURN",
+  "decimals": 18,
+  "description": "The $BURN token is an extremely hyper-deflationary currency that is built to become more scarce with each transaction that takes place within the $BURN economy.",
+  "website": "https://www.deflationary.com/",
+  "twitter": "https://twitter.com/realshibadoge",
+  "tokens": {
+    "ethereum": {
+      "address": "0xa2fe5e51729be71261bcf42854012827bc44c044"
+    },
+    "base": {
+      "address": "0xE678215723A44647F4729E92E0032e1634105CAb"
+    }
+  }
+}

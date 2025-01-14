@@ -1,0 +1,22 @@
+{
+    "name": "WalletConnect",
+    "symbol": "WCT",
+    "decimals": 18,
+    "description": "WCT is the native token of the WalletConnect Network",
+    "website": "https://walletconnect.network/",
+    "twitter": "@WalletConnect",
+    "tokens": {
+      "ethereum": {
+        "address": "0x61cc6aF18C351351148815c5F4813A16DEe7A7E4"
+      },
+      "optimism": {
+        "address": "0xef4461891dfb3ac8572ccf7c794664a8dd927945"
+      },
+      "sepolia": {
+        "address": "0xb7fB16053a3E3d4306791045769EC686F6EC4432"
+      },
+      "optimism-sepolia": {
+        "address": "0x75bb6dcA2cD6F9a0189c478bBb8F7EE2fEF07C78"
+      }
+    }
+  }

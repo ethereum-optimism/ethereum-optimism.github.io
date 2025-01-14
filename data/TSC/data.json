@@ -1,0 +1,16 @@
+{
+  "name": "The Secret Coin",
+  "symbol": "TSC",
+  "decimals": 18,
+  "description": "The Secret Coin is a fun Meme coin on the Ethereum network.",
+  "website": "http://www.thesecretcoin.io/",
+  "twitter": "https://twitter.com/Secretcoin1848",
+  "tokens": {
+    "ethereum": {
+      "address": "0x617ead3c59ded3ea1bb17881118cf310144b450f"
+    },
+    "base": {
+      "address": "0xfee5178bb6ad41e7d5bbc7f6145feb27460dd1ed"
+    }
+  }
+}
