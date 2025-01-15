@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-15T02:07:50.131Z",
+  "timestamp": "2025-01-15T11:27:29.134Z",
   "tokens": [
     {
       "chainId": 1,
@@ -822,6 +822,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "AXGT"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x9E6be44cC1236eEf7e1f197418592D363BedCd5A",
+      "name": "Azuro",
+      "symbol": "AZUR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AZUR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "AZUR"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2b4D0Fc2294Aa9686ADF6c5a7Ba25f66Dccdf6C0",
+      "name": "Azuro",
+      "symbol": "AZUR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AZUR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "AZUR"
       }
     },
     {
@@ -11365,6 +11391,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 207
+    "patch": 208
   }
 }
