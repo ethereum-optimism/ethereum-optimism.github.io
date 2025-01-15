@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-08T20:36:46.121Z",
+  "timestamp": "2025-01-15T02:04:16.446Z",
   "tokens": [
     {
       "chainId": 1,
@@ -244,6 +244,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ACX"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3",
+      "name": "AdEx Network",
+      "symbol": "ADX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ADEX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "ADEX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x3c87e7AF3cDBAe5bB56b4936325Ea95CA3E0EfD9",
+      "name": "AdEx Network",
+      "symbol": "ADX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ADEX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ADEX"
       }
     },
     {
@@ -2173,7 +2199,6 @@
       "extensions": {
         "optimismBridgeAddress": "0x10E6593CDda8c58a1d0f14C5164B376352a55f2F",
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
-        "pgnBridgeAddress": "0xD0204B9527C1bA7bD765Fa5CCD9355d38338272b",
         "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
         "opListId": "default",
         "opTokenId": "DAI"
@@ -2201,19 +2226,6 @@
       "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "DAI"
-      }
-    },
-    {
-      "chainId": 424,
-      "address": "0x6C121674ba6736644A7e73A8741407fE8a5eE5BA",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
-      "extensions": {
-        "pgnBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "DAI"
       }
@@ -9866,9 +9878,9 @@
       "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
-        "pgnBridgeAddress": "0xD0204B9527C1bA7bD765Fa5CCD9355d38338272b",
         "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
         "liskBridgeAddress": "0x2658723Bf70c7667De6B25F99fcce13A16D25d08",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "default",
         "opTokenId": "USDT"
       }
@@ -9882,19 +9894,6 @@
       "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "USDT"
-      }
-    },
-    {
-      "chainId": 424,
-      "address": "0x6535b3db9B908a2bbA29F83c168a0e661C3fAbf7",
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
-      "extensions": {
-        "pgnBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "USDT"
       }
@@ -9921,6 +9920,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
       "extensions": {
         "liskBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "USDT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "USDT"
       }
@@ -11325,6 +11337,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 203
+    "patch": 206
   }
 }
