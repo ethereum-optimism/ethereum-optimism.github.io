@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-15T02:04:16.446Z",
+  "timestamp": "2025-01-15T02:07:50.131Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8250,6 +8250,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/SNT/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "SNT"
       }
@@ -8268,6 +8269,19 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0x662015EC830DF08C0FC45896FaB726542e8AC09E",
+      "name": "Status Network Token",
+      "symbol": "SNT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SNT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SNT"
+      }
+    },
+    {
       "chainId": 11155111,
       "address": "0xE452027cdEF746c7Cd3DB31CB700428b16cD8E51",
       "name": "Status Test Token",
@@ -8276,6 +8290,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/SNT/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
         "opListId": "extended",
         "opTokenId": "SNT"
       }
@@ -8289,6 +8304,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/SNT/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SNT"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0xfDB3b57944943a7724fCc0520eE2B10659969a06",
+      "name": "Status Test Token",
+      "symbol": "STT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SNT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SNT"
       }
@@ -11337,6 +11365,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 206
+    "patch": 207
   }
 }
