@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-14T19:25:45.597Z",
+  "timestamp": "2025-01-15T02:04:16.446Z",
   "tokens": [
     {
       "chainId": 1,
@@ -244,6 +244,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ACX"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3",
+      "name": "AdEx Network",
+      "symbol": "ADX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ADEX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "ADEX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x3c87e7AF3cDBAe5bB56b4936325Ea95CA3E0EfD9",
+      "name": "AdEx Network",
+      "symbol": "ADX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ADEX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ADEX"
       }
     },
     {
@@ -11311,6 +11337,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 205
+    "patch": 206
   }
 }
