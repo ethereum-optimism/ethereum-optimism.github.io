@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-25T14:06:02.410Z",
+  "timestamp": "2025-01-25T14:11:14.526Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5405,6 +5405,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "MAVIA"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xb7109df1a93f8fe2B8162c6207C9B846C1C68090",
+      "name": "Matr1x",
+      "symbol": "MAX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MAX/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MAX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xA866d0ffa4e9e52eAde4770Af11496E8d237086C",
+      "name": "Matr1x",
+      "symbol": "MAX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MAX/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MAX"
       }
     },
     {
@@ -11483,6 +11509,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 212
+    "patch": 213
   }
 }
