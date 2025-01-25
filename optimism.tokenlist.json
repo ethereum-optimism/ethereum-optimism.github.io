@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-15T11:27:29.134Z",
+  "timestamp": "2025-01-25T12:23:55.567Z",
   "tokens": [
     {
       "chainId": 1,
@@ -9702,6 +9702,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x6b4BCfeCcf80AB79EAE40475af34Cd986e583090",
+      "name": "UOMI",
+      "symbol": "UOMI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UOMI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "UOMI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x3628d69aa2d66E9efE95Ab1267d440dEc24389B6",
+      "name": "UOMI",
+      "symbol": "UOMI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UOMI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "UOMI"
+      }
+    },
+    {
       "chainId": 8453,
       "address": "0xac27fa800955849d6d17cc8952ba9dd6eaa66187",
       "name": "UnlockProtocolToken",
@@ -11391,6 +11417,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 208
+    "patch": 209
   }
 }
