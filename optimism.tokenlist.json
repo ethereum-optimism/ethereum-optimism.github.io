@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-25T12:23:55.567Z",
+  "timestamp": "2025-01-25T13:56:03.172Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4713,6 +4713,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "LDO"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x1B1FF83AE0751ffb7ce0224e9C330e859E95dD16",
+      "name": "Legend",
+      "symbol": "LEGEND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LEGEND/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "LEGEND"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc7837BE3d71E00fcbE76D77602BCf353Df859664",
+      "name": "Legend",
+      "symbol": "LEGEND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LEGEND/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LEGEND"
       }
     },
     {
@@ -11417,6 +11443,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 209
+    "patch": 210
   }
 }
