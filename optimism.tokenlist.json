@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-15T11:27:29.134Z",
+  "timestamp": "2025-01-25T14:11:14.526Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4069,6 +4069,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+      "name": "HEX",
+      "symbol": "HEX",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/HEX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "HEX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x60B407479ef0ddF6Cc146ceD609aa07d4296F204",
+      "name": "HEX",
+      "symbol": "HEX",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/HEX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "HEX"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x25cbb21a9da7c3c63bb77ccca5b2e2482aedb710",
       "name": "Honey Badger",
       "symbol": "HOBA",
@@ -4717,6 +4743,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x1B1FF83AE0751ffb7ce0224e9C330e859E95dD16",
+      "name": "Legend",
+      "symbol": "LEGEND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LEGEND/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "LEGEND"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc7837BE3d71E00fcbE76D77602BCf353Df859664",
+      "name": "Legend",
+      "symbol": "LEGEND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LEGEND/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LEGEND"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x7138Eb0d563f3F6722500936A11DcAe99D738A2c",
       "name": "LIF3",
       "symbol": "LIF3",
@@ -5353,6 +5405,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "MAVIA"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xb7109df1a93f8fe2B8162c6207C9B846C1C68090",
+      "name": "Matr1x",
+      "symbol": "MAX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MAX/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MAX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xA866d0ffa4e9e52eAde4770Af11496E8d237086C",
+      "name": "Matr1x",
+      "symbol": "MAX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MAX/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MAX"
       }
     },
     {
@@ -6744,6 +6822,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/PERP/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "default",
         "opTokenId": "PERP"
       }
@@ -6757,6 +6836,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/PERP/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "PERP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xCD6dDDa305955AcD6b94b934f057E8b0daaD58dE",
+      "name": "Perpetual",
+      "symbol": "PERP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PERP/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "PERP"
       }
@@ -9702,6 +9794,32 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x6b4BCfeCcf80AB79EAE40475af34Cd986e583090",
+      "name": "UOMI",
+      "symbol": "UOMI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UOMI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "UOMI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x3628d69aa2d66E9efE95Ab1267d440dEc24389B6",
+      "name": "UOMI",
+      "symbol": "UOMI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UOMI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "UOMI"
+      }
+    },
+    {
       "chainId": 8453,
       "address": "0xac27fa800955849d6d17cc8952ba9dd6eaa66187",
       "name": "UnlockProtocolToken",
@@ -11391,6 +11509,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 208
+    "patch": 213
   }
 }
