@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-25T14:11:14.526Z",
+  "timestamp": "2025-01-25T14:13:44.438Z",
   "tokens": [
     {
       "chainId": 1,
@@ -9023,6 +9023,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x467Bccd9d29f223BcE8043b84E8C8B282827790F",
+      "name": "Telcoin",
+      "symbol": "TEL",
+      "decimals": 2,
+      "logoURI": "https://ethereum-optimism.github.io/data/TEL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "TEL"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x09bE1692ca16e06f536F0038fF11D1dA8524aDB1",
+      "name": "Telcoin",
+      "symbol": "TEL",
+      "decimals": 2,
+      "logoURI": "https://ethereum-optimism.github.io/data/TEL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TEL"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xdd16ec0f66e54d453e6756713e533355989040e4",
       "name": "Tokenomy",
       "symbol": "TEN",
@@ -11509,6 +11535,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 213
+    "patch": 214
   }
 }
