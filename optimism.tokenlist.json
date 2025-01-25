@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-25T13:56:03.172Z",
+  "timestamp": "2025-01-25T14:01:03.170Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4065,6 +4065,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "HEU"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+      "name": "HEX",
+      "symbol": "HEX",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/HEX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "HEX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x60B407479ef0ddF6Cc146ceD609aa07d4296F204",
+      "name": "HEX",
+      "symbol": "HEX",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/HEX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "HEX"
       }
     },
     {
@@ -11443,6 +11469,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 210
+    "patch": 211
   }
 }
