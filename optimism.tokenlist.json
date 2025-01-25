@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-01-25T14:01:03.170Z",
+  "timestamp": "2025-01-25T14:06:02.410Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6796,6 +6796,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/PERP/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "default",
         "opTokenId": "PERP"
       }
@@ -6809,6 +6810,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/PERP/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "PERP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xCD6dDDa305955AcD6b94b934f057E8b0daaD58dE",
+      "name": "Perpetual",
+      "symbol": "PERP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/PERP/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "PERP"
       }
@@ -11469,6 +11483,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 211
+    "patch": 212
   }
 }
