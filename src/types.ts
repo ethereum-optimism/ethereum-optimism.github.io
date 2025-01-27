@@ -25,8 +25,6 @@ export type Chain =
   | 'base'
   | 'optimism-sepolia'
   | 'base-sepolia'
-  | 'pgn'
-  | 'pgn-sepolia'
   | 'sepolia'
   | 'mode'
   | 'lisk'
@@ -40,8 +38,6 @@ const l2Chains = [
   'optimism-sepolia',
   'base',
   'base-sepolia',
-  'pgn-sepolia',
-  'pgn',
   'mode',
   'lisk',
   'lisk-sepolia',

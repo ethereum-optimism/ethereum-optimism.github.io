@@ -14,6 +14,9 @@
       },
       "base-sepolia": {
         "address": "0x4a89c86bc3645E6FC0ba945F9eDF070C9B5AEaEa"
+      },
+      "base": {
+        "address": "0x0F4d237B09Cb37d207BA60353Dc254d4530D4dF1"
       }
     }
   }

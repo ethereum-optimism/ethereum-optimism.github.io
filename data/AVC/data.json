@@ -1,0 +1,16 @@
+{
+    "name": "Animalverse Club",
+    "symbol": "AVC",
+    "decimals": 18,
+    "description": "Animalverse Club (AVC) token is an important part of the Animalverse Lab.CO.,LTD ecosystem and is an important step for a startup like us to showcase our potential to the world publick good., Prepare for the ultimate Animalverse Club (AVC) upgrade! We’re sending What people crave for is neutrality and independence in social media. through our ecosystem fave towards a more sustainable future. Stake AVC today to start earning eco-friendly rewards.",
+    "website": "https://animalverse.club",
+    "twitter": "@AnimalverseClub",
+    "tokens": {
+        "ethereum": {
+            "address": "0xF5a893Cc9b09c46FDAeCE4301Abc88C5c9C926C2"
+        },
+        "base": {
+            "address": "0xaCB1c6492a3d7CB8F38F04496381902ba55Ed3C5"
+        }
+    }
+}

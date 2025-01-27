@@ -12,14 +12,14 @@
     "optimism": {
       "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58"
     },
-    "pgn": {
-      "address": "0x6535b3db9B908a2bbA29F83c168a0e661C3fAbf7"
-    },
     "mode": {
       "address": "0xf0F161fDA2712DB8b566946122a5af183995e2eD"
     },
     "lisk": {
       "address": "0x05D032ac25d322df992303dCa074EE7392C117b9"
+    },
+    "base": {
+      "address": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2"
     }
   }
 }

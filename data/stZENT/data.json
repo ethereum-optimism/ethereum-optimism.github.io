@@ -1,0 +1,16 @@
+{
+  "name": "Staked Zentry",
+  "symbol": "stZENT",
+  "decimals": 18,
+  "description": "The Metagame, The Unified Play Layer Bridging Gaming, AI, and Blockchain",
+  "website": "https://zentry.com",
+  "twitter": "@zentry",
+  "tokens": {
+    "ethereum": {
+      "address": "0x996d67aa9b37df96428ad3608cb21352bf1fdb90"
+    },
+    "base": {
+      "address": "0x58cDA7e1ef2de86586033989f7Fe5dB705F2a2F5"
+    }
+  }
+}

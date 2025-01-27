@@ -1,0 +1,19 @@
+{
+    "name": "Covalent X Token",
+    "symbol": "CXT",
+    "decimals": 18,
+    "description": "Covalent is the leading modular data infrastructure layer that's dedicated to solving the Long-Term Data Availability and the verifiability problems in AI.",
+    "website": "https://covalenthq.com",
+    "twitter": "@Covalent_HQ",
+    "tokens": {
+      "ethereum": {
+        "address": "0x7ABc8A5768E6bE61A6c693a6e4EAcb5B60602C4D"
+      },
+      "sepolia": {
+        "address": "0x72E2f504a0769458ACdCdd24236912f48342457C"
+      },
+      "base": {
+        "address": "0xB1E1f3Cc2B6fE4420C1Ac82022b457018Eb628ff"
+      }
+    }
+  }
