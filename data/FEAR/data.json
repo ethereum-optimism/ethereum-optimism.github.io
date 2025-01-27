@@ -1,0 +1,16 @@
+{
+  "name": "Fear NFTs",
+  "symbol": "FEAR",
+  "decimals": 18,
+  "description": "FEAR is a Horror Games and Films entertainment platform tokenising nightmares on the blockchain.",
+  "website": "https://www.fear.io/",
+  "twitter": "@fearnfts",
+  "tokens": {
+    "ethereum": {
+      "address": "0x88A9A52F944315D5B4e917b9689e65445C401E83"
+    },
+    "base": {
+      "address": "0x2CcC99A0a27D52F529A541B8A13E2440376ea3B9"
+    }
+  }
+}
