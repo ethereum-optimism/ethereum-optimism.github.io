@@ -24,6 +24,7 @@ jobs:
       - node/install-packages:
           pkg-manager: npm
           override-ci-command: pnpm install --frozen-lockfile
+          cache-path: pnpm-lock.yaml
 
       # Configure git for version bump
       - run:
