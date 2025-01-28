@@ -21,10 +21,13 @@ jobs:
       image: ubuntu-2204:2024.08.1
     steps:
       - checkout
-      - node/install-packages:
-          pkg-manager: npm
-          override-ci-command: pnpm install --frozen-lockfile
-          cache-path: pnpm-lock.yaml
+      - run:
+          name: Install pnpm
+          command: |
+            npm install -g pnpm
+      - run:
+          name: Install dependencies
+          command: pnpm install --frozen-lockfile
 
       # Configure git for version bump
       - run:
