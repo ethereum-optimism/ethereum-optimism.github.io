@@ -16,13 +16,13 @@ parameters:
       ]
 
 jobs:
-  generate:
+  generate-token-list:
     machine:
       image: ubuntu-2204:2024.08.1
     steps:
       - checkout
       - node/install-packages:
-          pkg-manager: pnpm
+          pkg-manager: npm
           override-ci-command: pnpm install --frozen-lockfile
 
       # Configure git for version bump
@@ -49,7 +49,7 @@ jobs:
 
 workflows:
   version: 2
-  generate-token-list:
+  generate-token-list-workflow:
     # when:
     #   or:
     #     - equal: [<< pipeline.parameters.run_job >>, "generate-token-list"]
@@ -58,7 +58,7 @@ workflows:
     #         - not:
     #             equal: [<< pipeline.trigger_source >>, "api"]
     jobs:
-      - generate
+      - generate-token-list
           # filters:
           #   branches:
           #     only: master
