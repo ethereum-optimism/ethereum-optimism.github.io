@@ -1,0 +1,64 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@5.1.0
+  gcp-cli: circleci/gcp-cli@3.0.1
+  utils: ethereum-optimism/circleci-utils@0.0.15
+
+parameters:
+  run_job:
+    type: enum
+    default: "select_job"
+    enum:
+      [
+        "select_job",
+        "generate-token-list"
+      ]
+
+jobs:
+  generate:
+    machine:
+      image: ubuntu-2204:2024.08.1
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: pnpm
+          override-ci-command: pnpm install --frozen-lockfile
+
+      # Configure git for version bump
+      - run:
+          name: Configure Git
+          command: |
+            git config --global user.email "mergify[bot]@users.noreply.github.com"
+            git config --global user.name "mergify[bot]"
+
+      # Patch version and generate token list
+      - run:
+          name: Update version and generate token list
+          command: |
+            npm version patch
+            pnpm generate:ci
+
+      # # Commit and push changes
+      # - run:
+      #     name: Commit changes
+      #     command: |
+      #       git add optimism.tokenlist.json
+      #       git commit -m "bot(ci): generate token list"
+      #       git push origin $CIRCLE_BRANCH
+
+workflows:
+  version: 2
+  generate-token-list:
+    # when:
+    #   or:
+    #     - equal: [<< pipeline.parameters.run_job >>, "generate-token-list"]
+    #     - and:
+    #         - equal: [<< pipeline.git.branch >>, "master"]
+    #         - not:
+    #             equal: [<< pipeline.trigger_source >>, "api"]
+    jobs:
+      - generate
+          # filters:
+          #   branches:
+          #     only: master
