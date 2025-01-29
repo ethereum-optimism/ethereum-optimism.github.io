@@ -3,7 +3,7 @@ version: 2.1
 orbs:
   node: circleci/node@5.1.0
   gcp-cli: circleci/gcp-cli@3.0.1
-  utils: ethereum-optimism/circleci-utils@0.0.15
+  utils: ethereum-optimism/circleci-utils@dev:first
 
 parameters:
   run_job:
@@ -40,28 +40,20 @@ jobs:
     steps:
       - checkout
       - setup-node-env
-
-      # Configure git for version bump
-      - run:
-          name: Configure Git
-          command: |
-            git config --global user.email "mergify[bot]@users.noreply.github.com"
-            git config --global user.name "mergify[bot]"
-
-      # Patch version and generate token list
       - run:
           name: Update version and generate token list
           command: |
+            # Patch version and generate token list
             npm version patch
             pnpm generate:ci
+      - utils/get-github-access-token
+      - utils/github-commit-and-push-changes:
+          commit-username: "mergify[bot]"
+          commit-email: "mergify[bot]@users.noreply.github.com"
+          commit-message: "bot(ci): generate token list"
+          skip-ci: true
+          path: "optimism.tokenlist.json"
 
-      # # Commit and push changes
-      # - run:
-      #     name: Commit changes
-      #     command: |
-      #       git add optimism.tokenlist.json
-      #       git commit -m "bot(ci): generate token list"
-      #       git push origin $CIRCLE_BRANCH
 
 workflows:
   version: 2
