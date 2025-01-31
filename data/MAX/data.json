@@ -1,0 +1,13 @@
+{
+    "name": "Matr1x",
+    "symbol": "MAX",
+    "decimals": 18,
+    "tokens": {
+      "ethereum": {
+        "address": "0xb7109df1a93f8fe2B8162c6207C9B846C1C68090"
+      },
+      "base": {
+        "address": "0xA866d0ffa4e9e52eAde4770Af11496E8d237086C"
+      }
+    }
+  }

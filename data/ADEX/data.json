@@ -1,0 +1,16 @@
+{
+  "name": "AdEx Network",
+  "symbol": "ADX",
+  "decimals": 18,
+  "description": "With the AdEx ad platform, you target the untapped market of Web2 users entering the Web3 space - evolving with AI integration",
+  "website": "https://www.adex.network",
+  "twitter": "@AdEx_Ads",
+  "tokens": {
+    "ethereum": {
+      "address": "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3"
+    },
+    "base": {
+      "address": "0x3c87e7AF3cDBAe5bB56b4936325Ea95CA3E0EfD9"
+    }
+  }
+}
