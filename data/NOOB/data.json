@@ -1,0 +1,16 @@
+{
+    "name": "NOOB",
+    "symbol": "NOOB",
+    "decimals": 18,
+    "description": "The NOOB token is the primary crypto token within Blast Royale. With a total supply of 512 million tokens, it enables players to access exclusive features and engage with the broader Web3 economy. Players can use NOOB tokens to purchase limited-edition skins, characters, and bundles, as well as to trade NFTs within the Blast Hub marketplace. The marketplace facilitates buying, selling, and transferring digital assets, enhancing the game’s decentralized economy.\r\nIn addition to its role in transactions, the NOOB token is also a reward mechanism. Players can earn NOOB through gameplay activities, leaderboard achievements, and special events. It is also used as an entry fee for high-stakes tournaments, where winners receive a share of the prize pool.",
+    "website": "https://www.blastroyale.com/",
+    "twitter": "@blastroyale",
+    "tokens": {
+      "ethereum": {
+        "address": "0x06561dC5CEdCc012a4EA68609b17d41499622E4c"
+      },
+      "base": {
+        "address": "0xa528f1903b1cb425c05f1c80bf92f158a4932118"
+      }
+    }
+  }
