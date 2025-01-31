@@ -1,0 +1,13 @@
+{
+  "name": "Pett AI",
+  "symbol": "AIP",
+  "decimals": 18,
+  "description": "PettAI is an AI-driven game merging advanced gameplay with intricate economics.",
+  "website": "https://www.pett.ai/",
+  "twitter": "@pett_ai",
+  "tokens": {
+    "base": {
+      "address": "0x02D4f76656C2B4f58430e91f8ac74896c9281Cb9"
+    }
+  }
+}
