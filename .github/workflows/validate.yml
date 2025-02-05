@@ -59,19 +59,21 @@ jobs:
         run: |
           cat std.txt; cat err.txt
 
-      - name: Upload artifacts
+      - name: Upload logs artifact
         if: ${{ always() && steps.changed_tokens.outputs.result != '' }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: logs-artifact
+          name: logs-artifact-${{ github.run_id }}
           path: |
             pr.txt
             err.txt
             std.txt
+          overwrite: true
 
       - name: Upload validation results
         if: ${{ always() && steps.changed_tokens.outputs.result != '' }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: validation-artifacts
+          name: validation-artifacts-${{ github.run_id }}
           path: validation_results.txt
+          overwrite: true
