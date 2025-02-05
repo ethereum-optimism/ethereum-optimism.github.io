@@ -8,10 +8,7 @@
   "nobridge": true,
   "tokens": {
     "base": {
-      "address": "0xdbfefd2e8460a6ee4955a68582f85708baea60a3",
-      "overrides": {
-        "symbol": "superOETHb"
-      }
+      "address": "0xdbfefd2e8460a6ee4955a68582f85708baea60a3"
     }
   }
 }
