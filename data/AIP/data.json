@@ -9,5 +9,6 @@
     "base": {
       "address": "0x02D4f76656C2B4f58430e91f8ac74896c9281Cb9"
     }
-  }
+  },
+  "nobridge": true
 }
