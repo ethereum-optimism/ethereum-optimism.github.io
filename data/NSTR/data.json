@@ -1,16 +1,16 @@
 {
-    "name": "Nostra",
-    "symbol": "NSTR",
-    "decimals": 18,
-    "description": "NSTR is the native token of Nostra, Starknet’s leading DeFi platform by TVL. NSTR gives holders governance rights over Nostra’s crypto super app, where users can lend, borrow, swap, and bridge their crypto—all within one secure, user-friendly interface.",
-    "website": "https://nostra.finance/",
-    "twitter": "@nostrafinance",
-    "tokens": {
-      "ethereum": {
-        "address": "0x610dBd98A28EbbA525e9926b6aaF88f9159edbfd"
-      },
-      "base": {
-        "address": "0x08D7Ea3c148672C4b03999EB0D0467733Da2db6A"
-      }
+  "name": "Nostra",
+  "symbol": "NSTR",
+  "decimals": 18,
+  "description": "NSTR is the native token of Nostra, Starknet’s leading DeFi platform by TVL. NSTR gives holders governance rights over Nostra’s crypto super app, where users can lend, borrow, swap, and bridge their crypto—all within one secure, user-friendly interface.",
+  "website": "https://nostra.finance/",
+  "twitter": "@nostrafinance",
+  "tokens": {
+    "ethereum": {
+      "address": "0x610dBd98A28EbbA525e9926b6aaF88f9159edbfd"
+    },
+    "base": {
+      "address": "0x08D7Ea3c148672C4b03999EB0D0467733Da2db6A"
     }
+  }
 }

@@ -6,17 +6,17 @@
   "website": "https://bepro.network",
   "twitter": "@bepronet",
   "tokens": {
-      "ethereum": {
-          "address": "0xCF3C8Be2e2C42331Da80EF210e9B1b307C03d36A",
-          "overrides": {
-            "name": "Bepro Token"
-          }
-      },
-      "base": {
-          "address": "0xf1095aa7DC127ed45441aCfb742694d6a0261b00",
-          "overrides": {
-            "name": "Bepro Token"
-          }
+    "ethereum": {
+      "address": "0xCF3C8Be2e2C42331Da80EF210e9B1b307C03d36A",
+      "overrides": {
+        "name": "Bepro Token"
       }
+    },
+    "base": {
+      "address": "0xf1095aa7DC127ed45441aCfb742694d6a0261b00",
+      "overrides": {
+        "name": "Bepro Token"
+      }
+    }
   }
 }

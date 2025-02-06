@@ -3,7 +3,7 @@
   "symbol": "MORPHO",
   "decimals": 18,
   "tokens": {
-   "ethereum": {
+    "ethereum": {
       "address": "0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
       "overrides": {
         "bridge": {
@@ -17,7 +17,7 @@
         "bridge": "0x4200000000000000000000000000000000000010"
       }
     },
-   "sepolia": {
+    "sepolia": {
       "address": "0x3CF66a662390e37ff260D0cBAa8Af6d426D60D43",
       "overrides": {
         "bridge": {

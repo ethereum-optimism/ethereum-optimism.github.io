@@ -28,7 +28,7 @@
       "address": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b",
       "overrides": {
         "bridge": {
-            "optimism-sepolia" : "0x4Abf633d9c0F4aEebB4C2E3213c7aa1b8505D332"
+          "optimism-sepolia": "0x4Abf633d9c0F4aEebB4C2E3213c7aa1b8505D332"
         }
       }
     },

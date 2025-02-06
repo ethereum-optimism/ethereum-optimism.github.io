@@ -5,11 +5,11 @@
   "website": "https://rss3.io/",
   "twitter": "https://x.com/rss3_",
   "tokens": {
-      "ethereum": {
-          "address": "0xc98D64DA73a6616c42117b582e832812e7B8D57F"
-      },
-      "base": {
-          "address": "0xDb4d83343623027B6b4C4D3354AE9FdA4A90AD67"
-      }
+    "ethereum": {
+      "address": "0xc98D64DA73a6616c42117b582e832812e7B8D57F"
+    },
+    "base": {
+      "address": "0xDb4d83343623027B6b4C4D3354AE9FdA4A90AD67"
+    }
   }
 }

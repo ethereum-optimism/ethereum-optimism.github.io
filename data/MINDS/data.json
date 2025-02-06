@@ -1,16 +1,16 @@
 {
-    "name": "Minds",
-    "symbol": "MINDS",
-    "decimals": 18,
-    "description": "The Minds Token",
-    "website": "https://www.minds.com",
-    "twitter": "@minds",
-    "tokens": {
-      "ethereum": {
-        "address": "0xb26631c6dda06ad89b93c71400d25692de89c068"
-      },
-      "base": {
-        "address": "0x686015EbF044a1B8A4bE750346be00293a996071"
-      }
+  "name": "Minds",
+  "symbol": "MINDS",
+  "decimals": 18,
+  "description": "The Minds Token",
+  "website": "https://www.minds.com",
+  "twitter": "@minds",
+  "tokens": {
+    "ethereum": {
+      "address": "0xb26631c6dda06ad89b93c71400d25692de89c068"
+    },
+    "base": {
+      "address": "0x686015EbF044a1B8A4bE750346be00293a996071"
     }
   }
+}

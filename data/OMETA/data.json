@@ -1,16 +1,16 @@
 {
-    "name": "Open Meta Token",
-    "symbol": "OMETA",
-    "decimals": 18,
-    "description": "$OMETA is the official token of the Open Metaverse — where interoperability is not just a feature, but a foundation.",
-    "website": "https://www.openmeta.xyz/",
-    "twitter": "@TimeofEmergence",
-    "tokens": {
-      "ethereum": {
-        "address": "0x1Ca14f9830292f5e0228FC20F17d11AE457f503F"
-      },
-      "base": {
-        "address": "0x80607684aBc37b507a3412A6839DBC9755c08de0"
-      }
+  "name": "Open Meta Token",
+  "symbol": "OMETA",
+  "decimals": 18,
+  "description": "$OMETA is the official token of the Open Metaverse — where interoperability is not just a feature, but a foundation.",
+  "website": "https://www.openmeta.xyz/",
+  "twitter": "@TimeofEmergence",
+  "tokens": {
+    "ethereum": {
+      "address": "0x1Ca14f9830292f5e0228FC20F17d11AE457f503F"
+    },
+    "base": {
+      "address": "0x80607684aBc37b507a3412A6839DBC9755c08de0"
     }
   }
+}

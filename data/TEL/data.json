@@ -1,16 +1,16 @@
 {
-    "name": "Telcoin",
-    "symbol": "TEL",
-    "decimals": 2,
-    "description": "Telcoin leverages blockchain technology to provide access to low-cost, high-quality decentralized financial products for every mobile phone user in the world.",
-    "website": "https://www.telco.in",
-    "twitter": "@telcoin",
-    "tokens": {
-        "ethereum": {
-            "address": "0x467Bccd9d29f223BcE8043b84E8C8B282827790F"
-        },
-        "base": {
-            "address": "0x09bE1692ca16e06f536F0038fF11D1dA8524aDB1"
-        }
+  "name": "Telcoin",
+  "symbol": "TEL",
+  "decimals": 2,
+  "description": "Telcoin leverages blockchain technology to provide access to low-cost, high-quality decentralized financial products for every mobile phone user in the world.",
+  "website": "https://www.telco.in",
+  "twitter": "@telcoin",
+  "tokens": {
+    "ethereum": {
+      "address": "0x467Bccd9d29f223BcE8043b84E8C8B282827790F"
+    },
+    "base": {
+      "address": "0x09bE1692ca16e06f536F0038fF11D1dA8524aDB1"
     }
+  }
 }

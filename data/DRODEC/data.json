@@ -4,7 +4,7 @@
   "decimals": 18,
   "description": "DRODEC is the utility and reward token for the DeFli Drone Detection Network. Bridged by wormhole.",
   "website": "https://defli.network/drone-detection-host",
-  "twitter": "@defli_networks", 
+  "twitter": "@defli_networks",
   "nobridge": true,
   "tokens": {
     "ethereum": {
@@ -16,6 +16,5 @@
     "base": {
       "address": "0x5a01bdaa010938eb7615c63cb22cf3e94e8505df"
     }
-   
   }
 }
