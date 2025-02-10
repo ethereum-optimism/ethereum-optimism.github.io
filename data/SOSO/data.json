@@ -2,7 +2,7 @@
     "name": "SoSoValue",
     "symbol": "SOSO",
     "decimals": 18,
-    "description": "SoSoValue is an AI-driven investment research platform offering market insights powered by AI Agent, and the SoSoValue Indexes Protocol (SSI) for index token issuance.",
+    "description": "SoSoValue is an AI-driven investment research platform offering market insights powered by AI Agent, and the SoSoValue Indexes Protocol (SSI) for wrapped index token issuance. SoSoValue empowers investors to efficiently allocate crypto assets with precision.",
     "website": "https://www.sosovalue.com/",
     "twitter": "@SoSoValueCrypto",
     "tokens": {
