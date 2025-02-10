@@ -19,7 +19,10 @@
       "address": "0x2dbe0d779c7A04F7a5de83326973effE23356930"
     },
     "unichain": {
-      "address": "0xe0BB1924C17b39B71758F49a00D7c0363B7a318E"
+      "address": "0xe0BB1924C17b39B71758F49a00D7c0363B7a318E",
+      "overrides": {
+        "name": "FOX"
+      }
     }
   }
 }
