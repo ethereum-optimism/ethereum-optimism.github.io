@@ -19,6 +19,9 @@
       "overrides": {
         "bridge": "0x8d2de8d2f73f1f4cab472ac9a881c9b123c79627"
       }
+    },
+    "unichain": {
+      "address": "0x51A7b9a11f10D04C16306D90dc4EC22b036DD629"
     }
   }
 }

@@ -18,6 +18,9 @@
       "overrides": {
         "name": "Solana"
       }
+    },
+    "unichain": {
+      "address": "0x4Ff3E944D5Cb54f6f4A1dd035782BE59c3d054FE"
     }
   }
 }
