@@ -11,6 +11,9 @@
     },
     "base": {
       "address": "0x2a06A17CBC6d0032Cac2c6696DA90f29D39a1a29"
+    },
+    "unichain": {
+      "address": "0x41f6e69166e81A9583DBc96604B01D2E9B3D706f"
     }
   }
 }
