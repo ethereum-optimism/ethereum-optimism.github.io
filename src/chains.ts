@@ -59,7 +59,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2
   },
-  'unichain': {
+  unichain: {
     id: 130,
     name: 'Unichain',
     provider: new ethers.providers.StaticJsonRpcProvider(
@@ -108,6 +108,14 @@ export const NETWORK_DATA: Record<Chain, Network> = {
       'https://testnet.rpc.metall2.com'
     ),
     layer: 2,
+  },
+  'unichain-sepolia': {
+    id: 1301,
+    name: 'Unichain Sepolia',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://sepolia.unichain.org'
+    ),
+    layer: 2
   },
 }
 
