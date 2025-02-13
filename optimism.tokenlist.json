@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-13T20:58:41.304Z",
+  "timestamp": "2025-02-13T21:01:54.701Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3409,6 +3409,32 @@
         "unichainBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "FARM"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x88A9A52F944315D5B4e917b9689e65445C401E83",
+      "name": "FEAR",
+      "symbol": "FEAR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FEAR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "FEAR"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2CcC99A0a27D52F529A541B8A13E2440376ea3B9",
+      "name": "FEAR",
+      "symbol": "FEAR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FEAR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "FEAR"
       }
     },
     {
@@ -12667,6 +12693,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 220
+    "patch": 221
   }
 }
