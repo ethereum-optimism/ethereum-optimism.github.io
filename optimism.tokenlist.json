@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-13T21:01:54.701Z",
+  "timestamp": "2025-02-13T21:24:40.157Z",
   "tokens": [
     {
       "chainId": 1,
@@ -364,6 +364,18 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "AIKEK"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x02D4f76656C2B4f58430e91f8ac74896c9281Cb9",
+      "name": "Pett AI",
+      "symbol": "AIP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AIP/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "AIP"
       }
     },
     {
@@ -12693,6 +12705,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 221
+    "patch": 222
   }
 }
