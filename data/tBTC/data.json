@@ -15,6 +15,9 @@
       "overrides": {
         "name": "Base tBTC v2"
       }
+    },
+    "unichain": {
+      "address": "0xAd497996Dc33DC8E8e552824CcEe199420BC7814"
     }
   }
 }
