@@ -34,7 +34,9 @@
         "name": "Status Test Token",
         "symbol": "STT"
       }
+    },
+    "unichain": {
+      "address": "0x914f7CE2B080B2186159C2213B1e193E265aBF5F"
     }
   }
 }
-

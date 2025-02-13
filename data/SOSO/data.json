@@ -1,0 +1,16 @@
+{
+    "name": "SoSoValue",
+    "symbol": "SOSO",
+    "decimals": 18,
+    "description": "SoSoValue is an AI-driven investment research platform offering market insights powered by AI Agent, and the SoSoValue Indexes Protocol (SSI) for wrapped index token issuance. SoSoValue empowers investors to efficiently allocate crypto assets with precision.",
+    "website": "https://www.sosovalue.com/",
+    "twitter": "@SoSoValueCrypto",
+    "tokens": {
+        "ethereum": {
+            "address": "0x76A0e27618462bDAC7a29104bdcfFf4E6BFCea2D"
+        },
+        "base": {
+            "address": "0x624e2e7fDc8903165F64891672267AB0FCB98831"
+        }
+    }
+}
