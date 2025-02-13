@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-10T20:26:00.335Z",
+  "timestamp": "2025-02-13T20:58:41.304Z",
   "tokens": [
     {
       "chainId": 1,
@@ -9759,6 +9759,18 @@
     },
     {
       "chainId": 8453,
+      "address": "0xdbfefd2e8460a6ee4955a68582f85708baea60a3",
+      "name": "Super OETH",
+      "symbol": "superOETHb",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/superOETH/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "superOETH"
+      }
+    },
+    {
+      "chainId": 8453,
       "address": "0xA9C9Dcb054421DEDc9d9006CFfe843D0a5Cd6339",
       "name": "Sustainable Growth",
       "symbol": "SUS",
@@ -12655,6 +12667,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 219
+    "patch": 220
   }
 }
