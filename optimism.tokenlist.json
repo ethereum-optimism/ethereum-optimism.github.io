@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-13T21:52:56.480Z",
+  "timestamp": "2025-02-13T22:20:36.044Z",
   "tokens": [
     {
       "chainId": 1,
@@ -9495,6 +9495,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x76A0e27618462bDAC7a29104bdcfFf4E6BFCea2D",
+      "name": "SoSoValue",
+      "symbol": "SOSO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOSO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "SOSO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x624e2e7fDc8903165F64891672267AB0FCB98831",
+      "name": "SoSoValue",
+      "symbol": "SOSO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SOSO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SOSO"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x031B8d752d73d7Fe9678ACEf26e818280D0646b4",
       "name": "SOVRUN",
       "symbol": "SOVRN",
@@ -12731,6 +12757,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 223
+    "patch": 224
   }
 }
