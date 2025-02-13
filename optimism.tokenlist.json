@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-13T21:24:40.157Z",
+  "timestamp": "2025-02-13T21:52:56.480Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3513,6 +3513,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "FLASH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xF1A7000000950C7ad8Aff13118Bb7aB561A448ee",
+      "name": "Flayer",
+      "symbol": "FLAY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FLAY/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "FLAY"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xF1A7000000950C7ad8Aff13118Bb7aB561A448ee",
+      "name": "Flayer",
+      "symbol": "FLAY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FLAY/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "FLAY"
       }
     },
     {
@@ -12705,6 +12731,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 222
+    "patch": 223
   }
 }
