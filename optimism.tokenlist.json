@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-13T22:20:36.044Z",
+  "timestamp": "2025-02-14T15:53:50.101Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5211,6 +5211,46 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "KOMPETE"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x464eBE77c293E473B48cFe96dDCf88fcF7bFDAC0",
+      "name": "Kryll",
+      "symbol": "KRL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/KRL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "KRL"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x2ed6222cb75e353b8789bec7bb443b7ec9022021",
+      "name": "Kryll",
+      "symbol": "KRL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/KRL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "KRL"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xdae49c25fad3a62a8e8bfb6da12c46be611f9f7a",
+      "name": "Kryll",
+      "symbol": "KRL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/KRL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "KRL"
       }
     },
     {
@@ -12757,6 +12797,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 224
+    "patch": 225
   }
 }
