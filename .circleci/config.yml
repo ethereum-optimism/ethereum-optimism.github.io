@@ -46,13 +46,33 @@ jobs:
             # Patch version and generate token list
             npm version patch
             pnpm generate:ci
+      - run:
+          name: Check if push to branch run by a non github user
+          command: |
+
+            # skip commit if push to branch run by a non github user
+            PERFORM_COMMIT="true"
+            if [ -z "$CIRCLE_USERNAME" ]; then
+              echo "CIRCLE_USERNAME is not set"
+              export PERFORM_COMMIT="false"
+            fi
+            echo "export PERFORM_COMMIT=$PERFORM_COMMIT" >> $BASH_ENV
+
+            # skip commit if there are no differences in the repo (using git diff)
+            if [ -z "$(git diff)" ]; then
+              echo "No changes detected in the repository"
+              export PERFORM_COMMIT="false"
+            fi
+
+            echo "export PERFORM_COMMIT=$PERFORM_COMMIT" >> $BASH_ENV
+
       - utils/github-commit-and-push-changes-single-file:
           commit-username: "mergify[bot]"
           commit-email: "mergify[bot]@users.noreply.github.com"
           commit-message: "bot(ci): generate token list"
           skip-ci: true
           file: "optimism.tokenlist.json"
-          condition: "$([ -z \"$CIRCLE_USERNAME\" ] && echo 1 || echo 0)"
+          condition: "$PERFORM_COMMIT" # will skip if push to branch run by a non github user
 
 
 workflows:
