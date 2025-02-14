@@ -52,7 +52,7 @@ jobs:
           commit-message: "bot(ci): generate token list"
           skip-ci: true
           file: "optimism.tokenlist.json"
-
+          condition: "$([ -z \"$CIRCLE_USERNAME\" ] && echo 1 || echo 0)"
 
 
 workflows:
