@@ -23,6 +23,9 @@
     },
     "base-sepolia": {
       "address": "0xCCA0a8Af17089575DCf6db9e750F204d234b3426"
+    },
+    "unichain": {
+      "address": "0xBE8E46422fB7F9Ca9D639B3109492D64BbB41b05"
     }
   }
 }
