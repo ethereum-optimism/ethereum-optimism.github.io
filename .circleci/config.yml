@@ -46,19 +46,18 @@ jobs:
             # Patch version and generate token list
             npm version patch
             pnpm generate:ci
-      - utils/get-github-access-token
-      - utils/github-commit-and-push-changes:
+      - utils/github-commit-and-push-changes-single-file:
           commit-username: "mergify[bot]"
           commit-email: "mergify[bot]@users.noreply.github.com"
           commit-message: "bot(ci): generate token list"
           skip-ci: true
-          path: "optimism.tokenlist.json"
+          file: "optimism.tokenlist.json"
 
 
 
 workflows:
   version: 2
-  # generate-token-list-workflow:
+  generate-token-list-workflow:
   #   # when:
   #   #
   #   #   or:
@@ -67,9 +66,9 @@ workflows:
   #   #         - equal: [<< pipeline.git.branch >>, "master"]
   #   #         - not:
   #   #             equal: [<< pipeline.trigger_source >>, "api"]
-  #   jobs:
-  #     - generate-token-list:
-  #         context: circleci-repo-ethereum-optimism.github.io
+    jobs:
+      - generate-token-list:
+          context: circleci-repo-ethereum-optimism.github.io
   #         # filters:
   #         #   branches:
   #         #     only: master
