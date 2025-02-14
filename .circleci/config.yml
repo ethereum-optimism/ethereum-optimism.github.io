@@ -74,21 +74,52 @@ jobs:
           file: "optimism.tokenlist.json"
           condition: "$PERFORM_COMMIT" # will skip if push to branch run by a non github user
 
+publish-bot:
+    docker:
+      - image: cimg/node:16.20
+    steps:
+      - checkout
+
+      - run:
+          name: Install pnpm
+          command: |
+            sudo npm install -g pnpm@8.6.0
+
+      - run:
+          name: Setup NPM authentication
+          command: |
+            echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+            echo "@eth-optimism:registry=https://registry.npmjs.org/" >> ~/.npmrc
+            echo "always-auth=true" >> ~/.npmrc
+
+      - run:
+          name: Install dependencies
+          command: pnpm install --frozen-lockfile
+
+      - run:
+          name: Build and publish package
+          command: pnpm release
+
 
 workflows:
   version: 2
   generate-token-list-workflow:
-  #   # when:
-  #   #
-  #   #   or:
-  #   #     - equal: [<< pipeline.parameters.run_job >>, "generate-token-list"]
-  #   #     - and:
-  #   #         - equal: [<< pipeline.git.branch >>, "master"]
-  #   #         - not:
-  #   #             equal: [<< pipeline.trigger_source >>, "api"]
+    when:
+
+      or:
+        - equal: [<< pipeline.parameters.run_job >>, "generate-token-list"]
+        - and:
+            - equal: [<< pipeline.git.branch >>, "master"]
+            - not:
+                equal: [<< pipeline.trigger_source >>, "api"]
     jobs:
       - generate-token-list:
           context: circleci-repo-ethereum-optimism.github.io
-  #         # filters:
-  #         #   branches:
-  #         #     only: master
+          filters:
+            branches:
+              only: master
+      - publish-bot:
+          context: circleci-repo-ethereum-optimism.github.io
+          requires:
+            - generate-token-list
+
