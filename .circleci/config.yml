@@ -58,9 +58,9 @@ jobs:
             fi
             echo "export PERFORM_COMMIT=$PERFORM_COMMIT" >> $BASH_ENV
 
-            # skip commit if there are no differences in the repo (using git diff)
-            if [ -z "$(git diff)" ]; then
-              echo "No changes detected in the repository"
+            # skip commit if there are no differences in optimism.tokenlist.json
+            if [ -z "$(git diff optimism.tokenlist.json)" ]; then
+              echo "No changes detected in optimism.tokenlist.json"
               export PERFORM_COMMIT="false"
             fi
 
