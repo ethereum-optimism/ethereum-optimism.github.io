@@ -111,7 +111,9 @@ jobs:
       - setup-node-env
       - run:
           name: Run Tests
-          command: pnpm test
+          command: |
+            pnpm test
+            sleep 2
 
 workflows:
   generate-token-list-workflow:
