@@ -40,7 +40,7 @@
     "build": "tsup",
     "build:ci": "pnpm generate:ci && pnpm tsup --dts",
     "release": "pnpm build:ci && npm publish",
-    "test": "jest --detectOpenHandles",
+    "test": "jest --detectOpenHandles --forceExit",
     "lint:check": "eslint . --max-warnings=0",
     "lint:fix": "eslint --fix .",
     "lint": "pnpm lint:fix && pnpm lint:check",
