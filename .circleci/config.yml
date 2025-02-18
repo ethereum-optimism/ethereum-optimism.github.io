@@ -17,17 +17,14 @@ parameters:
 commands:
   setup-node-env:
     parameters:
-      node_version:
-        type: string
-        default: "16.x"
       pnpm_version:
         type: string
-        default: "8.6.0"
+        default: "8"
     steps:
       - run:
           name: Install pnpm
           command: |
-            npm install -g pnpm
+            npm install -g pnpm@<< parameters.pnpm_version >>
       - run:
           name: Install dependencies
           command: pnpm install --frozen-lockfile
