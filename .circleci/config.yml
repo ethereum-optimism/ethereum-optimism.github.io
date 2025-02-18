@@ -19,7 +19,7 @@ commands:
     parameters:
       pnpm_version:
         type: string
-        default: "8"
+        default: "8.6"
     steps:
       - run:
           name: Install pnpm
@@ -108,10 +108,11 @@ jobs:
       - image: cimg/node:16.20
     steps:
       - checkout
-      - setup-node-env
       - run:
           name: Run Tests
-          command: pnpm test
+          command: |
+            pnpm install --frozen-lockfile
+            pnpm test
 
 workflows:
   generate-token-list-workflow:
