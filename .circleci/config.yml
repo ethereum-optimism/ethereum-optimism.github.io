@@ -112,8 +112,7 @@ jobs:
       - run:
           name: Run Tests
           command: |
-            pnpm test
-            sleep 2
+            pnpm test:ci
 
 workflows:
   generate-token-list-workflow:
