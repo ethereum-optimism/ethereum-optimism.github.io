@@ -120,6 +120,7 @@ jobs:
 
 workflows:
   generate-token-list-workflow:
+
     when:
       or:
         - equal: [<< pipeline.parameters.run_job >>, "generate-token-list"]
