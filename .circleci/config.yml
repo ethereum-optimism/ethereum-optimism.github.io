@@ -114,6 +114,39 @@ jobs:
           command: |
             pnpm test:ci
 
+  validate:
+    docker:
+      - image: cimg/node:16.20
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: pnpm
+          override-ci-command: pnpm install --frozen-lockfile
+      - run:
+          name: Save PR number
+          command: |
+            if [ -n "$CIRCLE_PULL_REQUEST" ]; then
+              PR_NUMBER=$(echo $CIRCLE_PULL_REQUEST | rev | cut -d'/' -f1 | rev)
+              echo $PR_NUMBER > pr.txt
+            fi
+      - run:
+          name: Get changed files and extract tokens
+          command: |
+            git fetch origin master
+            CHANGED_FILES=$(git diff --name-only origin/master...HEAD -- data/)
+            tokens=""
+            for file in $CHANGED_FILES; do
+              token=$(echo -e "$file" | sed -nr "s|^data/([^/]*/?).*|\1|p")
+              if [ ! -z "$token" ]; then
+                tokens+="${token},"
+              fi
+            done
+            if [ ! -z "$tokens" ]; then
+              tokens=${tokens%,}
+              echo "export CHANGED_TOKENS=$tokens" >> $BASH_ENV
+            fi
+            echo $tokens
+
 workflows:
   generate-token-list-workflow:
 
@@ -145,3 +178,7 @@ workflows:
   test-workflow:
     jobs:
       - test
+
+  validate-workflow:
+    jobs:
+      - validate
