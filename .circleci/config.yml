@@ -144,7 +144,14 @@ jobs:
               echo "export CHANGED_TOKENS=$tokens" >> $BASH_ENV
             fi
 
-            echo "tokens=$tokens"
+      - run:
+          name: Validate tokens
+          command: |
+            if [ ! -z "$CHANGED_TOKENS" ]; then
+              pnpm validate --datadir ./data --tokens "$CHANGED_TOKENS" 2> err.txt 1> std.txt
+            fi
+          when: always
+
 
 workflows:
   generate-token-list-workflow:
