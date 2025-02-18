@@ -105,7 +105,7 @@ jobs:
 
   test:
     docker:
-      - image: cimg/node:16.20
+      - image: cimg/node:23.8
     steps:
       - checkout
       - setup-node-env
@@ -116,7 +116,7 @@ jobs:
 
   validate:
     docker:
-      - image: cimg/node:16.20
+      - image: cimg/node:23.8
     steps:
       - checkout
       - setup-node-env
