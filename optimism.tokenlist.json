@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-14T15:56:15.395Z",
+  "timestamp": "2025-02-17T21:22:25.287Z",
   "tokens": [
     {
       "chainId": 1,
@@ -12119,6 +12119,7 @@
       "extensions": {
         "optimismBridgeAddress": "0x76943C0D61395d8F2edF9060e1533529cAe05dE6",
         "baseBridgeAddress": "0x9de443AdC5A411E83F1878Ef24C3F52C61571e72",
+        "liskBridgeAddress": "0x9348AF23B01F2B517AFE8f29B3183d2Bb7d69Fcf",
         "opListId": "default",
         "opTokenId": "wstETH"
       }
@@ -12150,6 +12151,19 @@
       }
     },
     {
+      "chainId": 1135,
+      "address": "0x76D8de471F54aAA87784119c60Df1bbFc852C415",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wstETH/logo.svg",
+      "extensions": {
+        "liskBridgeAddress": "0xca498Ee83eD3546321d4DC25e2789B0624F15f68",
+        "opListId": "default",
+        "opTokenId": "wstETH"
+      }
+    },
+    {
       "chainId": 11155111,
       "address": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b",
       "name": "Wrapped liquid staked Ether 2.0",
@@ -12158,6 +12172,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/wstETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4Abf633d9c0F4aEebB4C2E3213c7aa1b8505D332",
+        "liskBridgeAddress": "0xD3f64eB2082cEe7632C12a968dEDF304bCac2deF",
         "opListId": "default",
         "opTokenId": "wstETH"
       }
@@ -12171,6 +12186,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/wstETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0xdBA2760246f315203F8B716b3a7590F0FFdc704a",
+        "opListId": "default",
+        "opTokenId": "wstETH"
+      }
+    },
+    {
+      "chainId": 4202,
+      "address": "0x03F1259b4986b8ae9040E250f958CEf09DaD8b6C",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wstETH/logo.svg",
+      "extensions": {
+        "liskBridgeAddress": "0xb150759C71073Edf7D90d3D053aB5e67ea731Aa2",
         "opListId": "default",
         "opTokenId": "wstETH"
       }
@@ -12877,6 +12905,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 226
+    "patch": 228
   }
 }
