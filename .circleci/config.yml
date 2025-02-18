@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  utils: ethereum-optimism/circleci-utils@1.0.12
+  utils: ethereum-optimism/circleci-utils@dev:first
   node: circleci/node@5.1.0
 
 parameters:
@@ -119,7 +119,6 @@ jobs:
           command: pnpm test
 
 workflows:
-  version: 2
   generate-token-list-workflow:
     when:
       or:
