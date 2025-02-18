@@ -119,9 +119,7 @@ jobs:
       - image: cimg/node:16.20
     steps:
       - checkout
-      - node/install-packages:
-          pkg-manager: pnpm
-          override-ci-command: pnpm install --frozen-lockfile
+      - setup-node-env
       - run:
           name: Save PR number
           command: |
