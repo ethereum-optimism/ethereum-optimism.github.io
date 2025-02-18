@@ -1,0 +1,16 @@
+{
+  "name": "Zentry",
+  "symbol": "ZENT",
+  "decimals": 18,
+  "description": "The Metagame, The Unified Play Layer Bridging Gaming, AI, and Blockchain",
+  "website": "https://zentry.com",
+  "twitter": "@zentry",
+  "tokens": {
+    "ethereum": {
+      "address": "0xdBB7a34Bf10169d6d2D0d02A6cbb436cF4381BFa"
+    },
+    "base": {
+      "address": "0xdf49c226ED9CF05Be0e38cdb86Df4E8A945158B1"
+    }
+  }
+}

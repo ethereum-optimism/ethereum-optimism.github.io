@@ -27,14 +27,6 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
-  pgn: {
-    id: 424,
-    name: 'PGN - Public Goods Network',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rpc.publicgoods.network'
-    ),
-    layer: 2,
-  },
   mode: {
     id: 34443,
     name: 'Mode',
@@ -67,6 +59,14 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2
   },
+  unichain: {
+    id: 130,
+    name: 'Unichain',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://mainnet.unichain.org'
+    ),
+    layer: 2
+  },
   sepolia: {
     id: 11155111,
     name: 'Sepolia',
@@ -93,14 +93,6 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
-  'pgn-sepolia': {
-    id: 58008,
-    name: 'PGN Sepolia',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rpc.sepolia.publicgoods.network'
-    ),
-    layer: 2,
-  },
   'lisk-sepolia': {
     id: 4202,
     name: 'Lisk Sepolia',
@@ -116,6 +108,14 @@ export const NETWORK_DATA: Record<Chain, Network> = {
       'https://testnet.rpc.metall2.com'
     ),
     layer: 2,
+  },
+  'unichain-sepolia': {
+    id: 1301,
+    name: 'Unichain Sepolia',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://sepolia.unichain.org'
+    ),
+    layer: 2
   },
 }
 
@@ -138,13 +138,13 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   base: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
-  pgn: {
-    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
-  },
   mode: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
   lisk: {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
+  unichain: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
   'redstone': {
@@ -159,13 +159,13 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   'base-sepolia': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
-  'pgn-sepolia': {
-    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
-  },
   'lisk-sepolia': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
   'metall2-sepolia': {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
+  'unichain-sepolia': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
 }
@@ -173,14 +173,12 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
 export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   optimism: 'ethereum',
   base: 'ethereum',
-  pgn: 'ethereum',
   mode: 'ethereum',
   lisk: 'ethereum',
   redstone: 'ethereum',
   metall2: 'ethereum',
   'optimism-sepolia': 'sepolia',
   'base-sepolia': 'sepolia',
-  'pgn-sepolia': 'sepolia',
   'lisk-sepolia': 'sepolia',
   'metall2-sepolia': 'sepolia',
 }
@@ -199,10 +197,6 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
       l1StandardBridgeAddress: '0x3154Cf16ccdb4C6d922629664174b904d80F2C35',
     },
     {
-      l2Chain: 'pgn',
-      l1StandardBridgeAddress: '0xD0204B9527C1bA7bD765Fa5CCD9355d38338272b',
-    },
-    {
       l2Chain: 'mode',
       l1StandardBridgeAddress: '0x735aDBbE72226BD52e818E7181953f42E3b0FF21',
     },
@@ -218,15 +212,15 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
       l2Chain: 'metall2',
       l1StandardBridgeAddress: '0x6d0f65D59b55B0FEC5d2d15365154DcADC140BF3',
     },
+    {
+      l2Chain: 'unichain',
+      l1StandardBridgeAddress: '0x81014F44b0a345033bB2b3B21C7a1A308B35fEeA',
+    }
   ],
   sepolia: [
     {
       l2Chain: 'optimism-sepolia',
       l1StandardBridgeAddress: '0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1',
-    },
-    {
-      l2Chain: 'pgn-sepolia',
-      l1StandardBridgeAddress: '0xFaE6abCAF30D23e233AC7faF747F2fC3a5a6Bfa3',
     },
     {
       l2Chain: 'base-sepolia',
@@ -240,5 +234,9 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
       l2Chain: 'metall2-sepolia',
       l1StandardBridgeAddress: '0x21530aAdF4DCFb9c477171400E40d4ef615868BE',
     },
+    {
+      l2Chain: 'unichain-sepolia',
+      l1StandardBridgeAddress: '0xea58fcA6849d79EAd1f26608855c2D6407d54Ce2',
+    }
   ],
 }

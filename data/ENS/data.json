@@ -8,6 +8,9 @@
     },
     "optimism": {
       "address": "0x65559aA14915a70190438eF90104769e5E890A00"
+    },
+    "unichain": {
+      "address": "0x80756FAf1e7Fec5678bf505670eF176AB5F0383a"
     }
   }
 }

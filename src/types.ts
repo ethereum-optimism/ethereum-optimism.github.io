@@ -23,10 +23,10 @@ export type Chain =
   | 'ethereum'
   | 'optimism'
   | 'base'
+  | 'unichain'
   | 'optimism-sepolia'
   | 'base-sepolia'
-  | 'pgn'
-  | 'pgn-sepolia'
+  | 'unichain-sepolia'
   | 'sepolia'
   | 'mode'
   | 'lisk'
@@ -40,8 +40,8 @@ const l2Chains = [
   'optimism-sepolia',
   'base',
   'base-sepolia',
-  'pgn-sepolia',
-  'pgn',
+  'unichain',
+  'unichain-sepolia',
   'mode',
   'lisk',
   'lisk-sepolia',
