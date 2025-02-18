@@ -113,13 +113,10 @@ jobs:
       - utils/continue-only-if-branch-or-pr-to-branch:
           branch: master
       - checkout
-      - node/install-packages:
-          pkg-manager: pnpm
-          override-ci-command: pnpm install --frozen-lockfile
+      - setup-node-env
       - run:
           name: Run Tests
           command: pnpm test
-
 
 workflows:
   version: 2
