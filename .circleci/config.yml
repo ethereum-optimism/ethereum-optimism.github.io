@@ -151,6 +151,26 @@ jobs:
               pnpm validate --datadir ./data --tokens "$CHANGED_TOKENS" 2> err.txt 1> std.txt
             fi
           when: always
+      - run:
+          name: Print output
+          command: |
+            if [ ! -z "$CHANGED_TOKENS" ]; then
+              cat std.txt
+              cat err.txt
+            fi
+          when: always
+      - store_artifacts:
+          path: pr.txt
+          destination: pr.txt
+      - store_artifacts:
+          path: err.txt
+          destination: err.txt
+      - store_artifacts:
+          path: std.txt
+          destination: std.txt
+      - store_artifacts:
+          path: validation_results.txt
+          destination: validation_results.txt
 
 
 workflows:
