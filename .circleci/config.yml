@@ -144,7 +144,7 @@ workflows:
 
   stale-workflow:
     when:
-      - equal: [<< pipeline.schedule.name >>, "run_daily"]
+      equal: [<< pipeline.schedule.name >>, "run_daily"]
     jobs:
       - stale:
           context: circleci-repo-ethereum-optimism.github.io
