@@ -15,19 +15,33 @@ parameters:
       ]
 
 commands:
-  setup-node-env:
-    parameters:
-      pnpm_version:
-        type: string
-        default: "8.6"
+  setup:
+    description: "Setup Node.js environment with pnpm and nx"
     steps:
       - run:
-          name: Install pnpm
+          name: Install mise
           command: |
-            sudo npm install -g pnpm@<< parameters.pnpm_version >>
+            if command -v mise &> /dev/null; then
+              echo "mise already installed at $(command -v mise)"
+            else
+              curl https://mise.run | sh
+            fi
+            echo "export PATH=\"$HOME/.local/bin:\$PATH\"" >> "$BASH_ENV"
+            echo "export MISE_DATA_DIR=\"$HOME/.mise\"" >> "$BASH_ENV"
+            echo "export MISE_JOBS=$(nproc)" >> "$BASH_ENV"
+            echo "eval \"\$($HOME/.local/bin/mise activate --shims)\"" >> "$BASH_ENV"
+      - run:
+          name: Install mise dependencies
+          command: |
+            mise install -v -y
+      # Install dependencies
       - run:
           name: Install dependencies
-          command: pnpm install --frozen-lockfile
+          environment:
+            NPM_TOKEN: nada
+          command: |
+            pnpm i --frozen-lockfile
+
 
 jobs:
   generate-token-list:
@@ -35,7 +49,7 @@ jobs:
       image: ubuntu-2204:2024.08.1
     steps:
       - checkout
-      - setup-node-env
+      - setup
       - run:
           name: Update version and generate token list
           command: |
@@ -67,35 +81,26 @@ jobs:
           condition: "$PERFORM_COMMIT" # will skip if push to branch run by a non github user
 
   publish-bot:
-      docker:
-        - image: cimg/node:16.20
+      machine:
+        image: ubuntu-2204:2024.08.1
       steps:
         - checkout
-
+        - setup
         - run:
-            name: Install pnpm
-            command: |
-              sudo npm install -g pnpm@8.6.0
+            name: Build
+            command: pnpm build:ci
+            environment:
+              NPM_TOKEN: nada
         - run:
-            name: Setup NPM authentication
-            command: |
-              echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
-              echo "@eth-optimism:registry=https://registry.npmjs.org/" >> ~/.npmrc
-              echo "always-auth=true" >> ~/.npmrc
-        - run:
-            name: Install dependencies
-            command: pnpm install --frozen-lockfile
-
-        - run:
-            name: Build and publish package
-            command: pnpm release
+            name: Publish package
+            command: pnpm publish
   stale:
       machine:
         image: ubuntu-2204:2024.08.1
       steps:
         - utils/github-stale:
-            stale-issue-message: 'This issue has been automatically marked as stale and will be closed in 7 days if no updates'
-            stale-pr-message: 'This pr has been automatically marked as stale and will be closed in 7 days if no updates'
+            stale-issue-message: 'This issue has been automatically marked as stale and will be closed in 114 days if no updates'
+            stale-pr-message: 'This pr has been automatically marked as stale and will be closed in 37 days if no updates'
             close-issue-message: 'This issue was closed as stale.  Please reopen if this is a mistake'
             close-pr-message: 'This PR was closed as stale.  Please reopen if this is a mistake'
             days-before-issue-stale: 100
@@ -105,10 +110,10 @@ jobs:
 
   test:
     docker:
-      - image: cimg/node:23.8
+      - image: cimg/node:16.20
     steps:
       - checkout
-      - setup-node-env
+      - setup
       - run:
           name: Run Tests
           command: |
@@ -116,10 +121,10 @@ jobs:
 
   validate:
     docker:
-      - image: cimg/node:23.8
+      - image: cimg/node:16.20
     steps:
       - checkout
-      - setup-node-env
+      - setup
       - run:
           name: Save PR number
           command: |
