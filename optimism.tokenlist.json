@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-20T14:52:47.130Z",
+  "timestamp": "2025-02-20T14:54:34.147Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8201,6 +8201,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x1D96Fd43EE07Aa79f8Fd003cbdF404fb5ce41AD2",
+      "name": "Qawalla Token",
+      "symbol": "QWLA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/QWLA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "QWLA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x55365c9E68E70122020184F4441B498E8bf06AC6",
+      "name": "Qawalla Token",
+      "symbol": "QWLA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/QWLA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "QWLA"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xc22B30E4cce6b78aaaADae91E44E73593929a3e9",
       "name": "RAC",
       "symbol": "RAC",
@@ -12983,6 +13009,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 233
+    "patch": 234
   }
 }
