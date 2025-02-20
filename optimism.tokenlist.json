@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-20T12:36:22.562Z",
+  "timestamp": "2025-02-20T14:50:55.464Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5145,6 +5145,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "KIBSHI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
+      "name": "DexKit",
+      "symbol": "KIT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/KIT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "KIT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x946F8B0eF009F3F5B1b35E6511a82A58b09d8d4e",
+      "name": "DexKit",
+      "symbol": "KIT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/KIT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "KIT"
       }
     },
     {
@@ -12931,6 +12957,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 231
+    "patch": 232
   }
 }
