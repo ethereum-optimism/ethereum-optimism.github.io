@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-20T14:50:55.464Z",
+  "timestamp": "2025-02-20T14:52:47.130Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1578,6 +1578,32 @@
         "unichainBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BOND"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xC477D038d5420C6A9e0b031712f61c5120090de9",
+      "name": "Boson Token",
+      "symbol": "BOSON",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BOSON/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "BOSON"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2192607C3CBA9Ec3D490206d10d831E68E5F3c97",
+      "name": "Boson Token",
+      "symbol": "BOSON",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BOSON/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BOSON"
       }
     },
     {
@@ -12957,6 +12983,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 232
+    "patch": 233
   }
 }
