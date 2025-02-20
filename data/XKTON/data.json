@@ -1,0 +1,19 @@
+{
+  "name": "Darwinia Commitment xKTON",
+  "symbol": "xKTON",
+  "decimals": 18,
+  "description": "KTON is a token that incentivizes users to deposit their RING token for a specific period of time.",
+  "website": "https://ktondao.xyz",
+  "twitter": "@DarwiniaNetwork",
+  "tokens": {
+    "ethereum": {
+      "address": "0x35f15275041B53324dF461d5ccC952EE19D4a982"
+    },
+    "optimism": {
+      "address": "0xEB528F54676dC39e8D62EEc1d4C1AFB25c1b9bB1"
+    },
+    "base": {
+      "address": "0x166d48F5449315F90cC5543886Bf74bbe6EA3Fb0"
+    }
+  }
+}
