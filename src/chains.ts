@@ -67,6 +67,14 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2
   },
+  soneium: {
+    id: 1868,
+    name: 'Soneium',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://rpc.soneium.org'
+    ),
+    layer: 2,
+  },
   sepolia: {
     id: 11155111,
     name: 'Sepolia',
@@ -117,6 +125,14 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2
   },
+  'soneium-minato': {
+    id: 1946,
+    name: 'Soneium Minato',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://rpc.minato.soneium.org'
+    ),
+    layer: 2,
+  },
 }
 
 interface L2BridgeInformation {
@@ -153,6 +169,9 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   'metall2': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
+  soneium: {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
   'optimism-sepolia': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
@@ -168,6 +187,9 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   'unichain-sepolia': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
+  'soneium-minato': {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
 }
 
 export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
@@ -177,10 +199,12 @@ export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   lisk: 'ethereum',
   redstone: 'ethereum',
   metall2: 'ethereum',
+  soneium: 'ethereum',
   'optimism-sepolia': 'sepolia',
   'base-sepolia': 'sepolia',
   'lisk-sepolia': 'sepolia',
   'metall2-sepolia': 'sepolia',
+  'soneium-minato': 'sepolia',
 }
 
 export const L1_STANDARD_BRIDGE_INFORMATION: Record<
@@ -215,6 +239,10 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     {
       l2Chain: 'unichain',
       l1StandardBridgeAddress: '0x81014F44b0a345033bB2b3B21C7a1A308B35fEeA',
+    },
+    {
+      l2Chain: 'soneium',
+      l1StandardBridgeAddress: '0xeb9bf100225c214efc3e7c651ebbadcf85177607',
     }
   ],
   sepolia: [
@@ -237,6 +265,10 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     {
       l2Chain: 'unichain-sepolia',
       l1StandardBridgeAddress: '0xea58fcA6849d79EAd1f26608855c2D6407d54Ce2',
+    },
+    {
+      l2Chain: 'soneium-minato',
+      l1StandardBridgeAddress: '0x5f5a404A5edabcDD80DB05E8e54A78c9EBF000C2',
     }
   ],
 }
