@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-18T19:35:01.590Z",
+  "timestamp": "2025-02-20T12:36:22.562Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6887,6 +6887,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xa80505c408C4DEFD9522981cD77e026f5a49FE63",
+      "name": "NEUY",
+      "symbol": "NEUY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NEUY/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "NEUY"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x3Cf255a7A03d74B6F9D58456cBedbc0705626354",
+      "name": "NEUY",
+      "symbol": "NEUY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/NEUY/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NEUY"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xdfdb7f72c1f195c5951a234e8db9806eb0635346",
       "name": "Feisty Doge NFT",
       "symbol": "NFD",
@@ -12905,6 +12931,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 230
+    "patch": 231
   }
 }
