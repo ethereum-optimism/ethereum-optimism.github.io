@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-25T17:56:36.086Z",
+  "timestamp": "2025-02-26T19:11:00.262Z",
   "tokens": [
     {
       "chainId": 1,
@@ -11457,6 +11457,58 @@
     },
     {
       "chainId": 1,
+      "address": "0xa58a4f5c4Bb043d2CC1E170613B74e767c94189B",
+      "name": "UTU Coin",
+      "symbol": "UTU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UTU/logo.svg",
+      "extensions": {
+        "liskBridgeAddress": "0x2658723Bf70c7667De6B25F99fcce13A16D25d08",
+        "opListId": "extended",
+        "opTokenId": "UTU"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xC3586558ddb1Cc6C7c5338691842b8d5F47D253d",
+      "name": "UTUCoinMock",
+      "symbol": "UTUM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UTU/logo.svg",
+      "extensions": {
+        "liskBridgeAddress": "0x1Fb30e446eA791cd1f011675E5F3f5311b70faF5",
+        "opListId": "extended",
+        "opTokenId": "UTU"
+      }
+    },
+    {
+      "chainId": 1135,
+      "address": "0x398697b203cA909e05690B6684D56938964b07A0",
+      "name": "UTU Coin",
+      "symbol": "UTU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UTU/logo.svg",
+      "extensions": {
+        "liskBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "UTU"
+      }
+    },
+    {
+      "chainId": 4202,
+      "address": "0x4b82a31EBCD41fD4b98123cF141853aCD1166875",
+      "name": "UTUCoinMock",
+      "symbol": "UTUM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/UTU/logo.svg",
+      "extensions": {
+        "liskBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "UTU"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x27C4af9A860c4caDc358005F8b48140b2E434A7B",
       "name": "Validator",
       "symbol": "VALX",
@@ -13009,6 +13061,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 235
+    "patch": 236
   }
 }
