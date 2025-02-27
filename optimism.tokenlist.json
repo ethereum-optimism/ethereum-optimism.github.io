@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-26T19:11:00.262Z",
+  "timestamp": "2025-02-27T23:21:21.297Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1698,6 +1698,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BRIGHT"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x6bDdE71Cf0C751EB6d5EdB8418e43D3d9427e436",
+      "name": "BTREE",
+      "symbol": "BTREE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BTREE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "BTREE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4aCFF883f2879e69e67B7003ccec56C73ee41F6f",
+      "name": "BTREE",
+      "symbol": "BTREE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BTREE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BTREE"
       }
     },
     {
@@ -13061,6 +13087,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 236
+    "patch": 237
   }
 }
