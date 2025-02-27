@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-02-27T23:21:21.297Z",
+  "timestamp": "2025-02-27T23:24:31.436Z",
   "tokens": [
     {
       "chainId": 1,
@@ -9212,6 +9212,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/SHU/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "SHU"
       }
@@ -9225,6 +9226,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/SHU/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SHU"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x6774DFC16e1D9B6cE5b0AeC4fFed37A0dAeF0602",
+      "name": "Shutter Token",
+      "symbol": "SHU",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SHU/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SHU"
       }
@@ -13087,6 +13101,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 237
+    "patch": 238
   }
 }
