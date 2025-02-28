@@ -1,0 +1,16 @@
+{
+    "name": "Moonray",
+    "symbol": "MNRY",
+    "decimals": 18,
+    "description": "Moonray.game on Base",
+    "website": "https://moonray.game",
+    "twitter": "@moonraygame",
+    "tokens": {
+        "ethereum": {
+            "address": "0x06904a21f2dB805487FcBDC3b3Fe9607dAaa5D54"
+        },
+        "base": {
+            "address": "0x5262001cb1c8060bea611b0a59518f56d83ab70e"
+        }
+    }
+}
