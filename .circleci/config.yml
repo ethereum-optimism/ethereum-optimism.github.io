@@ -1,0 +1,215 @@
+version: 2.1
+
+orbs:
+  utils: ethereum-optimism/circleci-utils@dev:first
+  node: circleci/node@5.1.0
+
+parameters:
+  run_job:
+    type: enum
+    default: "select_job"
+    enum:
+      [
+        "select_job",
+        "generate-token-list"
+      ]
+
+commands:
+  setup:
+    description: "Setup Node.js environment with pnpm and nx"
+    steps:
+      - run:
+          name: Install mise
+          command: |
+            if command -v mise &> /dev/null; then
+              echo "mise already installed at $(command -v mise)"
+            else
+              curl https://mise.run | sh
+            fi
+            echo "export PATH=\"$HOME/.local/bin:\$PATH\"" >> "$BASH_ENV"
+            echo "export MISE_DATA_DIR=\"$HOME/.mise\"" >> "$BASH_ENV"
+            echo "export MISE_JOBS=$(nproc)" >> "$BASH_ENV"
+            echo "eval \"\$($HOME/.local/bin/mise activate --shims)\"" >> "$BASH_ENV"
+      - run:
+          name: Install mise dependencies
+          command: |
+            mise install -v -y
+      # Install dependencies
+      - run:
+          name: Install dependencies
+          environment:
+            NPM_TOKEN: nada
+          command: |
+            pnpm i --frozen-lockfile
+
+
+jobs:
+  generate-token-list:
+    machine:
+      image: ubuntu-2204:2024.08.1
+    steps:
+      - checkout
+      - setup
+      - run:
+          name: Update version and generate token list
+          command: |
+            # Patch version and generate token list
+            npm version patch
+            pnpm generate:ci
+      - run:
+          name: Check if push to branch run by a non github user
+          command: |
+            # skip commit if push to branch run by a non github user
+            PERFORM_COMMIT="true"
+            if [ -z "$CIRCLE_USERNAME" ]; then
+              echo "CIRCLE_USERNAME is not set"
+              export PERFORM_COMMIT="false"
+            fi
+            echo "export PERFORM_COMMIT=$PERFORM_COMMIT" >> $BASH_ENV
+            # skip commit if there are no differences in optimism.tokenlist.json
+            if [ -z "$(git diff optimism.tokenlist.json)" ]; then
+              echo "No changes detected in optimism.tokenlist.json"
+              export PERFORM_COMMIT="false"
+            fi
+            echo "export PERFORM_COMMIT=$PERFORM_COMMIT" >> $BASH_ENV
+      - utils/github-commit-and-push-changes-single-file:
+          commit-username: "mergify[bot]"
+          commit-email: "mergify[bot]@users.noreply.github.com"
+          commit-message: "bot(ci): generate token list"
+          skip-ci: true
+          file: "optimism.tokenlist.json"
+          condition: "$PERFORM_COMMIT" # will skip if push to branch run by a non github user
+
+  publish-bot:
+      machine:
+        image: ubuntu-2204:2024.08.1
+      steps:
+        - checkout
+        - setup
+        - run:
+            name: Build
+            command: pnpm build:ci
+            environment:
+              NPM_TOKEN: nada
+        - run:
+            name: Publish package
+            command: pnpm publish
+  stale:
+      machine:
+        image: ubuntu-2204:2024.08.1
+      steps:
+        - utils/github-stale:
+            stale-issue-message: 'This issue has been automatically marked as stale and will be closed in 114 days if no updates'
+            stale-pr-message: 'This pr has been automatically marked as stale and will be closed in 37 days if no updates'
+            close-issue-message: 'This issue was closed as stale.  Please reopen if this is a mistake'
+            close-pr-message: 'This PR was closed as stale.  Please reopen if this is a mistake'
+            days-before-issue-stale: 100
+            days-before-pr-stale: 30
+            days-before-issue-close: 114
+            days-before-pr-close: 37
+
+  test:
+    docker:
+      - image: cimg/node:16.20
+    steps:
+      - checkout
+      - setup
+      - run:
+          name: Run Tests
+          command: |
+            pnpm test
+
+  validate:
+    docker:
+      - image: cimg/node:16.20
+    steps:
+      - checkout
+      - setup
+      - run:
+          name: Save PR number
+          command: |
+            if [ -n "$CIRCLE_PULL_REQUEST" ]; then
+              PR_NUMBER=$(echo $CIRCLE_PULL_REQUEST | rev | cut -d'/' -f1 | rev)
+              echo $PR_NUMBER > pr.txt
+            fi
+      - run:
+          name: Get changed files and extract tokens
+          command: |
+            git fetch origin master
+            CHANGED_FILES=$(git diff --name-only origin/master...HEAD -- data/)
+            tokens=""
+            for file in $CHANGED_FILES; do
+              token=$(echo -e "$file" | sed -nr "s|^data/([^/]*/?).*|\1|p")
+              if [ ! -z "$token" ]; then
+                tokens+="${token},"
+              fi
+            done
+            if [ ! -z "$tokens" ]; then
+              tokens=${tokens%,}
+              echo "export CHANGED_TOKENS=$tokens" >> $BASH_ENV
+            fi
+
+      - run:
+          name: Validate tokens
+          command: |
+            if [ ! -z "$CHANGED_TOKENS" ]; then
+              pnpm validate --datadir ./data --tokens "$CHANGED_TOKENS" 2> err.txt 1> std.txt
+            fi
+          when: always
+      - run:
+          name: Print output
+          command: |
+            if [ ! -z "$CHANGED_TOKENS" ]; then
+              cat std.txt
+              cat err.txt
+            fi
+          when: always
+      - store_artifacts:
+          path: pr.txt
+          destination: pr.txt
+      - store_artifacts:
+          path: err.txt
+          destination: err.txt
+      - store_artifacts:
+          path: std.txt
+          destination: std.txt
+      - store_artifacts:
+          path: validation_results.txt
+          destination: validation_results.txt
+
+
+workflows:
+  generate-token-list-workflow:
+
+    when:
+      or:
+        - equal: [<< pipeline.parameters.run_job >>, "generate-token-list"]
+        - and:
+            - equal: [<< pipeline.git.branch >>, "master"]
+            - not:
+                equal: [<< pipeline.trigger_source >>, "api"]
+    jobs:
+      - generate-token-list:
+          context: circleci-repo-ethereum-optimism.github.io
+          filters:
+            branches:
+              only: master
+      - publish-bot:
+          context: circleci-repo-ethereum-optimism.github.io
+          requires:
+            - generate-token-list
+
+  stale-workflow:
+    when:
+      equal: [<< pipeline.schedule.name >>, "run_daily"]
+    jobs:
+      - stale:
+          context: circleci-repo-ethereum-optimism.github.io
+
+  test-workflow:
+    jobs:
+      - test
+
+  validate-workflow:
+    jobs:
+      - validate
