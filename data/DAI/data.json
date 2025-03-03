@@ -20,11 +20,11 @@
     "base": {
       "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb"
     },
-    "pgn": {
-      "address": "0x6C121674ba6736644A7e73A8741407fE8a5eE5BA"
-    },
     "mode": {
       "address": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea"
+    },
+    "unichain": {
+      "address": "0x20CAb320A855b39F724131C69424240519573f81"
     }
   }
 }

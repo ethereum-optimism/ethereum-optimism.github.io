@@ -1,0 +1,16 @@
+{
+    "name": "HEX",
+    "symbol": "HEX",
+    "decimals": 8,
+    "description": "HEX is the native utility token of the Hex Protocol",
+    "website": "https://hex.com/",
+    "twitter": "@maximus_dao",
+    "tokens": {
+      "ethereum": {
+        "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39"
+      },
+      "base": {
+        "address": "0x60B407479ef0ddF6Cc146ceD609aa07d4296F204"
+      }
+    }
+  }

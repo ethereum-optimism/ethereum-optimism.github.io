@@ -14,6 +14,12 @@
     },
     "base": {
       "address": "0xE6bAA3Fedb5Dc88b2c59ba4812388Bb0906D19dB"
+    },
+    "unichain": {
+      "address": "0x328Ed7736871F863C8216Ca6CbB6f29B795032Df",
+      "overrides": {
+        "name": "Nectar"
+      }
     }
   }
 }

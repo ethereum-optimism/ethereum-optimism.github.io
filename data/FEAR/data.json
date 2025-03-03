@@ -1,0 +1,22 @@
+{
+  "name": "FEAR",
+  "symbol": "FEAR",
+  "decimals": 18,
+  "description": "Experience story driven nightmares on-chain.",
+  "website": "https://www.fear.io/",
+  "twitter": "@fearnfts",
+  "tokens": {
+    "ethereum": {
+      "address": "0x88A9A52F944315D5B4e917b9689e65445C401E83",
+      "overrides": {
+        "name": "FEAR"
+      }
+    },
+    "base": {
+      "address": "0x2CcC99A0a27D52F529A541B8A13E2440376ea3B9",
+      "overrides": {
+        "name": "FEAR"
+      }
+    }
+  }
+}
