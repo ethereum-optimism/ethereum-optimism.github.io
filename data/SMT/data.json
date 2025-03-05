@@ -14,6 +14,12 @@
     },
     "base": {
       "address": "0x2974dC646e375e83bd1c0342625b49f288987fA4"
+    },
+    "mode" : {
+      "address":"0x06d6a7BDFFAFa3c953d7B9842f7F414a6e0bEb4A"
+    },
+    "lisk": {
+      "address":"0x2fcAb60dc6Ad65be5F2Aae6a1B2E2ecB93017888"
     }
   }
 }
