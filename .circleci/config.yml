@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  utils: ethereum-optimism/circleci-utils@dev:first
+  utils: ethereum-optimism/circleci-utils@1.0.17
   node: circleci/node@5.1.0
 
 parameters:
@@ -18,29 +18,23 @@ commands:
   setup:
     description: "Setup Node.js environment with pnpm and nx"
     steps:
-      - run:
-          name: Install mise
-          command: |
-            if command -v mise &> /dev/null; then
-              echo "mise already installed at $(command -v mise)"
-            else
-              curl https://mise.run | sh
-            fi
-            echo "export PATH=\"$HOME/.local/bin:\$PATH\"" >> "$BASH_ENV"
-            echo "export MISE_DATA_DIR=\"$HOME/.mise\"" >> "$BASH_ENV"
-            echo "export MISE_JOBS=$(nproc)" >> "$BASH_ENV"
-            echo "eval \"\$($HOME/.local/bin/mise activate --shims)\"" >> "$BASH_ENV"
-      - run:
-          name: Install mise dependencies
-          command: |
-            mise install -v -y
-      # Install dependencies
+      - utils/checkout-with-mise      # Install dependencies
       - run:
           name: Install dependencies
           environment:
             NPM_TOKEN: nada
           command: |
             pnpm i --frozen-lockfile
+  continue-if-not-bot:
+    description: "Continue if the push to branch run by a non github user"
+    steps:
+      - run:
+          name: Check if push to branch run by a non github user
+          command: |
+            if [ -z "$CIRCLE_USERNAME" ]; then
+              echo "CIRCLE_USERNAME is not set"
+              circleci-agent step halt
+            fi
 
 
 jobs:
@@ -48,7 +42,7 @@ jobs:
     machine:
       image: ubuntu-2204:2024.08.1
     steps:
-      - checkout
+      - continue-if-not-bot
       - setup
       - run:
           name: Update version and generate token list
@@ -56,41 +50,32 @@ jobs:
             # Patch version and generate token list
             npm version patch
             pnpm generate:ci
-      - run:
-          name: Check if push to branch run by a non github user
-          command: |
-            # skip commit if push to branch run by a non github user
-            PERFORM_COMMIT="true"
-            if [ -z "$CIRCLE_USERNAME" ]; then
-              echo "CIRCLE_USERNAME is not set"
-              export PERFORM_COMMIT="false"
-            fi
-            echo "export PERFORM_COMMIT=$PERFORM_COMMIT" >> $BASH_ENV
-            # skip commit if there are no differences in optimism.tokenlist.json
-            if [ -z "$(git diff optimism.tokenlist.json)" ]; then
-              echo "No changes detected in optimism.tokenlist.json"
-              export PERFORM_COMMIT="false"
-            fi
-            echo "export PERFORM_COMMIT=$PERFORM_COMMIT" >> $BASH_ENV
       - utils/github-commit-and-push-changes-single-file:
           commit-username: "mergify[bot]"
           commit-email: "mergify[bot]@users.noreply.github.com"
           commit-message: "bot(ci): generate token list"
           skip-ci: true
           file: "optimism.tokenlist.json"
-          condition: "$PERFORM_COMMIT" # will skip if push to branch run by a non github user
 
-  publish-bot:
+  publish:
       machine:
         image: ubuntu-2204:2024.08.1
       steps:
-        - checkout
+        - continue-if-not-bot
         - setup
+        - run:
+            name: Make sure we are getting the latest updates on the current branch
+            command: |
+              git pull
         - run:
             name: Build
             command: pnpm build:ci
             environment:
               NPM_TOKEN: nada
+        - run:
+            name: Make sure we are getting the latest updates on the branch
+            command: |
+              git pull
         - run:
             name: Publish package
             command: pnpm publish
@@ -112,7 +97,6 @@ jobs:
     docker:
       - image: cimg/node:16.20
     steps:
-      - checkout
       - setup
       - run:
           name: Run Tests
@@ -123,7 +107,6 @@ jobs:
     docker:
       - image: cimg/node:16.20
     steps:
-      - checkout
       - setup
       - run:
           name: Save PR number
@@ -180,21 +163,27 @@ jobs:
 
 workflows:
   generate-token-list-workflow:
-
     when:
       or:
         - equal: [<< pipeline.parameters.run_job >>, "generate-token-list"]
         - and:
             - equal: [<< pipeline.git.branch >>, "master"]
-            - not:
-                equal: [<< pipeline.trigger_source >>, "api"]
+            - equal: [<< pipeline.trigger_source >>, "webhook"]
     jobs:
+      - validate:
+          filters:
+            branches:
+              only: master
+      - test:
+          filters:
+            branches:
+              only: master
       - generate-token-list:
           context: circleci-repo-ethereum-optimism.github.io
           filters:
             branches:
               only: master
-      - publish-bot:
+      - publish:
           context: circleci-repo-ethereum-optimism.github.io
           requires:
             - generate-token-list
@@ -208,8 +197,14 @@ workflows:
 
   test-workflow:
     jobs:
-      - test
+      - test:
+          filters:
+            branches:
+              ignore: master # ignore master branch as it is already validated in generate-token-list-workflow
 
   validate-workflow:
     jobs:
-      - validate
+      - validate:
+          filters:
+            branches:
+              ignore: master
