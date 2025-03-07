@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  utils: ethereum-optimism/circleci-utils@dev:first
+  utils: ethereum-optimism/circleci-utils@1.0.17
   node: circleci/node@5.1.0
 
 parameters:
@@ -18,6 +18,7 @@ commands:
   setup:
     description: "Setup Node.js environment with pnpm and nx"
     steps:
+      - utils/checkout-with-mise
       - run:
           name: Install mise
           command: |
@@ -48,7 +49,6 @@ jobs:
     machine:
       image: ubuntu-2204:2024.08.1
     steps:
-      - checkout
       - setup
       - run:
           name: Update version and generate token list
@@ -84,7 +84,6 @@ jobs:
       machine:
         image: ubuntu-2204:2024.08.1
       steps:
-        - checkout
         - setup
         - run:
             name: Build
@@ -112,7 +111,6 @@ jobs:
     docker:
       - image: cimg/node:16.20
     steps:
-      - checkout
       - setup
       - run:
           name: Run Tests
@@ -123,7 +121,6 @@ jobs:
     docker:
       - image: cimg/node:16.20
     steps:
-      - checkout
       - setup
       - run:
           name: Save PR number
@@ -180,7 +177,6 @@ jobs:
 
 workflows:
   generate-token-list-workflow:
-
     when:
       or:
         - equal: [<< pipeline.parameters.run_job >>, "generate-token-list"]
