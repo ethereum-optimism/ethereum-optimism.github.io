@@ -182,9 +182,16 @@ workflows:
         - equal: [<< pipeline.parameters.run_job >>, "generate-token-list"]
         - and:
             - equal: [<< pipeline.git.branch >>, "master"]
-            - not:
-                equal: [<< pipeline.trigger_source >>, "api"]
+            - equal: [<< pipeline.trigger_source >>, "webhook"]
     jobs:
+      - validate:
+          filters:
+            branches:
+              only: master
+      - test:
+          filters:
+            branches:
+              only: master
       - generate-token-list:
           context: circleci-repo-ethereum-optimism.github.io
           filters:
@@ -204,8 +211,14 @@ workflows:
 
   test-workflow:
     jobs:
-      - test
+      - test:
+          filters:
+            branches:
+              ignore: master # ignore master branch as it is already validated in generate-token-list-workflow
 
   validate-workflow:
     jobs:
-      - validate
+      - validate:
+          filters:
+            branches:
+              ignore: master
