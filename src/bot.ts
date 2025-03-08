@@ -211,7 +211,7 @@ export class Bot extends BaseServiceV2<TOptions, TMetrics, TState> {
           }
         )
 
-        return res.status(200).json({ ok: true, message: 'noice!' })
+        return res.status(200).json({ ok: true, message: 'nice!' })
       } catch (err) {
         this.logger.error(err)
         return res.status(500).json({ ok: false, message: 'unexpected error' })
