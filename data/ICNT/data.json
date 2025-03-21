@@ -1,0 +1,24 @@
+{
+  "name": "Impossible Cloud Network Token",
+  "symbol": "ICNT",
+  "decimals": 18,
+  "description": "ICN Protocol is a next-generation decentralized internet infrastructure layer. With decentralized hardware resources, a composable service application layer, and a secure HyperNode network, ICN intends to drive the future of the internet through an integrated ecosystem of permissionless participants, all running without a single point of trust. Anyone can provide resources to the hardware layer, develop services on the application layer, or secure the ecosystem through the HyperNode network and earn rewards.",
+  "website": "https://www.icn.global",
+  "twitter": "@ICN_Protocol",
+  "tokens": {
+    "sepolia": {
+      "address": "0x8a4CB9e34335e0D432CCa9b7199DC99aF5eD20EB",
+      "overrides": {
+        "name": "Impossible Cloud Network Token (Testnet)",
+        "symbol": "tICNT"
+      }
+    },
+    "base-sepolia": {
+      "address": "0x8cE7F2C51445e50e2A5438769468Ac50f4D5E84B",
+      "overrides": {
+        "name": "Impossible Cloud Network Token (Testnet)",
+        "symbol": "tICNT"
+      }
+    }
+  }
+}
