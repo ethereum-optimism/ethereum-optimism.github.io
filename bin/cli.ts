@@ -19,7 +19,7 @@ program
   .requiredOption('--datadir <datadir>', 'Directory containing data files')
   .option(
     '--tokens <tokens>',
-    'Comma-separated list of tokens symbols to validate'
+    'Comma-separated list of token symbols to validate'
   )
   .action(async (options) => {
     const results = await validate(options.datadir, options.tokens.split(','))
