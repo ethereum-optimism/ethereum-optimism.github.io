@@ -38,7 +38,7 @@ commands:
 
 
 jobs:
-  generate-token-list:
+  generate-token-list-and-publish:
     machine:
       image: ubuntu-2204:2024.08.1
     steps:
@@ -48,37 +48,26 @@ jobs:
           name: Update version and generate token list
           command: |
             # Patch version and generate token list
-            npm version patch
+            version=$( npm version patch )
             pnpm generate:ci
-      - utils/github-commit-and-push-changes-single-file:
+            echo "export VERSION=$version" >> $BASH_ENV
+      - utils/github-commit-and-push-changes-single-file: #if there is a change we commit the change in master
           commit-username: "mergify[bot]"
           commit-email: "mergify[bot]@users.noreply.github.com"
           commit-message: "bot(ci): generate token list"
           skip-ci: true
           file: "optimism.tokenlist.json"
+      - utils/github-commit-and-push-changes-single-file: #if there is a change we commit the change in master
+          commit-username: "mergify[bot]"
+          commit-email: "mergify[bot]@users.noreply.github.com"
+          commit-message: "$VERSION"
+          skip-ci: true
+          file: "package.json"
+      - run:
+          name: Publish package
+          command: pnpm publish
 
-  publish:
-      machine:
-        image: ubuntu-2204:2024.08.1
-      steps:
-        - continue-if-not-bot
-        - setup
-        - run:
-            name: Make sure we are getting the latest updates on the current branch
-            command: |
-              git pull
-        - run:
-            name: Build
-            command: pnpm build:ci
-            environment:
-              NPM_TOKEN: nada
-        - run:
-            name: Make sure we are getting the latest updates on the branch
-            command: |
-              git pull
-        - run:
-            name: Publish package
-            command: pnpm publish
+
   stale:
       machine:
         image: ubuntu-2204:2024.08.1
@@ -178,15 +167,11 @@ workflows:
           filters:
             branches:
               only: master
-      - generate-token-list:
+      - generate-token-list-and-publish:
           context: circleci-repo-ethereum-optimism.github.io
           filters:
             branches:
               only: master
-      - publish:
-          context: circleci-repo-ethereum-optimism.github.io
-          requires:
-            - generate-token-list
 
   stale-workflow:
     when:
