@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  utils: ethereum-optimism/circleci-utils@1.0.17
+  utils: ethereum-optimism/circleci-utils@1.0.18
   node: circleci/node@5.1.0
 
 parameters:
@@ -60,10 +60,10 @@ jobs:
       - run:
           name: Generate token list and add version
           command: |
-            version=$( npm version patch )
-            echo "version: $version"
+            # generate the token list
             pnpm generate:ci
 
+            # add the token list to the commit
             git add optimism.tokenlist.json
             # Create commit if there are changes
             if git diff --staged --quiet; then
@@ -74,21 +74,11 @@ jobs:
             echo "Committing changes=bot(ci): generate token list"
             git commit -m "bot(ci): generate token list"
 
-            git add package.json
-            # Create commit if there are changes
-            if git diff --staged --quiet; then
-              echo "No changes to commit"
-              exit 0
-            fi
+            # this command will add a new version to package.json and commit the change
+            npm version patch
 
-            echo "Committing changes=$version"
-            git commit -m "$version"
-
-      # - run:
-      #     name: Push changes
-      #     command: |
-      #       echo "Pushing changes"
-      #       git push "https://x-access-token:${GITHUB_TOKEN_GOVERNANCE}@github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git" $CIRCLE_BRANCH
+            echo "Pushing changes"
+            git push "https://x-access-token:${GITHUB_TOKEN_GOVERNANCE}@github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git" $CIRCLE_BRANCH
 
       # - run:
       #     name: Publish package
