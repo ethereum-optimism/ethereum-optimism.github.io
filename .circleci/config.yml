@@ -45,18 +45,20 @@ jobs:
       - continue-if-not-bot
       - setup
       - run:
-          name: Update version and generate token list
+          name: generate token list
           command: |
-            # Patch version and generate token list
-            version=$( npm version patch )
             pnpm generate:ci
-            echo "export VERSION=$version" >> $BASH_ENV
       - utils/github-commit-and-push-changes-single-file: #if there is a change we commit the change in master
           commit-username: "mergify[bot]"
           commit-email: "mergify[bot]@users.noreply.github.com"
           commit-message: "bot(ci): generate token list"
           skip-ci: true
           file: "optimism.tokenlist.json"
+      - run:
+          name: Update version
+          command: |
+            version=$( npm version patch )
+            echo "export VERSION=$version" >> $BASH_ENV
       - utils/github-commit-and-push-changes-single-file: #if there is a change we commit the change in master
           commit-username: "mergify[bot]"
           commit-email: "mergify[bot]@users.noreply.github.com"
