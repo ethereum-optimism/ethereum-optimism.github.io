@@ -55,8 +55,10 @@ jobs:
             git config --global user.name "bot"
 
       - run:
-          name: generate token list
+          name: Generate token list and add version
           command: |
+            version=$( npm version patch )
+            echo "version: $version"
             pnpm generate:ci
 
             git add optimism.tokenlist.json
@@ -65,14 +67,9 @@ jobs:
               echo "No changes to commit"
               exit 0
             fi
-
-            echo "Committing changes..."
+            echo "Committing changes=bot(ci): generate token list"
             git commit -m "bot(ci): generate token list"
-      - run:
-          name: Update version
-          command: |
-            version=$( npm version patch )
-            echo "version: $version"
+
             git add package.json
             # Create commit if there are changes
             if git diff --staged --quiet; then
@@ -80,11 +77,15 @@ jobs:
               exit 0
             fi
 
+            echo "Committing changes=$version"
             git commit -m "$version"
+
       - run:
           name: Push changes
           command: |
+            echo "Pushing changes"
             git push "https://x-access-token:${GITHUB_TOKEN_GOVERNANCE}@github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git" $CIRCLE_BRANCH
+
       # - run:
       #     name: Publish package
       #     command: pnpm publish
