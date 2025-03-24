@@ -67,6 +67,7 @@ jobs:
               echo "No changes to commit"
               exit 0
             fi
+
             echo "Committing changes=bot(ci): generate token list"
             git commit -m "bot(ci): generate token list"
 
