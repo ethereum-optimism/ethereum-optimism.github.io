@@ -45,26 +45,46 @@ jobs:
       - continue-if-not-bot
       - setup
       - run:
+          name: Prepare git
+          command: |
+            # stash all changes
+            git stash push -u
+
+            # config git
+            git config --global user.email "bot@users.noreply.github.com"
+            git config --global user.name "bot"
+
+      - run:
           name: generate token list
           command: |
             pnpm generate:ci
-      - utils/github-commit-and-push-changes-single-file: #if there is a change we commit the change in master
-          commit-username: "mergify[bot]"
-          commit-email: "mergify[bot]@users.noreply.github.com"
-          commit-message: "bot(ci): generate token list"
-          skip-ci: true
-          file: "optimism.tokenlist.json"
+
+            git add optimism.tokenlist.json
+            # Create commit if there are changes
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+              exit 0
+            fi
+
+            echo "Committing changes..."
+            git commit -m "bot(ci): generate token list"
       - run:
           name: Update version
           command: |
             version=$( npm version patch )
-            echo "export VERSION=$version" >> $BASH_ENV
-      - utils/github-commit-and-push-changes-single-file: #if there is a change we commit the change in master
-          commit-username: "mergify[bot]"
-          commit-email: "mergify[bot]@users.noreply.github.com"
-          commit-message: "$VERSION"
-          skip-ci: true
-          file: "package.json"
+            echo "version: $version"
+            git add package.json
+            # Create commit if there are changes
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+              exit 0
+            fi
+
+            git commit -m "$version"
+      - run:
+          name: Push changes
+          command: |
+            git push "https://x-access-token:${GITHUB_TOKEN_GOVERNANCE}@github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git" $CIRCLE_BRANCH
       # - run:
       #     name: Publish package
       #     command: pnpm publish
