@@ -80,9 +80,9 @@ jobs:
             echo "Pushing changes"
             git push "https://x-access-token:${GITHUB_TOKEN_GOVERNANCE}@github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git" $CIRCLE_BRANCH
 
-      # - run:
-      #     name: Publish package
-      #     command: pnpm publish
+      - run:
+          name: Publish package
+          command: pnpm publish
 
 
   stale:
@@ -173,23 +173,25 @@ workflows:
       or:
         - equal: [<< pipeline.parameters.run_job >>, "generate-token-list"]
         - and:
-            # - equal: [<< pipeline.git.branch >>, "master"]
+            - equal: [<< pipeline.git.branch >>, "master"]
             - equal: [<< pipeline.trigger_source >>, "webhook"]
     jobs:
-      - validate
-          # filters:
-            # branches:
-            #   only: master
-      - test
-          # filters:
-          #   branches:
-          #     only: master
+      - validate:
+          filters:
+            branches:
+              only: master
+      - test:
+          filters:
+            branches:
+              only: master
       - generate-token-list-and-publish:
           context: circleci-repo-ethereum-optimism.github.io
-          # filters:
-          #   branches:
-          #     only: master
-
+          filters:
+            branches:
+              only: master
+          requires:
+            - validate
+            - test
 
 
   stale-workflow:
