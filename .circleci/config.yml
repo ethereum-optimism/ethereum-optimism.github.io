@@ -50,6 +50,9 @@ jobs:
             # stash all changes
             git stash push -u
 
+            git fetch origin
+            git checkout $CIRCLE_BRANCH
+
             # config git
             git config --global user.email "bot@users.noreply.github.com"
             git config --global user.name "bot"
@@ -81,11 +84,11 @@ jobs:
             echo "Committing changes=$version"
             git commit -m "$version"
 
-      - run:
-          name: Push changes
-          command: |
-            echo "Pushing changes"
-            git push "https://x-access-token:${GITHUB_TOKEN_GOVERNANCE}@github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git" $CIRCLE_BRANCH
+      # - run:
+      #     name: Push changes
+      #     command: |
+      #       echo "Pushing changes"
+      #       git push "https://x-access-token:${GITHUB_TOKEN_GOVERNANCE}@github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git" $CIRCLE_BRANCH
 
       # - run:
       #     name: Publish package
