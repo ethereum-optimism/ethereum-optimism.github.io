@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-03-24T21:37:36.479Z",
+  "timestamp": "2025-03-04T17:22:21.158Z",
   "tokens": [
     {
       "chainId": 1,
@@ -326,32 +326,6 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ADEX"
-      }
-    },
-    {
-      "chainId": 1,
-      "address": "0xcfcEcFe2bD2FED07A9145222E8a7ad9Cf1Ccd22A",
-      "name": "Adshares",
-      "symbol": "ADS",
-      "decimals": 11,
-      "logoURI": "https://ethereum-optimism.github.io/data/ADS/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
-        "opListId": "extended",
-        "opTokenId": "ADS"
-      }
-    },
-    {
-      "chainId": 8453,
-      "address": "0xb20A4Bd059F5914a2F8B9c18881c637f79efb7df",
-      "name": "Adshares",
-      "symbol": "ADS",
-      "decimals": 11,
-      "logoURI": "https://ethereum-optimism.github.io/data/ADS/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "ADS"
       }
     },
     {
@@ -1615,7 +1589,6 @@
       "logoURI": "https://ethereum-optimism.github.io/data/BOSON/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
-        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "BOSON"
       }
@@ -1629,19 +1602,6 @@
       "logoURI": "https://ethereum-optimism.github.io/data/BOSON/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "BOSON"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x647fE0cCA3DF596ba414C8c600D441BB3D10d616",
-      "name": "Boson Token",
-      "symbol": "BOSON",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/BOSON/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BOSON"
       }
@@ -2783,18 +2743,6 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "DF"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0xe85d2c93f7E26B99a46A8bB9350cBfB965FA4F82",
-      "name": "DHK DAO",
-      "symbol": "DHK",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/DHK/logo.svg",
-      "extensions": {
-        "opListId": "extended",
-        "opTokenId": "DHK"
       }
     },
     {
@@ -6505,32 +6453,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x06904a21f2dB805487FcBDC3b3Fe9607dAaa5D54",
-      "name": "Moonray",
-      "symbol": "MNRY",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/MNRY/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
-        "opListId": "extended",
-        "opTokenId": "MNRY"
-      }
-    },
-    {
-      "chainId": 8453,
-      "address": "0x5262001cb1c8060bea611b0a59518f56d83ab70e",
-      "name": "Moonray",
-      "symbol": "MNRY",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/MNRY/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "MNRY"
-      }
-    },
-    {
-      "chainId": 1,
       "address": "0xf134519cBE2042B06Ee7cE20Df51d09b55559896",
       "name": "Mochi",
       "symbol": "MOCHI",
@@ -7939,32 +7861,6 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "PLG"
-      }
-    },
-    {
-      "chainId": 1,
-      "address": "0x1796ae0b0fa4862485106a0de9b654eFE301D0b2",
-      "name": "Protocol Monsters",
-      "symbol": "PMON",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/PMON/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
-        "opListId": "extended",
-        "opTokenId": "PMON"
-      }
-    },
-    {
-      "chainId": 8453,
-      "address": "0x60edae6E86546428DA423b5FBe0fba46Ca552Fc7",
-      "name": "Protocol Monsters",
-      "symbol": "PMON",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/PMON/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "PMON"
       }
     },
     {

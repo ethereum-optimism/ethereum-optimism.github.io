@@ -63,9 +63,9 @@ jobs:
           commit-message: "$VERSION"
           skip-ci: true
           file: "package.json"
-      - run:
-          name: Publish package
-          command: pnpm publish
+      # - run:
+      #     name: Publish package
+      #     command: pnpm publish
 
 
   stale:
