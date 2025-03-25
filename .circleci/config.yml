@@ -58,7 +58,7 @@ jobs:
             git config --global user.name "bot"
 
       - run:
-          name: Generate token list and add version
+          name: Generate token list
           command: |
             # generate the token list
             pnpm generate:ci
@@ -68,15 +68,23 @@ jobs:
             # Create commit if there are changes
             if git diff --staged --quiet; then
               echo "No changes to commit"
-              exit 0
+              circleci-agent step halt
             fi
 
             echo "Committing changes=bot(ci): generate token list"
             git commit -m "bot(ci): generate token list"
 
+          environment: # this is needed to avoid misuse of the github token and to avoid leaking secrets by mistake with custom commands
+            NPM_TOKEN: nada
+            GITHUB_TOKEN_GOVERNANCE: nada
+      - run:
+          name: Add version
+          command: |
             # this command will add a new version to package.json and commit the change
             npm version patch
-
+      - run:
+          name: Push changes
+          command: |
             echo "Pushing changes"
             git push "https://x-access-token:${GITHUB_TOKEN_GOVERNANCE}@github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git" $CIRCLE_BRANCH
 
