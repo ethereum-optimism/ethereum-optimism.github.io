@@ -74,9 +74,6 @@ jobs:
             echo "Committing changes=bot(ci): generate token list"
             git commit -m "bot(ci): generate token list"
 
-          environment: # this is needed to avoid misuse of the github token and to avoid leaking secrets by mistake with custom commands
-            NPM_TOKEN: nada
-            GITHUB_TOKEN_GOVERNANCE: nada
       - run:
           name: Add version
           command: |
@@ -88,16 +85,11 @@ jobs:
             echo "Pushing changes"
             git push "https://x-access-token:${GITHUB_TOKEN_GOVERNANCE}@github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git" $CIRCLE_BRANCH
       - run:
-          name: Configure NPM Token and Registry
-          command: |
-            npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
-      - run:
           name: Verify NPM Token
           command: npm whoami
       - run:
           name: Publish package
           command: pnpm publish
-
 
   stale:
       machine:
