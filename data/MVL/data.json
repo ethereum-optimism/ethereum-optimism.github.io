@@ -7,7 +7,7 @@
     "twitter": "@mvlchain",
     "tokens": {
         "ethereum": {
-        "address": "0xA849EaaE994fb86Afa73382e9Bd88c2B6b18Dc71"
+            "address": "0xA849EaaE994fb86Afa73382e9Bd88c2B6b18Dc71"
         },
         "sepolia": {
             "address": "0x3cf4ccf7Ec4Bb094d1504D1315057A46005d5065"
