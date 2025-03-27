@@ -73,7 +73,9 @@ jobs:
 
             echo "Committing changes=bot(ci): generate token list"
             git commit -m "bot(ci): generate token list"
-
+          environment: # this is needed to avoid misuse of the github token and to avoid leaking secrets by mistake with custom commands
+            NPM_TOKEN: nada
+            GITHUB_TOKEN_GOVERNANCE: nada
       - run:
           name: Add version
           command: |
