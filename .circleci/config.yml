@@ -42,6 +42,7 @@ jobs:
     machine:
       image: ubuntu-2204:2024.08.1
     steps:
+      - continue-if-not-bot
       - setup
       - run:
           name: Prepare git
