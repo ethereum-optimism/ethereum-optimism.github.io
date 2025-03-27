@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-03-25T16:06:52.054Z",
+  "timestamp": "2025-03-27T16:59:30.955Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4267,6 +4267,7 @@
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "unichainBridgeAddress": "0x81014F44b0a345033bB2b3B21C7a1A308B35fEeA",
         "opListId": "extended",
         "opTokenId": "GRG"
       }
@@ -4293,6 +4294,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/GRG/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GRG"
+      }
+    },
+    {
+      "chainId": 130,
+      "address": "0x03C2868c6D7fD27575426f395EE081498B1120dd",
+      "name": "Rigo Token",
+      "symbol": "GRG",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GRG/logo.svg",
+      "extensions": {
+        "unichainBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GRG"
       }
@@ -4845,6 +4859,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "IBEX"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x8a4CB9e34335e0D432CCa9b7199DC99aF5eD20EB",
+      "name": "Impossible Cloud Network Token (Testnet)",
+      "symbol": "tICNT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ICNT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "ICNT"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x8cE7F2C51445e50e2A5438769468Ac50f4D5E84B",
+      "name": "Impossible Cloud Network Token (Testnet)",
+      "symbol": "tICNT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ICNT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ICNT"
       }
     },
     {
@@ -6682,7 +6722,6 @@
       "logoURI": "https://ethereum-optimism.github.io/data/MORPHO/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
-        "unichainBridgeAddress": "0x81014F44b0a345033bB2b3B21C7a1A308B35fEeA",
         "opListId": "extended",
         "opTokenId": "MORPHO"
       }
@@ -6701,92 +6740,13 @@
       }
     },
     {
-      "chainId": 11155111,
-      "address": "0x3CF66a662390e37ff260D0cBAa8Af6d426D60D43",
-      "name": "Morpho Token",
-      "symbol": "MORPHO",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
-        "opListId": "extended",
-        "opTokenId": "MORPHO"
-      }
-    },
-    {
-      "chainId": 84532,
-      "address": "0x3CF66a662390e37ff260D0cBAa8Af6d426D60D43",
-      "name": "Morpho Token",
-      "symbol": "MORPHO",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "MORPHO"
-      }
-    },
-    {
-      "chainId": 130,
-      "address": "0x6695a2692dCD2A53E7766492447B5254A56425aD",
-      "name": "Morpho Token",
-      "symbol": "MORPHO",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO/logo.svg",
-      "extensions": {
-        "unichainBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "MORPHO"
-      }
-    },
-    {
       "chainId": 1,
-      "address": "0x039b598c6b99e70058E1e9021E000BdacD33d026",
-      "name": "[Deprecated] Morpho Token",
+      "address": "0x9994E35Db50125E0DF82e4c2dde62496CE330999",
+      "name": "[Legacy] Morpho Token",
       "symbol": "MORPHO",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/MORPHO_DEPRECATED/logo.svg",
       "extensions": {
-        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
-        "opListId": "extended",
-        "opTokenId": "MORPHO_DEPRECATED"
-      }
-    },
-    {
-      "chainId": 8453,
-      "address": "0x039b598c6b99e70058E1e9021E000BdacD33d026",
-      "name": "[Deprecated] Morpho Token",
-      "symbol": "MORPHO",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO_DEPRECATED/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "MORPHO_DEPRECATED"
-      }
-    },
-    {
-      "chainId": 11155111,
-      "address": "0x3CF66a662390e37ff260D0cBAa8Af6d426D60D43",
-      "name": "Morpho Token",
-      "symbol": "MORPHO",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO_DEPRECATED/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
-        "opListId": "extended",
-        "opTokenId": "MORPHO_DEPRECATED"
-      }
-    },
-    {
-      "chainId": 84532,
-      "address": "0x3CF66a662390e37ff260D0cBAa8Af6d426D60D43",
-      "name": "Morpho Token",
-      "symbol": "MORPHO",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/MORPHO_DEPRECATED/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MORPHO_DEPRECATED"
       }
@@ -13205,6 +13165,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 239
+    "patch": 240
   }
 }
