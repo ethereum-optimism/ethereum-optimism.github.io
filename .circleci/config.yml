@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  utils: ethereum-optimism/circleci-utils@1.0.17
+  utils: ethereum-optimism/circleci-utils@1.0.18
   node: circleci/node@5.1.0
 
 parameters:
@@ -38,47 +38,61 @@ commands:
 
 
 jobs:
-  generate-token-list:
+  generate-token-list-and-publish:
     machine:
       image: ubuntu-2204:2024.08.1
     steps:
       - continue-if-not-bot
       - setup
       - run:
-          name: Update version and generate token list
+          name: Prepare git
           command: |
-            # Patch version and generate token list
-            npm version patch
-            pnpm generate:ci
-      - utils/github-commit-and-push-changes-single-file:
-          commit-username: "mergify[bot]"
-          commit-email: "mergify[bot]@users.noreply.github.com"
-          commit-message: "bot(ci): generate token list"
-          skip-ci: true
-          file: "optimism.tokenlist.json"
+            # stash all changes
+            git stash push -u
 
-  publish:
-      machine:
-        image: ubuntu-2204:2024.08.1
-      steps:
-        - continue-if-not-bot
-        - setup
-        - run:
-            name: Make sure we are getting the latest updates on the current branch
-            command: |
-              git pull
-        - run:
-            name: Build
-            command: pnpm build:ci
-            environment:
-              NPM_TOKEN: nada
-        - run:
-            name: Make sure we are getting the latest updates on the branch
-            command: |
-              git pull
-        - run:
-            name: Publish package
-            command: pnpm publish
+            git fetch origin
+            git checkout $CIRCLE_BRANCH
+
+            # config git
+            git config --global user.email "bot@users.noreply.github.com"
+            git config --global user.name "bot"
+
+      - run:
+          name: Generate token list
+          command: |
+            # generate the token list
+            pnpm generate:ci
+
+            # add the token list to the commit
+            git add optimism.tokenlist.json
+            # Create commit if there are changes
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+              circleci-agent step halt
+            fi
+
+            echo "Committing changes=bot(ci): generate token list"
+            git commit -m "bot(ci): generate token list"
+
+          environment: # this is needed to avoid misuse of the github token and to avoid leaking secrets by mistake with custom commands
+            NPM_TOKEN: nada
+            GITHUB_TOKEN_GOVERNANCE: nada
+      - run:
+          name: Add version
+          command: |
+            # this command will add a new version to package.json and commit the change
+            npm version patch
+      - run:
+          name: Push changes
+          command: |
+            echo "Pushing changes"
+            git push "https://x-access-token:${GITHUB_TOKEN_GOVERNANCE}@github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git" $CIRCLE_BRANCH
+
+      - run:
+          name: Publish package
+          command: pnpm publish
+
+
   stale:
       machine:
         image: ubuntu-2204:2024.08.1
@@ -178,15 +192,15 @@ workflows:
           filters:
             branches:
               only: master
-      - generate-token-list:
+      - generate-token-list-and-publish:
           context: circleci-repo-ethereum-optimism.github.io
           filters:
             branches:
               only: master
-      - publish:
-          context: circleci-repo-ethereum-optimism.github.io
           requires:
-            - generate-token-list
+            - validate
+            - test
+
 
   stale-workflow:
     when:
