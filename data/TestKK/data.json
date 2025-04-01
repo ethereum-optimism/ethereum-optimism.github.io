@@ -1,0 +1,24 @@
+{
+    "name": "TestKK",
+    "symbol": "TestKK",
+    "decimals": 18,
+    "description": "Asset management protocol",
+    "website": "https://daobase.ai",
+    "twitter": "@daobase_ai",
+    "tokens": {
+    "ethereum": {
+      "address": "0x09E4B2195FE9f7D19B33469E28EC57C90CfAA0FB",
+      "overrides": {
+        "bridge": {
+          "optimism": "0x4200000000000000000000000000000000000010"
+        }
+      }
+    },
+    "base": {
+      "address": "0x093e2b9b53F9508ABe33e1FeE011a97F6B30aA72",
+      "overrides": {
+        "bridge": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35"
+      }
+    }
+  }
+}
