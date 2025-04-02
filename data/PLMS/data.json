@@ -7,10 +7,10 @@
   "twitter": "@Polemos_io",
   "tokens": {
     "ethereum": {
-      "address": "0x6996B3AE65eE898E9530536Da2695B2e1b22241f"
+      "address": "0x68614481AeF06e53D23bbe0772343fB555ac40c8"
     },
     "base": {
-      "address": "0xC1Ce06C4B6dDC85618571d65d6B4B8E5d6aC9bE3"
+      "address": "0x66AE6198Dcd1B12A6e245356BA15B63d16F56BBe"
     },
     "sepolia": {
       "address": "0xa5939298bc1905E3a1047dd50a3459084BB4E7C8"
