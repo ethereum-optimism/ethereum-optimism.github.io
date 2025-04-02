@@ -23,10 +23,10 @@ export type Chain =
   | 'ethereum'
   | 'optimism'
   | 'base'
+  | 'unichain'
   | 'optimism-sepolia'
   | 'base-sepolia'
-  | 'pgn'
-  | 'pgn-sepolia'
+  | 'unichain-sepolia'
   | 'sepolia'
   | 'mode'
   | 'lisk'
@@ -34,20 +34,24 @@ export type Chain =
   | 'redstone'
   | 'metall2'
   | 'metall2-sepolia'
+  | 'soneium'
+  | 'soneium-minato'
 
 const l2Chains = [
   'optimism',
   'optimism-sepolia',
   'base',
   'base-sepolia',
-  'pgn-sepolia',
-  'pgn',
+  'unichain',
+  'unichain-sepolia',
   'mode',
   'lisk',
   'lisk-sepolia',
   'redstone',
   'metall2',
-  'metall2-sepolia'
+  'metall2-sepolia',
+  'soneium',
+  'soneium-minato'
 ] as const
 export type L2Chain = typeof l2Chains[number]
 

@@ -25,6 +25,7 @@ For right now, each OP Chain has their own review process. So, if you are adding
 - If you are adding a token to `Zora`: please use the [`zora` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/zora) and add [@tbtstl](https://github.com/tbtstl) as a reviewer.
 - If you are adding a token to `Mode`: please use the [`mode` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/mode).
 - If you are adding a token to `Lisk` (e.g. `lisk` [mainnet] or `lisk-sepolia` [testnet]): please use the [`lisk` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/lisk) and add [@shuse2](https://github.com/shuse2) as a reviewer.
+- If you are adding a token to `Soneium` (e.g. `soneium` [mainnet] or `soneium-minato` [testnet]): please use the [`soneium` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/soneium).
 
 ### Automated checks
 
@@ -115,7 +116,6 @@ We currently accept tokens on the following chains:
 - `base-sepolia`
 - `optimism-sepolia`
 - `mode`
-- `pgn`
 - `lisk`
 - `lisk-sepolia`
 - `redstone`
