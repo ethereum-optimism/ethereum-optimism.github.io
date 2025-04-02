@@ -6,12 +6,15 @@
   "tokens": {
     "ethereum": {
       "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
-    },    
+    },
     "optimism": {
       "address": "0x4200000000000000000000000000000000000006"
     },
     "base": {
       "address": "0x4200000000000000000000000000000000000006"
+    },
+    "celo": {
+      "address": "0xD221812de1BD094f35587EE8E174B07B6167D9Af"
     }
   }
 }
