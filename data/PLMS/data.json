@@ -1,0 +1,22 @@
+{
+  "name": "Polemos",
+  "symbol": "PLMS",
+  "decimals": 18,
+  "description": "Polemos is a leading Web3 gaming infrastructure platform, enabling seamless player onboarding, asset management, and engagement across blockchain games. Through strategic partnerships and innovative technologies, we bridge Web2 and Web3 gaming, creating a frictionless experience for players",
+  "website": "https://forge.polemos.io",
+  "twitter": "@Polemos_io",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6996B3AE65eE898E9530536Da2695B2e1b22241f"
+    },
+    "base": {
+      "address": "0xC1Ce06C4B6dDC85618571d65d6B4B8E5d6aC9bE3"
+    },
+    "sepolia": {
+      "address": "0xa5939298bc1905E3a1047dd50a3459084BB4E7C8"
+    },
+    "base-sepolia": {
+      "address": "0xFEce410118e578dcBFd489e2B6fE5FeE390093D0"
+    }
+  }
+}
