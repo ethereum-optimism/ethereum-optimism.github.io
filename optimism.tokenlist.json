@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-04-04T17:52:48.095Z",
+  "timestamp": "2025-04-04T20:34:21.400Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6871,6 +6871,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xCEB1Ad1420252fc66856EB38497C267cF81F67cC",
+      "name": "Metal DAO",
+      "symbol": "MTL",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/MTL/logo.svg",
+      "extensions": {
+        "metall2BridgeAddress": "0x6d0f65D59b55B0FEC5d2d15365154DcADC140BF3",
+        "opListId": "extended",
+        "opTokenId": "MTL"
+      }
+    },
+    {
+      "chainId": 1750,
+      "address": "0xBCFc435d8F276585f6431Fc1b9EE9A850B5C00A9",
+      "name": "Metal DAO",
+      "symbol": "MTL",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/data/MTL/logo.svg",
+      "extensions": {
+        "metall2BridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MTL"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x8e3c68a9c10d3bf2aaf14f2e569a8223f21bf2b6",
       "name": "Mugloo",
       "symbol": "MUGLOO",
@@ -13179,6 +13205,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 273
+    "patch": 274
   }
 }
