@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-04-04T20:41:52.896Z",
+  "timestamp": "2025-04-04T20:43:46.587Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4925,6 +4925,54 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "IDRISS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+      "name": "IDRX",
+      "symbol": "IDRX",
+      "decimals": 2,
+      "logoURI": "https://ethereum-optimism.github.io/data/IDRX/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "IDRX"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0xD63029C1a3dA68b51c67c6D1DeC3DEe50D681661",
+      "name": "IDRX",
+      "symbol": "IDRX",
+      "decimals": 2,
+      "logoURI": "https://ethereum-optimism.github.io/data/IDRX/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "IDRX"
+      }
+    },
+    {
+      "chainId": 1135,
+      "address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+      "name": "IDRX",
+      "symbol": "IDRX",
+      "decimals": 2,
+      "logoURI": "https://ethereum-optimism.github.io/data/IDRX/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "IDRX"
+      }
+    },
+    {
+      "chainId": 4202,
+      "address": "0xD63029C1a3dA68b51c67c6D1DeC3DEe50D681661",
+      "name": "IDRX",
+      "symbol": "IDRX",
+      "decimals": 2,
+      "logoURI": "https://ethereum-optimism.github.io/data/IDRX/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "IDRX"
       }
     },
     {
@@ -13259,6 +13307,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 277
+    "patch": 278
   }
 }
