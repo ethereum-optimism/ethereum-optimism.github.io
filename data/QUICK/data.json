@@ -1,0 +1,17 @@
+{
+    "name": "QuickSwap",
+    "symbol": "QUICK",
+    "decimals": 18,
+    "description": "QuickSwap DEX token",
+    "website": "https://quickswap.exchange",
+    "twitter": "@QuickswapDEX",
+    "tokens": {
+      "ethereum": {
+        "address": "0xd2bA23dE8a19316A638dc1e7a9ADdA1d74233368"
+      },
+      "soneium": {
+        "address": "0x6ef08F42C936f5d101B76160c816D3c8181C9867"
+      }
+    }
+  }
+  
