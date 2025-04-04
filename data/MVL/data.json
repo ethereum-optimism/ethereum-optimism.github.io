@@ -1,0 +1,22 @@
+{
+    "name": "Massive Vehicle Ledger",
+    "symbol": "MVL",
+    "decimals": 18,
+    "description": "Mobility ON Blockchain - MVL leverages blockchain technology to seamlessly connect the virtual and real worlds, driving new innovations in mobility.",
+    "website": "https://mvlchain.io/",
+    "twitter": "@mvlchain",
+    "tokens": {
+        "ethereum": {
+            "address": "0xA849EaaE994fb86Afa73382e9Bd88c2B6b18Dc71"
+        },
+        "sepolia": {
+            "address": "0x3cf4ccf7Ec4Bb094d1504D1315057A46005d5065"
+        },
+        "base": {
+            "address": "0xe1A38a87c076b456C6B39ecA955fd62Ac27e5ef4"
+        },
+        "base-sepolia": {
+            "address": "0x0283F3bDE2566C41F88C10E269cE9a59e3C97700"
+        }
+    }
+}
