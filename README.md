@@ -122,7 +122,7 @@ We currently accept tokens on the following chains:
 - `metall2`
 - `metall2-sepolia`
 
-#### Non-bridgable tokens
+#### Non-bridgeable tokens
 
 If you would like to add your token to this token list but you do not want your token to be included on the Optimism Bridge app, please include the `nobridge` option.
 
