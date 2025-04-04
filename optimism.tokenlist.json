@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-04-04T20:36:25.957Z",
+  "timestamp": "2025-04-04T20:38:38.730Z",
   "tokens": [
     {
       "chainId": 1,
@@ -9475,6 +9475,8 @@
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
+        "liskBridgeAddress": "0x2658723Bf70c7667De6B25F99fcce13A16D25d08",
         "opListId": "extended",
         "opTokenId": "SMT"
       }
@@ -9501,6 +9503,32 @@
       "logoURI": "https://ethereum-optimism.github.io/data/SMT/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SMT"
+      }
+    },
+    {
+      "chainId": 34443,
+      "address": "0x06d6a7BDFFAFa3c953d7B9842f7F414a6e0bEb4A",
+      "name": "Swarm Markets",
+      "symbol": "SMT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SMT/logo.svg",
+      "extensions": {
+        "modeBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SMT"
+      }
+    },
+    {
+      "chainId": 1135,
+      "address": "0x2fcAb60dc6Ad65be5F2Aae6a1B2E2ecB93017888",
+      "name": "Swarm Markets",
+      "symbol": "SMT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SMT/logo.svg",
+      "extensions": {
+        "liskBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SMT"
       }
@@ -13205,6 +13233,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 275
+    "patch": 276
   }
 }
