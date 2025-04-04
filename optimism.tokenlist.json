@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-03-27T23:40:40.729Z",
+  "timestamp": "2025-04-04T17:21:15.180Z",
   "tokens": [
     {
       "chainId": 1,
@@ -413,6 +413,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/AJNA/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "AJNA"
       }
@@ -426,6 +427,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/AJNA/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "AJNA"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x5E0F5388896A6b6232aBF076ee89BC6Dfc043685",
+      "name": "Ajna",
+      "symbol": "AJNA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AJNA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "AJNA"
       }
@@ -13165,6 +13179,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 270
+    "patch": 271
   }
 }
