@@ -20,7 +20,9 @@ Please note that by adding a token to the list we aren’t making any claims abo
 - [Tokens that modify balances without emitting a Transfer event](https://github.com/d-xo/weird-erc20#balance-modifications-outside-of-transfers-rebasingairdrops)
 
 ### Specifying chains
+
 For right now, each OP Chain has their own review process. So, if you are adding tokens across multiple chains, please separate your pull request so that you have one PR for each chain, in order to streamline the review process.
+
 - If you're adding a token to `Base` (e.g. `base` [mainnet] or `base-sepolia` [testnet]), instead of using the predeploy token factory on Base, we recommend you use the token factory [listed here](https://docs.base.org/base-contracts/#l2-contract-addresses) to avoid having a token address that may conflict with a different token on Optimism.
 - If you are adding a token to `Zora`: please use the [`zora` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/zora) and add [@tbtstl](https://github.com/tbtstl) as a reviewer.
 - If you are adding a token to `Mode`: please use the [`mode` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/mode).
@@ -46,6 +48,7 @@ These issues are marked below as "requires manual review".
   - *Why CoinGecko? CoinGecko's token list updates every hour which means we get token list updates very quickly. CoinGecko also uses an in-depth [listing criteria](https://www.coingecko.com/en/methodology).*
 
 #### Debugging Automated checks failures
+
 If your automated checks failed, you can see the reason for the failure by downloading `validation-artifacts.zip`, unzipping it and opening the `validation_results.txt` file. To locate the `validation-artifacts` follow these steps:
 
 1. Click on the `Details` link for `Validate PR` check in your PR
@@ -54,9 +57,11 @@ If your automated checks failed, you can see the reason for the failure by downl
 4. After download of `validation-artifacts.zip`, unzip it and open `validation_results.txt`
 
 If you make changes and need to run the validation check again, you will need to wait for a reviewer to approve the checks to run again. However, if you do not want to wait for a reviewer to approve the checks to run again to see if the failures have been resolved, you can run the validation checks locally by running:
-```
+
+```sh
 npx tsx ./bin/cli.ts validate --datadir ./data --tokens <data folder name (e.g. ETH)>
 ```
+
 ### Final approval
 
 All PRs are subject to a light-weight final approval, even if not marked as `requires manual review`.
@@ -190,11 +195,12 @@ If you require overrides for specific tokens, you can include the `overrides` fi
 ```
 
 ##### Bridge overrides
+
 To override an L1 bridge address, specify the L2 chain it bridges to along with the address of the L1 bridge. For an L2 bridge address override, just specify the address of the L2 bridge.
 
 Here is an example:
 
-```
+```json
 {
   "name": "Synthetix",
   "symbol": "SNX",
@@ -231,7 +237,6 @@ Here is an example:
   }
 }
 ```
-
 
 ### Create a pull request
 
