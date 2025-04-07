@@ -133,6 +133,14 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
+  'celo': {
+    id: 42220,
+    name: 'Celo',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://forno.celo.org'
+    ),
+    layer: 2,
+  },
 }
 
 interface L2BridgeInformation {
@@ -190,6 +198,9 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   'soneium-minato': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
+  'celo': {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
 }
 
 export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
@@ -200,6 +211,7 @@ export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   redstone: 'ethereum',
   metall2: 'ethereum',
   soneium: 'ethereum',
+  celo: 'ethereum',
   'optimism-sepolia': 'sepolia',
   'base-sepolia': 'sepolia',
   'lisk-sepolia': 'sepolia',
@@ -243,6 +255,10 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     {
       l2Chain: 'soneium',
       l1StandardBridgeAddress: '0xeb9bf100225c214efc3e7c651ebbadcf85177607',
+    },
+    {
+      l2Chain: 'celo',
+      l1StandardBridgeAddress: '0x9C4955b92F34148dbcfDCD82e9c9eCe5CF2badfe',
     }
   ],
   sepolia: [
