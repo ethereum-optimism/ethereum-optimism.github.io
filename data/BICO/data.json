@@ -1,25 +1,22 @@
 {
-  "name": "Biconomy",
-  "symbol": "BICO",
-  "decimals": 18,
-  "description": "BICO powers Biconomy Protocol, a permissionless network that enables developers to compose transactions, intents, and off-chain data across all blockchain networks. Lock up BICO tokens to participate in the network as bundlers, solvers, or oracles, providing cryptographically guaranteed execution.",
-  "website": "https://biconomy.io",
-  "twitter": "@biconomy",
-  "tokens": {
-    "ethereum": {
-      "address": "0xf17e65822b568b3903685a7c9f496cf7656cc6c2",
-      "overrides": {
-        "name": "Biconomy Token"
-      }
-    },
-    "base": {
-      "address": "0xf5Dbaa3DFC5e81405c7306039fB037a3DCD57Ce2"
-    },
-    "unichain": {
-      "address": "0x604Ff88ADC02325EFb7f93DB3E442dc81D0588E7",
-      "overrides": {
-        "name": "Biconomy Token"
+    "name": "Biconomy",
+    "symbol": "BICO",
+    "decimals": 18,
+    "description": "BICO powers Biconomy Protocol, a permissionless network that enables developers to compose transactions, intents, and off-chain data across all blockchain networks. Lock up BICO tokens to participate in the network as bundlers, solvers, or oracles, providing cryptographically guaranteed execution.",
+    "website": "https://biconomy.io",
+    "twitter": "@biconomy",
+    "tokens": {
+      "ethereum": {
+        "address": "0xf17e65822b568b3903685a7c9f496cf7656cc6c2",
+        "overrides" : {
+            "name": "Biconomy Token"
+        }
+      },
+      "base": {
+        "address": "0xf5Dbaa3DFC5e81405c7306039fB037a3DCD57Ce2"
+      },
+      "optimism": {
+        "address": "0xd6909e9e702024eb93312b989ee46794c0fb1c9d"
       }
     }
   }
-}
