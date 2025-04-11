@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-04-10T18:30:37.296Z",
+  "timestamp": "2025-04-11T14:23:27.937Z",
   "tokens": [
     {
       "chainId": 1,
@@ -12182,7 +12182,7 @@
     },
     {
       "chainId": 42220,
-      "address": "0xE79a3d9f18C20c93DbEc8db8B28C6542d63df5E9",
+      "address": "0x8aC2901Dd8A1F17a1A4768A6bA4C3751e3995B2D",
       "name": "Wrapped BTC",
       "symbol": "WBTC",
       "decimals": 8,
@@ -13375,6 +13375,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 280
+    "patch": 281
   }
 }
