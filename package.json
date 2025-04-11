@@ -1,7 +1,7 @@
 {
   "name": "@eth-optimism/tokenlist",
   "description": "[Optimism] token list",
-  "version": "10.0.717",
+  "version": "10.0.718",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "exports": {
