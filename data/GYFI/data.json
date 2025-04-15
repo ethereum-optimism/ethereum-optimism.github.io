@@ -1,0 +1,16 @@
+{
+  "name": "Gyroscope",
+  "symbol": "GYFI",
+  "decimals": 18,
+  "description": "Gyroscope's governance token. Gyroscope makes superliquidity simple: efficient, passive access to concentrated liquidity and superliquid stablecoin yield.",
+  "website": "https://www.gyro.finance/",
+  "twitter": "@gyrostable",
+  "tokens": {
+    "ethereum": {
+      "address": "0x70c4430f9d98b4184a4ef3e44ce10c320a8b7383"
+    },
+    "base": {
+      "address": "0xc63529297de076eb15fcbe873ae9136e446cfbb9"
+    }
+  }
+}
