@@ -2,7 +2,7 @@
     "name": "TestKK",
     "symbol": "TestKK",
     "decimals": 18,
-    "description": "Asset management protocol",
+    "description": "Asset management protocol.",
     "website": "https://daobase.ai",
     "twitter": "@daobase_ai",
     "tokens": {
