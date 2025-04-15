@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-04-12T07:30:24.655Z",
+  "timestamp": "2025-04-15T16:01:24.737Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1770,6 +1770,46 @@
     },
     {
       "chainId": 1,
+      "address": "0x01d33FD36ec67c6Ada32cf36b31e88EE190B1839",
+      "name": "BRZ Token",
+      "symbol": "BRZ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BRZ/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "BRZ"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
+      "name": "BRZ Token",
+      "symbol": "BRZ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BRZ/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BRZ"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
+      "name": "BRZ Token",
+      "symbol": "BRZ",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BRZ/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BRZ"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x6bDdE71Cf0C751EB6d5EdB8418e43D3d9427e436",
       "name": "BTREE",
       "symbol": "BTREE",
@@ -1938,6 +1978,19 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "bwAJNA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xC5aAEFD024Aa95C59712A931b3295e237fFD3f81",
+      "name": "CattButt",
+      "symbol": "CATTBUTT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CATTBUTT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CATTBUTT"
       }
     },
     {
@@ -4567,6 +4620,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x70c4430f9d98b4184a4ef3e44ce10c320a8b7383",
+      "name": "Gyroscope",
+      "symbol": "GYFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GYFI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "GYFI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc63529297de076eb15fcbe873ae9136e446cfbb9",
+      "name": "Gyroscope",
+      "symbol": "GYFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GYFI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GYFI"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xbEa98c05eEAe2f3bC8c3565Db7551Eb738c8CCAb",
       "name": "Geyser",
       "symbol": "GYSR",
@@ -7023,6 +7102,58 @@
         "metall2BridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MUGLOO"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xA849EaaE994fb86Afa73382e9Bd88c2B6b18Dc71",
+      "name": "Massive Vehicle Ledger",
+      "symbol": "MVL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MVL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MVL"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x3cf4ccf7Ec4Bb094d1504D1315057A46005d5065",
+      "name": "Massive Vehicle Ledger",
+      "symbol": "MVL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MVL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "MVL"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xe1A38a87c076b456C6B39ecA955fd62Ac27e5ef4",
+      "name": "Massive Vehicle Ledger",
+      "symbol": "MVL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MVL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MVL"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x0283F3bDE2566C41F88C10E269cE9a59e3C97700",
+      "name": "Massive Vehicle Ledger",
+      "symbol": "MVL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MVL/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MVL"
       }
     },
     {
@@ -13375,6 +13506,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1089
+    "patch": 1090
   }
 }
