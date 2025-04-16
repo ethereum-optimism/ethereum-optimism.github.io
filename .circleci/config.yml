@@ -70,9 +70,9 @@ jobs:
             # add the token list to the commit
             git add optimism.tokenlist.json
 
-            #check if the difference are only 2 lines
-            if [ $(git diff --staged --optimism.tokenlist.json | wc -l) -ne 2 ]; then
-              echo "Changes to the token list are not only 2 lines"
+            # check if the changes are more than 2 lines
+            if [ $(git diff --staged -- optimism.tokenlist.json | wc -l) -le 2 ]; then
+              echo "Changes to the token list are not more than 2 lines. Halting."
               circleci-agent step halt
             fi
 
