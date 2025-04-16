@@ -37,13 +37,23 @@ commands:
             fi
 
 
+
 jobs:
   generate-token-list-and-publish:
     machine:
       image: ubuntu-2204:2024.08.1
     steps:
-      - continue-if-not-bot
       - setup
+      - run:
+          name: Continue if last commit was made by the bot
+          command: |
+            LAST_COMMIT_EMAIL=$(git log -1 --pretty=format:%ae)
+            if [ "$LAST_COMMIT_EMAIL" = "bot@users.noreply.github.com" ]; then
+              echo "Last commit was already made by the bot ($LAST_COMMIT_EMAIL). Halting job."
+              circleci-agent step halt
+            else
+              echo "Last commit author ($LAST_COMMIT_EMAIL) is not the bot. Proceeding."
+            fi
       - run:
           name: Prepare git
           command: |
@@ -56,7 +66,6 @@ jobs:
             # config git
             git config --global user.email "bot@users.noreply.github.com"
             git config --global user.name "bot"
-
       - run:
           name: Generate token list
           command: |
