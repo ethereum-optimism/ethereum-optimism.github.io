@@ -126,6 +126,7 @@ We currently accept tokens on the following chains:
 - `redstone`
 - `metall2`
 - `metall2-sepolia`
+- `celo`
 
 #### Non-bridgeable tokens
 
