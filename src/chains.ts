@@ -141,6 +141,46 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
+  'swellchain': {
+    id: 1923,
+    name: 'Swellchain',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://swell-mainnet.alt.technology'
+    ),
+    layer: 2,
+  },
+  'ink': {
+    id: 57073,
+    name: 'Ink',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://rpc-gel.inkonchain.com\'
+    ),
+    layer: 2,
+  },
+  'ink-sepolia': {
+    id: 763373,
+    name: 'Ink Sepolia',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://rpc-gel-sepolia.inkonchain.com'
+    ),
+    layer: 2,
+  },
+  'worldchain': {
+    id: 480,
+    name: 'Worldchain',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://worldchain-mainnet.g.alchemy.com/public'
+    ),
+    layer: 2,
+  },
+  'worldchain-sepolia': {
+    id: 4801,
+    name: 'Worldchain Sepolia',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://worldchain-sepolia.g.alchemy.com/public'
+    ),
+    layer: 2,
+  },
 }
 
 interface L2BridgeInformation {
@@ -201,6 +241,21 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   'celo': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
+  'swellchain': {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
+  'ink': {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
+  'ink-sepolia': {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
+  'worldchain': {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
+  'worldchain-sepolia': {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
 }
 
 export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
@@ -212,11 +267,16 @@ export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   metall2: 'ethereum',
   soneium: 'ethereum',
   celo: 'ethereum',
+  swellchain: 'ethereum',
+  ink: 'ethereum',
+  worldchain: 'ethereum',
   'optimism-sepolia': 'sepolia',
   'base-sepolia': 'sepolia',
   'lisk-sepolia': 'sepolia',
   'metall2-sepolia': 'sepolia',
   'soneium-minato': 'sepolia',
+  'ink-sepolia': 'sepolia',
+  'worldchain-sepolia': 'sepolia',
 }
 
 export const L1_STANDARD_BRIDGE_INFORMATION: Record<
@@ -259,7 +319,19 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     {
       l2Chain: 'celo',
       l1StandardBridgeAddress: '0x9C4955b92F34148dbcfDCD82e9c9eCe5CF2badfe',
-    }
+    },
+    {
+      l2Chain: 'swellchain',
+      l1StandardBridgeAddress: '0x7aA4960908B13D104bf056B23E2C76B43c5AACc8',
+    },
+    {
+      l2Chain: 'ink',
+      l1StandardBridgeAddress: '0x88ff1e5b602916615391f55854588efcbb7663f0',
+    },
+    {
+      l2Chain: 'worldchain',
+      l1StandardBridgeAddress: '0x470458C91978D2d929704489Ad730DC3E3001113',
+    },
   ],
   sepolia: [
     {
@@ -285,6 +357,14 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
     {
       l2Chain: 'soneium-minato',
       l1StandardBridgeAddress: '0x5f5a404A5edabcDD80DB05E8e54A78c9EBF000C2',
-    }
+    },
+    {
+      l2Chain: 'ink-sepolia',
+      l1StandardBridgeAddress: '0x33f60714bbd74d62b66d79213c348614de51901c',
+    },
+    {
+      l2Chain: 'worldchain-sepolia',
+      l1StandardBridgeAddress: '0xd7DF54b3989855eb66497301a4aAEc33Dbb3F8DE',
+    },
   ],
 }

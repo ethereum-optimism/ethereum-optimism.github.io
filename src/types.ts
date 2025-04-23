@@ -37,7 +37,11 @@ export type Chain =
   | 'soneium'
   | 'soneium-minato'
   | 'celo'
-
+  | 'swellchain'
+  | 'ink'
+  | 'ink-sepolia'
+  | 'worldchain'
+  | 'worldchain-sepolia'
 const l2Chains = [
   'optimism',
   'optimism-sepolia',
@@ -54,6 +58,11 @@ const l2Chains = [
   'soneium',
   'soneium-minato',
   'celo',
+  'swellchain',
+  'ink',
+  'ink-sepolia',
+  'worldchain',
+  'worldchain-sepolia',
 ] as const
 export type L2Chain = typeof l2Chains[number]
 
