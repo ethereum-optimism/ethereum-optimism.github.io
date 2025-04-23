@@ -153,7 +153,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     id: 57073,
     name: 'Ink',
     provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rpc-gel.inkonchain.com\'
+      'https://rpc-gel.inkonchain.com'
     ),
     layer: 2,
   },
