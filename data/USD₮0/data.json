@@ -1,0 +1,55 @@
+{
+  "name": "USD₮0",
+  "symbol": "USD₮0",
+  "decimals": 6,
+  "description": "USD₮0 is the omnichain deployment of USDT.",
+  "website": "https://usdt0.to/",
+  "twitter": "@USDT0_to",
+  "tokens": {
+    "ink": {
+      "address": "0x0200C29006150606B650577BBE7B6248F58470c1"
+    },
+    "optimism": {
+      "address": "0x01bFF41798a0BcF287b996046Ca68b395DbC1071"
+    },
+    "unichain": {
+      "address": "0x9151434b16b9763660705744891fA906F660EcC5"
+    },
+    "base": {
+      "address": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+      "overrides": {
+        "name": "Stargate USD₮0 (Bridged)"
+      }
+    },
+    "soneium": {
+      "address": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+      "overrides": {
+        "name": "Stargate USD₮0 (Bridged)"
+      }
+    },
+    "swellchain": {
+      "address": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+      "overrides": {
+        "name": "Stargate USD₮0 (Bridged)"
+      }
+    },
+    "mode": {
+      "address": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+      "overrides": {
+        "name": "Stargate USD₮0 (Bridged)"
+      }
+    },
+    "lisk": {
+      "address": "0x43F2376D5D03553aE72F4A8093bbe9de4336EB08",
+      "overrides": {
+        "name": "Stargate USD₮0 (Bridged)"
+      }
+    },
+    "worldchain": {
+      "address": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+      "overrides": {
+        "name": "Stargate USD₮0 (Bridged)"
+      }
+    }
+  }
+}
