@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-04-29T17:25:20.620Z",
+  "timestamp": "2025-04-29T17:29:51.171Z",
   "tokens": [
     {
       "chainId": 1,
@@ -13001,6 +13001,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+      "name": "Tether Gold",
+      "symbol": "XAUt",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/XAUt/logo.svg",
+      "extensions": {
+        "celoBridgeAddress": "0x9C4955b92F34148dbcfDCD82e9c9eCe5CF2badfe",
+        "opListId": "extended",
+        "opTokenId": "XAUt"
+      }
+    },
+    {
+      "chainId": 42220,
+      "address": "0x3776228836bfcfc87cac36c28830b67759c02707",
+      "name": "Tether Gold",
+      "symbol": "XAUt",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/XAUt/logo.svg",
+      "extensions": {
+        "celoBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "XAUt"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xB4272071eCAdd69d933AdcD19cA99fe80664fc08",
       "name": "CryptoFranc",
       "symbol": "XCHF",
@@ -13675,6 +13701,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1687
+    "patch": 1688
   }
 }
