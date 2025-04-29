@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-04-23T02:36:53.860Z",
+  "timestamp": "2025-04-29T16:44:26.663Z",
   "tokens": [
     {
       "chainId": 1,
@@ -11597,6 +11597,123 @@
       }
     },
     {
+      "chainId": 57073,
+      "address": "0x0200C29006150606B650577BBE7B6248F58470c1",
+      "name": "USD₮0",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USD₮0/logo.png",
+      "extensions": {
+        "inkBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "USD₮0"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x01bFF41798a0BcF287b996046Ca68b395DbC1071",
+      "name": "USD₮0",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USD₮0/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "USD₮0"
+      }
+    },
+    {
+      "chainId": 130,
+      "address": "0x9151434b16b9763660705744891fA906F660EcC5",
+      "name": "USD₮0",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USD₮0/logo.png",
+      "extensions": {
+        "unichainBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "USD₮0"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+      "name": "Stargate USD₮0 (Bridged)",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USD₮0/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "USD₮0"
+      }
+    },
+    {
+      "chainId": 1868,
+      "address": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+      "name": "Stargate USD₮0 (Bridged)",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USD₮0/logo.png",
+      "extensions": {
+        "soneiumBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "USD₮0"
+      }
+    },
+    {
+      "chainId": 1923,
+      "address": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+      "name": "Stargate USD₮0 (Bridged)",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USD₮0/logo.png",
+      "extensions": {
+        "swellchainBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "USD₮0"
+      }
+    },
+    {
+      "chainId": 34443,
+      "address": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+      "name": "Stargate USD₮0 (Bridged)",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USD₮0/logo.png",
+      "extensions": {
+        "modeBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "USD₮0"
+      }
+    },
+    {
+      "chainId": 1135,
+      "address": "0x43F2376D5D03553aE72F4A8093bbe9de4336EB08",
+      "name": "Stargate USD₮0 (Bridged)",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USD₮0/logo.png",
+      "extensions": {
+        "liskBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "USD₮0"
+      }
+    },
+    {
+      "chainId": 480,
+      "address": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+      "name": "Stargate USD₮0 (Bridged)",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USD₮0/logo.png",
+      "extensions": {
+        "worldchainBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "USD₮0"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x0d86883FAf4FfD7aEb116390af37746F45b6f378",
       "name": "Web 3 Dollar",
@@ -13558,6 +13675,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1685
+    "patch": 1686
   }
 }
