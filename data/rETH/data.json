@@ -13,6 +13,9 @@
     },
     "base": {
       "address": "0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c"
+    },
+    "celo": {
+      "address": "0x55f3d16e6bd2b8b8e6599df6ef4593ce9dcae9ed"
     }
   }
 }

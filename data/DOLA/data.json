@@ -11,6 +11,9 @@
     },
     "base": {
       "address": "0x4621b7A9c75199271F773Ebd9A499dbd165c3191"
+    },
+    "celo": {
+      "address": "0x31f01af056b7e829bd41e59e8ba3d2313d2b0ff3"
     }
   }
 }
