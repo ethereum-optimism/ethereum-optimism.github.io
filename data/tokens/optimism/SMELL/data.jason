@@ -1,0 +1,13 @@
+{
+  "name": "SmellToken",
+  "symbol": "SMELL",
+  "decimals": 18,
+  "description": "Token for the smellcheckmate project, aimed at fostering community engagement on Optimism",
+  "website": "https://smellcheckmate.com",
+  "twitter": "@smellcheckmate",
+  "tokens": {
+    "optimism": {
+      "address": "0xfE26A8562BF54Cf9Ad9DD1971f0636d9a732fEBB"
+    }
+  }
+}
