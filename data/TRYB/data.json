@@ -1,0 +1,16 @@
+{
+  "name": "BiLira",
+  "symbol": "TRYB",
+  "decimals": 6,
+  "description": "BiLira (TRYB) is a stablecoin pegged against the Turkish Lira (TRY) and fully backed.",
+  "website": "https://bilira.co",
+  "twitter": "@bilira_kripto",
+  "tokens": {
+    "ethereum": {
+      "address": "0x2c537e5624e4af88a7ae4060c022609376c8d0eb"
+    },
+    "base": {
+      "address": "0xfb8718a69aed7726afb3f04d2bd4bfde1bdcb294"
+    }
+  }
+}
