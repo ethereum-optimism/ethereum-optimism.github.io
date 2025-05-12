@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-10-21T13:46:40.686Z",
+  "timestamp": "2025-05-09T13:26:27.942Z",
   "tokens": [
     {
       "chainId": 1,
@@ -590,6 +590,100 @@
         "bobBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "TRB"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/UNI/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "bobBridgeAddress": "0x3F6cE1b36e5120BBc59D0cFe8A5aC8b6464ac1f7",
+        "opListId": "default",
+        "opTokenId": "UNI"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x6fd9d7AD17242c41f7131d257212c54A0e816691",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/UNI/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "UNI"
+      }
+    },
+    {
+      "chainId": 34443,
+      "address": "0x3e7eF8f50246f725885102E8238CBba33F276747",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/UNI/logo.png",
+      "extensions": {
+        "modeBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "UNI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc3De830EA07524a0761646a6a4e4be0e114a3C83",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/UNI/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "UNI"
+      }
+    },
+    {
+      "chainId": 130,
+      "address": "0x8f187aA05619a017077f5308904739877ce9eA21",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/UNI/logo.png",
+      "extensions": {
+        "unichainBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "UNI"
+      }
+    },
+    {
+      "chainId": 42220,
+      "address": "0xeE571697998ec64e32B57D754D700c4dda2f2a0e",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/UNI/logo.png",
+      "extensions": {
+        "celoBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "UNI"
+      }
+    },
+    {
+      "chainId": 60808,
+      "address": "0x6fD31f56eb971113bEA12C5883deC68337b3B7b5",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/UNI/logo.png",
+      "extensions": {
+        "bobBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "UNI"
       }
     },
     {

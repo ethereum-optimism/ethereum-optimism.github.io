@@ -133,6 +133,22 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
+  'unichain': {
+    id: 130,
+    name: 'Unichain',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://mainnet.unichain.org'
+    ),
+    layer: 2,
+  },
+  'celo': {
+    id: 42220,
+    name: 'Celo',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://celo.drpc.org'
+    ),
+    layer: 2,
+  },
 }
 
 interface L2BridgeInformation {
@@ -190,6 +206,12 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   'bob-sepolia': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
+  unichain: {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
+  celo: {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  }
 }
 
 export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
@@ -272,5 +294,5 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
       l2Chain: 'bob-sepolia',
       l1StandardBridgeAddress: '0x75f48FE4DeAB3F9043EE995c3C84D6a2303D9a2F',
     },
-  ],
+  ]
 }
