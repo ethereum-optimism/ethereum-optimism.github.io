@@ -55,9 +55,9 @@ const l2Chains = [
   'bob',
   'bob-sepolia',
   'unichain',
-  'celo'
+  'celo',
 ] as const
-export type L2Chain = typeof l2Chains[number]
+export type L2Chain = (typeof l2Chains)[number]
 
 export const isL2Chain = (chain: string): chain is L2Chain => {
   return l2Chains.includes(chain as L2Chain)

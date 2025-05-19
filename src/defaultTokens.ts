@@ -30,4 +30,13 @@ export const defaultTokenDataFolders = new Set([
   'GTC',
   'ZRX',
   'WLD',
+  'ALEX',
+  'cbBTC',
+  'DLLR',
+  'xSolvBTC',
+  'SolvBTC',
+  'LBTC',
+  'uniBTC',
+  'BABY',
+  'HybridBTC',
 ])

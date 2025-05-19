@@ -1,0 +1,17 @@
+{
+  "name": "Lombard Staked BTC",
+  "symbol": "LBTC",
+  "decimals": 8,
+  "description": "",
+  "website": "https://lombard.finance",
+  "twitter": "@lombard_finance",
+  "nobridge": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x8236a87084f8B84306f72007F36F2618A5634494"
+    },
+    "bob": {
+      "address": "0xA45d4121b3D47719FF57a947A9d961539Ba33204"
+    }
+  }
+}

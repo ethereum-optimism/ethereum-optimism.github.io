@@ -1,0 +1,16 @@
+{
+  "name": "Universal BTC",
+  "symbol": "uniBTC",
+  "decimals": 8,
+  "description": "",
+  "website": "https://www.bedrock.technology/",
+  "twitter": "@Bedrock_DeFi",
+  "tokens": {
+    "ethereum": {
+      "address": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+    },
+    "bob": {
+      "address": "0x236f8c0a61dA474dB21B693fB2ea7AAB0c803894"
+    }
+  }
+}

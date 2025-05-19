@@ -1,0 +1,10 @@
+{
+  "name": "Coinbase Wrapped BTC",
+  "symbol": "cbBTC",
+  "decimals": 8,
+  "tokens": {
+    "ethereum": {
+      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf"
+    }
+  }
+}

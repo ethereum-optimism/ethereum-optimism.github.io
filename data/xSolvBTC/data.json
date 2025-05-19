@@ -1,0 +1,16 @@
+{
+  "name": "Solv Protocol Staked BTC",
+  "symbol": "xSolvBTC",
+  "decimals": 18,
+  "description": "",
+  "website": "https://app.solv.finance/",
+  "twitter": "@SolvProtocol",
+  "tokens": {
+    "ethereum": {
+      "address": "0xd9D920AA40f578ab794426F5C90F6C731D159DEf"
+    },
+    "bob": {
+      "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c"
+    }
+  }
+}

@@ -46,7 +46,7 @@
     "lint": "pnpm lint:fix && pnpm lint:check",
     "start-bot": "tsx ./src/bot.ts",
     "typecheck": "tsc -p ./tsconfig.json --noEmit",
-    "postinstall": "pnpm i tsup && pnpm tsup --dts"
+    "postinstall": "pnpm i tsup && pnpm build:ci && cp optimism.tokenlist.json dist/optimism.tokenlist.json"
   },
   "files": [
     "**/*"

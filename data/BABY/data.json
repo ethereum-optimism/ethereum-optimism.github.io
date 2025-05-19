@@ -1,0 +1,16 @@
+{
+  "name": "Babylon",
+  "symbol": "BABY",
+  "decimals": 6,
+  "description": "",
+  "website": "https://babylonlabs.io/",
+  "twitter": "@BabylonFinance",
+  "tokens": {
+    "bob": {
+      "address": "0xe53dCec07d16D88e386AE0710E86d9a400f83c31"
+    },
+    "bob-sepolia": {
+      "address": "0x5E159518B8303A1f4eC9F9B10f077c89795DB178"
+    }
+  }
+}

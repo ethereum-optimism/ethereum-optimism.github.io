@@ -1,0 +1,16 @@
+{
+  "name": "ALEX",
+  "symbol": "ALEX",
+  "decimals": 18,
+  "description": "",
+  "website": "https://www.alexgo.io/",
+  "twitter": "@alexlabBTC",
+  "tokens": {
+    "ethereum": {
+      "address": "0xe7c3755482d0dA522678Af05945062d4427e0923"
+    },
+    "bob": {
+      "address": "0xa669e059fDcbDFC532A2edd658eb2922799EEDb8"
+    }
+  }
+}

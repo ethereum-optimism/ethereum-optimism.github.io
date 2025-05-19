@@ -1,0 +1,13 @@
+{
+  "name": "eSOV",
+  "symbol": "eSOV",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xbdab72602e9AD40FC6a6852CAf43258113B8F7a5"
+    },
+    "bob": {
+      "address": "0xba20a5e63eeEFfFA6fD365E7e540628F8fC61474"
+    }
+  }
+}
