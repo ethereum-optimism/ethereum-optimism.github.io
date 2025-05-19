@@ -1,0 +1,13 @@
+{
+  "name": "CocaineToken.com",
+  "symbol": "COCAINE",
+  "decimals": 18,
+  "description": "A meme token about cocaine",
+  "website": "https://cocainetoken.com",
+  "twitter": "",
+  "tokens": {
+    "base": {
+      "address": "0xc0ca42002d09172d832b59c2dc8bd91a5d839805"
+    }
+  }
+}
