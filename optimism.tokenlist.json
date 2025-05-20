@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-05-14T16:02:31.303Z",
+  "timestamp": "2025-05-20T16:33:09.768Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4208,6 +4208,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GENOME"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xdab396ccf3d84cf2d07c4454e10c8a6f5b008d2b",
+      "name": "Goldfinch",
+      "symbol": "GFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GFI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "GFI"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb78e7d4c5d47af92942321ed40419dab0e573810",
+      "name": "Goldfinch",
+      "symbol": "GFI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GFI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GFI"
       }
     },
     {
@@ -13731,6 +13757,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1689
+    "patch": 1690
   }
 }
