@@ -10,10 +10,10 @@
       "address": "0x8e0EeF788350f40255D86DFE8D91ec0AD3a4547F"
     },
     "base": {
-      "address": "0xe30c0801a516f0c67ebc0c4b45ffa7dcbd72ea9a"
+      "address": "0xe30C0801a516F0C67EbC0c4B45FfA7dCBd72ea9a"
     },
     "optimism": {
-      "address": "0x44805a7597ab90624e0b4aa6947a47f358ae4ef1"
+      "address": "0x44805a7597Ab90624E0B4aa6947a47F358AE4eF1"
     }
   }
 }
