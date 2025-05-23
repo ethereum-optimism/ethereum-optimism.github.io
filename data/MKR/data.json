@@ -9,6 +9,9 @@
     },
     "optimism": {
       "address": "0xab7badef82e9fe11f6f33f87bc9bc2aa27f2fcb5"
+    },
+    "celo": {
+      "address": "0x918b13745de61380d5d3efddf51244c369f101d5"
     }
   }
 }
