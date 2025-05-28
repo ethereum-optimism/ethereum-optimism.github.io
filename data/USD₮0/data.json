@@ -3,6 +3,7 @@
   "symbol": "USD₮0",
   "decimals": 6,
   "description": "USD₮0 is the omnichain deployment of USDT.",
+  "nobridge": true,
   "website": "https://usdt0.to/",
   "twitter": "@USDT0_to",
   "tokens": {

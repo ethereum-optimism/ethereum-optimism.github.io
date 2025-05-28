@@ -1,0 +1,16 @@
+{
+    "name": "Veera Gold",
+    "symbol": "VGT",
+    "decimals": 18,
+    "description": "The Veera Gold Token (VGT) is a blockchain-based digital asset backed 1:1 by physical gold stored via TetherGold. Each VGT token is valued at $0.001 worth of fine gold, offering investors direct ownership with fractional accessibility. VGT combines gold’s stability with the flexibility of crypto, enabling seamless trading and global liquidity. Designed for modern investors, VGT simplifies gold investment without the hassles of physical storage.",
+    "website": "https://www.veera.com/",
+    "twitter": "https://twitter.com/veerabrowser",
+    "tokens": {
+      "ethereum": {
+        "address": "0xa20ce45A0348c88f484Cf92ac3278A46ba98A563"
+      },
+      "base": {
+        "address": "0xe9dc36dfb05aa56114e115157f82a2b3b28ff99e"
+      }
+    }
+  }

@@ -142,10 +142,11 @@ jobs:
           name: Get changed files and extract tokens
           command: |
             git fetch origin master
-            CHANGED_FILES=$(git diff --name-only origin/master...HEAD -- data/)
+            # -z prints path verbatim and is needed to handle special characters in file names (e.g. USD₮0)
+            CHANGED_FILES=$(git diff --name-only origin/master...HEAD -z -- data/ | tr '\0' '\n')
             tokens=""
             for file in $CHANGED_FILES; do
-              token=$(echo -e "$file" | sed -nr "s|^data/([^/]*/?).*|\1|p")
+              token=$(echo -e "$file" | sed -nr "s|^data/([^/]*)/.*|\1|p")
               if [ ! -z "$token" ]; then
                 tokens+="${token},"
               fi
