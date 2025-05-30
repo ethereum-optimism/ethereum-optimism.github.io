@@ -1,0 +1,16 @@
+{
+  "name": "TRALA TOKEN",
+  "symbol": "TRALA",
+  "decimals": 18,
+  "description": "TRALA is a utility token built for an AAA Web3 GameFi experience. Earned through gameplay, it is used for trading in-game assets and participating in the governance of the game’s ecosystem.",
+  "website": "https://trala.me",
+  "twitter": "@TRALA_Official",
+  "tokens": {
+    "ethereum": {
+      "address": "0xD5e0eda0214f1d05af466E483d9376a77A67448b"
+    },
+    "soneium": {
+      "address": "0xf93322688ddfE432c21c0B4E709d77DEab7e923F"
+    }
+  }
+}
