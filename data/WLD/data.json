@@ -11,6 +11,12 @@
     },
     "optimism": {
       "address": "0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1"
+    },
+    "celo": {
+      "address": "0x88c400d871829e381b53b55eee79145b4287461a",
+      "overrides": {
+        "name": "Worldcoin (Celo native bridge)"
+      }
     }
   }
 }
