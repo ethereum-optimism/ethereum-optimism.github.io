@@ -13,7 +13,10 @@
       "address": "0xd652C5425aea2Afd5fb142e120FeCf79e18fafc3"
     },
     "celo": {
-      "address": "0xe00892b8636f0c7450177f89717539d656d870fb"
+      "address": "0xe00892b8636f0c7450177f89717539d656d870fb",
+      "overrides": {
+        "name": "PoolTogether (Celo native bridge)"
+      }
     }
   }
 }

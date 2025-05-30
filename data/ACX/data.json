@@ -15,7 +15,10 @@
       "address": "0x34424B3352af905e41078a4029b61EDe62BbB32C"
     },
     "celo": {
-      "address": "0x3a05ef6467309f388f90bcc3d79a522e6c39fabb"
+      "address": "0x3a05ef6467309f388f90bcc3d79a522e6c39fabb",
+      "overrides": {
+        "name": "Across Protocol Token (Celo native bridge)"
+      }
     }
   }
 }
