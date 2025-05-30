@@ -19,6 +19,12 @@
         "name": "Impossible Cloud Network Token (Testnet)",
         "symbol": "tICNT"
       }
+    },
+    "ethereum": {
+      "address": "0xe5e0b73380181273abCfD88695F52C4D0C825661"
+    },
+    "base": {
+      "address": "0xE0Cd4cAcDdcBF4f36e845407CE53E87717b6601d"
     }
   }
 }
