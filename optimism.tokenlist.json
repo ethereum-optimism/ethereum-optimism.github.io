@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-05-30T17:17:09.522Z",
+  "timestamp": "2025-05-30T17:24:55.224Z",
   "tokens": [
     {
       "chainId": 1,
@@ -11305,6 +11305,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xD5e0eda0214f1d05af466E483d9376a77A67448b",
+      "name": "TRALA TOKEN",
+      "symbol": "TRALA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRALA/logo.svg",
+      "extensions": {
+        "soneiumBridgeAddress": "0xeb9bf100225c214efc3e7c651ebbadcf85177607",
+        "opListId": "extended",
+        "opTokenId": "TRALA"
+      }
+    },
+    {
+      "chainId": 1868,
+      "address": "0xf93322688ddfE432c21c0B4E709d77DEab7e923F",
+      "name": "TRALA TOKEN",
+      "symbol": "TRALA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TRALA/logo.svg",
+      "extensions": {
+        "soneiumBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TRALA"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
       "name": "Tellor",
       "symbol": "TRB",
@@ -14033,6 +14059,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1692
+    "patch": 1693
   }
 }
