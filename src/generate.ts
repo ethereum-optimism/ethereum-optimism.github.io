@@ -48,7 +48,9 @@ export const generate = (datadir: string) => {
           name: token.overrides?.name ?? data.name,
           symbol: token.overrides?.symbol ?? data.symbol,
           decimals: token.overrides?.decimals ?? data.decimals,
-          logoURI: `${BASE_URL}/data/${folder}/logo.${logoext}`,
+          logoURI: `${BASE_URL}/data/${encodeURIComponent(
+            folder
+          )}/logo.${logoext}`,
           extensions: {
             ...bridges,
             opListId: defaultTokenDataFolders.has(folder.toUpperCase())

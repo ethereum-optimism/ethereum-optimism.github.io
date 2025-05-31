@@ -25,6 +25,12 @@
     },
     "unichain": {
       "address": "0x20CAb320A855b39F724131C69424240519573f81"
+    },
+    "celo": {
+      "address": "0xac177de2439bd0c7659c61f373dbf247d1f41abe",
+      "overrides": {
+        "name": "Dai Stablecoin (Celo native bridge)"
+      }
     }
   }
 }
