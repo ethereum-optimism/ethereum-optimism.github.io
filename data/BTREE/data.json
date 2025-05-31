@@ -11,11 +11,17 @@
     "base": {
       "address": "0x4aCFF883f2879e69e67B7003ccec56C73ee41F6f"
     },
+    "optimism": {
+      "address": "0xB260d236F5eA5094D31F016160705ff53ac45028"
+    },
     "sepolia": {
       "address": "0x8389eFa79EF27De249AF63f034D7A94dFBdd4cBE"
     },
     "base-sepolia": {
       "address": "0xF8c91a56db8485FCee21c5bf6345B063Cf4228F6"
+    },
+    "optimism-sepolia": {
+      "address": "0x7E5A0b6C5c32883AE8E5b830c05688Eff317c3fb"
     }
   }
 }
