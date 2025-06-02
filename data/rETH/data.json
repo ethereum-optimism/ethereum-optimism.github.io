@@ -16,6 +16,12 @@
     },
     "unichain": {
       "address": "0x94Cac393f3444cEf63a651FfC18497E7e8bd036a"
+    },
+    "celo": {
+      "address": "0x55f3d16e6bd2b8b8e6599df6ef4593ce9dcae9ed",
+      "overrides": {
+        "name": "Rocket Pool ETH (Celo native bridge)"
+      }
     }
   }
 }
