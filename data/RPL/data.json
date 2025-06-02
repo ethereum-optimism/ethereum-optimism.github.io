@@ -13,6 +13,12 @@
       },
       "base": {
         "address": "0x1f73EAf55d696BFFA9b0EA16fa987B93b0f4d302"
+      },
+      "celo": {
+	"address": "0x73a363ed1526f5e02be99f51c59400a2c508312c",
+        "overrides": {
+          "name": "Rocket Pool Protocol (Celo native bridge)"
+        }
       }
     }
 }
