@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-05-30T17:24:55.224Z",
+  "timestamp": "2025-06-02T19:42:25.299Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2346,6 +2346,46 @@
         "unichainBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "COMP"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x8e0EeF788350f40255D86DFE8D91ec0AD3a4547F",
+      "name": "Cortensor",
+      "symbol": "COR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/COR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "opListId": "extended",
+        "opTokenId": "COR"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xe30C0801a516F0C67EbC0c4B45FfA7dCBd72ea9a",
+      "name": "Cortensor",
+      "symbol": "COR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/COR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "COR"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x44805a7597Ab90624E0B4aa6947a47F358AE4eF1",
+      "name": "Cortensor",
+      "symbol": "COR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/COR/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "COR"
       }
     },
     {
@@ -9052,6 +9092,7 @@
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "unichainBridgeAddress": "0x81014F44b0a345033bB2b3B21C7a1A308B35fEeA",
         "celoBridgeAddress": "0x9C4955b92F34148dbcfDCD82e9c9eCe5CF2badfe",
         "opListId": "default",
         "opTokenId": "rETH"
@@ -9079,6 +9120,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "rETH"
+      }
+    },
+    {
+      "chainId": 130,
+      "address": "0x94Cac393f3444cEf63a651FfC18497E7e8bd036a",
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.svg",
+      "extensions": {
+        "unichainBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "rETH"
       }
@@ -14059,6 +14113,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1693
+    "patch": 1694
   }
 }
