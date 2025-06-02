@@ -1,0 +1,26 @@
+{
+  "name": "EUR Coin",
+  "symbol": "EURC",
+  "decimals": 6,
+  "description": "EURC is a faster, safer, and more efficient way to send, spend, and exchange money around the globe.",
+  "website": "https://www.circle.com/en/eurc",
+  "twitter": "@circlepay",
+  "tokens": {
+    "ethereum": {
+      "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+      "overrides": {
+        "bridge": {
+          "lisk": "0xEb99c8c87c5e0C2dCb01E2A1E35AA01f5889F677"
+        }
+      }
+    },
+    "lisk": {
+      "address": "0xe12cEFaAD61e551691BFa5cDA36e5dE051778C65",
+      "overrides": {
+        "name": "Bridged EURC (Lisk)",
+        "symbol": "EURC.e",
+        "bridge": "0x4db1c96C1f9c3d5429fDf35ED2e684b309b0c281"
+      }
+    }
+  }
+}
