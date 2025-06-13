@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-06-02T19:42:25.299Z",
+  "timestamp": "2025-06-13T18:40:49.639Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1845,6 +1845,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/BTREE/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "opListId": "extended",
         "opTokenId": "BTREE"
       }
@@ -1863,6 +1864,19 @@
       }
     },
     {
+      "chainId": 10,
+      "address": "0xB260d236F5eA5094D31F016160705ff53ac45028",
+      "name": "BTREE",
+      "symbol": "BTREE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BTREE/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BTREE"
+      }
+    },
+    {
       "chainId": 11155111,
       "address": "0x8389eFa79EF27De249AF63f034D7A94dFBdd4cBE",
       "name": "BTREE",
@@ -1871,6 +1885,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/BTREE/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
         "opListId": "extended",
         "opTokenId": "BTREE"
       }
@@ -1884,6 +1899,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/BTREE/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BTREE"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0x7E5A0b6C5c32883AE8E5b830c05688Eff317c3fb",
+      "name": "BTREE",
+      "symbol": "BTREE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/BTREE/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BTREE"
       }
@@ -14113,6 +14141,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1694
+    "patch": 1695
   }
 }
