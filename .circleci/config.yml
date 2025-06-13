@@ -96,6 +96,11 @@ jobs:
             echo "Pushing changes"
             git push "https://x-access-token:${GITHUB_TOKEN_GOVERNANCE}@github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git" $CIRCLE_BRANCH
       - run:
+          name: Build package
+          command: |
+            # build the dist directory for publishing
+            pnpm tsup --dts
+      - run:
           name: Verify NPM Token
           command: npm whoami
       - run:
