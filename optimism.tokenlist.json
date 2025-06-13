@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-06-13T18:40:49.639Z",
+  "timestamp": "2025-06-13T18:46:31.449Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1700,6 +1700,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BOSON"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+      "name": "Euro Coin",
+      "symbol": "EURC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/BridgedEURC/logo.png",
+      "extensions": {
+        "liskBridgeAddress": "0xEb99c8c87c5e0C2dCb01E2A1E35AA01f5889F677",
+        "opListId": "extended",
+        "opTokenId": "BridgedEURC"
+      }
+    },
+    {
+      "chainId": 1135,
+      "address": "0xe12cEFaAD61e551691BFa5cDA36e5dE051778C65",
+      "name": "Bridged EURC (Lisk)",
+      "symbol": "EURC.e",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/BridgedEURC/logo.png",
+      "extensions": {
+        "liskBridgeAddress": "0x4db1c96C1f9c3d5429fDf35ED2e684b309b0c281",
+        "opListId": "extended",
+        "opTokenId": "BridgedEURC"
       }
     },
     {
@@ -14141,6 +14167,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1695
+    "patch": 1696
   }
 }
