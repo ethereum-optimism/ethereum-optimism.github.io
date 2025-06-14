@@ -1,0 +1,12 @@
+ WARN  Issue while reading "D:\optimism-token-list\ethereum-optimism.github.io\.npmrc". Failed to replace env in config: ${NPM_TOKEN}
+
+D:\optimism-token-list\ethereum-optimism.github.io\src\generate.ts:33
+    .map((folder) => {
+     ^
+TypeError: Cannot read properties of undefined (reading 'endsWith')
+    at D:\optimism-token-list\ethereum-optimism.github.io\src\generate.ts:40:36
+    at Array.map (<anonymous>)
+    at generate (D:\optimism-token-list\ethereum-optimism.github.io\src\generate.ts:33:6)
+    at validate (D:\optimism-token-list\ethereum-optimism.github.io\src\validate.ts:328:16)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Command.<anonymous> (D:\optimism-token-list\ethereum-optimism.github.io\bin\cli.ts:25:21)
