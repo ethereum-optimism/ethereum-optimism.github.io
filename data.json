@@ -1,0 +1,13 @@
+{
+  "name": "Glyphs",
+  "symbol": "GLYPHS",
+  "decimals": 18,
+  "description": "Glyphs is a utility token issued by Technoglyphs®",
+  "website": "https://www.technoglyphs.art",
+  "twitter": "@technoglyphs",
+  "tokens": {
+    "base": {
+      "address": "0x6105DDE156e9a7F08ce31E3d1fd8563300A3fc95"
+    }
+  }
+}
