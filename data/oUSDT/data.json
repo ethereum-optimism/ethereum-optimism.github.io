@@ -1,0 +1,28 @@
+{
+  "name": "OpenUSDT",
+  "symbol": "oUSDT",
+  "decimals": 6,
+  "description": "OpenUSDT supercharges DeFi with seamless, cross-chain USDT liquidity.",
+  "website": "https://www.openusdt.xyz",
+  "twitter": "@OpenUSDT",
+  "tokens": {
+    "ethereum": {
+      "address": "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189"
+    },
+    "optimism": {
+      "address": "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189"
+    },
+    "base": {
+      "address": "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189"
+    },
+    "mode": {
+      "address": "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189"
+    },
+    "lisk": {
+      "address": "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189"
+    },
+    "bob": {
+      "address": "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189"
+    }
+  }
+}

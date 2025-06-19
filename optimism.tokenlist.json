@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-05-16T11:39:48.354Z",
+  "timestamp": "2025-06-19T10:50:40.945Z",
   "tokens": [
     {
       "chainId": 1,
@@ -430,6 +430,88 @@
       "extensions": {
         "opListId": "default",
         "opTokenId": "LBTC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189",
+      "name": "OpenUSDT",
+      "symbol": "oUSDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/oUSDT/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
+        "liskBridgeAddress": "0x2658723Bf70c7667De6B25F99fcce13A16D25d08",
+        "bobBridgeAddress": "0x3F6cE1b36e5120BBc59D0cFe8A5aC8b6464ac1f7",
+        "opListId": "extended",
+        "opTokenId": "oUSDT"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189",
+      "name": "OpenUSDT",
+      "symbol": "oUSDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/oUSDT/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "oUSDT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189",
+      "name": "OpenUSDT",
+      "symbol": "oUSDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/oUSDT/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "oUSDT"
+      }
+    },
+    {
+      "chainId": 34443,
+      "address": "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189",
+      "name": "OpenUSDT",
+      "symbol": "oUSDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/oUSDT/logo.png",
+      "extensions": {
+        "modeBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "oUSDT"
+      }
+    },
+    {
+      "chainId": 1135,
+      "address": "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189",
+      "name": "OpenUSDT",
+      "symbol": "oUSDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/oUSDT/logo.png",
+      "extensions": {
+        "liskBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "oUSDT"
+      }
+    },
+    {
+      "chainId": 60808,
+      "address": "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189",
+      "name": "OpenUSDT",
+      "symbol": "oUSDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/oUSDT/logo.png",
+      "extensions": {
+        "bobBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "oUSDT"
       }
     },
     {
