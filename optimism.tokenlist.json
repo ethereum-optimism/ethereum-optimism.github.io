@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-06-13T20:33:40.313Z",
+  "timestamp": "2025-06-20T23:46:59.896Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2337,6 +2337,18 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0xc0ca42002d09172d832b59c2dc8bd91a5d839805",
+      "name": "CocaineToken.com",
+      "symbol": "COCAINE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/COCAINE/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "COCAINE"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x8B21e9b7dAF2c4325bf3D18c1BeB79A347fE902A",
       "name": "Collab.Land",
@@ -4030,6 +4042,30 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "FOAM"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xd0D56273290D339aaF1417D9bfa1bb8cFe8A0933",
+      "name": "FOOM",
+      "symbol": "FOOM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FOOM/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "FOOM"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x02300aC24838570012027E0A90D3FEcCEF3c51d2",
+      "name": "FOOM",
+      "symbol": "FOOM",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FOOM/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "FOOM"
       }
     },
     {
@@ -14167,6 +14203,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1697
+    "patch": 1698
   }
 }
