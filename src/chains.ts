@@ -43,21 +43,21 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
-  'redstone': {
+  redstone: {
     id: 690,
     name: 'Redstone',
     provider: new ethers.providers.StaticJsonRpcProvider(
       'https://rpc.redstonechain.com'
     ),
-    layer: 2
+    layer: 2,
   },
-  'metall2': {
+  metall2: {
     id: 1750,
     name: 'Metal L2',
     provider: new ethers.providers.StaticJsonRpcProvider(
       'https://rpc.metall2.com'
     ),
-    layer: 2
+    layer: 2,
   },
   unichain: {
     id: 130,
@@ -65,7 +65,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     provider: new ethers.providers.StaticJsonRpcProvider(
       'https://mainnet.unichain.org'
     ),
-    layer: 2
+    layer: 2,
   },
   soneium: {
     id: 1868,
@@ -123,7 +123,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     provider: new ethers.providers.StaticJsonRpcProvider(
       'https://sepolia.unichain.org'
     ),
-    layer: 2
+    layer: 2,
   },
   'soneium-minato': {
     id: 1946,
@@ -133,7 +133,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
-  'celo': {
+  celo: {
     id: 42220,
     name: 'Celo',
     provider: new ethers.providers.StaticJsonRpcProvider(
@@ -141,7 +141,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
-  'swellchain': {
+  swellchain: {
     id: 1923,
     name: 'Swellchain',
     provider: new ethers.providers.StaticJsonRpcProvider(
@@ -149,7 +149,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
-  'ink': {
+  ink: {
     id: 57073,
     name: 'Ink',
     provider: new ethers.providers.StaticJsonRpcProvider(
@@ -165,7 +165,7 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
-  'worldchain': {
+  worldchain: {
     id: 480,
     name: 'Worldchain',
     provider: new ethers.providers.StaticJsonRpcProvider(
@@ -211,10 +211,10 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   unichain: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
-  'redstone': {
-    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010'
+  redstone: {
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
-  'metall2': {
+  metall2: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
   soneium: {
@@ -238,19 +238,19 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   'soneium-minato': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
-  'celo': {
+  celo: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
-  'swellchain': {
+  swellchain: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
-  'ink': {
+  ink: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
   'ink-sepolia': {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
-  'worldchain': {
+  worldchain: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
   },
   'worldchain-sepolia': {
