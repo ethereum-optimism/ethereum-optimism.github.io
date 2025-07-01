@@ -47,7 +47,7 @@
       "address": "0xe75D0fB2C24A55cA1e3F96781a2bCC7bdba058F0",
       "overrides": {
         "name": "Bridged USDC (BOB)",
-        "symbol": "USDC",
+        "symbol": "USDC.e",
         "bridge": "0xe497788F8Fcc30B773C9A181a0FFE2e60645cE90"
       }
     },
@@ -55,7 +55,7 @@
       "address": "0x2c1f73d37E7cdbA2792156139b0d35A765d595C5",
       "overrides": {
         "name": "Bridged USDC (BOB)",
-        "symbol": "USDC",
+        "symbol": "USDC.e",
         "bridge": "0x5C2A45A35ba99d8Ee58c4bB96e2Ce30dA86C530b"
       }
     }

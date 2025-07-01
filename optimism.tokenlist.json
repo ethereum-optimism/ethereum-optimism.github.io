@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-06-19T10:50:40.945Z",
+  "timestamp": "2025-06-25T11:08:41.324Z",
   "tokens": [
     {
       "chainId": 1,
@@ -1058,7 +1058,7 @@
       "chainId": 60808,
       "address": "0xe75D0fB2C24A55cA1e3F96781a2bCC7bdba058F0",
       "name": "Bridged USDC (BOB)",
-      "symbol": "USDC",
+      "symbol": "USDC.e",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/USDC/logo.png",
       "extensions": {
@@ -1071,7 +1071,7 @@
       "chainId": 808813,
       "address": "0x2c1f73d37E7cdbA2792156139b0d35A765d595C5",
       "name": "Bridged USDC (BOB)",
-      "symbol": "USDC",
+      "symbol": "USDC.e",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/USDC/logo.png",
       "extensions": {

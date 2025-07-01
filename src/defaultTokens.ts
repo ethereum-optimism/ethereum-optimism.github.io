@@ -38,6 +38,6 @@ export const defaultTokenDataFolders = new Set([
   'LBTC',
   'uniBTC',
   'BABY',
-  'HybridBTC',
+  'HybridBTC.pendle',
   'oUSDT',
 ])
