@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-06-20T23:46:59.896Z",
+  "timestamp": "2025-07-02T04:56:56.519Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2294,6 +2294,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "CNG"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xf828BA501B108FbC6c88eBDfF81C401BB6B94848",
+      "name": "coordinape.com",
+      "symbol": "CO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "CO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xe8A9ABa04e6807Cc77501862cC7eA17c9603291E",
+      "name": "CoDAO",
+      "symbol": "CO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CO"
       }
     },
     {
@@ -14203,6 +14229,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1698
+    "patch": 1699
   }
 }
