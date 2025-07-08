@@ -1,0 +1,16 @@
+{
+    "name": "SuperVerse",
+    "symbol": "SUPER",
+    "decimals": 18,
+    "description": "SuperVerse unites the biggest web3 community with the best crypto games.",
+    "website": "https://superverse.co/",
+    "twitter": "https://x.com/superverse",
+    "tokens": {
+      "ethereum": {
+        "address": "0xe53EC727dbDEB9E2d5456c3be40cFF031AB40A55"
+      },
+      "soneium": {
+        "address": "0xF765356C901a064A74Fa4560622f21C91048c3D7"
+      }
+    }
+  }
