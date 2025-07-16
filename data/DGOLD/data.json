@@ -1,0 +1,16 @@
+{
+  "name": "Digital Gold",
+  "symbol": "DGOLD",
+  "decimals": 18,
+  "description": "The Digital Gold Ecosystem (DGE) is a gamified three-token project on the Soneium Blockchain. Our powerful trio of tokens, when combined with our mining permit NFTs, drives our Virtual Mining System (VMS), which produces rewards for our holders. The Digital Gold Token (DGOLD) serves as the backbone of the Digital Gold Ecosystem’s VMS, which rewards DGOLD holders with DSLVR tokens every epoch and opens the door to a range of reward programs within our ecosystem.",
+  "website": "https://www.digitalgoldecosystem.com/",
+  "twitter": "@DigitalGold2022",
+  "tokens": {
+    "soneium": {
+      "address": "0x0389aC84ef2313657835c97D7652E52A16513c31"
+    },
+    "soneium-minato": {
+      "address": "0xE1C84CE7212E882376fbc720df4607c093beF98B"
+    }
+  }
+}
