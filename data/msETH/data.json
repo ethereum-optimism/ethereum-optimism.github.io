@@ -1,0 +1,14 @@
+{
+  "name": "Metronome Synth ETH",
+  "symbol": "msETH",
+  "decimals": 18,
+  "description": "Wrapped Super OETH",
+  "website": "https://metronome.io",
+  "twitter": "@MetronomeDAO",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x7Ba6F01772924a82D9626c126347A28299E98c98"
+    }
+  }
+}
