@@ -2,7 +2,7 @@
   "name": "Metronome Synth ETH",
   "symbol": "msETH",
   "decimals": 18,
-  "description": "Wrapped Super OETH",
+  "description": "Metronome Synth ETH",
   "website": "https://metronome.io",
   "twitter": "@MetronomeDAO",
   "nobridge": true,
