@@ -11,7 +11,9 @@
       },
       "soneium": {
         "address": "0x6ef08F42C936f5d101B76160c816D3c8181C9867"
+      },
+      "base": {
+        "address": "0x7094c27f342DBAdfbbeD005b219431595E33b305"
       }
     }
   }
-  
