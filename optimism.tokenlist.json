@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-07-09T15:07:18.099Z",
+  "timestamp": "2025-07-22T21:15:57.867Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8985,6 +8985,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/QUICK/logo.svg",
       "extensions": {
         "soneiumBridgeAddress": "0xeb9bf100225c214efc3e7c651ebbadcf85177607",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "QUICK"
       }
@@ -8998,6 +8999,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/QUICK/logo.svg",
       "extensions": {
         "soneiumBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "QUICK"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7094c27f342DBAdfbbeD005b219431595E33b305",
+      "name": "QuickSwap",
+      "symbol": "QUICK",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/QUICK/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "QUICK"
       }
@@ -14255,6 +14269,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1700
+    "patch": 1701
   }
 }
