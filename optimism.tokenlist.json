@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-07-22T21:15:57.867Z",
+  "timestamp": "2025-07-28T16:56:05.177Z",
   "tokens": [
     {
       "chainId": 1,
@@ -11475,6 +11475,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x000000Fa00b200406de700041CFc6b19BbFB4d13",
+      "name": "Towns",
+      "symbol": "TOWNS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TOWNS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "TOWNS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x00000000A22C618fd6b4D7E9A335C4B96B189a38",
+      "name": "Towns",
+      "symbol": "TOWNS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/TOWNS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TOWNS"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F",
       "name": "Trace Token",
       "symbol": "TRAC",
@@ -14269,6 +14295,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1701
+    "patch": 1702
   }
 }
