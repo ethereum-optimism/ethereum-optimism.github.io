@@ -1,0 +1,14 @@
+{
+  "name": "Wrapped Super OETH",
+  "symbol": "wsuperOETHb",
+  "decimals": 18,
+  "description": "Wrapped Super OETH",
+  "website": "https://www.originprotocol.com/super-oeth",
+  "twitter": "@OriginProtocol",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x7FcD174E80f264448ebeE8c88a7C4476AAF58Ea6"
+    }
+  }
+}
