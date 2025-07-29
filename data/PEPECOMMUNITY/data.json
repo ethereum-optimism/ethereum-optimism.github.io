@@ -1,0 +1,15 @@
+{
+  "name": "Pepe Community",
+  "symbol": "PEPE",
+  "decimals": 18,
+  "address": "0xbe042e9d09cb588331ff911c2b46fd833a3e5bd6",
+  "description": "Pepe Community stands out as a trusted and creative force in Web3 ecosystems, rooted in fairness and resilience. Representing the DNA: 0xBE, it fosters authenticity, pride, and collaboration, redefining meme culture, with a positive and enduring impact. This is an original and community driven $PEPE.",
+  "logoURI": "https://assets.coingecko.com/coins/images/31482/standard/photo_2023-08-25_07-54-16.jpg",
+  "website": "https://pepecommunity.vip",
+  "twitter": "https://twitter.com/PepeToken_0xBE",
+  "telegram": "https://t.me/PepeToken_0xBE",
+  "chains": [
+    "ethereum",
+    "base"
+  ]
+}
