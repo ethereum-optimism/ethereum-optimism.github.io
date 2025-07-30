@@ -17,7 +17,7 @@ export interface Token {
  * Supported chains for the tokenlist
  * If adding a new chain consider keeping the name
  * consistent with wagmi
- * @see https://github.com/wagmi-dev/references/blob/main/packages/chains/src/optimismGoerli.ts
+ * @see https://github.com/wevm/viem/blob/main/src/chains/definitions/optimismSepolia.ts
  */
 export type Chain =
   | 'ethereum'
