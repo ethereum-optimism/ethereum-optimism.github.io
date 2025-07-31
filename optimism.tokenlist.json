@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-06-25T11:08:41.324Z",
+  "timestamp": "2025-07-31T11:08:35.538Z",
   "tokens": [
     {
       "chainId": 1,
@@ -390,10 +390,10 @@
       "name": "Hybrid BTC",
       "symbol": "HybridBTC.pendle",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/HybridBTC/logo.svg",
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/HybridBTC.pendle/logo.svg",
       "extensions": {
         "opListId": "extended",
-        "opTokenId": "HybridBTC"
+        "opTokenId": "HybridBTC.pendle"
       }
     },
     {
@@ -402,10 +402,10 @@
       "name": "Hybrid BTC",
       "symbol": "HybridBTC.pendle",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/HybridBTC/logo.svg",
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/HybridBTC.pendle/logo.svg",
       "extensions": {
         "opListId": "extended",
-        "opTokenId": "HybridBTC"
+        "opTokenId": "HybridBTC.pendle"
       }
     },
     {
@@ -761,6 +761,18 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0x517f2982701695D4E52f1ECFBEf3ba31Df470161",
+      "name": "tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/tBTC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "tBTC"
+      }
+    },
+    {
       "chainId": 8453,
       "address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
       "name": "Base tBTC v2",
@@ -775,6 +787,18 @@
     {
       "chainId": 60808,
       "address": "0xBBa2eF945D523C4e2608C9E1214C2Cc64D4fc2e2",
+      "name": "tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/tBTC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "tBTC"
+      }
+    },
+    {
+      "chainId": 808813,
+      "address": "0xD23F06550b0A7bC98B20eb81D4c21572a97598FA",
       "name": "tBTC v2",
       "symbol": "tBTC",
       "decimals": 18,
@@ -1057,7 +1081,7 @@
     {
       "chainId": 60808,
       "address": "0xe75D0fB2C24A55cA1e3F96781a2bCC7bdba058F0",
-      "name": "Bridged USDC (BOB)",
+      "name": "Bridged USDC",
       "symbol": "USDC.e",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/USDC/logo.png",
@@ -1070,7 +1094,7 @@
     {
       "chainId": 808813,
       "address": "0x2c1f73d37E7cdbA2792156139b0d35A765d595C5",
-      "name": "Bridged USDC (BOB)",
+      "name": "Bridged USDC",
       "symbol": "USDC.e",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/USDC/logo.png",
@@ -1152,7 +1176,7 @@
     {
       "chainId": 60808,
       "address": "0x05D032ac25d322df992303dCa074EE7392C117b9",
-      "name": "Tether USD",
+      "name": "Bridged USDT",
       "symbol": "USDT",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/USDT/logo.png",
@@ -1206,7 +1230,7 @@
     {
       "chainId": 60808,
       "address": "0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3",
-      "name": "Wrapped BTC",
+      "name": "Bridged WBTC",
       "symbol": "WBTC",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/WBTC/logo.svg",
