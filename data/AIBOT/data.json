@@ -1,0 +1,22 @@
+{
+  "name": "CherryAI",
+  "symbol": "AIBOT",
+  "decimals": 9,
+  "description": "Cherry is a full-stack web3 Telegram ecosystem for trading, community, and gamified rewards",
+  "website": "https://www.cherrybot.ai/",
+  "twitter": "https://x.com/cherrytgbot",
+  "logoURI": "https://ipfs.cherrybot.ai/ipfs/QmRZzvPgDeYJb9oddQahQTuAcsyzqQcJBm9f77AuiLKXQi",
+  "opTokenId": "AIBOT",
+  "tokens": {
+    "solana": {
+      "address": "6V6YhTMR3hXbvHrMmMQ4vMG3gUWwifc57ZsEjRTbAsdH"
+    },
+    "bsc": {
+      "address": "0x96adaa33e175f4a7f20c099730bc78dd0b45745b"
+    }
+  },
+  "addresses": {
+    "30168": "6V6YhTMR3hXbvHrMmMQ4vMG3gUWwifc57ZsEjRTbAsdH",
+    "56": "0x96adaa33e175f4a7f20c099730bc78dd0b45745b"
+  }
+}
