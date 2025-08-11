@@ -1,0 +1,22 @@
+{
+  "name": "Wrapped WIT (beta)",
+  "symbol": "WIT",
+  "decimals": 9,
+  "description": "Wrapped WIT delivers the power of $WIT, the native coin of the Wit/Oracle blockchain, with the flexibility of an ERC20 token.",
+  "website": "https://witnet.io",
+  "twitter": "@witnet_io",
+  "tokens": {
+    "sepolia": {
+      "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014"
+    },
+    "base-sepolia": {
+      "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014"
+    },
+    "celo-alfajores":{
+      "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014"
+    },
+    "optimism-sepolia": {
+      "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014"
+    }
+  }
+}
