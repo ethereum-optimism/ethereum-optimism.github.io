@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-08-11T14:42:39.734Z",
+  "timestamp": "2025-08-12T17:32:31.785Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4396,6 +4396,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "fxUSD"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x2EE7097BfdD98fCE2AC08A1896038a7cd9aaEd81",
+      "name": "Gaia Token",
+      "symbol": "GAIA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GAIA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "GAIA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x6fbf03efa4363ca0afe0c9c3906f7d610890b683",
+      "name": "Gaia Token",
+      "symbol": "GAIA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GAIA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GAIA"
       }
     },
     {
@@ -14309,6 +14335,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1703
+    "patch": 1704
   }
 }
