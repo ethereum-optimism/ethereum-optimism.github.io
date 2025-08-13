@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-08-12T17:32:31.785Z",
+  "timestamp": "2025-08-13T16:10:23.505Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7399,6 +7399,18 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0x7Ba6F01772924a82D9626c126347A28299E98c98",
+      "name": "Metronome Synth ETH",
+      "symbol": "msETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/msETH/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "msETH"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2",
       "name": "Meta",
@@ -13608,6 +13620,18 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0x7FcD174E80f264448ebeE8c88a7C4476AAF58Ea6",
+      "name": "Wrapped Super OETH",
+      "symbol": "wsuperOETHb",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wsuperOETHb/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "wsuperOETHb"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xD38e031f4529a07996aaB977d2B79f0e00656C56",
       "name": "wTBT Pool",
@@ -14335,6 +14359,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1704
+    "patch": 1705
   }
 }
