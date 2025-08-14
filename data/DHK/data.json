@@ -1,0 +1,14 @@
+{
+  "name": "DHK DAO",
+  "symbol": "DHK",
+  "decimals": 18,
+  "description": "Building Consensus Among 7mil People",
+  "website": "https://dhk.org",
+  "twitter": "@dhkdao",
+  "nobridge": true,
+  "tokens": {
+    "optimism": {
+      "address": "0xe85d2c93f7E26B99a46A8bB9350cBfB965FA4F82"
+    }
+  }
+}

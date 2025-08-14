@@ -14,6 +14,12 @@
     },
     "base": {
       "address": "0x75f2231A289Ea35895246b21e9c6E5BbF5ce69ED"
+    },
+    "unichain": {
+      "address": "0x6D5De04F1a3E0e554B9A15059d03e20cb3589153",
+      "overrides": {
+        "name": "AltLayer"
+      }
     }
   }
 }

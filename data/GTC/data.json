@@ -8,6 +8,15 @@
     },
     "optimism": {
       "address": "0x1eba7a6a72c894026cd654ac5cdcf83a46445b08"
+    },
+    "unichain": {
+      "address": "0x592620d454a10c47274dBfe3BD922b9a8fE5cf48"
+    },
+    "celo": {
+      "address": "0xa80e318dc786c58b8bcb692579764f56f89ab27e",
+      "overrides": {
+        "name": "Gitcoin (Celo native bridge)"
+      }
     }
   }
 }

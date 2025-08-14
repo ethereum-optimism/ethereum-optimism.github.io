@@ -17,16 +17,16 @@ export interface Token {
  * Supported chains for the tokenlist
  * If adding a new chain consider keeping the name
  * consistent with wagmi
- * @see https://github.com/wagmi-dev/references/blob/main/packages/chains/src/optimismGoerli.ts
+ * @see https://github.com/wevm/viem/blob/main/src/chains/definitions/optimismSepolia.ts
  */
 export type Chain =
   | 'ethereum'
   | 'optimism'
   | 'base'
+  | 'unichain'
   | 'optimism-sepolia'
   | 'base-sepolia'
-  | 'pgn'
-  | 'pgn-sepolia'
+  | 'unichain-sepolia'
   | 'sepolia'
   | 'mode'
   | 'lisk'
@@ -34,20 +34,35 @@ export type Chain =
   | 'redstone'
   | 'metall2'
   | 'metall2-sepolia'
-
+  | 'soneium'
+  | 'soneium-minato'
+  | 'celo'
+  | 'swellchain'
+  | 'ink'
+  | 'ink-sepolia'
+  | 'worldchain'
+  | 'worldchain-sepolia'
 const l2Chains = [
   'optimism',
   'optimism-sepolia',
   'base',
   'base-sepolia',
-  'pgn-sepolia',
-  'pgn',
+  'unichain',
+  'unichain-sepolia',
   'mode',
   'lisk',
   'lisk-sepolia',
   'redstone',
   'metall2',
-  'metall2-sepolia'
+  'metall2-sepolia',
+  'soneium',
+  'soneium-minato',
+  'celo',
+  'swellchain',
+  'ink',
+  'ink-sepolia',
+  'worldchain',
+  'worldchain-sepolia',
 ] as const
 export type L2Chain = typeof l2Chains[number]
 

@@ -11,6 +11,12 @@
     },
     "base": {
       "address": "0x417Ac0e078398C154EdFadD9Ef675d30Be60Af93"
+    },
+    "celo": {
+      "address": "0x9efd56a126a0e3a8782db5fd5adb23a8dd9023c6",
+      "overrides": {
+        "name": "Curve.Fi USD Stablecoin (Celo native bridge)"
+      }
     }
   }
 }
