@@ -200,7 +200,7 @@ workflows:
             - equal: [<< pipeline.trigger_source >>, "webhook"]
     jobs:
       - validate:
-          context: circleci-repo-ethereum-optimism.github.io
+          context: token-validation
           filters:
             branches:
               only: master
@@ -235,7 +235,7 @@ workflows:
   validate-workflow:
     jobs:
       - validate:
-          context: circleci-repo-ethereum-optimism.github.io
+          context: token-validation
           filters:
             branches:
               ignore: master
