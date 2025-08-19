@@ -59,72 +59,81 @@ export const getRpcUrls = (chain: string): string[] => {
 }
 
 /**
- * Get Infura project ID from environment variable
+ * Get Alchemy API key from environment variable
  */
-const getInfuraProjectId = (): string => {
-    return process.env.INFURA_PROJECT_ID || '84842078b09946638c03157f83405213' // fallback to existing default
+const getAlchemyApiKey = (): string => {
+  return process.env.ALCHEMY_API_KEY || ''
 }
 
 /**
- * Default RPC URLs with Infura endpoints and fallbacks
+ * Default RPC URLs with Alchemy endpoints and fallbacks
  */
 const getDefaultRpcUrls = (chain: string): string[] => {
-    const infuraProjectId = getInfuraProjectId()
+  const alchemyApiKey = getAlchemyApiKey()
+  
+  const rpcMap: Record<string, string[]> = {
+    ethereum: [
+      ...(alchemyApiKey ? [`https://eth-mainnet.g.alchemy.com/v2/${alchemyApiKey}`] : []),
+      'https://eth.llamarpc.com',
+      'https://rpc.ankr.com/eth',
+      'https://ethereum.publicnode.com'
+    ],
+    sepolia: [
+      ...(alchemyApiKey ? [`https://eth-sepolia.g.alchemy.com/v2/${alchemyApiKey}`] : []),
+      'https://rpc.sepolia.org',
+      'https://ethereum-sepolia.publicnode.com'
+    ],
+    optimism: [
+      ...(alchemyApiKey ? [`https://opt-mainnet.g.alchemy.com/v2/${alchemyApiKey}`] : []),
+      'https://mainnet.optimism.io',
+      'https://optimism.llamarpc.com',
+      'https://optimism.publicnode.com'
+    ],
+    'optimism-sepolia': [
+      ...(alchemyApiKey ? [`https://opt-sepolia.g.alchemy.com/v2/${alchemyApiKey}`] : []),
+      'https://sepolia.optimism.io'
+    ],
+    base: [
+      ...(alchemyApiKey ? [`https://base-mainnet.g.alchemy.com/v2/${alchemyApiKey}`] : []),
+      'https://mainnet.base.org',
+      'https://base.llamarpc.com',
+      'https://base.publicnode.com'
+    ],
+    'base-sepolia': [
+      ...(alchemyApiKey ? [`https://base-sepolia.g.alchemy.com/v2/${alchemyApiKey}`] : []),
+      'https://sepolia.base.org'
+    ],
+    // Alchemy supports more chains than Infura
+    polygon: [
+      ...(alchemyApiKey ? [`https://polygon-mainnet.g.alchemy.com/v2/${alchemyApiKey}`] : []),
+      'https://polygon-rpc.com'
+    ],
+    arbitrum: [
+      ...(alchemyApiKey ? [`https://arb-mainnet.g.alchemy.com/v2/${alchemyApiKey}`] : []),
+      'https://arb1.arbitrum.io/rpc'
+    ],
+    // Chains not supported by Alchemy - use native endpoints
+    unichain: [
+      'https://mainnet.unichain.org'
+    ],
+    'unichain-sepolia': [
+      'https://sepolia.unichain.org'
+    ],
+    mode: ['https://mainnet.mode.network'],
+    lisk: ['https://rpc.api.lisk.com'],
+    'lisk-sepolia': ['https://rpc.sepolia-api.lisk.com'],
+    redstone: ['https://rpc.redstonechain.com'],
+    metall2: ['https://rpc.metall2.com'],
+    'metall2-sepolia': ['https://testnet.rpc.metall2.com'],
+    soneium: ['https://rpc.soneium.org'],
+    'soneium-minato': ['https://rpc.minato.soneium.org'],
+    celo: ['https://forno.celo.org'],
+    swellchain: ['https://swell-mainnet.alt.technology'],
+    ink: ['https://rpc-gel.inkonchain.com'],
+    'ink-sepolia': ['https://rpc-gel-sepolia.inkonchain.com'],
+    worldchain: ['https://worldchain-mainnet.g.alchemy.com/public'],
+    'worldchain-sepolia': ['https://worldchain-sepolia.g.alchemy.com/public'],
+  }
 
-    const rpcMap: Record<string, string[]> = {
-        ethereum: [
-            `https://mainnet.infura.io/v3/${infuraProjectId}`,
-            'https://eth.llamarpc.com',
-            'https://rpc.ankr.com/eth'
-        ],
-        sepolia: [
-            `https://sepolia.infura.io/v3/${infuraProjectId}`,
-            'https://rpc.sepolia.org',
-            'https://ethereum-sepolia.publicnode.com'
-        ],
-        optimism: [
-            `https://optimism-mainnet.infura.io/v3/${infuraProjectId}`,
-            'https://mainnet.optimism.io',
-            'https://optimism.llamarpc.com'
-        ],
-        'optimism-sepolia': [
-            `https://optimism-sepolia.infura.io/v3/${infuraProjectId}`,
-            'https://sepolia.optimism.io'
-        ],
-        base: [
-            `https://base-mainnet.infura.io/v3/${infuraProjectId}`,
-            'https://mainnet.base.org',
-            'https://base.llamarpc.com'
-        ],
-        'base-sepolia': [
-            `https://base-sepolia.infura.io/v3/${infuraProjectId}`,
-            'https://sepolia.base.org'
-        ],
-        celo: [
-            `https://celo-mainnet.infura.io/v3/${infuraProjectId}`,
-            'https://forno.celo.org'
-        ],
-        // Chains not supported by Infura - use original endpoints
-        unichain: [
-            'https://mainnet.unichain.org'
-        ],
-        'unichain-sepolia': [
-            'https://sepolia.unichain.org'
-        ],
-        mode: ['https://mainnet.mode.network'],
-        lisk: ['https://rpc.api.lisk.com'],
-        'lisk-sepolia': ['https://rpc.sepolia-api.lisk.com'],
-        redstone: ['https://rpc.redstonechain.com'],
-        metall2: ['https://rpc.metall2.com'],
-        'metall2-sepolia': ['https://testnet.rpc.metall2.com'],
-        soneium: ['https://rpc.soneium.org'],
-        'soneium-minato': ['https://rpc.minato.soneium.org'],
-        swellchain: ['https://swell-mainnet.alt.technology'],
-        ink: ['https://rpc-gel.inkonchain.com'],
-        'ink-sepolia': ['https://rpc-gel-sepolia.inkonchain.com'],
-        worldchain: ['https://worldchain-mainnet.g.alchemy.com/public'],
-        'worldchain-sepolia': ['https://worldchain-sepolia.g.alchemy.com/public'],
-    }
-
-    return rpcMap[chain] || []
+  return rpcMap[chain] || []
 }
