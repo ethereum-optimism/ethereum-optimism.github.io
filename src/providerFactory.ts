@@ -1,9 +1,10 @@
 import { ethers } from 'ethers'
+import { Chain } from './types'
 
 interface ProviderConfig {
-    timeout?: number
-    retries?: number
-    throttleLimit?: number
+  timeout?: number
+  retries?: number
+  throttleLimit?: number
 }
 
 const DEFAULT_CONFIG: ProviderConfig = {
@@ -47,15 +48,15 @@ export const createRobustProvider = (
 /**
  * Get RPC URLs with environment variable overrides and fallbacks
  */
-export const getRpcUrls = (chain: string): string[] => {
-    const envKey = `${chain.toUpperCase().replace('-', '_')}_RPC_URL`
-    const envUrl = process.env[envKey]
-
-    if (envUrl) {
-        return [envUrl, ...getDefaultRpcUrls(chain)]
-    }
-
-    return getDefaultRpcUrls(chain)
+export const getRpcUrls = (chain: Chain): string[] => {
+  const envKey = `${chain.toUpperCase().replace('-', '_')}_RPC_URL`
+  const envUrl = process.env[envKey]
+  
+  if (envUrl) {
+    return [envUrl, ...getDefaultRpcUrls(chain)]
+  }
+  
+  return getDefaultRpcUrls(chain)
 }
 
 /**
@@ -68,10 +69,10 @@ const getAlchemyApiKey = (): string => {
 /**
  * Default RPC URLs with Alchemy endpoints and fallbacks
  */
-const getDefaultRpcUrls = (chain: string): string[] => {
-    const alchemyApiKey = getAlchemyApiKey()
-
-    const rpcMap: Record<string, string[]> = {
+const getDefaultRpcUrls = (chain: Chain): string[] => {
+  const alchemyApiKey = getAlchemyApiKey()
+  
+  const rpcMap: Record<Chain, string[]> = {
         ethereum: [
             ...(alchemyApiKey ? [`https://eth-mainnet.g.alchemy.com/v2/${alchemyApiKey}`] : []),
             'https://eth.llamarpc.com',
@@ -103,15 +104,7 @@ const getDefaultRpcUrls = (chain: string): string[] => {
             ...(alchemyApiKey ? [`https://base-sepolia.g.alchemy.com/v2/${alchemyApiKey}`] : []),
             'https://sepolia.base.org'
         ],
-        // Alchemy supports more chains than Infura
-        polygon: [
-            ...(alchemyApiKey ? [`https://polygon-mainnet.g.alchemy.com/v2/${alchemyApiKey}`] : []),
-            'https://polygon-rpc.com'
-        ],
-        arbitrum: [
-            ...(alchemyApiKey ? [`https://arb-mainnet.g.alchemy.com/v2/${alchemyApiKey}`] : []),
-            'https://arb1.arbitrum.io/rpc'
-        ],
+        
         // Chains not supported by Alchemy - use native endpoints
         unichain: [
             'https://mainnet.unichain.org'
