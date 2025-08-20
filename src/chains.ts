@@ -1,6 +1,7 @@
 import { ethers } from 'ethers'
 
 import { Chain, L1Chain, L2Chain, Network } from './types'
+import { createRobustProvider, getRpcUrls } from './providerFactory'
 
 const DEFAULT_INFURA_KEY = '84842078b09946638c03157f83405213'
 
@@ -8,177 +9,133 @@ export const NETWORK_DATA: Record<Chain, Network> = {
   ethereum: {
     id: 1,
     name: 'Mainnet',
-    provider: new ethers.providers.InfuraProvider('homestead'),
+    provider: createRobustProvider(getRpcUrls('ethereum'), 1),
     layer: 1,
   },
   optimism: {
     id: 10,
     name: 'Optimism',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://mainnet.optimism.io'
-    ),
+    provider: createRobustProvider(getRpcUrls('optimism'), 10),
     layer: 2,
   },
   base: {
     id: 8453,
     name: 'Base',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://mainnet.base.org'
-    ),
+    provider: createRobustProvider(getRpcUrls('base'), 8453),
     layer: 2,
   },
   mode: {
     id: 34443,
     name: 'Mode',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://mainnet.mode.network'
-    ),
+    provider: createRobustProvider(getRpcUrls('mode'), 34443),
     layer: 2,
   },
   lisk: {
     id: 1135,
     name: 'Lisk',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rpc.api.lisk.com'
-    ),
+    provider: createRobustProvider(getRpcUrls('lisk'), 1135),
     layer: 2,
   },
   redstone: {
     id: 690,
     name: 'Redstone',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rpc.redstonechain.com'
-    ),
+    provider: createRobustProvider(getRpcUrls('redstone'), 690),
     layer: 2,
   },
   metall2: {
     id: 1750,
     name: 'Metal L2',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rpc.metall2.com'
-    ),
+    provider: createRobustProvider(getRpcUrls('metall2'), 1750),
     layer: 2,
   },
   unichain: {
     id: 130,
     name: 'Unichain',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://mainnet.unichain.org'
-    ),
+    provider: createRobustProvider(getRpcUrls('unichain'), 130),
     layer: 2,
   },
   soneium: {
     id: 1868,
     name: 'Soneium',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rpc.soneium.org'
-    ),
+    provider: createRobustProvider(getRpcUrls('soneium'), 1868),
     layer: 2,
   },
   sepolia: {
     id: 11155111,
     name: 'Sepolia',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      `https://sepolia.infura.io/v3/${DEFAULT_INFURA_KEY}`,
-      11155111
-    ),
+    provider: createRobustProvider(getRpcUrls('sepolia'), 11155111),
     layer: 1,
   },
   'optimism-sepolia': {
     id: 11155420,
     name: 'Optimism Sepolia',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://sepolia.optimism.io'
-    ),
+    provider: createRobustProvider(getRpcUrls('optimism-sepolia'), 11155420),
     layer: 2,
   },
   'base-sepolia': {
     id: 84532,
     name: 'Base Sepolia',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://sepolia.base.org',
-      84532
-    ),
+    provider: createRobustProvider(getRpcUrls('base-sepolia'), 84532),
     layer: 2,
   },
   'lisk-sepolia': {
     id: 4202,
     name: 'Lisk Sepolia',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rpc.sepolia-api.lisk.com'
-    ),
+    provider: createRobustProvider(getRpcUrls('lisk-sepolia'), 4202),
     layer: 2,
   },
   'metall2-sepolia': {
     id: 1740,
     name: 'Metal L2 Sepolia',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://testnet.rpc.metall2.com'
-    ),
+    provider: createRobustProvider(getRpcUrls('metall2-sepolia'), 1740),
     layer: 2,
   },
   'unichain-sepolia': {
     id: 1301,
     name: 'Unichain Sepolia',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://sepolia.unichain.org'
-    ),
+    provider: createRobustProvider(getRpcUrls('unichain-sepolia'), 1301),
     layer: 2,
   },
   'soneium-minato': {
     id: 1946,
     name: 'Soneium Minato',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rpc.minato.soneium.org'
-    ),
+    provider: createRobustProvider(getRpcUrls('soneium-minato'), 1946),
     layer: 2,
   },
   celo: {
     id: 42220,
     name: 'Celo',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://forno.celo.org'
-    ),
+    provider: createRobustProvider(getRpcUrls('celo'), 42220),
     layer: 2,
   },
   swellchain: {
     id: 1923,
     name: 'Swellchain',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://swell-mainnet.alt.technology'
-    ),
+    provider: createRobustProvider(getRpcUrls('swellchain'), 1923),
     layer: 2,
   },
   ink: {
     id: 57073,
     name: 'Ink',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rpc-gel.inkonchain.com'
-    ),
+    provider: createRobustProvider(getRpcUrls('ink'), 57073),
     layer: 2,
   },
   'ink-sepolia': {
     id: 763373,
     name: 'Ink Sepolia',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://rpc-gel-sepolia.inkonchain.com'
-    ),
+    provider: createRobustProvider(getRpcUrls('ink-sepolia'), 763373),
     layer: 2,
   },
   worldchain: {
     id: 480,
     name: 'Worldchain',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://worldchain-mainnet.g.alchemy.com/public'
-    ),
+    provider: createRobustProvider(getRpcUrls('worldchain'), 480),
     layer: 2,
   },
   'worldchain-sepolia': {
     id: 4801,
     name: 'Worldchain Sepolia',
-    provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://worldchain-sepolia.g.alchemy.com/public'
-    ),
+    provider: createRobustProvider(getRpcUrls('worldchain-sepolia'), 4801),
     layer: 2,
   },
 }

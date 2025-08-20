@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-07-28T16:56:05.177Z",
+  "timestamp": "2025-08-20T05:00:35.428Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3454,6 +3454,7 @@
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "unichainBridgeAddress": "0x81014F44b0a345033bB2b3B21C7a1A308B35fEeA",
+        "celoBridgeAddress": "0x9C4955b92F34148dbcfDCD82e9c9eCe5CF2badfe",
         "opListId": "extended",
         "opTokenId": "ENS"
       }
@@ -3480,6 +3481,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/ENS/logo.png",
       "extensions": {
         "unichainBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ENS"
+      }
+    },
+    {
+      "chainId": 42220,
+      "address": "0x6D8aDA2df4aebb0561781775872DB1db98d9F791",
+      "name": "Ethereum Name Service (Celo native bridge)",
+      "symbol": "ENS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ENS/logo.png",
+      "extensions": {
+        "celoBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ENS"
       }
@@ -4382,6 +4396,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "fxUSD"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x2EE7097BfdD98fCE2AC08A1896038a7cd9aaEd81",
+      "name": "Gaia Token",
+      "symbol": "GAIA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GAIA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "GAIA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x6fbf03efa4363ca0afe0c9c3906f7d610890b683",
+      "name": "Gaia Token",
+      "symbol": "GAIA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/GAIA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GAIA"
       }
     },
     {
@@ -7356,6 +7396,18 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "MRSMIGGLES"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7Ba6F01772924a82D9626c126347A28299E98c98",
+      "name": "Metronome Synth ETH",
+      "symbol": "msETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/msETH/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "msETH"
       }
     },
     {
@@ -13568,6 +13620,18 @@
       }
     },
     {
+      "chainId": 8453,
+      "address": "0x7FcD174E80f264448ebeE8c88a7C4476AAF58Ea6",
+      "name": "Wrapped Super OETH",
+      "symbol": "wsuperOETHb",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/wsuperOETHb/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "wsuperOETHb"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xD38e031f4529a07996aaB977d2B79f0e00656C56",
       "name": "wTBT Pool",
@@ -14295,6 +14359,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1702
+    "patch": 1706
   }
 }
