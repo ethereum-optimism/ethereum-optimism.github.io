@@ -1,5 +1,5 @@
 {
-  "name": "IP Tokens of IPNFT #108246717199802830449916199897226478163176946134490555322418727943986180682745",
+  "name": "Fission Bio",
   "symbol": "MITY",
   "decimals": 18,
   "description": "Fission Bio IP Token",
@@ -8,15 +8,9 @@
   "tokens": {
     "ethereum": {
       "address": "0xd07eA8776e52c1b67dcA6ffBC3F659Fc9fbe4113"
-      "overrides": {
-       "name": "Fission Bio"
-      }
     },
     "base": {
       "address": "0x1fbaf8bDc2A43b0c9BA90b6caF44EE14d2EE6773"
-      "overrides": {
-       "name": "Fission Bio"
-      }
     }
   }
 }
