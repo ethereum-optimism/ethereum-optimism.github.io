@@ -8,9 +8,6 @@
   "tokens": {
     "ethereum": {
       "address": "0xd07eA8776e52c1b67dcA6ffBC3F659Fc9fbe4113"
-      "overrides": {
-        "name": "Fission Bio"
-      }
     },
     "base": {
       "address": "0x1fbaf8bDc2A43b0c9BA90b6caF44EE14d2EE6773"
