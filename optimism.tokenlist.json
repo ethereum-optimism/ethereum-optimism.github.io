@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-08-27T02:23:48.641Z",
+  "timestamp": "2025-08-27T23:48:04.486Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2058,6 +2058,7 @@
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "modeBridgeAddress": "0x735aDBbE72226BD52e818E7181953f42E3b0FF21",
         "opListId": "extended",
         "opTokenId": "bwAJNA"
       }
@@ -2084,6 +2085,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/bwAJNA/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "bwAJNA"
+      }
+    },
+    {
+      "chainId": 34443,
+      "address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
+      "name": "Burn Wrapped AJNA",
+      "symbol": "bwAJNA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/bwAJNA/logo.svg",
+      "extensions": {
+        "modeBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "bwAJNA"
       }
@@ -3442,6 +3456,32 @@
         "optimismBridgeAddress": "0xAa029BbdC947F5205fBa0F3C11b592420B58f824",
         "opListId": "extended",
         "opTokenId": "ECO"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x2781246fe707bB15CeE3e5ea354e2154a2877B16",
+      "name": "ELYSIA",
+      "symbol": "EL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/EL/logo.svg",
+      "extensions": {
+        "soneiumBridgeAddress": "0xeb9bf100225c214efc3e7c651ebbadcf85177607",
+        "opListId": "extended",
+        "opTokenId": "EL"
+      }
+    },
+    {
+      "chainId": 1868,
+      "address": "0xBC63230d1C4d0Cd241D66F5AaE75f3D1d6C0949a",
+      "name": "ELYSIA",
+      "symbol": "EL",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/EL/logo.svg",
+      "extensions": {
+        "soneiumBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "EL"
       }
     },
     {
@@ -14385,6 +14425,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1708
+    "patch": 1709
   }
 }
