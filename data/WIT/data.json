@@ -9,7 +9,10 @@
     "sepolia": {
       "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014",
       "overrides": {
-        "bridge": "0x4200000000000000000000000000000028"
+        "bridge": {
+          "base-sepolia": "0x4200000000000000000000000000000028",
+          "optimism-sepolia": "0x4200000000000000000000000000000028"
+        }
       }
     },
     "base-sepolia": {
