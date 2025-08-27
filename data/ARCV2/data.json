@@ -10,7 +10,7 @@
         "address": "0x672fdBA7055bddFa8fD6bD45B1455cE5eB97f499",
         "overrides": {
           "bridge": {
-            "base": "0x4200000000000000000000000000000000000010"
+            "base": "0x431151F26c48B4D4BEFc34048a0966Bf960A0c50"
           }
         }
     },
