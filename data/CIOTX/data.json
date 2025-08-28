@@ -7,7 +7,10 @@
   "twitter": "@iotex_io",
   "tokens": {
     "ethereum": {
-      "address": "0x9F90B457Dea25eF802E38D470ddA7343691D8FE1"
+      "address": "0x9F90B457Dea25eF802E38D470ddA7343691D8FE1",
+      "overrides": {
+        "name": "Crosschain IOTX"
+      }
     },
     "base": {
       "address": "0x819233aA703A19E434e6dD965493B6081a3fc3aa"
