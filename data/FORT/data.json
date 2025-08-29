@@ -1,0 +1,22 @@
+{
+  "name": "Forta",
+  "symbol": "FORT",
+  "decimals": 18,
+  "description": "FORT is the native token of the Forta Network, a real-time security and compliance transaction screening network.",
+  "website": "https://forta.org",
+  "twitter": "@FortaNetwork",
+  "tokens": {
+    "ethereum": {
+      "address": "0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29"
+    },
+    "base": {
+      "address": "0x7588310a7abf34dc608ac98a1c4432f85e194df5"
+    },
+    "sepolia": {
+      "address": "0x95d9a757ad9C25999ffE93f3067221F04ce1Cc79"
+    },
+    "optimism-sepolia": {
+      "address": "0xfb8Bd4464849080B8a08d706300347CbEA8c137D"
+    }
+  }
+}
