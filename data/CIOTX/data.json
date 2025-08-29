@@ -1,0 +1,19 @@
+{
+  "name": "IoTeX Network (Crosschain IOTX)",
+  "symbol": "CIOTX",
+  "decimals": 18,
+  "description": "IoTeX is the blockchain platform for Real-World AI, delivering verified real-time data from the real world to AI systems and applications since 2017.",
+  "website": "http://iotex.io/",
+  "twitter": "@iotex_io",
+  "tokens": {
+    "ethereum": {
+      "address": "0x9F90B457Dea25eF802E38D470ddA7343691D8FE1",
+      "overrides": {
+        "name": "Crosschain IOTX"
+      }
+    },
+    "base": {
+      "address": "0x819233aA703A19E434e6dD965493B6081a3fc3aa"
+    }
+  }
+}
