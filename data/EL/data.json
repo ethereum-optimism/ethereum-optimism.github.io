@@ -1,0 +1,16 @@
+{
+  "name": "ELYSIA",
+  "symbol": "EL",
+  "decimals": 18,
+  "description": "EL (Elysia Token) is a utility token used in the Elysia ecosystem.",
+  "website": "https://www.elysia.land",
+  "twitter": "@ELYSIA_HQ",
+  "tokens": {
+    "ethereum": {
+      "address": "0x2781246fe707bB15CeE3e5ea354e2154a2877B16"
+    },
+    "soneium": {
+      "address": "0xBC63230d1C4d0Cd241D66F5AaE75f3D1d6C0949a"
+    }
+  }
+}
