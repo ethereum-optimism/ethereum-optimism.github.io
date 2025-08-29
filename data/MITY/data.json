@@ -1,0 +1,21 @@
+{
+  "name": "Fission Bio",
+  "symbol": "MITY",
+  "decimals": 18,
+  "description": "Fission Bio IP Token",
+  "website": "https://www.cerebrumdao.com/projects/fission-bio",
+  "twitter": "@FissionBioDeSci",
+  "tokens": {
+    "ethereum": {
+      "address": "0xd07eA8776e52c1b67dcA6ffBC3F659Fc9fbe4113",
+      "overrides": {
+        "name": "IP Tokens of IPNFT",
+        "symbol": "MITY",
+        "decimals": 18
+      }
+    },
+    "base": {
+      "address": "0x1fbaf8bDc2A43b0c9BA90b6caF44EE14d2EE6773"
+    }
+  }
+}
