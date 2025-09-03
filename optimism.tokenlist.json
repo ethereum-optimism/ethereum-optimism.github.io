@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-09-03T15:54:13.533Z",
+  "timestamp": "2025-09-03T20:04:52.920Z",
   "tokens": [
     {
       "chainId": 1,
@@ -784,6 +784,30 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ARC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x672fdBA7055bddFa8fD6bD45B1455cE5eB97f499",
+      "name": "ARC",
+      "symbol": "ARC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ARCV2/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "ARCV2"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x431151F26c48B4D4BEFc34048a0966Bf960A0c50",
+      "name": "ARC",
+      "symbol": "ARC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ARCV2/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "ARCV2"
       }
     },
     {
@@ -2282,6 +2306,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "CIG"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x9F90B457Dea25eF802E38D470ddA7343691D8FE1",
+      "name": "Crosschain IOTX",
+      "symbol": "CIOTX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CIOTX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "CIOTX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x819233aA703A19E434e6dD965493B6081a3fc3aa",
+      "name": "IoTeX Network (Crosschain IOTX)",
+      "symbol": "CIOTX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CIOTX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CIOTX"
       }
     },
     {
@@ -4146,6 +4196,58 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "FOOM"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29",
+      "name": "Forta",
+      "symbol": "FORT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FORT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "FORT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7588310a7abf34dc608ac98a1c4432f85e194df5",
+      "name": "Forta",
+      "symbol": "FORT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FORT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "FORT"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x95d9a757ad9C25999ffE93f3067221F04ce1Cc79",
+      "name": "Forta",
+      "symbol": "FORT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FORT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "opListId": "extended",
+        "opTokenId": "FORT"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0xfb8Bd4464849080B8a08d706300347CbEA8c137D",
+      "name": "Forta",
+      "symbol": "FORT",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FORT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "FORT"
       }
     },
     {
@@ -14491,6 +14593,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1712
+    "patch": 1713
   }
 }
