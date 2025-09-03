@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-08-29T16:03:06.239Z",
+  "timestamp": "2025-09-03T15:54:13.533Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7084,6 +7084,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MINDS"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xd07eA8776e52c1b67dcA6ffBC3F659Fc9fbe4113",
+      "name": "IP Tokens of IPNFT",
+      "symbol": "MITY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MITY/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MITY"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1fbaf8bDc2A43b0c9BA90b6caF44EE14d2EE6773",
+      "name": "Fission Bio",
+      "symbol": "MITY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MITY/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MITY"
       }
     },
     {
@@ -14465,6 +14491,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1711
+    "patch": 1712
   }
 }
