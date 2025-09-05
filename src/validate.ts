@@ -13,6 +13,32 @@ import { sleep } from '@eth-optimism/core-utils'
 import { getContractInterface } from '@eth-optimism/contracts'
 
 import { generate } from './generate'
+
+/**
+ * Retry a contract call with exponential backoff
+ */
+async function retryContractCall<T>(
+  contractCall: () => Promise<T>,
+  maxRetries: number = 3,
+  baseDelay: number = 1000
+): Promise<T> {
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      return await contractCall()
+    } catch (error) {
+      if (attempt === maxRetries) {
+        throw error
+      }
+      
+      // Wait with exponential backoff
+      const delay = baseDelay * Math.pow(2, attempt)
+      await sleep(delay)
+      
+      console.log(`Contract call failed (attempt ${attempt + 1}/${maxRetries + 1}), retrying in ${delay}ms...`)
+    }
+  }
+  throw new Error('Max retries exceeded')
+}
 import { TOKEN_DATA_SCHEMA } from './schemas'
 import {
   L2_STANDARD_BRIDGE_INFORMATION,
@@ -136,7 +162,8 @@ export const validate = async (
         // Check that the token has the correct decimals
         if (token.overrides?.decimals === undefined) {
           try {
-            if (data.decimals !== (await contract.decimals())) {
+            const contractDecimals = await retryContractCall(() => contract.decimals())
+            if (data.decimals !== contractDecimals) {
               results.push({
                 type: 'error',
                 message: `${folder} on chain ${chain} token ${token.address} has incorrect decimals`,
@@ -158,8 +185,9 @@ export const validate = async (
         // Check that the token has the correct symbol
         if (token.overrides?.symbol === undefined) {
           try {
+            const contractSymbol = await retryContractCall(() => contract.symbol())
             if (
-              data.symbol !== (await contract.symbol()) &&
+              data.symbol !== contractSymbol &&
               expectedMismatches.symbol !== data.symbol
             ) {
               results.push({
@@ -183,11 +211,11 @@ export const validate = async (
         // Check that the token has the correct name
         if (token.overrides?.name === undefined) {
           try {
-            const name = await contract.name()
-            if (data.name !== name && expectedMismatches.name !== data.name) {
+            const contractName = await retryContractCall(() => contract.name())
+            if (data.name !== contractName && expectedMismatches.name !== data.name) {
               results.push({
                 type: 'error',
-                message: `${folder} on chain ${chain} token ${token.address} has incorrect name. Got ${name}`,
+                message: `${folder} on chain ${chain} token ${token.address} has incorrect name. Got ${contractName}`,
               })
             }
           } catch (err) {
