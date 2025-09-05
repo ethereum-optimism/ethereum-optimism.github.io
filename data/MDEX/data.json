@@ -1,0 +1,16 @@
+{
+  "name": "MasterDEX Token",
+  "symbol": "MDEX",
+  "decimals": 18,
+  "description": "MasterDEX is a next-generation DeFi platform that combines decentralized exchange (DEX) tools, AI-powered analysis, and real-time monitoring to enhance the trading experience. It is designed to help traders navigate the ever-expanding DeFi ecosystem with smarter tools, making it easier to identify opportunities and execute trades efficiently.",
+  "website": "https://masterdex.xyz",
+  "twitter": "@MasterDEX_xyz",
+  "tokens": {
+    "ethereum": {
+      "address": "0xf0610eb7d8EE12D59412DA32625d5e273E78FF0b"
+    },
+    "base": {
+      "address": "0xaBc5915cAD6b54f48B2a8CD516055f378861c237"
+    }
+  }
+}
