@@ -1,0 +1,7 @@
+ WARN  Issue while reading "D:\optimism-token-list\ethereum-optimism.github.io\.npmrc". Failed to replace env in config: ${NPM_TOKEN}
+
+> @eth-optimism/tokenlist@10.0.1689 validate D:\optimism-token-list\ethereum-optimism.github.io
+> tsx ./bin/cli.ts validate "--datadir" "./data" "--tokens" "SMELL"
+
+[ 'SMELL' ]
+ ELIFECYCLE  Command failed with exit code 1.
