@@ -1,0 +1,16 @@
+{
+  "name": "Gaia Token",
+  "symbol": "GAIA",
+  "decimals": 18,
+  "description": "GAIA is the native token of the Gaia Network, powering a decentralized AI ecosystem built on openness, sovereignty, and user ownership. It enables governance, staking, and payments for AI inference, agent usage, and domain services. GAIA aligns incentives across node operators, developers, and the community, securing the network and driving participation. Token holders can vote on proposals, delegate to validators, and earn rewards for contributing. With a fixed supply and transparent distribution, GAIA fuels a permissionless AI economy and puts control back in the hands of users.",
+  "website": "https://gaianet.ai",
+  "twitter": "https://x.com/gaianet_ai",
+  "tokens": {
+    "ethereum": {
+      "address": "0x2EE7097BfdD98fCE2AC08A1896038a7cd9aaEd81"
+    },
+    "base": {
+      "address": "0x6fbf03efa4363ca0afe0c9c3906f7d610890b683"
+    }
+  }
+}

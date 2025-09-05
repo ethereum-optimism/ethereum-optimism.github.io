@@ -11,6 +11,12 @@
     },
     "unichain": {
       "address": "0x80756FAf1e7Fec5678bf505670eF176AB5F0383a"
+    },
+    "celo": {
+      "address": "0x6D8aDA2df4aebb0561781775872DB1db98d9F791",
+      "overrides": {
+        "name": "Ethereum Name Service (Celo native bridge)"
+      }
     }
   }
 }

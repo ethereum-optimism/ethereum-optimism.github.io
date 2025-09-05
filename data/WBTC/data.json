@@ -20,6 +20,9 @@
     },
     "unichain": {
       "address": "0x927B51f251480a681271180DA4de28D44EC4AfB8"
+    },
+    "celo": {
+      "address": "0x8aC2901Dd8A1F17a1A4768A6bA4C3751e3995B2D"
     }
   }
 }
