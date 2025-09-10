@@ -127,6 +127,7 @@ We currently accept tokens on the following chains:
 - `metall2`
 - `metall2-sepolia`
 - `celo`
+- `celo-sepolia`
 
 #### Non-bridgeable tokens
 

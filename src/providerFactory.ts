@@ -121,6 +121,7 @@ const getDefaultRpcUrls = (chain: Chain): string[] => {
         soneium: ['https://rpc.soneium.org'],
         'soneium-minato': ['https://rpc.minato.soneium.org'],
         celo: ['https://forno.celo.org'],
+        'celo-sepolia': ['https://forno.celo-sepolia.celo-testnet.org'],
         swellchain: ['https://swell-mainnet.alt.technology'],
         ink: ['https://rpc-gel.inkonchain.com'],
         'ink-sepolia': ['https://rpc-gel-sepolia.inkonchain.com'],

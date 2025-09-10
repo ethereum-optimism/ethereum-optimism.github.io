@@ -14,7 +14,16 @@
       "address": "0x4200000000000000000000000000000000000006"
     },
     "celo": {
-      "address": "0xD221812de1BD094f35587EE8E174B07B6167D9Af"
+      "address": "0xD221812de1BD094f35587EE8E174B07B6167D9Af",
+      "overrides": {
+        "name": "Wrapped Ether (Celo native bridge)"
+      }
+    },
+    "celo-sepolia": {
+      "address": "0x2ce73dc897a3e10b3ff3f86470847c36ddb735cf",
+      "overrides": {
+        "name": "Wrapped Ether (Celo native bridge)"
+      }
     }
   }
 }
