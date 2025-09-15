@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-09-03T20:04:52.920Z",
+  "timestamp": "2025-09-15T17:35:08.881Z",
   "tokens": [
     {
       "chainId": 1,
@@ -14329,6 +14329,58 @@
     },
     {
       "chainId": 1,
+      "address": "0x000006c2A22ff4A44ff1f5d0F2ed65F781F55555",
+      "name": "ZK Coin",
+      "symbol": "ZKC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ZKC/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "ZKC"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xb4FC69A452D09D2662BD8C3B5BB756902260aE28",
+      "name": "ZK Coin",
+      "symbol": "ZKC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ZKC/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "ZKC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xAA61bB7777bD01B684347961918f1E07fBbCe7CF",
+      "name": "ZK Coin",
+      "symbol": "ZKC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ZKC/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ZKC"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x8d4dA4b7938471A919B08F941461b2ed1679d7bb",
+      "name": "ZK Coin",
+      "symbol": "ZKC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ZKC/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ZKC"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0D505C03d30e65f6e9b4Ef88855a47a89e4b7676",
       "name": "ZoomerCoin",
       "symbol": "ZOOMER",
@@ -14593,6 +14645,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1713
+    "patch": 1714
   }
 }
