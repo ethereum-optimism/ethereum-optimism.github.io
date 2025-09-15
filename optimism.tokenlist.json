@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-09-15T17:37:48.163Z",
+  "timestamp": "2025-09-15T17:41:36.885Z",
   "tokens": [
     {
       "chainId": 1,
@@ -2124,6 +2124,60 @@
         "modeBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "bwAJNA"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x01995A697752266d8E748738aAa3F06464B8350B",
+      "name": "CANA Holdings California Carbon Credits",
+      "symbol": "CANA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CANA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "unichainBridgeAddress": "0x81014F44b0a345033bB2b3B21C7a1A308B35fEeA",
+        "opListId": "extended",
+        "opTokenId": "CANA"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xca0eac34408e4b5906d3e161c73bb4611ff22ca1",
+      "name": "CANA Holdings California Carbon Credits",
+      "symbol": "CANA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CANA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CANA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x88a3548e2a662936268bFD4366e48D38183E3958",
+      "name": "CANA Holdings California Carbon Credits",
+      "symbol": "CANA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CANA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CANA"
+      }
+    },
+    {
+      "chainId": 130,
+      "address": "0x614b641b6b59d290B1E8412426fe37E342aADe3E",
+      "name": "CANA Holdings California Carbon Credits",
+      "symbol": "CANA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/CANA/logo.svg",
+      "extensions": {
+        "unichainBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CANA"
       }
     },
     {
@@ -14697,6 +14751,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1716
+    "patch": 1717
   }
 }
