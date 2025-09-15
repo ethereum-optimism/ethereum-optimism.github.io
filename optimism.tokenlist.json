@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-09-15T17:35:08.881Z",
+  "timestamp": "2025-09-15T17:36:24.192Z",
   "tokens": [
     {
       "chainId": 1,
@@ -4082,6 +4082,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "FLI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xf04a8ac553FceDB5BA99A64799155826C136b0Be",
+      "name": "Flixx",
+      "symbol": "FLIXX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FLIXX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "FLIXX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc8F8A8140df44Af075d66BC50717653CFEBb860C",
+      "name": "Flixx",
+      "symbol": "FLIXX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/FLIXX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "FLIXX"
       }
     },
     {
@@ -14645,6 +14671,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1714
+    "patch": 1715
   }
 }
