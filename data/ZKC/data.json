@@ -1,0 +1,22 @@
+{
+  "name": "ZK Coin",
+  "symbol": "ZKC",
+  "decimals": 18,
+  "description": "ZKC is the native token of the Boundless protocol. It functions as the backbone for all ZK Proving.",
+  "website": "https://boundless.network",
+  "twitter": "@boundless_xyz",
+  "tokens": {
+    "ethereum": {
+      "address": "0x000006c2A22ff4A44ff1f5d0F2ed65F781F55555"
+    },
+    "sepolia": {
+      "address": "0xb4FC69A452D09D2662BD8C3B5BB756902260aE28"
+    },
+    "base": {
+      "address": "0xAA61bB7777bD01B684347961918f1E07fBbCe7CF"
+    },
+    "base-sepolia": {
+      "address": "0x8d4dA4b7938471A919B08F941461b2ed1679d7bb"
+    }
+  }
+}
