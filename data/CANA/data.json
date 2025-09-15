@@ -1,0 +1,22 @@
+{
+  "name": "CANA Holdings California Carbon Credits",
+  "symbol": "CANA",
+  "decimals": 18,
+  "description": "CANA gives DeFi users direct exposure to California Carbon Allowances—a $78B regulated commodity—with a CPI+5% rising price floor. Fully tradable ERC-20. Offers inflation protection, uncorrelated returns, and full DeFi composability.",
+  "website": "https://maseer.finance",
+  "twitter": "@defimaseer",
+  "tokens": {
+    "ethereum": {
+      "address": "0x01995A697752266d8E748738aAa3F06464B8350B"
+    },
+    "optimism": {
+      "address": "0xca0eac34408e4b5906d3e161c73bb4611ff22ca1"
+    },
+    "base": {
+      "address": "0x88a3548e2a662936268bFD4366e48D38183E3958"
+    },
+    "unichain": {
+      "address": "0x614b641b6b59d290B1E8412426fe37E342aADe3E"
+    }
+  }
+}
