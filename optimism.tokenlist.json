@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-09-15T17:36:24.192Z",
+  "timestamp": "2025-09-15T17:37:48.163Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7146,6 +7146,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MCADE"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xf0610eb7d8EE12D59412DA32625d5e273E78FF0b",
+      "name": "MasterDEX Token",
+      "symbol": "MDEX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MDEX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "MDEX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xaBc5915cAD6b54f48B2a8CD516055f378861c237",
+      "name": "MasterDEX Token",
+      "symbol": "MDEX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MDEX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MDEX"
       }
     },
     {
@@ -14671,6 +14697,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1715
+    "patch": 1716
   }
 }
