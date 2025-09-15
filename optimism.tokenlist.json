@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-09-15T17:41:36.885Z",
+  "timestamp": "2025-09-15T22:58:10.662Z",
   "tokens": [
     {
       "chainId": 1,
@@ -794,6 +794,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/ARCV2/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "ARCV2"
       }
@@ -806,6 +807,7 @@
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/ARCV2/logo.svg",
       "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ARCV2"
       }
@@ -14751,6 +14753,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1717
+    "patch": 1718
   }
 }
