@@ -108,6 +108,12 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     provider: createRobustProvider(getRpcUrls('celo'), 42220),
     layer: 2,
   },
+  'celo-sepolia': {
+    id: 11142220,
+    name: 'Celo Sepolia',
+    provider: createRobustProvider(getRpcUrls('celo-sepolia'), 11142220),
+    layer: 2,
+  },
   swellchain: {
     id: 1923,
     name: 'Swellchain',

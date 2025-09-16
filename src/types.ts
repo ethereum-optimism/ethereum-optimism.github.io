@@ -37,6 +37,7 @@ export type Chain =
   | 'soneium'
   | 'soneium-minato'
   | 'celo'
+  | 'celo-sepolia'
   | 'swellchain'
   | 'ink'
   | 'ink-sepolia'
