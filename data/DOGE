@@ -1,0 +1,16 @@
+{
+  "name": "Dogecoin",
+  "symbol": "DOGE",
+  "decimals": 18,
+  "description": "A multi-chain token",
+  "website": "https://dogecoin.com/",
+  "twitter": "@dogecoin",
+  "tokens": {
+    "ethereum": {
+      "address": "0x4206931337dc273a630d328dA6441786BfaD668f"
+    },
+    "linea": {
+      "address": "0x5ed3675867Ae3E3582b819cCB88f48c836E69edE"
+    }
+  }
+}
