@@ -1,0 +1,16 @@
+{
+  "name": "Districts Token",
+  "symbol": "DSTRX",
+  "decimals": 18,
+  "description": "$DSTRX is the native token of the Districts ecosystem, a virtual world platform built on the Realio Network.",
+  "website": "https://districts.xyz/",
+  "twitter": "@districts_xyz",
+  "tokens": {
+    "ethereum": {
+      "address": "0xb841F365D5221Bed66d60E69094418D8C2aa5A44"
+    },
+    "base": {
+      "address": "0xecA139be1214322752B4e427b1800Fd3e8037bF8"
+    }
+  }
+}
