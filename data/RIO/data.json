@@ -1,0 +1,16 @@
+{
+  "name": "Realio Network",
+  "symbol": "RIO",
+  "decimals": 18,
+  "description": "RIO is the native token of the Realio Network, an interoperable Layer-1 multi-chain Web3 ecosystem focused on the issuance and management of digitally native Real-World Assets (RWAs). It is purpose-built and designed for a new open-source, permissionless financial world.",
+  "website": "https://realio.network",
+  "twitter": "https://x.com/Realio_Network",
+  "tokens": {
+    "ethereum": {
+      "address": "0x94a8b4EE5CD64C79D0Ee816f467EA73009f51aA0"
+    },
+    "base": {
+      "address": "0x5e64c9049455b3bB6E9fbDC33565fa313BAe9B53"
+    }
+  }
+}
