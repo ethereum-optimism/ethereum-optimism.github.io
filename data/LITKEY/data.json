@@ -1,0 +1,28 @@
+{
+  "name": "Lit Protocol",
+  "symbol": "LITKEY",
+  "decimals": 18,
+  "description": "LITKEY is the token for Lit Protocol, a decentralized key management system",
+  "website": "https://litprotocol.com",
+  "twitter": "@litprotocol",
+  "tokens": {
+    "ethereum": {
+      "address": "0x4D4eb0E8B160f6EbF63cC6d36060ffec09301B42"
+    },
+    "optimism": {
+      "address": "0x0633E91f64C22d4FEa53dbE6e77B7BA4093177B8"
+    },
+    "sepolia": {
+      "address": "0x2e3a68e44021AA99e325B827A7a5fCA604526c2d"
+    },
+    "optimism-sepolia": {
+      "address": "0x841Fb6a6893f48164a52CFbFc69462385688B0c1"
+    },
+    "base": {
+      "address": "0xF732A566121Fa6362E9E0FBdd6D66E5c8C925E49"
+    },
+    "base-sepolia": {
+      "address": "0x0b9241109c725E782Ab841086B4e7F210c80B694"
+    }
+  }
+}
