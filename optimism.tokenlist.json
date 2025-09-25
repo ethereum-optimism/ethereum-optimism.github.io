@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-09-15T22:58:10.662Z",
+  "timestamp": "2025-09-25T20:20:57.759Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6452,6 +6452,86 @@
         "celoBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "LINK"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x4D4eb0E8B160f6EbF63cC6d36060ffec09301B42",
+      "name": "Lit Protocol",
+      "symbol": "LITKEY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LITKEY/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "LITKEY"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x0633E91f64C22d4FEa53dbE6e77B7BA4093177B8",
+      "name": "Lit Protocol",
+      "symbol": "LITKEY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LITKEY/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LITKEY"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x2e3a68e44021AA99e325B827A7a5fCA604526c2d",
+      "name": "Lit Protocol",
+      "symbol": "LITKEY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LITKEY/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "LITKEY"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0x841Fb6a6893f48164a52CFbFc69462385688B0c1",
+      "name": "Lit Protocol",
+      "symbol": "LITKEY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LITKEY/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LITKEY"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xF732A566121Fa6362E9E0FBdd6D66E5c8C925E49",
+      "name": "Lit Protocol",
+      "symbol": "LITKEY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LITKEY/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LITKEY"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x0b9241109c725E782Ab841086B4e7F210c80B694",
+      "name": "Lit Protocol",
+      "symbol": "LITKEY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LITKEY/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LITKEY"
       }
     },
     {
@@ -14753,6 +14833,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1718
+    "patch": 1719
   }
 }
