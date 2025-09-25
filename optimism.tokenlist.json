@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-07-31T11:08:35.538Z",
+  "timestamp": "2025-09-25T11:57:12.329Z",
   "tokens": [
     {
       "chainId": 1,
@@ -58,6 +58,32 @@
         "bobBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "BABY"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xCEa2DAf93617B97504E05AFfc5BCF9b3922D3034",
+      "name": "BTC+",
+      "symbol": "BTC+",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/BTC+/logo.svg",
+      "extensions": {
+        "bobBridgeAddress": "0x3F6cE1b36e5120BBc59D0cFe8A5aC8b6464ac1f7",
+        "opListId": "default",
+        "opTokenId": "BTC+"
+      }
+    },
+    {
+      "chainId": 60808,
+      "address": "0x4Ca70811E831db42072CBa1f0d03496EF126fAad",
+      "name": "BTC+",
+      "symbol": "BTC+",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/BTC+/logo.svg",
+      "extensions": {
+        "bobBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "BTC+"
       }
     },
     {
@@ -657,6 +683,19 @@
       }
     },
     {
+      "chainId": 60808,
+      "address": "0x6b062AA7F5FC52b530Cb13967aE2E6bc0D8Dd3E4",
+      "name": "Solv Protocol SolvBTC Jupiter",
+      "symbol": "SolvBTC.JUP",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/SolvBTC.JUP/logo.svg",
+      "extensions": {
+        "bobBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SolvBTC.JUP"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xbdab72602e9AD40FC6a6852CAf43258113B8F7a5",
       "name": "SOV",
@@ -1238,6 +1277,32 @@
         "bobBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "WBTC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/WBTCOFT/logo.svg",
+      "extensions": {
+        "bobBridgeAddress": "0x3F6cE1b36e5120BBc59D0cFe8A5aC8b6464ac1f7",
+        "opListId": "default",
+        "opTokenId": "WBTCOFT"
+      }
+    },
+    {
+      "chainId": 60808,
+      "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/bob-collective/ethereum-optimism.github.io/refs/heads/master/data/WBTCOFT/logo.svg",
+      "extensions": {
+        "bobBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "WBTCOFT"
       }
     },
     {
