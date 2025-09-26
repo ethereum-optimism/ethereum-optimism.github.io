@@ -7,22 +7,22 @@
   "twitter": "@witnet_io",
   "tokens": {
     "sepolia": {
-      "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014",
+      "address": "0xFABADA3D500B84B1AeD07b9B6d5651BA91a10beD",
       "overrides": {
         "bridge": {
-          "base-sepolia": "0x4200000000000000000000000000000028",
-          "optimism-sepolia": "0x4200000000000000000000000000000028"
+          "base-sepolia": "0x4200000000000000000000000000000010",
+          "optimism-sepolia": "0x42000000000000000000000000000028"
         }
       }
     },
     "base-sepolia": {
-      "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014",
+      "address": "0xAbb15Ec7c50BA50661389cEb92FC9D72621E6950",
       "overrides": {
-        "bridge": "0x4200000000000000000000000000000028"
+        "bridge": "0x4200000000000000000000000000000010"
       }
     },
     "optimism-sepolia": {
-      "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014",
+      "address": "0xFABADA3D500B84B1AeD07b9B6d5651BA91a10beD",
       "overrides": {
         "bridge": "0x4200000000000000000000000000000028"
       }
