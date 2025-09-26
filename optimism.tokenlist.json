@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-09-25T20:20:57.759Z",
+  "timestamp": "2025-09-26T22:32:17.637Z",
   "tokens": [
     {
       "chainId": 1,
@@ -5884,6 +5884,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "IRARA"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xc7BD8466606539F06F2ec606D3c08efc181E15E5",
+      "name": "IncomRWA",
+      "symbol": "iRWA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/iRWA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "iRWA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x833f973406E07830d494cBe5FaBBc3AE9c750c1F",
+      "name": "IncomRWA",
+      "symbol": "iRWA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/iRWA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "iRWA"
       }
     },
     {
@@ -13638,7 +13664,19 @@
     {
       "chainId": 42220,
       "address": "0xD221812de1BD094f35587EE8E174B07B6167D9Af",
-      "name": "Wrapped Ether",
+      "name": "Wrapped Ether (Celo native bridge)",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "WETH"
+      }
+    },
+    {
+      "chainId": 11142220,
+      "address": "0x2ce73dc897a3e10b3ff3f86470847c36ddb735cf",
+      "name": "Wrapped Ether (Celo native bridge)",
       "symbol": "WETH",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
@@ -14833,6 +14871,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1719
+    "patch": 1720
   }
 }
