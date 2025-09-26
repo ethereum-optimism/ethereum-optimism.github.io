@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-09-26T22:32:17.637Z",
+  "timestamp": "2025-09-26T22:41:13.006Z",
   "tokens": [
     {
       "chainId": 1,
@@ -13751,34 +13751,34 @@
     },
     {
       "chainId": 11155111,
-      "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014",
+      "address": "0xFABADA3D500B84B1AeD07b9B6d5651BA91a10beD",
       "name": "Wrapped WIT",
       "symbol": "WIT",
       "decimals": 9,
       "logoURI": "https://ethereum-optimism.github.io/data/WIT/logo.svg",
       "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000028",
-        "optimismBridgeAddress": "0x4200000000000000000000000000000028",
+        "baseBridgeAddress": "0x4200000000000000000000000000000010",
+        "optimismBridgeAddress": "0x42000000000000000000000000000028",
         "opListId": "extended",
         "opTokenId": "WIT"
       }
     },
     {
       "chainId": 84532,
-      "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014",
+      "address": "0xAbb15Ec7c50BA50661389cEb92FC9D72621E6950",
       "name": "Wrapped WIT",
       "symbol": "WIT",
       "decimals": 9,
       "logoURI": "https://ethereum-optimism.github.io/data/WIT/logo.svg",
       "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000028",
+        "baseBridgeAddress": "0x4200000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "WIT"
       }
     },
     {
       "chainId": 11155420,
-      "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014",
+      "address": "0xFABADA3D500B84B1AeD07b9B6d5651BA91a10beD",
       "name": "Wrapped WIT",
       "symbol": "WIT",
       "decimals": 9,
@@ -14871,6 +14871,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1720
+    "patch": 1721
   }
 }
