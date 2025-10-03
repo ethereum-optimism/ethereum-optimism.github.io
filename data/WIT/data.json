@@ -7,7 +7,7 @@
   "twitter": "@witnet_io",
   "tokens": {
     "sepolia": {
-      "address": "0xFABADA3D500B84B1AeD07b9B6d5651BA91a10beD",
+      "address": "0xcebada5B9a5F3663a346c51b3588A2Fcb81eB23D",
       "overrides": {
         "bridge": {
           "base-sepolia": "0x4200000000000000000000000000000010",
@@ -16,13 +16,13 @@
       }
     },
     "base-sepolia": {
-      "address": "0xAbb15Ec7c50BA50661389cEb92FC9D72621E6950",
+      "address": "0xcebada5B9a5F3663a346c51b3588A2Fcb81eB23D",
       "overrides": {
         "bridge": "0x4200000000000000000000000000000010"
       }
     },
     "optimism-sepolia": {
-      "address": "0xFABADA3D500B84B1AeD07b9B6d5651BA91a10beD",
+      "address": "0xcebada5B9a5F3663a346c51b3588A2Fcb81eB23D",
       "overrides": {
         "bridge": "0x4200000000000000000000000000000028"
       }
