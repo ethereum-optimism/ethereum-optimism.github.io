@@ -1,8 +1,8 @@
 {
-  "name": "Wrapped WIT",
+  "name": "Witnet",
   "symbol": "WIT",
   "decimals": 9,
-  "description": "Wrapped WIT delivers the power of $WIT, the native coin of the Wit/Oracle blockchain, with the flexibility of an ERC20 token.",
+  "description": "ERC-20 representation of $WIT, the native coin securing the Witnet oracle network — a fully decentralized, permissionless protocol for trustless retrieval, verification, and delivery of real-world data into smart contracts.",
   "website": "https://witnet.io",
   "twitter": "@witnet_io",
   "tokens": {
