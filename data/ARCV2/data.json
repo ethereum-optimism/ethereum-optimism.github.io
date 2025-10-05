@@ -1,0 +1,26 @@
+{
+  "name": "ARC",
+  "symbol": "ARC",
+  "decimals": 18,
+  "description": "ARC is the infrastructure layer for high-performance, privacy-first AI tools. The $ARC utility token enables access to governance, staking, and participation in ARC’s AI ecosystem. Powered by Efficiency AI, ARC delivers speed, privacy, and sustainability.",
+  "website": "https://arc.ai",
+  "twitter": "@ARCreactorAI",
+  "tokens": {
+    "ethereum": {
+        "address": "0x672fdBA7055bddFa8fD6bD45B1455cE5eB97f499",
+        "overrides": {
+          "decimals": 18,
+          "bridge": {
+            "base": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35"
+          }
+        }
+    },
+    "base": {
+        "address": "0x431151F26c48B4D4BEFc34048a0966Bf960A0c50",
+        "overrides": {
+          "decimals": 18,
+          "bridge": "0x4200000000000000000000000000000000000010"
+        }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "BRZ Token",
+    "symbol": "BRZ",
+    "decimals": 18,
+    "description": "BRZ is a token backed by the Brazilian Real (BRL) currency",
+    "website": "https://transfero.com/stablecoins/brz/",
+    "tokens": {
+      "ethereum": {
+        "address": "0x01d33FD36ec67c6Ada32cf36b31e88EE190B1839"
+      },
+      "base": {
+        "address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4"
+      },
+      "optimism": {
+        "address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4"
+      }
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "Flixx",
+  "symbol": "FLIXX",
+  "decimals": 18,
+  "description": "FLIXX is an ERC20 token issued by Flixxo, a video distribution platform.",
+  "website": "https://flixxo.com",
+  "twitter": "@flixxo", 
+  "tokens": {
+    "ethereum": {
+      "address": "0xf04a8ac553FceDB5BA99A64799155826C136b0Be"
+    },
+    "base": {
+      "address": "0xc8F8A8140df44Af075d66BC50717653CFEBb860C"
+    }   
+  }
+}

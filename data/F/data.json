@@ -1,0 +1,15 @@
+{
+  "name": "SynFutures",
+  "symbol": "F",
+  "decimals": 18,
+  "website": "https://www.synfutures.com/",
+  "twitter": "@SynFuturesDefi",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6e15A54B5EcAc17e58daDedDbe8506a7560252F9"
+    },
+    "base": {
+      "address": "0x2C24497D4086490e7EaD87CC12597fb50c2E6eD6"
+    }
+  }
+}
