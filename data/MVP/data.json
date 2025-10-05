@@ -1,0 +1,16 @@
+{
+    "name": "MVP Token V2",
+    "symbol": "MVP",
+    "decimals": 18,
+    "description": "MVP Coin is a utility token aiming to provide users with a decentralized and secured platform to access tourism and travel-related services within the ecosystem of MVP.",
+    "website": "https://mvp-coin.com",
+    "twitter": "@MVPCoinOfficial",
+    "tokens": {
+        "ethereum": {
+            "address": "0x88888888a98Cb1525A98c354F17EFc8d73EF07A6"
+        },
+        "worldchain": {
+            "address": "0x9A60565f305F8863BA48fe642fB55c81F0b3680d"
+        }
+    }
+}
