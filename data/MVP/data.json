@@ -2,8 +2,8 @@
     "name": "MVP Token V2",
     "symbol": "MVP",
     "decimals": 18,
-    "description": "MVP Coin is a utility token aiming to provide users with a decentralized and secured platform to access tourism and travel-related services within the ecosystem of MVP.",
-    "website": "https://mvp-coin.com",
+    "description": "MVP Chain is an Optimism-style Layer 2 blockchain that enables instant, low-cost stablecoin transactions. Bridge your existing stablecoins from Ethereum mainnet and experience the future of payments.",
+    "website": "https://mvpcha.in",
     "twitter": "@MVPCoinOfficial",
     "tokens": {
         "ethereum": {
