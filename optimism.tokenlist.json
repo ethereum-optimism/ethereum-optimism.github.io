@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-09-26T22:43:15.026Z",
+  "timestamp": "2025-10-08T03:33:10.424Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7966,6 +7966,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x88888888a98Cb1525A98c354F17EFc8d73EF07A6",
+      "name": "MVP Token V2",
+      "symbol": "MVP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MVP/logo.png",
+      "extensions": {
+        "worldchainBridgeAddress": "0x470458C91978D2d929704489Ad730DC3E3001113",
+        "opListId": "extended",
+        "opTokenId": "MVP"
+      }
+    },
+    {
+      "chainId": 480,
+      "address": "0x9A60565f305F8863BA48fe642fB55c81F0b3680d",
+      "name": "MVP Token V2",
+      "symbol": "MVP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MVP/logo.png",
+      "extensions": {
+        "worldchainBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MVP"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x9E46A38F5DaaBe8683E10793b06749EEF7D733d1",
       "name": "Nectar",
       "symbol": "NCT",
@@ -14871,6 +14897,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1722
+    "patch": 1723
   }
 }
