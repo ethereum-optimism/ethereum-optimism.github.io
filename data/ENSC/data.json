@@ -2,7 +2,7 @@
   "name": "ENSC",
   "symbol": "ENSC",
   "decimals": 18,
-  "description": "ENSC is a stablecoin pegged 1:1 to the Nigerian Naira (NGN), issued by ProsperaVest for payments, settlement, and access to tokenized real-world assets.",
+  "description": "ENSC is a stablecoin pegged to the Nigerian Naira (NGN), issued by ProsperaVest for payments, settlement, and access to tokenized real-world assets.",
   "website": "https://www.prosperavest.com/ensc",
   "twitter": "@prosperavest",
   "nobridge": true,
