@@ -1,13 +1,13 @@
 {
-  "name": "Wrapped WIT",
+  "name": "Witnet",
   "symbol": "WIT",
   "decimals": 9,
-  "description": "Wrapped WIT delivers the power of $WIT, the native coin of the Wit/Oracle blockchain, with the flexibility of an ERC20 token.",
+  "description": "ERC-20 representation of $WIT, the native coin securing the Witnet oracle network — a fully decentralized, permissionless protocol for trustless retrieval, verification, and delivery of real-world data into smart contracts.",
   "website": "https://witnet.io",
   "twitter": "@witnet_io",
   "tokens": {
     "sepolia": {
-      "address": "0xFABADA3D500B84B1AeD07b9B6d5651BA91a10beD",
+      "address": "0xcebada5B9a5F3663a346c51b3588A2Fcb81eB23D",
       "overrides": {
         "bridge": {
           "base-sepolia": "0x4200000000000000000000000000000010",
@@ -16,13 +16,13 @@
       }
     },
     "base-sepolia": {
-      "address": "0xAbb15Ec7c50BA50661389cEb92FC9D72621E6950",
+      "address": "0xcebada5B9a5F3663a346c51b3588A2Fcb81eB23D",
       "overrides": {
         "bridge": "0x4200000000000000000000000000000010"
       }
     },
     "optimism-sepolia": {
-      "address": "0xFABADA3D500B84B1AeD07b9B6d5651BA91a10beD",
+      "address": "0xcebada5B9a5F3663a346c51b3588A2Fcb81eB23D",
       "overrides": {
         "bridge": "0x4200000000000000000000000000000028"
       }
