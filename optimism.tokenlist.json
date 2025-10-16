@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-10-16T15:55:05.735Z",
+  "timestamp": "2025-10-16T16:47:01.911Z",
   "tokens": [
     {
       "chainId": 1,
@@ -956,6 +956,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ATH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xfF339098db35808Dca9F3b072031DD9dec68bbb6",
+      "name": "Attention Token",
+      "symbol": "ATTN",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/ATTN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "ATTN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x032a7252B4932c44bdE89AEE6275744376a96BFF",
+      "name": "Attention Token",
+      "symbol": "ATTN",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/ATTN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ATTN"
       }
     },
     {
@@ -13841,8 +13867,8 @@
     },
     {
       "chainId": 11155111,
-      "address": "0xFABADA3D500B84B1AeD07b9B6d5651BA91a10beD",
-      "name": "Wrapped WIT",
+      "address": "0xcebada5B9a5F3663a346c51b3588A2Fcb81eB23D",
+      "name": "Witnet",
       "symbol": "WIT",
       "decimals": 9,
       "logoURI": "https://ethereum-optimism.github.io/data/WIT/logo.svg",
@@ -13855,8 +13881,8 @@
     },
     {
       "chainId": 84532,
-      "address": "0xAbb15Ec7c50BA50661389cEb92FC9D72621E6950",
-      "name": "Wrapped WIT",
+      "address": "0xcebada5B9a5F3663a346c51b3588A2Fcb81eB23D",
+      "name": "Witnet",
       "symbol": "WIT",
       "decimals": 9,
       "logoURI": "https://ethereum-optimism.github.io/data/WIT/logo.svg",
@@ -13868,8 +13894,8 @@
     },
     {
       "chainId": 11155420,
-      "address": "0xFABADA3D500B84B1AeD07b9B6d5651BA91a10beD",
-      "name": "Wrapped WIT",
+      "address": "0xcebada5B9a5F3663a346c51b3588A2Fcb81eB23D",
+      "name": "Witnet",
       "symbol": "WIT",
       "decimals": 9,
       "logoURI": "https://ethereum-optimism.github.io/data/WIT/logo.svg",
@@ -14961,6 +14987,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1726
+    "patch": 1727
   }
 }
