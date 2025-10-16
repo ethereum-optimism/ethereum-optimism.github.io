@@ -10,13 +10,21 @@
       "address": "0x1bAB804803159aD84b8854581AA53AC72455614E"
     },
     "sepolia": {
-      "address": "0x55f6e82a8BF5736d46837246DcBEAf7e61b3c27C"
+      "address": "0x55f6e82a8BF5736d46837246DcBEAf7e61b3c27C",
+      "overrides": {
+        "name": "Testnet Syndicate ",
+        "symbol": "TestnetSYND"
+      }
     },
     "base": {
       "address": "0x11dC28D01984079b7efE7763b533e6ed9E3722B9"
     },
     "base-sepolia": {
-      "address": "0x234Faa9cdeE5822767076495A9E258Dd8F21fFD8"
+      "address": "0x234Faa9cdeE5822767076495A9E258Dd8F21fFD8",
+      "overrides": {
+        "name": "Testnet Syndicate ",
+        "symbol": "TestnetSYND"
+      }
     }
   }
 }
