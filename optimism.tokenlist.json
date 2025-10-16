@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-10-08T03:33:10.424Z",
+  "timestamp": "2025-10-16T15:51:41.789Z",
   "tokens": [
     {
       "chainId": 1,
@@ -9912,6 +9912,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x94a8b4EE5CD64C79D0Ee816f467EA73009f51aA0",
+      "name": "Realio Network",
+      "symbol": "RIO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RIO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "RIO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5e64c9049455b3bB6E9fbDC33565fa313BAe9B53",
+      "name": "Realio Network",
+      "symbol": "RIO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RIO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RIO"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xFc169284da39e8d337D01AB011C3e5d92f7DDBa6",
       "name": "GenRize",
       "symbol": "RIZE",
@@ -14897,6 +14923,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1723
+    "patch": 1724
   }
 }
