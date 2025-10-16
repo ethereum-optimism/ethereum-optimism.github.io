@@ -1,0 +1,16 @@
+{
+    "name": "DRIP",
+    "symbol": "DRIP",
+    "description": "Culture/Lifestyle Coin",
+    "website": "https://www.drip-erc.com",
+    "twitter": "@Drip_On_Eth",
+    "decimals": 9,
+    "tokens": {
+        "ethereum": {
+            "address": "0xB8A914A00664e9361eaE187468EfF94905dfbC15"
+        },
+        "base": {
+            "address": "0xAfb7D098e38A526091A1D555160913F454CdA8cC"
+        }
+    }
+}
