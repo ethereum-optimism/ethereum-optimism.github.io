@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-10-16T15:53:20.404Z",
+  "timestamp": "2025-10-16T15:55:05.735Z",
   "tokens": [
     {
       "chainId": 1,
@@ -7426,6 +7426,18 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MINDS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xe1bfA25468AF64e366ddAFC9D91bCc6c97439A14",
+      "name": "Mirror Token",
+      "symbol": "MIRROR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MIRROR/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "MIRROR"
       }
     },
     {
@@ -14949,6 +14961,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1725
+    "patch": 1726
   }
 }
