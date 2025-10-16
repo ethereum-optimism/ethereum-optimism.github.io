@@ -1,0 +1,14 @@
+{
+  "name": "Mirror Token",
+  "symbol": "MIRROR",
+  "decimals": 18,
+  "description": "The ecosystem token for the Black Mirror digital experience ecosystem, enabling reputation-based participation and governance.",
+  "website": "https://blackmirrorclub.com",
+  "twitter": "@blackmirror_xp",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xe1bfA25468AF64e366ddAFC9D91bCc6c97439A14"
+    }
+  }
+}
