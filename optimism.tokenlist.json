@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-10-16T15:51:41.789Z",
+  "timestamp": "2025-10-16T15:53:20.404Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3484,6 +3484,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "DRODEC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xb841F365D5221Bed66d60E69094418D8C2aa5A44",
+      "name": "Districts Token",
+      "symbol": "DSTRX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DSTRX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "DSTRX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xecA139be1214322752B4e427b1800Fd3e8037bF8",
+      "name": "Districts Token",
+      "symbol": "DSTRX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DSTRX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DSTRX"
       }
     },
     {
@@ -14923,6 +14949,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1724
+    "patch": 1725
   }
 }
