@@ -2,13 +2,13 @@
   "name": "Wild Goat Coin",
   "symbol": "WGC",
   "decimals": 6,
-  "description": "The Wild Goat is a king amongst men. He came and saw all the memecoins. He conquered by minting his own. Wild Goat Coin was born.",
+  "description": "Wild Goat Coin (WGC) is a fixed-supply, omnichain memecoin with its primary presence on HyperEVM. It pairs Hyperliquid’s HYPE token and gold-backed stablecoins such as Tether’s XAUT0 as core liquidity, positioning itself as a ‘GOLD × HYPE Memecoin’.",
   "website": "https://www.wildgoatcoin.com/",
   "twitter": "@wildgoatcoin",
   "nobridge": true,
   "tokens": {
     "base": {
-      "address": "0xfB18511F1590a494360069F3640c27d55c2B5290"
+      "address": "0x3d63825B0d8669307366E6c8202f656b9E91D368"
     }
   }
 }
