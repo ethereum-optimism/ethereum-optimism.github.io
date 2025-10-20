@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-10-16T16:47:01.911Z",
+  "timestamp": "2025-10-20T18:06:01.503Z",
   "tokens": [
     {
       "chainId": 1,
@@ -6977,7 +6977,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/LSK/logo.svg",
       "extensions": {
         "liskBridgeAddress": "0x2658723Bf70c7667De6B25F99fcce13A16D25d08",
-        "unichainBridgeAddress": "0x81014F44b0a345033bB2b3B21C7a1A308B35fEeA",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "LSK"
       }
@@ -7022,14 +7022,14 @@
       }
     },
     {
-      "chainId": 130,
-      "address": "0xc13C1Aa97ef67a1eBd56830323B04C3A75df1903",
+      "chainId": 8453,
+      "address": "0xac485391EB2d7D88253a7F1eF18C37f4242D1A24",
       "name": "Lisk",
       "symbol": "LSK",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/LSK/logo.svg",
       "extensions": {
-        "unichainBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "LSK"
       }
@@ -14987,6 +14987,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1727
+    "patch": 1728
   }
 }
