@@ -1,0 +1,17 @@
+{
+  "name": "Vonenzo Baschello",
+  "symbol": "VBWLD",
+  "decimals": 18,
+  "description": "Vonenzo Baschello World community social token, or VBWLD, is a decentralized digital currency created on the Ethereum blockchain that aims to revolutionize how we interact and transact within his community.",
+  "website": "https://vonenzobaschello.com/#token",
+  "whitepaper": "https://vonenzobaschello.com/vbwld-whitepaper",
+  "roadmap": "https://vonenzobaschello.com/vbwld-roadmap",
+  "twitter": "@vbwld_",
+  "tokens": 10000000000,
+    "ethereum": {
+      "address": "0x2c558317b5c26d07318af988cbbf1ef1a7642b66",
+    "polygon": {
+      "address": "0x833D3169fC6B96430F7325258eD8711A3aD163B1"
+    }
+  }
+}
