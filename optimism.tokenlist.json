@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-10-24T16:58:21.509Z",
+  "timestamp": "2025-10-24T19:28:25.652Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3474,6 +3474,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "DOSE"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xB8A914A00664e9361eaE187468EfF94905dfbC15",
+      "name": "DRIP",
+      "symbol": "DRIP",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/DRIP/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "DRIP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xAfb7D098e38A526091A1D555160913F454CdA8cC",
+      "name": "DRIP",
+      "symbol": "DRIP",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/DRIP/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DRIP"
       }
     },
     {
@@ -13829,7 +13855,7 @@
     },
     {
       "chainId": 8453,
-      "address": "0xfB18511F1590a494360069F3640c27d55c2B5290",
+      "address": "0x3d63825B0d8669307366E6c8202f656b9E91D368",
       "name": "Wild Goat Coin",
       "symbol": "WGC",
       "decimals": 6,
@@ -13901,6 +13927,32 @@
       "logoURI": "https://ethereum-optimism.github.io/data/WIT/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000028",
+        "opListId": "extended",
+        "opTokenId": "WIT"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xcafe5De18756817D98F4603F6828397406D4CaFE",
+      "name": "Witnet",
+      "symbol": "WIT",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/WIT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WIT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xcafe5De18756817D98F4603F6828397406D4CaFE",
+      "name": "Witnet",
+      "symbol": "WIT",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/WIT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "WIT"
       }
@@ -14987,6 +15039,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1730
+    "patch": 1731
   }
 }
