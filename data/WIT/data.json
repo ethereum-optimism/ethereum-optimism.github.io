@@ -26,6 +26,20 @@
       "overrides": {
         "bridge": "0x4200000000000000000000000000000028"
       }
+    },
+    "ethereum": {
+      "address": "0xcafe5De18756817D98F4603F6828397406D4CaFE",
+      "overrides": {
+        "bridge": {
+          "base": "0x4200000000000000000000000000000010"
+        }
+      }
+    },
+    "base": {
+      "address": "0xcafe5De18756817D98F4603F6828397406D4CaFE",
+      "overrides": {
+        "bridge": "0x4200000000000000000000000000000010"
+      }
     }
   }
 }
