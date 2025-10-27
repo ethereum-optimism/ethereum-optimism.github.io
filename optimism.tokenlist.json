@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-10-24T19:28:25.652Z",
+  "timestamp": "2025-10-27T23:48:57.237Z",
   "tokens": [
     {
       "chainId": 1,
@@ -3720,6 +3720,30 @@
         "celoBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ENS"
+      }
+    },
+    {
+      "chainId": 1135,
+      "address": "0xF50FFf154E63E510e494929E9eab1E9C5047429E",
+      "name": "ENSC",
+      "symbol": "ENSC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ENSC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "ENSC"
+      }
+    },
+    {
+      "chainId": 4202,
+      "address": "0x6cdf5aDbB9e1673811A7a36540D79429045E7891",
+      "name": "ENSC",
+      "symbol": "ENSC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ENSC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "ENSC"
       }
     },
     {
@@ -15039,6 +15063,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1731
+    "patch": 1732
   }
 }
