@@ -22,6 +22,9 @@
       "overrides": {
         "name": "Rocket Pool ETH (Celo native bridge)"
       }
+    },
+    "soneium": {
+      "address": "0x94Cac393f3444cEf63a651FfC18497E7e8bd036a"
     }
   }
 }
