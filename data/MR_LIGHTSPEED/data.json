@@ -1,0 +1,14 @@
+{
+  "name": "Mr Lightspeed Creator Coin",
+  "symbol": "MR_LIGHTSPEED",
+  "description": "Mr Lightspeed Creator Coin powers an education-first creator economy on Zora's Coins Protocol, routing swap fees to creators, referrers, and liquidity partners while supporting transparent risk guides and research.",
+  "decimals": 18,
+  "website": "https://zora.co/@mr_lightspeed",
+  "twitter": "@Mr_Lightspeed",
+  "tokens": {
+    "base": {
+      "address": "0xF0Cb96a4011A0A6F73d100c7080Bf8020D10F87a"
+    }
+  },
+  "nobridge": true
+}
