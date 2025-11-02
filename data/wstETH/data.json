@@ -8,7 +8,8 @@
       "overrides": {
         "bridge": {
           "optimism": "0x76943C0D61395d8F2edF9060e1533529cAe05dE6",
-          "base": "0x9de443AdC5A411E83F1878Ef24C3F52C61571e72"
+          "base": "0x9de443AdC5A411E83F1878Ef24C3F52C61571e72",
+          "lisk": "0x9348AF23B01F2B517AFE8f29B3183d2Bb7d69Fcf"
         }
       }
     },
@@ -24,11 +25,18 @@
         "bridge": "0xac9D11cD4D7eF6e54F14643a393F68Ca014287AB"
       }
     },
+    "lisk": {
+      "address": "0x76D8de471F54aAA87784119c60Df1bbFc852C415",
+      "overrides": {
+        "bridge": "0xca498Ee83eD3546321d4DC25e2789B0624F15f68"
+      }
+    },
     "sepolia": {
       "address": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b",
       "overrides": {
         "bridge": {
-            "optimism-sepolia" : "0x4Abf633d9c0F4aEebB4C2E3213c7aa1b8505D332"
+            "optimism-sepolia" : "0x4Abf633d9c0F4aEebB4C2E3213c7aa1b8505D332",
+            "lisk-sepolia" : "0xD3f64eB2082cEe7632C12a968dEDF304bCac2deF"
         }
       }
     },
@@ -36,6 +44,12 @@
       "address": "0x24B47cd3A74f1799b32B2de11073764Cb1bb318B",
       "overrides": {
         "bridge": "0xdBA2760246f315203F8B716b3a7590F0FFdc704a"
+      }
+    },
+    "lisk-sepolia": {
+      "address": "0x03F1259b4986b8ae9040E250f958CEf09DaD8b6C",
+      "overrides": {
+        "bridge": "0xb150759C71073Edf7D90d3D053aB5e67ea731Aa2"
       }
     }
   }

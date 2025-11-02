@@ -1,0 +1,16 @@
+{
+  "name": "Bright",
+  "symbol": "BRIGHT",
+  "decimals": 18,
+  "description": "BrightDAO community token",
+  "website": "https://dao.brightid.org",
+  "twitter": "@BrightIDProject",
+  "tokens": {
+    "ethereum": {
+      "address": "0x5dd57da40e6866c9fcc34f4b6ddc89f1ba740dfe"
+    },
+    "optimism": {
+      "address": "0x65334cE5aaE9Fb390C056574C7AA4DE33cf1D40E"
+    }
+  }
+}

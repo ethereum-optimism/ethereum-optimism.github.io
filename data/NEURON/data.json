@@ -1,0 +1,16 @@
+{
+    "name": "Cerebrum DAO Token",
+    "symbol": "NEURON",
+    "decimals": 18,
+    "description": "Cerebrum DAO Governance Token",
+    "website": "https://www.cerebrumdao.com/",
+    "twitter": "@Cerebrum_DAO",
+    "tokens": {
+        "ethereum": {
+            "address": "0xab814ce69E15F6B9660A3B184c0B0C97B9394A6b"
+        },
+        "base": {
+            "address": "0x3568c7a4f7545805e379c264303239781b4e9a79"
+        }
+    }
+}

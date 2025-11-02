@@ -1,0 +1,19 @@
+{
+  "name": "Cortensor",
+  "symbol": "COR",
+  "decimals": 18,
+  "description": "Cortensor is a decentralized AI inference network using distributed computation and open models to provide scalable, efficient AI tasks.",
+  "website": "https://www.cortensor.network",
+  "twitter": "@cortensor",
+  "tokens": {
+    "ethereum": {
+      "address": "0x8e0EeF788350f40255D86DFE8D91ec0AD3a4547F"
+    },
+    "base": {
+      "address": "0xe30C0801a516F0C67EbC0c4B45FfA7dCBd72ea9a"
+    },
+    "optimism": {
+      "address": "0x44805a7597Ab90624E0B4aa6947a47F358AE4eF1"
+    }
+  }
+}

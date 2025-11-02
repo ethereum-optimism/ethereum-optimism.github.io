@@ -11,6 +11,15 @@
     },
     "base": {
       "address": "0x99aC4484e8a1dbd6A185380B3A811913Ac884D87"
+    },
+    "mode": {
+      "address": "0x3390108E913824B8eaD638444cc52B9aBdF63798"
+    },
+    "celo": {
+      "address": "0x4c430944d20410a16d5cec69b0cb66541b00a817",
+      "overrides": {
+        "name": "Savings Dai (Celo native bridge)"
+      }
     }
   }
 }

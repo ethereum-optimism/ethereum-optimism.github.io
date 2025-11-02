@@ -1,0 +1,18 @@
+{
+  "name": "Boson Token",
+  "symbol": "BOSON",
+  "decimals": 18,
+  "website": "https://bosonprotocol.io",
+  "twitter": "@BosonProtocol",
+  "tokens": {
+    "ethereum": {
+      "address": "0xC477D038d5420C6A9e0b031712f61c5120090de9"
+    },
+    "base": {
+      "address": "0x2192607C3CBA9Ec3D490206d10d831E68E5F3c97"
+    },
+    "optimism": {
+      "address": "0x647fE0cCA3DF596ba414C8c600D441BB3D10d616"
+    }
+  }
+}

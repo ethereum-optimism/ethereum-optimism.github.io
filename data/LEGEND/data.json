@@ -1,0 +1,16 @@
+{
+  "name": "Legend",
+  "symbol": "LEGEND",
+  "decimals": 18,
+  "description": "LEGEND is the ERC20 token that fuels the Legend AI & Gamified Staking platforms focused on sports.",
+  "website": "https://www.belegends.com/",
+  "twitter": "@belegends_ok",
+  "tokens": {
+    "ethereum": {
+      "address": "0x1B1FF83AE0751ffb7ce0224e9C330e859E95dD16"
+    },
+    "base": {
+      "address": "0xc7837BE3d71E00fcbE76D77602BCf353Df859664"
+    }
+  }
+}

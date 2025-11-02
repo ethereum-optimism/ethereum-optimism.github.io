@@ -1,0 +1,22 @@
+{
+    "name": "Ajna",
+    "symbol": "AJNA",
+    "decimals": 18,
+    "description": "AJNA tokens are the Ajna Protocol's native token.",
+    "website": "https://www.ajna.finance/team",
+    "twitter": "@ajnafi",
+    "tokens": {
+      "ethereum": {
+        "address": "0x9a96ec9B57Fb64FbC60B423d1f4da7691Bd35079",
+        "overrides": {
+          "name": "AjnaToken"
+        }
+      },
+      "base": {
+        "address": "0x7F05a7A9AF2f5a07D1e64877C8dC37a64a22508E"
+      },
+      "optimism": {
+        "address": "0x5E0F5388896A6b6232aBF076ee89BC6Dfc043685"
+      }
+    }
+  }

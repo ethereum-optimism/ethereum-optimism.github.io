@@ -1,0 +1,14 @@
+{
+  "name": "Pepe's Dog",
+  "symbol": "POPO",
+  "decimals": 18,
+  "description": "Popo, Pepe's loyal dog, is a meme coin on the Base network that merges the playful and beloved concepts of Pepe and Doge. Designed to unite the masses through fun and community-driven engagement, Popo aims to bring joy and excitement to the crypto space.",
+  "website": "https://basedpopo.xyz",
+  "twitter": "https://x.com/BasedPopoCTO",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x7422f030958Edf9884cE9c46a211029E03eF6da7"
+    }
+  }
+}

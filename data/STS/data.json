@@ -1,0 +1,13 @@
+{
+    "name":        "Subvault Token Shares",
+    "symbol":      "STS",
+    "decimals":    18,
+    "description": "STS are non-transferable tokens you receive when you stake USDC. They represent your ownership share of the vault and give you exposure to any properties it acquires.",
+    "website":     "https://subunit.xyz",
+    "twitter":     "@subunit_xyz",
+    "tokens": {
+      "base": {
+        "address": "0x1b745230a0320470a9af55bb0a67c47c90978a14"
+      }
+    }
+  }

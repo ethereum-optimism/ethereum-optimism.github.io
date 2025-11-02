@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="190" fill="#FFD700" stroke="#000000" stroke-width="6"/>
+  
+  <!-- Cat Body (just the back part) - moved down more and scaled up more -->
+  <ellipse cx="200" cy="185" rx="115" ry="80" fill="#808080"/>
+  
+  <!-- Cat Legs/Paws - moved down and scaled up more -->
+  <path d="M130 220 Q118 256, 136 268" stroke="#808080" stroke-width="29" stroke-linecap="round" fill="none"/>
+  <path d="M270 220 Q282 256, 264 268" stroke="#808080" stroke-width="29" stroke-linecap="round" fill="none"/>
+  
+  <!-- Cat Butt (main feature) - moved down and scaled up more -->
+  <circle cx="200" cy="230" r="69" fill="#A0A0A0"/>
+  
+  <!-- Cat anus (X mark) - moved down -->
+  <path d="M190 230 L210 230 M200 220 L200 240" stroke="#606060" stroke-width="5" stroke-linecap="round"/>
+  <path d="M193 223 L207 237 M207 223 L193 237" stroke="#606060" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Cat Tail - moved down with the rest -->
+  <path d="M190 190 Q130 115, 110 75 Q105 65, 115 70" stroke="#808080" stroke-width="17" stroke-linecap="round" fill="none"/>
+  
+  <!-- Cat Ears (more prominent) - moved down -->
+  <path d="M120 155 L145 85 L170 155" fill="#808080"/>
+  <path d="M230 155 L255 85 L280 155" fill="#808080"/>
+  
+  <!-- Cat Tail Shadow - moved to match tail -->
+  <path d="M190 190 Q130 115, 110 75" stroke="#707070" stroke-width="5" stroke-linecap="round" fill="none"/>
+</svg>
