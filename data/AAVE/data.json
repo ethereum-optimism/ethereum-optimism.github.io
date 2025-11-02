@@ -11,6 +11,15 @@
     },
     "mode": {
       "address": "0x7c6b91D9Be155A6Db01f749217d76fF02A7227F2"
+    },
+    "base": {
+      "address": "0x63706e401c06ac8513145b7687A14804d17f814b"
+    },
+    "unichain": {
+      "address": "0x02a24C380dA560E4032Dc6671d8164cfbEEAAE1e"
+    },
+    "celo": {
+      "address": "0xF6A54aff8c97f7AF3CC86dbaeE88aF6a7AaB6288"
     }
   }
 }

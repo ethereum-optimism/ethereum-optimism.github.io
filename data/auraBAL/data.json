@@ -1,0 +1,17 @@
+{
+    "name": "Aura BAL",
+    "symbol": "auraBAL",
+    "description": "auraBAL is a token issued for staking BAL on Aura Finance. This token is an OFT bridged with LayerZero.",
+    "decimals": 18,
+    "website": "https://app.aura.finance/",
+    "twitter": "@AuraFinance",
+    "tokens": {
+      "ethereum": {
+        "address": "0x616e8BfA43F920657B3497DBf40D6b1A02D4608d"
+      },
+      "base": {
+        "address": "0x223738a747383d6F9f827d95964e4d8E8AC754cE"
+      }
+    },
+    "nobridge": true
+}

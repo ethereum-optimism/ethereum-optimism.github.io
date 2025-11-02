@@ -1,0 +1,15 @@
+{
+  "name": "IncomRWA",
+  "symbol": "iRWA",
+  "decimals": 18,
+  "website": "https://incomrwa.io/",
+  "twitter": "@incomrwa_io",
+  "tokens": {
+    "ethereum": {
+      "address": "0xc7BD8466606539F06F2ec606D3c08efc181E15E5"
+    },
+    "base": {
+      "address": "0x833f973406E07830d494cBe5FaBBc3AE9c750c1F"
+    }
+    }
+  }

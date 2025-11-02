@@ -1,0 +1,23 @@
+{
+  "name": "IDRX",
+  "symbol": "IDRX",
+  "decimals": 2,
+  "description": "IDRX is a stablecoin pegged to the value of the Indonesian Rupiah (IDR). As a cryptocurrency, IDRX offers users the benefits of blockchain technology, including security, transparency, and decentralized control. At the same time, as a stable token, IDRX offers price stability by maintaining a fixed exchange rate with the IDR, which is the national currency of Indonesia.",
+  "website": "https://idrx.co",
+  "twitter": "@idrx_co",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22"
+    },
+    "base-sepolia": {
+      "address": "0xD63029C1a3dA68b51c67c6D1DeC3DEe50D681661"
+    },
+    "lisk": {
+      "address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22"
+    },
+    "lisk-sepolia": {
+      "address": "0xD63029C1a3dA68b51c67c6D1DeC3DEe50D681661"
+    }
+  }
+}

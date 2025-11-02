@@ -1,0 +1,12 @@
+{
+  "name": "CattButt",
+  "symbol": "CATTBUTT",
+  "decimals": 18,
+  "description": "CattButt transforms the mundane concept of a cat's posterior into a digital asset with unexpected charm",
+  "twitter": "@basedCattButt",
+  "tokens": {
+    "base": {
+      "address": "0xC5aAEFD024Aa95C59712A931b3295e237fFD3f81"
+    }
+  }
+}

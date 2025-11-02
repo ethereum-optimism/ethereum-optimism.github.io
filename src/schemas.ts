@@ -1,3 +1,5 @@
+import { NETWORK_DATA } from './chains'
+
 export const ADDRESS_TYPE = {
   type: 'string',
   minLength: 42,
@@ -15,7 +17,7 @@ export const TOKEN_SCHEMA = {
       },
       symbol: {
         type: 'string',
-        pattern: '^\\S+$' // allow unicode
+        pattern: '^\\S+$', // allow unicode
       },
       decimals: {
         type: 'integer',
@@ -59,14 +61,13 @@ export const TOKEN_DATA_SCHEMA = {
     tokens: {
       type: 'object',
       properties: {
-        ethereum: TOKEN_SCHEMA,
-        optimism: TOKEN_SCHEMA,
-        base: TOKEN_SCHEMA,
-        mode: TOKEN_SCHEMA,
-        pgn: TOKEN_SCHEMA,
-        sepolia: TOKEN_SCHEMA,
-        'base-sepolia': TOKEN_SCHEMA,
-        'optimism-sepolia': TOKEN_SCHEMA,
+        ...Object.keys(NETWORK_DATA).reduce(
+          (acc, chain) => ({
+            ...acc,
+            [chain]: TOKEN_SCHEMA,
+          }),
+          {}
+        ),
       },
       additionalProperties: false,
       anyOf: [
@@ -74,10 +75,18 @@ export const TOKEN_DATA_SCHEMA = {
         { required: ['optimism'] },
         { required: ['base'] },
         { required: ['mode'] },
-        { required: ['pgn'] },
+        { required: ['lisk'] },
+        { required: ['unichain'] },
+        { required: ['redstone'] },
+        { required: ['metall2'] },
+        { required: ['soneium'] },
         { required: ['sepolia'] },
         { required: ['base-sepolia'] },
         { required: ['optimism-sepolia'] },
+        { required: ['lisk-sepolia'] },
+        { required: ['metall2-sepolia'] },
+        { required: ['unichain-sepolia'] },
+        { required: ['soneium-minato'] },
       ],
     },
   },

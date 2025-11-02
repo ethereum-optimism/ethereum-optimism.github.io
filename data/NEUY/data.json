@@ -1,0 +1,16 @@
+{
+    "name": "NEUY",
+    "symbol": "NEUY",
+    "decimals": 18,
+    "description": "NeuyAI is a DeFi AI trading platform to run DeFi-focused services and AI trading agents.",
+    "website": "https://neuy.io/",
+    "twitter": "@NeuyAI",
+    "tokens": {
+      "ethereum": {
+        "address": "0xa80505c408C4DEFD9522981cD77e026f5a49FE63"
+      },
+      "base": {
+        "address": "0x3Cf255a7A03d74B6F9D58456cBedbc0705626354"
+      }
+    }
+  }

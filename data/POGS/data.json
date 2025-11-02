@@ -1,0 +1,16 @@
+{
+  "name": "PogCoin",
+  "symbol": "POGS",
+  "decimals": 18,
+  "description": "Official token of POG Digital",
+  "website": "https://www.pogdigital.com/",
+  "twitter": "@PogDigital",
+  "tokens": {
+    "ethereum": {
+      "address": "0x906c012fa4C30d580537c2b72d1789F56F488a80"
+    },
+    "base": {
+      "address": "0x728f0a7FEC1859Cb0d71A432271D4E80310d235f"
+    }
+  }
+}

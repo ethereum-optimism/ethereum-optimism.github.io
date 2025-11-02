@@ -1,0 +1,16 @@
+{
+  "name": "Metal DAO",
+  "symbol": "MTL",
+  "decimals": 8,
+  "description": "Metal DAO token is the governance token of the Metal DAO which oversees Metal L2 and Metal Dollar, both part of The Digital Banking Network (TDBN). Holders can vote on initiatives that advance these products. They also receive discounts on trading fees through the Metal Pay app.",
+  "website": "https://www.metalpay.com/",
+  "twitter": "@MetallicusTDBN",
+  "tokens": {
+    "ethereum": {
+      "address": "0xCEB1Ad1420252fc66856EB38497C267cF81F67cC"
+    },
+    "metall2": {
+      "address": "0xBCFc435d8F276585f6431Fc1b9EE9A850B5C00A9"
+    }
+  }
+}

@@ -3,7 +3,7 @@
   "symbol": "bwAJNA",
   "decimals": 18,
   "description": "AJNA tokens are the Ajna Protocol's native token. bwAJNA tokens are burn-wrapped on mainnet before traversing L2 bridges. They are bought and burned by pools with excess reserves.",
-  "website": "https://www.ajna.finance/team",
+  "website": "https://www.ajna.finance/",
   "twitter": "@ajnafi",
   "tokens": {
     "ethereum": {
@@ -11,6 +11,12 @@
     },
     "optimism": {
       "address": "0x6c518f9D1a163379235816c543E62922a79863Fa"
+    },
+    "base": {
+      "address": "0xf0f326af3b1Ed943ab95C29470730CC8Cf66ae47"
+    },
+    "mode": {
+      "address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0"
     }
   }
 }

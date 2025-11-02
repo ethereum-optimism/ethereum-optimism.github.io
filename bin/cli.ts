@@ -19,7 +19,7 @@ program
   .requiredOption('--datadir <datadir>', 'Directory containing data files')
   .option(
     '--tokens <tokens>',
-    'Comma-separated list of tokens symbols to validate'
+    'Comma-separated list of token symbols to validate'
   )
   .action(async (options) => {
     const results = await validate(options.datadir, options.tokens.split(','))
@@ -32,8 +32,8 @@ program
       fs.writeFileSync(
         validationResultsFilePath,
         `Below are the results from running validation for the token changes. To ` +
-        `re-run the validation locally run: ` +
-        `pnpm validate --datadir ./data --tokens ${options.tokens}\n\n`
+          `re-run the validation locally run: ` +
+          `pnpm validate --datadir ./data --tokens ${options.tokens}\n\n`
       )
     }
 

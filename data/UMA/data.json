@@ -8,6 +8,15 @@
     },
     "optimism": {
       "address": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea"
+    },
+    "unichain": {
+      "address": "0x478923278640a10A60951E379aFFb60772435f8C"
+    },
+    "celo": {
+      "address": "0x4672ecbd03a1f93dd67310caecd3a8ef6397e72a",
+      "overrides": {
+        "name": "UMA Voting Token v1 (Celo native bridge)"
+      }
     }
   }
 }

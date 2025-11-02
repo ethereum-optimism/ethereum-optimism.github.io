@@ -1,0 +1,19 @@
+{
+  "name": "Darwinia Network xRING",
+  "symbol": "xRING",
+  "decimals": 18,
+  "description": "RING is the governance token of RingDAO. It's widely used in RingDAO projects, such as staking for XAPI, gas for the Darwinia Network, and payments for Msgport. We use RING to capture value in our decentralized system, build decentralized governance, and unite all RING holders to collectively advance the entire ecosystem.",
+  "website": "https://darwinia.network",
+  "twitter": "@DarwiniaNetwork",
+  "tokens": {
+    "ethereum": {
+      "address": "0x81e32d4652Be82AE225DEdd1bD0bf3BCba8FEE07"
+    },
+    "optimism": {
+      "address": "0x5ac3F9EDB4896DB1EdC0EF9d91421e740083e6e8"
+    },
+    "base": {
+      "address": "0x77Eb290DF0a5aaB15f681085FaeA1F653A3fc9b7"
+    }
+  }
+}

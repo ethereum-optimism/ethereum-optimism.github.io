@@ -1,0 +1,24 @@
+{
+  "name": "Attention Token",
+  "symbol": "ATTN",
+  "decimals": 6,
+  "description": "ATTN - The attention token of collective memory",
+  "website": "https://www.collectivememory.ai",
+  "twitter": "Collective_memo",
+  "tokens": {
+    "ethereum": {
+      "address": "0xfF339098db35808Dca9F3b072031DD9dec68bbb6",
+      "overrides": {
+        "bridge": {
+          "base": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35"
+        }
+      }
+    },
+    "base": {
+      "address": "0x032a7252B4932c44bdE89AEE6275744376a96BFF",
+      "overrides": {
+        "bridge": "0x4200000000000000000000000000000000000010"
+      }
+    }
+  }
+}

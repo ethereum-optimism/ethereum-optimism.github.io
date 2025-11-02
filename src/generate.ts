@@ -48,7 +48,9 @@ export const generate = (datadir: string) => {
           name: token.overrides?.name ?? data.name,
           symbol: token.overrides?.symbol ?? data.symbol,
           decimals: token.overrides?.decimals ?? data.decimals,
-          logoURI: `${BASE_URL}/data/${folder}/logo.${logoext}`,
+          logoURI: `${BASE_URL}/data/${encodeURIComponent(
+            folder
+          )}/logo.${logoext}`,
           extensions: {
             ...bridges,
             opListId: defaultTokenDataFolders.has(folder.toUpperCase())
@@ -119,7 +121,8 @@ const getBridges = (tokenData: TokenData, chain: string, token: Token) => {
         )
       }
       const networkSep = l2Chain.indexOf('-')
-      const chainName = networkSep === -1 ? l2Chain : l2Chain.slice(0, networkSep)
+      const chainName =
+        networkSep === -1 ? l2Chain : l2Chain.slice(0, networkSep)
       const bridgeKey = `${chainName}BridgeAddress`
       return {
         [bridgeKey]:

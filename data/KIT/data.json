@@ -1,0 +1,16 @@
+{
+    "name": "DexKit",
+    "symbol": "KIT",
+    "decimals": 18,
+    "description": "DexKit builds DexAppBuilder: a no-low code web3 DApp builder",
+    "website": "https://dexkit.com",
+    "twitter": "@dexkit",
+    "tokens": {
+        "ethereum": {
+            "address": "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4"
+        },
+        "base": {
+            "address": "0x946F8B0eF009F3F5B1b35E6511a82A58b09d8d4e"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Dypius",
+  "symbol": "DYP",
+  "decimals": 18,
+  "description": "DYP is a utility token that provides the foundation for the Dypius ecosystem within a decentralized platform that focuses on scalability, security, and global adoption.",
+  "website": "https://www.dypius.com",
+  "twitter": "@dypius",
+  "tokens": {
+    "ethereum": {
+      "address": "0x39b46B212bDF15b42B166779b9d1787A68b9D0c3"
+    },
+    "base": {
+      "address": "0x5b2124d427fac9c80c902cbdd74b03dd85d7d3fe"
+    }
+  }
+}

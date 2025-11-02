@@ -1,0 +1,16 @@
+{
+  "name": "Morpho Token",
+  "symbol": "MORPHO",
+  "decimals": 18,
+  "tokens": {
+   "ethereum": {
+      "address": "0x9994E35Db50125E0DF82e4c2dde62496CE330999",
+      "overrides": {
+        "bridge": {
+          "base": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35"
+        },
+        "name": "[Legacy] Morpho Token"
+      }
+    }
+  }
+}
