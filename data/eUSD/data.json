@@ -1,0 +1,16 @@
+{
+  "name": "Electronic Dollar",
+  "symbol": "eUSD",
+  "decimals": 18,
+  "description": "The eUSD Yield DTF is a fully collateralized US-dollar stablecoin built on the Reserve Protocol",
+  "website": "https://app.reserve.org/ethereum/token/0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f/overview",
+  "twitter": "@reserveprotocol",
+  "tokens": {
+    "ethereum": {
+      "address": "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F"
+    },
+    "base": {
+      "address": "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4"
+    }
+  }
+}
