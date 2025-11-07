@@ -1,0 +1,16 @@
+{
+    "name": "Shiba Inu",
+    "symbol": "SHIB",
+    "decimals": 18,
+    "description": "Shiba Inu (SHIB) on Base is the official canonical bridged version of the Ethereum ERC-20 SHIB token. It maintains a 1:1 peg with the original SHIB locked on Ethereum’s L1 bridge contract, providing the same asset on the Base Layer-2 network with faster and cheaper transactions.",
+    "website": "https://shib.wiki",
+    "twitter": "@SHIBwiki",
+    "tokens": {
+        "ethereum": {
+            "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE"
+        },
+        "base": {
+            "address": "0x728516d460C60DC147aE0DA3a75D3Ac0984F20Ed"
+        }
+    }
+}
