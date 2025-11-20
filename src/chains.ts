@@ -35,6 +35,15 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     ),
     layer: 2,
   },
+  bsc: {
+    id: 56,
+    name: 'BNB Smart Chain',
+    provider: new ethers.providers.StaticJsonRpcProvider(
+      'https://56.rpc.thirdweb.com'
+    ),
+    // FIXME this isn't right
+    layer: 2,
+  },
   mode: {
     id: 34443,
     name: 'Mode',
@@ -211,7 +220,11 @@ export const L2_STANDARD_BRIDGE_INFORMATION: Record<
   },
   celo: {
     l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
-  }
+  },
+  bsc: {
+    // FIXME
+    l2StandardBridgeAddress: '0x4200000000000000000000000000000000000010',
+  },
 }
 
 export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
@@ -268,6 +281,11 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
       l2Chain: 'bob',
       l1StandardBridgeAddress: '0x3F6cE1b36e5120BBc59D0cFe8A5aC8b6464ac1f7',
     },
+    {
+      l2Chain: 'bsc',
+      // FIXME
+      l1StandardBridgeAddress: '0x3F6cE1b36e5120BBc59D0cFe8A5aC8b6464ac1f7',
+    },
   ],
   sepolia: [
     {
@@ -294,5 +312,5 @@ export const L1_STANDARD_BRIDGE_INFORMATION: Record<
       l2Chain: 'bob-sepolia',
       l1StandardBridgeAddress: '0x75f48FE4DeAB3F9043EE995c3C84D6a2303D9a2F',
     },
-  ]
+  ],
 }

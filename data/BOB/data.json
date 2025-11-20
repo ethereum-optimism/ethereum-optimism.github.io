@@ -1,0 +1,19 @@
+{
+  "name": "BOB",
+  "symbol": "BOB",
+  "decimals": 18,
+  "description": "",
+  "website": "https://gobob.xyz",
+  "twitter": "",
+  "tokens": {
+    "ethereum": {
+      "address": "0xC9746F73cC33a36c2cD55b8aEFD732586946Cedd"
+    },
+    "bob": {
+      "address": "0xb0bd54846a92b214c04a63b26ad7dc5e19a60808"
+    },
+    "bsc": {
+      "address": "0x52B5fB4B0F6572B8C44d0251Cc224513ac5eB7E7"
+    }
+  }
+}

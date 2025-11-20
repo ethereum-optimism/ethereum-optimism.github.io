@@ -38,6 +38,7 @@ export type Chain =
   | 'bob-sepolia'
   | 'unichain'
   | 'celo'
+  | 'bsc'
 
 const l2Chains = [
   'optimism',
@@ -56,6 +57,8 @@ const l2Chains = [
   'bob-sepolia',
   'unichain',
   'celo',
+  // FIXME
+  'bsc',
 ] as const
 export type L2Chain = (typeof l2Chains)[number]
 
