@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-09-15T22:58:10.662Z",
+  "timestamp": "2025-11-13T21:35:10.197Z",
   "tokens": [
     {
       "chainId": 1,
@@ -956,6 +956,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ATH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xfF339098db35808Dca9F3b072031DD9dec68bbb6",
+      "name": "Attention Token",
+      "symbol": "ATTN",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/ATTN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "ATTN"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x032a7252B4932c44bdE89AEE6275744376a96BFF",
+      "name": "Attention Token",
+      "symbol": "ATTN",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/ATTN/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ATTN"
       }
     },
     {
@@ -3452,6 +3478,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xB8A914A00664e9361eaE187468EfF94905dfbC15",
+      "name": "DRIP",
+      "symbol": "DRIP",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/DRIP/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "DRIP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xAfb7D098e38A526091A1D555160913F454CdA8cC",
+      "name": "DRIP",
+      "symbol": "DRIP",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/DRIP/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DRIP"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xe1eb70B51C87e927d1a823Dbd478C27AB0F777F1",
       "name": "DRODEC",
       "symbol": "DRODEC",
@@ -3484,6 +3536,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "DRODEC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xb841F365D5221Bed66d60E69094418D8C2aa5A44",
+      "name": "Districts Token",
+      "symbol": "DSTRX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DSTRX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "DSTRX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xecA139be1214322752B4e427b1800Fd3e8037bF8",
+      "name": "Districts Token",
+      "symbol": "DSTRX",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DSTRX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DSTRX"
       }
     },
     {
@@ -3642,6 +3720,30 @@
         "celoBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ENS"
+      }
+    },
+    {
+      "chainId": 1135,
+      "address": "0xF50FFf154E63E510e494929E9eab1E9C5047429E",
+      "name": "ENSC",
+      "symbol": "ENSC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ENSC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "ENSC"
+      }
+    },
+    {
+      "chainId": 4202,
+      "address": "0x6cdf5aDbB9e1673811A7a36540D79429045E7891",
+      "name": "ENSC",
+      "symbol": "ENSC",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/ENSC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "ENSC"
       }
     },
     {
@@ -3864,6 +3966,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ETHIX"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+      "name": "Electronic Dollar",
+      "symbol": "eUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/eUSD/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "eUSD"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+      "name": "Electronic Dollar",
+      "symbol": "eUSD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/eUSD/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "eUSD"
       }
     },
     {
@@ -5888,6 +6016,32 @@
     },
     {
       "chainId": 1,
+      "address": "0xc7BD8466606539F06F2ec606D3c08efc181E15E5",
+      "name": "IncomRWA",
+      "symbol": "iRWA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/iRWA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "iRWA"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x833f973406E07830d494cBe5FaBBc3AE9c750c1F",
+      "name": "IncomRWA",
+      "symbol": "iRWA",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/iRWA/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "iRWA"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x17d2628D30F8e9E966c9Ba831c9B9b01ea8Ea75C",
       "name": "ISKRA TOKEN",
       "symbol": "ISK",
@@ -6456,6 +6610,86 @@
     },
     {
       "chainId": 1,
+      "address": "0x4D4eb0E8B160f6EbF63cC6d36060ffec09301B42",
+      "name": "Lit Protocol",
+      "symbol": "LITKEY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LITKEY/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "LITKEY"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x0633E91f64C22d4FEa53dbE6e77B7BA4093177B8",
+      "name": "Lit Protocol",
+      "symbol": "LITKEY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LITKEY/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LITKEY"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x2e3a68e44021AA99e325B827A7a5fCA604526c2d",
+      "name": "Lit Protocol",
+      "symbol": "LITKEY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LITKEY/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "LITKEY"
+      }
+    },
+    {
+      "chainId": 11155420,
+      "address": "0x841Fb6a6893f48164a52CFbFc69462385688B0c1",
+      "name": "Lit Protocol",
+      "symbol": "LITKEY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LITKEY/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LITKEY"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xF732A566121Fa6362E9E0FBdd6D66E5c8C925E49",
+      "name": "Lit Protocol",
+      "symbol": "LITKEY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LITKEY/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LITKEY"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x0b9241109c725E782Ab841086B4e7F210c80B694",
+      "name": "Lit Protocol",
+      "symbol": "LITKEY",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/LITKEY/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LITKEY"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x102e941b77bcaa7e35d368cafe51ef8f79c8d1ef",
       "name": "Theranos Coin",
       "symbol": "LIZ",
@@ -6819,7 +7053,7 @@
       "logoURI": "https://ethereum-optimism.github.io/data/LSK/logo.svg",
       "extensions": {
         "liskBridgeAddress": "0x2658723Bf70c7667De6B25F99fcce13A16D25d08",
-        "unichainBridgeAddress": "0x81014F44b0a345033bB2b3B21C7a1A308B35fEeA",
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "opListId": "extended",
         "opTokenId": "LSK"
       }
@@ -6864,14 +7098,14 @@
       }
     },
     {
-      "chainId": 130,
-      "address": "0xc13C1Aa97ef67a1eBd56830323B04C3A75df1903",
+      "chainId": 8453,
+      "address": "0xac485391EB2d7D88253a7F1eF18C37f4242D1A24",
       "name": "Lisk",
       "symbol": "LSK",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/LSK/logo.svg",
       "extensions": {
-        "unichainBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "LSK"
       }
@@ -7294,6 +7528,18 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MINDS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xe1bfA25468AF64e366ddAFC9D91bCc6c97439A14",
+      "name": "Mirror Token",
+      "symbol": "MIRROR",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MIRROR/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "MIRROR"
       }
     },
     {
@@ -7856,6 +8102,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MVL"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x88888888a98Cb1525A98c354F17EFc8d73EF07A6",
+      "name": "MVP Token V2",
+      "symbol": "MVP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MVP/logo.png",
+      "extensions": {
+        "worldchainBridgeAddress": "0x470458C91978D2d929704489Ad730DC3E3001113",
+        "opListId": "extended",
+        "opTokenId": "MVP"
+      }
+    },
+    {
+      "chainId": 480,
+      "address": "0x9A60565f305F8863BA48fe642fB55c81F0b3680d",
+      "name": "MVP Token V2",
+      "symbol": "MVP",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MVP/logo.png",
+      "extensions": {
+        "worldchainBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MVP"
       }
     },
     {
@@ -8994,6 +9266,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x6fF765EdBD71319E29A1ac74d2ab3C34B5B8EDA9",
+      "name": "Polkastarter",
+      "symbol": "POLS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/POLS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "POLS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0df61361882a2bbD3B521C791AceD080D72A66E9",
+      "name": "Polkastarter",
+      "symbol": "POLS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/POLS/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "POLS"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e",
       "name": "PoolTogether",
       "symbol": "POOL",
@@ -9578,6 +9876,8 @@
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
         "unichainBridgeAddress": "0x81014F44b0a345033bB2b3B21C7a1A308B35fEeA",
         "celoBridgeAddress": "0x9C4955b92F34148dbcfDCD82e9c9eCe5CF2badfe",
+        "inkBridgeAddress": "0x88ff1e5b602916615391f55854588efcbb7663f0",
+        "soneiumBridgeAddress": "0xeb9bf100225c214efc3e7c651ebbadcf85177607",
         "opListId": "default",
         "opTokenId": "rETH"
       }
@@ -9630,6 +9930,32 @@
       "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.svg",
       "extensions": {
         "celoBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "rETH"
+      }
+    },
+    {
+      "chainId": 57073,
+      "address": "0x94Cac393f3444cEf63a651FfC18497E7e8bd036a",
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.svg",
+      "extensions": {
+        "inkBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "rETH"
+      }
+    },
+    {
+      "chainId": 1868,
+      "address": "0x94Cac393f3444cEf63a651FfC18497E7e8bd036a",
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.svg",
+      "extensions": {
+        "soneiumBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "rETH"
       }
@@ -9776,6 +10102,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "RICE"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x94a8b4EE5CD64C79D0Ee816f467EA73009f51aA0",
+      "name": "Realio Network",
+      "symbol": "RIO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RIO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "RIO"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5e64c9049455b3bB6E9fbDC33565fa313BAe9B53",
+      "name": "Realio Network",
+      "symbol": "RIO",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RIO/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RIO"
       }
     },
     {
@@ -11415,6 +11767,58 @@
     },
     {
       "chainId": 1,
+      "address": "0x1bAB804803159aD84b8854581AA53AC72455614E",
+      "name": "Syndicate",
+      "symbol": "SYND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SYND/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "SYND"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x55f6e82a8BF5736d46837246DcBEAf7e61b3c27C",
+      "name": "Testnet Syndicate ",
+      "symbol": "TestnetSYND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SYND/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0xfd0Bf71F60660E2f608ed56e1659C450eB113120",
+        "opListId": "extended",
+        "opTokenId": "SYND"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x11dC28D01984079b7efE7763b533e6ed9E3722B9",
+      "name": "Syndicate",
+      "symbol": "SYND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SYND/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SYND"
+      }
+    },
+    {
+      "chainId": 84532,
+      "address": "0x234Faa9cdeE5822767076495A9E258Dd8F21fFD8",
+      "name": "Testnet Syndicate ",
+      "symbol": "TestnetSYND",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/SYND/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SYND"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xd41f3d112cb8695c7a8992e4055bd273f3ce8729",
       "name": "Synth",
       "symbol": "SYNTH",
@@ -13031,6 +13435,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x340D2bdE5Eb28c1eed91B2f790723E3B160613B7",
+      "name": "BLOCKv Token",
+      "symbol": "VEE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VEE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "VEE"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xeFc2689D3E79252fBA37E889a1b5aD92cEDC6e4F",
+      "name": "BLOCKv Token",
+      "symbol": "VEE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/VEE/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "VEE"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x6789D8a7a7871923Fc6430432A602879eCB6520a",
       "name": "veKwenta",
       "symbol": "veKWENTA",
@@ -13558,7 +13988,19 @@
     {
       "chainId": 42220,
       "address": "0xD221812de1BD094f35587EE8E174B07B6167D9Af",
-      "name": "Wrapped Ether",
+      "name": "Wrapped Ether (Celo native bridge)",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "WETH"
+      }
+    },
+    {
+      "chainId": 11142220,
+      "address": "0x2ce73dc897a3e10b3ff3f86470847c36ddb735cf",
+      "name": "Wrapped Ether (Celo native bridge)",
       "symbol": "WETH",
       "decimals": 18,
       "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png",
@@ -13595,7 +14037,7 @@
     },
     {
       "chainId": 8453,
-      "address": "0xfB18511F1590a494360069F3640c27d55c2B5290",
+      "address": "0x3d63825B0d8669307366E6c8202f656b9E91D368",
       "name": "Wild Goat Coin",
       "symbol": "WGC",
       "decimals": 6,
@@ -13633,40 +14075,66 @@
     },
     {
       "chainId": 11155111,
-      "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014",
-      "name": "Wrapped WIT",
+      "address": "0xcebada5B9a5F3663a346c51b3588A2Fcb81eB23D",
+      "name": "Witnet",
       "symbol": "WIT",
       "decimals": 9,
       "logoURI": "https://ethereum-optimism.github.io/data/WIT/logo.svg",
       "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000028",
-        "optimismBridgeAddress": "0x4200000000000000000000000000000028",
+        "baseBridgeAddress": "0x4200000000000000000000000000000010",
+        "optimismBridgeAddress": "0x42000000000000000000000000000028",
         "opListId": "extended",
         "opTokenId": "WIT"
       }
     },
     {
       "chainId": 84532,
-      "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014",
-      "name": "Wrapped WIT",
+      "address": "0xcebada5B9a5F3663a346c51b3588A2Fcb81eB23D",
+      "name": "Witnet",
       "symbol": "WIT",
       "decimals": 9,
       "logoURI": "https://ethereum-optimism.github.io/data/WIT/logo.svg",
       "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000028",
+        "baseBridgeAddress": "0x4200000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "WIT"
       }
     },
     {
       "chainId": 11155420,
-      "address": "0xFabadaC5963bdE1bCcCd560EA60e9928DC5dF014",
-      "name": "Wrapped WIT",
+      "address": "0xcebada5B9a5F3663a346c51b3588A2Fcb81eB23D",
+      "name": "Witnet",
       "symbol": "WIT",
       "decimals": 9,
       "logoURI": "https://ethereum-optimism.github.io/data/WIT/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000028",
+        "opListId": "extended",
+        "opTokenId": "WIT"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xcafe5De18756817D98F4603F6828397406D4CaFE",
+      "name": "Witnet",
+      "symbol": "WIT",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/WIT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WIT"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xcafe5De18756817D98F4603F6828397406D4CaFE",
+      "name": "Witnet",
+      "symbol": "WIT",
+      "decimals": 9,
+      "logoURI": "https://ethereum-optimism.github.io/data/WIT/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "WIT"
       }
@@ -14753,6 +15221,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1718
+    "patch": 1736
   }
 }

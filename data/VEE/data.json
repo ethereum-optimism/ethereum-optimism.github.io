@@ -1,0 +1,16 @@
+{
+  "name": "BLOCKv Token",
+  "symbol": "VEE",
+  "decimals": 18,
+  "description": "BLOCKv is a Web3 OS for enterprises and developers to create scalable digital experiences.",
+  "website": "https://www.blockv.io",
+  "twitter": "@blockv_io",
+  "tokens": {
+    "ethereum": {
+      "address": "0x340D2bdE5Eb28c1eed91B2f790723E3B160613B7"
+    },
+    "base": {
+      "address": "0xeFc2689D3E79252fBA37E889a1b5aD92cEDC6e4F"
+    }
+  }
+}

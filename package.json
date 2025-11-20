@@ -1,7 +1,7 @@
 {
   "name": "@eth-optimism/tokenlist",
   "description": "[Optimism] token list",
-  "version": "10.0.1719",
+  "version": "10.0.1737",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "exports": {
@@ -76,7 +76,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-unicorn": "^42.0.0",
+    "eslint-plugin-unicorn": "^44.0.2",
     "ethers": "^5.4.1",
     "extract-zip": "^2.0.1",
     "glob": "^8.0.3",
