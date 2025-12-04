@@ -1,0 +1,10 @@
+{
+  "name": "AMIE Token",
+  "symbol": "AMIE",
+  "decimals": 18,
+  "tokens": {
+    "worldchain-sepolia": {
+      "address": "0xD4d6764EDbc53bB1eb5e1De68CE8a6d1CB39b023"
+    }
+  }
+}
