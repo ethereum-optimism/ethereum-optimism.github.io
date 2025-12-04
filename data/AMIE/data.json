@@ -2,6 +2,7 @@
   "name": "Amie Token",
   "symbol": "AMIE",
   "decimals": 18,
+  "nobridge": true,
   "tokens": {
     "worldchain-sepolia": {
       "address": "0xD4d6764EDbc53bB1eb5e1De68CE8a6d1CB39b023"
