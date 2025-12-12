@@ -4,6 +4,10 @@ import path from 'path'
 describe('circulatingSupply.txt', () => {
   const filePath = path.resolve(__dirname, '../tokenomics/circulatingSupply.txt')
 
+  test('should exist', () => {
+    expect(fs.existsSync(filePath)).toBe(true)
+  })
+
   test('should contain a single line with a non-negative number', () => {
     const content = fs.readFileSync(filePath, 'utf-8')
     const lines = content.split('\n').filter((line) => line.length > 0)
