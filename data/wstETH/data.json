@@ -51,6 +51,13 @@
       "overrides": {
         "bridge": "0xb150759C71073Edf7D90d3D053aB5e67ea731Aa2"
       }
+    },
+    "celo": {
+      "address": "0x7b55c0319c80B59e19e0E89dF4FDCB9aE7667aB1",
+      "overrides": {
+        "name": "Wrapped liquid staked Ether 2.0 (Celo native bridge)",
+        "bridge": "0x4200000000000000000000000000000000000010"
+      }
     }
   }
 }
