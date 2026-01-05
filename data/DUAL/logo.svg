@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 90.69 92.38">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#Neues_Verlaufsfeld_21);
+      }
+
+      .st1 {
+        fill: url(#Neues_Verlaufsfeld_2);
+      }
+    </style>
+    <linearGradient id="Neues_Verlaufsfeld_2" data-name="Neues Verlaufsfeld 2" x1="37.39" y1="36.36" x2="76.26" y2="36.36" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00ff8e"/>
+      <stop offset=".35" stop-color="#00ffd0"/>
+      <stop offset=".82" stop-color="aqua"/>
+      <stop offset="1" stop-color="#00dfff"/>
+    </linearGradient>
+    <linearGradient id="Neues_Verlaufsfeld_21" data-name="Neues Verlaufsfeld 2" x1="13.48" y1="52.96" x2="52.35" y2="52.96" xlink:href="#Neues_Verlaufsfeld_2"/>
+  </defs>
+  <circle cx="45.35" cy="46.19" r="43.84"/>
+  <path class="st1" d="M56.82,55.8c10.73,0,19.44-8.7,19.44-19.44s-8.7-19.44-19.44-19.44h-19.44v3.08c6.51.76,11.55,6.29,11.55,13.01v22.78h7.88Z"/>
+  <path class="st0" d="M32.92,33.52c-10.73,0-19.44,8.7-19.44,19.44s8.7,19.44,19.44,19.44h19.44v-3.08c-6.51-.76-11.55-6.29-11.55-13.01v-22.78h-7.88Z"/>
+</svg>
