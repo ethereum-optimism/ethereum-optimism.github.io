@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2025-11-13T21:35:10.197Z",
+  "timestamp": "2025-12-19T20:44:43.362Z",
   "tokens": [
     {
       "chainId": 1,
@@ -614,6 +614,18 @@
         "unichainBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "ALT"
+      }
+    },
+    {
+      "chainId": 4801,
+      "address": "0xD4d6764EDbc53bB1eb5e1De68CE8a6d1CB39b023",
+      "name": "Amie Token",
+      "symbol": "AMIE",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/AMIE/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "AMIE"
       }
     },
     {
@@ -7906,6 +7918,18 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MPWR"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf0cb96a4011a0a6f73d100c7080bf8020d10f87a",
+      "name": "Mr Lightspeed Creator Coin",
+      "symbol": "mr_lightspeed",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/MR_LIGHTSPEED/logo.png",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "MR_LIGHTSPEED"
       }
     },
     {
@@ -15221,6 +15245,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1736
+    "patch": 1740
   }
 }

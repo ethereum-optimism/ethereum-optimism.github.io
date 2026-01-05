@@ -1,0 +1,16 @@
+{
+  "name": "mr_lightspeed",
+  "symbol": "mr_lightspeed",
+  "decimals": 18,
+  "description": "Creator coin for Mr Lightspeed on Zora's Base network, giving supporters a way to back new drops and collaborations across the Superchain.",
+  "website": "https://zora.co/@mr_lightspeed",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xf0cb96a4011a0a6f73d100c7080bf8020d10f87a",
+      "overrides": {
+        "name": "Mr Lightspeed Creator Coin"
+      }
+    }
+  }
+}
