@@ -1,0 +1,16 @@
+{
+  "name": "DeepNode",
+  "symbol": "DN",
+  "decimals": 18,
+  "description": "The infrastructure for open intelligence, where anyone can build, verify, and earn from AI.",
+  "website": "https://deepnode.ai/",
+  "twitter": "@DeepNodeAI",
+  "tokens": {
+    "ethereum": {
+      "address": "0x9B6a1d4fa5d90E5f2D34130053978D14Cd301d58"
+    },
+    "base": {
+      "address": "0x9B6a1d4fa5d90E5f2D34130053978D14Cd301d58"
+    }
+  }
+}
