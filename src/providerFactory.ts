@@ -14,6 +14,39 @@ const DEFAULT_CONFIG: ProviderConfig = {
 }
 
 /**
+ * Custom provider that tries multiple RPC endpoints sequentially
+ * Returns the first successful response, skipping failed endpoints
+ */
+class SequentialFallbackProvider extends ethers.providers.StaticJsonRpcProvider {
+    private providers: ethers.providers.StaticJsonRpcProvider[]
+
+    constructor(providers: ethers.providers.StaticJsonRpcProvider[]) {
+        // Initialize with the first provider's connection info
+        super(providers[0].connection, providers[0].network)
+        this.providers = providers
+    }
+
+    async perform(method: string, params: any): Promise<any> {
+        let lastError: Error | null = null
+
+        // Try each provider sequentially
+        for (const provider of this.providers) {
+            try {
+                const result = await provider.perform(method, params)
+                return result
+            } catch (error: any) {
+                lastError = error
+                // Continue to next provider
+                continue
+            }
+        }
+
+        // If all providers failed, throw the last error
+        throw lastError || new Error('All RPC endpoints failed')
+    }
+}
+
+/**
  * Creates a robust provider with timeout, retry, and fallback capabilities
  */
 export const createRobustProvider = (
@@ -33,7 +66,7 @@ export const createRobustProvider = (
         }, networkish)
     }
 
-    // Multiple providers with fallback
+    // Multiple providers with sequential fallback
     const providers = urlArray.map(url =>
         new ethers.providers.StaticJsonRpcProvider({
             url,
@@ -42,7 +75,7 @@ export const createRobustProvider = (
         }, networkish)
     )
 
-    return new ethers.providers.FallbackProvider(providers, 1)
+    return new SequentialFallbackProvider(providers)
 }
 
 /**
