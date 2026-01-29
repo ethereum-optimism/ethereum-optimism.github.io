@@ -75,7 +75,6 @@ const getDefaultRpcUrls = (chain: Chain): string[] => {
     const rpcMap: Record<Chain, string[]> = {
         ethereum: [
             ...(alchemyApiKey ? [`https://eth-mainnet.g.alchemy.com/v2/${alchemyApiKey}`] : []),
-            'https://eth.llamarpc.com',
             'https://rpc.ankr.com/eth',
             'https://ethereum.publicnode.com'
         ],
@@ -96,7 +95,6 @@ const getDefaultRpcUrls = (chain: Chain): string[] => {
         base: [
             ...(alchemyApiKey ? [`https://base-mainnet.g.alchemy.com/v2/${alchemyApiKey}`] : []),
             'https://mainnet.base.org',
-            'https://base.llamarpc.com',
             'https://base.publicnode.com'
         ],
         'base-sepolia': [
