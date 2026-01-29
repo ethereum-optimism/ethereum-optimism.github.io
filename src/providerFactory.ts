@@ -87,7 +87,6 @@ const getDefaultRpcUrls = (chain: Chain): string[] => {
         optimism: [
             ...(alchemyApiKey ? [`https://opt-mainnet.g.alchemy.com/v2/${alchemyApiKey}`] : []),
             'https://mainnet.optimism.io',
-            'https://optimism.llamarpc.com',
             'https://optimism.publicnode.com'
         ],
         'optimism-sepolia': [
