@@ -108,7 +108,6 @@ const getDefaultRpcUrls = (chain: Chain): string[] => {
     const rpcMap: Record<Chain, string[]> = {
         ethereum: [
             ...(alchemyApiKey ? [`https://eth-mainnet.g.alchemy.com/v2/${alchemyApiKey}`] : []),
-            'https://rpc.ankr.com/eth',
             'https://ethereum.publicnode.com'
         ],
         sepolia: [
