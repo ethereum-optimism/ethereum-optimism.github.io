@@ -1,0 +1,16 @@
+{
+  "name": "Rainbow",
+  "symbol": "RNBW",
+  "decimals": 18,
+  "description": "Official Token for Rainbow",
+  "website": "https://rainbow.me",
+  "twitter": "@rainbowdotme",
+  "tokens": {
+    "ethereum": {
+      "address": "0x2f905eb214cde58b3462e1baff7dab64b0bc6471"
+    },
+    "base": {
+      "address": "0xa53887f7e7c1bf5010b8627f1c1ba94fe7a5d6e0"
+    }
+  }
+}
