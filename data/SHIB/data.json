@@ -7,10 +7,16 @@
     "twitter": "@SHIBwiki",
     "tokens": {
         "ethereum": {
-            "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE"
+            "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+            "overrides": {
+                "name": "SHIBA INU"
+            }
         },
         "base": {
-            "address": "0x728516d460C60DC147aE0DA3a75D3Ac0984F20Ed"
+            "address": "0x728516d460C60DC147aE0DA3a75D3Ac0984F20Ed",
+            "overrides": {
+                "name": "Shiba"
+            }
         }
     }
 }
