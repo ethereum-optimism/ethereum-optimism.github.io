@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2026-01-31T20:50:42.106Z",
+  "timestamp": "2026-02-02T19:42:02.320Z",
   "tokens": [
     {
       "chainId": 1,
@@ -10182,6 +10182,32 @@
     },
     {
       "chainId": 1,
+      "address": "0x2f905eb214cde58b3462e1baff7dab64b0bc6471",
+      "name": "Rainbow",
+      "symbol": "RNBW",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RNBW/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "opListId": "extended",
+        "opTokenId": "RNBW"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xa53887f7e7c1bf5010b8627f1c1ba94fe7a5d6e0",
+      "name": "Rainbow",
+      "symbol": "RNBW",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/RNBW/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RNBW"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
       "name": "Rocket Pool Protocol",
       "symbol": "RPL",
@@ -15245,6 +15271,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1745
+    "patch": 1746
   }
 }
