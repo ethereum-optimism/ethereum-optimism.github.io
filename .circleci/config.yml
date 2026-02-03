@@ -16,7 +16,7 @@ parameters:
 
 commands:
   setup:
-    description: "Setup Node.js environment with pnpm and nx"
+    description: "Setup Node.js environment with pnpm"
     steps:
       - utils/checkout-with-mise      # Install dependencies
       - run:
@@ -26,7 +26,7 @@ commands:
           command: |
             pnpm i --frozen-lockfile
   continue-if-not-bot:
-    description: "Continue if the push to branch run by a non github user"
+    description: "Continue if the push to branch is run by a non-GitHub user"
     steps:
       - run:
           name: Check if push to branch run by a non github user
@@ -108,18 +108,18 @@ jobs:
           command: pnpm publish
 
   stale:
-      machine:
-        image: ubuntu-2204:2024.08.1
-      steps:
-        - utils/github-stale:
-            stale-issue-message: 'This issue has been automatically marked as stale and will be closed in 114 days if no updates'
-            stale-pr-message: 'This pr has been automatically marked as stale and will be closed in 37 days if no updates'
-            close-issue-message: 'This issue was closed as stale.  Please reopen if this is a mistake'
-            close-pr-message: 'This PR was closed as stale.  Please reopen if this is a mistake'
-            days-before-issue-stale: 100
-            days-before-pr-stale: 30
-            days-before-issue-close: 114
-            days-before-pr-close: 37
+    machine:
+      image: ubuntu-2204:2024.08.1
+    steps:
+      - utils/github-stale:
+          stale-issue-message: 'This issue has been automatically marked as stale and will be closed in 114 days if no updates'
+          stale-pr-message: 'This PR has been automatically marked as stale and will be closed in 37 days if no updates'
+          close-issue-message: 'This issue was closed as stale. Please reopen if this is a mistake'
+          close-pr-message: 'This PR was closed as stale. Please reopen if this is a mistake'
+          days-before-issue-stale: 100
+          days-before-pr-stale: 30
+          days-before-issue-close: 114
+          days-before-pr-close: 37
 
   test:
     docker:
