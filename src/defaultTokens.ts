@@ -17,7 +17,6 @@ export const defaultTokenDataFolders = new Set([
   'LINK',
   'WBTC',
   'POOL',
-  'LDO',
   'UNI',
   'SNX',
   'THALES',
