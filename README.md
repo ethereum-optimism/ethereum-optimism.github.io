@@ -44,7 +44,7 @@ These issues are marked below as "requires manual review".
 - Token `name`, `symbol`, and `decimals` matches on-chain data (auto-reject)
   - If `overrides` are used (requires manual review)
 - L2 token was deployed by the [StandardTokenFactory](https://github.com/ethereum-optimism/optimism-legacy/blob/develop/packages/contracts/contracts/L2/messaging/L2StandardTokenFactory.sol) or is an [L2StandardERC20](https://github.com/ethereum-optimism/optimism-legacy/blob/develop/packages/contracts/contracts/standards/L2StandardERC20.sol) token that uses the standard L2 bridge address (`0x4200000000000000000000000000000000000010`) (requires manual review)
-- Ethereum token listed on the [CoinGecko Token List](https://tokenlists.org/token-list?url=https://tokens.coingecko.com/uniswap/all.json)(requires manual review)
+- Ethereum token listed on the [CoinGecko Token List](https://tokenlists.org/token-list?url=https://tokens.coingecko.com/uniswap/all.json) (requires manual review)
   - *Why CoinGecko? CoinGecko's token list updates every hour which means we get token list updates very quickly. CoinGecko also uses an in-depth [listing criteria](https://www.coingecko.com/en/methodology).*
 
 #### Debugging Automated checks failures
