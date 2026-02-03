@@ -117,17 +117,26 @@ We currently accept tokens on the following chains:
 - `ethereum`
 - `optimism`
 - `sepolia`
+- `optimism-sepolia`
 - `base`
 - `base-sepolia`
-- `optimism-sepolia`
 - `mode`
 - `lisk`
 - `lisk-sepolia`
 - `redstone`
 - `metall2`
 - `metall2-sepolia`
+- `unichain`
+- `unichain-sepolia`
+- `soneium`
+- `soneium-minato`
 - `celo`
 - `celo-sepolia`
+- `swellchain`
+- `ink`
+- `ink-sepolia`
+- `worldchain`
+- `worldchain-sepolia`
 
 #### Non-bridgeable tokens
 
