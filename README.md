@@ -21,7 +21,7 @@ Please note that by adding a token to the list we aren’t making any claims abo
 
 ### Specifying chains
 
-For right now, each OP Chain has their own review process. So, if you are adding tokens across multiple chains, please separate your pull request so that you have one PR for each chain, in order to streamline the review process.
+For right now, each OP Chain has its own review process. So, if you are adding tokens across multiple chains, please separate your pull request so that you have one PR for each chain, in order to streamline the review process.
 
 - If you're adding a token to `Base` (e.g. `base` [mainnet] or `base-sepolia` [testnet]), instead of using the predeploy token factory on Base, we recommend you use the token factory [listed here](https://docs.base.org/chain/base-contracts/#l2-contract-addresses) to avoid having a token address that may conflict with a different token on Optimism.
 - If you are adding a token to `Zora`: please use the [`zora` label](https://github.com/ethereum-optimism/ethereum-optimism.github.io/labels/zora) and add [@tbtstl](https://github.com/tbtstl) as a reviewer.
