@@ -226,6 +226,7 @@ export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   base: 'ethereum',
   mode: 'ethereum',
   lisk: 'ethereum',
+  unichain: 'ethereum',
   redstone: 'ethereum',
   metall2: 'ethereum',
   soneium: 'ethereum',
@@ -236,8 +237,10 @@ export const L2_TO_L1_PAIR: Partial<Record<L2Chain, L1Chain>> = {
   'optimism-sepolia': 'sepolia',
   'base-sepolia': 'sepolia',
   'lisk-sepolia': 'sepolia',
+  'unichain-sepolia': 'sepolia',
   'metall2-sepolia': 'sepolia',
   'soneium-minato': 'sepolia',
+  'celo-sepolia': 'sepolia',
   'ink-sepolia': 'sepolia',
   'worldchain-sepolia': 'sepolia',
 }
