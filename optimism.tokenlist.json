@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2026-02-07T02:53:02.263Z",
+  "timestamp": "2026-02-07T03:15:45.534Z",
   "tokens": [
     {
       "chainId": 1,
@@ -8580,6 +8580,7 @@
       "extensions": {
         "optimismBridgeAddress": "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1",
         "baseBridgeAddress": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
+        "celoBridgeAddress": "0x9C4955b92F34148dbcfDCD82e9c9eCe5CF2badfe",
         "opListId": "extended",
         "opTokenId": "OLAS"
       }
@@ -8606,6 +8607,19 @@
       "logoURI": "https://ethereum-optimism.github.io/data/OLAS/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "OLAS"
+      }
+    },
+    {
+      "chainId": 42220,
+      "address": "0xD80533CA29fF6F033a0b55732Ed792af9Fbb381E",
+      "name": "Autonolas",
+      "symbol": "OLAS",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/OLAS/logo.svg",
+      "extensions": {
+        "celoBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "OLAS"
       }
@@ -15271,6 +15285,6 @@
   "version": {
     "major": 10,
     "minor": 0,
-    "patch": 1752
+    "patch": 1753
   }
 }
