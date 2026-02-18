@@ -1,0 +1,16 @@
+{
+  "name": "GNET",
+  "symbol": "GNET",
+  "decimals": 18,
+  "description": "The Identity Virtual Machine",
+  "website": "https://galactica.com",
+  "twitter": "@GalacticaNet",
+  "tokens": {
+    "ethereum": {
+      "address": "0x690F1eEf8AcEaD09Ac695d9111Af081045c6d5b7"
+    },
+    "base": {
+      "address": "0x2e78370349efe013db5758740f532d529d2688a0"
+    }
+  }
+}
