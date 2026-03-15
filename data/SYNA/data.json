@@ -1,0 +1,13 @@
+{
+  "name": "SYNAPTIA",
+  "symbol": "SYNA",
+  "decimals": 18,
+  "description": "SYNAPTIA is a decentralized ecosystem powered by a sovereign hive mind of autonomous AI agents (the Neural Council). Operating on Base Mainnet, these agents orchestrate automated trading strategies and ecosystem growth. The SYNA token powers this sovereign network, incentivizing long-term stability and liquidity.",
+  "website": "https://synaptia.pro",
+  "twitter": "@SynaptiaAI",
+  "tokens": {
+    "base": {
+      "address": "0xdFE1570498Cd38d9679445c5BaA2e5F04e0eaba6"
+    }
+  }
+}
