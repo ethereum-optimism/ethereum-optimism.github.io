@@ -1,0 +1,16 @@
+{
+  "name": "Aligned Token",
+  "symbol": "ALIGN",
+  "decimals": 18,
+  "description": "The Aligned protocol is the infrastructure stack for migrating financial systems onto Ethereum. ALIGN is its native infrastructure token",
+  "website": "https://alignedlayer.com/",
+  "twitter": "@alignedlayer",
+  "tokens": {
+    "ethereum": {
+      "address": "0x50614cc8e44f7814549c223aa31db9296e58057c"
+    },
+    "base": {
+      "address": "0x53f39e5C53EE40bbc3Da97C3B47BD2968d110a8D"
+    },
+  }
+}
