@@ -1,0 +1,13 @@
+{
+  "name": "Warp",
+  "symbol": "WRP",
+  "decimals": 18,
+  "description": "A great stable token and infra on Base chain",
+  "website": "https://warpgaming.io",
+  "twitter": "@WarpGameCHAIN",
+  "tokens": {
+    "base": {
+      "address": "0x1dd264855c7DE0E2fe2cDd6e82bcC71Bd86c4fe9"
+    }
+  }
+}
