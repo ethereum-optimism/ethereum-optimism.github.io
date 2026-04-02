@@ -1,0 +1,22 @@
+{
+  "name": "Digital Gold Token",
+  "symbol": "DGLD",
+  "decimals": 18,
+  "description": "DGLD is an ERC-20 gold backed token offering direct, legally enforceable ownership of physical PAMP gold held in secured vaults in Switzerland.",
+  "website": "https://dgld.ch/",
+  "twitter": "@DGLD_Official",
+  "tokens": {
+    "ethereum": {
+      "address": "0xA9299C296d7830A99414d1E5546F5171fA01E9c8",
+      "overrides": {
+        "name": "Digital Gold"
+      }
+    },
+    "base": {
+      "address": "0xd02f50E1017F493ffFFa70c8fCf09e349e11d6c9",
+      "overrides": {
+        "name": "DGLD Token"
+      }
+    }
+  }
+}
