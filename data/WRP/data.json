@@ -1,0 +1,13 @@
+{
+  "name": "Warp",
+  "symbol": "WRP",
+  "decimals": 18,
+  "description": "Warp is a chain-agnostic game publishing and infrastructure platform providing distribution and monetization rails for the $300B gaming market.",
+  "website": "https://www.warpgaming.io",
+  "twitter": "@WarpGameCHAIN",
+  "tokens": {
+    "base": {
+      "address": "0x1dd264855c7DE0E2fe2cDd6e82bcC71Bd86c4fe9"
+    }
+  }
+}
