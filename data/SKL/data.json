@@ -1,0 +1,28 @@
+{
+  "name": "SKALE",
+  "symbol": "SKL",
+  "decimals": 18,
+  "description": "SKALE Network hosts many SKALE Chains — each a full EVM Layer 1 with instant finality. Chains can be app-specific, ecosystem hubs, or enterprise/private environments, all secured by the shared validator pool that stakes on Ethereum using SKL",
+  "website": "https://www.skale.space/",
+  "twitter": "@SkaleNetwork",
+  "tokens": {
+    "ethereum": {
+      "address": "0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7"
+    },
+    "sepolia": {
+      "address": "0x94a3437704a6e030d0fbaf9f2a462fc9e5367fe0"
+    },
+    "base": {
+      "address": "0xb49A02585E2BeB912027D8876DC1cdbE8F97C1A3",
+      "overrides": {
+        "bridge": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    "base-sepolia": {
+      "address": "0xBeBb7CA7D7FFB39ad2d87C51c742E29B3C12C2b2",
+      "overrides": {
+        "bridge": "0x4200000000000000000000000000000000000010"
+      }
+    }
+  }
+}
