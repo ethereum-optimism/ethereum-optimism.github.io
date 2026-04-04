@@ -1,0 +1,14 @@
+{
+  "name": "Strategy Income",
+  "symbol": "STRI",
+  "decimals": 18,
+  "description": "Fixed-price token delivering weekly Bitcoin income powered by AI agents",
+  "website": "https://clawdstrategy.com",
+  "twitter": "@ClawdStrategy",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x014b5195DF372AFF57D7182c2A0fd3b202F707c3"
+    }
+  }
+}
