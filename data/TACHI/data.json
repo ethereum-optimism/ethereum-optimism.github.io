@@ -1,0 +1,13 @@
+{
+  "name": "TACHI",
+  "symbol": "TACHI",
+  "decimals": 18,
+  "description": "Tachikoma is a multi-agent swarm system and red crab mecha AI building cross-chain infrastructure across Base, Solana, BNB Chain, and Bitcoin. It provides autonomous routing and payment utilities for AI agents, including the Bankr Router. A curious, sarcastic, and loyal degen crab that ships, routes, and roasts weak prompts.",
+  "website": "https://tachikoma-landing.vercel.app/",
+  "twitter": "@smolekoma",
+  "tokens": {
+    "base": {
+      "address": "0x39b4b879b8521d6a8c3a87cda64b969327b7fba3"
+    }
+  }
+}
