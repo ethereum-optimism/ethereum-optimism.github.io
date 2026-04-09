@@ -1,0 +1,13 @@
+{
+  "name": "Strategy Index",
+  "symbol": "STRI",
+  "decimals": 18,
+  "description": "STRI is the token of ClawdStrategy, a DeFi protocol on Base that delivers weekly Bitcoin (cbBTC) income to holders. Users mint STRI with USDC, and the treasury deploys funds into Bitcoin-native yield strategies, distributing earnings proportionally to all holders.",
+  "website": "https://clawdstrategy.com",
+  "twitter": "@ClawdStrategy",
+  "tokens": {
+    "base": {
+      "address": "0x014b5195DF372AFF57D7182c2A0fd3b202F707c3"
+    }
+  }
+}
