@@ -1,0 +1,11 @@
+{
+  "name": "AFUK Token",
+  "symbol": "AFUK",
+  "decimals": 18,
+  "tokens": {
+    "base": {
+      "address": "0x2d0A4446f11Ff1554F4E387DA2162d8276daDE5d"
+    }
+  },
+  "twitter": "https://twitter.com/Afuktoken"
+}
