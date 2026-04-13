@@ -4,7 +4,7 @@
   "symbol": "FYRE",
   "name": "FYRECOIN",
   "decimals": 18,
-  "logoURI": "https://raw.githubusercontent.com/ethereum-optimism/ethereum-optimism.github.io/master/data/FYRE/logo.png",
+  "logoURI": "https://raw.githubusercontent.com/ethereum-optimism/ethereum-optimism.github.io/master/data/FYRE/logo.svg",
   "website": "https://fyrecoin.biz",
   "description": "A community token created to honor and support firefighters and medics."
 }
