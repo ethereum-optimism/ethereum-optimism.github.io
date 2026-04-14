@@ -1,12 +1,13 @@
 {
-  "name": "FYRECOIN",
+  "name": "Fyrecoin",
   "symbol": "FYRE",
   "decimals": 18,
   "description": "A community token created to honor and support firefighters and medics.",
   "website": "https://fyrecoin.biz",
   "tokens": {
     "base": {
-      "address": "0xFdE2B68393AaB6632e4599901618D7c28c054138"
+      "address": "0xFdE2B68393AaB6632e4599901618D7c28c054138",
+      "nobridge": true
     }
   }
 }
