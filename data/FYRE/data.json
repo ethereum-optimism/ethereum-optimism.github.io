@@ -1,10 +1,12 @@
 {
-  "chainId": 8453,
-  "address": "0xFdE2B68393AaB6632e4599901618D7c28c054138",
-  "symbol": "FYRE",
   "name": "FYRECOIN",
+  "symbol": "FYRE",
   "decimals": 18,
-  "logoURI": "https://raw.githubusercontent.com/ethereum-optimism/ethereum-optimism.github.io/master/data/FYRE/logo.svg",
+  "description": "A community token created to honor and support firefighters and medics.",
   "website": "https://fyrecoin.biz",
-  "description": "A community token created to honor and support firefighters and medics."
+  "tokens": {
+    "base": {
+      "address": "0xFdE2B68393AaB6632e4599901618D7c28c054138"
+    }
+  }
 }
