@@ -101,11 +101,15 @@ jobs:
             # build the dist directory for publishing
             pnpm tsup --dts
       - run:
-          name: Verify NPM Token
-          command: npm whoami
+          name: Install npm with OIDC trusted publishing support
+          command: npm install -g npm@latest
+      - run:
+          name: Obtain OIDC token for npm trusted publishing
+          command: |
+            echo "export NPM_ID_TOKEN=$(circleci run oidc get --claims '{\"aud\": \"npm:registry.npmjs.org\"}')" >> "$BASH_ENV"
       - run:
           name: Publish package
-          command: pnpm publish
+          command: npm publish
 
   stale:
       machine:
@@ -209,7 +213,7 @@ workflows:
             branches:
               only: master
       - generate-token-list-and-publish:
-          context: circleci-repo-ethereum-optimism.github.io
+          context: circleci-repo-ethereum-optimism.github.io # for GITHUB_TOKEN_GOVERNANCE
           filters:
             branches:
               only: master
