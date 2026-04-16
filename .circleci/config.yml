@@ -123,7 +123,7 @@ jobs:
 
   test:
     docker:
-      - image: cimg/node:16.20
+      - image: cimg/node:22.14
     steps:
       - setup
       - run:
@@ -133,7 +133,7 @@ jobs:
 
   validate:
     docker:
-      - image: cimg/node:16.20
+      - image: cimg/node:22.14
     steps:
       - setup
       - run:
