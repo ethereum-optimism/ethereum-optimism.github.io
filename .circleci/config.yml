@@ -106,7 +106,14 @@ jobs:
       - run:
           name: Obtain OIDC token for npm trusted publishing
           command: |
-            echo "export NPM_ID_TOKEN=$(circleci run oidc get --claims '{\"aud\": \"npm:registry.npmjs.org\"}')" >> "$BASH_ENV"
+            set -e
+            NPM_ID_TOKEN=$(circleci run oidc get --claims '{"aud":"npm:registry.npmjs.org"}')
+            if [ -z "$NPM_ID_TOKEN" ]; then
+              echo "ERROR: circleci run oidc get returned an empty token" >&2
+              exit 1
+            fi
+            echo "OIDC token fetched (length=${#NPM_ID_TOKEN})"
+            echo "export NPM_ID_TOKEN=$NPM_ID_TOKEN" >> "$BASH_ENV"
       - run:
           name: Publish package
           command: npm publish
