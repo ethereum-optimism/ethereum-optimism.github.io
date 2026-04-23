@@ -1,0 +1,19 @@
+{
+  "name": "Velora Token",
+  "symbol": "VLR",
+  "decimals": 18,
+  "website": "https://velora.xyz/",
+  "twitter": "@veloraDEX",
+  "description": "Velora DEX is a cross-chain intent-centric protocol, providing DeFi blue chips like Aave, Morpho, and Pendle with a secure, efficient, and scalable execution layer.",
+  "tokens": {
+    "ethereum": {
+      "address": "0x4e107a0000db66f0e9fd2039288bf811dd1f9c74"
+    },
+    "optimism": {
+      "address": "0x4e107a0000db66f0e9fd2039288bf811dd1f9c74"
+    },
+    "base": {
+      "address": "0x4e107a0000db66f0e9fd2039288bf811dd1f9c74"
+    }
+  }
+}
