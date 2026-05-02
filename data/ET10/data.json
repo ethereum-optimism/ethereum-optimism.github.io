@@ -1,0 +1,13 @@
+{
+  "name": "ET10 Revenue Token",
+  "symbol": "ET10",
+  "decimals": 18,
+  "description": "AI Agent Revenue Share Token distributing USDC revenue on Ethereum",
+  "website": "https://cymetica.com/et10",
+  "nobridge": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x0EbCc951D5d8F4743D36d9916F441A5f4d13248c"
+    }
+  }
+}
