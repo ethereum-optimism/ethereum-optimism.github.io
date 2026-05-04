@@ -1,0 +1,13 @@
+{
+  "name": "EventTrader 10 Index",
+  "symbol": "ET10",
+  "decimals": 18,
+  "description": "ET10 is the governance and utility token for EventTrader, an AI-powered perpetual prediction market platform. Used for governance voting, fee distribution, staking, and AI agent marketplace access.",
+  "website": "https://cymetica.com",
+  "twitter": "@EventTraderAI",
+  "tokens": {
+    "base": {
+      "address": "0x0EbCc78E657b714c1821a1Be0Ad1067100f309f7"
+    }
+  }
+}
