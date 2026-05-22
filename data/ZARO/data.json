@@ -1,0 +1,13 @@
+{
+  "name": "Zaro Coin",
+  "symbol": "ZARO",
+  "decimals": 18,
+  "description": "Zaro Coin is the native token of ZaroVerse, an AI-powered creative studio platform. ZARO launched on Ethereum and is bridged cross-chain via the Wormhole Token Bridge.",
+  "website": "https://www.zarocoin.xyz",
+  "twitter": "@ZaroCoin_XYZ",
+  "tokens": {
+    "ethereum": {
+      "address": "0xc311FD6DA9686507F33991543d8158EF5FaDd5E7"
+    }
+  }
+}
