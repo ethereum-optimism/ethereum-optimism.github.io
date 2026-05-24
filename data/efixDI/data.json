@@ -1,0 +1,14 @@
+{
+  "name": "efixDI Plus",
+  "symbol": "efixDI",
+  "decimals": 18,
+  "description": "efixDI+ tokenizes shares of regulated Brazilian DI (interbank deposit) money-market funds, exposing the Brazilian CDI yield curve as on-chain collateral. Issued by EFIX, a CVM-licensed (Resolution 88/2022) Brazilian protocol. Live as Morpho Blue collateral on Base.",
+  "website": "https://efix.finance",
+  "twitter": "@efix_finance",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xF5cA55f3ea5Bcd180aEa6dF9E05a0E63A66f5608"
+    }
+  }
+}
