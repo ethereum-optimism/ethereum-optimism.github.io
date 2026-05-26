@@ -1,0 +1,16 @@
+{
+  "name": "Zaro Coin",
+  "symbol": "ZARO",
+  "decimals": 18,
+  "description": "Zaro Coin (ZARO) is a fixed-supply digital collectible on Ethereum. It is the on-chain artifact of ZaroVerse, a transmedia fictional universe. Total supply: 1,000,000,000. Contract fully renounced. No allocations.",
+  "website": "https://www.zarocoin.xyz",
+  "twitter": "@ZaroProject",
+  "tokens": {
+    "ethereum": {
+      "address": "0xc311FD6DA9686507F33991543d8158EF5FaDd5E7"
+    },
+    "base": {
+      "address": "0x1d4CeA73e212829d06B9a774d2e06be9DEe5AAB0"
+    }
+  }
+}
