@@ -1,0 +1,12 @@
+{
+  "name": "World Pup Coin",
+  "symbol": "PUPCUP",
+  "decimals": 18,
+  "website": "https://pupcup.clutch.market/",
+  "twitter": "@ClutchMarkets",
+  "tokens": {
+    "ethereum": {
+      "address": "0x884649f1fE3Bf3Ae0Bd720Eaf660cB561dcE39ef"
+    }
+  }
+}
