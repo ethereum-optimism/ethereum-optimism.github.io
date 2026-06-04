@@ -1,0 +1,117 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TXM token coin">
+  <defs>
+    <linearGradient id="rim" x1="0.12" y1="0.05" x2="0.88" y2="0.95">
+      <stop offset="0" stop-color="#eaf4ff"></stop>
+      <stop offset="0.18" stop-color="#aeb8d2"></stop>
+      <stop offset="0.2" stop-color="#9fb0cc"></stop>
+      <stop offset="0.5" stop-color="#5d6a85"></stop>
+      <stop offset="0.78" stop-color="#cdd9ee"></stop>
+      <stop offset="1" stop-color="#717f9b"></stop>
+    </linearGradient>
+    <linearGradient id="rim2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfeaff"></stop>
+      <stop offset="0.5" stop-color="#7b89a6"></stop>
+      <stop offset="1" stop-color="#c7d3e8"></stop>
+    </linearGradient>
+    <radialGradient id="field" cx="0.42" cy="0.36" r="0.75">
+      <stop offset="0" stop-color="#142036"></stop>
+      <stop offset="0.55" stop-color="#0a1326"></stop>
+      <stop offset="1" stop-color="#04070f"></stop>
+    </radialGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7af2ff"></stop>
+      <stop offset="0.5" stop-color="#2fe6ff"></stop>
+      <stop offset="1" stop-color="#6d4dff"></stop>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9af6ff"></stop>
+      <stop offset="1" stop-color="#2fe6ff"></stop>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d6f8f"></stop>
+      <stop offset="1" stop-color="#0c3550"></stop>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a2f7a"></stop>
+      <stop offset="1" stop-color="#160f3a"></stop>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2fe6ff" stop-opacity="0.9"></stop>
+      <stop offset="1" stop-color="#2fe6ff" stop-opacity="0"></stop>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5"></feGaussianBlur>
+    </filter>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.5"></stop>
+      <stop offset="0.35" stop-color="#ffffff" stop-opacity="0"></stop>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="248" fill="url(#rim)"></circle>
+  <circle cx="256" cy="256" r="248" fill="none" stroke="#0a0f1c" stroke-opacity="0.5" stroke-width="2"></circle>
+  <circle cx="256" cy="256" r="226" fill="url(#rim2)"></circle>
+  <circle cx="256" cy="256" r="210" fill="#070d1a"></circle>
+  <circle cx="256" cy="256" r="210" fill="none" stroke="url(#neon)" stroke-width="4" opacity="0.9"></circle>
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#2fe6ff" stroke-width="10" opacity="0.18" filter="url(#soft)"></circle>
+  <circle cx="256" cy="256" r="196" fill="url(#field)"></circle>
+  <g fill="none" stroke="#2fe6ff" stroke-opacity="0.22" stroke-width="2">
+    <circle cx="256" cy="256" r="170"></circle>
+  </g>
+  <g stroke="#6d4dff" stroke-opacity="0.16" stroke-width="1.5">
+    <line x1="256.0" y1="86.0" x2="341.0" y2="403.2"></line>
+    <line x1="341.0" y1="108.8" x2="256.0" y2="426.0"></line>
+    <line x1="403.2" y1="171.0" x2="171.0" y2="403.2"></line>
+    <line x1="426.0" y1="256.0" x2="108.8" y2="341.0"></line>
+    <line x1="403.2" y1="341.0" x2="86.0" y2="256.0"></line>
+    <line x1="341.0" y1="403.2" x2="108.8" y2="171.0"></line>
+    <line x1="256.0" y1="426.0" x2="171.0" y2="108.8"></line>
+    <line x1="171.0" y1="403.2" x2="256.0" y2="86.0"></line>
+    <line x1="108.8" y1="341.0" x2="341.0" y2="108.8"></line>
+    <line x1="86.0" y1="256.0" x2="403.2" y2="171.0"></line>
+    <line x1="108.8" y1="171.0" x2="426.0" y2="256.0"></line>
+    <line x1="171.0" y1="108.8" x2="403.2" y2="341.0"></line>
+  </g>
+  <g fill="#2fe6ff" fill-opacity="0.7">
+    <circle cx="256.0" cy="86.0" r="3.2"></circle>
+    <circle cx="341.0" cy="108.8" r="3.2"></circle>
+    <circle cx="403.2" cy="171.0" r="3.2"></circle>
+    <circle cx="426.0" cy="256.0" r="3.2"></circle>
+    <circle cx="403.2" cy="341.0" r="3.2"></circle>
+    <circle cx="341.0" cy="403.2" r="3.2"></circle>
+    <circle cx="256.0" cy="426.0" r="3.2"></circle>
+    <circle cx="171.0" cy="403.2" r="3.2"></circle>
+    <circle cx="108.8" cy="341.0" r="3.2"></circle>
+    <circle cx="86.0" cy="256.0" r="3.2"></circle>
+    <circle cx="108.8" cy="171.0" r="3.2"></circle>
+    <circle cx="171.0" cy="108.8" r="3.2"></circle>
+  </g>
+  <circle cx="256" cy="232" r="120" fill="url(#coreGlow)" opacity="0.5"></circle>
+  <g transform="translate(256 196)">
+    <polygon points="0,-58 58,-29 0,0 -58,-29" fill="url(#cubeTop)"></polygon>
+    <polygon points="-58,-29 0,0 0,62 -58,33" fill="url(#cubeLeft)"></polygon>
+    <polygon points="58,-29 0,0 0,62 58,33" fill="url(#cubeRight)"></polygon>
+    <g stroke="#bdf6ff" stroke-opacity="0.55" stroke-width="2" fill="none">
+      <line x1="0" y1="0" x2="0" y2="62"></line>
+      <line x1="0" y1="0" x2="-58" y2="-29"></line>
+      <line x1="0" y1="0" x2="58" y2="-29"></line>
+    </g>
+    <g fill="#eafdff">
+      <circle cx="0" cy="-58" r="5"></circle>
+      <circle cx="58" cy="-29" r="4"></circle>
+      <circle cx="-58" cy="-29" r="4"></circle>
+      <circle cx="0" cy="62" r="4"></circle>
+      <circle cx="58" cy="33" r="3.5"></circle>
+      <circle cx="-58" cy="33" r="3.5"></circle>
+    </g>
+    <circle cx="0" cy="0" r="9" fill="#2fe6ff"></circle>
+    <circle cx="0" cy="0" r="16" fill="url(#coreGlow)"></circle>
+  </g>
+  <text x="256" y="356" text-anchor="middle" font-family="'Space Grotesk', system-ui, sans-serif" font-size="76" font-weight="700" letter-spacing="4" fill="#f2f6fd">TXM</text>
+  <text x="256" y="392" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="18" letter-spacing="8" fill="#7fb8d8">TENSORIUM</text>
+  <g stroke="#2fe6ff" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round">
+    <line x1="206" y1="418" x2="226" y2="418"></line>
+    <line x1="236" y1="418" x2="276" y2="418"></line>
+    <line x1="286" y1="418" x2="306" y2="418"></line>
+  </g>
+  <path d="M256 12 a244 244 0 0 1 172 72 a236 236 0 0 0 -344 0 a244 244 0 0 1 172 -72 z" fill="url(#sheen)" opacity="0.6"></path>
+</svg>

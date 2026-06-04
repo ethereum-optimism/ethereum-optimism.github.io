@@ -1,0 +1,13 @@
+{
+  "name": "Wrapped Tensorium",
+  "symbol": "wTXM",
+  "decimals": 18,
+  "description": "Wrapped Tensorium on Optimism. Represents TXM bridged from the Tensorium mainnet via the official Tensorium bridge.",
+  "website": "https://tensoriumlabs.com",
+  "nobridge": true,
+  "tokens": {
+    "optimism": {
+      "address": "0x2e71FD45530FAe75B6b427F3e71A0CDEB146C20e"
+    }
+  }
+}
