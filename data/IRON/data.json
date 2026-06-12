@@ -1,0 +1,14 @@
+{
+  "name": "Iron",
+  "symbol": "IRON",
+  "decimals": 18,
+  "description": "IronBridge constitutional governance token on Base",
+  "website": "https://wwwironbridge.org",
+  "twitter": "@IronBridgeOrg",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xBd072aBa9CAd9d573A5B3498f79B117DBeFdC7f4"
+    }
+  }
+}
