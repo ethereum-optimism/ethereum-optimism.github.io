@@ -1,0 +1,15 @@
+{
+  "name": "DUAL",
+  "symbol": "DUAL",
+  "decimals": 18,
+  "description": "The tokenization engine for real world assets.",
+  "website": "https://www.dual.org",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6aF487BEb661CCeCD1D045E9561A0dAC9AA5c7db"
+    },
+    "base": {
+      "address": "0x832b55b0fa6397ca9e63b8c15dadef3f6e44614c"
+    }
+  }
+}
