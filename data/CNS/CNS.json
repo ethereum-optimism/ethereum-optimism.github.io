@@ -1,0 +1,16 @@
+{
+  "name": "CNS",
+  "symbol": "CNS",
+  "decimals": 18,
+  "description": "A global Web 3.0 community for DeSciers with mandarin proficiency from across the globe.",
+  "website": "https://linktr.ee/descisino",
+  "twitter": "@DesciSino",
+  "tokens": {
+    "ethereum": {
+      "address": "0x7f22d70B4659e52B60E461496Fc3aA64bAC699Ee"
+    },
+    "optimism": {
+      "address": "0x7f22d70B4659e52B60E461496Fc3aA64bAC699Ee"
+    }
+  }
+}
