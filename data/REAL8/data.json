@@ -1,0 +1,15 @@
+{
+  "name": "Wrapped REAL8",
+  "symbol": "wREAL8",
+  "decimals": 7,
+  "description": "wREAL8 is the wrapped version of REAL8 (Stellar), pegged 1:1 and bridged via the REAL8 bridge. Used for liquidity pools on EVM chains.",
+  "website": "https://real8.org",
+  "tokens": {
+    "base": {
+      "address": "0x9f1605a496FD56A728bbd088Cf2Ecade4d40129c"
+    },
+    "optimism": {
+      "address": "0x34445f2cbA3964b5E814dB419F2beF12420A4C49"
+    }
+  }
+}
