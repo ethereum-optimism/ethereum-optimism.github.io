@@ -1,0 +1,19 @@
+{
+  "name": "Page Token",
+  "symbol": "PAGE",
+  "decimals": 8,
+  "description": "PAGE is the governance token of PageDAO, a decentralized community building open publishing infrastructure.",
+  "website": "https://pagedao.org",
+  "twitter": "@page_dao",
+  "tokens": {
+    "ethereum": {
+      "address": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e"
+    },
+    "base": {
+      "address": "0xc4730f86d1f86ce0712a7b17ee919db7defad7fe"
+    },
+    "optimism": {
+      "address": "0xe67E77c47a37795c0ea40A038F7ab3d76492e803"
+    }
+  }
+}
