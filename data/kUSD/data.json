@@ -1,0 +1,14 @@
+{
+  "name": "Kerne Synthetic Dollar",
+  "symbol": "kUSD",
+  "decimals": 18,
+  "description": "kUSD is a yield-bearing synthetic dollar on Base, minted 1:1 from USDC through a Peg Stability Module and designed to stay redeemable at all times. Backing is at least 1:1, attested in an EIP-191 signed proof of reserves every hour, and can be recomputed on-chain with the free tool at kerne.fi/verify-anything.",
+  "website": "https://kerne.fi",
+  "twitter": "@KerneProtocol",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x5C2EfdF0D8D286959b42308966bc2B97f5680AA3"
+    }
+  }
+}
