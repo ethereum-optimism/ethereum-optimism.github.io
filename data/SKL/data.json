@@ -1,0 +1,17 @@
+{
+  "name": "SKALE",
+  "symbol": "SKL",
+  "decimals": 18,
+  "description": "SKALE is a gas-free, high-performance blockchain designed for mass adoption, particularly in gaming, AI, and DeFi applications.",
+  "website": "https://skale.space/",
+  "twitter": "@SkaleNetwork",
+  "nobridge": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7"
+    },
+    "base": {
+      "address": "0x91D00CF7bE6F47bf9BFAaA974d80Ea79a4A3bfe7"
+    }
+  }
+}
