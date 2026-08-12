@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-labelledby="title desc">
+  <title id="title">NAPS crypto token icon</title>
+  <desc id="desc">Circular midnight-blue icon with crescent moon, two digital agents trading, and a rising market chart.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#0a2f66"/>
+      <stop offset="0.62" stop-color="#061a3d"/>
+      <stop offset="1" stop-color="#020914"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="4" y1="4" x2="28" y2="28">
+      <stop offset="0" stop-color="#7fd8ff"/>
+      <stop offset="0.5" stop-color="#2f7dff"/>
+      <stop offset="1" stop-color="#704cff"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dff7ff"/>
+      <stop offset="0.45" stop-color="#6fb8ff"/>
+      <stop offset="1" stop-color="#1e4f9f"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="0.7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><circle cx="16" cy="16" r="14.1"/></clipPath>
+  </defs>
+
+  <circle cx="16" cy="16" r="15" fill="#020914" stroke="url(#rim)" stroke-width="1.5"/>
+  <circle cx="16" cy="16" r="13.8" fill="url(#bg)" stroke="#173f84" stroke-width="0.45"/>
+
+  <g clip-path="url(#clip)">
+    <!-- Crescent moon -->
+    <path d="M7.2 5.2c-3.2 2.5-4.5 7-3 10.8 1.1 2.8 3.5 4.8 6.4 5.4-2.6-1.7-4.1-4.7-3.8-7.9.3-3 2-5.6 4.5-7.1-1.2-.6-2.7-.9-4.1-1.2z" fill="#7bdcff" opacity="0.95" filter="url(#glow)"/>
+
+    <!-- Stars -->
+    <path d="M13 5.2l.3.8.8.3-.8.3-.3.8-.3-.8-.8-.3.8-.3zM22.5 6.2l.25.65.65.25-.65.25-.25.65-.25-.65-.65-.25.65-.25z" fill="#9cecff"/>
+
+    <!-- Rising chart -->
+    <g stroke="#25a8ff" stroke-width="0.7" stroke-linecap="round">
+      <path d="M14.2 11.9l2-1.4 1.8.7 1.9-2 2 .5 2.1-2.5" fill="none"/>
+      <path d="M14.2 13.1v-2.3M16.2 11.8V9.7M18 12.2v-2M19.9 10.7V8.2M21.9 10.5V7.6M24 8.4V5.9" opacity="0.9"/>
+    </g>
+
+    <!-- Left agent -->
+    <g>
+      <rect x="7.6" y="13.1" width="6.8" height="5.3" rx="2.5" fill="url(#metal)" stroke="#8adfff" stroke-width="0.35"/>
+      <rect x="8.45" y="14.05" width="5.1" height="2.7" rx="1.25" fill="#04172f"/>
+      <circle cx="10.05" cy="15.4" r="0.52" fill="#33d7ff" filter="url(#glow)"/>
+      <circle cx="11.95" cy="15.4" r="0.52" fill="#33d7ff" filter="url(#glow)"/>
+      <path d="M10.9 13.1v-1.05" stroke="#7fdcff" stroke-width="0.45"/>
+      <circle cx="10.9" cy="11.8" r="0.38" fill="#9fefff"/>
+    </g>
+
+    <!-- Right agent -->
+    <g>
+      <rect x="17.6" y="13.1" width="6.8" height="5.3" rx="2.5" fill="url(#metal)" stroke="#8adfff" stroke-width="0.35"/>
+      <rect x="18.45" y="14.05" width="5.1" height="2.7" rx="1.25" fill="#04172f"/>
+      <circle cx="20.05" cy="15.4" r="0.52" fill="#33d7ff" filter="url(#glow)"/>
+      <circle cx="21.95" cy="15.4" r="0.52" fill="#33d7ff" filter="url(#glow)"/>
+      <path d="M21.1 13.1v-1.05" stroke="#7fdcff" stroke-width="0.45"/>
+      <circle cx="21.1" cy="11.8" r="0.38" fill="#9fefff"/>
+    </g>
+
+    <!-- Agent arms and trade handshake -->
+    <path d="M13.7 17.1l1.4.3.9-.55.9.55 1.4-.3" fill="none" stroke="#58d8ff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+    <path d="M15.35 17.35l.65.65.65-.65" fill="none" stroke="#d8fbff" stroke-width="0.55" stroke-linecap="round"/>
+
+    <!-- NAPS monogram -->
+    <text x="16" y="25.55" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="5.1" font-weight="700" letter-spacing="0.35" fill="#f4fbff">NΛPS</text>
+    <path d="M15.45 23.8l.55-.75.55.75" fill="none" stroke="#6c73ff" stroke-width="0.45"/>
+  </g>
+</svg>
