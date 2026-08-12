@@ -1,0 +1,14 @@
+{
+    "name": "XRay",
+    "symbol": "XRAY",
+    "decimals": 18,
+    "description": "XRay is a community-driven reputation protocol for social media. Users earn XRAY tokens by identifying scams, bots, and bad actors on X/Twitter, with expansion to Instagram, Facebook,
+  Discord, and Telegram planned for 2026.",
+    "website": "https://xrayrep.com",
+    "twitter": "@Sherlock__Bones",
+    "tokens": {
+      "base": {
+        "address": "0xd9A01428f5EBFD619526d1A2561365a8e4f75a2f"
+      }
+    }
+  }
