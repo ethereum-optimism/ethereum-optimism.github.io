@@ -1,0 +1,14 @@
+{
+  "name": "FCWEED",
+  "symbol": "FCWEED",
+  "decimals": 18,
+  "description": "FCWEED is the native utility token powering a Web3 farming game ecosystem on Base. Players stake NFT plants and lands to earn FCWEED rewards, participate in Cartel Wars PvP battles, open mystery crates, and engage with the item shop.",
+  "website": "https://x420ponzi.com",
+  "twitter": "@X420ponzi",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x42ef01219BDb2190F275Cda7956D08822549d224"
+    }
+  }
+}
