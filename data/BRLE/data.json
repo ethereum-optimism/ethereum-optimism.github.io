@@ -1,0 +1,14 @@
+{
+  "name": "BRLE",
+  "symbol": "BRLE",
+  "decimals": 18,
+  "description": "BRL-pegged yield stablecoin backed by DI fund shares at BTG Pactual. ~14.4% APY via ERC-4626 vault. CVM-regulated (Brazilian SEC) under Act 23.635/2025.",
+  "website": "https://efix.finance/brle",
+  "twitter": "@efix_finance",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x7D12a82E335EB2Be0789A33CE2EBF7Eb2bA782F6"
+    }
+  }
+}
