@@ -1,0 +1,17 @@
+{
+  "name": "Pinakion",
+  "symbol": "PNK",
+  "decimals": 18,
+  "description": "Kleros PNK token enables the creation of the right incentives and the prevention of Sybil attacks on Kleros Court.",
+  "website": "https://kleros.io/token",
+  "twitter": "@Kleros_io",
+  "nonstandard": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d"
+    },
+    "base": {
+      "address": "0xad438cC31D59E69bD5806DDfE809DD226bF9C357"
+    }
+  }
+}
