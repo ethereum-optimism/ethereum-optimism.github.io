@@ -1,0 +1,13 @@
+{
+  "name": "HRUSD",
+  "symbol": "HRUSD",
+  "decimals": 6,
+  "description": "HRUSD is a USD-pegged stablecoin issued natively on Base by HyperRoute. It is minted 1:1 against USDC locked in a Peg Stability Module, and is paired with USDC in a Uniswap V3 pool whose liquidity positions can be staked for rewards.",
+  "website": "https://hyperoute.xyz/",
+  "twitter": "@hyperoute",
+  "tokens": {
+    "base": {
+      "address": "0x5587AD03F9565F1B86cfA51a3C744Bcc4039dAf0"
+    }
+  }
+}
