@@ -4,6 +4,7 @@
   "decimals": 18,
   "description": "UVP (Uniswap V4 Airdrop Points) is a Base-native reward token. Claim your earned airdrop points on the official website.",
   "website": "https://uvp-claim.pages.dev",
+  "nobridge": true,
   "tokens": {
     "base": {
       "address": "0xcc1F0ef1D246d3c1849324F29c41F87F8c3a50cB"
