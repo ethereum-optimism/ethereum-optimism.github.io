@@ -1,0 +1,34 @@
+[
+  {
+    "chainId": 8453,
+    "address": "0x2a92CAA3b01E64634e2E95AA533a5570a76c19A7",
+    "name": "PENNIES CHEQ",
+    "symbol": "PENNIES",
+    "decimals": 18,
+    "logoURI": "https://jvoidial.github.io/spirit-guide-token/images/pennies.png"
+  },
+  {
+    "chainId": 8453,
+    "address": "0x95c7e2d53f4b615a50d4468dfd5aff850dc17f0c",
+    "name": "Pennies Index",
+    "symbol": "PIDX",
+    "decimals": 18,
+    "logoURI": "https://jvoidial.github.io/spirit-guide-token/images/pidx.png"
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb50DCEb0570557B9B7FE43D8cBDc9B3457D3dc5a",
+    "name": "SPIRIT GUIDE",
+    "symbol": "SGUIDE",
+    "decimals": 18,
+    "logoURI": "https://jvoidial.github.io/spirit-guide-token/images/sguide.png"
+  },
+  {
+    "chainId": 8453,
+    "address": "0x38e4f08D08b4D772A7B75669C356b4749dd2d30b",
+    "name": "VOUDOO Infinity",
+    "symbol": "VDOO",
+    "decimals": 18,
+    "logoURI": "https://jvoidial.github.io/spirit-guide-token/images/vdoo.png"
+  }
+]
