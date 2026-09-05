@@ -1,0 +1,13 @@
+{
+  "name": "SourceMint",
+  "symbol": "SRCMNT",
+  "decimals": 18,
+  "description": "SourceMint (SRCMNT) is a fixed-supply, open-source ERC-20 on Base with no ICO and no token sale. Supply enters circulation as rewards for merged contributions to its public Foundry repository, under a published reward policy. Every transfer out of a project wallet is recorded in a public ledger with its reason, and continuous integration re-verifies that ledger against the chain. The contract has no owner or admin functions and no further minting is possible; it supports burning and ERC-2612 permit.",
+  "website": "https://srcmnt.xyz",
+  "tokens": {
+    "base": {
+      "address": "0x914F6b6a0DaD39A3CB932dcf4D1af885C7c08EeB"
+    }
+  },
+  "nobridge": true
+}
