@@ -1,0 +1,16 @@
+{
+  "name": "Numeraire",
+  "symbol": "NMR",
+  "decimals": 18,
+  "description": "Numeraire is the staking token used in Numerai tournaments.",
+  "website": "https://numer.ai",
+  "twitter": "@numerai",
+  "tokens": {
+    "sepolia": {
+      "address": "0xb434437a6554a7320cfabd194179b7b5cbd59b84"
+    },
+    "base-sepolia": {
+      "address": "0xc67B1795EE29EF012D23538ef1ab9C0D56c1E3f0"
+    }
+  }
+}
