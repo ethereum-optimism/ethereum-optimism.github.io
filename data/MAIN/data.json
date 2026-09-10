@@ -1,0 +1,14 @@
+{
+  "name": "Main's World",
+  "symbol": "MAIN",
+  "decimals": 18,
+  "description": "MAIN is the ERC-20 token of Main's World, a map-based social mini app in World App where every account is a World ID-verified human. Members earn MAIN when other humans appreciate the moments they post, and Orb-verified wallets can claim it on-chain 1:1. The app never sells MAIN; supply grows only via claims.",
+  "website": "https://mains.world",
+  "twitter": "@itsamainsworld",
+  "nobridge": true,
+  "tokens": {
+    "worldchain": {
+      "address": "0xe734c938260e5E96088EE36110b0dFf1AeFF528e"
+    }
+  }
+}
