@@ -1,16 +1,13 @@
 {
-  "name": "AxonDAO Governance Token",
+  "name": "AXGT",
   "symbol": "AXGT",
   "decimals": 18,
-  "description": "AxonDAO Builds, Supports, and Funds Decentralized Science Projects with Biometric AI.",
+  "description": "Governance token for AxonDAO, a decentralized science collective focused on health data ownership, ethical AI insights, and community-funded research with transparent, open collaboration.",
   "website": "https://axondao.io/",
   "twitter": "@AxonDAO",
   "tokens": {
     "ethereum": {
-      "address": "0xDd66781D0E9a08D4FBb5eC7BAc80B691BE27F21D"
-    },
-    "base": {
-      "address": "0x9b700b043e9587dde9a0c29a9483e2f8fa450d54"
+      "address": "0x6112C3509A8a787df576028450FebB3786A2274d"
     }
   }
 }
