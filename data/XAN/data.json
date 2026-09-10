@@ -1,0 +1,28 @@
+{
+  "name": "Anoma",
+  "symbol": "XAN",
+  "decimals": 18,
+  "description": "Anoma is a distributed operating system for intent-centric applications. It unifies underlying blockchains into a single development environment, ending the fragmentation of state and users that limits today’s decentralized applications.",
+  "website": "https://anoma.net/",
+  "twitter": "@anoma",
+  "tokens": {
+    "ethereum": {
+      "address": "0xCEDbEA37C8872c4171259Cdfd5255CB8923Cf8e7"
+    },
+    "sepolia": {
+      "address": "0xCEDbEA37C8872c4171259Cdfd5255CB8923Cf8e7"
+    },
+    "base": {
+      "address": "0xf1b53d35c8516151f4c1f6a99e35e45b9c759983"
+    },
+    "base-sepolia": {
+      "address": "0xADb9D61D8DC3Bc932b3D31053FB268204A7dFF8c"
+    },
+    "optimism": {
+      "address": "0x2b8095aB01B001a56F9433f9c17A8A8C873C106b"
+    },
+    "optimism-sepolia": {
+      "address": "0x2f30Bb20b2A47a52d5C17bB831fc89651B4Fa0c6"
+    }
+  }
+}
