@@ -1,0 +1,14 @@
+{
+  "name": "AliensAreHere",
+  "symbol": "AAH",
+  "decimals": 18,
+  "description": "Aliens Are Here is a UFO and UAP disclosure platform on Base, publishing news, podcasts and community discussion to grow the disclosure community and raise public awareness. AAH is its ERC-20 token, intended as payment for platform services and as community rewards. 100,000 minted at launch against a 5,000,000 hard cap, with team allocations time-locked in a public vesting contract.",
+  "website": "https://aliensarehere.com",
+  "twitter": "@_aliensarehere_",
+  "tokens": {
+    "base": {
+      "address": "0x1E3a76e1C2768395Ed9C0d81f7Eb4b89dfE70B31"
+    }
+  },
+  "nobridge": true
+}
