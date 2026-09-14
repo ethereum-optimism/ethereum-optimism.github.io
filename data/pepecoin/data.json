@@ -1,0 +1,16 @@
+{
+  "name": "pepeCoin",
+  "symbol": "pepecoin",
+  "decimals": 18,
+  "description": "pepeCoin is the original Pepe the Frog cryptocurrency. It launched in March 2016 as its own proof-of-work blockchain and migrated to Ethereum in April 2023. pepeCoin powers the ecosystem's apps, including Kekspace (kek.space), a free web-based social MMO, and Pepe Paint, a pixel-art and NFT tool.",
+  "website": "https://www.pepecoin.io",
+  "twitter": "@pepecoins",
+  "tokens": {
+    "ethereum": {
+      "address": "0xA9E8aCf069C58aEc8825542845Fd754e41a9489A"
+    },
+    "ink": {
+      "address": "0xcA7f8A00C17A4234B2a61f58Af246f4b104B6FC3"
+    }
+  }
+}
