@@ -1,0 +1,16 @@
+{
+  "name": "Auditchain",
+  "symbol": "AUDT",
+  "decimals": 18,
+  "description": "Agentic regulatory disclosure automation infrastructure",
+  "website": "https://auditchain.com",
+  "twitter": "@auditchain",
+  "tokens": {
+    "ethereum": {
+      "address": "0xB90cb79B72EB10c39CbDF86e50B1C89F6a235f2e"
+    },
+    "base": {
+      "address": "0xc23B529dD8B8d0B2dd993f0a74a0cC708B63770d"
+    }
+  }
+}
