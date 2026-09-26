@@ -1,0 +1,14 @@
+{
+  "name": "Staked Kerne Synthetic Dollar",
+  "symbol": "skUSD",
+  "decimals": 24,
+  "description": "skUSD is the staked form of kUSD, a standard ERC-4626 vault on Base. Depositors stake kUSD to receive skUSD, whose share price accrues protocol yield over time. The underlying asset is kUSD, a synthetic dollar minted 1:1 from USDC. Proof of reserves and a free on-chain verification tool are at kerne.fi/verify-anything.",
+  "website": "https://kerne.fi",
+  "twitter": "@KerneProtocol",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x96F5102C15b839757f811A98CEc3725Ac21DfA14"
+    }
+  }
+}
