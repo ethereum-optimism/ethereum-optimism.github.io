@@ -1,0 +1,12 @@
+{
+  "name": "Outflow Token",
+  "symbol": "OUTFLOW",
+  "decimals": 18,
+  "description": "An Outflow token represents 1 megawatt-hour of historical solar electricity generation. Each token is a permanent, on-chain record of American energy history — minted on a real date, from a real solar energy system.",
+  "website": "https://outflowchain.com",
+  "tokens": {
+    "base": {
+      "address": "0x6932ED896A0B7029F7B129E41437E3C977cE1D56"
+    }
+  }
+}
