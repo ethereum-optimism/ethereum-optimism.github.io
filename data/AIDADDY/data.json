@@ -1,0 +1,13 @@
+{
+  "name": "AI.DADDY",
+  "symbol": "AIDADDY",
+  "decimals": 18,
+  "description": "Building the Future of AI Infrastructure on Base",
+  "website": "https://aidaddy.space",
+  "twitter": "https://twitter.com/ai_daddyai",
+  "tokens": {
+    "base": {
+      "address": "0xAa5Ee7396Af0bE330CbAb477A108d23Ba62512F5"
+    }
+  }
+}
