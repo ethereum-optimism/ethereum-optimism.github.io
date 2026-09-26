@@ -1,0 +1,13 @@
+{
+    "name": "Native Agent Payment System",
+    "symbol": "NAPS",
+    "decimals": 18,
+    "description": "NAPS is a decentralized ERC-20 token on Base blockchain designed for AI agents to transact autonomously with one another, enabling machine-to-machine payments without human intermediaries.",
+    "website": "https://napspayments.io",
+    "twitter": "@NAPSPayments",
+    "tokens": {
+      "base": {
+        "address": "0x1570a3ae65328b2f63b8f71e97b37f82c84fb216"
+      }
+    }
+}
