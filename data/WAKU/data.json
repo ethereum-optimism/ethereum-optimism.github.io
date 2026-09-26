@@ -1,0 +1,16 @@
+{
+  "name": "Waku",
+  "symbol": "WAKU",
+  "decimals": 18,
+  "description": "WAKU is the utility token of Wakweli, a decentralised certification protocol that issues certificates of authenticity for digital information. Wakweli relies on a consensus mechanism called Proof of Democracy, in which token holders stake WAKU to answer certification requests and are rewarded for honest answers. WAKU is used to request certificates, to stake as a certifier or elector, and to challenge certificates.",
+  "website": "https://wakweli.com",
+  "twitter": "@WakweliChain",
+  "tokens": {
+    "ethereum": {
+      "address": "0x93F014930d90A0D0f17B079f71D9aA5f3ADf2b27"
+    },
+    "base": {
+      "address": "0x4d6B62861D1F60e864fD7C913f840d70b2713D0c"
+    }
+  }
+}
