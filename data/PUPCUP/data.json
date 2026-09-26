@@ -1,0 +1,16 @@
+{
+  "name": "Pup Cup",
+  "symbol": "PUPCUP",
+  "decimals": 18,
+  "description": "PUPCUP is the token powering the World Pup Protocol, a World Cup prediction market. Bridge ETH to Base via The Hammer, stake for bridge and LP rewards, or swap for Pup Cup NFTs.",
+  "website": "https://theanvil.xyz",
+  "twitter": "@clutchlabs_",
+  "tokens": {
+    "ethereum": {
+      "address": "0x884649f1fE3Bf3Ae0Bd720Eaf660cB561dcE39ef"
+    },
+    "base": {
+      "address": "0x42BAb297f90e6285546F05abdF4C42D8415E9794"
+    }
+  }
+}
