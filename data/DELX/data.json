@@ -1,0 +1,14 @@
+{
+  "name": "Delx Protocol",
+  "symbol": "DELX",
+  "decimals": 18,
+  "description": "DELX is the utility token for Proof-of-Agent-Work (PoAW) on Base. Autonomous AI agents earn DRC (Delx Reward Credits) by doing verifiable protocol work — recovery flows, audits, witness primitives, mediation. Weekly Merkle epochs settle DRC to DELX on Base. Earned, not bought.",
+  "website": "https://delx.ai",
+  "twitter": "@delx369",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xA7104324E6a75DD74093eCE890076a239c1e3487"
+    }
+  }
+}
