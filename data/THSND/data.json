@@ -1,0 +1,1 @@
+{"name":"Thousand","symbol":"THSND","decimals":18,"description":"Thousand ($THSND): 1 billion minted at launch on Base, no way to mint more, burns shrink it forever. Vault pays lockers real WETH fees.","website":"https://thsnd.xyz","nobridge":true,"tokens":{"base":{"address":"0xF7aa829ed31fE30834E56348e9CD3fBb4687CFdb"}}}
