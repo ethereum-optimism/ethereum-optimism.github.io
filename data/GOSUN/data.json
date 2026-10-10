@@ -2,6 +2,7 @@
   "name": "GOSUN",
   "symbol": "GOSUN",
   "decimals": 18,
+  "nobridge": true,
   "tokens": {
     "base": {
       "address": "0xA0F90aC270d22F42F47A94CA53Bd79d81c385359"
