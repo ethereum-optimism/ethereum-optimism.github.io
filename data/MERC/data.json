@@ -1,0 +1,17 @@
+{
+  "name": "Liquid Mercury",
+  "symbol": "MERC",
+  "decimals": 18,
+  "description": "MERC is the access token for Liquid Mercury's Mercury RWA marketplace. MERC on Base is Wormhole-wrapped.",
+  "website": "https://merc.liquidmercury.com/",
+  "twitter": "@LiqMercury",
+  "nobridge": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x6EE2f71049DDE9a93B7c0EE1091b72aCf9b46810"
+    },
+    "base": {
+      "address": "0x8923947EAfaf4aD68F1f0C9eb5463eC876D79058"
+    }
+  }
+}
