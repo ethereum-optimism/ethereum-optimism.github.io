@@ -1,0 +1,14 @@
+{
+  "name": "boar",
+  "symbol": "boar",
+  "decimals": 18,
+  "description": "BOAR is a free, offline AI research app for Android. $boar is its community token on Base.",
+  "website": "https://boarapp.com",
+  "twitter": "@boar_app",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07"
+    }
+  }
+}
