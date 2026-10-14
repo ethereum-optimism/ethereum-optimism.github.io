@@ -1,0 +1,14 @@
+{
+  "name": "NattData Token",
+  "symbol": "NDAT",
+  "decimals": 18,
+  "description": "NattData Token (NDAT) is the utility token for the HYPERNATT ecosystem — a Neural Agentic Trading Technology platform powered by AI.",
+  "website": "https://hypernatt.com",
+  "twitter": "@hypernatt",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x7601550ce343b8ec89ecc973987d68b938bd77dd"
+    }
+  }
+}
