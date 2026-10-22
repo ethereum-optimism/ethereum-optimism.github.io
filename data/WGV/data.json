@@ -8,9 +8,6 @@
   "tokens": {
     "base": {
       "address": "0x31c5027D2D5803993cf1A78Ba7f088Cf21A78a23"
-    },
-    "base-sepolia": {
-      "address": "0x31c5027D2D5803993cf1A78Ba7f088Cf21A78a23"
     }
   }
 }
