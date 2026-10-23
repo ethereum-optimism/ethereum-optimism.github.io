@@ -1,0 +1,14 @@
+{
+  "name": "KRW1",
+  "symbol": "KRW1",
+  "decimals": 18,
+  "description": "KRW1 is a Korean won-pegged stablecoin issued by BDACS, a regulated Korean digital asset custodian. Fully reserve-backed and independently attested, KRW1 brings the Korean won on-chain for settlement, payments, and trading.",
+  "website": "https://www.krw1.kr",
+  "twitter": "@BDACSKorea",
+  "nobridge": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0xb83FC84DF7028251066c25f5D61d12fD9d9C8be4"
+    }
+  }
+}
