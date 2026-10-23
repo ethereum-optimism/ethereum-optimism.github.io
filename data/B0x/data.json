@@ -1,0 +1,16 @@
+{
+  "name": "B Zero X",
+  "symbol": "B0x",
+  "decimals": 18,
+  "description": "A Version 2 of the 0xBitcoin ERC20 token.  Allows all 0xBitcoin tokens to be upgraded to B Zero X 1:1.  B Zero X or B0x is a Ethereum token whos supply is bridged to Base blockchain to enable proof of work mining and staking on Base Layer 2",
+  "website": "https://bzerox.com",
+  "twitter": "@B0x_Token",
+  "tokens": {
+    "ethereum": {
+      "address": "0x1F8f212540B31b37f40D8C57b5c7d8b55bf25919"
+    },
+    "base": {
+      "address": "0x6B19E31C1813cD00b0d47d798601414b79A3e8AD"
+    }
+  }
+}
