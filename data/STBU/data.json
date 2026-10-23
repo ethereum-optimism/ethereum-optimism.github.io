@@ -1,0 +1,14 @@
+{
+  "name": "Stobox Token",
+  "symbol": "STBU",
+  "decimals": 18,
+  "description": "STBU is the utility token of Stobox, a tokenization and real-world asset intelligence company founded in 2018, issued by Stobox Innovations Ltd., a British Virgin Islands business company. STBU pays for services of the Stobox group at a discount on the list price, for each service whose published terms allow payment in STBU. It carries no yield, no dividend, no staking, no governance vote and no buy-back. On 15 September 2026 the legacy STBU on Ethereum, BNB Chain, Polygon and Arbitrum was discontinued and migrated one for one to this contract on Base. The contract has a hard cap of 250,000,000 STBU and its source is verified on BaseScan and in Sourcify.",
+  "website": "https://www.stobox.io",
+  "twitter": "@StoboxCompany",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xe0c0F44A84CC4a60206360006ebA237a5e8fC2dd"
+    }
+  }
+}
