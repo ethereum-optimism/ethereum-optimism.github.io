@@ -1,0 +1,19 @@
+{
+  "name": "K9 Finance DAO",
+  "symbol": "KNINE",
+  "decimals": 18,
+  "description": "K9 Finance DAO is the former liquid staking protocol for Shibarium, relaunched on Base chain after the Shibarium Bridge hack of 2025 as a community token. KNINE remains the governance token for the K9 Finance DAO. The token holds the same address on Ethereum and Base.",
+  "website": "https://www.k9finance.com",
+  "twitter": "@K9finance",
+  "tokens": {
+    "ethereum": {
+      "address": "0x91fbB2503AC69702061f1AC6885759Fc853e6EaE"
+    },
+    "base": {
+      "address": "0x91fbB2503AC69702061f1AC6885759Fc853e6EaE",
+      "overrides": {
+        "bridge": "0x4200000000000000000000000000000000000010"
+      }
+    }
+  }
+}
