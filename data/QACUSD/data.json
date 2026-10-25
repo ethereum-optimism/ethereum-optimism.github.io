@@ -1,0 +1,13 @@
+{
+  "name": "QACUSD",
+  "symbol": "QACUSD",
+  "decimals": 8,
+  "description": "QACUSD is the on-chain mirror of client balances held on the Quantum Algorithmic Capital ledger. Every token on Base equals one unit a verified client moved out of the platform; tokens sent back to the bridge address are credited again. Minting is capped at 100,000,000 and limited per UTC day; all contract roles sit on a 2-of-3 hardware-wallet Safe. Not a stablecoin: the price is set only by the platform's own market.",
+  "website": "https://quantumalgorithmiccapital.com",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x6eC22DacDdcc202e2B41fC204795B4da72d6bf30"
+    }
+  }
+}
