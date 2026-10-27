@@ -1,0 +1,14 @@
+{
+  "name": "Wrapped Ratatoskr",
+  "symbol": "wRATR",
+  "decimals": 8,
+  "description": "Wrapped Ratatoskr (wRATR) is the Base representation of RATR, the native coin of the Ratatoskr chain — a yespower CPU-mined, masternode-secured network. Minted 1:1 against native RATR held in a public reserve via the Ratatoskr↔Base bridge. Part of the Enchanted Forest DeFi ecosystem.",
+  "website": "https://ratatoskr.enchantedforestdefi.com",
+  "twitter": "@HeimdallRATR",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xDeb6265cEE49CC277A938452DEDAb2B8774210d1"
+    }
+  }
+}
