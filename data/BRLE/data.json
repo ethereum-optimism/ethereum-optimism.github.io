@@ -1,0 +1,14 @@
+{
+  "name": "BRLE",
+  "symbol": "BRLE",
+  "decimals": 18,
+  "description": "BRLE is a Brazilian Real (BRL) pegged stablecoin issued by EFIX, a CVM-licensed (Resolution 88/2022) Brazilian protocol. Backed 1:1 by Brazilian Reais held in segregated custody at regulated institutions, with monthly attestation by Harris & Trotter. Redeemable on-chain via the EFIX Peg Stability Module.",
+  "website": "https://efix.finance",
+  "twitter": "@efix_finance",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x7D12a82E335EB2Be0789A33CE2EBF7Eb2bA782F6"
+    }
+  }
+}
