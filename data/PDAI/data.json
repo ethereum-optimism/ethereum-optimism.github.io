@@ -1,0 +1,12 @@
+{
+  "name": "DAI Stablecoin From Pulsechain",
+  "symbol": "PDAI",
+  "decimals": 18,
+  "description": "DAI on PulseChain is the copied version of DAI on Ethereum and was part of the world's largest free airdrop at PulseChain's inception.",
+  "website": "https://pulsechaindai.com",
+  "tokens": {
+    "ethereum": {
+      "address": "0x12d9fe4c9494dc363c6290bfdbb2bd9ed6358c13"
+    }
+  }
+}
