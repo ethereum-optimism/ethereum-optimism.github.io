@@ -1,0 +1,14 @@
+{
+  "name": "GOSUN",
+  "symbol": "GOSUN",
+  "decimals": 18,
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xA0F90aC270d22F42F47A94CA53Bd79d81c385359"
+    }
+  },
+  "website": "https://gosun.bond",
+  "twitter": "https://x.com/Gosun_Capital",
+  "description": "GOSUN is the sovereign utility & governance token powering the Promethean Mandate, AI Media Empire, and Base ve(3,3) liquidity ecosystem."
+}
