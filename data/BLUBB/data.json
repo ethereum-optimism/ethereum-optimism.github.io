@@ -1,0 +1,13 @@
+{
+  "name": "Blubbery",
+  "symbol": "BLUBB",
+  "decimals": 18,
+  "description": "Too big to fail, too cute to ignore. $BLUBB is here to swallow the dips and ride the massive green waves to the moon!",
+  "website": "https://github.com/RohmanNext/blubbery-assets",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x1e8bed0DDA548Ebc454f1F08BF50CE55A768a2b2"
+    }
+  }
+}
