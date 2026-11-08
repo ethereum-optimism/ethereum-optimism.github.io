@@ -1,0 +1,14 @@
+{
+  "name": "NX0",
+  "symbol": "NX0",
+  "decimals": 18,
+  "description": "Utility token for the NX0 rewards and local-commerce platform on Base.",
+  "website": "https://nx0.ai",
+  "twitter": "@NX0AI",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x0b68074436AC14Df10014AA4e90732fba51ec57A"
+    }
+  }
+}
