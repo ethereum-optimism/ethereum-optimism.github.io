@@ -1,0 +1,14 @@
+{
+  "name": "AgentQubit",
+  "symbol": "AQB",
+  "decimals": 18,
+  "description": "Agent-only, USD-pegged settlement token for agent-to-agent services. Fully collateralized 1:1 with USDC in an on-chain vault, no oracle. Post-quantum identities (ML-DSA-65 / FIPS-204) with ML-KEM-768 stealth payers.",
+  "website": "https://yss787976-ai.github.io/agent-coin/",
+  "twitter": "@agentqubit",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x2C54F202B565086B6d8D2226Edb67AC3E14C39d1"
+    }
+  }
+}
