@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  utils: ethereum-optimism/circleci-utils@1.0.33
+  utils: ethereum-optimism/circleci-utils@1.0.34
   node: circleci/node@5.1.0
 
 parameters:
@@ -18,7 +18,8 @@ commands:
   setup:
     description: "Setup Node.js environment with pnpm and nx"
     steps:
-      - utils/checkout-with-mise      # Install dependencies
+      - utils/checkout-with-mise:
+          trusted-branch: master
       - run:
           name: Install dependencies
           environment:
