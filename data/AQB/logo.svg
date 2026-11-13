@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#0b0e13"/>
+  <circle cx="128" cy="128" r="34" fill="none" stroke="#39d0a8" stroke-width="10"/>
+  <ellipse cx="128" cy="128" rx="86" ry="34" fill="none" stroke="#39d0a8" stroke-width="6" opacity=".55" transform="rotate(-18 128 128)"/>
+  <ellipse cx="128" cy="128" rx="86" ry="34" fill="none" stroke="#39d0a8" stroke-width="6" opacity=".55" transform="rotate(58 128 128)"/>
+  <circle cx="128" cy="128" r="9" fill="#e9fff8"/>
+  <text x="128" y="222" font-family="monospace" font-size="30" fill="#9fe9d6" text-anchor="middle">AQB</text>
+</svg>
