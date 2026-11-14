@@ -1,0 +1,14 @@
+{
+  "name": "Anansi",
+  "symbol": "ANANSI",
+  "decimals": 18,
+  "description": "ANANSI is the token of Anansi Data, a pay-per-call data API on Base that sells machine-readable datasets to AI agents over the x402 protocol. Revenue from data sales is routed on-chain to automatic buybacks and burns. Supply is burn-only: the contract has no mint function, so total supply can only fall, down to a hard floor of 21,000,000. Liquidity is held in a non-withdrawable escrow, and every contract is source-verified on BaseScan with no owner and no privileged role.",
+  "website": "https://anansidata.xyz",
+  "twitter": "@AnansiData",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x4e50a097b37Fb3949733Ce9f7356500b9cc9A702"
+    }
+  }
+}
