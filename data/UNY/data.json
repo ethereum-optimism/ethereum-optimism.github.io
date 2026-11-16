@@ -1,0 +1,13 @@
+{
+  "name": "UnyKorn",
+  "symbol": "UNY",
+  "decimals": 18,
+  "description": "UNY is the fixed-supply token of UnyKorn LLC (Wyoming). 1,000,000,000 minted once; no owner, no mint, no pause, no fees.",
+  "website": "https://chain.unykorn.ai",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xC070492f455f404b404D6c2197665DDA75F5659c"
+    }
+  }
+}
