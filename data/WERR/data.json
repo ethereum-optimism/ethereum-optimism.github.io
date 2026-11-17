@@ -1,0 +1,14 @@
+{
+  "name": "Werrium",
+  "symbol": "WERR",
+  "decimals": 18,
+  "description": "Werrium ($WERR) is the sovereign utility token of the Werrealm ecosystem, powering AI oracle inference, computational staking, and autonomic reflex burning on Base.",
+  "website": "https://werrealm.network",
+  "twitter": "@pcw0rm",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xFfa2c95b68B76af00FBD84295cBA5e5268a996d2"
+    }
+  }
+}
