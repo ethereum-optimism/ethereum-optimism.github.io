@@ -1,0 +1,13 @@
+{
+  "name": "IECoin",
+  "symbol": "IEC",
+  "decimals": 18,
+  "description": "IE Coin is the CyPhy Life lab's test token at IE University: robots, services and AI agents earn and spend it for verified tasks. Testnet only, no monetary value.",
+  "website": "https://cyphy.life",
+  "nobridge": true,
+  "tokens": {
+    "optimism-sepolia": {
+      "address": "0x0235a0145303B013561FD1E9658F8eD8BA5629Bd"
+    }
+  }
+}
