@@ -1,0 +1,13 @@
+{
+  "name": "Almond",
+  "symbol": "AMOND",
+  "decimals": 18,
+  "description": "Premium California Almonds token",
+  "website": "https://www.sugone.com",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xf9C2a68CBA2666F08C252E06dBA81e30BA5e89B2"
+    }
+  }
+}
