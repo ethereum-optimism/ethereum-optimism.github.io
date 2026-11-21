@@ -1,0 +1,17 @@
+{
+  "name": "XMAQUINA",
+  "symbol": "DEUS",
+  "decimals": 18,
+  "description": "XMAQUINA is a decentralized ecosystem dedicated to humanoid robotics. Through the DEUS token, it coordinates treasury deployment, protocol development, and onchain infrastructure, providing structured access to the robotics capital markets.",
+  "website": "https://www.xmaquina.io/",
+  "twitter": "@xmaquina",
+  "nobridge": true,
+  "tokens": {
+    "ethereum": {
+      "address": "0x2D3A1adC8C81d79251876ed686C996554Fb31C1F"
+    },
+    "base": {
+      "address": "0x940A319B75861014A220D9c6c144d108552B089B"
+    }
+  }
+}
