@@ -1,0 +1,12 @@
+{
+  "name": "Hydra Token",
+  "symbol": "HYDRA",
+  "decimals": 18,
+  "tokens": {
+    "base": {
+      "address": "0x287092EB206cC3bFee7af1a184cf3619AF0E871f"
+    }
+  },
+  "website": "https://hydra-bot-one.vercel.app",
+  "description": "Hydra Protocol v7.0: Autonomous Linear Bonding Curve with 100 ETH Uniswap v4 Graduation and wstETH Yield Vault."
+}
