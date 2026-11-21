@@ -1,0 +1,14 @@
+{
+  "name": "Umia",
+  "symbol": "UMIA",
+  "decimals": 18,
+  "description": "Umia is the onchain venture protocol. Founders apply to launch their token through Umia, raise funds in an open auction, and keep building while their tokenholders govern the project's treasury through decision markets. Every project gets its own legal entity, holding its intellectual property, its team and its treasury, and the funds it raises sit in an onchain treasury contract the founding team cannot spend on its own. Fundraising runs through a Tailored Auction, Umia's configuration of Uniswap's Continuous Clearing Auction, and part of the proceeds seeds a Uniswap v4 pool owned by the project's treasury. UMIA is the token of the Umia protocol, an ERC-20 on Base with a maximum supply of 50,000,000. Holders direct its noncustodial treasury and its strategic direction through decision markets.",
+  "website": "https://www.umia.finance",
+  "twitter": "@umia_finance",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x56ab53b77F07DA3af732150E8aeC4783eB5BbA7D"
+    }
+  }
+}
