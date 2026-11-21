@@ -1,0 +1,14 @@
+{
+  "name": "AFUK",
+  "symbol": "AFUK",
+  "decimals": 18,
+  "description": "AFUK is a decentralized ecosystem built on Base.",
+  "website": "https://afuk.eth.limo",
+  "twitter": "@Afuktoken",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x2d0A4446f11Ff1554F4E387DA2162d8276daDE5d"
+    }
+  }
+}
