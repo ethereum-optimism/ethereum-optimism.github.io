@@ -1,0 +1,18 @@
+{
+  "name": "MyAi",
+  "symbol": "MYAI",
+  "decimals": 18,
+  "description": "MyAI is the decentralized GPU compute marketplace on Base. Contribute idle compute, earn MYAI tokens. OpenAI-compatible API — power AI agents at 1/10th the cost.",
+  "website": "https://myaitoken.io",
+  "twitter": "https://x.com/MyAIToken_io",
+  "tokens": [
+    {
+      "chainId": 8453,
+      "address": "0xAfF22cC20434cE43B3ea10Efe10E9360390d327c",
+      "name": "MyAi",
+      "symbol": "MYAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/ethereum-optimism/ethereum-optimism.github.io/master/data/MYAI/logo.png"
+    }
+  ]
+}
