@@ -1,0 +1,12 @@
+{
+  "name": "Aionico",
+  "symbol": "AIONICO",
+  "decimals": 18,
+  "description": "Token nativo del protocolo Trust Circle en World Chain",
+  "website": "https://trust-circle-five.vercel.app",
+  "tokens": {
+    "worldchain": {
+      "address": "0x89C2A3fC33bc7cc1140e6408e050De230D5cC0Dc"
+    }
+  }
+}
