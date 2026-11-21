@@ -1,0 +1,16 @@
+{
+  "name": "NuNet Utility Token",
+  "symbol": "NTX",
+  "decimals": 6,
+  "description": "NTX is the utility token of NuNet, a decentralized computing platform.",
+  "website": "https://www.nunet.io",
+  "twitter": "@nunet_global",
+  "tokens": {
+    "ethereum": {
+      "address": "0xF0d33BeDa4d734C72684b5f9abBEbf715D0a7935"
+    },
+    "base": {
+      "address": "0x6d062d0610fCf115e51345C1Aa141dD6F7fd5CFB"
+    }
+  }
+}
