@@ -1,0 +1,14 @@
+{
+  "name": "Staked BRLE",
+  "symbol": "sBRLE",
+  "decimals": 18,
+  "description": "sBRLE is the ERC-4626 yield vault for BRLE, the EFIX Brazilian Real stablecoin. Depositors receive sBRLE shares that accrue yield from underlying BRL-denominated investments held in regulated custody. Issued by EFIX, a CVM-licensed Brazilian protocol.",
+  "website": "https://efix.finance",
+  "twitter": "@efix_finance",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xC65069694e32ef72CD94649BC5174DF9D18475D0"
+    }
+  }
+}
