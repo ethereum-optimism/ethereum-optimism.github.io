@@ -1,0 +1,16 @@
+{
+  "name": "Dogelon Mars",
+  "symbol": "ELON",
+  "decimals": 18,
+  "description": "Dogelon Mars is based on the story of an illustrated comic series where an intergalactic time-traveling dog needs to bring Earthlings back to his home on Mars. With a diverse community of over 500,000 people around the world, and a 3D metaverse on its own Arbitrum L2, Dogelon Mars is joined by many followers who will reach the stars.",
+  "website": "https://dogelonmars.com",
+  "twitter": "@DogelonMars",
+  "tokens": {
+    "ethereum": {
+      "address": "0x761D38e5ddf6ccf6Cf7c55759d5210750B5D60F3"
+    },
+    "base": {
+      "address": "0x4a9f3ed92892c0168DC194eC3867f8316288B32a"
+    }
+  }
+}
