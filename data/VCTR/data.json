@@ -1,0 +1,14 @@
+{
+  "name": "VECTOR Token",
+  "symbol": "VCTR",
+  "decimals": 18,
+  "description": "VECTOR Token powers the VECTOR gaming platform, enabling blockchain-backed ownership and utility across the VECTOR ecosystem.",
+  "website": "https://playonvector.com",
+  "twitter": "@playonvector",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0x901c9471fbb74c0f749ebdb59506efaaad548576"
+    }
+  }
+}
