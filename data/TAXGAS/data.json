@@ -1,0 +1,14 @@
+{
+  "name": "TAXGAS",
+  "symbol": "TAXGAS",
+  "decimals": 18,
+  "description": "TAXGAS is a fixed-supply, deflationary ERC-20 utility token for a decentralized crypto tax reporting service. Every subscription burns tokens via the SlowBurn Incinerator over 365 days, creating sustained deflationary pressure. Built on Base with EIP-2612 Permit for gasless approvals.",
+  "website": "https://taxgas.trade",
+  "twitter": "@tfgemsnft",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xAE153c5b73456Bc7b3cA2c2C09A3e77bdB5B515f"
+    }
+  }
+}
