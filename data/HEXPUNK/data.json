@@ -1,0 +1,14 @@
+{
+  "name": "HEXPUNK",
+  "symbol": "HEXPUNK",
+  "decimals": 18,
+  "description": "HEXPUNK is an on-chain cultural experiment on Base documenting the inevitable degradation of digital memory (Bit Rot). Deployed as a native Base B20 asset with a strictly capped, immutable supply of 3,000,000 tokens.",
+  "website": "https://www.hexpunk.xyz",
+  "nonstandard": true,
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xb20000000000000000000024A9Cd928Ff6277db8"
+    }
+  }
+}
