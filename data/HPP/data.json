@@ -1,0 +1,22 @@
+{
+  "name": "HousePartyProtocol",
+  "symbol": "HPP",
+  "decimals": 18,
+  "description": "House Party Protocol (HPP) is a cost-efficient, scalable, and developer-friendly Layer 2 network built on Arbitrum Orbit and secured by Ethereum. HPP is the network token, issued on Ethereum.",
+  "website": "https://www.hpp.io",
+  "twitter": "@aergo_io",
+  "tokens": {
+    "ethereum": {
+      "address": "0xe33fbE7584EB79e2673abe576B7AC8C0De62565c"
+    },
+    "base": {
+      "address": "0xE9BB73eD2EC7B9F0BE463ce8aF24f2cF0ae7CCE6"
+    },
+    "sepolia": {
+      "address": "0xB34e0d1fee60e078D611D4218AFB004b639C7b76"
+    },
+    "base-sepolia": {
+      "address": "0x6562A6ea4F5B1e4293eD0E6146f6Def41f963305"
+    }
+  }
+}
