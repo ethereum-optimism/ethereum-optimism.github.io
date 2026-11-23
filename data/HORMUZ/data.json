@@ -1,0 +1,14 @@
+{
+  "name": "HORMUZ",
+  "symbol": "HORMUZ",
+  "decimals": 18,
+  "description": "HORMUZ is an ERC-20 culture token on Base for internet-native satire and commentary. One billion tokens were minted at deployment, with no further minting. Its website publishes the contract, treasury, supply methodology and Uniswap pool. Liquidity is thin and loss is possible.",
+  "website": "https://hormuz.meme/",
+  "twitter": "@hormuzians",
+  "nobridge": true,
+  "tokens": {
+    "base": {
+      "address": "0xf912a4A0c374a33f192d0657719cE107194573F1"
+    }
+  }
+}
