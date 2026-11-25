@@ -2,7 +2,7 @@
 <rect width="512" height="512" rx="54" fill="#efb2c6"/>
 <circle cx="256" cy="124" r="51" fill="#ff5a1f"/>
 <path d="M137 393V257a119 107 0 0 1 238 0v136h43v46H94v-46z" fill="#0b0b10"/>
-<rect x="160" y="180" width="190" height="18" rx="9.0" fill="#efb2c6"/>
+<rect x="197" y="180" width="118" height="18" rx="9.0" fill="#efb2c6"/>
 <rect x="192" y="299" width="21" height="94" fill="#efb2c6"/>
 <rect x="245.5" y="299" width="21" height="94" fill="#efb2c6"/>
 <rect x="299" y="299" width="21" height="94" fill="#efb2c6"/>
