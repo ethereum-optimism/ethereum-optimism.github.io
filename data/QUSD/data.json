@@ -5,6 +5,7 @@
   "description": "QUSD is a fiat-backed USD stablecoin issued by QVTX (Quantvestrix Inc.), backed by sovereign and institutional reserves, deployed on Base and bridged to other EVM chains.",
   "website": "https://qvtx.net",
   "twitter": "@qvtxnet",
+  "nobridge": true,
   "tokens": {
     "base": {
       "address": "0x02DAE538b3Cf726c04990520454Dd7AD42550b3F",
