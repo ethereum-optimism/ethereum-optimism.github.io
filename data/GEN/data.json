@@ -1,0 +1,16 @@
+{
+  "name": "GenLayer",
+  "symbol": "GEN",
+  "decimals": 18,
+  "description": "GenLayer is the adjudication layer for the agentic economy. It is a decentralized AI consensus protocol where validators powered by diverse models resolve contracts, disputes and real-world questions at machine speed.",
+  "website": "https://www.genlayer.com",
+  "twitter": "@GenLayer",
+  "tokens": {
+    "ethereum": {
+      "address": "0x4242424228C275C5b44E24C53f081E9246025a2f"
+    },
+    "base": {
+      "address": "0xDcDd3A0425770Fea7f4D90FD8810e08FDe6b2CA9"
+    }
+  }
+}
